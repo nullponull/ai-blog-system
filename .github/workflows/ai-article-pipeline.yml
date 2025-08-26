@@ -103,6 +103,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 60000  # 1 minute timeout
 
       - name: Commit and push changes
         run: |
