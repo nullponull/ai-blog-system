@@ -101,6 +101,18 @@ jobs:
           # Gemfileが既に存在するので、bundlerで依存関係をインストール
           bundle install
 
+      - name: Commit and push new article first
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _posts/*
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: Add new AI article - $(date +%Y-%m-%d)"
+            git push
+          fi
+
       - name: Build with Jekyll
         run: bundle exec jekyll build
 
@@ -109,7 +121,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Delete remote gh-pages branch if it exists
+          # Delete remote gh-pages branch completely
           git push origin --delete gh-pages || echo "gh-pages branch doesn't exist or already deleted"
           
       - name: Deploy to GitHub Pages
@@ -121,15 +133,3 @@ jobs:
           force_orphan: true
           enable_jekyll: false
           disable_nojekyll: false
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add _posts/*
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "feat: Add new AI article - $(date +%Y-%m-%d)"
-            git push
-          fi
