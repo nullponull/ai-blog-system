@@ -127,6 +127,16 @@ body {
   transform: translateY(-1px);
 }
 
+.corporate-link {
+  background: var(--accent-color) !important;
+  font-weight: 600 !important;
+}
+
+.corporate-link:hover {
+  background: #f59e0b !important;
+  transform: translateY(-1px) !important;
+}
+
 /* ===== メインコンテンツ ===== */
 .main-container {
   max-width: var(--max-width);
