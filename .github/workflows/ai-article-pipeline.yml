@@ -104,6 +104,14 @@ jobs:
       - name: Build with Jekyll
         run: bundle exec jekyll build
 
+      - name: Clean up gh-pages branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Delete remote gh-pages branch if it exists
+          git push origin --delete gh-pages || echo "gh-pages branch doesn't exist or already deleted"
+          
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
@@ -111,6 +119,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           force_orphan: true
+          enable_jekyll: false
+          disable_nojekyll: false
 
       - name: Commit and push changes
         run: |
