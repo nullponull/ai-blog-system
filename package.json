@@ -20,7 +20,7 @@
   "author": "ALLFORCES",
   "license": "MIT",
   "devDependencies": {
-    "textlint": "^13.4.2",
+    "textlint": "^14.2.0",
     "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.1"
   }
 }

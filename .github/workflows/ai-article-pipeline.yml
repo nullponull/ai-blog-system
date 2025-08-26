@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --save-dev textlint @textlint-ja/textlint-rule-preset-ai-writing
+          npm install
           mkdir -p _temp
 
       - name: Install Python and dependencies
@@ -110,8 +110,12 @@ jobs:
 
       - name: Lint and Fix Generated Article
         run: |
-          # textlintで記事を校正
-          npx textlint _temp/new-article.md --fix || echo "Textlint completed with warnings"
+          # textlintで記事を校正（エラーがあっても継続）
+          if [ -f "_temp/new-article.md" ]; then
+            npx textlint _temp/new-article.md --fix || echo "Textlint completed with warnings"
+          else
+            echo "Article file not found, skipping textlint"
+          fi
 
       - name: Create final article file
         run: |
