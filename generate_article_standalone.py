@@ -2,6 +2,9 @@ import requests
 import json
 import os
 from datetime import datetime
+from bs4 import BeautifulSoup
+import urllib.parse
+import time
 
 def generate_ai_news():
     api_key = os.environ.get('GEMINI_API_KEY')
@@ -20,7 +23,7 @@ def generate_ai_news():
 - 企業動向、研究成果、新サービス、規制動向など多様なトピック
 - 自然な日本語表現（AI特有の機械的表現は避ける）
 - 3000-4000文字程度
-- Markdown形式で出力
+- Markdown形式で出力（ただし```markdownなどのコードブロック記号は使わない）
 
 構成例：
 # {date_str}のAI業界ニュース

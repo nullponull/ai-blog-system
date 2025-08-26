@@ -12,6 +12,7 @@ title: "AI技術ブログ - 最新動向と技術解説"
 
 <section class="featured-posts">
     <h2>最新記事</h2>
+    {% if site.posts.size > 0 %}
     <div class="posts-grid">
         {% for post in site.posts limit:6 %}
         <article class="post-card">
@@ -32,23 +33,16 @@ title: "AI技術ブログ - 最新動向と技術解説"
         </article>
         {% endfor %}
     </div>
-</section>
-
-<section class="categories-section">
-    <h2>カテゴリ別記事</h2>
-    <div class="categories-grid">
-        {% for category in site.categories %}
-        <div class="category-card">
-            <h3><a href="{{ '/categories#' | append: category[0] | relative_url }}">{{ category[0] }}</a></h3>
-            <p>{{ category[1].size }}件の記事</p>
-            <ul class="category-posts">
-                {% for post in category[1] limit:3 %}
-                <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 50 }}</a></li>
-                {% endfor %}
-            </ul>
+    {% else %}
+    <div class="no-posts-message">
+        <h3>記事は準備中です</h3>
+        <p>毎日朝9時にAI業界の最新ニュースを自動取得・生成しています。<br>
+        初回記事の生成をお待ちください。</p>
+        <div class="next-generation">
+            <strong>次回記事生成予定：</strong> {{ 'now' | date: '%Y年%m月%d日' }}（翌日）朝9時
         </div>
-        {% endfor %}
     </div>
+    {% endif %}
 </section>
 
 <style>
@@ -150,72 +144,34 @@ title: "AI技術ブログ - 最新動向と技術解説"
     padding: 0.25rem 0.5rem;
 }
 
-.categories-section {
-    margin-top: 4rem;
-}
-
-.categories-section h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--gray-900);
-    margin-bottom: 2rem;
+.no-posts-message {
     text-align: center;
-}
-
-.categories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-}
-
-.category-card {
+    padding: 4rem 2rem;
     background: var(--gray-50);
     border-radius: var(--border-radius);
-    padding: 2rem;
-    transition: all 0.2s ease;
+    border: 2px dashed var(--gray-300);
 }
 
-.category-card:hover {
-    background: var(--white);
-    box-shadow: var(--shadow-md);
-}
-
-.category-card h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.25rem;
-}
-
-.category-card h3 a {
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.category-card p {
-    color: var(--gray-500);
+.no-posts-message h3 {
+    color: var(--gray-700);
     margin-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 }
 
-.category-posts {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.category-posts li {
-    margin-bottom: 0.5rem;
-}
-
-.category-posts a {
+.no-posts-message p {
     color: var(--gray-600);
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.2s ease;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
 }
 
-.category-posts a:hover {
-    color: var(--primary-color);
+.next-generation {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
 }
+
 
 @media (max-width: 768px) {
     .hero-content h1 {
