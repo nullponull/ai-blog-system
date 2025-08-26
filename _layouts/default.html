@@ -85,10 +85,7 @@
             <nav class="site-nav">
                 <ul>
                     <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
-                    <li><a href="{{ '/about' | relative_url }}">概要</a></li>
-                    <li><a href="{{ '/categories' | relative_url }}">カテゴリ</a></li>
-                    <li><a href="{{ '/tags' | relative_url }}">タグ</a></li>
-                    <li><a href="{{ '/archive' | relative_url }}">アーカイブ</a></li>
+                    <li><a href="https://allforces.wuaze.com" target="_blank" class="corporate-link">コーポレートサイト</a></li>
                 </ul>
             </nav>
         </div>
@@ -121,9 +118,8 @@
                 <ul class="category-list">
                     {% for category in site.categories %}
                     <li>
-                        <a href="{{ '/categories#' | append: category[0] | relative_url }}">
-                            {{ category[0] }} ({{ category[1].size }})
-                        </a>
+                        <span class="category-name">{{ category[0] }}</span>
+                        <span class="category-count">({{ category[1].size }})</span>
                     </li>
                     {% endfor %}
                 </ul>
@@ -135,9 +131,7 @@
                 <div class="tag-cloud">
                     {% assign sorted_tags = site.tags | sort %}
                     {% for tag in sorted_tags limit:10 %}
-                    <a href="{{ '/tags#' | append: tag[0] | relative_url }}" class="tag">
-                        {{ tag[0] }} ({{ tag[1].size }})
-                    </a>
+                    <span class="tag">{{ tag[0] }} ({{ tag[1].size }})</span>
                     {% endfor %}
                 </div>
             </div>
@@ -163,15 +157,14 @@
                     <h3>リンク</h3>
                     <ul>
                         <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
-                        <li><a href="{{ '/about' | relative_url }}">概要</a></li>
-                        <li><a href="{{ '/archive' | relative_url }}">アーカイブ</a></li>
                         <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+                        <li><a href="https://allforces.wuaze.com" target="_blank">コーポレートサイト</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>お問い合わせ</h3>
                     <p>ご質問やご提案がございましたら、お気軽にお問い合わせください。</p>
-                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    <a href="https://allforces.wuaze.com/contact" target="_blank">お問い合わせフォーム</a>
                 </div>
             </div>
             <div class="footer-bottom">
