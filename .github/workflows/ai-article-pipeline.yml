@@ -11,6 +11,7 @@ jobs:
     permissions:
       contents: write
       pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
@@ -101,7 +102,24 @@ jobs:
           # Gemfileが既に存在するので、bundlerで依存関係をインストール
           bundle install
 
-      - name: Commit and push new article first
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './_site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 60000  # 1 minute timeout
+
+      - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -112,31 +130,3 @@ jobs:
             git commit -m "feat: Add new AI article - $(date +%Y-%m-%d)"
             git push
           fi
-
-      - name: Build with Jekyll
-        run: bundle exec jekyll build
-
-      - name: Clean up gh-pages branch aggressively  
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Complete cleanup - delete branch and wait
-          git push origin --delete gh-pages || echo "gh-pages branch doesn't exist"
-          sleep 10
-          
-          # Also clear any local references
-          git branch -D gh-pages 2>/dev/null || echo "No local gh-pages"
-          git remote prune origin
-          
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          force_orphan: true
-          enable_jekyll: false
-          disable_nojekyll: false
-          commit_message: "Deploy: ${{ github.sha }} - $(date)"
-          full_commit_message: "Complete site rebuild - $(date +%Y-%m-%d_%H-%M-%S)"
