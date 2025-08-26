@@ -116,13 +116,18 @@ jobs:
       - name: Build with Jekyll
         run: bundle exec jekyll build
 
-      - name: Clean up gh-pages branch
+      - name: Clean up gh-pages branch aggressively  
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Delete remote gh-pages branch completely
-          git push origin --delete gh-pages || echo "gh-pages branch doesn't exist or already deleted"
+          # Complete cleanup - delete branch and wait
+          git push origin --delete gh-pages || echo "gh-pages branch doesn't exist"
+          sleep 10
+          
+          # Also clear any local references
+          git branch -D gh-pages 2>/dev/null || echo "No local gh-pages"
+          git remote prune origin
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -133,3 +138,5 @@ jobs:
           force_orphan: true
           enable_jekyll: false
           disable_nojekyll: false
+          commit_message: "Deploy: ${{ github.sha }} - $(date)"
+          full_commit_message: "Complete site rebuild - $(date +%Y-%m-%d_%H-%M-%S)"
