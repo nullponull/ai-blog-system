@@ -11,7 +11,6 @@ jobs:
     permissions:
       contents: write
       pages: write
-      id-token: write
 
     steps:
       - name: Checkout repository
@@ -105,19 +104,13 @@ jobs:
       - name: Build with Jekyll
         run: bundle exec jekyll build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './_site'
-
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
         with:
-          timeout: 60000  # 1 minute timeout
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          force_orphan: true
 
       - name: Commit and push changes
         run: |
