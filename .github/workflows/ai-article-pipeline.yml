@@ -61,7 +61,7 @@ jobs:
           TITLE=$(grep -m 1 "^# " _temp/new-article.md | sed 's/^# //' | sed 's/[[:space:]]*$//')
           
           # タイトルが取得できない場合は日付ベースのタイトルを使用
-          if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ] || [[ "$TITLE" == *"```"* ]]; then
+          if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ] || [[ "$TITLE" == *'```'* ]]; then
             TITLE="${DATE_STR}のAI業界ニュース"
           fi
           
