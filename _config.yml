@@ -122,7 +122,8 @@ compress_html:
     envs: [development]
 
 # Analytics (optional)
-# google_analytics: "G-XXXXXXXXXX"
+# Google Analytics設定
+google_analytics: "G-TKR1S3YGB2"
 
 # Social links
 social:
