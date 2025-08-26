@@ -155,14 +155,7 @@ jobs:
 
       - name: Install Jekyll dependencies
         run: |
-          gem install bundler jekyll
-          bundle init
-          echo 'gem "jekyll", "~> 4.3"' >> Gemfile
-          echo 'gem "jekyll-feed"' >> Gemfile
-          echo 'gem "jekyll-sitemap"' >> Gemfile
-          echo 'gem "jekyll-seo-tag"' >> Gemfile
-          echo 'gem "jekyll-paginate"' >> Gemfile
-          echo 'gem "jekyll-archives"' >> Gemfile
+          # Gemfileが既に存在するので、bundlerで依存関係をインストール
           bundle install
 
       - name: Build with Jekyll
@@ -185,7 +178,6 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add _posts/*
-          git add Gemfile*
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
