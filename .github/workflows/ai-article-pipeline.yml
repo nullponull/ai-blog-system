@@ -25,19 +25,58 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
+          npm install -g @google/gemini-cli
           mkdir -p _temp
 
-      - name: Install Python and dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
-
-      - name: Generate AI Article with Gemini API
+      - name: Generate AI Article with Gemini CLI (with web search)
         id: generate_article
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python generate_article_standalone.py
+          # Configure Gemini CLI with API key
+          export GEMINI_API_KEY="$GEMINI_API_KEY"
+          
+          # Generate article with direct web search
+          DATE_STR=$(date '+%Y年%m月%d日')
+          
+          gemini --prompt "WebSearch: ${DATE_STR} AI業界 最新ニュース 企業動向 研究成果 新サービス
+
+今日(${DATE_STR})のAI業界の最新ニュースをWeb検索して調査し、技術者向けの詳細な記事を日本語で作成してください。
+
+要件：
+- 実際の最新検索結果に基づいた具体的で詳細な内容
+- 企業動向、研究成果、新サービス、規制動向など多様なトピック  
+- 自然な日本語表現（AI特有の機械的表現は避ける）
+- 3000-4000文字程度
+- Markdown形式で出力（ただし\`\`\`markdownなどのコードブロック記号は使わない）
+
+構成例：
+# ${DATE_STR}のAI業界ニュース
+
+## 企業・市場の動き
+### [検索結果から得た具体的な企業名と発表内容]
+
+## 研究開発の進展
+### [検索結果から得た大学・研究機関の具体的な成果]
+
+## 新サービス・製品の発表
+### [検索結果から得た実際のサービス名と機能]
+
+## 市場動向と投資の状況  
+### [検索結果から得た投資額や市場予測の具体的データ]
+
+## 規制・ガイドラインの動き
+### [検索結果から得た政府・規制機関の動向]
+
+## 今後の業界動向
+
+Web検索で得た最新情報を基に、技術的な詳細、具体的な数値、企業名、人名などを含めてリアルなニュース記事として作成してください。" > _temp/new-article.md
+          
+          # もしgemini-cliが失敗した場合はPythonスクリプトにフォールバック
+          if [ ! -f "_temp/new-article.md" ] || [ ! -s "_temp/new-article.md" ]; then
+            echo "Gemini CLI failed, falling back to Python script"
+            python generate_article_standalone.py
+          fi
 
       - name: Lint and Fix Generated Article
         run: |
@@ -50,8 +89,13 @@ jobs:
 
       - name: Create final article file
         run: |
-          # 記事タイトルを取得
-          TITLE=$(head -n 1 _temp/new-article.md | sed 's/# //' | sed 's/[[:space:]]*$//')
+          # 記事タイトルを取得（markdownコードブロック記号を除去）
+          TITLE=$(head -n 1 _temp/new-article.md | sed 's/^```markdown$//' | sed 's/^```$//' | sed 's/# //' | sed 's/[[:space:]]*$//')
+          
+          # もし最初の行がコードブロックなら2行目を取得
+          if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ]; then
+            TITLE=$(sed -n '2p' _temp/new-article.md | sed 's/# //' | sed 's/[[:space:]]*$//')
+          fi
           
           # ファイル名用にタイトルを変換
           SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g')
@@ -73,8 +117,8 @@ jobs:
           ---
           EOF
           
-          # 記事本文を追加（タイトル行を除く）
-          tail -n +2 _temp/new-article.md >> "_posts/$FILENAME"
+          # 記事本文を追加（markdownコードブロック記号を除去）
+          sed '1d' _temp/new-article.md | sed '/^```markdown$/d' | sed '/^```$/d' >> "_posts/$FILENAME"
           
           echo "Generated article: $FILENAME"
 

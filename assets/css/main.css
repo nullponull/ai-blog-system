@@ -499,6 +499,13 @@ body {
 .mb-0 { margin-bottom: 0; }
 .hidden { display: none; }
 
+.tag-note {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 /* ===== プリント用スタイル ===== */
 @media print {
   .site-header,
