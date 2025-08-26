@@ -1,0 +1,139 @@
+name: AI Article Generation & Publishing Pipeline
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # 毎週月曜日の9時に実行
+  workflow_dispatch:      # 手動実行も可能
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install --save-dev textlint @textlint-ja/textlint-rule-preset-ai-writing
+          mkdir -p _temp
+
+      - name: Generate AI Article with Latest Info
+        id: generate_article
+        uses: google-github-actions/run-gemini-cli@v1
+        with:
+          prompt: |
+            最新のAI技術動向について、Google検索で最新情報を調査し、以下の要件で専門家向けの詳細な解説記事を生成してください：
+            
+            【記事要件】
+            - 読者: 技術的な背景を持つエンジニア・研究者
+            - 内容: 2024年下半期の重要なAI技術トレンド3つ以上
+            - 引用: 具体的な研究論文や実装例を含める
+            - 文字数: 3000〜5000文字
+            - 言語: 日本語
+            - 構成: SEOを意識したタイトルと見出し構成
+            - 形式: Markdown形式で出力
+            
+            【記事構成例】
+            # [SEO最適化されたタイトル]
+            
+            ## はじめに
+            ## 最新トレンド1: [具体的なトレンド名]
+            ## 最新トレンド2: [具体的なトレンド名]  
+            ## 最新トレンド3: [具体的なトレンド名]
+            ## 実装事例と応用
+            ## まとめと今後の展望
+            ## 参考文献
+          search: true
+          output_file: "_temp/new-article.md"
+
+      - name: Lint and Fix Generated Article
+        run: |
+          # textlintで記事を校正
+          npx textlint _temp/new-article.md --fix || echo "Textlint completed with warnings"
+
+      - name: Create final article file
+        run: |
+          # 記事タイトルを取得
+          TITLE=$(head -n 1 _temp/new-article.md | sed 's/# //' | sed 's/[[:space:]]*$//')
+          
+          # ファイル名用にタイトルを変換
+          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g')
+          
+          # 日付ベースのファイル名
+          FILENAME="$(date +%Y-%m-%d)-$SLUG.md"
+          
+          # Front matterを作成
+          cat > "_posts/$FILENAME" << EOF
+          ---
+          layout: post
+          title: "$TITLE"
+          date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
+          categories: ["AI技術", "最新動向"]
+          tags: ["AI", "機械学習", "技術解説", "最新研究"]
+          author: "AI記事生成システム"
+          excerpt: "最新のAI技術動向について、Google検索で調査した最新情報を基に詳しく解説します。"
+          reading_time: 8
+          ---
+          EOF
+          
+          # 記事本文を追加（タイトル行を除く）
+          tail -n +2 _temp/new-article.md >> "_posts/$FILENAME"
+          
+          echo "Generated article: $FILENAME"
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Install Jekyll dependencies
+        run: |
+          gem install bundler jekyll
+          bundle init
+          echo 'gem "jekyll", "~> 4.3"' >> Gemfile
+          echo 'gem "jekyll-feed"' >> Gemfile
+          echo 'gem "jekyll-sitemap"' >> Gemfile
+          echo 'gem "jekyll-seo-tag"' >> Gemfile
+          echo 'gem "jekyll-paginate"' >> Gemfile
+          echo 'gem "jekyll-archives"' >> Gemfile
+          bundle install
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './_site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _posts/*
+          git add Gemfile*
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: Add new AI article - $(date +%Y-%m-%d)"
+            git push
+          fi
+

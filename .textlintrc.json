@@ -1,0 +1,37 @@
+{
+  "rules": {
+    "@textlint-ja/preset-ai-writing": {
+      "no-ai-list-formatting": {
+        "allows": [
+          "/重要.*/i",
+          "/注意.*/i"
+        ],
+        "disableBoldListItems": false,
+        "disableEmojiListItems": false
+      },
+      "no-ai-hype-expressions": {
+        "allows": [
+          "/最新の.*/i",
+          "/新しい.*/i"
+        ],
+        "disableAbsolutenessPatterns": false,
+        "disableAbstractPatterns": false,
+        "disabledPredictivePatterns": false
+      },
+      "no-ai-emphasis-patterns": {
+        "allows": [],
+        "disableEmojiEmphasisPatterns": false,
+        "disableInfoPatterns": false,
+        "disableHeadingEmphasisPatterns": true
+      },
+      "no-ai-colon-continuation": {
+        "allows": [
+          "/例:/",
+          "/参考:/",
+          "/注意:/"
+        ]
+      }
+    }
+  }
+}
+

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}AI, 人工知能, 機械学習, テクノロジー">
+    <meta name="author" content="{{ site.author }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <!-- RSS Feed -->
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title }}">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
+        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+        "url": "{{ page.url | absolute_url }}",
+        {% if page.layout == 'post' %}
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.date | date_to_xmlschema }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.author }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.logo | absolute_url }}"
+            }
+        },
+        {% endif %}
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | absolute_url }}"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="{{ '/' | relative_url }}" class="site-title">
+                <div class="ai-icon">AI</div>
+                {{ site.title }}
+            </a>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+                    <li><a href="{{ '/about' | relative_url }}">概要</a></li>
+                    <li><a href="{{ '/categories' | relative_url }}">カテゴリ</a></li>
+                    <li><a href="{{ '/tags' | relative_url }}">タグ</a></li>
+                    <li><a href="{{ '/archive' | relative_url }}">アーカイブ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <main class="content">
+            {{ content }}
+        </main>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Recent Posts Widget -->
+            <div class="widget">
+                <h3 class="widget-title">最新記事</h3>
+                <ul class="recent-posts">
+                    {% for post in site.posts limit:5 %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <div class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <!-- Categories Widget -->
+            <div class="widget">
+                <h3 class="widget-title">カテゴリ</h3>
+                <ul class="category-list">
+                    {% for category in site.categories %}
+                    <li>
+                        <a href="{{ '/categories#' | append: category[0] | relative_url }}">
+                            {{ category[0] }} ({{ category[1].size }})
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <!-- Tags Widget -->
+            <div class="widget">
+                <h3 class="widget-title">人気タグ</h3>
+                <div class="tag-cloud">
+                    {% assign sorted_tags = site.tags | sort %}
+                    {% for tag in sorted_tags limit:10 %}
+                    <a href="{{ '/tags#' | append: tag[0] | relative_url }}" class="tag">
+                        {{ tag[0] }} ({{ tag[1].size }})
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <!-- About Widget -->
+            <div class="widget">
+                <h3 class="widget-title">このブログについて</h3>
+                <p>{{ site.description }}</p>
+                <p>AI技術の最新動向、研究成果、実装事例などを定期的に発信しています。</p>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>{{ site.title }}</h3>
+                    <p>{{ site.description }}</p>
+                </div>
+                <div class="footer-section">
+                    <h3>リンク</h3>
+                    <ul>
+                        <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+                        <li><a href="{{ '/about' | relative_url }}">概要</a></li>
+                        <li><a href="{{ '/archive' | relative_url }}">アーカイブ</a></li>
+                        <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>お問い合わせ</h3>
+                    <p>ご質問やご提案がございましたら、お気軽にお問い合わせください。</p>
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+                <p>Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> & <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // スムーススクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 読み込み時のアニメーション
+        document.addEventListener('DOMContentLoaded', function() {
+            const posts = document.querySelectorAll('.post');
+            posts.forEach(post => {
+                post.style.opacity = '0';
+                post.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    post.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                    post.style.opacity = '1';
+                    post.style.transform = 'translateY(0)';
+                }, 100);
+            });
+        });
+    </script>
+
+    <!-- Google Analytics (Optional) -->
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+</body>
+</html>
+

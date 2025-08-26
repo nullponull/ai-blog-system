@@ -1,0 +1,186 @@
+# Site settings
+title: "AI技術ブログ"
+description: "AIと機械学習の最新動向、技術解説、実装事例を発信するテクニカルブログ"
+author: "株式会社ALLFORCES"
+email: "info@allforces.wuaze.com"
+url: "https://ai.allforces.wuaze.com"
+baseurl: ""
+
+# SEO settings
+logo: "/assets/images/logo.png"
+og_image: "/assets/images/og-image.png"
+twitter_username: "allforces_ai"
+github_username: "allforces"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Tokyo
+encoding: utf-8
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "AI記事生成システム"
+      comments: false
+      share: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
+
+# Jekyll Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year
+    - month
+  layouts:
+    category: category
+    tag: tag
+    year: year
+    month: month
+  permalinks:
+    category: '/categories/:name/'
+    tag: '/tags/:name/'
+    year: '/:year/'
+    month: '/:year/:month/'
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - .github/
+  - .gitignore
+  - .textlintrc.json
+
+# Include files
+include:
+  - _pages
+  - .htaccess
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Compression
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+
+# Analytics (optional)
+# google_analytics: "G-XXXXXXXXXX"
+
+# Social links
+social:
+  twitter: "https://twitter.com/allforces_ai"
+  github: "https://github.com/allforces"
+  linkedin: "https://linkedin.com/company/allforces"
+
+# Reading time calculation
+reading_time: true
+
+# Comments (optional - can be enabled later)
+comments:
+  provider: false # "disqus", "utterances", "giscus"
+  
+# Search (optional)
+search: true
+
+# Related posts
+related_posts_limit: 3
+
+# Custom variables for AI article generation
+ai_generation:
+  enabled: true
+  topics:
+    - "機械学習"
+    - "深層学習"
+    - "自然言語処理"
+    - "コンピュータビジョン"
+    - "強化学習"
+    - "AI倫理"
+    - "MLOps"
+    - "AI研究動向"
+  
+  categories:
+    - "技術解説"
+    - "研究紹介"
+    - "実装事例"
+    - "業界動向"
+    - "ツール紹介"
+  
+  tags:
+    - "AI"
+    - "機械学習"
+    - "深層学習"
+    - "Python"
+    - "TensorFlow"
+    - "PyTorch"
+    - "Hugging Face"
+    - "OpenAI"
+    - "Google AI"
+    - "研究論文"
+
+# Content guidelines for AI generation
+content_guidelines:
+  min_words: 2000
+  max_words: 5000
+  include_code_examples: true
+  include_references: true
+  seo_optimized: true
+  japanese_language: true
+

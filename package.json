@@ -1,0 +1,27 @@
+{
+  "name": "ai-blog-system",
+  "version": "1.0.0",
+  "description": "AI記事自動生成・発信システム",
+  "main": "index.js",
+  "scripts": {
+    "lint": "textlint _posts/*.md",
+    "lint:fix": "textlint _posts/*.md --fix",
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve"
+  },
+  "keywords": [
+    "AI",
+    "blog",
+    "automation",
+    "jekyll",
+    "gemini-cli",
+    "textlint"
+  ],
+  "author": "ALLFORCES",
+  "license": "MIT",
+  "devDependencies": {
+    "textlint": "^13.4.2",
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.1"
+  }
+}
+
