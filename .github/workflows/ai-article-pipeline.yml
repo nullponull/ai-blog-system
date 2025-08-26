@@ -57,12 +57,12 @@ jobs:
 
       - name: Create final article file
         run: |
-          # 記事タイトルを取得（markdownコードブロック記号を除去）
-          TITLE=$(head -n 1 _temp/new-article.md | sed 's/^```markdown$//' | sed 's/^```$//' | sed 's/# //' | sed 's/[[:space:]]*$//')
+          # 記事タイトルを取得（より堅牢な処理）
+          TITLE=$(grep -m 1 "^# " _temp/new-article.md | sed 's/^# //' | sed 's/[[:space:]]*$//')
           
-          # もし最初の行がコードブロックなら2行目を取得
-          if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ]; then
-            TITLE=$(sed -n '2p' _temp/new-article.md | sed 's/# //' | sed 's/[[:space:]]*$//')
+          # タイトルが取得できない場合は日付ベースのタイトルを使用
+          if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ] || [[ "$TITLE" == *"```"* ]]; then
+            TITLE="${DATE_STR}のAI業界ニュース"
           fi
           
           # ファイル名用にタイトルを変換
