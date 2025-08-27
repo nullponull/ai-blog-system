@@ -73,14 +73,22 @@ jobs:
           echo "Available topics:"
           echo "$TOPICS"
           
-          # Very minimal duplicate checking - only check today's articles
-          EXISTING_TODAY=""
+          # Very minimal duplicate checking - only check recent articles (last 3 days)
+          EXISTING_RECENT=""
           TODAY=$(date +%Y-%m-%d)
-          if ls _posts/${TODAY}-*.md 1> /dev/null 2>&1; then
-            EXISTING_TODAY=$(grep -h "^title:" _posts/${TODAY}-*.md 2>/dev/null || echo "")
-            echo "Found existing articles today: $(echo "$EXISTING_TODAY" | wc -l) articles"
+          echo "📅 Today's date: $TODAY"
+          
+          # Check articles from the last 3 days to allow some variety but prevent immediate duplicates
+          if ls _posts/*.md 1> /dev/null 2>&1; then
+            EXISTING_RECENT=$(find _posts -name "*.md" -mtime -3 -exec grep -h "^title:" {} \; 2>/dev/null | head -30 || echo "")
+            RECENT_COUNT=$(echo "$EXISTING_RECENT" | grep -c "^title:" || echo "0")
+            echo "📚 Found $RECENT_COUNT existing articles in the last 3 days"
+            if [ "$RECENT_COUNT" -gt 0 ]; then
+              echo "Recent titles preview:"
+              echo "$EXISTING_RECENT" | head -5
+            fi
           else
-            echo "No existing articles found for today ($TODAY)"
+            echo "📝 No existing articles found"
           fi
           
           # Process each topic with enhanced debugging
@@ -111,13 +119,18 @@ jobs:
             SELECTED_TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
             echo "📝 Selected topic: '$SELECTED_TOPIC'"
             
-            # Very lenient duplicate checking - only exact title and date match
+            # Very lenient duplicate checking - only skip exact matches from recent articles
             SKIP_TOPIC=false
-            if [ ! -z "$EXISTING_TODAY" ]; then
-              if echo "$EXISTING_TODAY" | grep -Fq "title: \"$SELECTED_TOPIC\""; then
-                echo "⚠️  Skipping exact duplicate from today: $SELECTED_TOPIC"
+            if [ ! -z "$EXISTING_RECENT" ]; then
+              # Only skip if we find an exact title match
+              if echo "$EXISTING_RECENT" | grep -Fq "title: \"$SELECTED_TOPIC\""; then
+                echo "⚠️  Skipping exact duplicate: $SELECTED_TOPIC"
                 SKIP_TOPIC=true
+              else
+                echo "✅ Topic is unique, proceeding with generation"
               fi
+            else
+              echo "✅ No recent articles to check, proceeding with generation"
             fi
             
             if [ "$SKIP_TOPIC" = true ]; then
