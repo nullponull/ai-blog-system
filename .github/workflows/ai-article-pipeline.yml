@@ -67,7 +67,8 @@ jobs:
           ARTICLES_CREATED=0
           MAX_ARTICLES=10
           
-          echo "$TOPICS" | while IFS= read -r TOPIC_LINE; do
+          # Use process substitution to avoid subshell variable scope issues
+          while IFS= read -r TOPIC_LINE; do
             # Limit to maximum number of articles
             if [ "$ARTICLES_CREATED" -ge "$MAX_ARTICLES" ]; then
               echo "Reached maximum articles limit ($MAX_ARTICLES), stopping."
@@ -209,7 +210,7 @@ jobs:
             ARTICLES_CREATED=$((ARTICLES_CREATED + 1))
             
             echo "Articles created so far: $ARTICLES_CREATED/$MAX_ARTICLES"
-          done
+          done <<< "$TOPICS"
 
       - name: Lint and Fix Generated Articles
         run: |
