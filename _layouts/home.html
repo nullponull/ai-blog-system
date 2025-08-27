@@ -162,10 +162,12 @@ hide_breadcrumbs: true
         {% assign offset = 4 %}
         {% if paginator %}
             {% assign offset = 0 %}
-            {% for post in paginator.posts %}
+            {% assign posts = paginator.posts %}
         {% else %}
-            {% for post in site.posts offset:offset limit:6 %}
+            {% assign posts = site.posts | offset: offset | limit: 6 %}
         {% endif %}
+        
+        {% for post in posts %}
         <article class="article-card">
             <div class="article-image">
                 {% if post.categories and post.categories.size > 0 %}
