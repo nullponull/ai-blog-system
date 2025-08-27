@@ -1,0 +1,28 @@
+{
+    "name": "ALLFORCES AI情報メディア",
+    "short_name": "ALLFORCES AI",
+    "description": "株式会社ALLFORCESが運営するAI専門情報メディア。最新のAI技術動向、研究成果、実装事例、業界分析を専門家の視点でお届けします。",
+    "icons": [
+        {
+            "src": "/assets/images/favicon.ico",
+            "sizes": "32x32",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/assets/images/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/assets/images/logo.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#10b981",
+    "background_color": "#ffffff",
+    "categories": ["news", "technology", "artificial-intelligence", "research"]
+}
