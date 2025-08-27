@@ -1,0 +1,482 @@
+---
+layout: default
+title: "執筆者一覧 - 記事の執筆者別一覧"
+permalink: /authors/
+description: "記事の執筆者一覧と各執筆者の記事をご覧いただけます。"
+---
+
+<div class="authors-page">
+    <div class="authors-header">
+        <h1>執筆者一覧</h1>
+        <p>記事の執筆者一覧と各執筆者の記事をご覧いただけます</p>
+    </div>
+    
+    <!-- 執筆者統計 -->
+    <div class="authors-stats">
+        {% assign all_authors = site.posts | map: 'author' | uniq %}
+        {% assign total_authors = all_authors.size %}
+        {% assign total_posts = site.posts.size %}
+        
+        <div class="stat-card">
+            <span class="stat-number">{{ total_authors }}</span>
+            <span class="stat-label">執筆者数</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">{{ total_posts }}</span>
+            <span class="stat-label">総記事数</span>
+        </div>
+        <div class="stat-card">
+            {% assign avg_posts = total_posts | divided_by: total_authors %}
+            <span class="stat-number">{{ avg_posts }}</span>
+            <span class="stat-label">平均記事数</span>
+        </div>
+    </div>
+    
+    <!-- 執筆者別記事一覧 -->
+    <div class="authors-content">
+        {% assign all_authors = site.posts | map: 'author' | uniq | sort %}
+        {% for author in all_authors %}
+            {% if author != '' %}
+            {% assign author_posts = site.posts | where: 'author', author %}
+            <div class="author-section">
+                <div class="author-header">
+                    <div class="author-info">
+                        <div class="author-avatar">
+                            {% if author == 'AI記事生成システム' %}
+                                🤖
+                            {% else %}
+                                👤
+                            {% endif %}
+                        </div>
+                        <div class="author-details">
+                            <h2 class="author-name">{{ author }}</h2>
+                            <div class="author-stats">
+                                <span class="post-count">📝 {{ author_posts.size }}記事</span>
+                                {% if author_posts.size > 0 %}
+                                <span class="last-post">📅 最新投稿: {{ author_posts.first.date | date: "%Y年%m月%d日" }}</span>
+                                {% endif %}
+                            </div>
+                            <div class="author-description">
+                                {% if author == 'AI記事生成システム' %}
+                                AI技術を活用した自動記事生成システムです。最新のAI動向、技術解説、業界分析などを定期的に配信しています。
+                                {% else %}
+                                {{ author }}による記事をお楽しみください。
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 記事カテゴリ分布 -->
+                <div class="author-categories">
+                    {% assign author_categories = author_posts | map: 'categories' | join: ',' | split: ',' | uniq %}
+                    <h3>執筆カテゴリ</h3>
+                    <div class="category-tags">
+                        {% for category in author_categories %}
+                            {% if category != '' %}
+                            {% assign category_count = author_posts | where_exp: "post", "post.categories contains category" | size %}
+                            <span class="category-tag">
+                                {% case category %}
+                                    {% when '最新動向' %}📈
+                                    {% when '技術解説' %}🔬
+                                    {% when '実装事例' %}💼
+                                    {% when '業界分析' %}📊
+                                    {% when '研究論文' %}🎓
+                                    {% else %}📄
+                                {% endcase %}
+                                {{ category }} ({{ category_count }})
+                            </span>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <!-- 最近の記事 -->
+                <div class="author-recent-posts">
+                    <h3>最近の記事</h3>
+                    <div class="articles-grid">
+                        {% for post in author_posts limit:6 %}
+                        <article class="article-card">
+                            <div class="article-date">
+                                <span class="day">{{ post.date | date: "%-d" }}</span>
+                                <span class="month">{{ post.date | date: "%b" }}</span>
+                            </div>
+                            
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    {% if post.categories and post.categories.size > 0 %}
+                                    <span class="article-category">{{ post.categories.first }}</span>
+                                    {% endif %}
+                                    <span class="reading-time">📖 {{ post.reading_time | default: "8" }}分</span>
+                                </div>
+                                
+                                <h4 class="article-title">
+                                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                                </h4>
+                                
+                                {% if post.excerpt %}
+                                <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                                {% endif %}
+                                
+                                {% if post.tags and post.tags.size > 0 %}
+                                <div class="article-tags">
+                                    {% for tag in post.tags limit:3 %}
+                                    <span class="tag">{{ tag }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </article>
+                        {% endfor %}
+                        
+                        {% if author_posts.size > 6 %}
+                        <div class="more-articles">
+                            <a href="/search/?q={{ author | url_encode }}" class="more-link">
+                                {{ author }}の記事をもっと見る ({{ author_posts.size | minus: 6 }}件)
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+.authors-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.authors-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.authors-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+}
+
+.authors-header p {
+    color: var(--gray-600);
+    font-size: 1.1rem;
+}
+
+.authors-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.stat-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    border: 1px solid var(--gray-200);
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-green);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.author-section {
+    background: var(--white);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    margin-bottom: 3rem;
+    overflow: hidden;
+    border: 1px solid var(--gray-200);
+}
+
+.author-header {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+    color: var(--white);
+    padding: 2rem;
+}
+
+.author-info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.author-avatar {
+    font-size: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.author-details {
+    flex: 1;
+}
+
+.author-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.author-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.post-count,
+.last-post {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+}
+
+.author-description {
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.author-categories {
+    padding: 1.5rem 2rem;
+    background: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.author-categories h3 {
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.category-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.category-tag {
+    background: var(--primary-green);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.author-recent-posts {
+    padding: 2rem;
+}
+
+.author-recent-posts h3 {
+    color: var(--gray-800);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid var(--primary-green);
+    padding-bottom: 0.5rem;
+}
+
+.articles-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.article-card {
+    display: flex;
+    background: var(--gray-50);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--gray-200);
+    transition: all 0.2s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-green);
+}
+
+.article-date {
+    background: var(--primary-green);
+    color: var(--white);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    text-align: center;
+}
+
+.article-date .day {
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.article-date .month {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.article-content {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.article-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.article-category {
+    background: var(--primary-green);
+    color: var(--white);
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.reading-time {
+    color: var(--gray-600);
+}
+
+.article-title {
+    margin-bottom: 1rem;
+}
+
+.article-title a {
+    color: var(--gray-900);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.article-title a:hover {
+    color: var(--primary-green);
+}
+
+.article-excerpt {
+    color: var(--gray-600);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.article-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: var(--gray-200);
+    color: var(--gray-700);
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.more-articles {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-green);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.more-link:hover {
+    background: var(--primary-green-dark);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .authors-page {
+        padding: 1rem;
+    }
+    
+    .author-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .author-avatar {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+        align-self: center;
+    }
+    
+    .author-stats {
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .author-categories,
+    .author-recent-posts {
+        padding: 1rem;
+    }
+    
+    .category-tags {
+        justify-content: center;
+    }
+    
+    .article-card {
+        flex-direction: column;
+    }
+    
+    .article-date {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.75rem;
+        min-width: auto;
+    }
+}
+</style>
