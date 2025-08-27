@@ -2,7 +2,9 @@ name: AI Article Generation & Publishing Pipeline
 
 on:
   schedule:
-    - cron: '10 2 * * *'  # 毎日11時10分に実行（JST）
+    - cron: '15 * * * *'  # 毎時15分に実行
+    - cron: '37 * * * *'  # 毎時37分に実行
+    - cron: '52 * * * *'  # 毎時52分に実行
   workflow_dispatch:      # 手動実行も可能
 
 jobs:
@@ -28,18 +30,59 @@ jobs:
           npm install -g @google/gemini-cli
           mkdir -p _temp
 
-      - name: Generate AI Article with Gemini CLI (with web search)
+      - name: Generate topic list for AI industry
+        id: generate_topics
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          export GEMINI_API_KEY="$GEMINI_API_KEY"
+          DATE_STR=$(date '+%Y年%m月%d日')
+          
+          # Generate list of current AI topics
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: ${DATE_STR} AI業界 最新ニュース トレンド 話題。今日(${DATE_STR})のAI業界で注目されている話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。" > _temp/topics-list.txt
+          
+          echo "Generated topics list:"
+          cat _temp/topics-list.txt
+
+      - name: Select unused topic and generate article
         id: generate_article
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          # Configure Gemini CLI with API key
           export GEMINI_API_KEY="$GEMINI_API_KEY"
-          
-          # Generate article with direct web search
           DATE_STR=$(date '+%Y年%m月%d日')
           
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: ${DATE_STR} AI業界 最新ニュース 企業動向 研究成果 新サービス。今日(${DATE_STR})のAI業界の最新ニュースをWeb検索して調査し、技術者向けの詳細な記事を日本語で作成してください。要件：実際の最新検索結果に基づいた具体的で詳細な内容、企業動向・研究成果・新サービス・規制動向など多様なトピック、自然な日本語表現（AI特有の機械的表現は避ける）、3000-4000文字程度、Markdown形式で出力（ただしコードブロック記号は使わない）。構成例：# ${DATE_STR}のAI業界ニュース ## 企業・市場の動き ### [検索結果から得た具体的な企業名と発表内容] ## 研究開発の進展 ### [検索結果から得た大学・研究機関の具体的な成果] ## 新サービス・製品の発表 ### [検索結果から得た実際のサービス名と機能] ## 市場動向と投資の状況 ### [検索結果から得た投資額や市場予測の具体的データ] ## 規制・ガイドラインの動き ### [検索結果から得た政府・規制機関の動向] ## 今後の業界動向。Web検索で得た最新情報を基に、技術的な詳細、具体的な数値、企業名、人名などを含めてリアルなニュース記事として作成してください。" > _temp/new-article.md
+          # Extract topics from the generated list
+          TOPICS=$(grep -E "^[0-9]+\." _temp/topics-list.txt | head -10)
+          echo "Available topics:"
+          echo "$TOPICS"
+          
+          # Check existing articles to avoid duplicates
+          EXISTING_TITLES=""
+          if ls _posts/*.md 1> /dev/null 2>&1; then
+            EXISTING_TITLES=$(grep -h "^title:" _posts/*.md 2>/dev/null | tail -20 || echo "")
+          fi
+          
+          # Select a random topic from the list
+          TOPIC_COUNT=$(echo "$TOPICS" | wc -l)
+          RANDOM_INDEX=$((RANDOM % TOPIC_COUNT + 1))
+          SELECTED_TOPIC=$(echo "$TOPICS" | sed -n "${RANDOM_INDEX}p" | sed 's/^[0-9]*\. *//')
+          
+          # If selected topic seems too similar to existing titles, try another one
+          if [ ! -z "$EXISTING_TITLES" ]; then
+            for i in {1..5}; do
+              if echo "$EXISTING_TITLES" | grep -qi "$(echo "$SELECTED_TOPIC" | cut -d' ' -f1-2)"; then
+                RANDOM_INDEX=$((RANDOM % TOPIC_COUNT + 1))
+                SELECTED_TOPIC=$(echo "$TOPICS" | sed -n "${RANDOM_INDEX}p" | sed 's/^[0-9]*\. *//')
+              else
+                break
+              fi
+            done
+          fi
+          echo "Selected topic: $SELECTED_TOPIC"
+          
+          # Generate article based on selected topic
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界。今日(${DATE_STR})の「${SELECTED_TOPIC}」について、Web検索で最新情報を調査し、技術者向けの詳細な記事を日本語で作成してください。要件：実際の最新検索結果に基づいた具体的で詳細な内容、技術的な詳細説明、企業・人名・製品名・数値データを具体的に記載、自然な日本語表現（AI特有の機械的表現は避ける）、3000-4000文字程度、Markdown形式で出力（ただしコードブロック記号は使わない）。構成例：# ${SELECTED_TOPIC}：${DATE_STR}の最新動向 ## 概要と背景 ## 最新の発表・発見内容 ## 技術的な詳細と仕組み ## 業界への影響と意義 ## 競合他社の動向 ## 今後の展望。Web検索で得た最新情報を基に、技術的な詳細、具体的な数値、企業名、人名などを含めてリアルなニュース記事として作成してください。" > _temp/new-article.md
           
           # もしgemini-cliが失敗した場合はPythonスクリプトにフォールバック
           if [ ! -f "_temp/new-article.md" ] || [ ! -s "_temp/new-article.md" ]; then
