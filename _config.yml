@@ -1,6 +1,6 @@
 # Site settings
-title: "AI技術ブログ"
-description: "AIと機械学習の最新動向、技術解説、実装事例を発信するテクニカルブログ"
+title: "ALLFORCES AI情報メディア"
+description: "株式会社ALLFORCESが運営するAI専門情報メディア。最新のAI技術動向、研究成果、実装事例、業界分析を専門家の視点でお届けします。"
 author: "株式会社ALLFORCES"
 email: "info@allforces.wuaze.com"
 url: "https://ai-allforces.allforces.wuaze.com"
@@ -144,6 +144,24 @@ search: true
 # Related posts
 related_posts_limit: 3
 
+# Content categories for media
+content_categories:
+  - name: "最新動向"
+    description: "AI業界の最新ニュースと企業動向"
+    icon: "📈"
+  - name: "技術解説"
+    description: "Transformer、GANなどのコア技術解説"
+    icon: "🔬"
+  - name: "研究論文"
+    description: "NeurIPS、ICMLなどの注目論文レビュー"
+    icon: "📑"
+  - name: "実装事例"
+    description: "ALLFORCESの実際の開発プロジェクト事例"
+    icon: "💻"
+  - name: "業界分析"
+    description: "特定業界におけるAI活用動向"
+    icon: "📊"
+
 # Custom variables for AI article generation
 ai_generation:
   enabled: true
@@ -156,13 +174,6 @@ ai_generation:
     - "AI倫理"
     - "MLOps"
     - "AI研究動向"
-  
-  categories:
-    - "技術解説"
-    - "研究紹介"
-    - "実装事例"
-    - "業界動向"
-    - "ツール紹介"
   
   tags:
     - "AI"
