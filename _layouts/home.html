@@ -56,20 +56,20 @@ hide_breadcrumbs: true
         <article class="featured-main">
             {% assign featured_post = site.posts.first %}
             <div class="article-image">
-                {% if featured_post.categories and featured_post.categories.size > 0 %}
-                    {% assign category = featured_post.categories.first %}
-                    {% assign found_icon = false %}
-                    {% for cat in site.content_categories %}
-                        {% if cat.name == category %}
-                            {{ cat.icon }}
-                            {% assign found_icon = true %}
-                            {% break %}
-                        {% endif %}
-                    {% endfor %}
-                    {% unless found_icon %}🤖{% endunless %}
-                {% else %}
+                {%- if featured_post.categories and featured_post.categories.size > 0 -%}
+                    {%- assign category = featured_post.categories.first -%}
+                    {%- assign found_icon = false -%}
+                    {%- for cat in site.content_categories -%}
+                        {%- if cat.name == category -%}
+                            {{- cat.icon -}}
+                            {%- assign found_icon = true -%}
+                            {%- break -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                    {%- unless found_icon -%}🤖{%- endunless -%}
+                {%- else -%}
                     🤖
-                {% endif %}
+                {%- endif -%}
             </div>
             <div class="article-content">
                 <div class="article-meta">
@@ -109,20 +109,20 @@ hide_breadcrumbs: true
             {% for post in site.posts offset:1 limit:3 %}
             <article class="article-card small">
                 <div class="article-image small">
-                    {% if post.categories and post.categories.size > 0 %}
-                        {% assign category = post.categories.first %}
-                        {% assign found_icon = false %}
-                        {% for cat in site.content_categories %}
-                            {% if cat.name == category %}
-                                {{ cat.icon }}
-                                {% assign found_icon = true %}
-                                {% break %}
-                            {% endif %}
-                        {% endfor %}
-                        {% unless found_icon %}🤖{% endunless %}
-                    {% else %}
+                    {%- if post.categories and post.categories.size > 0 -%}
+                        {%- assign category = post.categories.first -%}
+                        {%- assign found_icon = false -%}
+                        {%- for cat in site.content_categories -%}
+                            {%- if cat.name == category -%}
+                                {{- cat.icon -}}
+                                {%- assign found_icon = true -%}
+                                {%- break -%}
+                            {%- endif -%}
+                        {%- endfor -%}
+                        {%- unless found_icon -%}🤖{%- endunless -%}
+                    {%- else -%}
                         🤖
-                    {% endif %}
+                    {%- endif -%}
                 </div>
                 <div class="article-content small">
                     <div class="article-meta">
@@ -171,20 +171,20 @@ hide_breadcrumbs: true
         {% for post in posts %}
         <article class="article-card">
             <div class="article-image">
-                {% if post.categories and post.categories.size > 0 %}
-                    {% assign category = post.categories.first %}
-                    {% assign found_icon = false %}
-                    {% for cat in site.content_categories %}
-                        {% if cat.name == category %}
-                            {{ cat.icon }}
-                            {% assign found_icon = true %}
-                            {% break %}
-                        {% endif %}
-                    {% endfor %}
-                    {% unless found_icon %}🤖{% endunless %}
-                {% else %}
+                {%- if post.categories and post.categories.size > 0 -%}
+                    {%- assign category = post.categories.first -%}
+                    {%- assign found_icon = false -%}
+                    {%- for cat in site.content_categories -%}
+                        {%- if cat.name == category -%}
+                            {{- cat.icon -}}
+                            {%- assign found_icon = true -%}
+                            {%- break -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                    {%- unless found_icon -%}🤖{%- endunless -%}
+                {%- else -%}
                     🤖
-                {% endif %}
+                {%- endif -%}
             </div>
             <div class="article-content">
                 <div class="article-meta">
