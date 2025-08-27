@@ -20,8 +20,8 @@
   "author": "ALLFORCES",
   "license": "MIT",
   "devDependencies": {
-    "textlint": "^14.2.0",
-    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.1"
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.1",
+    "puppeteer": "^24.17.0",
+    "textlint": "^14.2.0"
   }
 }
-
