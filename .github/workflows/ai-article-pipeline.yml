@@ -364,7 +364,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          timeout: 60000  # 1 minute timeout
+          timeout: 300000  # 5 minute timeout
 
       - name: Commit and push changes
         run: |
