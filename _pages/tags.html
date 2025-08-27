@@ -1,0 +1,378 @@
+---
+layout: default
+title: "タグ一覧 - 記事をタグ別に探す"
+permalink: /tags/
+description: "記事に付けられたタグ一覧から、興味のあるトピックの記事を探すことができます。"
+---
+
+<div class="tags-page">
+    <div class="tags-header">
+        <h1>タグ一覧</h1>
+        <p>記事に付けられたタグから、興味のあるトピックの記事を探すことができます</p>
+    </div>
+    
+    <!-- タグクラウド -->
+    <div class="tag-cloud-section">
+        <h2 class="section-title">タグクラウド</h2>
+        <div class="tag-cloud">
+            {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' %}
+            {% assign sorted_tags = all_tags | group_by: 'name' | sort: 'size' | reverse %}
+            
+            {% for tag_group in sorted_tags %}
+                {% assign tag_name = tag_group.items.first %}
+                {% assign tag_count = tag_group.size %}
+                {% if tag_name != '' %}
+                <a href="#tag-{{ tag_name | slugify }}" class="tag-cloud-item" data-count="{{ tag_count }}">
+                    {{ tag_name }}
+                    <span class="tag-count">({{ tag_count }})</span>
+                </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    
+    <!-- タグ別記事一覧 -->
+    <div class="tags-content">
+        <h2 class="section-title">タグ別記事一覧</h2>
+        
+        {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+        {% for tag in all_tags %}
+            {% if tag != '' %}
+            {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
+            <div class="tag-section" id="tag-{{ tag | slugify }}">
+                <h3 class="tag-title">
+                    <span class="tag-icon">🏷️</span>
+                    {{ tag }}
+                    <span class="tag-count-badge">{{ tagged_posts.size }}記事</span>
+                </h3>
+                
+                <div class="articles-grid">
+                    {% for post in tagged_posts limit:6 %}
+                    <article class="article-card">
+                        <div class="article-date">
+                            <span class="day">{{ post.date | date: "%-d" }}</span>
+                            <span class="month">{{ post.date | date: "%b" }}</span>
+                        </div>
+                        
+                        <div class="article-content">
+                            <div class="article-meta">
+                                {% if post.categories and post.categories.size > 0 %}
+                                <span class="article-category">{{ post.categories.first }}</span>
+                                {% endif %}
+                                <span class="reading-time">📖 {{ post.reading_time | default: "8" }}分</span>
+                            </div>
+                            
+                            <h4 class="article-title">
+                                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                            </h4>
+                            
+                            {% if post.excerpt %}
+                            <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                            {% endif %}
+                            
+                            <div class="article-tags">
+                                {% for post_tag in post.tags limit:3 %}
+                                <span class="tag">{{ post_tag }}</span>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
+                    
+                    {% if tagged_posts.size > 6 %}
+                    <div class="more-articles">
+                        <a href="/search/?q={{ tag | url_encode }}" class="more-link">
+                            「{{ tag }}」の記事をもっと見る ({{ tagged_posts.size | minus: 6 }}件)
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+.tags-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.tags-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tags-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+}
+
+.tags-header p {
+    color: var(--gray-600);
+    font-size: 1.1rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray-800);
+    margin-bottom: 2rem;
+    border-bottom: 3px solid var(--primary-green);
+    padding-bottom: 0.5rem;
+}
+
+.tag-cloud-section {
+    margin-bottom: 4rem;
+}
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--gray-50);
+    border-radius: var(--border-radius-lg);
+}
+
+.tag-cloud-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--white);
+    color: var(--gray-700);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+    font-weight: 500;
+    border: 1px solid var(--gray-200);
+}
+
+.tag-cloud-item:hover {
+    background: var(--primary-green);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.tag-cloud-item[data-count="1"] { font-size: 0.9rem; }
+.tag-cloud-item[data-count="2"], .tag-cloud-item[data-count="3"] { font-size: 1rem; }
+.tag-cloud-item[data-count="4"], .tag-cloud-item[data-count="5"] { font-size: 1.1rem; }
+.tag-cloud-item[data-count="6"], .tag-cloud-item[data-count="7"], .tag-cloud-item[data-count="8"] { font-size: 1.2rem; }
+
+.tag-count {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.tag-section {
+    margin-bottom: 4rem;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+}
+
+.tag-title {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+    color: var(--white);
+    padding: 1.5rem 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tag-icon {
+    font-size: 1.2rem;
+}
+
+.tag-count-badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.articles-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: var(--white);
+}
+
+.article-card {
+    display: flex;
+    background: var(--gray-50);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--gray-200);
+    transition: all 0.2s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-green);
+}
+
+.article-date {
+    background: var(--primary-green);
+    color: var(--white);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    text-align: center;
+}
+
+.article-date .day {
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.article-date .month {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.article-content {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.article-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.article-category {
+    background: var(--primary-green);
+    color: var(--white);
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.reading-time {
+    color: var(--gray-600);
+}
+
+.article-title {
+    margin-bottom: 1rem;
+}
+
+.article-title a {
+    color: var(--gray-900);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.article-title a:hover {
+    color: var(--primary-green);
+}
+
+.article-excerpt {
+    color: var(--gray-600);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.article-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: var(--gray-200);
+    color: var(--gray-700);
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.more-articles {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-green);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.more-link:hover {
+    background: var(--primary-green-dark);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .tags-page {
+        padding: 1rem;
+    }
+    
+    .tag-cloud {
+        padding: 1rem;
+    }
+    
+    .tag-title {
+        padding: 1rem;
+        font-size: 1.2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .tag-count-badge {
+        margin-left: 0;
+    }
+    
+    .articles-grid {
+        padding: 1rem;
+    }
+    
+    .article-card {
+        flex-direction: column;
+    }
+    
+    .article-date {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.75rem;
+        min-width: auto;
+    }
+}
+</style>
