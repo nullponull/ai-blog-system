@@ -119,12 +119,56 @@ jobs:
             SELECTED_TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
             echo "📝 Selected topic: '$SELECTED_TOPIC'"
             
-            # Very lenient duplicate checking - only skip exact matches from recent articles
+            # Content-based duplicate checking - check for similar topics
             SKIP_TOPIC=false
             if [ ! -z "$EXISTING_RECENT" ]; then
-              # Only skip if we find an exact title match
-              if echo "$EXISTING_RECENT" | grep -Fq "title: \"$SELECTED_TOPIC\""; then
-                echo "⚠️  Skipping exact duplicate: $SELECTED_TOPIC"
+              echo "🔍 Checking for similar content..."
+              
+              # Extract key terms from the selected topic
+              # Remove common particles and extract meaningful keywords
+              TOPIC_KEYWORDS=$(echo "$SELECTED_TOPIC" | tr '[:upper:]' '[:lower:]' | \
+                sed 's/[^a-zA-Z0-9あ-んア-ン一-龯 ]//g' | \
+                awk '{for(i=1; i<=NF; i++) if(length($i) > 1) print $i}' | \
+                grep -v -E '^(の|が|を|は|に|で|と|から|まで|について|に関する|による|など|、|。|こと|もの|これ|それ|また|さらに|そして|しかし|ただし|なお|また|一方)$' | \
+                head -5)
+              echo "📝 Topic keywords: $(echo "$TOPIC_KEYWORDS" | tr '\n' ' ')"
+              
+              # Check if any existing title contains similar keywords (2 or more matches)
+              SIMILAR_FOUND=false
+              echo "$EXISTING_RECENT" | while IFS= read -r EXISTING_TITLE; do
+                if [ ! -z "$EXISTING_TITLE" ]; then
+                  # Extract title content (remove "title: " prefix and quotes)
+                  CLEAN_TITLE=$(echo "$EXISTING_TITLE" | sed 's/^title: *"//' | sed 's/"$//' | tr '[:upper:]' '[:lower:]')
+                  
+                  # Count matching keywords with weighted scoring
+                  SCORE=0
+                  for keyword in $TOPIC_KEYWORDS; do
+                    if [ ${#keyword} -gt 1 ] && echo "$CLEAN_TITLE" | grep -q "$keyword"; then
+                      # Higher weight for company names and technical terms
+                      if echo "$keyword" | grep -E -q '(openai|google|microsoft|anthropic|meta|apple|tesla|nvidia|ai|機械学習|深層学習|transformer|gpt|llm|自然言語)'; then
+                        SCORE=$((SCORE + 3))  # High weight for key AI terms
+                      else
+                        SCORE=$((SCORE + 1))  # Normal weight
+                      fi
+                    fi
+                  done
+                  
+                  # If similarity score is 3 or higher, consider it similar content
+                  if [ "$SCORE" -ge 3 ]; then
+                    echo "⚠️  Similar content found: '$CLEAN_TITLE' (similarity score: $SCORE)"
+                    echo "SIMILAR_FOUND=true" > /tmp/similar_check
+                  fi
+                fi
+              done
+              
+              # Check result from subshell
+              if [ -f /tmp/similar_check ]; then
+                SIMILAR_FOUND=true
+                rm -f /tmp/similar_check
+              fi
+              
+              if [ "$SIMILAR_FOUND" = true ]; then
+                echo "⏭️  Skipping similar topic: $SELECTED_TOPIC"
                 SKIP_TOPIC=true
               else
                 echo "✅ Topic is unique, proceeding with generation"
