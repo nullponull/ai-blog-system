@@ -30,7 +30,9 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon.ico' | relative_url }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -84,8 +86,8 @@
     <header class="site-header">
         <div class="header-container">
             <a href="{{ '/' | relative_url }}" class="site-title">
-                <div class="ai-icon">AI</div>
-                {{ site.title }}
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="ALLFORCES AI" class="site-logo">
+                <span class="site-title-text">{{ site.title }}</span>
             </a>
             <nav class="site-nav">
                 <ul>
@@ -137,20 +139,6 @@
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
-            
-            <!-- Tags Widget -->
-            <div class="widget">
-                <h3 class="widget-title">記事タグ</h3>
-                <div class="tag-cloud">
-                    <span class="tag">AI</span>
-                    <span class="tag">機械学習</span>
-                    <span class="tag">技術解説</span>
-                    <span class="tag">最新研究</span>
-                    <span class="tag">企業動向</span>
-                    <span class="tag">市場分析</span>
-                </div>
-                <p class="tag-note">※これらのタグで記事を分類しています</p>
             </div>
             
             <!-- About Widget -->

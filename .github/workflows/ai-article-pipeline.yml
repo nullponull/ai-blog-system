@@ -55,24 +55,39 @@ jobs:
           echo "Available topics:"
           echo "$TOPICS"
           
-          # Check existing articles to avoid duplicates
+          # Check existing articles to avoid duplicates (only check recent articles)
           EXISTING_TITLES=""
           if ls _posts/*.md 1> /dev/null 2>&1; then
-            EXISTING_TITLES=$(grep -h "^title:" _posts/*.md 2>/dev/null | tail -50 || echo "")
+            # Only check articles from the last 7 days to allow topic revisiting
+            EXISTING_TITLES=$(find _posts -name "*.md" -mtime -7 -exec grep -h "^title:" {} \; 2>/dev/null | head -20 || echo "")
           fi
           
           # Process each topic
           TOPIC_INDEX=1
+          ARTICLES_CREATED=0
+          MAX_ARTICLES=10
+          
           echo "$TOPICS" | while IFS= read -r TOPIC_LINE; do
+            # Limit to maximum number of articles
+            if [ "$ARTICLES_CREATED" -ge "$MAX_ARTICLES" ]; then
+              echo "Reached maximum articles limit ($MAX_ARTICLES), stopping."
+              break
+            fi
+            
             SELECTED_TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
             
-            # Skip if topic seems too similar to existing titles
+            # More refined duplicate checking - only skip if exact title match exists
+            SKIP_TOPIC=false
             if [ ! -z "$EXISTING_TITLES" ]; then
-              TOPIC_KEYWORDS=$(echo "$SELECTED_TOPIC" | cut -d' ' -f1-3)
-              if echo "$EXISTING_TITLES" | grep -qi "$TOPIC_KEYWORDS"; then
-                echo "Skipping similar topic: $SELECTED_TOPIC"
-                continue
+              # Check for exact title match (case insensitive)
+              if echo "$EXISTING_TITLES" | grep -qi "title: \"$SELECTED_TOPIC\""; then
+                echo "Skipping exact duplicate topic: $SELECTED_TOPIC"
+                SKIP_TOPIC=true
               fi
+            fi
+            
+            if [ "$SKIP_TOPIC" = true ]; then
+              continue
             fi
             
             echo "Processing topic $TOPIC_INDEX: $SELECTED_TOPIC"
@@ -191,6 +206,9 @@ jobs:
             echo "Generated article $TOPIC_INDEX: $FILENAME"
             
             TOPIC_INDEX=$((TOPIC_INDEX + 1))
+            ARTICLES_CREATED=$((ARTICLES_CREATED + 1))
+            
+            echo "Articles created so far: $ARTICLES_CREATED/$MAX_ARTICLES"
           done
 
       - name: Lint and Fix Generated Articles
