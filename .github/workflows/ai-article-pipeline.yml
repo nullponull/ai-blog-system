@@ -17,6 +17,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Pull latest changes to avoid conflicts
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Pull latest changes from main branch
+          echo "📥 Pulling latest changes from main branch..."
+          git pull --rebase origin main || {
+            echo "⚠️  Rebase failed, attempting merge strategy..."
+            git pull --no-rebase origin main || {
+              echo "❌ Both rebase and merge failed, continuing with current state..."
+              git status
+            }
+          }
+          
+          echo "✅ Repository synchronized with latest changes"
+          git log --oneline -3
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
