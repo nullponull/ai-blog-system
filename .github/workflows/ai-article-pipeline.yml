@@ -39,18 +39,32 @@ jobs:
           DATE_STR=$(date '+%Y年%m月%d日')
           
           # Generate list of current AI topics
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: ${DATE_STR} AI業界 最新ニュース トレンド 話題。今日(${DATE_STR})のAI業界で注目されている話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。" > _temp/topics-list.txt
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 2025。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。" > _temp/topics-list.txt
           
           echo "Generated topics list:"
           cat _temp/topics-list.txt
 
-      - name: Select unused topic and generate article
+      - name: Determine category and generate article
         id: generate_article
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           DATE_STR=$(date '+%Y年%m月%d日')
+          
+          # Determine category based on day of week
+          DAY_OF_WEEK=$(date +%u)  # 1=Monday, 7=Sunday
+          case $DAY_OF_WEEK in
+            1|4) CATEGORY="最新動向" ;;  # Monday & Thursday
+            2|5) CATEGORY="技術解説" ;;  # Tuesday & Friday  
+            3)   CATEGORY="実装事例" ;;  # Wednesday
+            6)   CATEGORY="業界分析" ;;  # Saturday
+            7)   CATEGORY="研究論文" ;;  # Sunday
+            *)   CATEGORY="最新動向" ;;  # Default
+          esac
+          
+          echo "Selected category: $CATEGORY"
+          echo "CATEGORY=$CATEGORY" >> $GITHUB_ENV
           
           # Extract topics from the generated list
           TOPICS=$(grep -E "^[0-9]+\." _temp/topics-list.txt | head -10)
@@ -82,8 +96,30 @@ jobs:
           echo "Selected topic: $SELECTED_TOPIC"
           echo "SELECTED_TOPIC=$SELECTED_TOPIC" >> $GITHUB_ENV
           
-          # Generate article based on selected topic
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界。今日(${DATE_STR})の「${SELECTED_TOPIC}」について、Web検索で最新情報を調査し、技術者向けの詳細な記事を日本語で作成してください。要件：実際の最新検索結果に基づいた具体的で詳細な内容、技術的な詳細説明、企業・人名・製品名・数値データを具体的に記載、自然な日本語表現（AI特有の機械的表現は避ける）、3000-4000文字程度、Markdown形式で出力（ただしコードブロック記号は使わない）。構成例：# ${SELECTED_TOPIC} ## 概要と背景 ## 最新の発表・発見内容 ## 技術的な詳細と仕組み ## 業界への影響と意義 ## 競合他社の動向 ## 今後の展望。Web検索で得た最新情報を基に、技術的な詳細、具体的な数値、企業名、人名などを含めてリアルなニュース記事として作成してください。" > _temp/new-article.md
+          # Generate category-specific prompts
+          case $CATEGORY in
+            "最新動向")
+              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界 ニュース 企業発表。「${SELECTED_TOPIC}」について、AI業界の最新動向として、Web検索で最新情報を調査し、ALLFORCES AI情報メディアの読者向けの記事を作成してください。要件：実際のニュースや企業発表に基づく具体的な内容、発表日時・企業名・人名・具体的数値を正確に記載、投資家や技術者が知りたい情報を網羅、3000-4000文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## ニュース概要 ## 発表内容の詳細 ## 技術的背景 ## 市場への影響 ## 競合他社の動向 ## 今後の展望"
+              ;;
+            "技術解説")
+              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 技術解説 仕組み アルゴリズム。「${SELECTED_TOPIC}」について、AI技術の詳細解説として、Web検索で最新の技術情報を調査し、技術者向けの詳細な解説記事を作成してください。要件：技術的な仕組みを分かりやすく解説、数式やアルゴリズムの説明、実装例や応用事例、論文や研究成果の引用、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 技術概要 ## アルゴリズムの仕組み ## 実装上の考慮点 ## 既存手法との比較 ## 応用事例 ## 今後の発展"
+              ;;
+            "実装事例") 
+              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 導入事例 活用事例 成果。「${SELECTED_TOPIC}」について、AI実装・導入事例として、Web検索で実際の活用事例を調査し、実践的な記事を作成してください。要件：具体的な導入企業名・業界・規模、導入前後の効果測定、技術的実装方法、ROIや成果指標、課題と解決策、3000-4000文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 事例概要 ## 導入背景と課題 ## 技術実装の詳細 ## 導入効果と成果 ## 課題と対応策 ## 他業界への応用可能性"
+              ;;
+            "業界分析")
+              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 業界分析 市場動向 トレンド。「${SELECTED_TOPIC}」について、特定業界のAI活用動向分析として、Web検索で業界情報を調査し、戦略的な分析記事を作成してください。要件：市場規模・成長率・主要プレイヤー分析、技術トレンドと活用パターン、規制動向、投資動向、競合状況、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 業界概況 ## AI活用の現状 ## 主要企業の取り組み ## 技術トレンド ## 市場予測 ## 投資・規制動向"
+              ;;
+            "研究論文")
+              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 論文 研究 学会 arXiv。「${SELECTED_TOPIC}」について、AI研究論文の解説として、Web検索で最新の研究情報を調査し、研究者・技術者向けの論文解説記事を作成してください。要件：論文の新規性と貢献を明確化、手法・実験結果の詳細説明、既存研究との比較、実用化の可能性、批判的評価、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 研究概要 ## 提案手法 ## 実験結果と評価 ## 既存研究との比較 ## 実用化への道筋 ## 今後の研究課題"
+              ;;
+            *)
+              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界。「${SELECTED_TOPIC}」についてWeb検索で調査し、記事を作成してください。"
+              ;;
+          esac
+          
+          # Generate article based on category-specific prompt
+          gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/new-article.md
           
           # もしgemini-cliが失敗した場合はPythonスクリプトにフォールバック
           if [ ! -f "_temp/new-article.md" ] || [ ! -s "_temp/new-article.md" ]; then
@@ -118,16 +154,44 @@ jobs:
           # 日付ベースのファイル名
           FILENAME="$(date +%Y-%m-%d)-$SLUG.md"
           
+          # カテゴリ別のタグとexcerptを設定
+          case $CATEGORY in
+            "最新動向")
+              TAGS='["AI", "最新ニュース", "業界動向", "企業発表"]'
+              EXCERPT="AI業界の最新動向について、企業発表や業界ニュースを基に詳しく解説します。"
+              ;;
+            "技術解説")
+              TAGS='["AI", "技術解説", "アルゴリズム", "実装"]'
+              EXCERPT="AI技術の仕組みとアルゴリズムについて、技術的な観点から詳しく解説します。"
+              ;;
+            "実装事例")
+              TAGS='["AI", "導入事例", "実装", "ROI"]'
+              EXCERPT="企業のAI導入事例と実装方法について、具体的な成果を含めて解説します。"
+              ;;
+            "業界分析")
+              TAGS='["AI", "市場分析", "トレンド", "投資"]'
+              EXCERPT="AI業界の市場動向と将来展望について、データに基づいて分析します。"
+              ;;
+            "研究論文")
+              TAGS='["AI", "研究論文", "学術", "最新研究"]'
+              EXCERPT="AI分野の最新研究論文について、技術的な内容を分かりやすく解説します。"
+              ;;
+            *)
+              TAGS='["AI", "機械学習", "技術解説", "最新研究"]'
+              EXCERPT="最新のAI技術動向について、Google検索で調査した最新情報を基に詳しく解説します。"
+              ;;
+          esac
+          
           # Front matterを作成
           cat > "_posts/$FILENAME" << EOF
           ---
           layout: post
           title: "$TITLE"
           date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
-          categories: ["AI技術", "最新動向"]
-          tags: ["AI", "機械学習", "技術解説", "最新研究"]
+          categories: ["$CATEGORY"]
+          tags: $TAGS
           author: "AI記事生成システム"
-          excerpt: "最新のAI技術動向について、Google検索で調査した最新情報を基に詳しく解説します。"
+          excerpt: "$EXCERPT"
           reading_time: 8
           ---
           EOF
