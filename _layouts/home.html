@@ -58,11 +58,15 @@ hide_breadcrumbs: true
             <div class="article-image">
                 {% if featured_post.categories and featured_post.categories.size > 0 %}
                     {% assign category = featured_post.categories.first %}
+                    {% assign found_icon = false %}
                     {% for cat in site.content_categories %}
                         {% if cat.name == category %}
                             {{ cat.icon }}
+                            {% assign found_icon = true %}
+                            {% break %}
                         {% endif %}
                     {% endfor %}
+                    {% unless found_icon %}🤖{% endunless %}
                 {% else %}
                     🤖
                 {% endif %}
@@ -107,11 +111,15 @@ hide_breadcrumbs: true
                 <div class="article-image small">
                     {% if post.categories and post.categories.size > 0 %}
                         {% assign category = post.categories.first %}
+                        {% assign found_icon = false %}
                         {% for cat in site.content_categories %}
                             {% if cat.name == category %}
                                 {{ cat.icon }}
+                                {% assign found_icon = true %}
+                                {% break %}
                             {% endif %}
                         {% endfor %}
+                        {% unless found_icon %}🤖{% endunless %}
                     {% else %}
                         🤖
                     {% endif %}
@@ -165,11 +173,15 @@ hide_breadcrumbs: true
             <div class="article-image">
                 {% if post.categories and post.categories.size > 0 %}
                     {% assign category = post.categories.first %}
+                    {% assign found_icon = false %}
                     {% for cat in site.content_categories %}
                         {% if cat.name == category %}
                             {{ cat.icon }}
+                            {% assign found_icon = true %}
+                            {% break %}
                         {% endif %}
                     {% endfor %}
+                    {% unless found_icon %}🤖{% endunless %}
                 {% else %}
                     🤖
                 {% endif %}
