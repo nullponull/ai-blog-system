@@ -40,8 +40,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     
-    <!-- RSS Feed -->
-    <link type="application/atom+xml" rel="alternate" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title }}">
+    <!-- RSS Feeds -->
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title }} - すべての記事">
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feeds/latest.xml' | relative_url }}" title="{{ site.title }} - 最新動向">
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feeds/tech.xml' | relative_url }}" title="{{ site.title }} - 技術解説">
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feeds/implementation.xml' | relative_url }}" title="{{ site.title }} - 実装事例">
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feeds/analysis.xml' | relative_url }}" title="{{ site.title }} - 業界分析">
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feeds/research.xml' | relative_url }}" title="{{ site.title }} - 研究論文">
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -169,7 +174,20 @@
                     <h3>リンク</h3>
                     <ul>
                         <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+                        <li><a href="/search/">🔍 検索</a></li>
+                        <li><a href="/archive/">📚 アーカイブ</a></li>
                         <li><a href="https://allforces.wuaze.com" target="_blank">コーポレートサイト</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>RSS フィード</h3>
+                    <ul>
+                        <li><a href="/feed.xml" target="_blank">🔗 すべての記事</a></li>
+                        <li><a href="/feeds/latest.xml" target="_blank">📈 最新動向</a></li>
+                        <li><a href="/feeds/tech.xml" target="_blank">🔬 技術解説</a></li>
+                        <li><a href="/feeds/implementation.xml" target="_blank">💼 実装事例</a></li>
+                        <li><a href="/feeds/analysis.xml" target="_blank">📊 業界分析</a></li>
+                        <li><a href="/feeds/research.xml" target="_blank">🎓 研究論文</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
