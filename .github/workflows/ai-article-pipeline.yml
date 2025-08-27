@@ -78,14 +78,14 @@ jobs:
           TODAY=$(date +%Y-%m-%d)
           echo "📅 Today's date: $TODAY"
           
-          # Check articles from the last 3 days to allow some variety but prevent immediate duplicates
+          # Check articles from the last 1 day only to reduce false positives
           if ls _posts/*.md 1> /dev/null 2>&1; then
-            EXISTING_RECENT=$(find _posts -name "*.md" -mtime -3 -exec grep -h "^title:" {} \; 2>/dev/null | head -30 || echo "")
+            EXISTING_RECENT=$(find _posts -name "*.md" -mtime -1 -exec grep -h "^title:" {} \; 2>/dev/null | head -10 || echo "")
             RECENT_COUNT=$(echo "$EXISTING_RECENT" | grep -c "^title:" || echo "0")
-            echo "📚 Found $RECENT_COUNT existing articles in the last 3 days"
+            echo "📚 Found $RECENT_COUNT existing articles in the last 1 day"
             if [ "$RECENT_COUNT" -gt 0 ]; then
               echo "Recent titles preview:"
-              echo "$EXISTING_RECENT" | head -5
+              echo "$EXISTING_RECENT" | head -3
             fi
           else
             echo "📝 No existing articles found"
@@ -94,6 +94,7 @@ jobs:
           # Process each topic with enhanced debugging
           TOPIC_INDEX=1
           ARTICLES_CREATED=0
+          SKIPPED_COUNT=0
           MAX_ARTICLES=10
           
           echo "=== Starting article generation for $MAX_ARTICLES articles ==="
@@ -142,21 +143,29 @@ jobs:
                   
                   # Count matching keywords with weighted scoring
                   SCORE=0
+                  MATCHED_KEYWORDS=""
                   for keyword in $TOPIC_KEYWORDS; do
-                    if [ ${#keyword} -gt 1 ] && echo "$CLEAN_TITLE" | grep -q "$keyword"; then
+                    if [ ${#keyword} -gt 2 ] && echo "$CLEAN_TITLE" | grep -q "$keyword"; then
                       # Higher weight for company names and technical terms
-                      if echo "$keyword" | grep -E -q '(openai|google|microsoft|anthropic|meta|apple|tesla|nvidia|ai|機械学習|深層学習|transformer|gpt|llm|自然言語)'; then
-                        SCORE=$((SCORE + 3))  # High weight for key AI terms
+                      if echo "$keyword" | grep -E -q '(openai|google|microsoft|anthropic|meta|apple|tesla|nvidia|機械学習|深層学習|transformer|gpt|llm|自然言語)'; then
+                        SCORE=$((SCORE + 4))  # High weight for key AI terms
+                        MATCHED_KEYWORDS="$MATCHED_KEYWORDS $keyword(+4)"
                       else
-                        SCORE=$((SCORE + 1))  # Normal weight
+                        SCORE=$((SCORE + 1))  # Normal weight  
+                        MATCHED_KEYWORDS="$MATCHED_KEYWORDS $keyword(+1)"
                       fi
                     fi
                   done
                   
-                  # If similarity score is 3 or higher, consider it similar content
-                  if [ "$SCORE" -ge 3 ]; then
-                    echo "⚠️  Similar content found: '$CLEAN_TITLE' (similarity score: $SCORE)"
+                  # Only skip if we have very high similarity (8+ points) AND multiple keyword matches
+                  # This ensures only truly duplicate content is skipped
+                  KEYWORD_COUNT=$(echo "$MATCHED_KEYWORDS" | wc -w)
+                  if [ "$SCORE" -ge 8 ] && [ "$KEYWORD_COUNT" -ge 3 ]; then
+                    echo "⚠️  Very high similarity found: '$CLEAN_TITLE'"
+                    echo "🔍 Matched keywords: $MATCHED_KEYWORDS (total score: $SCORE, keywords: $KEYWORD_COUNT)"
                     echo "SIMILAR_FOUND=true" > /tmp/similar_check
+                  elif [ "$SCORE" -gt 0 ]; then
+                    echo "💡 Some similarity: '$CLEAN_TITLE' (score: $SCORE, keywords: $KEYWORD_COUNT) - but proceeding"
                   fi
                 fi
               done
@@ -167,8 +176,17 @@ jobs:
                 rm -f /tmp/similar_check
               fi
               
+              # Fallback mechanism: if we've skipped too many, force generation
               if [ "$SIMILAR_FOUND" = true ]; then
-                echo "⏭️  Skipping similar topic: $SELECTED_TOPIC"
+                SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+                if [ $ARTICLES_CREATED -lt 3 ] && [ $SKIPPED_COUNT -gt 4 ]; then
+                  echo "🔓 Fallback: Force generating to ensure minimum content (created: $ARTICLES_CREATED, skipped: $SKIPPED_COUNT)"
+                  SIMILAR_FOUND=false
+                fi
+              fi
+              
+              if [ "$SIMILAR_FOUND" = true ]; then
+                echo "⏭️  Skipping similar topic: $SELECTED_TOPIC (skipped: $SKIPPED_COUNT)"
                 SKIP_TOPIC=true
               else
                 echo "✅ Topic is unique, proceeding with generation"
@@ -308,6 +326,7 @@ jobs:
           
           echo "=== Article generation completed ==="
           echo "✅ Successfully created $ARTICLES_CREATED articles out of $MAX_ARTICLES maximum"
+          echo "📊 Statistics: Created: $ARTICLES_CREATED, Skipped (duplicates): $SKIPPED_COUNT"
 
       - name: Lint and Fix Generated Articles
         run: |
