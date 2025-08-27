@@ -46,3 +46,8 @@ Thumbs.db
 .env.test.local
 .env.production.local
 
+# Shell configuration files with secrets
+.bashrc.local
+.zshrc.local
+.profile.local
+
