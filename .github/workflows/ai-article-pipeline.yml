@@ -2,10 +2,8 @@ name: AI Article Generation & Publishing Pipeline
 
 on:
   schedule:
-    - cron: '15 * * * *'  # 毎時15分に実行
-    - cron: '37 * * * *'  # 毎時37分に実行
-    - cron: '52 * * * *'  # 毎時52分に実行
-  workflow_dispatch:      # 手動実行も可能
+    - cron: '15 */8 * * *'  # 8時間ごと（3:15, 11:15, 19:15）に実行
+  workflow_dispatch:        # 手動実行も可能
 
 jobs:
   generate-and-publish:
@@ -44,27 +42,13 @@ jobs:
           echo "Generated topics list:"
           cat _temp/topics-list.txt
 
-      - name: Determine category and generate article
-        id: generate_article
+      - name: Generate articles for all topics
+        id: generate_articles
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           DATE_STR=$(date '+%Y年%m月%d日')
-          
-          # Determine category based on day of week
-          DAY_OF_WEEK=$(date +%u)  # 1=Monday, 7=Sunday
-          case $DAY_OF_WEEK in
-            1|4) CATEGORY="最新動向" ;;  # Monday & Thursday
-            2|5) CATEGORY="技術解説" ;;  # Tuesday & Friday  
-            3)   CATEGORY="実装事例" ;;  # Wednesday
-            6)   CATEGORY="業界分析" ;;  # Saturday
-            7)   CATEGORY="研究論文" ;;  # Sunday
-            *)   CATEGORY="最新動向" ;;  # Default
-          esac
-          
-          echo "Selected category: $CATEGORY"
-          echo "CATEGORY=$CATEGORY" >> $GITHUB_ENV
           
           # Extract topics from the generated list
           TOPICS=$(grep -E "^[0-9]+\." _temp/topics-list.txt | head -10)
@@ -74,116 +58,121 @@ jobs:
           # Check existing articles to avoid duplicates
           EXISTING_TITLES=""
           if ls _posts/*.md 1> /dev/null 2>&1; then
-            EXISTING_TITLES=$(grep -h "^title:" _posts/*.md 2>/dev/null | tail -20 || echo "")
+            EXISTING_TITLES=$(grep -h "^title:" _posts/*.md 2>/dev/null | tail -50 || echo "")
           fi
           
-          # Select a random topic from the list
-          TOPIC_COUNT=$(echo "$TOPICS" | wc -l)
-          RANDOM_INDEX=$((RANDOM % TOPIC_COUNT + 1))
-          SELECTED_TOPIC=$(echo "$TOPICS" | sed -n "${RANDOM_INDEX}p" | sed 's/^[0-9]*\. *//')
-          
-          # If selected topic seems too similar to existing titles, try another one
-          if [ ! -z "$EXISTING_TITLES" ]; then
-            for i in {1..5}; do
-              if echo "$EXISTING_TITLES" | grep -qi "$(echo "$SELECTED_TOPIC" | cut -d' ' -f1-2)"; then
-                RANDOM_INDEX=$((RANDOM % TOPIC_COUNT + 1))
-                SELECTED_TOPIC=$(echo "$TOPICS" | sed -n "${RANDOM_INDEX}p" | sed 's/^[0-9]*\. *//')
-              else
-                break
+          # Process each topic
+          TOPIC_INDEX=1
+          echo "$TOPICS" | while IFS= read -r TOPIC_LINE; do
+            SELECTED_TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            
+            # Skip if topic seems too similar to existing titles
+            if [ ! -z "$EXISTING_TITLES" ]; then
+              TOPIC_KEYWORDS=$(echo "$SELECTED_TOPIC" | cut -d' ' -f1-3)
+              if echo "$EXISTING_TITLES" | grep -qi "$TOPIC_KEYWORDS"; then
+                echo "Skipping similar topic: $SELECTED_TOPIC"
+                continue
               fi
-            done
-          fi
-          echo "Selected topic: $SELECTED_TOPIC"
-          echo "SELECTED_TOPIC=$SELECTED_TOPIC" >> $GITHUB_ENV
-          
-          # Generate category-specific prompts
-          case $CATEGORY in
-            "最新動向")
-              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界 ニュース 企業発表。「${SELECTED_TOPIC}」について、AI業界の最新動向として、Web検索で最新情報を調査し、ALLFORCES AI情報メディアの読者向けの記事を作成してください。要件：実際のニュースや企業発表に基づく具体的な内容、発表日時・企業名・人名・具体的数値を正確に記載、投資家や技術者が知りたい情報を網羅、3000-4000文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## ニュース概要 ## 発表内容の詳細 ## 技術的背景 ## 市場への影響 ## 競合他社の動向 ## 今後の展望"
-              ;;
-            "技術解説")
-              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 技術解説 仕組み アルゴリズム。「${SELECTED_TOPIC}」について、AI技術の詳細解説として、Web検索で最新の技術情報を調査し、技術者向けの詳細な解説記事を作成してください。要件：技術的な仕組みを分かりやすく解説、数式やアルゴリズムの説明、実装例や応用事例、論文や研究成果の引用、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 技術概要 ## アルゴリズムの仕組み ## 実装上の考慮点 ## 既存手法との比較 ## 応用事例 ## 今後の発展"
-              ;;
-            "実装事例") 
-              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 導入事例 活用事例 成果。「${SELECTED_TOPIC}」について、AI実装・導入事例として、Web検索で実際の活用事例を調査し、実践的な記事を作成してください。要件：具体的な導入企業名・業界・規模、導入前後の効果測定、技術的実装方法、ROIや成果指標、課題と解決策、3000-4000文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 事例概要 ## 導入背景と課題 ## 技術実装の詳細 ## 導入効果と成果 ## 課題と対応策 ## 他業界への応用可能性"
-              ;;
-            "業界分析")
-              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 業界分析 市場動向 トレンド。「${SELECTED_TOPIC}」について、特定業界のAI活用動向分析として、Web検索で業界情報を調査し、戦略的な分析記事を作成してください。要件：市場規模・成長率・主要プレイヤー分析、技術トレンドと活用パターン、規制動向、投資動向、競合状況、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 業界概況 ## AI活用の現状 ## 主要企業の取り組み ## 技術トレンド ## 市場予測 ## 投資・規制動向"
-              ;;
-            "研究論文")
-              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 論文 研究 学会 arXiv。「${SELECTED_TOPIC}」について、AI研究論文の解説として、Web検索で最新の研究情報を調査し、研究者・技術者向けの論文解説記事を作成してください。要件：論文の新規性と貢献を明確化、手法・実験結果の詳細説明、既存研究との比較、実用化の可能性、批判的評価、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 研究概要 ## 提案手法 ## 実験結果と評価 ## 既存研究との比較 ## 実用化への道筋 ## 今後の研究課題"
-              ;;
-            *)
-              PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界。「${SELECTED_TOPIC}」についてWeb検索で調査し、記事を作成してください。"
-              ;;
-          esac
-          
-          # Generate article based on category-specific prompt
-          gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/new-article.md
-          
-          # もしgemini-cliが失敗した場合はPythonスクリプトにフォールバック
-          if [ ! -f "_temp/new-article.md" ] || [ ! -s "_temp/new-article.md" ]; then
-            echo "Gemini CLI failed, falling back to Python script"
-            python generate_article_standalone.py
-          fi
-
-      - name: Lint and Fix Generated Article
-        run: |
-          # textlintで記事を校正（エラーがあっても継続）
-          if [ -f "_temp/new-article.md" ]; then
-            npx textlint _temp/new-article.md --fix || echo "Textlint completed with warnings"
-          else
-            echo "Article file not found, skipping textlint"
-          fi
-
-      - name: Create final article file
-        run: |
-          DATE_STR=$(date '+%Y年%m月%d日')
-          
-          # 記事タイトルを取得（より堅牢な処理）
-          TITLE=$(grep -m 1 "^# " _temp/new-article.md | sed 's/^# //' | sed 's/[[:space:]]*$//')
-          
-          # タイトルが取得できない場合は話題ベースのタイトルを使用
-          if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ] || [[ "$TITLE" == *'```'* ]]; then
-            TITLE="$SELECTED_TOPIC"
-          fi
-          
-          # ファイル名用にタイトルを変換
-          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g')
-          
-          # 日付ベースのファイル名
-          FILENAME="$(date +%Y-%m-%d)-$SLUG.md"
-          
-          # カテゴリ別のタグとexcerptを設定
-          case $CATEGORY in
-            "最新動向")
-              TAGS='["AI", "最新ニュース", "業界動向", "企業発表"]'
-              EXCERPT="AI業界の最新動向について、企業発表や業界ニュースを基に詳しく解説します。"
-              ;;
-            "技術解説")
-              TAGS='["AI", "技術解説", "アルゴリズム", "実装"]'
-              EXCERPT="AI技術の仕組みとアルゴリズムについて、技術的な観点から詳しく解説します。"
-              ;;
-            "実装事例")
-              TAGS='["AI", "導入事例", "実装", "ROI"]'
-              EXCERPT="企業のAI導入事例と実装方法について、具体的な成果を含めて解説します。"
-              ;;
-            "業界分析")
-              TAGS='["AI", "市場分析", "トレンド", "投資"]'
-              EXCERPT="AI業界の市場動向と将来展望について、データに基づいて分析します。"
-              ;;
-            "研究論文")
-              TAGS='["AI", "研究論文", "学術", "最新研究"]'
-              EXCERPT="AI分野の最新研究論文について、技術的な内容を分かりやすく解説します。"
-              ;;
-            *)
-              TAGS='["AI", "機械学習", "技術解説", "最新研究"]'
-              EXCERPT="最新のAI技術動向について、Google検索で調査した最新情報を基に詳しく解説します。"
-              ;;
-          esac
-          
-          # Front matterを作成
-          cat > "_posts/$FILENAME" << EOF
+            fi
+            
+            echo "Processing topic $TOPIC_INDEX: $SELECTED_TOPIC"
+            
+            # Determine category based on topic content
+            CATEGORY="最新動向"  # Default
+            if [[ "$SELECTED_TOPIC" =~ (研究|論文|arXiv|学会|Research|Paper) ]]; then
+              CATEGORY="研究論文"
+            elif [[ "$SELECTED_TOPIC" =~ (技術|アルゴリズム|仕組み|実装|開発|Technology|Algorithm) ]]; then
+              CATEGORY="技術解説"
+            elif [[ "$SELECTED_TOPIC" =~ (導入|事例|活用|ROI|成果|企業|Case|Implementation) ]]; then
+              CATEGORY="実装事例"
+            elif [[ "$SELECTED_TOPIC" =~ (市場|分析|予測|トレンド|投資|Market|Analysis|Trend) ]]; then
+              CATEGORY="業界分析"
+            elif [[ "$SELECTED_TOPIC" =~ (ニュース|発表|リリース|News|Release|発売|新製品) ]]; then
+              CATEGORY="最新動向"
+            fi
+            
+            echo "Selected category for '$SELECTED_TOPIC': $CATEGORY"
+            
+            # Generate category-specific prompts
+            case $CATEGORY in
+              "最新動向")
+                PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界 ニュース 企業発表。「${SELECTED_TOPIC}」について、AI業界の最新動向として、Web検索で最新情報を調査し、ALLFORCES AI情報メディアの読者向けの記事を作成してください。要件：実際のニュースや企業発表に基づく具体的な内容、発表日時・企業名・人名・具体的数値を正確に記載、投資家や技術者が知りたい情報を網羅、3000-4000文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## ニュース概要 ## 発表内容の詳細 ## 技術的背景 ## 市場への影響 ## 競合他社の動向 ## 今後の展望"
+                ;;
+              "技術解説")
+                PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 技術解説 仕組み アルゴリズム。「${SELECTED_TOPIC}」について、AI技術の詳細解説として、Web検索で最新の技術情報を調査し、技術者向けの詳細な解説記事を作成してください。要件：技術的な仕組みを分かりやすく解説、数式やアルゴリズムの説明、実装例や応用事例、論文や研究成果の引用、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 技術概要 ## アルゴリズムの仕組み ## 実装上の考慮点 ## 既存手法との比較 ## 応用事例 ## 今後の発展"
+                ;;
+              "実装事例") 
+                PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 導入事例 活用事例 成果。「${SELECTED_TOPIC}」について、AI実装・導入事例として、Web検索で実際の活用事例を調査し、実践的な記事を作成してください。要件：具体的な導入企業名・業界・規模、導入前後の効果測定、技術的実装方法、ROIや成果指標、課題と解決策、3000-4000文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 事例概要 ## 導入背景と課題 ## 技術実装の詳細 ## 導入効果と成果 ## 課題と対応策 ## 他業界への応用可能性"
+                ;;
+              "業界分析")
+                PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 業界分析 市場動向 トレンド。「${SELECTED_TOPIC}」について、特定業界のAI活用動向分析として、Web検索で業界情報を調査し、戦略的な分析記事を作成してください。要件：市場規模・成長率・主要プレイヤー分析、技術トレンドと活用パターン、規制動向、投資動向、競合状況、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 業界概況 ## AI活用の現状 ## 主要企業の取り組み ## 技術トレンド ## 市場予測 ## 投資・規制動向"
+                ;;
+              "研究論文")
+                PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI 論文 研究 学会 arXiv。「${SELECTED_TOPIC}」について、AI研究論文の解説として、Web検索で最新の研究情報を調査し、研究者・技術者向けの論文解説記事を作成してください。要件：論文の新規性と貢献を明確化、手法・実験結果の詳細説明、既存研究との比較、実用化の可能性、批判的評価、3500-4500文字、Markdown形式。構成：# ${SELECTED_TOPIC} ## 研究概要 ## 提案手法 ## 実験結果と評価 ## 既存研究との比較 ## 実用化への道筋 ## 今後の研究課題"
+                ;;
+              *)
+                PROMPT="WebSearch: ${DATE_STR} ${SELECTED_TOPIC} AI業界。「${SELECTED_TOPIC}」についてWeb検索で調査し、記事を作成してください。"
+                ;;
+            esac
+            
+            # Generate article based on category-specific prompt
+            echo "Generating article for topic: $SELECTED_TOPIC (Category: $CATEGORY)"
+            gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"
+            
+            # もしgemini-cliが失敗した場合はスキップ
+            if [ ! -f "_temp/article-${TOPIC_INDEX}.md" ] || [ ! -s "_temp/article-${TOPIC_INDEX}.md" ]; then
+              echo "Failed to generate article for topic: $SELECTED_TOPIC"
+              TOPIC_INDEX=$((TOPIC_INDEX + 1))
+              continue
+            fi
+            
+            # Create the final article file
+            echo "Creating final article file for: $SELECTED_TOPIC"
+            
+            # 記事タイトルを取得（より堅牢な処理）
+            TITLE=$(grep -m 1 "^# " "_temp/article-${TOPIC_INDEX}.md" | sed 's/^# //' | sed 's/[[:space:]]*$//')
+            
+            # タイトルが取得できない場合は話題ベースのタイトルを使用
+            if [ -z "$TITLE" ] || [ "$TITLE" = "markdown" ] || [[ "$TITLE" == *'```'* ]]; then
+              TITLE="$SELECTED_TOPIC"
+            fi
+            
+            # ファイル名用にタイトルを変換
+            SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g')
+            
+            # 日付ベースのファイル名（重複を避けるため番号を追加）
+            FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-$SLUG.md"
+            
+            # カテゴリ別のタグとexcerptを設定
+            case $CATEGORY in
+              "最新動向")
+                TAGS='["AI", "最新ニュース", "業界動向", "企業発表"]'
+                EXCERPT="AI業界の最新動向について、企業発表や業界ニュースを基に詳しく解説します。"
+                ;;
+              "技術解説")
+                TAGS='["AI", "技術解説", "アルゴリズム", "実装"]'
+                EXCERPT="AI技術の仕組みとアルゴリズムについて、技術的な観点から詳しく解説します。"
+                ;;
+              "実装事例")
+                TAGS='["AI", "導入事例", "実装", "ROI"]'
+                EXCERPT="企業のAI導入事例と実装方法について、具体的な成果を含めて解説します。"
+                ;;
+              "業界分析")
+                TAGS='["AI", "市場分析", "トレンド", "投資"]'
+                EXCERPT="AI業界の市場動向と将来展望について、データに基づいて分析します。"
+                ;;
+              "研究論文")
+                TAGS='["AI", "研究論文", "学術", "最新研究"]'
+                EXCERPT="AI分野の最新研究論文について、技術的な内容を分かりやすく解説します。"
+                ;;
+              *)
+                TAGS='["AI", "機械学習", "技術解説", "最新研究"]'
+                EXCERPT="最新のAI技術動向について、Google検索で調査した最新情報を基に詳しく解説します。"
+                ;;
+            esac
+            
+            # Front matterを作成
+            cat > "_posts/$FILENAME" << EOF
           ---
           layout: post
           title: "$TITLE"
@@ -195,11 +184,24 @@ jobs:
           reading_time: 8
           ---
           EOF
-          
-          # 記事本文を追加（markdownコードブロック記号を除去）
-          sed '1d' _temp/new-article.md | sed '/^```markdown$/d' | sed '/^```$/d' >> "_posts/$FILENAME"
-          
-          echo "Generated article: $FILENAME"
+            
+            # 記事本文を追加（markdownコードブロック記号を除去）
+            sed '1d' "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_posts/$FILENAME"
+            
+            echo "Generated article $TOPIC_INDEX: $FILENAME"
+            
+            TOPIC_INDEX=$((TOPIC_INDEX + 1))
+          done
+
+      - name: Lint and Fix Generated Articles
+        run: |
+          # textlintで記事を校正（エラーがあっても継続）
+          for article_file in _temp/article-*.md; do
+            if [ -f "$article_file" ]; then
+              npx textlint "$article_file" --fix || echo "Textlint completed with warnings for $article_file"
+            fi
+          done
+
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -237,6 +239,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "feat: Add new AI article - $(date +%Y-%m-%d)"
+            ARTICLE_COUNT=$(find _posts -name "$(date +%Y-%m-%d)-*.md" | wc -l)
+            git commit -m "feat: Add $ARTICLE_COUNT new AI articles - $(date +%Y-%m-%d)"
             git push
           fi
