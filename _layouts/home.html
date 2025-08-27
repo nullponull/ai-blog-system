@@ -96,13 +96,6 @@ hide_breadcrumbs: true
                     <div class="article-author">
                         👤 {{ featured_post.author | default: site.author }}
                     </div>
-                    {% if featured_post.tags and featured_post.tags.size > 0 %}
-                    <div class="article-tags">
-                        {% for tag in featured_post.tags limit:3 %}
-                        <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
                 </div>
             </div>
         </article>
@@ -210,13 +203,6 @@ hide_breadcrumbs: true
                     <div class="article-author">
                         👤 {{ post.author | default: site.author }}
                     </div>
-                    {% if post.tags and post.tags.size > 0 %}
-                    <div class="article-tags">
-                        {% for tag in post.tags limit:2 %}
-                        <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
                 </div>
             </div>
         </article>
