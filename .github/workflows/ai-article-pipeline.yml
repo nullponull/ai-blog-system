@@ -55,39 +55,55 @@ jobs:
           echo "Available topics:"
           echo "$TOPICS"
           
-          # Check existing articles to avoid duplicates (only check recent articles)
-          EXISTING_TITLES=""
-          if ls _posts/*.md 1> /dev/null 2>&1; then
-            # Only check articles from the last 7 days to allow topic revisiting
-            EXISTING_TITLES=$(find _posts -name "*.md" -mtime -7 -exec grep -h "^title:" {} \; 2>/dev/null | head -20 || echo "")
+          # Very minimal duplicate checking - only check today's articles
+          EXISTING_TODAY=""
+          TODAY=$(date +%Y-%m-%d)
+          if ls _posts/${TODAY}-*.md 1> /dev/null 2>&1; then
+            EXISTING_TODAY=$(grep -h "^title:" _posts/${TODAY}-*.md 2>/dev/null || echo "")
+            echo "Found existing articles today: $(echo "$EXISTING_TODAY" | wc -l) articles"
+          else
+            echo "No existing articles found for today ($TODAY)"
           fi
           
-          # Process each topic
+          # Process each topic with enhanced debugging
           TOPIC_INDEX=1
           ARTICLES_CREATED=0
           MAX_ARTICLES=10
           
+          echo "=== Starting article generation for $MAX_ARTICLES articles ==="
+          echo "Topics to process:"
+          echo "$TOPICS"
+          
           # Use process substitution to avoid subshell variable scope issues
           while IFS= read -r TOPIC_LINE; do
+            echo "--- Processing topic line: '$TOPIC_LINE' ---"
+            
             # Limit to maximum number of articles
             if [ "$ARTICLES_CREATED" -ge "$MAX_ARTICLES" ]; then
-              echo "Reached maximum articles limit ($MAX_ARTICLES), stopping."
+              echo "✅ Reached maximum articles limit ($MAX_ARTICLES), stopping."
               break
             fi
             
-            SELECTED_TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            # Skip empty lines
+            if [ -z "$TOPIC_LINE" ]; then
+              echo "⏭️  Skipping empty line"
+              continue
+            fi
             
-            # More refined duplicate checking - only skip if exact title match exists
+            SELECTED_TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            echo "📝 Selected topic: '$SELECTED_TOPIC'"
+            
+            # Very lenient duplicate checking - only exact title and date match
             SKIP_TOPIC=false
-            if [ ! -z "$EXISTING_TITLES" ]; then
-              # Check for exact title match (case insensitive)
-              if echo "$EXISTING_TITLES" | grep -qi "title: \"$SELECTED_TOPIC\""; then
-                echo "Skipping exact duplicate topic: $SELECTED_TOPIC"
+            if [ ! -z "$EXISTING_TODAY" ]; then
+              if echo "$EXISTING_TODAY" | grep -Fq "title: \"$SELECTED_TOPIC\""; then
+                echo "⚠️  Skipping exact duplicate from today: $SELECTED_TOPIC"
                 SKIP_TOPIC=true
               fi
             fi
             
             if [ "$SKIP_TOPIC" = true ]; then
+              echo "⏭️  Skipping duplicate topic"
               continue
             fi
             
@@ -204,13 +220,19 @@ jobs:
             # 記事本文を追加（markdownコードブロック記号を除去）
             sed '1d' "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_posts/$FILENAME"
             
-            echo "Generated article $TOPIC_INDEX: $FILENAME"
+            echo "✅ Generated article $TOPIC_INDEX: $FILENAME"
+            echo "📄 Title: $TITLE"
+            echo "📂 Category: $CATEGORY"
             
             TOPIC_INDEX=$((TOPIC_INDEX + 1))
             ARTICLES_CREATED=$((ARTICLES_CREATED + 1))
             
-            echo "Articles created so far: $ARTICLES_CREATED/$MAX_ARTICLES"
+            echo "📈 Articles created so far: $ARTICLES_CREATED/$MAX_ARTICLES"
+            echo ""
           done <<< "$TOPICS"
+          
+          echo "=== Article generation completed ==="
+          echo "✅ Successfully created $ARTICLES_CREATED articles out of $MAX_ARTICLES maximum"
 
       - name: Lint and Fix Generated Articles
         run: |

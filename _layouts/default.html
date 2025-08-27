@@ -222,14 +222,36 @@
         });
     </script>
 
-    <!-- Google Analytics (Optional) -->
+    <!-- Google Analytics (Error-safe loading) -->
     {% if site.google_analytics %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
+        // Error-safe Google Analytics loading
+        (function() {
+            try {
+                // Create and load gtag script
+                const script = document.createElement('script');
+                script.async = true;
+                script.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+                script.onerror = function() {
+                    console.log('Google Analytics blocked by ad blocker - analytics disabled');
+                };
+                document.head.appendChild(script);
+                
+                // Initialize dataLayer and gtag
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '{{ site.google_analytics }}', {
+                    'anonymize_ip': true,
+                    'cookie_flags': 'SameSite=None;Secure'
+                });
+                
+                // Make gtag available globally
+                window.gtag = gtag;
+            } catch(e) {
+                console.log('Google Analytics initialization failed:', e.message);
+            }
+        })();
     </script>
     {% endif %}
 </body>
