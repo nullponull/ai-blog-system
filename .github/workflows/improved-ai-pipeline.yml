@@ -62,6 +62,9 @@ jobs:
           TOPIC_INDEX=1
           GENERATED_COUNT=0
           
+          set +e  # Continue on errors
+          export LC_ALL=C  # Set locale to avoid encoding issues
+          
           while IFS= read -r TOPIC_LINE; do
             if [ -z "$TOPIC_LINE" ]; then
               continue
@@ -89,7 +92,7 @@ jobs:
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
               TITLE=$(echo "$TOPIC" | cut -c1-80)
-              SLUG=$(echo "$TOPIC" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9あ-んア-ン一-龯]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | cut -c1-50)
+              SLUG=$(echo "$TOPIC" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | cut -c1-50)
               FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
               
               # Store in temp for processing
@@ -115,6 +118,7 @@ jobs:
             TOPIC_INDEX=$((TOPIC_INDEX + 1))
           done <<< "$TOPICS"
           
+          set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
 
       - name: Semantic article selection
