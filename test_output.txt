@@ -1,0 +1,10 @@
+1. Googleがオクラホマ州でクラウド・AIインフラを拡充
+2. NSFとNVIDIAがAi2研究所のAI基盤構築に大規模投資
+3. AnthropicがClaude Sonnet 4のコンテキストウィンドウを拡大
+4. OpenAIのGPT-5への注目とインド法人設立計画
+5. Metaが生成AI分野での競争に対応しAI部門を再編
+6. AI駆動開発（AIDD）がソフトウェア開発で主流化
+7. IBMとUSTAが2025年全米オープンでAIを活用した観戦体験導入
+8. シンガポール製造業連盟が国内製造業向けAI助言サービス提供
+9. ゼットスケーラーとCrowdStrikeがAIを活用したセキュリティ運用で提携拡大
+10. Mixture-of-Agents (MoA)技術が注目を集める

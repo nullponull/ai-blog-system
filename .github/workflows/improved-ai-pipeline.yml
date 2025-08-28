@@ -41,7 +41,37 @@ jobs:
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
           echo "🎯 Generating AI topics..."
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 $(date '+%Y年%m月%d日')。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。" > _temp/topics.txt
+          echo "Debug: GEMINI_API_KEY is $([ -n "$GEMINI_API_KEY" ] && echo "set (length: ${#GEMINI_API_KEY})" || echo "NOT SET")"
+          
+          # GitHub Actions環境でのAPI key認証確認
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "❌ GEMINI_API_KEY is not set. Please check GitHub Secrets configuration."
+            exit 1
+          fi
+          
+          # Gemini CLI with API key authentication
+          echo "Testing Gemini API connection..."
+          if ! gemini --version; then
+            echo "❌ Gemini CLI not found or not working"
+            exit 1
+          fi
+          
+          # API call with detailed error reporting
+          echo "🎯 Calling Gemini API..."
+          PROMPT="WebSearch: AI業界 最新ニュース トレンド 話題。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。"
+          
+          if gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful"
+          else
+            echo "❌ Gemini API call failed"
+            echo "Error log:"
+            cat _temp/gemini_error.log || echo "No error log available"
+            echo "Checking for common issues:"
+            echo "- API Key format: $(echo "$GEMINI_API_KEY" | sed 's/.*\(.....\)$/***\1/')"
+            echo "- Network connectivity test:"
+            curl -s --max-time 10 https://generativelanguage.googleapis.com > /dev/null && echo "  ✅ Can reach Google AI API" || echo "  ❌ Cannot reach Google AI API"
+            exit 1
+          fi
           
           echo "Generated topics:"
           head -15 _temp/topics.txt
