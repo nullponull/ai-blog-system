@@ -65,15 +65,12 @@ jobs:
           # Check if topics were generated successfully
           if [ -z "$TOPICS" ]; then
             echo "❌ No topics generated, using fallback topics"
-            TOPICS=$(cat << 'FALLBACK_EOF'
-1. OpenAI ChatGPT-5の機能向上とビジネス応用
+            TOPICS="1. OpenAI ChatGPT-5の機能向上とビジネス応用
 2. Google Bard Gemini Proの最新アップデート
 3. Microsoft Copilot for 365の企業導入事例
 4. AI画像生成技術の著作権問題と解決策
 5. 自動運転AI技術の2025年の進展予測
-6. 医療診断AIの精度向上と規制動向
-FALLBACK_EOF
-)
+6. 医療診断AIの精度向上と規制動向"
             echo "Using fallback topics:"
             echo "$TOPICS"
           fi
