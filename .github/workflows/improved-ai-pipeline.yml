@@ -52,14 +52,12 @@ jobs:
           
           if [ -z "$TOPICS" ]; then
             echo "❌ No topics generated, using fallback topics"
-            cat > _temp/fallback_topics.txt << 'FALLBACK_EOF'
-1. OpenAI ChatGPT-5の機能向上とビジネス応用
-2. Google Gemini 2.0の画像認識技術向上
-3. Microsoft Copilot for 365の企業導入拡大
-4. AI画像生成技術の著作権問題と法的対応
-5. 自動運転AI技術の2025年商用化予測
-6. 医療診断AIの精度向上と規制動向
-FALLBACK_EOF
+            echo "1. OpenAI ChatGPT-5の機能向上とビジネス応用" > _temp/fallback_topics.txt
+            echo "2. Google Gemini 2.0の画像認識技術向上" >> _temp/fallback_topics.txt
+            echo "3. Microsoft Copilot for 365の企業導入拡大" >> _temp/fallback_topics.txt
+            echo "4. AI画像生成技術の著作権問題と法的対応" >> _temp/fallback_topics.txt
+            echo "5. 自動運転AI技術の2025年商用化予測" >> _temp/fallback_topics.txt
+            echo "6. 医療診断AIの精度向上と規制動向" >> _temp/fallback_topics.txt
             TOPICS=$(cat _temp/fallback_topics.txt)
           fi
           
