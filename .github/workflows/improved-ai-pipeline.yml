@@ -137,18 +137,17 @@ jobs:
                 FILENAME="$(date +%Y-%m-%d)-$((ARTICLES_CREATED + 1))-$SLUG.md"
                 
                 # Create front matter
-                cat > "_posts/$FILENAME" <<EOF
+                cat > "_posts/$FILENAME" << EOF
 ---
 layout: post
 title: "$TITLE"
-date: $(date '+%Y-%m-%d %H:%M:%S %z')
+date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
 categories: ["$CATEGORY"]
 tags: ["AI", "最新ニュース", "技術動向"]
 author: "AI記事生成システム"
 excerpt: "AI業界の最新動向について詳しく解説します。"
 reading_time: 8
 ---
-
 EOF
                 
                 # Add article content
