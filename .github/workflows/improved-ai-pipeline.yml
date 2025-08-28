@@ -1,8 +1,8 @@
-name: Advanced AI Article Pipeline with Transformer Analysis
+name: Simple AI Article Pipeline
 
 on:
   schedule:
-    - cron: '15 */8 * * *'  # 8時間ごと
+    - cron: '15 */8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -22,366 +22,179 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
-          pip install transformers torch sentence-transformers scikit-learn numpy
           pip install requests beautifulsoup4
+          pip install transformers torch sentence-transformers scikit-learn numpy
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
+          
       - name: Install Node dependencies
         run: |
-          npm install
           npm install -g @google/gemini-cli
           mkdir -p _temp
 
-      - name: Advanced Topic Generation with Semantic Analysis
-        id: generate_topics
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          export GEMINI_API_KEY="$GEMINI_API_KEY"
-          DATE_STR=$(date '+%Y年%m月%d日')
-          
-          # Create Python script for semantic analysis
-          cat > _temp/semantic_setup.py << 'PYTHON_EOF'
-import os
-from transformers import AutoTokenizer, AutoModel
-import torch
-import json
-from datetime import datetime, timedelta
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
-import glob
-
-print('🧠 Setting up Transformer-based semantic analysis...')
-
-# Load Japanese BERT model for semantic understanding
-model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking'
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModel.from_pretrained(model_name)
-
-def get_embedding(text):
-    """Get semantic embedding for text"""
-    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
-    with torch.no_grad():
-        outputs = model(**inputs)
-    return outputs.last_hidden_state.mean(dim=1).numpy()
-
-# Load existing articles for semantic comparison
-existing_articles = []
-for file_path in glob.glob('_posts/*.md'):
-    if os.path.getmtime(file_path) > (datetime.now() - timedelta(days=3)).timestamp():
-        with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-            # Extract title and content
-            lines = content.split('\n')
-            title = ''
-            for line in lines:
-                if line.startswith('title:'):
-                    title = line.replace('title:', '').strip().strip('"')
-                    break
-            if title:
-                existing_articles.append({
-                    'title': title,
-                    'file': file_path,
-                    'embedding': get_embedding(title)
-                })
-
-print(f'📚 Loaded {len(existing_articles)} existing articles for semantic comparison')
-
-# Save existing articles data for later use
-with open('_temp/existing_articles.json', 'w', encoding='utf-8') as f:
-    # Convert numpy arrays to lists for JSON serialization
-    articles_data = []
-    for article in existing_articles:
-        articles_data.append({
-            'title': article['title'],
-            'file': article['file'],
-            'embedding': article['embedding'].tolist()
-        })
-    json.dump(articles_data, f, ensure_ascii=False, indent=2)
-
-print('✅ Semantic analysis setup completed')
-PYTHON_EOF
-          
-          # Execute the semantic setup
-          python3 _temp/semantic_setup.py
-          
-          # Generate diverse topics with semantic awareness
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース 2025。以下の条件で多様性を重視したAI業界の話題を15個生成してください。
-
-条件：
-1. 異なる分野・業界をカバー（医療、金融、製造業、エンターテイメントなど）
-2. 異なる技術領域（LLM、画像生成、音声認識、ロボティクスなど）  
-3. 異なる観点（技術、ビジネス、規制、社会影響など）
-4. 具体的な企業名・製品名・人名を含める
-5. 最新の日付・数値・データを含める
-
-形式：
-1. [分野] [企業/技術] - [具体的な内容]
-例：
-1. 医療AI DeepMind - タンパク質構造予測AlphaFold3が新薬開発を30%加速
-2. 金融技術 JPMorgan - AI投資アルゴリズムが2025年Q1で15%のリターン達成
-3. 自動運転 Tesla - FSD v13が高速道路での事故率を40%削減
-4. 生成AI Anthropic - Claude 3.5が日本語処理能力でGPT-4を上回る性能
-5. 量子AI IBM - 量子機械学習アルゴリズムが従来比1000倍高速化
-
-このような具体性と多様性を持った15の話題をリストしてください。" > _temp/diverse-topics.txt
-          
-          echo "Generated diverse topics:"
-          cat _temp/diverse-topics.txt
-
-      - name: Semantic Duplicate Detection & Article Generation
-        id: generate_articles
+      - name: Generate diverse topics
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
-          # Create Python script for semantic analysis
-          cat > _temp/semantic_analysis.py << 'PYTHON_EOF'
-import json
-import numpy as np
-import subprocess
-import os
-from sklearn.metrics.pairwise import cosine_similarity
-from transformers import AutoTokenizer, AutoModel
-import torch
-
-print('🔬 Starting advanced semantic analysis...')
-
-# Load model
-model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking'
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModel.from_pretrained(model_name)
-
-def get_embedding(text):
-    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
-    with torch.no_grad():
-        outputs = model(**inputs)
-    return outputs.last_hidden_state.mean(dim=1).numpy()
-
-# Load existing articles
-existing_articles = []
-if os.path.exists('_temp/existing_articles.json'):
-    with open('_temp/existing_articles.json', 'r', encoding='utf-8') as f:
-        articles_data = json.load(f)
-        for article in articles_data:
-            article['embedding'] = np.array(article['embedding'])
-            existing_articles.append(article)
-
-# Load generated topics
-with open('_temp/diverse-topics.txt', 'r', encoding='utf-8') as f:
-    topics_content = f.read()
-
-topics = []
-for line in topics_content.split('\n'):
-    if line.strip() and line[0].isdigit():
-        topic = line.split('.', 1)[1].strip()
-        if topic:
-            topics.append(topic)
-
-print(f'📋 Processing {len(topics)} topics')
-
-# Semantic similarity analysis
-selected_topics = []
-SIMILARITY_THRESHOLD = 0.75  # More relaxed threshold
-MAX_ARTICLES = 8
-
-for i, topic in enumerate(topics[:12]):  # Check more topics
-    if len(selected_topics) >= MAX_ARTICLES:
-        break
-        
-    print(f'\n🔍 Analyzing topic {i+1}: {topic[:60]}...')
-    topic_embedding = get_embedding(topic)
-    
-    # Check similarity with existing articles
-    max_similarity = 0.0
-    most_similar = None
-    
-    for existing in existing_articles:
-        similarity = cosine_similarity(
-            topic_embedding.reshape(1, -1), 
-            existing['embedding'].reshape(1, -1)
-        )[0][0]
-        
-        if similarity > max_similarity:
-            max_similarity = similarity
-            most_similar = existing['title']
-    
-    # Check similarity with already selected topics
-    selected_similarity = 0.0
-    for selected in selected_topics:
-        selected_embedding = get_embedding(selected)
-        similarity = cosine_similarity(
-            topic_embedding.reshape(1, -1),
-            selected_embedding.reshape(1, -1)
-        )[0][0]
-        selected_similarity = max(selected_similarity, similarity)
-    
-    print(f'📊 Similarity scores: Existing={max_similarity:.3f}, Selected={selected_similarity:.3f}')
-    
-    # More intelligent selection logic
-    if max_similarity < SIMILARITY_THRESHOLD and selected_similarity < SIMILARITY_THRESHOLD:
-        selected_topics.append(topic)
-        print(f'✅ SELECTED: Low similarity, adding to queue')
-    elif max_similarity < SIMILARITY_THRESHOLD + 0.1 and len(selected_topics) < 4:
-        # Force some articles even with moderate similarity
-        selected_topics.append(topic)
-        print(f'🔄 FORCED: Ensuring minimum content generation')
-    else:
-        print(f'❌ SKIPPED: Too similar (existing: {most_similar})')
-
-print(f'\n📝 Final selection: {len(selected_topics)} topics')
-for i, topic in enumerate(selected_topics, 1):
-    print(f'{i}. {topic}')
-
-# Save selected topics
-with open('_temp/selected-topics.json', 'w', encoding='utf-8') as f:
-    json.dump(selected_topics, f, ensure_ascii=False, indent=2)
-PYTHON_EOF
+          echo "🎯 Generating diverse AI topics..."
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 2025。以下の条件で多様なAI業界の話題を12個生成してください：
           
-          # Execute semantic analysis
-          python3 _temp/semantic_analysis.py
+          条件：
+          1. 異なる分野（医療、金融、製造業、エンターテイメントなど）
+          2. 異なる技術（LLM、画像生成、音声、ロボティクスなど）
+          3. 具体的な企業名・製品名・数値を含む
+          4. 最新の発表・ニュースに基づく
           
-          # Create Python script for article generation
-          cat > _temp/generate_articles.py << 'PYTHON_EOF'
-import json
-import subprocess
-import os
-from datetime import datetime
+          形式（1行ずつ）：
+          1. [分野] [企業名] - [具体的内容]
+          
+          例：
+          1. 医療AI Google DeepMind - AlphaFold3が新薬開発を30%加速化
+          2. 金融AI JPMorgan - AI投資アルゴリズムが15%のリターン達成
+          
+          このような具体性のある12の話題をリストしてください。" > _temp/topics.txt
+          
+          echo "Generated topics:"
+          head -15 _temp/topics.txt
 
-# Load selected topics
-with open('_temp/selected-topics.json', 'r', encoding='utf-8') as f:
-    selected_topics = json.load(f)
-
-print(f'🚀 Generating {len(selected_topics)} articles...')
-
-for i, topic in enumerate(selected_topics, 1):
-    print(f'\n📝 Generating article {i}: {topic[:60]}...')
-    
-    # Determine category and create specialized prompt
-    category = '最新動向'  # Default
-    if any(word in topic.lower() for word in ['研究', '論文', 'paper', '学会']):
-        category = '研究論文'
-    elif any(word in topic.lower() for word in ['技術', 'アルゴリズム', '仕組み']):
-        category = '技術解説'
-    elif any(word in topic.lower() for word in ['導入', '事例', '活用']):
-        category = '実装事例'
-    elif any(word in topic.lower() for word in ['市場', '分析', '予測']):
-        category = '業界分析'
-    
-    prompt = f'''WebSearch: {datetime.now().strftime('%Y年%m月%d日')} {topic}。
-「{topic}」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。
+      - name: Simple duplicate check and article generation
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          export GEMINI_API_KEY="$GEMINI_API_KEY"
+          
+          # Simple keyword-based duplicate check (relaxed)
+          echo "📝 Starting article generation with relaxed duplicate checking..."
+          
+          TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -8)
+          echo "Topics to process:"
+          echo "$TOPICS"
+          
+          # Get recent titles for comparison
+          EXISTING_TITLES=""
+          if ls _posts/*.md 1> /dev/null 2>&1; then
+            EXISTING_TITLES=$(find _posts -name "*.md" -mtime -2 -exec grep -h "^title:" {} \; 2>/dev/null | sed 's/title: *//' | sed 's/"//g' | tr '[:upper:]' '[:lower:]' | head -20)
+            echo "Recent titles for comparison:"
+            echo "$EXISTING_TITLES" | head -5
+          fi
+          
+          ARTICLES_CREATED=0
+          MAX_ARTICLES=6
+          
+          echo "$TOPICS" | while IFS= read -r TOPIC_LINE; do
+            if [ "$ARTICLES_CREATED" -ge "$MAX_ARTICLES" ]; then
+              echo "✅ Reached maximum articles: $MAX_ARTICLES"
+              break
+            fi
+            
+            if [ -z "$TOPIC_LINE" ]; then
+              continue
+            fi
+            
+            TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            echo ""
+            echo "🔍 Processing: $TOPIC"
+            
+            # Simple similarity check - only skip if very similar
+            SKIP=false
+            if [ ! -z "$EXISTING_TITLES" ]; then
+              # Extract key terms for comparison
+              KEY_TERMS=$(echo "$TOPIC" | tr '[:upper:]' '[:lower:]' | grep -oE '[a-zA-Z0-9ぁ-んァ-ヶ一-龠]{3,}' | head -3)
+              
+              # Check if multiple key terms exist in recent titles
+              MATCH_COUNT=0
+              for term in $KEY_TERMS; do
+                if echo "$EXISTING_TITLES" | grep -q "$term"; then
+                  MATCH_COUNT=$((MATCH_COUNT + 1))
+                fi
+              done
+              
+              # Only skip if 2+ key terms match (very strict)
+              if [ "$MATCH_COUNT" -ge 2 ]; then
+                echo "⚠️  Potential duplicate detected (matched terms: $MATCH_COUNT), skipping"
+                SKIP=true
+              else
+                echo "✅ Unique topic (matched terms: $MATCH_COUNT), proceeding"
+              fi
+            fi
+            
+            if [ "$SKIP" = false ]; then
+              echo "📝 Generating article for: $TOPIC"
+              
+              # Determine category
+              CATEGORY="最新動向"
+              if [[ "$TOPIC" =~ (研究|論文|学会) ]]; then
+                CATEGORY="研究論文"
+              elif [[ "$TOPIC" =~ (技術|アルゴリズム|仕組み) ]]; then
+                CATEGORY="技術解説"  
+              elif [[ "$TOPIC" =~ (導入|事例|活用) ]]; then
+                CATEGORY="実装事例"
+              elif [[ "$TOPIC" =~ (市場|分析|予測) ]]; then
+                CATEGORY="業界分析"
+              fi
+              
+              # Generate article
+              PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。
 
 要件：
 - 実際の最新情報に基づく具体的な内容
-- 企業名・製品名・人名・数値データを正確に記載
+- 企業名・製品名・人名・数値データを正確に記載  
 - 技術者・投資家向けの詳細な分析
 - 3000-4000文字程度
 - Markdown形式で出力
 
 構成：
-# {topic}
+# $TOPIC
 ## 概要と背景
 ## 詳細な技術・ビジネス内容
 ## 市場・競合への影響
 ## 今後の展望
 
-専門性と信頼性を重視した記事を作成してください。'''
-    
-    # Generate article using Gemini
-    result = subprocess.run([
-        'gemini', '-m', 'gemini-2.5-flash', '--prompt', prompt
-    ], capture_output=True, text=True, env=dict(os.environ))
-    
-    if result.returncode == 0 and result.stdout.strip():
-        # Save article
-        filename = f'_temp/article-{i}.md'
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(result.stdout)
-        
-        print(f'✅ Generated: {filename}')
-        
-        # Create Jekyll post
-        title = topic[:100]  # Truncate long titles
-        slug = topic.lower().replace(' ', '-')[:50]
-        post_filename = f'{datetime.now().strftime("%Y-%m-%d")}-{i}-{slug}.md'
-        
-        # Category-specific tags and excerpts
-        tags_map = {
-            '最新動向': '["AI", "最新ニュース", "業界動向", "企業発表"]',
-            '技術解説': '["AI", "技術解説", "アルゴリズム", "実装"]',
-            '実装事例': '["AI", "導入事例", "実装", "ROI"]',
-            '業界分析': '["AI", "市場分析", "トレンド", "投資"]',
-            '研究論文': '["AI", "研究論文", "学術", "最新研究"]'
-        }
-        
-        excerpt_map = {
-            '最新動向': 'AI業界の最新動向について、企業発表や業界ニュースを基に詳しく解説します。',
-            '技術解説': 'AI技術の仕組みとアルゴリズムについて、技術的な観点から詳しく解説します。',
-            '実装事例': '企業のAI導入事例と実装方法について、具体的な成果を含めて解説します。',
-            '業界分析': 'AI業界の市場動向と将来展望について、データに基づいて分析します。',
-            '研究論文': 'AI分野の最新研究論文について、技術的な内容を分かりやすく解説します。'
-        }
-        
-        # Create final post
-        with open(f'_posts/{post_filename}', 'w', encoding='utf-8') as f:
-            f.write(f'''---
+専門性と信頼性を重視した記事を作成してください。"
+
+              gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-$ARTICLES_CREATED.md"
+              
+              if [ -s "_temp/article-$ARTICLES_CREATED.md" ]; then
+                # Create Jekyll post
+                TITLE=$(echo "$TOPIC" | cut -c1-80)
+                SLUG=$(echo "$TOPIC" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9あ-んア-ン一-龯]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | cut -c1-50)
+                FILENAME="$(date +%Y-%m-%d)-$((ARTICLES_CREATED + 1))-$SLUG.md"
+                
+                # Create front matter
+                cat > "_posts/$FILENAME" <<EOF
+---
 layout: post
-title: "{title}"
-date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S %z')}
-categories: ["{category}"]
-tags: {tags_map.get(category, '["AI", "機械学習", "技術解説"]')}
+title: "$TITLE"
+date: $(date '+%Y-%m-%d %H:%M:%S %z')
+categories: ["$CATEGORY"]
+tags: ["AI", "最新ニュース", "技術動向"]
 author: "AI記事生成システム"
-excerpt: "{excerpt_map.get(category, 'AIに関する最新情報を詳しく解説します。')}"
+excerpt: "AI業界の最新動向について詳しく解説します。"
 reading_time: 8
 ---
 
-''')
-            # Add article content (remove markdown code blocks if present)
-            content = result.stdout
-            if content.startswith('```markdown'):
-                content = '\n'.join(content.split('\n')[1:])
-            if content.endswith('```'):
-                content = '\n'.join(content.split('\n')[:-1])
-            f.write(content)
-        
-        print(f'📄 Created post: {post_filename}')
-    else:
-        print(f'❌ Failed to generate article for: {topic}')
-
-print('\n🎉 Article generation completed!')
-PYTHON_EOF
-          
-          # Execute article generation
-          python3 _temp/generate_articles.py
-
-      - name: Quality Check and Enhancement
-        run: |
-          echo "🔍 Performing quality checks on generated articles..."
-          
-          # Count generated articles
-          ARTICLE_COUNT=$(ls _posts/$(date +%Y-%m-%d)-*.md 2>/dev/null | wc -l)
-          echo "📊 Generated $ARTICLE_COUNT articles today"
-          
-          # Basic quality checks
-          for file in _posts/$(date +%Y-%m-%d)-*.md; do
-            if [ -f "$file" ]; then
-              WORD_COUNT=$(wc -w < "$file")
-              echo "📝 $(basename "$file"): $WORD_COUNT words"
-              
-              # Ensure minimum quality
-              if [ "$WORD_COUNT" -lt 500 ]; then
-                echo "⚠️  Warning: Article too short, removing: $file"
-                rm "$file"
+EOF
+                
+                # Add article content
+                sed '1d' "_temp/article-$ARTICLES_CREATED.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_posts/$FILENAME"
+                
+                echo "✅ Created: $FILENAME"
+                ARTICLES_CREATED=$((ARTICLES_CREATED + 1))
+              else
+                echo "❌ Failed to generate article"
               fi
             fi
           done
+          
+          echo ""
+          echo "📊 Generation completed: $ARTICLES_CREATED articles created"
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
@@ -393,7 +206,7 @@ PYTHON_EOF
         run: |
           bundle install
           bundle exec jekyll build
-          
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -403,7 +216,6 @@ PYTHON_EOF
           path: './_site'
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
 
       - name: Commit generated articles
@@ -414,7 +226,7 @@ PYTHON_EOF
           if [ -n "$(git status --porcelain _posts/)" ]; then
             ARTICLE_COUNT=$(ls _posts/$(date +%Y-%m-%d)-*.md 2>/dev/null | wc -l)
             git add _posts/
-            git commit -m "🤖 Add $ARTICLE_COUNT AI articles with semantic analysis - $(date +%Y-%m-%d)"
+            git commit -m "🤖 Add $ARTICLE_COUNT AI articles - $(date +%Y-%m-%d)"
             git push
             echo "✅ Committed $ARTICLE_COUNT new articles"
           else
