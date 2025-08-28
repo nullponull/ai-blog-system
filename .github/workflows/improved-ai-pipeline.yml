@@ -103,19 +103,8 @@ jobs:
               SLUG=$(printf '%s' "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | head -c 50)
               FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
               
-              # Store in temp for processing using HEREDOC
-              cat > "_temp/temp-${FILENAME}" << EOF
----
-layout: post
-title: "$TITLE"
-date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
-categories: ["$CATEGORY"]
-tags: ["AI", "最新ニュース", "技術動向"]
-author: "AI記事生成システム"
-excerpt: "AI業界の最新動向について詳しく解説します。"
-reading_time: 8
----
-EOF
+              # Store in temp for processing using printf
+              printf '%s\n' "---" "layout: post" "title: \"$TITLE\"" "date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)" "categories: [\"$CATEGORY\"]" "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]" "author: \"AI記事生成システム\"" "excerpt: \"AI業界の最新動向について詳しく解説します。\"" "reading_time: 8" "---" > "_temp/temp-${FILENAME}"
               
               # より安全なファイル処理
               tail -n +2 "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_temp/temp-${FILENAME}"
