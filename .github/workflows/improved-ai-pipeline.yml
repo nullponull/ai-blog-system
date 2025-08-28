@@ -58,21 +58,29 @@ jobs:
           echo "Final topics for processing:"
           echo "$TOPICS"
           
-          # Generate articles for all topics
-          TOPIC_INDEX=1
+          # Generate articles for all topics using array and for loop
           GENERATED_COUNT=0
           
           set +e  # Continue on errors
           export LC_ALL=C  # Set locale to avoid encoding issues
           
-          # デバッグ情報追加
-          echo "🔍 Debug: Total topics found: $(echo "$TOPICS" | wc -l)"
-          echo "🔍 Debug: Topics content:"
-          printf '%s\n' "$TOPICS" | nl
-          echo "🔍 Debug: Starting loop with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
+          # Convert topics to array
+          IFS=$'\n' read -d '' -r -a TOPICS_ARRAY <<< "$TOPICS" || true
           
-          while IFS= read -r TOPIC_LINE; do
+          echo "🔍 Debug: Total topics found: ${#TOPICS_ARRAY[@]}"
+          echo "🔍 Debug: Topics array content:"
+          for i in "${!TOPICS_ARRAY[@]}"; do
+            echo "  $((i+1)): ${TOPICS_ARRAY[i]}"
+          done
+          echo "🔍 Debug: Starting for loop with array size ${#TOPICS_ARRAY[@]}"
+          
+          # Generate articles using for loop with array
+          for i in "${!TOPICS_ARRAY[@]}"; do
+            TOPIC_INDEX=$((i + 1))
+            TOPIC_LINE="${TOPICS_ARRAY[i]}"
+            
             if [ -z "$TOPIC_LINE" ]; then
+              echo "🔍 Debug: Skipping empty topic at index $TOPIC_INDEX"
               continue
             fi
             
@@ -115,11 +123,10 @@ jobs:
               echo "❌ Failed to generate: $TOPIC"
             fi
             
-            TOPIC_INDEX=$((TOPIC_INDEX + 1))
-            echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1)), moving to next..."
-          done < <(printf '%s\n' "$TOPICS")  # プロセス置換を使用してサブシェル問題を解決
+            echo "🔍 Debug: Completed topic $TOPIC_INDEX, moving to next..."
+          done
           
-          echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
+          echo "🔍 Debug: For loop completed, processed ${#TOPICS_ARRAY[@]} topics"
           set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
 
