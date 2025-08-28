@@ -106,7 +106,10 @@ jobs:
           printf '%s\n' "$TOPICS" > _temp/topics_for_loop.txt
           echo "🔍 Debug: Written $(wc -l < _temp/topics_for_loop.txt) lines to temp file"
           
-          while IFS= read -r TOPIC_LINE; do
+          # Use file descriptor 9 to avoid subshell (Web search solution)
+          exec 9< _temp/topics_for_loop.txt
+          
+          while IFS= read -r TOPIC_LINE <&9; do
             if [ -z "$TOPIC_LINE" ]; then
               continue
             fi
@@ -152,7 +155,10 @@ jobs:
             
             TOPIC_INDEX=$((TOPIC_INDEX + 1))
             echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1)), moving to next..."
-          done < _temp/topics_for_loop.txt
+          done
+          
+          # Close file descriptor
+          exec 9<&-
           
           echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
           set -e  # Re-enable exit on error
