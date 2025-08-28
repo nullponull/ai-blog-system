@@ -40,114 +40,52 @@ jobs:
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
           echo "🎯 Generating AI topics..."
-          
-          # Get topics directly into variable instead of file output
-          TOPICS_RAW=$(gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 2025年8月。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で8個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を8個リストアップしてください。")
-          
-          # Write to file for processing
-          echo "$TOPICS_RAW" > _temp/topics.txt
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 $(date '+%Y年%m月%d日')。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。" > _temp/topics.txt
           
           echo "Generated topics:"
-          echo "$TOPICS_RAW" | head -15
+          head -15 _temp/topics.txt
           
-          # Extract topics and check for duplicates
-          ALL_TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -10)
-          echo "📝 Initial topics generated:"
-          echo "$ALL_TOPICS"
+          # Extract and generate articles
+          TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -10)
+          echo "📝 Processing topics for article generation..."
+          echo "$TOPICS"
           
-          if [ -z "$ALL_TOPICS" ]; then
+          if [ -z "$TOPICS" ]; then
             echo "❌ No topics generated, exiting..."
             exit 1
           fi
           
-          # Get existing titles for duplicate check
-          if ls _posts/*.md 1> /dev/null 2>&1; then
-            find _posts -name "*.md" -mtime -3 -exec grep -h "^title:" {} \; 2>/dev/null | head -20 > _temp/recent_titles.txt
-          else
-            touch _temp/recent_titles.txt
-          fi
-          
-          # Select unique topics (target: 5 articles)
-          echo "🔍 Filtering for unique topics (target: 5 articles)..."
-          UNIQUE_TOPICS=""
-          TOPIC_COUNT=0
-          
-          while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 5 ]; do
-            if [ -z "$topic_line" ]; then
-              continue
-            fi
-            
-            topic_title=$(printf '%s\n' "$topic_line" | sed 's/^[0-9]*\. *//')
-            echo "🔍 Checking: $topic_title"
-            
-            # Simple duplicate check (basic keyword matching)
-            is_duplicate=false
-            if [ -s _temp/recent_titles.txt ]; then
-              while IFS= read -r existing_title; do
-                existing_clean=$(echo "$existing_title" | sed 's/^title: *"*\|"*$//g')
-                if echo "$existing_clean" | grep -qi "$(echo "$topic_title" | cut -d' ' -f1-2)"; then
-                  echo "⏭️ Duplicate detected: $topic_title"
-                  is_duplicate=true
-                  break
-                fi
-              done < _temp/recent_titles.txt
-            fi
-            
-            if [ "$is_duplicate" = false ]; then
-              if [ -z "$UNIQUE_TOPICS" ]; then
-                UNIQUE_TOPICS="$topic_line"
-              else
-                UNIQUE_TOPICS="$UNIQUE_TOPICS\n$topic_line"
-              fi
-              TOPIC_COUNT=$((TOPIC_COUNT + 1))
-              echo "✅ Added unique topic: $topic_title"
-            fi
-          done < <(printf '%s\n' "$ALL_TOPICS")
-          
-          echo "📊 Selected $TOPIC_COUNT unique topics for generation"
-          TOPICS=$(printf '%s\n' "$UNIQUE_TOPICS")
           echo "Final topics for processing:"
           echo "$TOPICS"
           
-          # Generate articles for all topics using array and for loop
+          # Generate articles for all topics
+          TOPIC_INDEX=1
           GENERATED_COUNT=0
           
           set +e  # Continue on errors
           export LC_ALL=C  # Set locale to avoid encoding issues
           
-          # Generate articles using C-style for loop (most reliable approach)
-          if [ -z "$TOPICS" ]; then
-            echo "❌ No topics to process"
-            exit 1
-          fi
+          # デバッグ情報追加
+          total_topics=$(echo "$TOPICS" | wc -l)
+          echo "🔍 Debug: Total topics found: $total_topics"
+          echo "🔍 Debug: Topics content:"
+          printf '%s\n' "$TOPICS" | nl
+          echo "🔍 Debug: Starting loop with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
+          echo "📊 Processing $total_topics topics..."
           
-          # Write topics to temporary file for reliable processing
-          printf '%s\n' "$TOPICS" > _temp/topics_list.txt
-          
-          # Count total topics
-          TOPIC_COUNT=$(grep -c . _temp/topics_list.txt || echo "0")
-          echo "🔍 Debug: Found $TOPIC_COUNT topics to process"
-          
-          if [ "$TOPIC_COUNT" -eq 0 ]; then
-            echo "❌ No valid topics found"
-            exit 1
-          fi
-          
-          # Process each topic using C-style for loop with file reading
-          for ((TOPIC_INDEX=1; TOPIC_INDEX<=TOPIC_COUNT; TOPIC_INDEX++)); do
-            TOPIC_LINE=$(sed -n "${TOPIC_INDEX}p" _temp/topics_list.txt)
-            
+          while IFS= read -r TOPIC_LINE; do
             if [ -z "$TOPIC_LINE" ]; then
-              echo "🔍 Debug: Skipping empty topic at line $TOPIC_INDEX"
               continue
             fi
             
-            echo "🔍 Debug: Processing topic $TOPIC_INDEX/$TOPIC_COUNT: '$TOPIC_LINE'"
+            # 進捗表示の改善
+            progress=$((TOPIC_INDEX * 100 / total_topics))
+            echo "🔍 Debug: Processing topic $TOPIC_INDEX/$total_topics ($progress%): '$TOPIC_LINE'"
             
             # より安全なsed処理
             TOPIC=$(printf '%s\n' "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
             echo "🔍 Debug: Extracted topic: '$TOPIC'"
-            echo "📝 Generating article $TOPIC_INDEX: $TOPIC"
+            echo "📝 Generating article $TOPIC_INDEX/$total_topics: $TOPIC"
             
             # Category determination (case文に変更)
             CATEGORY="最新動向"
@@ -159,9 +97,15 @@ jobs:
             esac
             
             # Generate article
-            PROMPT="WebSearch: 2025年8月最新情報 $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
+            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
             
-            gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"
+            # タイムアウト付きでGemini API呼び出し
+            if timeout 300 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"; then
+              echo "✅ Article generation completed for topic $TOPIC_INDEX"
+            else
+              echo "⏰ Timeout or error for topic $TOPIC_INDEX: $TOPIC"
+              continue
+            fi
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
               # より安全な文字列処理
@@ -169,8 +113,19 @@ jobs:
               SLUG=$(printf '%s' "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | head -c 50)
               FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
               
-              # Store in temp for processing using printf
-              printf '%s\n' "---" "layout: post" "title: \"$TITLE\"" "date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)" "categories: [\"$CATEGORY\"]" "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]" "author: \"AI記事生成システム\"" "excerpt: \"AI業界の最新動向について詳しく解説します。\"" "reading_time: 8" "---" > "_temp/temp-${FILENAME}"
+              # Store in temp for processing using cat EOF
+              cat > "_temp/temp-${FILENAME}" << EOF
+---
+layout: post
+title: "$TITLE"
+date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
+categories: ["$CATEGORY"]
+tags: ["AI", "最新ニュース", "技術動向"]
+author: "AI記事生成システム"
+excerpt: "AI業界の最新動向について詳しく解説します。"
+reading_time: 8
+---
+EOF
               
               # より安全なファイル処理
               tail -n +2 "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_temp/temp-${FILENAME}"
@@ -181,8 +136,11 @@ jobs:
               echo "❌ Failed to generate: $TOPIC"
             fi
             
-            echo "🔍 Debug: Completed topic $TOPIC_INDEX/$TOPIC_COUNT, moving to next..."
-          done
+            TOPIC_INDEX=$((TOPIC_INDEX + 1))
+            echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1))/$total_topics, moving to next..."
+          done < <(printf '%s\n' "$TOPICS")  # プロセス置換を使用してサブシェル問題を解決
+          
+          echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
           set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
 
