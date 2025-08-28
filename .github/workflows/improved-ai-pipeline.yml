@@ -76,16 +76,152 @@ jobs:
           echo "Generated topics:"
           head -15 _temp/topics.txt
           
-          # Extract and generate articles
-          TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -10)
-          echo "📝 Processing topics for article generation..."
-          echo "$TOPICS"
+          # Extract and filter duplicate topics
+          ALL_GENERATED_TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt)
+          echo "📝 Initial topics generated:"
+          echo "$ALL_GENERATED_TOPICS"
           
-          if [ -z "$TOPICS" ]; then
+          if [ -z "$ALL_GENERATED_TOPICS" ]; then
             echo "❌ No topics generated, exiting..."
             exit 1
           fi
           
+          # Get existing titles for duplicate check (last 5 days)
+          if ls _posts/*.md 1> /dev/null 2>&1; then
+            find _posts -name "*.md" -mtime -5 -exec grep -h "^title:" {} \; 2>/dev/null | sed 's/^title: *["]*\|["]*$//g' > _temp/existing_titles.txt
+          else
+            touch _temp/existing_titles.txt
+          fi
+          
+          echo "🔍 Filtering out duplicate topics..."
+          TOPICS=""
+          TOPIC_COUNT=0
+          RETRY_COUNT=0
+          MAX_RETRIES=3
+          
+          # Filter duplicates and get unique topics
+          while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 10 ]; do
+            if [ -z "$topic_line" ]; then
+              continue
+            fi
+            
+            topic_title=$(printf '%s\n' "$topic_line" | sed 's/^[0-9]*\. *//')
+            echo "🔍 Checking: $topic_title"
+            
+            # Simple keyword-based duplicate check
+            is_duplicate=false
+            if [ -s _temp/existing_titles.txt ]; then
+              # Extract key words from topic (first 3 significant words)
+              topic_keywords=$(echo "$topic_title" | sed 's/[()（）].*//g' | head -c 30)
+              while IFS= read -r existing_title; do
+                if [ -n "$existing_title" ] && echo "$existing_title" | grep -qi "$(echo "$topic_keywords" | cut -d' ' -f1-2)"; then
+                  echo "⏭️ Duplicate detected: $topic_title (similar to existing: $existing_title)"
+                  is_duplicate=true
+                  break
+                fi
+              done < _temp/existing_titles.txt
+            fi
+            
+            if [ "$is_duplicate" = false ]; then
+              if [ -z "$TOPICS" ]; then
+                TOPICS="$topic_line"
+              else
+                TOPICS="$TOPICS
+$topic_line"
+              fi
+              TOPIC_COUNT=$((TOPIC_COUNT + 1))
+              echo "✅ Added unique topic: $topic_title"
+            fi
+          done <<< "$ALL_GENERATED_TOPICS"
+          
+          # If we don't have enough unique topics, generate more
+          while [ $TOPIC_COUNT -lt 10 ] && [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            echo "🔄 Need more topics ($TOPIC_COUNT/10). Retry $RETRY_COUNT/$MAX_RETRIES with different prompt..."
+            
+            # Generate additional topics with different search strategies
+            case $RETRY_COUNT in
+              1)
+                ADDITIONAL_PROMPT="WebSearch: AI業界 スタートアップ 投資 資金調達 IPO M&A。AI関連スタートアップや投資動向に焦点を当てた最新話題を$(( 10 - TOPIC_COUNT + 2 ))個生成してください。具体的な企業名・金額・投資家名を含む話題を番号付きでリストアップ。"
+                ;;
+              2)
+                ADDITIONAL_PROMPT="WebSearch: AI業界 研究 論文 学会 大学 研究機関。AI研究や学術論文、研究機関の最新成果に焦点を当てた話題を$(( 10 - TOPIC_COUNT + 2 ))個生成してください。具体的な研究者名・大学名・論文名を含む話題を番号付きでリストアップ。"
+                ;;
+              *)
+                ADDITIONAL_PROMPT="WebSearch: AI業界 政府 政策 規制 法律 国際協力。AI関連の政府政策や規制、国際的な取り組みに焦点を当てた話題を$(( 10 - TOPIC_COUNT + 2 ))個生成してください。具体的な国名・政府機関名・政策名を含む話題を番号付きでリストアップ。"
+                ;;
+            esac
+            
+            if gemini -m "gemini-2.5-flash" --prompt "$ADDITIONAL_PROMPT" > _temp/additional_topics.txt 2>/dev/null; then
+              ADDITIONAL_TOPICS=$(grep -E "^[0-9]+\." _temp/additional_topics.txt)
+              echo "Generated additional topics:"
+              echo "$ADDITIONAL_TOPICS"
+              
+              # Filter new topics for duplicates
+              while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 10 ]; do
+                if [ -z "$topic_line" ]; then
+                  continue
+                fi
+                
+                topic_title=$(printf '%s\n' "$topic_line" | sed 's/^[0-9]*\. *//')
+                
+                # Check against existing titles and already selected topics
+                is_duplicate=false
+                topic_keywords=$(echo "$topic_title" | sed 's/[()（）].*//g' | head -c 30)
+                
+                # Check against existing posts
+                if [ -s _temp/existing_titles.txt ]; then
+                  while IFS= read -r existing_title; do
+                    if [ -n "$existing_title" ] && echo "$existing_title" | grep -qi "$(echo "$topic_keywords" | cut -d' ' -f1-2)"; then
+                      is_duplicate=true
+                      break
+                    fi
+                  done < _temp/existing_titles.txt
+                fi
+                
+                # Check against already selected topics
+                if [ "$is_duplicate" = false ] && echo "$TOPICS" | grep -qi "$(echo "$topic_keywords" | cut -d' ' -f1-2)"; then
+                  is_duplicate=true
+                fi
+                
+                if [ "$is_duplicate" = false ]; then
+                  TOPICS="$TOPICS
+$topic_line"
+                  TOPIC_COUNT=$((TOPIC_COUNT + 1))
+                  echo "✅ Added additional unique topic: $topic_title"
+                fi
+              done <<< "$ADDITIONAL_TOPICS"
+            else
+              echo "⚠️ Failed to generate additional topics"
+              break
+            fi
+          done
+          
+          # Final check: if we still don't have enough topics after all retries
+          if [ $TOPIC_COUNT -lt 5 ]; then
+            echo "⚠️ Warning: Only $TOPIC_COUNT unique topics found after $MAX_RETRIES retries"
+            echo "⚠️ This might indicate topic exhaustion or API issues"
+            echo "⚠️ Proceeding with available topics to avoid infinite processing"
+          elif [ $TOPIC_COUNT -lt 10 ]; then
+            echo "ℹ️ Note: Found $TOPIC_COUNT topics (less than target 10)"
+            echo "ℹ️ Proceeding with available unique topics"
+          fi
+          
+          # Ensure we have at least some topics to process  
+          if [ $TOPIC_COUNT -eq 0 ]; then
+            echo "❌ No unique topics found after $MAX_RETRIES retries. This indicates:"
+            echo "   - All generated topics were duplicates of recent articles"
+            echo "   - API issues preventing topic generation"
+            echo "   - Possible topic exhaustion in current search domains"
+            echo "❌ Exiting to prevent infinite processing."
+            exit 1
+          elif [ $TOPIC_COUNT -lt 3 ]; then
+            echo "⚠️ Very few unique topics ($TOPIC_COUNT) found. This may indicate topic saturation."
+            echo "⚠️ Consider adjusting search criteria or reducing posting frequency."
+          fi
+          
+          echo "📊 Final unique topics selected: $TOPIC_COUNT/10"
+          TOPICS=$(printf '%s\n' "$TOPICS")
           echo "Final topics for processing:"
           echo "$TOPICS"
           
@@ -102,8 +238,8 @@ jobs:
           printf '%s\n' "$TOPICS" | nl
           echo "🔍 Debug: Starting loop with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
           
-          # Write topics to temporary file for stable processing
-          printf '%s\n' "$TOPICS" > _temp/topics_for_loop.txt
+          # Write topics to temporary file for stable processing (fix newline handling)
+          echo "$TOPICS" > _temp/topics_for_loop.txt
           echo "🔍 Debug: Written $(wc -l < _temp/topics_for_loop.txt) lines to temp file"
           
           # Use file descriptor 9 to avoid subshell (Web search solution)
@@ -130,10 +266,26 @@ jobs:
                 *市場*|*分析*|*予測*) CATEGORY="業界分析" ;;
             esac
             
-            # Generate article
+            # Generate article with timeout to prevent excessive Actions usage
             PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
             
-            gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"
+            # Add timeout to prevent hanging on rate limits
+            if timeout 120 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+              echo "✅ Article generation completed for topic $TOPIC_INDEX"
+            else
+              exit_code=$?
+              echo "❌ Article generation failed for topic $TOPIC_INDEX"
+              echo "Error details:"
+              cat _temp/gemini_error_${TOPIC_INDEX}.log 2>/dev/null || echo "No error log available"
+              
+              # Check if it's a rate limit error (429)
+              if grep -q "429\|RESOURCE_EXHAUSTED\|quota" _temp/gemini_error_${TOPIC_INDEX}.log 2>/dev/null; then
+                echo "🚫 Rate limit reached. Stopping to avoid wasting Actions time."
+                echo "📅 Daily quota resets at midnight Pacific Time (5PM JST in summer)"
+                break
+              fi
+              continue
+            fi
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
               # より安全な文字列処理
