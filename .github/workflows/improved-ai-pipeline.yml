@@ -44,7 +44,7 @@ jobs:
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
           echo "🎯 Generating diverse AI topics..."
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 2025。多様なAI業界の話題を12個生成してください。条件：1.異なる分野（医療、金融、製造業など）2.異なる技術（LLM、画像生成、音声など）3.具体的な企業名・製品名・数値を含む 4.最新発表に基づく。形式：1.[分野][企業名]-[具体的内容]。例：1.医療AI Google DeepMind-AlphaFold3が新薬開発を30%加速化" > _temp/topics.txt
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 2025。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で12個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を12個リストアップしてください。" > _temp/topics.txt
           
           echo "Generated topics:"
           head -15 _temp/topics.txt
@@ -62,6 +62,22 @@ jobs:
           echo "Topics to process:"
           echo "$TOPICS"
           
+          # Check if topics were generated successfully
+          if [ -z "$TOPICS" ]; then
+            echo "❌ No topics generated, using fallback topics"
+            TOPICS=$(cat << 'FALLBACK_EOF'
+1. OpenAI ChatGPT-5の機能向上とビジネス応用
+2. Google Bard Gemini Proの最新アップデート
+3. Microsoft Copilot for 365の企業導入事例
+4. AI画像生成技術の著作権問題と解決策
+5. 自動運転AI技術の2025年の進展予測
+6. 医療診断AIの精度向上と規制動向
+FALLBACK_EOF
+)
+            echo "Using fallback topics:"
+            echo "$TOPICS"
+          fi
+          
           # Get recent titles for comparison
           EXISTING_TITLES=""
           if ls _posts/*.md 1> /dev/null 2>&1; then
@@ -73,7 +89,7 @@ jobs:
           ARTICLES_CREATED=0
           MAX_ARTICLES=6
           
-          echo "$TOPICS" | while IFS= read -r TOPIC_LINE; do
+          while IFS= read -r TOPIC_LINE; do
             if [ "$ARTICLES_CREATED" -ge "$MAX_ARTICLES" ]; then
               echo "✅ Reached maximum articles: $MAX_ARTICLES"
               break
@@ -159,7 +175,7 @@ EOF
                 echo "❌ Failed to generate article"
               fi
             fi
-          done
+          done <<< "$TOPICS"
           
           echo ""
           echo "📊 Generation completed: $ARTICLES_CREATED articles created"
