@@ -40,21 +40,67 @@ jobs:
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
           echo "🎯 Generating AI topics..."
-          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 $(date '+%Y年%m月%d日')。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で10個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を10個リストアップしてください。" > _temp/topics.txt
+          gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース トレンド 話題 2025年8月。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で8個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を8個リストアップしてください。" > _temp/topics.txt
           
           echo "Generated topics:"
           head -15 _temp/topics.txt
           
-          # Extract and generate articles
-          TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -10)
-          echo "📝 Processing topics for article generation..."
-          echo "$TOPICS"
+          # Extract topics and check for duplicates
+          ALL_TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -10)
+          echo "📝 Initial topics generated:"
+          echo "$ALL_TOPICS"
           
-          if [ -z "$TOPICS" ]; then
+          if [ -z "$ALL_TOPICS" ]; then
             echo "❌ No topics generated, exiting..."
             exit 1
           fi
           
+          # Get existing titles for duplicate check
+          if ls _posts/*.md 1> /dev/null 2>&1; then
+            find _posts -name "*.md" -mtime -3 -exec grep -h "^title:" {} \; 2>/dev/null | head -20 > _temp/recent_titles.txt
+          else
+            touch _temp/recent_titles.txt
+          fi
+          
+          # Select unique topics (target: 5 articles)
+          echo "🔍 Filtering for unique topics (target: 5 articles)..."
+          UNIQUE_TOPICS=""
+          TOPIC_COUNT=0
+          
+          while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 5 ]; do
+            if [ -z "$topic_line" ]; then
+              continue
+            fi
+            
+            topic_title=$(printf '%s\n' "$topic_line" | sed 's/^[0-9]*\. *//')
+            echo "🔍 Checking: $topic_title"
+            
+            # Simple duplicate check (basic keyword matching)
+            is_duplicate=false
+            if [ -s _temp/recent_titles.txt ]; then
+              while IFS= read -r existing_title; do
+                existing_clean=$(echo "$existing_title" | sed 's/^title: *"*\|"*$//g')
+                if echo "$existing_clean" | grep -qi "$(echo "$topic_title" | cut -d' ' -f1-2)"; then
+                  echo "⏭️ Duplicate detected: $topic_title"
+                  is_duplicate=true
+                  break
+                fi
+              done < _temp/recent_titles.txt
+            fi
+            
+            if [ "$is_duplicate" = false ]; then
+              if [ -z "$UNIQUE_TOPICS" ]; then
+                UNIQUE_TOPICS="$topic_line"
+              else
+                UNIQUE_TOPICS="$UNIQUE_TOPICS\n$topic_line"
+              fi
+              TOPIC_COUNT=$((TOPIC_COUNT + 1))
+              echo "✅ Added unique topic: $topic_title"
+            fi
+          done < <(printf '%s\n' "$ALL_TOPICS")
+          
+          echo "📊 Selected $TOPIC_COUNT unique topics for generation"
+          TOPICS=$(printf '%s\n' "$UNIQUE_TOPICS")
           echo "Final topics for processing:"
           echo "$TOPICS"
           
@@ -101,7 +147,7 @@ jobs:
             esac
             
             # Generate article
-            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
+            PROMPT="WebSearch: 2025年8月最新情報 $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
             
             gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"
             
@@ -251,7 +297,7 @@ jobs:
           if [ -n "$(git status --porcelain _posts/)" ]; then
             ARTICLE_COUNT=$(ls _posts/$(date +%Y-%m-%d)-*.md 2>/dev/null | wc -l)
             git add _posts/
-            git commit -m "🤖 Add $ARTICLE_COUNT AI articles - $(date +%Y-%m-%d)"
+            git commit -m "🤖 Add $ARTICLE_COUNT unique AI articles - $(date +%Y-%m-%d)"
             git push
             echo "✅ Committed $ARTICLE_COUNT new articles"
           else
