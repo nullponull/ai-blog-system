@@ -46,8 +46,8 @@ jobs:
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           DATE_STR=$(date '+%Y年%m月%d日')
           
-          # Transformer-based semantic analysis setup
-          python3 -c "
+          # Create Python script for semantic analysis
+          cat > _temp/semantic_setup.py << 'PYTHON_EOF'
 import os
 from transformers import AutoTokenizer, AutoModel
 import torch
@@ -55,7 +55,7 @@ import json
 from datetime import datetime, timedelta
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-import requests
+import glob
 
 print('🧠 Setting up Transformer-based semantic analysis...')
 
@@ -65,21 +65,14 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModel.from_pretrained(model_name)
 
 def get_embedding(text):
-    \"\"\"Get semantic embedding for text\"\"\"
+    """Get semantic embedding for text"""
     inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
     with torch.no_grad():
         outputs = model(**inputs)
     return outputs.last_hidden_state.mean(dim=1).numpy()
 
-def calculate_semantic_similarity(text1, text2):
-    \"\"\"Calculate semantic similarity between two texts\"\"\"
-    emb1 = get_embedding(text1)
-    emb2 = get_embedding(text2)
-    return cosine_similarity(emb1, emb2)[0][0]
-
 # Load existing articles for semantic comparison
 existing_articles = []
-import glob
 for file_path in glob.glob('_posts/*.md'):
     if os.path.getmtime(file_path) > (datetime.now() - timedelta(days=3)).timestamp():
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -89,7 +82,7 @@ for file_path in glob.glob('_posts/*.md'):
             title = ''
             for line in lines:
                 if line.startswith('title:'):
-                    title = line.replace('title:', '').strip().strip('\"')
+                    title = line.replace('title:', '').strip().strip('"')
                     break
             if title:
                 existing_articles.append({
@@ -113,7 +106,10 @@ with open('_temp/existing_articles.json', 'w', encoding='utf-8') as f:
     json.dump(articles_data, f, ensure_ascii=False, indent=2)
 
 print('✅ Semantic analysis setup completed')
-"
+PYTHON_EOF
+          
+          # Execute the semantic setup
+          python3 _temp/semantic_setup.py
           
           # Generate diverse topics with semantic awareness
           gemini -m "gemini-2.5-flash" --prompt "WebSearch: AI業界 最新ニュース 2025。以下の条件で多様性を重視したAI業界の話題を15個生成してください。
@@ -146,8 +142,8 @@ print('✅ Semantic analysis setup completed')
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
-          # Advanced semantic duplicate detection
-          python3 -c "
+          # Create Python script for semantic analysis
+          cat > _temp/semantic_analysis.py << 'PYTHON_EOF'
 import json
 import numpy as np
 import subprocess
@@ -200,7 +196,7 @@ for i, topic in enumerate(topics[:12]):  # Check more topics
     if len(selected_topics) >= MAX_ARTICLES:
         break
         
-    print(f'\\n🔍 Analyzing topic {i+1}: {topic[:60]}...')
+    print(f'\n🔍 Analyzing topic {i+1}: {topic[:60]}...')
     topic_embedding = get_embedding(topic)
     
     # Check similarity with existing articles
@@ -240,17 +236,20 @@ for i, topic in enumerate(topics[:12]):  # Check more topics
     else:
         print(f'❌ SKIPPED: Too similar (existing: {most_similar})')
 
-print(f'\\n📝 Final selection: {len(selected_topics)} topics')
+print(f'\n📝 Final selection: {len(selected_topics)} topics')
 for i, topic in enumerate(selected_topics, 1):
     print(f'{i}. {topic}')
 
 # Save selected topics
 with open('_temp/selected-topics.json', 'w', encoding='utf-8') as f:
     json.dump(selected_topics, f, ensure_ascii=False, indent=2)
-"
+PYTHON_EOF
           
-          # Generate articles for selected topics
-          python3 -c "
+          # Execute semantic analysis
+          python3 _temp/semantic_analysis.py
+          
+          # Create Python script for article generation
+          cat > _temp/generate_articles.py << 'PYTHON_EOF'
 import json
 import subprocess
 import os
@@ -263,7 +262,7 @@ with open('_temp/selected-topics.json', 'r', encoding='utf-8') as f:
 print(f'🚀 Generating {len(selected_topics)} articles...')
 
 for i, topic in enumerate(selected_topics, 1):
-    print(f'\\n📝 Generating article {i}: {topic[:60]}...')
+    print(f'\n📝 Generating article {i}: {topic[:60]}...')
     
     # Determine category and create specialized prompt
     category = '最新動向'  # Default
@@ -311,15 +310,15 @@ for i, topic in enumerate(selected_topics, 1):
         # Create Jekyll post
         title = topic[:100]  # Truncate long titles
         slug = topic.lower().replace(' ', '-')[:50]
-        post_filename = f'{datetime.now().strftime(\"%Y-%m-%d\")}-{i}-{slug}.md'
+        post_filename = f'{datetime.now().strftime("%Y-%m-%d")}-{i}-{slug}.md'
         
         # Category-specific tags and excerpts
         tags_map = {
-            '最新動向': '[\"AI\", \"最新ニュース\", \"業界動向\", \"企業発表\"]',
-            '技術解説': '[\"AI\", \"技術解説\", \"アルゴリズム\", \"実装\"]',
-            '実装事例': '[\"AI\", \"導入事例\", \"実装\", \"ROI\"]',
-            '業界分析': '[\"AI\", \"市場分析\", \"トレンド\", \"投資\"]',
-            '研究論文': '[\"AI\", \"研究論文\", \"学術\", \"最新研究\"]'
+            '最新動向': '["AI", "最新ニュース", "業界動向", "企業発表"]',
+            '技術解説': '["AI", "技術解説", "アルゴリズム", "実装"]',
+            '実装事例': '["AI", "導入事例", "実装", "ROI"]',
+            '業界分析': '["AI", "市場分析", "トレンド", "投資"]',
+            '研究論文': '["AI", "研究論文", "学術", "最新研究"]'
         }
         
         excerpt_map = {
@@ -334,12 +333,12 @@ for i, topic in enumerate(selected_topics, 1):
         with open(f'_posts/{post_filename}', 'w', encoding='utf-8') as f:
             f.write(f'''---
 layout: post
-title: \"{title}\"
+title: "{title}"
 date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S %z')}
-categories: [\"{category}\"]
-tags: {tags_map.get(category, '[\"AI\", \"機械学習\", \"技術解説\"]')}
-author: \"AI記事生成システム\"
-excerpt: \"{excerpt_map.get(category, 'AIに関する最新情報を詳しく解説します。')}\"
+categories: ["{category}"]
+tags: {tags_map.get(category, '["AI", "機械学習", "技術解説"]')}
+author: "AI記事生成システム"
+excerpt: "{excerpt_map.get(category, 'AIに関する最新情報を詳しく解説します。')}"
 reading_time: 8
 ---
 
@@ -347,17 +346,20 @@ reading_time: 8
             # Add article content (remove markdown code blocks if present)
             content = result.stdout
             if content.startswith('```markdown'):
-                content = '\\n'.join(content.split('\\n')[1:])
+                content = '\n'.join(content.split('\n')[1:])
             if content.endswith('```'):
-                content = '\\n'.join(content.split('\\n')[:-1])
+                content = '\n'.join(content.split('\n')[:-1])
             f.write(content)
         
         print(f'📄 Created post: {post_filename}')
     else:
         print(f'❌ Failed to generate article for: {topic}')
 
-print('\\n🎉 Article generation completed!')
-"
+print('\n🎉 Article generation completed!')
+PYTHON_EOF
+          
+          # Execute article generation
+          python3 _temp/generate_articles.py
 
       - name: Quality Check and Enhancement
         run: |
