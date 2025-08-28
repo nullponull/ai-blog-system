@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install -g @google/gemini-cli
-          pip install transformers torch sentence-transformers scikit-learn numpy requests
+          pip install sentence-transformers scikit-learn numpy requests
           mkdir -p _temp
 
       - name: Generate topics and articles
@@ -137,20 +137,14 @@ jobs:
           # Create Python script for semantic analysis using echo statements
           echo "import os" > _temp/semantic_selector.py
           echo "import glob" >> _temp/semantic_selector.py
-          echo "from transformers import AutoTokenizer, AutoModel" >> _temp/semantic_selector.py
-          echo "import torch" >> _temp/semantic_selector.py
+          echo "from sentence_transformers import SentenceTransformer" >> _temp/semantic_selector.py
           echo "from sklearn.metrics.pairwise import cosine_similarity" >> _temp/semantic_selector.py
           echo "" >> _temp/semantic_selector.py
-          echo "print('Loading Japanese BERT model...')" >> _temp/semantic_selector.py
-          echo "model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking'" >> _temp/semantic_selector.py
-          echo "tokenizer = AutoTokenizer.from_pretrained(model_name)" >> _temp/semantic_selector.py
-          echo "model = AutoModel.from_pretrained(model_name)" >> _temp/semantic_selector.py
+          echo "print('Loading multilingual sentence transformer model...')" >> _temp/semantic_selector.py
+          echo "model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')" >> _temp/semantic_selector.py
           echo "" >> _temp/semantic_selector.py
           echo "def get_embedding(text):" >> _temp/semantic_selector.py
-          echo "    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)" >> _temp/semantic_selector.py
-          echo "    with torch.no_grad():" >> _temp/semantic_selector.py
-          echo "        outputs = model(**inputs)" >> _temp/semantic_selector.py
-          echo "    return outputs.last_hidden_state.mean(dim=1).numpy()" >> _temp/semantic_selector.py
+          echo "    return model.encode([text])" >> _temp/semantic_selector.py
           echo "" >> _temp/semantic_selector.py
           echo "def extract_title(filepath):" >> _temp/semantic_selector.py
           echo "    with open(filepath, 'r', encoding='utf-8') as f:" >> _temp/semantic_selector.py
