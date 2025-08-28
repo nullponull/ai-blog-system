@@ -141,7 +141,8 @@ jobs:
               fi
               
               # Generate article
-              PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。
+              PROMPT=$(cat <<EOF
+WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。
 
 要件：
 - 実際の最新情報に基づく具体的な内容
@@ -157,7 +158,9 @@ jobs:
 ## 市場・競合への影響
 ## 今後の展望
 
-専門性と信頼性を重視した記事を作成してください。"
+専門性と信頼性を重視した記事を作成してください。
+EOF
+)
 
               gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-$ARTICLES_CREATED.md"
               
