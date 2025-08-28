@@ -134,7 +134,8 @@ jobs:
             touch _temp/existing_titles.txt
           fi
           
-          python3 << 'PYTHON_SCRIPT'
+          # Create Python script for semantic analysis
+          cat > _temp/semantic_selector.py << 'EOF'
 import os
 import glob
 from transformers import AutoTokenizer, AutoModel
@@ -202,7 +203,10 @@ for filepath in temp_articles:
         print(f"⏭️ Skipped duplicate: {title[:50]}... (similarity: {max_similarity:.3f})")
 
 print(f"🎉 Published {published_count} unique articles")
-PYTHON_SCRIPT
+EOF
+          
+          # Run the semantic selector
+          python3 _temp/semantic_selector.py
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
