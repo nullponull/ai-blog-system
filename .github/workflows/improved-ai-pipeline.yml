@@ -29,9 +29,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install -g @google/gemini-cli
-          pip install sentence-transformers scikit-learn numpy requests
-          mkdir -p _temp
+          npm install -g @google/gemini-cli textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing
+          pip install sentence-transformers scikit-learn numpy requests pillow
+          mkdir -p _temp assets/images/posts
 
       - name: Generate topics and articles
         env:
@@ -51,14 +51,8 @@ jobs:
           echo "$TOPICS"
           
           if [ -z "$TOPICS" ]; then
-            echo "❌ No topics generated, using fallback topics"
-            echo "1. OpenAI ChatGPT-5の機能向上とビジネス応用" > _temp/fallback_topics.txt
-            echo "2. Google Gemini 2.0の画像認識技術向上" >> _temp/fallback_topics.txt
-            echo "3. Microsoft Copilot for 365の企業導入拡大" >> _temp/fallback_topics.txt
-            echo "4. AI画像生成技術の著作権問題と法的対応" >> _temp/fallback_topics.txt
-            echo "5. 自動運転AI技術の2025年商用化予測" >> _temp/fallback_topics.txt
-            echo "6. 医療診断AIの精度向上と規制動向" >> _temp/fallback_topics.txt
-            TOPICS=$(cat _temp/fallback_topics.txt)
+            echo "❌ No topics generated, exiting..."
+            exit 1
           fi
           
           echo "Final topics for processing:"
@@ -186,6 +180,33 @@ jobs:
           
           # Run the semantic selector
           python3 _temp/semantic_selector.py
+
+      - name: Improve article quality with textlint
+        run: |
+          echo "📝 Improving article quality with textlint..."
+          
+          # Run textlint on all generated articles
+          for article in _posts/*.md; do
+            if [ -f "$article" ]; then
+              echo "🔍 Checking: $(basename "$article")"
+              textlint "$article" || true
+              
+              # Fix common textlint issues
+              sed -i 's/、、/、/g' "$article"
+              sed -i 's/。。/。/g' "$article"
+              
+              echo "✅ Improved: $(basename "$article")"
+            fi
+          done
+
+      - name: Generate images for articles
+        env:
+          HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+        run: |
+          export HUGGINGFACE_TOKEN="$HUGGINGFACE_TOKEN"
+          
+          echo "🎨 Generating images for published articles..."
+          python3 scripts/image_generator.py
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
