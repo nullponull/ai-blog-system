@@ -215,27 +215,30 @@ for filepath in temp_articles:
             )[0][0]
             max_similarity = max(max_similarity, similarity)
     
-    # Combined score (quality - similarity penalty)
-    similarity_penalty = max_similarity * 60  # Reduce score if too similar
-    final_score = quality - similarity_penalty
+    # Determine if article should be published (not a duplicate)
+    is_duplicate = max_similarity > 0.75  # Threshold for considering duplicate
+    should_publish = not is_duplicate
     
     article_scores.append({
         'filepath': filepath,
         'title': title,
         'quality': quality,
         'max_similarity': max_similarity,
-        'final_score': final_score
+        'is_duplicate': is_duplicate,
+        'should_publish': should_publish
     })
     
-    print(f"📝 {os.path.basename(filepath)}: quality={quality:.1f}, similarity={max_similarity:.3f}, final={final_score:.1f}")
+    status = "DUPLICATE" if is_duplicate else "UNIQUE"
+    print(f"📝 {os.path.basename(filepath)}: quality={quality:.1f}, similarity={max_similarity:.3f} -> {status}")
 
-# Sort by final score and select top 6
-article_scores.sort(key=lambda x: x['final_score'], reverse=True)
-selected_articles = article_scores[:6]
+# Select all non-duplicate articles for publication
+selected_articles = [article for article in article_scores if article['should_publish']]
+duplicate_count = len([article for article in article_scores if article['is_duplicate']])
 
-print(f"\n✅ Selected {len(selected_articles)} articles:")
+print(f"\n✅ Selected {len(selected_articles)} unique articles for publication:")
+print(f"🔄 Skipped {duplicate_count} duplicate articles")
 for i, article in enumerate(selected_articles, 1):
-    print(f"{i}. {article['title'][:60]}... (score: {article['final_score']:.1f})")
+    print(f"{i}. {article['title'][:60]}... (quality: {article['quality']:.1f})")
 
 # Save selection results
 with open('_temp/selected_articles.json', 'w', encoding='utf-8') as f:
