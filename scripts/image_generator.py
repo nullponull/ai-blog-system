@@ -13,8 +13,8 @@ import io
 def generate_image_from_title(title, article_path):
     """記事タイトルから画像を生成"""
     
-    # HuggingFace API設定 - より確実なモデルを使用
-    api_url = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
+    # HuggingFace API設定 - 最新のStable Diffusion 3.5 Medium使用
+    api_url = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3.5-medium"
     headers = {
         "Authorization": f"Bearer {os.environ.get('HUGGINGFACE_TOKEN')}"
     }
