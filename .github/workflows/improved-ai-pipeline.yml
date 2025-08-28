@@ -34,6 +34,7 @@ jobs:
           mkdir -p _temp assets/images/posts
 
       - name: Generate topics and articles
+        shell: bash
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -66,26 +67,22 @@ jobs:
           export LC_ALL=C  # Set locale to avoid encoding issues
           
           # デバッグ情報追加
-          total_topics=$(echo "$TOPICS" | wc -l)
-          echo "🔍 Debug: Total topics found: $total_topics"
+          echo "🔍 Debug: Total topics found: $(echo "$TOPICS" | wc -l)"
           echo "🔍 Debug: Topics content:"
           printf '%s\n' "$TOPICS" | nl
           echo "🔍 Debug: Starting loop with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
-          echo "📊 Processing $total_topics topics..."
           
           while IFS= read -r TOPIC_LINE; do
             if [ -z "$TOPIC_LINE" ]; then
               continue
             fi
             
-            # 進捗表示の改善
-            progress=$((TOPIC_INDEX * 100 / total_topics))
-            echo "🔍 Debug: Processing topic $TOPIC_INDEX/$total_topics ($progress%): '$TOPIC_LINE'"
+            echo "🔍 Debug: Processing topic $TOPIC_INDEX: '$TOPIC_LINE'"
             
             # より安全なsed処理
             TOPIC=$(printf '%s\n' "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
             echo "🔍 Debug: Extracted topic: '$TOPIC'"
-            echo "📝 Generating article $TOPIC_INDEX/$total_topics: $TOPIC"
+            echo "📝 Generating article $TOPIC_INDEX: $TOPIC"
             
             # Category determination (case文に変更)
             CATEGORY="最新動向"
@@ -99,13 +96,7 @@ jobs:
             # Generate article
             PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
             
-            # タイムアウト付きでGemini API呼び出し
-            if timeout 300 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX"
-            else
-              echo "⏰ Timeout or error for topic $TOPIC_INDEX: $TOPIC"
-              continue
-            fi
+            gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
               # より安全な文字列処理
@@ -113,19 +104,8 @@ jobs:
               SLUG=$(printf '%s' "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | head -c 50)
               FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
               
-              # Store in temp for processing using cat EOF
-              cat > "_temp/temp-${FILENAME}" << EOF
----
-layout: post
-title: "$TITLE"
-date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
-categories: ["$CATEGORY"]
-tags: ["AI", "最新ニュース", "技術動向"]
-author: "AI記事生成システム"
-excerpt: "AI業界の最新動向について詳しく解説します。"
-reading_time: 8
----
-EOF
+              # Store in temp for processing using printf
+              printf '%s\n' "---" "layout: post" "title: \"$TITLE\"" "date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)" "categories: [\"$CATEGORY\"]" "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]" "author: \"AI記事生成システム\"" "excerpt: \"AI業界の最新動向について詳しく解説します。\"" "reading_time: 8" "---" > "_temp/temp-${FILENAME}"
               
               # より安全なファイル処理
               tail -n +2 "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_temp/temp-${FILENAME}"
@@ -137,8 +117,8 @@ EOF
             fi
             
             TOPIC_INDEX=$((TOPIC_INDEX + 1))
-            echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1))/$total_topics, moving to next..."
-          done < <(printf '%s\n' "$TOPICS")  # プロセス置換を使用してサブシェル問題を解決
+            echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1)), moving to next..."
+          done <<< "$TOPICS"  # Here-string使用でGitHub Actions環境での安定性向上
           
           echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
           set -e  # Re-enable exit on error
