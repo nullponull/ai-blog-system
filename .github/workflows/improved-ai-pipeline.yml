@@ -134,76 +134,61 @@ jobs:
             touch _temp/existing_titles.txt
           fi
           
-          # Create Python script for semantic analysis
-          cat > _temp/semantic_selector.py << 'EOF'
-import os
-import glob
-from transformers import AutoTokenizer, AutoModel
-import torch
-from sklearn.metrics.pairwise import cosine_similarity
-
-print("Loading Japanese BERT model...")
-model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking'
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModel.from_pretrained(model_name)
-
-def get_embedding(text):
-    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
-    with torch.no_grad():
-        outputs = model(**inputs)
-    return outputs.last_hidden_state.mean(dim=1).numpy()
-
-def extract_title(filepath):
-    with open(filepath, 'r', encoding='utf-8') as f:
-        for line in f:
-            if line.startswith('title:'):
-                return line.replace('title:', '').strip().strip('"')
-    return ""
-
-# Load existing titles
-existing_titles = []
-if os.path.exists('_temp/existing_titles.txt'):
-    with open('_temp/existing_titles.txt', 'r') as f:
-        existing_titles = [line.strip().replace('title:', '').strip().strip('"') 
-                          for line in f.readlines() if line.strip()]
-
-# Process temp articles
-temp_articles = glob.glob('_temp/temp-*.md')
-published_count = 0
-
-print(f"Evaluating {len(temp_articles)} articles...")
-
-for filepath in temp_articles:
-    title = extract_title(filepath)
-    if not title:
-        continue
-    
-    # Check similarity with existing articles
-    max_similarity = 0.0
-    if existing_titles:
-        title_embedding = get_embedding(title)
-        for existing_title in existing_titles:
-            if existing_title:
-                existing_embedding = get_embedding(existing_title)
-                similarity = cosine_similarity(
-                    title_embedding.reshape(1, -1),
-                    existing_embedding.reshape(1, -1)
-                )[0][0]
-                max_similarity = max(max_similarity, similarity)
-    
-    # Publish if not duplicate
-    is_duplicate = max_similarity > 0.75
-    
-    if not is_duplicate:
-        final_name = os.path.basename(filepath).replace('temp-', '')
-        os.rename(filepath, f'_posts/{final_name}')
-        print(f"✅ Published: {final_name}")
-        published_count += 1
-    else:
-        print(f"⏭️ Skipped duplicate: {title[:50]}... (similarity: {max_similarity:.3f})")
-
-print(f"🎉 Published {published_count} unique articles")
-EOF
+          # Create Python script for semantic analysis using echo statements
+          echo "import os" > _temp/semantic_selector.py
+          echo "import glob" >> _temp/semantic_selector.py
+          echo "from transformers import AutoTokenizer, AutoModel" >> _temp/semantic_selector.py
+          echo "import torch" >> _temp/semantic_selector.py
+          echo "from sklearn.metrics.pairwise import cosine_similarity" >> _temp/semantic_selector.py
+          echo "" >> _temp/semantic_selector.py
+          echo "print('Loading Japanese BERT model...')" >> _temp/semantic_selector.py
+          echo "model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking'" >> _temp/semantic_selector.py
+          echo "tokenizer = AutoTokenizer.from_pretrained(model_name)" >> _temp/semantic_selector.py
+          echo "model = AutoModel.from_pretrained(model_name)" >> _temp/semantic_selector.py
+          echo "" >> _temp/semantic_selector.py
+          echo "def get_embedding(text):" >> _temp/semantic_selector.py
+          echo "    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)" >> _temp/semantic_selector.py
+          echo "    with torch.no_grad():" >> _temp/semantic_selector.py
+          echo "        outputs = model(**inputs)" >> _temp/semantic_selector.py
+          echo "    return outputs.last_hidden_state.mean(dim=1).numpy()" >> _temp/semantic_selector.py
+          echo "" >> _temp/semantic_selector.py
+          echo "def extract_title(filepath):" >> _temp/semantic_selector.py
+          echo "    with open(filepath, 'r', encoding='utf-8') as f:" >> _temp/semantic_selector.py
+          echo "        for line in f:" >> _temp/semantic_selector.py
+          echo "            if line.startswith('title:'):" >> _temp/semantic_selector.py
+          echo "                return line.replace('title:', '').strip().strip('\"')" >> _temp/semantic_selector.py
+          echo "    return ''" >> _temp/semantic_selector.py
+          echo "" >> _temp/semantic_selector.py
+          echo "existing_titles = []" >> _temp/semantic_selector.py
+          echo "if os.path.exists('_temp/existing_titles.txt'):" >> _temp/semantic_selector.py
+          echo "    with open('_temp/existing_titles.txt', 'r') as f:" >> _temp/semantic_selector.py
+          echo "        existing_titles = [line.strip().replace('title:', '').strip().strip('\"') for line in f.readlines() if line.strip()]" >> _temp/semantic_selector.py
+          echo "" >> _temp/semantic_selector.py
+          echo "temp_articles = glob.glob('_temp/temp-*.md')" >> _temp/semantic_selector.py
+          echo "published_count = 0" >> _temp/semantic_selector.py
+          echo "print(f'Evaluating {len(temp_articles)} articles...')" >> _temp/semantic_selector.py
+          echo "" >> _temp/semantic_selector.py
+          echo "for filepath in temp_articles:" >> _temp/semantic_selector.py
+          echo "    title = extract_title(filepath)" >> _temp/semantic_selector.py
+          echo "    if not title:" >> _temp/semantic_selector.py
+          echo "        continue" >> _temp/semantic_selector.py
+          echo "    max_similarity = 0.0" >> _temp/semantic_selector.py
+          echo "    if existing_titles:" >> _temp/semantic_selector.py
+          echo "        title_embedding = get_embedding(title)" >> _temp/semantic_selector.py
+          echo "        for existing_title in existing_titles:" >> _temp/semantic_selector.py
+          echo "            if existing_title:" >> _temp/semantic_selector.py
+          echo "                existing_embedding = get_embedding(existing_title)" >> _temp/semantic_selector.py
+          echo "                similarity = cosine_similarity(title_embedding.reshape(1, -1), existing_embedding.reshape(1, -1))[0][0]" >> _temp/semantic_selector.py
+          echo "                max_similarity = max(max_similarity, similarity)" >> _temp/semantic_selector.py
+          echo "    is_duplicate = max_similarity > 0.75" >> _temp/semantic_selector.py
+          echo "    if not is_duplicate:" >> _temp/semantic_selector.py
+          echo "        final_name = os.path.basename(filepath).replace('temp-', '')" >> _temp/semantic_selector.py
+          echo "        os.rename(filepath, f'_posts/{final_name}')" >> _temp/semantic_selector.py
+          echo "        print(f'Published: {final_name}')" >> _temp/semantic_selector.py
+          echo "        published_count += 1" >> _temp/semantic_selector.py
+          echo "    else:" >> _temp/semantic_selector.py
+          echo "        print(f'Skipped duplicate: {title[:50]}... (similarity: {max_similarity:.3f})')" >> _temp/semantic_selector.py
+          echo "print(f'Published {published_count} unique articles')" >> _temp/semantic_selector.py
           
           # Run the semantic selector
           python3 _temp/semantic_selector.py
