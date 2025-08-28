@@ -65,25 +65,32 @@ jobs:
           set +e  # Continue on errors
           export LC_ALL=C  # Set locale to avoid encoding issues
           
+          # デバッグ情報追加
+          echo "🔍 Debug: Total topics found: $(echo "$TOPICS" | wc -l)"
+          echo "🔍 Debug: Topics content:"
+          printf '%s\n' "$TOPICS" | nl
+          echo "🔍 Debug: Starting loop with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
+          
           while IFS= read -r TOPIC_LINE; do
             if [ -z "$TOPIC_LINE" ]; then
               continue
             fi
             
-            TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            echo "🔍 Debug: Processing topic $TOPIC_INDEX: '$TOPIC_LINE'"
+            
+            # より安全なsed処理
+            TOPIC=$(printf '%s\n' "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            echo "🔍 Debug: Extracted topic: '$TOPIC'"
             echo "📝 Generating article $TOPIC_INDEX: $TOPIC"
             
-            # Category determination
+            # Category determination (case文に変更)
             CATEGORY="最新動向"
-            if [[ "$TOPIC" =~ (研究|論文|学会) ]]; then
-              CATEGORY="研究論文"
-            elif [[ "$TOPIC" =~ (技術|アルゴリズム|仕組み) ]]; then
-              CATEGORY="技術解説"
-            elif [[ "$TOPIC" =~ (導入|事例|活用) ]]; then
-              CATEGORY="実装事例"
-            elif [[ "$TOPIC" =~ (市場|分析|予測) ]]; then
-              CATEGORY="業界分析"
-            fi
+            case "$TOPIC" in
+                *研究*|*論文*|*学会*) CATEGORY="研究論文" ;;
+                *技術*|*アルゴリズム*|*仕組み*) CATEGORY="技術解説" ;;
+                *導入*|*事例*|*活用*) CATEGORY="実装事例" ;;
+                *市場*|*分析*|*予測*) CATEGORY="業界分析" ;;
+            esac
             
             # Generate article
             PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
@@ -91,23 +98,27 @@ jobs:
             gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md"
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
-              TITLE=$(echo "$TOPIC" | cut -c1-80)
-              SLUG=$(echo "$TOPIC" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | cut -c1-50)
+              # より安全な文字列処理
+              TITLE=$(printf '%s' "$TOPIC" | head -c 80)
+              SLUG=$(printf '%s' "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | head -c 50)
               FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
               
-              # Store in temp for processing
-              echo "---" > "_temp/temp-${FILENAME}"
-              echo "layout: post" >> "_temp/temp-${FILENAME}"
-              echo "title: \"$TITLE\"" >> "_temp/temp-${FILENAME}"
-              echo "date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)" >> "_temp/temp-${FILENAME}"
-              echo "categories: [\"$CATEGORY\"]" >> "_temp/temp-${FILENAME}"
-              echo "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]" >> "_temp/temp-${FILENAME}"
-              echo "author: \"AI記事生成システム\"" >> "_temp/temp-${FILENAME}"
-              echo "excerpt: \"AI業界の最新動向について詳しく解説します。\"" >> "_temp/temp-${FILENAME}"
-              echo "reading_time: 8" >> "_temp/temp-${FILENAME}"
-              echo "---" >> "_temp/temp-${FILENAME}"
+              # Store in temp for processing using HEREDOC
+              cat > "_temp/temp-${FILENAME}" << EOF
+---
+layout: post
+title: "$TITLE"
+date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
+categories: ["$CATEGORY"]
+tags: ["AI", "最新ニュース", "技術動向"]
+author: "AI記事生成システム"
+excerpt: "AI業界の最新動向について詳しく解説します。"
+reading_time: 8
+---
+EOF
               
-              sed '1d' "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_temp/temp-${FILENAME}"
+              # より安全なファイル処理
+              tail -n +2 "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_temp/temp-${FILENAME}"
               
               echo "✅ Generated: temp-${FILENAME}"
               GENERATED_COUNT=$((GENERATED_COUNT + 1))
@@ -116,8 +127,10 @@ jobs:
             fi
             
             TOPIC_INDEX=$((TOPIC_INDEX + 1))
-          done <<< "$TOPICS"
+            echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1)), moving to next..."
+          done < <(printf '%s\n' "$TOPICS")  # プロセス置換を使用してサブシェル問題を解決
           
+          echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
           set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
 
