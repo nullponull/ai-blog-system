@@ -110,27 +110,34 @@ jobs:
           set +e  # Continue on errors
           export LC_ALL=C  # Set locale to avoid encoding issues
           
-          # Convert topics to array
-          IFS=$'\n' read -d '' -r -a TOPICS_ARRAY <<< "$TOPICS" || true
+          # Generate articles using C-style for loop (most reliable approach)
+          if [ -z "$TOPICS" ]; then
+            echo "❌ No topics to process"
+            exit 1
+          fi
           
-          echo "🔍 Debug: Total topics found: ${#TOPICS_ARRAY[@]}"
-          echo "🔍 Debug: Topics array content:"
-          for i in "${!TOPICS_ARRAY[@]}"; do
-            echo "  $((i+1)): ${TOPICS_ARRAY[i]}"
-          done
-          echo "🔍 Debug: Starting for loop with array size ${#TOPICS_ARRAY[@]}"
+          # Write topics to temporary file for reliable processing
+          printf '%s\n' "$TOPICS" > _temp/topics_list.txt
           
-          # Generate articles using for loop with array
-          for i in "${!TOPICS_ARRAY[@]}"; do
-            TOPIC_INDEX=$((i + 1))
-            TOPIC_LINE="${TOPICS_ARRAY[i]}"
+          # Count total topics
+          TOPIC_COUNT=$(grep -c . _temp/topics_list.txt || echo "0")
+          echo "🔍 Debug: Found $TOPIC_COUNT topics to process"
+          
+          if [ "$TOPIC_COUNT" -eq 0 ]; then
+            echo "❌ No valid topics found"
+            exit 1
+          fi
+          
+          # Process each topic using C-style for loop with file reading
+          for ((TOPIC_INDEX=1; TOPIC_INDEX<=TOPIC_COUNT; TOPIC_INDEX++)); do
+            TOPIC_LINE=$(sed -n "${TOPIC_INDEX}p" _temp/topics_list.txt)
             
             if [ -z "$TOPIC_LINE" ]; then
-              echo "🔍 Debug: Skipping empty topic at index $TOPIC_INDEX"
+              echo "🔍 Debug: Skipping empty topic at line $TOPIC_INDEX"
               continue
             fi
             
-            echo "🔍 Debug: Processing topic $TOPIC_INDEX: '$TOPIC_LINE'"
+            echo "🔍 Debug: Processing topic $TOPIC_INDEX/$TOPIC_COUNT: '$TOPIC_LINE'"
             
             # より安全なsed処理
             TOPIC=$(printf '%s\n' "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
@@ -169,10 +176,8 @@ jobs:
               echo "❌ Failed to generate: $TOPIC"
             fi
             
-            echo "🔍 Debug: Completed topic $TOPIC_INDEX, moving to next..."
+            echo "🔍 Debug: Completed topic $TOPIC_INDEX/$TOPIC_COUNT, moving to next..."
           done
-          
-          echo "🔍 Debug: For loop completed, processed ${#TOPICS_ARRAY[@]} topics"
           set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
 
