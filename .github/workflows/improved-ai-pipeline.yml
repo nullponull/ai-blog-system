@@ -29,7 +29,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install -g @google/gemini-cli textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing
+          npm install -g @google/gemini-cli textlint @textlint-ja/preset-ai-writing textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing
           pip install sentence-transformers scikit-learn numpy requests pillow
           mkdir -p _temp assets/images/posts
 
@@ -280,7 +280,29 @@ jobs:
             esac
             
             # Generate article with timeout to prevent excessive Actions usage
-            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。専門性と信頼性を重視した記事を作成してください。"
+            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。
+
+要件：
+- 実際の最新情報に基づく具体的な内容
+- 企業名・製品名・人名・数値データを正確に記載
+- 技術者・投資家向けの詳細な分析
+- 3000-4000文字程度
+- Markdown形式で出力
+
+構成：
+# $TOPIC
+## 概要と背景
+## 詳細な技術・ビジネス内容
+## 市場・競合への影響
+## 今後の展望
+
+注意事項：
+- AIっぽい表現を避け、自然で人間的な文章にする
+- 過度な敬語や定型的な挨拶文は使わない
+- 「このように」「さらに」「また」などの接続語を多用しない
+- 箇条書きの乱用を避ける
+- 「AI生成」「AI によって」等のメタ情報は記載しない
+- 専門性と信頼性を重視した自然な記事を作成してください。"
             
             # Add timeout to prevent hanging on rate limits
             if timeout 120 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
@@ -397,15 +419,27 @@ jobs:
         run: |
           echo "📝 Improving article quality with textlint..."
           
-          # Run textlint on all generated articles
+          # Run textlint on all generated articles with AI writing detection
           for article in _posts/*.md; do
             if [ -f "$article" ]; then
               echo "🔍 Checking: $(basename "$article")"
-              textlint "$article" || true
               
-              # Fix common textlint issues
+              # Run textlint with detailed output
+              if ! textlint "$article"; then
+                echo "⚠️ TextLint issues found in $(basename "$article")"
+              fi
+              
+              # Fix common AI-generated patterns and issues
               sed -i 's/、、/、/g' "$article"
               sed -i 's/。。/。/g' "$article"
+              # Remove common AI metadata patterns
+              sed -i '/^AI によって生成/d' "$article"
+              sed -i '/^この記事は AI で生成/d' "$article"
+              sed -i '/^※ この記事は AI/d' "$article"
+              # Remove excessive emphasis
+              sed -i 's/\*\*\([^*]*\)\*\*/\1/g' "$article" | head -c 0
+              # Clean up list formatting
+              sed -i 's/^- \*\*/- /g' "$article"
               
               echo "✅ Improved: $(basename "$article")"
             fi
@@ -414,15 +448,20 @@ jobs:
       - name: Generate images for articles
         env:
           HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           export HUGGINGFACE_TOKEN="$HUGGINGFACE_TOKEN"
+          export GEMINI_API_KEY="$GEMINI_API_KEY"
           
           echo "🎨 Generating images for published articles..."
           # Install required dependencies
           pip install requests pillow
           
-          # Generate featured images for articles
+          # 1. Generate featured images for articles
           python3 scripts/image_generator.py
+          
+          # 2. Generate Mermaid diagrams for article content
+          python3 scripts/mermaid_diagram_generator.py
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
