@@ -78,40 +78,46 @@ jobs:
           
           echo "🔍 Debug: Trying different syntax options..."
           
-          # Use single proven method to minimize API calls
-          echo "🔍 Generating topics with optimized single API call..."
-          echo "🔍 API calls so far: 0"
+          # Use only proven working methods to minimize API calls
+          echo "🔍 Using proven working methods only..."
+          TOPIC_API_SUCCESS=false
+          API_ATTEMPT=0
           
-          if gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Topic generation successful (1 API call)"
+          # Method 1: stdin method (printf) - proven to work
+          API_ATTEMPT=$((API_ATTEMPT + 1))
+          echo "🔍 API attempt $API_ATTEMPT: stdin method (printf)"
+          if printf '%s\n' "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            if ! grep -q "What would you like to work on\|How can I help" _temp/topics.txt 2>/dev/null; then
+              echo "✅ Topic generation successful with stdin method ($API_ATTEMPT API calls)"
+              TOPIC_API_SUCCESS=true
+            fi
+          fi
+          
+          # Method 2: echo method (fallback)
+          if [ "$TOPIC_API_SUCCESS" = "false" ]; then
+            API_ATTEMPT=$((API_ATTEMPT + 1))
+            echo "🔍 API attempt $API_ATTEMPT: echo method"
+            if echo "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
+              if ! grep -q "What would you like to work on\|How can I help" _temp/topics.txt 2>/dev/null; then
+                echo "✅ Topic generation successful with echo method ($API_ATTEMPT API calls)"
+                TOPIC_API_SUCCESS=true
+              fi
+            fi
+          fi
+          
+          # Check final result
+          if [ "$TOPIC_API_SUCCESS" = "false" ]; then
+            echo "❌ All $API_ATTEMPT topic generation methods failed"
             echo "🔍 Generated content preview:"
-            head -3 _temp/topics.txt
-            TOPIC_API_SUCCESS=true
-          else
-            TOPIC_API_SUCCESS=false
-            echo "❌ Topic generation failed (1 API call attempted)"
-            echo "Error log:"
-            cat _temp/gemini_error.log || echo "No error log available"
+            head -3 _temp/topics.txt 2>/dev/null || echo "No content generated"
             echo "🚫 Stopping workflow to prevent excessive API usage"
             exit 1
           fi
           
-          # Only check for generic response if API call was successful
-          if [ "$TOPIC_API_SUCCESS" = "true" ] && grep -q "How can I help" _temp/topics.txt 2>/dev/null; then
-            echo "🚨 Detected generic response - WebSearch may be unavailable"
-            echo "🔄 Trying single fallback with knowledge-based prompt (this will be API call #2)..."
-            
-            FALLBACK_PROMPT="AI業界で話題になっている最新のトレンドや注目すべき出来事について、あなたの知識に基づいて5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...企業名・製品名を含めた現実的で興味深い話題を5個リストアップしてください。"
-            
-            if gemini -m "gemini-2.5-flash" -p "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
-              echo "✅ Fallback successful (2 API calls total)"
-            else
-              echo "❌ Fallback also failed (2 API calls total)"
-              cat _temp/fallback_error.log || echo "No fallback error log available"
-              echo "🚫 Stopping workflow to prevent excessive API usage"
-              exit 1
-            fi
-          fi
+          echo "🔍 Generated content preview:"
+          head -3 _temp/topics.txt
+          
+          # Topic generation completed successfully with one of the methods above
           
           echo "Generated topics:"
           head -15 _temp/topics.txt
@@ -312,10 +318,30 @@ jobs:
             # Generate article with WebSearch (restore original functionality)
             ARTICLE_PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC、## 概要と背景、## 詳細な技術・ビジネス内容、## 市場・競合への影響、## 今後の展望。重要な注意事項：記事のタイトルから本文まで、すべて自然な日本語で記述、AIっぽい表現を避け人間が書いたような自然な文章、「記事を作成しました」「文字数は〇〇です」等のメタ情報は一切含めない、「Please review」「The article has been」等の英語コメントは禁止、過度な敬語や定型的な挨拶文は使わない、AI生成に関する言及は絶対に記載しない、記事内容のみを出力し、作成者コメントは不要。"
             
-            # Single optimized API call to minimize usage
+            # Use only proven working methods for article generation
             echo "🔍 API call #$((TOPIC_INDEX + 1)): Generating article for topic $TOPIC_INDEX"
-            if timeout 120 gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article $TOPIC_INDEX generated (1 API call)"
+            ARTICLE_SUCCESS=false
+            
+            # Method 1: stdin method (printf) - proven to work
+            if timeout 120 sh -c "printf '%s\n' '$ARTICLE_PROMPT' | gemini -m 'gemini-2.5-flash'" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+              if ! grep -q "What would you like to work on\|How can I help" "_temp/article-${TOPIC_INDEX}.md" 2>/dev/null; then
+                echo "✅ Article $TOPIC_INDEX generated with stdin method"
+                ARTICLE_SUCCESS=true
+              fi
+            fi
+            
+            # Method 2: echo method (fallback)
+            if [ "$ARTICLE_SUCCESS" = "false" ]; then
+              echo "🔄 Trying echo method for article $TOPIC_INDEX"
+              if timeout 120 echo "$ARTICLE_PROMPT" | gemini -m "gemini-2.5-flash" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+                if ! grep -q "What would you like to work on\|How can I help" "_temp/article-${TOPIC_INDEX}.md" 2>/dev/null; then
+                  echo "✅ Article $TOPIC_INDEX generated with echo method"
+                  ARTICLE_SUCCESS=true
+                fi
+              fi
+            fi
+            
+            if [ "$ARTICLE_SUCCESS" = "true" ]; then
             else
               exit_code=$?
               echo "❌ Article generation failed for topic $TOPIC_INDEX"
@@ -361,15 +387,9 @@ jobs:
           echo "📊 Generated $GENERATED_COUNT articles"
           
           # Calculate actual API calls made
-          if [ "$TOPIC_API_SUCCESS" = "true" ] && ! grep -q "How can I help" _temp/topics.txt 2>/dev/null; then
-            TOPIC_API_CALLS=1
-          else
-            TOPIC_API_CALLS=2  # Topic + fallback
-          fi
-          
-          TOTAL_API_CALLS=$((TOPIC_API_CALLS + GENERATED_COUNT))
-          echo "📊 Total Gemini API calls: $TOTAL_API_CALLS ($TOPIC_API_CALLS topic generation + $GENERATED_COUNT articles)"
-          echo "📉 API usage reduced by ~85% (from 40+ to $TOTAL_API_CALLS calls)"
+          TOTAL_API_CALLS=$((API_ATTEMPT + GENERATED_COUNT))
+          echo "📊 Total Gemini API calls: $TOTAL_API_CALLS ($API_ATTEMPT topic generation + $GENERATED_COUNT articles)"
+          echo "📉 API usage optimized: ~85% reduction (from 40+ to $TOTAL_API_CALLS calls)"
 
       - name: Semantic article selection
         run: |
