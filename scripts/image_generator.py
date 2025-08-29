@@ -13,8 +13,8 @@ import io
 def generate_image_from_title(title, article_path):
     """記事タイトルから画像を生成"""
     
-    # HuggingFace API設定 - 最新のStable Diffusion 3.5 Medium使用
-    api_url = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3.5-medium"
+    # HuggingFace API設定 - SD3 Medium (2024年安定版、制限に配慮)
+    api_url = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3-medium-diffusers"
     headers = {
         "Authorization": f"Bearer {os.environ.get('HUGGINGFACE_TOKEN')}"
     }
@@ -22,14 +22,9 @@ def generate_image_from_title(title, article_path):
     # AIトピック向けのプロンプト作成
     base_prompt = f"Professional technology illustration for: {title}. Modern, clean, technological, AI concept, digital art, high quality, blue and white color scheme"
     
+    # HuggingFace Inference API用のペイロード（シンプルな形式）
     payload = {
-        "inputs": base_prompt,
-        "parameters": {
-            "num_inference_steps": 30,
-            "guidance_scale": 7.5,
-            "width": 1024,
-            "height": 576
-        }
+        "inputs": base_prompt
     }
     
     try:
