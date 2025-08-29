@@ -58,12 +58,27 @@ jobs:
           
           # API call with detailed error reporting
           echo "🎯 Calling Gemini API..."
+          echo "🔍 Debug: Testing different Gemini CLI syntaxes..."
+          
+          # Test Gemini CLI help to see available options
+          echo "Available Gemini CLI options:"
+          gemini --help 2>/dev/null || gemini -h 2>/dev/null || true
+          
           PROMPT="WebSearch: AI業界 最新ニュース トレンド 話題。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を5個リストアップしてください。"
           
-          if gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful"
+          echo "🔍 Debug: Trying different syntax options..."
+          
+          # Try multiple syntax variations
+          if echo "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (stdin method)"
+          elif gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (-p method)"  
+          elif gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (--prompt method)"
+          elif gemini -m "gemini-2.5-flash" "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (direct argument method)"
           else
-            echo "❌ Gemini API call failed"
+            echo "❌ All Gemini API call methods failed"
             echo "Error log:"
             cat _temp/gemini_error.log || echo "No error log available"
             
@@ -72,7 +87,11 @@ jobs:
               echo "🔄 Detected quota/search error. Trying fallback without WebSearch..."
               FALLBACK_PROMPT="AI業界で話題になっている最新のトレンドや注目すべき出来事について、あなたの知識に基づいて5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...企業名・製品名を含めた現実的で興味深い話題を5個リストアップしてください。"
               
-              if gemini -m "gemini-2.5-flash" -p "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
+              if echo "$FALLBACK_PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/fallback_error.log; then
+                echo "✅ Fallback successful - using knowledge-based topics (stdin method)"
+              elif gemini -m "gemini-2.5-flash" -p "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
+                echo "✅ Fallback successful - using knowledge-based topics (-p method)"
+              elif gemini -m "gemini-2.5-flash" --prompt "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
                 echo "✅ Fallback successful - using knowledge-based topics"
               else
                 echo "❌ Fallback also failed"
@@ -166,7 +185,11 @@ jobs:
                 ;;
             esac
             
-            if gemini -m "gemini-2.5-flash" -p "$ADDITIONAL_PROMPT" > _temp/additional_topics.txt 2>/dev/null; then
+            if echo "$ADDITIONAL_PROMPT" | gemini -m "gemini-2.5-flash" > _temp/additional_topics.txt 2>/dev/null; then
+              echo "Generated additional topics (stdin method)"
+            elif gemini -m "gemini-2.5-flash" -p "$ADDITIONAL_PROMPT" > _temp/additional_topics.txt 2>/dev/null; then
+              echo "Generated additional topics (-p method)"
+            elif gemini -m "gemini-2.5-flash" --prompt "$ADDITIONAL_PROMPT" > _temp/additional_topics.txt 2>/dev/null; then
               ADDITIONAL_TOPICS=$(grep -E "^[0-9]+\." _temp/additional_topics.txt)
               echo "Generated additional topics:"
               echo "$ADDITIONAL_TOPICS"
@@ -282,9 +305,15 @@ jobs:
             # Generate article with timeout to prevent excessive Actions usage  
             PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC、## 概要と背景、## 詳細な技術・ビジネス内容、## 市場・競合への影響、## 今後の展望。重要な注意事項：記事のタイトルから本文まで、すべて自然な日本語で記述、AIっぽい表現を避け人間が書いたような自然な文章、「記事を作成しました」「文字数は〇〇です」等のメタ情報は一切含めない、「Please review」「The article has been」等の英語コメントは禁止、過度な敬語や定型的な挨拶文は使わない、AI生成に関する言及は絶対に記載しない、記事内容のみを出力し、作成者コメントは不要。"
             
-            # Add timeout to prevent hanging on rate limits
-            if timeout 120 gemini -m "gemini-2.5-flash" -p "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX"
+            # Add timeout to prevent hanging on rate limits - try multiple syntax methods
+            if timeout 120 sh -c "echo '$PROMPT' | gemini -m 'gemini-2.5-flash'" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+              echo "✅ Article generation completed for topic $TOPIC_INDEX (stdin method)"
+            elif timeout 120 gemini -m "gemini-2.5-flash" -p "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+              echo "✅ Article generation completed for topic $TOPIC_INDEX (-p method)"
+            elif timeout 120 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+              echo "✅ Article generation completed for topic $TOPIC_INDEX (--prompt method)"
+            elif timeout 120 gemini -m "gemini-2.5-flash" "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+              echo "✅ Article generation completed for topic $TOPIC_INDEX (direct method)"
             else
               exit_code=$?
               echo "❌ Article generation failed for topic $TOPIC_INDEX"
