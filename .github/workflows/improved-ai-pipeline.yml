@@ -126,8 +126,7 @@ jobs:
               if [ -z "$TOPICS" ]; then
                 TOPICS="$topic_line"
               else
-                TOPICS="${TOPICS}
-${topic_line}"
+                TOPICS="$TOPICS"$'\n'"$topic_line"
               fi
               TOPIC_COUNT=$((TOPIC_COUNT + 1))
               echo "✅ Added unique topic: $topic_title"
@@ -185,8 +184,7 @@ ${topic_line}"
                 fi
                 
                 if [ "$is_duplicate" = false ]; then
-                  TOPICS="${TOPICS}
-${topic_line}"
+                  TOPICS="$TOPICS"$'\n'"$topic_line"
                   TOPIC_COUNT=$((TOPIC_COUNT + 1))
                   echo "✅ Added additional unique topic: $topic_title"
                 fi
