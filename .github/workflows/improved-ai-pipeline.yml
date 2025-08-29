@@ -378,8 +378,7 @@ jobs:
               fi
             fi
             
-            if [ "$ARTICLE_SUCCESS" = "true" ]; then
-            else
+            if [ "$ARTICLE_SUCCESS" = "false" ]; then
               exit_code=$?
               echo "❌ Article generation failed for topic $TOPIC_INDEX"
               echo "Error details:"
