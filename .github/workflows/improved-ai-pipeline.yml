@@ -99,8 +99,8 @@ jobs:
           RETRY_COUNT=0
           MAX_RETRIES=3
           
-          # Filter duplicates and get unique topics
-          while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 10 ]; do
+          # Filter duplicates and get unique topics (reduced to 5 to stay within API limits)
+          while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 5 ]; do
             if [ -z "$topic_line" ]; then
               continue
             fi
@@ -135,20 +135,20 @@ $topic_line"
           done <<< "$ALL_GENERATED_TOPICS"
           
           # If we don't have enough unique topics, generate more
-          while [ $TOPIC_COUNT -lt 10 ] && [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+          while [ $TOPIC_COUNT -lt 5 ] && [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
             RETRY_COUNT=$((RETRY_COUNT + 1))
-            echo "🔄 Need more topics ($TOPIC_COUNT/10). Retry $RETRY_COUNT/$MAX_RETRIES with different prompt..."
+            echo "🔄 Need more topics ($TOPIC_COUNT/5). Retry $RETRY_COUNT/$MAX_RETRIES with different prompt..."
             
             # Generate additional topics with different search strategies
             case $RETRY_COUNT in
               1)
-                ADDITIONAL_PROMPT="WebSearch: AI業界 スタートアップ 投資 資金調達 IPO M&A。AI関連スタートアップや投資動向に焦点を当てた最新話題を$(( 10 - TOPIC_COUNT + 2 ))個生成してください。具体的な企業名・金額・投資家名を含む話題を番号付きでリストアップ。"
+                ADDITIONAL_PROMPT="WebSearch: AI業界 スタートアップ 投資 資金調達 IPO M&A。AI関連スタートアップや投資動向に焦点を当てた最新話題を$(( 5 - TOPIC_COUNT + 2 ))個生成してください。具体的な企業名・金額・投資家名を含む話題を番号付きでリストアップ。"
                 ;;
               2)
-                ADDITIONAL_PROMPT="WebSearch: AI業界 研究 論文 学会 大学 研究機関。AI研究や学術論文、研究機関の最新成果に焦点を当てた話題を$(( 10 - TOPIC_COUNT + 2 ))個生成してください。具体的な研究者名・大学名・論文名を含む話題を番号付きでリストアップ。"
+                ADDITIONAL_PROMPT="WebSearch: AI業界 研究 論文 学会 大学 研究機関。AI研究や学術論文、研究機関の最新成果に焦点を当てた話題を$(( 5 - TOPIC_COUNT + 2 ))個生成してください。具体的な研究者名・大学名・論文名を含む話題を番号付きでリストアップ。"
                 ;;
               *)
-                ADDITIONAL_PROMPT="WebSearch: AI業界 政府 政策 規制 法律 国際協力。AI関連の政府政策や規制、国際的な取り組みに焦点を当てた話題を$(( 10 - TOPIC_COUNT + 2 ))個生成してください。具体的な国名・政府機関名・政策名を含む話題を番号付きでリストアップ。"
+                ADDITIONAL_PROMPT="WebSearch: AI業界 政府 政策 規制 法律 国際協力。AI関連の政府政策や規制、国際的な取り組みに焦点を当てた話題を$(( 5 - TOPIC_COUNT + 2 ))個生成してください。具体的な国名・政府機関名・政策名を含む話題を番号付きでリストアップ。"
                 ;;
             esac
             
@@ -158,7 +158,7 @@ $topic_line"
               echo "$ADDITIONAL_TOPICS"
               
               # Filter new topics for duplicates
-              while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 10 ]; do
+              while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 5 ]; do
                 if [ -z "$topic_line" ]; then
                   continue
                 fi
@@ -220,7 +220,7 @@ $topic_line"
             echo "⚠️ Consider adjusting search criteria or reducing posting frequency."
           fi
           
-          echo "📊 Final unique topics selected: $TOPIC_COUNT/10"
+          echo "📊 Final unique topics selected: $TOPIC_COUNT/5"
           TOPICS=$(printf '%s\n' "$TOPICS")
           echo "Final topics for processing:"
           echo "$TOPICS"
@@ -401,11 +401,19 @@ $topic_line"
       - name: Generate images for articles
         env:
           HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+          GEMINI_API_KEY2: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           export HUGGINGFACE_TOKEN="$HUGGINGFACE_TOKEN"
           
           echo "🎨 Generating images for published articles..."
+          # Install required dependencies
+          pip install requests pillow
+          
+          # 1. Generate featured images for articles
           python3 scripts/image_generator.py
+          
+          # 2. Generate Mermaid diagrams for article content
+          python3 scripts/mermaid_diagram_generator.py
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
