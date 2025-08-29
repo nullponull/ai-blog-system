@@ -1,0 +1,21 @@
+Mermaid Code (472 chars):
+graph TD
+    A[開始] --> B(ニーズ分析);
+    B --> C(システム設計);
+    C --> D{開発・テスト};
+    D -- OK --> E[本格運用];
+    D -- NG --> C;
+    E --> F((継続改善));
+    F -- 改善点発見 --> B;
+    F -- 完了 --> G[終了];
+
+    style A fill:#F0F8FF,stroke:#4682B4;
+    style B fill:#E0FFFF,stroke:#20B2AA;
+    style C fill:#F5DEB3,stroke:#D2B48C;
+    style D fill:#FFE4E1,stroke:#CD5C5C;
+    style E fill:#F0FFF0,stroke:#3CB371;
+    style F fill:#E6E6FA,stroke:#9370DB;
+    style G fill:#F0F8FF,stroke:#4682B4;
+
+URL (752 chars):
+https://mermaid.ink/img/Z3JhcGggVEQKICAgIEFb6ZaL5aeLXSAtLT4gQijjg4vjg7zjgrrliIbmnpApOwogICAgQiAtLT4gQyjjgrfjgrnjg4bjg6DoqK3oqIgpOwogICAgQyAtLT4gRHvplovnmbrjg7vjg4bjgrnjg4h9OwogICAgRCAtLSBPSyAtLT4gRVvmnKzmoLzpgYvnlKhdOwogICAgRCAtLSBORyAtLT4gQzsKICAgIEUgLS0+IEYoKOe2mee2muaUueWWhCkpOwogICAgRiAtLSDmlLnlloTngrnnmbroposgLS0+IEI7CiAgICBGIC0tIOWujOS6hiAtLT4gR1vntYLkuoZdOwoKICAgIHN0eWxlIEEgZmlsbDojRjBGOEZGLHN0cm9rZTojNDY4MkI0OwogICAgc3R5bGUgQiBmaWxsOiNFMEZGRkYsc3Ryb2tlOiMyMEIyQUE7CiAgICBzdHlsZSBDIGZpbGw6I0Y1REVCMyxzdHJva2U6I0QyQjQ4QzsKICAgIHN0eWxlIEQgZmlsbDojRkZFNEUxLHN0cm9rZTojQ0Q1QzVDOwogICAgc3R5bGUgRSBmaWxsOiNGMEZGRjAsc3Ryb2tlOiMzQ0IzNzE7CiAgICBzdHlsZSBGIGZpbGw6I0U2RTZGQSxzdHJva2U6IzkzNzBEQjsKICAgIHN0eWxlIEcgZmlsbDojRjBGOEZGLHN0cm9rZTojNDY4MkI0Ow==
