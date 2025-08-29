@@ -16,6 +16,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for proper rebasing
+          
+      - name: Sync with latest changes
+        run: |
+          echo "🔄 Syncing with latest remote changes..."
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull origin main || echo "⚠️ No remote changes to pull"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -546,15 +555,36 @@ jobs:
 
       - name: Commit generated articles
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Git config already set in sync step
+          echo "📝 Checking for new articles to commit..."
           
           if [ -n "$(git status --porcelain _posts/)" ]; then
             ARTICLE_COUNT=$(ls _posts/$(date +%Y-%m-%d)-*.md 2>/dev/null | wc -l)
             git add _posts/
             git commit -m "🤖 Add $ARTICLE_COUNT unique AI articles - $(date +%Y-%m-%d)"
-            git push
-            echo "✅ Committed $ARTICLE_COUNT new articles"
+            
+            # Pull latest changes before pushing to handle concurrent modifications
+            echo "🔄 Pulling latest changes before push..."
+            if git pull --rebase origin main; then
+              echo "✅ Successfully pulled and rebased latest changes"
+            else
+              echo "⚠️ Git pull failed, trying merge strategy..."
+              git pull origin main --no-rebase || echo "⚠️ Auto-merge failed, will attempt force push"
+            fi
+            
+            # Push with retry logic
+            echo "📤 Pushing $ARTICLE_COUNT new articles..."
+            if git push; then
+              echo "✅ Successfully pushed $ARTICLE_COUNT new articles"
+            else
+              echo "❌ Push failed, attempting force push with lease..."
+              if git push --force-with-lease; then
+                echo "✅ Force push successful"
+              else
+                echo "❌ All push attempts failed - manual intervention needed"
+                exit 1
+              fi
+            fi
           else
             echo "ℹ️  No new articles to commit"
           fi
