@@ -56,34 +56,53 @@ jobs:
             exit 1
           fi
           
-          # API call with detailed error reporting
-          echo "🎯 Calling Gemini API..."
-          PROMPT="WebSearch: AI業界 最新ニュース トレンド 話題。AI業界で注目されている最新の話題・トレンドをWeb検索で調査し、以下の形式で5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...実際の検索結果に基づいて、具体的な企業名・製品名・人名を含めた現実的な話題を5個リストアップしてください。"
+          # Optimized API call: Generate 8 diverse topics in one call (API optimization)
+          echo "🎯 Optimized topic generation (single API call)..."
+          OPTIMIZED_PROMPT="WebSearch: AI業界 最新ニュース。
+
+**ミッション:** AI業界専門記者として、Web検索で最新情報を調査し、多様な分野から8個の質の高い話題を生成してください。
+
+**多様性要件（各分野2個ずつ）:**
+1. **企業・ビジネス動向:** 新製品発表、投資・資金調達、M&A、IPO、戦略発表
+2. **技術・研究開発:** 新技術、研究成果、論文発表、アルゴリズム革新
+3. **政策・規制:** 法規制、政府政策、国際協力、ガイドライン策定
+4. **社会実装・事例:** 企業導入事例、業界変革、実用化・商用化事例
+
+**出力形式（厳密に従ってください）:**
+1. [企業・ビジネス] 具体的な話題：企業名・製品名・金額等を含む
+2. [企業・ビジネス] 具体的な話題：企業名・製品名・金額等を含む  
+3. [技術・研究] 具体的な話題：研究者名・大学名・技術名を含む
+4. [技術・研究] 具体的な話題：研究者名・大学名・技術名を含む
+5. [政策・規制] 具体的な話題：国名・機関名・政策名を含む
+6. [政策・規制] 具体的な話題：国名・機関名・政策名を含む
+7. [社会実装] 具体的な話題：企業名・事例・影響を含む
+8. [社会実装] 具体的な話題：企業名・事例・影響を含む
+
+**品質要件:**
+- Web検索による最新・正確な情報使用
+- 具体的な固有名詞（企業名・人名・製品名・数値）必須
+- 各話題は時事性と専門性を両立"
           
-          if gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful"
+          if gemini -m "gemini-2.5-flash" --prompt "$OPTIMIZED_PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Optimized topic generation successful (1 API call for 8 topics)"
           else
-            echo "❌ Gemini API call failed"
-            echo "Error log:"
+            echo "❌ Optimized call failed, trying fallback..."
             cat _temp/gemini_error.log || echo "No error log available"
             
-            # Check if it's a quota/search error
-            if grep -q "quota\|search\|limit" _temp/gemini_error.log 2>/dev/null; then
-              echo "🔄 Detected quota/search error. Trying fallback without WebSearch..."
-              FALLBACK_PROMPT="AI業界で話題になっている最新のトレンドや注目すべき出来事について、あなたの知識に基づいて5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...企業名・製品名を含めた現実的で興味深い話題を5個リストアップしてください。"
-              
-              if gemini -m "gemini-2.5-flash" --prompt "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
-                echo "✅ Fallback successful - using knowledge-based topics"
-              else
-                echo "❌ Fallback also failed"
-                cat _temp/fallback_error.log || echo "No fallback error log available"
-                exit 1
-              fi
+            FALLBACK_PROMPT="AI業界の最新トレンドから多様な8個の話題をリストアップしてください。
+
+**分野別要件（各2個）:**
+- 企業・ビジネス: 新製品、投資、M&A、戦略発表
+- 技術・研究: 新技術、研究成果、論文、アルゴリズム
+- 政策・規制: 法規制、政府政策、国際協力
+- 社会実装: 導入事例、業界変革、実用化
+
+**出力:** 1-8の番号付きリストで、企業名・製品名・人名を含む具体的な話題"
+            
+            if gemini -m "gemini-2.5-flash" --prompt "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
+              echo "✅ Fallback successful (1 API call)"
             else
-              echo "Checking for common issues:"
-              echo "- API Key format: $(echo "$GEMINI_API_KEY" | sed 's/.*\(.....\)$/***\1/')"
-              echo "- Network connectivity test:"
-              curl -s --max-time 10 https://generativelanguage.googleapis.com > /dev/null && echo "  ✅ Can reach Google AI API" || echo "  ❌ Cannot reach Google AI API"
+              echo "❌ Topic generation completely failed"
               exit 1
             fi
           fi
@@ -148,67 +167,8 @@ jobs:
             fi
           done <<< "$ALL_GENERATED_TOPICS"
           
-          # If we don't have enough unique topics, generate more
-          while [ $TOPIC_COUNT -lt 5 ] && [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-            RETRY_COUNT=$((RETRY_COUNT + 1))
-            echo "🔄 Need more topics ($TOPIC_COUNT/5). Retry $RETRY_COUNT/$MAX_RETRIES with different prompt..."
-            
-            # Generate additional topics with different search strategies
-            case $RETRY_COUNT in
-              1)
-                ADDITIONAL_PROMPT="WebSearch: AI業界 スタートアップ 投資 資金調達 IPO M&A。AI関連スタートアップや投資動向に焦点を当てた最新話題を$(( 5 - TOPIC_COUNT + 2 ))個生成してください。具体的な企業名・金額・投資家名を含む話題を番号付きでリストアップ。"
-                ;;
-              2)
-                ADDITIONAL_PROMPT="WebSearch: AI業界 研究 論文 学会 大学 研究機関。AI研究や学術論文、研究機関の最新成果に焦点を当てた話題を$(( 5 - TOPIC_COUNT + 2 ))個生成してください。具体的な研究者名・大学名・論文名を含む話題を番号付きでリストアップ。"
-                ;;
-              *)
-                ADDITIONAL_PROMPT="WebSearch: AI業界 政府 政策 規制 法律 国際協力。AI関連の政府政策や規制、国際的な取り組みに焦点を当てた話題を$(( 5 - TOPIC_COUNT + 2 ))個生成してください。具体的な国名・政府機関名・政策名を含む話題を番号付きでリストアップ。"
-                ;;
-            esac
-            
-            if gemini -m "gemini-2.5-flash" --prompt "$ADDITIONAL_PROMPT" > _temp/additional_topics.txt 2>/dev/null; then
-              ADDITIONAL_TOPICS=$(grep -E "^[0-9]+\." _temp/additional_topics.txt)
-              echo "Generated additional topics:"
-              echo "$ADDITIONAL_TOPICS"
-              
-              # Filter new topics for duplicates
-              while IFS= read -r topic_line && [ $TOPIC_COUNT -lt 5 ]; do
-                if [ -z "$topic_line" ]; then
-                  continue
-                fi
-                
-                topic_title=$(printf '%s\n' "$topic_line" | sed 's/^[0-9]*\. *//')
-                
-                # Check against existing titles and already selected topics
-                is_duplicate=false
-                topic_keywords=$(echo "$topic_title" | sed 's/[()（）].*//g' | head -c 30)
-                
-                # Check against existing posts
-                if [ -s _temp/existing_titles.txt ]; then
-                  while IFS= read -r existing_title; do
-                    if [ -n "$existing_title" ] && echo "$existing_title" | grep -qi "$(echo "$topic_keywords" | cut -d' ' -f1-2)"; then
-                      is_duplicate=true
-                      break
-                    fi
-                  done < _temp/existing_titles.txt
-                fi
-                
-                # Check against already selected topics
-                if [ "$is_duplicate" = false ] && echo "$TOPICS" | grep -qi "$(echo "$topic_keywords" | cut -d' ' -f1-2)"; then
-                  is_duplicate=true
-                fi
-                
-                if [ "$is_duplicate" = false ]; then
-                  TOPICS="$TOPICS"$'\n'"$topic_line"
-                  TOPIC_COUNT=$((TOPIC_COUNT + 1))
-                  echo "✅ Added additional unique topic: $topic_title"
-                fi
-              done <<< "$ADDITIONAL_TOPICS"
-            else
-              echo "⚠️ Failed to generate additional topics"
-              break
-            fi
-          done
+          # Simple selection from the 8 generated topics (no additional API calls)
+          echo "📝 Selecting best 5 topics from the 8 generated..."
           
           # Final check: if we still don't have enough topics after all retries
           if [ $TOPIC_COUNT -lt 5 ]; then
@@ -238,96 +198,260 @@ jobs:
           echo "Final topics for processing:"
           echo "$TOPICS"
           
-          # Generate articles for all topics
-          TOPIC_INDEX=1
-          GENERATED_COUNT=0
+          # Optimized batch article generation (reduce API calls from 5 to 2-3)
+          echo "📝 Batch article generation with integrated Mermaid diagrams..."
           
-          set +e  # Continue on errors
-          export LC_ALL=C  # Set locale to avoid encoding issues
+          # Create Python script for batch processing
+          python3 -c "
+import sys
+import os
+import re
+from datetime import datetime
+
+# Read topics
+with open('_temp/topics_for_loop.txt', 'r', encoding='utf-8') as f:
+    all_topics = [line.strip() for line in f if line.strip()]
+
+print(f'📊 Processing {len(all_topics)} topics in 2 batch API calls...')
+
+# Split topics into 2 batches for API optimization
+batch1 = all_topics[:3] if len(all_topics) >= 3 else all_topics
+batch2 = all_topics[3:5] if len(all_topics) > 3 else []
+
+batches = [batch1, batch2] if batch2 else [batch1]
+
+for batch_num, topics_batch in enumerate(batches, 1):
+    if not topics_batch:
+        continue
+        
+    print(f'📝 Processing batch {batch_num}: {len(topics_batch)} articles')
+    
+    # Create batch prompt
+    batch_prompt = f'''WebSearch: {datetime.now().strftime('%Y年%m月%d日')} AI業界。
+
+**ミッション:** 以下の{len(topics_batch)}個の話題について、それぞれ独立した専門記事を生成してください。
+
+**記事要件:**
+- Web検索で最新情報を調査
+- 企業名・製品名・人名・数値データを正確に記載
+- 技術者・投資家向けの詳細分析
+- 3000-4000文字程度
+- AIっぽい表現を避け自然な文章
+
+**出力形式（厳密に従ってください）:**
+=== ARTICLE_START_1 ===
+# [話題1のタイトル]
+
+## 概要と背景
+[詳細な内容]
+
+## 詳細な技術・ビジネス内容
+[詳細な内容]
+
+## 市場・競合への影響
+[詳細な内容]
+
+## 図解・システム構成
+**Mermaidフローチャート:**
+```mermaid
+[記事内容に適したMermaid図解を生成]
+// 例：プロセスフロー、システム構成、関係性図など
+// 制約：subgraph、linkStyle、font-weight使用不可
+// 推奨：基本ノード形状[]、{}、()、色分けstyle文
+```
+
+## 今後の展望
+[詳細な内容]
+=== ARTICLE_END_1 ===
+
+=== ARTICLE_START_2 ===
+# [話題2のタイトル]
+[同様の構成でMermaid図解セクションを含む]
+=== ARTICLE_END_2 ===
+
+**対象話題:**'''
+    
+    for i, topic_line in enumerate(topics_batch, 1):
+        topic = re.sub(r'^[0-9]*\. *', '', topic_line)
+        batch_prompt += f'''
+{i}. {topic}'''
+    
+    # Write batch prompt to file for gemini CLI
+    with open(f'_temp/batch_prompt_{batch_num}.txt', 'w', encoding='utf-8') as f:
+        f.write(batch_prompt)
+    
+    print(f'✅ Batch {batch_num} prompt prepared')
+"
           
-          # デバッグ情報追加
-          echo "🔍 Debug: Total topics found: $(echo "$TOPICS" | wc -l)"
-          echo "🔍 Debug: Topics content:"
-          printf '%s\n' "$TOPICS" | nl
-          echo "🔍 Debug: Starting loop with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
-          
-          # Write topics to temporary file for stable processing (fix newline handling)
-          echo "$TOPICS" > _temp/topics_for_loop.txt
-          echo "🔍 Debug: Written $(wc -l < _temp/topics_for_loop.txt) lines to temp file"
-          
-          # Use file descriptor 9 to avoid subshell (Web search solution)
-          exec 9< _temp/topics_for_loop.txt
-          
-          while IFS= read -r TOPIC_LINE <&9; do
-            if [ -z "$TOPIC_LINE" ]; then
+          # Execute batch API calls
+          BATCH_SUCCESS=0
+          for batch_num in 1 2; do
+            if [ ! -f "_temp/batch_prompt_${batch_num}.txt" ]; then
               continue
             fi
             
-            echo "🔍 Debug: Processing topic $TOPIC_INDEX: '$TOPIC_LINE'"
+            echo "🚀 Executing batch $batch_num API call..."
             
-            # より安全なsed処理
-            TOPIC=$(printf '%s\n' "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
-            echo "🔍 Debug: Extracted topic: '$TOPIC'"
-            echo "📝 Generating article $TOPIC_INDEX: $TOPIC"
-            
-            # Category determination (case文に変更)
-            CATEGORY="最新動向"
-            case "$TOPIC" in
-                *研究*|*論文*|*学会*) CATEGORY="研究論文" ;;
-                *技術*|*アルゴリズム*|*仕組み*) CATEGORY="技術解説" ;;
-                *導入*|*事例*|*活用*) CATEGORY="実装事例" ;;
-                *市場*|*分析*|*予測*) CATEGORY="業界分析" ;;
-            esac
-            
-            # Generate article with timeout to prevent excessive Actions usage
-            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。注意事項：AIっぽい表現を避け自然で人間的な文章にする、過度な敬語や定型的な挨拶文は使わない、接続語を多用しない、箇条書きの乱用を避ける、AI生成等のメタ情報は記載しない、専門性と信頼性を重視した自然な記事を作成してください。"
-            
-            # Add timeout to prevent hanging on rate limits
-            if timeout 120 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX"
+            if timeout 180 gemini -m "gemini-2.5-flash" < "_temp/batch_prompt_${batch_num}.txt" > "_temp/batch_response_${batch_num}.md" 2>_temp/batch_error_${batch_num}.log; then
+              echo "✅ Batch $batch_num API call successful"
+              BATCH_SUCCESS=$((BATCH_SUCCESS + 1))
             else
-              exit_code=$?
-              echo "❌ Article generation failed for topic $TOPIC_INDEX"
-              echo "Error details:"
-              cat _temp/gemini_error_${TOPIC_INDEX}.log 2>/dev/null || echo "No error log available"
+              echo "❌ Batch $batch_num failed"
+              cat _temp/batch_error_${batch_num}.log 2>/dev/null || echo "No error log"
               
-              # Check if it's a rate limit error (429)
-              if grep -q "429\|RESOURCE_EXHAUSTED\|quota" _temp/gemini_error_${TOPIC_INDEX}.log 2>/dev/null; then
-                echo "🚫 Rate limit reached. Stopping to avoid wasting Actions time."
-                echo "📅 Daily quota resets at midnight Pacific Time (5PM JST in summer)"
+              if grep -q "429\|RESOURCE_EXHAUSTED\|quota" _temp/batch_error_${batch_num}.log 2>/dev/null; then
+                echo "🚫 Rate limit reached, stopping batch processing"
                 break
               fi
-              continue
             fi
-            
-            if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
-              # より安全な文字列処理
-              TITLE=$(printf '%s' "$TOPIC" | head -c 80)
-              SLUG=$(printf '%s' "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | head -c 50)
-              FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
-              
-              # Store in temp for processing using printf
-              printf '%s\n' "---" "layout: post" "title: \"$TITLE\"" "date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)" "categories: [\"$CATEGORY\"]" "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]" "author: \"AI記事生成システム\"" "excerpt: \"AI業界の最新動向について詳しく解説します。\"" "reading_time: 8" "---" > "_temp/temp-${FILENAME}"
-              
-              # より安全なファイル処理
-              tail -n +2 "_temp/article-${TOPIC_INDEX}.md" | sed '/^```markdown$/d' | sed '/^```$/d' >> "_temp/temp-${FILENAME}"
-              
-              echo "✅ Generated: temp-${FILENAME}"
-              GENERATED_COUNT=$((GENERATED_COUNT + 1))
-            else
-              echo "❌ Failed to generate: $TOPIC"
-            fi
-            
-            TOPIC_INDEX=$((TOPIC_INDEX + 1))
-            echo "🔍 Debug: Completed topic $((TOPIC_INDEX - 1)), moving to next..."
           done
           
-          # Close file descriptor
-          exec 9<&-
+          # Process batch responses with integrated Mermaid processing
+          python3 -c "
+import sys
+import os
+import re
+import base64
+import requests
+from datetime import datetime
+from PIL import Image
+import io
+
+generated_count = 0
+current_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S %z')
+
+def mermaid_to_image_simple(mermaid_code, output_path):
+    '''Convert Mermaid to image with simplified syntax'''
+    try:
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # Simplify Mermaid code to avoid 404 errors
+        lines = mermaid_code.split('\n')
+        simplified_lines = []
+        
+        for line in lines:
+            line = line.strip()
+            if not line or line.startswith('//'):
+                continue
+            # Remove complex styles that cause 404s    
+            if 'subgraph' in line.lower() or 'linkStyle' in line or 'font-weight' in line:
+                continue
+            simplified_lines.append(line)
+        
+        simplified_code = '\n'.join(simplified_lines)
+        
+        # Convert to image via Mermaid.ink
+        encoded_mermaid = base64.b64encode(simplified_code.encode('utf-8')).decode('utf-8')
+        mermaid_url = f'https://mermaid.ink/img/{encoded_mermaid}'
+        
+        if len(mermaid_url) > 1800:
+            print(f'⚠️ Mermaid URL too long, skipping: {os.path.basename(output_path)}')
+            return False
+            
+        response = requests.get(mermaid_url, timeout=30)
+        if response.status_code == 200:
+            image = Image.open(io.BytesIO(response.content))
+            
+            # Convert to JPEG with white background
+            if image.mode in ('RGBA', 'LA', 'P'):
+                background = Image.new('RGB', image.size, (255, 255, 255))
+                if image.mode == 'P':
+                    image = image.convert('RGBA')
+                background.paste(image, mask=image.split()[-1] if image.mode == 'RGBA' else None)
+                image = background
+            
+            image.save(output_path, 'JPEG', quality=85, optimize=True)
+            print(f'✅ Mermaid image saved: {os.path.basename(output_path)}')
+            return True
+        else:
+            print(f'❌ Mermaid.ink failed ({response.status_code}): {os.path.basename(output_path)}')
+            return False
+    except Exception as e:
+        print(f'❌ Mermaid processing error: {e}')
+        return False
+
+for batch_num in [1, 2]:
+    response_file = f'_temp/batch_response_{batch_num}.md'
+    if not os.path.exists(response_file):
+        continue
+        
+    try:
+        with open(response_file, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+        
+        # Extract individual articles using markers
+        articles = re.findall(r'=== ARTICLE_START_(\d+) ===(.*?)=== ARTICLE_END_\1 ===', content, re.DOTALL)
+        
+        for article_idx, article_content in articles:
+            article_content = article_content.strip()
+            if not article_content:
+                continue
+                
+            # Extract title
+            title_match = re.search(r'^# (.+)$', article_content, re.MULTILINE)
+            if not title_match:
+                continue
+                
+            title = title_match.group(1).strip()
+            generated_count += 1
+            
+            # Create filename
+            slug = re.sub(r'[^a-zA-Z0-9\s]', '', title.lower())[:50]
+            slug = re.sub(r'\s+', '-', slug).strip('-')
+            filename = f'{datetime.now().strftime(\"%Y-%m-%d\")}-{generated_count}-{slug}.md'
+            
+            # Extract and process Mermaid diagrams
+            mermaid_matches = re.findall(r'```mermaid\s*(.*?)\s*```', article_content, re.DOTALL)
+            for i, mermaid_code in enumerate(mermaid_matches, 1):
+                mermaid_code = mermaid_code.strip()
+                if mermaid_code and not mermaid_code.startswith('[記事内容に適した'):
+                    # Generate Mermaid image
+                    mermaid_filename = f'{datetime.now().strftime(\"%Y-%m-%d\")}-{generated_count}-mermaid-{i}.jpg'
+                    mermaid_path = f'assets/images/posts/{mermaid_filename}'
+                    
+                    if mermaid_to_image_simple(mermaid_code, mermaid_path):
+                        # Replace Mermaid code block with image reference
+                        image_md = f'![{title} - 図解 {i}](/assets/images/posts/{mermaid_filename})'
+                        article_content = article_content.replace(f'```mermaid\n{mermaid_code}\n```', image_md)
+            
+            # Determine category
+            category = '最新動向'
+            if any(word in title for word in ['研究', '論文', '学会']):
+                category = '研究論文'
+            elif any(word in title for word in ['技術', 'アルゴリズム', '仕組み']):
+                category = '技術解説'
+            elif any(word in title for word in ['導入', '事例', '活用']):
+                category = '実装事例'
+            elif any(word in title for word in ['市場', '分析', '予測']):
+                category = '業界分析'
+            
+            # Create frontmatter
+            frontmatter = f'''---
+layout: post
+title: \"{title}\"
+date: {current_date}
+categories: [\"{category}\"]
+tags: [\"AI\", \"最新ニュース\", \"技術動向\"]
+author: \"AI記事生成システム\"
+excerpt: \"AI業界の最新動向について詳しく解説します。\"
+reading_time: 8
+---
+
+'''
+            
+            # Write final article file
+            with open(f'_temp/temp-{filename}', 'w', encoding='utf-8', errors='ignore') as f:
+                f.write(frontmatter + article_content)
+            
+            print(f'✅ Generated article {generated_count}: {filename}')
+    
+    except Exception as e:
+        print(f'❌ Error processing batch {batch_num}: {e}')
+
+print(f'📊 Generated {generated_count} articles with integrated Mermaid diagrams')
+"
           
-          echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
-          set -e  # Re-enable exit on error
-          echo "📊 Generated $GENERATED_COUNT articles"
+          echo "📊 Batch article generation completed"
 
       - name: Semantic article selection
         run: |
@@ -438,11 +562,11 @@ jobs:
           # Install required dependencies
           pip install requests pillow
           
-          # 1. Generate featured images for articles
+          # 1. Generate featured images for articles  
           python3 scripts/image_generator.py
           
-          # 2. Generate Mermaid diagrams for article content
-          python3 scripts/mermaid_diagram_generator.py
+          # 2. Mermaid diagrams now integrated into article generation (0 additional API calls)
+          echo "✅ Mermaid diagrams integrated into batch article generation (0 additional API calls)"
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1

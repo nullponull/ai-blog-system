@@ -91,74 +91,139 @@ def parse_mermaid_response(content):
     
     return diagrams
 
+def simplify_mermaid_syntax(mermaid_code, level=1):
+    """Mermaid構文を段階的に簡素化"""
+    
+    lines = mermaid_code.split('\n')
+    simplified_lines = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Level 1: Remove style statements
+        if level >= 1 and line.startswith('style '):
+            continue
+            
+        # Level 2: Remove complex node shapes and simplify to basic shapes
+        if level >= 2:
+            # Convert complex shapes to simple rectangles
+            line = re.sub(r'\(\([^)]+\)\)', r'[\1]', line)  # (( )) -> [ ]
+            line = re.sub(r'\{[^}]+\}', r'[\1]', line)      # { } -> [ ]
+            
+        # Level 3: Remove labels from arrows
+        if level >= 3:
+            line = re.sub(r'--\s*[^-]+\s*-->', '-->', line)  # Remove arrow labels
+            line = re.sub(r'-\.\s*[^-]+\s*\.->', '-.->',line) # Remove dotted arrow labels
+            
+        # Level 4: Convert to very basic flowchart
+        if level >= 4:
+            # Keep only basic arrows
+            line = re.sub(r'[=-]{2,}[>|-]', '-->', line)  # All arrows to -->
+            line = re.sub(r'\.-[>|-]', '-->', line)       # Dotted arrows to -->
+            
+        simplified_lines.append(line)
+    
+    return '\n'.join(simplified_lines)
+
+def validate_mermaid_syntax(mermaid_code):
+    """Mermaid構文の基本的な妥当性をチェック"""
+    
+    # Check for potentially problematic syntax
+    problems = []
+    
+    if 'subgraph' in mermaid_code.lower():
+        problems.append('subgraph not supported')
+    if 'linkStyle' in mermaid_code:
+        problems.append('linkStyle not supported')
+    if 'font-weight' in mermaid_code:
+        problems.append('font-weight not supported')
+    if '&' in mermaid_code:
+        problems.append('& operator not supported')
+        
+    return problems
+
 def mermaid_to_image(mermaid_code, output_path):
-    """Mermaid記法を画像に変換"""
+    """Mermaid記法を画像に変換（エラー時は段階的に簡素化してリトライ）"""
     
     try:
         # Create directory if it doesn't exist
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         
-        # Mermaid Ink API を使用してPNG画像を生成
-        # https://mermaid.ink/ のサービスを利用
-        
-        encoded_mermaid = base64.b64encode(mermaid_code.encode('utf-8')).decode('utf-8')
-        mermaid_url = f"https://mermaid.ink/img/{encoded_mermaid}"
-        
         print(f"🖼️ Converting Mermaid to image: {os.path.basename(output_path)}")
-        print(f"🔍 Mermaid code preview: {mermaid_code[:80]}...")
-        print(f"📏 URL length: {len(mermaid_url)} chars")
         
         # デバッグ: 完全なMermaid記法を保存
         debug_path = output_path.replace('.jpg', '_debug.txt')
-        with open(debug_path, 'w', encoding='utf-8') as f:
-            f.write(f"Mermaid Code ({len(mermaid_code)} chars):\n")
-            f.write(mermaid_code)
-            f.write(f"\n\nURL ({len(mermaid_url)} chars):\n")
-            f.write(mermaid_url)
-        print(f"📝 Full Mermaid code saved: {debug_path}")
         
-        # Check if URL is too long (URLs over ~2000 chars might fail)
-        if len(mermaid_url) > 2000:
-            print(f"⚠️ URL too long ({len(mermaid_url)} chars), simplifying diagram...")
-            # Create a simplified version
-            lines = mermaid_code.split('\n')
-            simplified_lines = []
-            for line in lines:
-                # Skip style lines if too long
-                if 'style' in line and len('\n'.join(simplified_lines + [line])) > 1000:
-                    continue
-                simplified_lines.append(line)
+        # Check syntax first
+        syntax_problems = validate_mermaid_syntax(mermaid_code)
+        if syntax_problems:
+            print(f"⚠️ Potential syntax issues: {', '.join(syntax_problems)}")
+        
+        # Try with different levels of simplification
+        for attempt in range(5):  # 0: original, 1-4: increasing simplification
+            if attempt == 0:
+                current_code = mermaid_code
+                print(f"🔄 Attempt {attempt + 1}: Using original code")
+            else:
+                current_code = simplify_mermaid_syntax(mermaid_code, level=attempt)
+                print(f"🔄 Attempt {attempt + 1}: Simplified to level {attempt}")
             
-            simplified_code = '\n'.join(simplified_lines)
-            encoded_mermaid = base64.b64encode(simplified_code.encode('utf-8')).decode('utf-8')
+            print(f"🔍 Code preview: {current_code[:80]}...")
+            
+            # Save debug info
+            with open(debug_path, 'w', encoding='utf-8') as f:
+                f.write(f"Attempt {attempt + 1} - Mermaid Code ({len(current_code)} chars):\n")
+                f.write(current_code)
+                f.write(f"\n\nSyntax problems: {syntax_problems}\n")
+            
+            encoded_mermaid = base64.b64encode(current_code.encode('utf-8')).decode('utf-8')
             mermaid_url = f"https://mermaid.ink/img/{encoded_mermaid}"
-            print(f"📏 Simplified URL length: {len(mermaid_url)} chars")
+            
+            print(f"📏 URL length: {len(mermaid_url)} chars")
+            
+            # Skip if URL is still too long
+            if len(mermaid_url) > 1800:  # Lower threshold for better success
+                print(f"⚠️ URL still too long, trying next simplification level...")
+                continue
+            
+            response = requests.get(mermaid_url, timeout=30)
+            print(f"🌐 API response: {response.status_code}")
+            
+            if response.status_code == 200:
+                # PNG画像を取得してJPEGに変換
+                image = Image.open(io.BytesIO(response.content))
+                
+                # 背景を白にしてRGB変換
+                if image.mode in ('RGBA', 'LA', 'P'):
+                    background = Image.new('RGB', image.size, (255, 255, 255))
+                    if image.mode == 'P':
+                        image = image.convert('RGBA')
+                    background.paste(image, mask=image.split()[-1] if image.mode == 'RGBA' else None)
+                    image = background
+                
+                # JPEG形式で保存
+                image.save(output_path, 'JPEG', quality=85, optimize=True)
+                
+                print(f"✅ Mermaid image saved: {os.path.basename(output_path)} (attempt {attempt + 1})")
+                
+                # Save successful version
+                with open(debug_path, 'a', encoding='utf-8') as f:
+                    f.write(f"\n\nSUCCESSFUL CODE:\n{current_code}")
+                
+                return True
+                
+            elif response.status_code == 404:
+                print(f"❌ 404 error on attempt {attempt + 1}, trying simpler version...")
+                continue
+            else:
+                print(f"❌ API error {response.status_code} on attempt {attempt + 1}")
+                continue
         
-        response = requests.get(mermaid_url, timeout=30)
-        print(f"🌐 API response: {response.status_code}")
-        
-        if response.status_code == 200:
-            # PNG画像を取得してJPEGに変換
-            image = Image.open(io.BytesIO(response.content))
-            
-            # 背景を白にしてRGB変換
-            if image.mode in ('RGBA', 'LA', 'P'):
-                background = Image.new('RGB', image.size, (255, 255, 255))
-                if image.mode == 'P':
-                    image = image.convert('RGBA')
-                background.paste(image, mask=image.split()[-1] if image.mode == 'RGBA' else None)
-                image = background
-            
-            # JPEG形式で保存
-            image.save(output_path, 'JPEG', quality=85, optimize=True)
-            
-            print(f"✅ Mermaid image saved: {os.path.basename(output_path)}")
-            return True
-        else:
-            print(f"❌ Mermaid.ink API failed: {response.status_code}")
-            if response.status_code == 404:
-                print("💡 This might be due to complex syntax or special characters")
-            return False
+        # All attempts failed
+        print(f"❌ All {attempt + 1} attempts failed for Mermaid diagram")
+        return False
             
     except Exception as e:
         print(f"❌ Error converting Mermaid to image: {str(e)}")
