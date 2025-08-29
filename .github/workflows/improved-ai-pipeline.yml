@@ -353,10 +353,13 @@ jobs:
           echo "    return model.encode([text])" >> _temp/semantic_selector.py
           echo "" >> _temp/semantic_selector.py
           echo "def extract_title(filepath):" >> _temp/semantic_selector.py
-          echo "    with open(filepath, 'r', encoding='utf-8') as f:" >> _temp/semantic_selector.py
-          echo "        for line in f:" >> _temp/semantic_selector.py
-          echo "            if line.startswith('title:'):" >> _temp/semantic_selector.py
-          echo "                return line.replace('title:', '').strip().strip('\"')" >> _temp/semantic_selector.py
+          echo "    try:" >> _temp/semantic_selector.py
+          echo "        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:" >> _temp/semantic_selector.py
+          echo "            for line in f:" >> _temp/semantic_selector.py
+          echo "                if line.startswith('title:'):" >> _temp/semantic_selector.py
+          echo "                    return line.replace('title:', '').strip().strip('\"')" >> _temp/semantic_selector.py
+          echo "    except Exception as e:" >> _temp/semantic_selector.py
+          echo "        print(f'Error reading {filepath}: {e}')" >> _temp/semantic_selector.py
           echo "    return ''" >> _temp/semantic_selector.py
           echo "" >> _temp/semantic_selector.py
           echo "existing_titles = []" >> _temp/semantic_selector.py
