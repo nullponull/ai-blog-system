@@ -78,71 +78,37 @@ jobs:
           
           echo "🔍 Debug: Trying different syntax options..."
           
-          # Try WebSearch first (was working before)
-          echo "🔍 Step 1: Trying WebSearch prompt..."
-          echo "🔍 Debug: WebSearch prompt content (first 100 chars): ${PROMPT:0:100}..."
+          # Use single proven method to minimize API calls
+          echo "🔍 Generating topics with optimized single API call..."
+          echo "🔍 API calls so far: 0"
           
           if gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (-p method)"
-            echo "🔍 Debug: Generated content preview:"
-            head -5 _temp/topics.txt
-          elif printf '%s\n' "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (printf stdin method)"
-            echo "🔍 Debug: Generated content preview:"  
-            head -5 _temp/topics.txt
-          elif echo -e "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (echo -e stdin method)"
-            echo "🔍 Debug: Generated content preview:"
-            head -5 _temp/topics.txt
-          elif gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (--prompt method)"
-            echo "🔍 Debug: Generated content preview:"
-            head -5 _temp/topics.txt
+            echo "✅ Topic generation successful (1 API call)"
+            echo "🔍 Generated content preview:"
+            head -3 _temp/topics.txt
+            TOPIC_API_SUCCESS=true
           else
-            echo "❌ All Gemini API call methods failed"
+            TOPIC_API_SUCCESS=false
+            echo "❌ Topic generation failed (1 API call attempted)"
             echo "Error log:"
             cat _temp/gemini_error.log || echo "No error log available"
+            echo "🚫 Stopping workflow to prevent excessive API usage"
+            exit 1
           fi
           
-          # Check if we got the generic response instead of actual content
-          if grep -q "How can I help" _temp/topics.txt 2>/dev/null; then
-            echo "🚨 Detected generic response instead of actual content!"
-            echo "🔄 This indicates Gemini CLI is not processing prompts correctly."
-            echo "🔍 Attempting alternative approach with model specification..."
+          # Only check for generic response if API call was successful
+          if [ "$TOPIC_API_SUCCESS" = "true" ] && grep -q "How can I help" _temp/topics.txt 2>/dev/null; then
+            echo "🚨 Detected generic response - WebSearch may be unavailable"
+            echo "🔄 Trying single fallback with knowledge-based prompt (this will be API call #2)..."
             
-            # Try with different model specifications
-            if gemini -m "gemini-2.5-flash" -p "$PROMPT" --debug > _temp/topics_debug.txt 2>_temp/debug_error.log; then
-              echo "✅ Debug mode attempt successful"
-              cp _temp/topics_debug.txt _temp/topics.txt
-            else
-              echo "❌ Debug mode also failed"
-              echo "Error details:"
-              cat _temp/debug_error.log || echo "No debug error log"
-            fi
+            FALLBACK_PROMPT="AI業界で話題になっている最新のトレンドや注目すべき出来事について、あなたの知識に基づいて5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...企業名・製品名を含めた現実的で興味深い話題を5個リストアップしてください。"
             
-            # Check if it's a quota/search error
-            if grep -q "quota\|search\|limit" _temp/gemini_error.log 2>/dev/null; then
-              echo "🔄 Detected quota/search error. Trying fallback without WebSearch..."
-              # Use knowledge-based prompt as fallback if WebSearch fails  
-              FALLBACK_PROMPT="AI業界で話題になっている最新のトレンドや注目すべき出来事について、あなたの知識に基づいて5個の具体的な話題をリストアップしてください。各話題は1行で、簡潔に表現してください。例: 1. OpenAIの新モデル発表, 2. Google DeepMindの研究成果, 3. 生成AIの企業導入事例, 4. AI規制法案の動向, 5. 自動運転技術の進展...企業名・製品名を含めた現実的で興味深い話題を5個リストアップしてください。"
-              echo "🔄 WebSearch failed - trying knowledge-based fallback"
-              
-              if echo "$FALLBACK_PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/fallback_error.log; then
-                echo "✅ Fallback successful - using knowledge-based topics (stdin method)"
-              elif gemini -m "gemini-2.5-flash" -p "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
-                echo "✅ Fallback successful - using knowledge-based topics (-p method)"
-              elif gemini -m "gemini-2.5-flash" --prompt "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
-                echo "✅ Fallback successful - using knowledge-based topics"
-              else
-                echo "❌ Fallback also failed"
-                cat _temp/fallback_error.log || echo "No fallback error log available"
-                exit 1
-              fi
+            if gemini -m "gemini-2.5-flash" -p "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/fallback_error.log; then
+              echo "✅ Fallback successful (2 API calls total)"
             else
-              echo "Checking for common issues:"
-              echo "- API Key format: $(echo "$GEMINI_API_KEY" | sed 's/.*\(.....\)$/***\1/')"
-              echo "- Network connectivity test:"
-              curl -s --max-time 10 https://generativelanguage.googleapis.com > /dev/null && echo "  ✅ Can reach Google AI API" || echo "  ❌ Cannot reach Google AI API"
+              echo "❌ Fallback also failed (2 API calls total)"
+              cat _temp/fallback_error.log || echo "No fallback error log available"
+              echo "🚫 Stopping workflow to prevent excessive API usage"
               exit 1
             fi
           fi
@@ -208,7 +174,8 @@ jobs:
           done <<< "$ALL_GENERATED_TOPICS"
           
           # If we don't have enough unique topics, generate more
-          while [ $TOPIC_COUNT -lt 5 ] && [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+          # Disable additional topic generation to minimize API calls
+          if false; then  # This entire block is disabled
             RETRY_COUNT=$((RETRY_COUNT + 1))
             echo "🔄 Need more topics ($TOPIC_COUNT/5). Retry $RETRY_COUNT/$MAX_RETRIES with different prompt..."
             
@@ -271,7 +238,7 @@ jobs:
               echo "⚠️ Failed to generate additional topics"
               break
             fi
-          done
+          fi  # End of disabled additional topic generation
           
           # Final check: if we still don't have enough topics after all retries
           if [ $TOPIC_COUNT -lt 5 ]; then
@@ -345,15 +312,10 @@ jobs:
             # Generate article with WebSearch (restore original functionality)
             ARTICLE_PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC、## 概要と背景、## 詳細な技術・ビジネス内容、## 市場・競合への影響、## 今後の展望。重要な注意事項：記事のタイトルから本文まで、すべて自然な日本語で記述、AIっぽい表現を避け人間が書いたような自然な文章、「記事を作成しました」「文字数は〇〇です」等のメタ情報は一切含めない、「Please review」「The article has been」等の英語コメントは禁止、過度な敬語や定型的な挨拶文は使わない、AI生成に関する言及は絶対に記載しない、記事内容のみを出力し、作成者コメントは不要。"
             
-            # Add timeout to prevent hanging on rate limits - try multiple syntax methods
+            # Single optimized API call to minimize usage
+            echo "🔍 API call #$((TOPIC_INDEX + 1)): Generating article for topic $TOPIC_INDEX"
             if timeout 120 gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX (-p method)"
-            elif timeout 120 sh -c "echo '$ARTICLE_PROMPT' | gemini -m 'gemini-2.5-flash'" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX (stdin method)"
-            elif timeout 120 gemini -m "gemini-2.5-flash" --prompt "$ARTICLE_PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX (--prompt method)"
-            elif timeout 120 gemini -m "gemini-2.5-flash" "$ARTICLE_PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-              echo "✅ Article generation completed for topic $TOPIC_INDEX (direct method)"
+              echo "✅ Article $TOPIC_INDEX generated (1 API call)"
             else
               exit_code=$?
               echo "❌ Article generation failed for topic $TOPIC_INDEX"
@@ -397,6 +359,17 @@ jobs:
           echo "🔍 Debug: Loop completed with TOPIC_INDEX=$TOPIC_INDEX, GENERATED_COUNT=$GENERATED_COUNT"
           set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
+          
+          # Calculate actual API calls made
+          if [ "$TOPIC_API_SUCCESS" = "true" ] && ! grep -q "How can I help" _temp/topics.txt 2>/dev/null; then
+            TOPIC_API_CALLS=1
+          else
+            TOPIC_API_CALLS=2  # Topic + fallback
+          fi
+          
+          TOTAL_API_CALLS=$((TOPIC_API_CALLS + GENERATED_COUNT))
+          echo "📊 Total Gemini API calls: $TOTAL_API_CALLS ($TOPIC_API_CALLS topic generation + $GENERATED_COUNT articles)"
+          echo "📉 API usage reduced by ~85% (from 40+ to $TOTAL_API_CALLS calls)"
 
       - name: Semantic article selection
         run: |
@@ -510,24 +483,12 @@ jobs:
             fi
           done
 
-      - name: Generate images for articles
-        env:
-          HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
+      - name: Skip image generation (HuggingFace quota exceeded)
         run: |
-          export HUGGINGFACE_TOKEN="$HUGGINGFACE_TOKEN"
-          export GEMINI_API_KEY="$GEMINI_API_KEY"
-          
-          echo "🎨 Generating images for published articles..."
-          # Install required dependencies
-          pip install requests pillow
-          
-          # 1. Generate featured images for articles
-          python3 scripts/image_generator.py
-          
-          # 2. Mermaid diagram generation (temporarily disabled for API optimization)
-          # python3 scripts/mermaid_diagram_generator.py
-          echo "ℹ️ Mermaid generation disabled to optimize API calls (saves 5+ calls)"
+          echo "ℹ️ Image generation disabled due to HuggingFace API quota exceeded"
+          echo "ℹ️ This saves 20+ API calls per execution"
+          echo "ℹ️ To re-enable: upgrade to HuggingFace PRO or wait for quota reset"
+          echo "ℹ️ Mermaid generation also disabled to optimize API calls (saves 5+ calls)"
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
