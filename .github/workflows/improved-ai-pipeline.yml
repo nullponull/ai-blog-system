@@ -45,7 +45,7 @@ jobs:
       - name: Generate topics and articles
         shell: bash
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
@@ -78,64 +78,22 @@ jobs:
           
           echo "🔍 Debug: Trying different syntax options..."
           
-          # Test all methods with improved detection patterns
-          echo "🔍 Testing methods with improved pattern detection..."
-          TOPIC_API_SUCCESS=false
-          API_ATTEMPT=0
+          # Test WebSearch only with -p method
+          echo "🔍 Testing WebSearch only with -p method..."
+          API_ATTEMPT=1
+          echo "🔍 API attempt $API_ATTEMPT: WebSearch with -p method"
           
-          # Method 1: -p method (retry with proper pattern detection)
-          API_ATTEMPT=$((API_ATTEMPT + 1))
-          echo "🔍 API attempt $API_ATTEMPT: -p method"
           if gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
             if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" _temp/topics.txt 2>/dev/null; then
-              echo "✅ Topic generation successful with -p method ($API_ATTEMPT API calls)"
+              echo "✅ WebSearch topic generation successful ($API_ATTEMPT API calls)"
               TOPIC_API_SUCCESS=true
             else
-              echo "⚠️ -p method returned generic response"
+              echo "❌ WebSearch returned generic response - GitHub Actions may not support WebSearch"
+              TOPIC_API_SUCCESS=false
             fi
-          fi
-          
-          # Method 2: stdin method (printf) 
-          if [ "$TOPIC_API_SUCCESS" = "false" ]; then
-            API_ATTEMPT=$((API_ATTEMPT + 1))
-            echo "🔍 API attempt $API_ATTEMPT: stdin method (printf)"
-            if printf '%s\n' "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
-              if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" _temp/topics.txt 2>/dev/null; then
-                echo "✅ Topic generation successful with stdin method ($API_ATTEMPT API calls)"
-                TOPIC_API_SUCCESS=true
-              else
-                echo "⚠️ stdin method returned generic response"
-              fi
-            fi
-          fi
-          
-          # Method 3: echo method (fallback)
-          if [ "$TOPIC_API_SUCCESS" = "false" ]; then
-            API_ATTEMPT=$((API_ATTEMPT + 1))
-            echo "🔍 API attempt $API_ATTEMPT: echo method"
-            if echo "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
-              if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" _temp/topics.txt 2>/dev/null; then
-                echo "✅ Topic generation successful with echo method ($API_ATTEMPT API calls)"
-                TOPIC_API_SUCCESS=true
-              else
-                echo "⚠️ echo method returned generic response"
-              fi
-            fi
-          fi
-          
-          # Method 4: Try without WebSearch prefix if all methods returned generic responses
-          if [ "$TOPIC_API_SUCCESS" = "false" ]; then
-            API_ATTEMPT=$((API_ATTEMPT + 1))
-            echo "🔍 API attempt $API_ATTEMPT: -p method without WebSearch prefix"
-            FALLBACK_PROMPT="AI業界で最近話題になっている最新のトレンドや注目すべき技術・企業・投資・規制などの出来事について、5個の具体的な話題を番号付きでリストアップしてください。各話題は1行で、簡潔に表現してください。企業名・製品名・人名・数値データを含めた現実的で興味深い話題をお願いします。例: 1. OpenAI GPT-5の発表と性能向上, 2. GoogleのQuantum AIチップ開発..."
-            if gemini -m "gemini-2.5-flash" -p "$FALLBACK_PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-              if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" _temp/topics.txt 2>/dev/null; then
-                echo "✅ Topic generation successful with fallback prompt ($API_ATTEMPT API calls)"
-                TOPIC_API_SUCCESS=true
-              else
-                echo "⚠️ fallback method also returned generic response"
-              fi
-            fi
+          else
+            echo "❌ WebSearch API call failed"
+            TOPIC_API_SUCCESS=false
           fi
           
           # Check final result
@@ -355,27 +313,20 @@ jobs:
             # Generate article with WebSearch (restore original functionality)
             ARTICLE_PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC、## 概要と背景、## 詳細な技術・ビジネス内容、## 市場・競合への影響、## 今後の展望。重要な注意事項：記事のタイトルから本文まで、すべて自然な日本語で記述、AIっぽい表現を避け人間が書いたような自然な文章、「記事を作成しました」「文字数は〇〇です」等のメタ情報は一切含めない、「Please review」「The article has been」等の英語コメントは禁止、過度な敬語や定型的な挨拶文は使わない、AI生成に関する言及は絶対に記載しない、記事内容のみを出力し、作成者コメントは不要。"
             
-            # Use only proven working methods for article generation
-            echo "🔍 API call #$((TOPIC_INDEX + 1)): Generating article for topic $TOPIC_INDEX"
-            ARTICLE_SUCCESS=false
+            # Test WebSearch for article generation
+            echo "🔍 API call #$((TOPIC_INDEX + 1)): Testing WebSearch for article $TOPIC_INDEX"
             
-            # Method 1: stdin method (printf) - proven to work
-            if timeout 120 sh -c "printf '%s\n' '$ARTICLE_PROMPT' | gemini -m 'gemini-2.5-flash'" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
+            if timeout 120 gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
               if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" "_temp/article-${TOPIC_INDEX}.md" 2>/dev/null; then
-                echo "✅ Article $TOPIC_INDEX generated with stdin method"
+                echo "✅ WebSearch article $TOPIC_INDEX generated successfully"
                 ARTICLE_SUCCESS=true
+              else
+                echo "❌ WebSearch article $TOPIC_INDEX returned generic response"
+                ARTICLE_SUCCESS=false
               fi
-            fi
-            
-            # Method 2: echo method (fallback)
-            if [ "$ARTICLE_SUCCESS" = "false" ]; then
-              echo "🔄 Trying echo method for article $TOPIC_INDEX"
-              if timeout 120 echo "$ARTICLE_PROMPT" | gemini -m "gemini-2.5-flash" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
-                if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" "_temp/article-${TOPIC_INDEX}.md" 2>/dev/null; then
-                  echo "✅ Article $TOPIC_INDEX generated with echo method"
-                  ARTICLE_SUCCESS=true
-                fi
-              fi
+            else
+              echo "❌ WebSearch article $TOPIC_INDEX API call failed"
+              ARTICLE_SUCCESS=false
             fi
             
             if [ "$ARTICLE_SUCCESS" = "false" ]; then
