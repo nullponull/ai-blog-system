@@ -36,7 +36,7 @@ jobs:
       - name: Generate topics and articles
         shell: bash
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
@@ -414,7 +414,6 @@ jobs:
       - name: Generate images for articles
         env:
           HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
-          GEMINI_API_KEY2: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           export HUGGINGFACE_TOKEN="$HUGGINGFACE_TOKEN"
           
@@ -422,11 +421,8 @@ jobs:
           # Install required dependencies
           pip install requests pillow
           
-          # 1. Generate featured images for articles
+          # Generate featured images for articles
           python3 scripts/image_generator.py
-          
-          # 2. Generate Mermaid diagrams for article content
-          python3 scripts/mermaid_diagram_generator.py
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
