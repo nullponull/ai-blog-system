@@ -279,8 +279,8 @@ jobs:
                 *市場*|*分析*|*予測*) CATEGORY="業界分析" ;;
             esac
             
-            # Generate article with timeout to prevent excessive Actions usage
-            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC ## 概要と背景 ## 詳細な技術・ビジネス内容 ## 市場・競合への影響 ## 今後の展望。注意事項：AIっぽい表現を避け自然で人間的な文章にする、過度な敬語や定型的な挨拶文は使わない、接続語を多用しない、箇条書きの乱用を避ける、AI生成等のメタ情報は記載しない、専門性と信頼性を重視した自然な記事を作成してください。"
+            # Generate article with timeout to prevent excessive Actions usage  
+            PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの専門記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、技術者・投資家向けの詳細な分析、3000-4000文字程度、Markdown形式で出力。構成：# $TOPIC、## 概要と背景、## 詳細な技術・ビジネス内容、## 市場・競合への影響、## 今後の展望。重要な注意事項：記事のタイトルから本文まで、すべて自然な日本語で記述、AIっぽい表現を避け人間が書いたような自然な文章、「記事を作成しました」「文字数は〇〇です」等のメタ情報は一切含めない、「Please review」「The article has been」等の英語コメントは禁止、過度な敬語や定型的な挨拶文は使わない、AI生成に関する言及は絶対に記載しない、記事内容のみを出力し、作成者コメントは不要。"
             
             # Add timeout to prevent hanging on rate limits
             if timeout 120 gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
@@ -405,22 +405,37 @@ jobs:
             if [ -f "$article" ]; then
               echo "🔍 Checking: $(basename "$article")"
               
+              # Check and fix UTF-8 encoding issues first
+              if ! file "$article" | grep -q "UTF-8"; then
+                echo "⚠️ UTF-8 encoding issue detected in $(basename "$article")"
+                # Convert to UTF-8 and clean invalid sequences
+                iconv -f UTF-8 -t UTF-8//IGNORE "$article" -o "${article}.tmp" 2>/dev/null || cp "$article" "${article}.tmp"
+                mv "${article}.tmp" "$article"
+              fi
+              
               # Run textlint with detailed output
-              if ! textlint "$article"; then
+              if ! textlint "$article" 2>/dev/null; then
                 echo "⚠️ TextLint issues found in $(basename "$article")"
               fi
               
               # Fix common AI-generated patterns and issues
-              sed -i 's/、、/、/g' "$article"
-              sed -i 's/。。/。/g' "$article"
-              # Remove common AI metadata patterns
-              sed -i '/^AI によって生成/d' "$article"
-              sed -i '/^この記事は AI で生成/d' "$article"
-              sed -i '/^※ この記事は AI/d' "$article"
+              sed -i 's/、、/、/g' "$article" 2>/dev/null || true
+              sed -i 's/。。/。/g' "$article" 2>/dev/null || true
+              
+              # Remove common AI metadata patterns (enhanced)
+              sed -i '/^AI によって生成/d' "$article" 2>/dev/null || true
+              sed -i '/^この記事は AI で生成/d' "$article" 2>/dev/null || true
+              sed -i '/^※ この記事は AI/d' "$article" 2>/dev/null || true
+              sed -i '/^The article has been/d' "$article" 2>/dev/null || true
+              sed -i '/^Please review/d' "$article" 2>/dev/null || true
+              sed -i '/文字数：.*文字程度）$/d' "$article" 2>/dev/null || true
+              sed -i '/^.*based on the web search.*$/d' "$article" 2>/dev/null || true
+              sed -i '/^.*article has been created.*$/d' "$article" 2>/dev/null || true
+              
               # Remove excessive emphasis
-              sed -i 's/\*\*\([^*]*\)\*\*/\1/g' "$article" | head -c 0
+              sed -i 's/\*\*\([^*]*\)\*\*/\1/g' "$article" 2>/dev/null || true
               # Clean up list formatting
-              sed -i 's/^- \*\*/- /g' "$article"
+              sed -i 's/^- \*\*/- /g' "$article" 2>/dev/null || true
               
               echo "✅ Improved: $(basename "$article")"
             fi
