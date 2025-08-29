@@ -1082,7 +1082,6 @@ body {
 
 .category-header {
     padding: var(--spacing-xl);
-    display: flex;
     align-items: flex-start;
     gap: var(--spacing-md);
     border-bottom: 1px solid var(--gray-200);
