@@ -56,3 +56,15 @@ AIエージェント技術は更なる発展が期待されています。
 
 ![AIエージェント導入プロセスのフロー](/assets/images/posts/2025-08-29-test-image-generation-mermaid-2.jpg)
 
+
+
+## 図解
+
+### AIエージェントのアーキテクチャ
+
+![AIエージェントのアーキテクチャ](/assets/images/posts/2025-08-29-test-image-generation-mermaid-1.jpg)
+
+### AIエージェント導入プロセスのフロー
+
+![AIエージェント導入プロセスのフロー](/assets/images/posts/2025-08-29-test-image-generation-mermaid-2.jpg)
+
