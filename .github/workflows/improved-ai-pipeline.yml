@@ -51,6 +51,9 @@ jobs:
           
           echo "🎯 Generating AI topics..."
           echo "Debug: GEMINI_API_KEY is $([ -n "$GEMINI_API_KEY" ] && echo "set (length: ${#GEMINI_API_KEY})" || echo "NOT SET")"
+          echo "Debug: Workflow trigger: ${{ github.event_name }}"
+          echo "Debug: Current time: $(date)"
+          echo "Debug: Runner OS: ${{ runner.os }}"
           
           # GitHub Actions環境でのAPI key認証確認
           if [ -z "$GEMINI_API_KEY" ]; then
@@ -84,15 +87,24 @@ jobs:
           echo "🔍 API attempt $API_ATTEMPT: WebSearch with -p method"
           
           if gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "🔍 Debug: API call completed successfully"
+            echo "🔍 Debug: Response length: $(wc -c < _temp/topics.txt) characters"
+            echo "🔍 Debug: First 200 characters:"
+            head -c 200 _temp/topics.txt
+            echo ""
             if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" _temp/topics.txt 2>/dev/null; then
               echo "✅ WebSearch topic generation successful ($API_ATTEMPT API calls)"
               TOPIC_API_SUCCESS=true
             else
-              echo "❌ WebSearch returned generic response - GitHub Actions may not support WebSearch"
+              echo "❌ WebSearch returned generic response"
+              echo "🔍 Debug: Full response content:"
+              cat _temp/topics.txt
               TOPIC_API_SUCCESS=false
             fi
           else
             echo "❌ WebSearch API call failed"
+            echo "🔍 Debug: Error details:"
+            cat _temp/gemini_error.log 2>/dev/null || echo "No error log available"
             TOPIC_API_SUCCESS=false
           fi
           
