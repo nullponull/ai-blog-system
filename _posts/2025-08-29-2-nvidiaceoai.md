@@ -48,4 +48,3 @@ NVIDIAは、この変革の最前線に立ち続けるために、Blackwellの�
 最終的に、AI市場の拡大とインフラ投資の加速は、技術者にとっては新たな挑戦と機会をもたらし、投資家にとっては長期的な成長が期待できる分野となります。NVIDIAのリーダーシップは、このエキサイティングな時代において、AI技術の進化と普及を牽引し続けるでしょう。AIファクトリーの構築は、単なる技術的な進歩ではなく、人類の生産性と創造性を飛躍的に向上させるための基盤となる可能性を秘めています。
 
 ---
-（文字数：3500文字程度）The article has been created based on the web search results and the specified requirements. It covers the key points from Jensen Huang's predictions, including the scale of investment, NVIDIA's business performance, market dynamics, and future outlook, all within the requested structure and tone.
