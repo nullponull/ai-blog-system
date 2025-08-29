@@ -69,18 +69,45 @@ jobs:
           echo "🔍 Debug: Trying different syntax options..."
           
           # Try multiple syntax variations
-          if echo "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (stdin method)"
-          elif gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (-p method)"  
+          echo "🔍 Debug: Prompt content (first 100 chars): ${PROMPT:0:100}..."
+          
+          if gemini -m "gemini-2.5-flash" -p "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (-p method)"
+            echo "🔍 Debug: Generated content preview:"
+            head -5 _temp/topics.txt
+          elif printf '%s\n' "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (printf stdin method)"
+            echo "🔍 Debug: Generated content preview:"  
+            head -5 _temp/topics.txt
+          elif echo -e "$PROMPT" | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error.log; then
+            echo "✅ Gemini API call successful (echo -e stdin method)"
+            echo "🔍 Debug: Generated content preview:"
+            head -5 _temp/topics.txt
           elif gemini -m "gemini-2.5-flash" --prompt "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
             echo "✅ Gemini API call successful (--prompt method)"
-          elif gemini -m "gemini-2.5-flash" "$PROMPT" > _temp/topics.txt 2>_temp/gemini_error.log; then
-            echo "✅ Gemini API call successful (direct argument method)"
+            echo "🔍 Debug: Generated content preview:"
+            head -5 _temp/topics.txt
           else
             echo "❌ All Gemini API call methods failed"
             echo "Error log:"
             cat _temp/gemini_error.log || echo "No error log available"
+          fi
+          
+          # Check if we got the generic response instead of actual content
+          if grep -q "How can I help" _temp/topics.txt 2>/dev/null; then
+            echo "🚨 Detected generic response instead of actual content!"
+            echo "🔄 This indicates Gemini CLI is not processing prompts correctly."
+            echo "🔍 Attempting alternative approach with model specification..."
+            
+            # Try with different model specifications
+            if gemini -m "gemini-2.5-flash" -p "$PROMPT" --debug > _temp/topics_debug.txt 2>_temp/debug_error.log; then
+              echo "✅ Debug mode attempt successful"
+              cp _temp/topics_debug.txt _temp/topics.txt
+            else
+              echo "❌ Debug mode also failed"
+              echo "Error details:"
+              cat _temp/debug_error.log || echo "No debug error log"
+            fi
             
             # Check if it's a quota/search error
             if grep -q "quota\|search\|limit" _temp/gemini_error.log 2>/dev/null; then
