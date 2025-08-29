@@ -29,7 +29,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install -g @google/gemini-cli textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing textlint-rule-no-unmatched-pair
+          npm install -g @google/gemini-cli textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing @textlint-ja/textlint-rule-preset-ai-writing
           pip install sentence-transformers scikit-learn numpy requests pillow
           mkdir -p _temp assets/images/posts
 
