@@ -9,6 +9,12 @@ excerpt: "AI業界の最新動向について詳しく解説します。"
 reading_time: 8
 ---
 
+
+![Adobeの「LLM Optimizer」発表による生成AIマーケティング最適化](/assets/images/posts/2025-08-29-4-adobellmoptimizerai-title.jpg)
+
+
+![Adobeの「LLM Optimizer」発表による生成AIマーケティング最適化](/assets/images/posts/2025-08-29-4-adobellmoptimizerai-title.jpg)
+
 ## 概要と背景
 
 2025年6月、カンヌライオンズ国際クリエイティビティ・フェスティバルにおいて、Adobeは企業向けアプリケーション「LLM Optimizer」を発表しました。これは、生成AIインターフェースが消費者の情報発見や購買決定における主要なチャネルへと移行する中で、ブランドがその存在感を最適化するための画期的なソリューションです。
@@ -79,3 +85,11 @@ LLM Optimizerが提供する洞察は、生成AIによるパーソナライゼ�
 GEOの概念が普及するにつれて、マーケティング効果を測定するための新たな指標や分析手法が開発されるでしょう。LLM Optimizerは、その先駆けとして、AI環境におけるブランドパフォーマンスを評価するための新しいフレームワークを提供します。将来的には、AIの「引用スコア」や「影響力スコア」など、生成AI特有の指標が標準的なマーケティング分析の一部となるかもしれません。
 
 Adobe LLM Optimizerは、単なる新しいツールではなく、生成AIがマーケティングのあり方を根本的に変革する中で、企業が競争力を維持し、成長するための羅針盤となる可能性を秘めています。
+
+
+## 図解
+
+### Adobe LLM Optimizerの機能
+
+![Adobe LLM Optimizerの機能](/assets/images/posts/2025-08-29-4-adobellmoptimizerai-mermaid-1.jpg)
+
