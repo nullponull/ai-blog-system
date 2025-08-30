@@ -421,10 +421,11 @@ jobs:
             fi
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
-              # より安全な文字列処理
+              # ユニークなファイル名生成（日本語対応）
               TITLE=$(printf '%s' "$TOPIC" | head -c 80)
-              SLUG=$(printf '%s' "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | head -c 50)
-              FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${SLUG}.md"
+              # タイムスタンプベースのユニークファイル名生成
+              TIMESTAMP=$(date +%H%M%S)
+              FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${TIMESTAMP}.md"
               
               # Store in temp for processing using printf
               printf '%s\n' "---" "layout: post" "title: \"$TITLE\"" "date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)" "categories: [\"$CATEGORY\"]" "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]" "author: \"AI記事生成システム\"" "excerpt: \"AI業界の最新動向について詳しく解説します。\"" "reading_time: 8" "---" > "_temp/temp-${FILENAME}"
