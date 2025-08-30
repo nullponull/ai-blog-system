@@ -1,4 +1,5 @@
 {
+  "filters": {},
   "rules": {
     "preset-japanese": {
       "sentence-length": {
@@ -8,6 +9,9 @@
         "preferInHeader": "である",
         "preferInBody": "である",
         "strict": false
+      },
+      "max-ten": {
+        "max": 4
       }
     },
     "preset-ja-technical-writing": {
@@ -15,29 +19,56 @@
         "max": 120
       },
       "max-ten": {
-        "max": 3
+        "max": 4
       },
       "ja-no-weak-phrase": false,
       "ja-no-redundant-expression": true,
-      "ja-no-successive-word": true
+      "ja-no-successive-word": true,
+      "no-exclamation-question-mark": {
+        "allowFullWidthExclamation": false,
+        "allowFullWidthQuestion": false
+      }
     },
     "@textlint-ja/preset-ai-writing": {
       "no-ai-list-formatting": {
-        "allows": ["/重要.*/i", "/注意.*/i"],
+        "allows": ["/重要.*/i", "/注意.*/i", "/ポイント.*/i"],
         "disableBoldListItems": false,
         "disableEmojiListItems": false
       },
       "no-ai-hype-expressions": {
-        "allows": ["/最新の.*/i", "/新しい.*/i"],
+        "allows": ["/最新の.*/i", "/新しい.*/i", "/画期的な.*/i", "/革新的な.*/i"],
         "disableAbsolutenessPatterns": false,
         "disableAbstractPatterns": false,
         "disabledPredictivePatterns": false
       },
       "no-ai-emphasis-patterns": {
-        "allows": [],
+        "allows": ["〜と予想される", "〜の可能性が高い", "〜が重要", "実装時は〜に注意"],
         "disableEmojiEmphasisPatterns": false,
         "disableInfoPatterns": false,
         "disableHeadingEmphasisPatterns": true
+      },
+      "ai-generated-phrases": {
+        "severity": "error",
+        "customPhrases": [
+          "AIが生成した",
+          "人工知能により作成",
+          "〜について説明します",
+          "〜を見ていきましょう",
+          "いかがでしたでしょうか",
+          "〜と言えるでしょう",
+          "〜ではないでしょうか",
+          "記事を作成しました",
+          "文字数は〇〇です",
+          "The article has been",
+          "Please review"
+        ]
+      },
+      "professional-tone": {
+        "severity": "warning",
+        "enforceFinancialTerms": true,
+        "enforceTechnicalTerms": true,
+        "requireNumericData": true,
+        "minimumDataDensity": 0.1
       }
     }
   }
