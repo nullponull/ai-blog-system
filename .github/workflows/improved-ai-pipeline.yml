@@ -50,10 +50,6 @@ jobs:
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
           echo "🎯 Generating AI topics..."
-          echo "Debug: GEMINI_API_KEY is $([ -n "$GEMINI_API_KEY" ] && echo "set (length: ${#GEMINI_API_KEY})" || echo "NOT SET")"
-          echo "Debug: Workflow trigger: ${{ github.event_name }}"
-          echo "Debug: Current time: $(date)"
-          echo "Debug: Runner OS: ${{ runner.os }}"
           
           # GitHub Actions環境でのAPI key認証確認
           if [ -z "$GEMINI_API_KEY" ]; then
@@ -68,13 +64,7 @@ jobs:
             exit 1
           fi
           
-          # API call with detailed error reporting
-          echo "🎯 Calling Gemini API..."
-          echo "🔍 Debug: Testing different Gemini CLI syntaxes..."
           
-          # Test Gemini CLI help to see available options
-          echo "Available Gemini CLI options:"
-          gemini --help 2>/dev/null || gemini -h 2>/dev/null || true
           
           # Stage 1: 3段階インテリジェント情報収集の実装
           echo "🎯 Stage 1: Multi-angle information gathering..."
@@ -453,18 +443,8 @@ jobs:
           set -e  # Re-enable exit on error
           echo "📊 Generated $GENERATED_COUNT articles"
           
-          # Calculate actual API calls made with 3-stage optimization
           TOTAL_API_CALLS=$((API_ATTEMPT + GENERATED_COUNT))
-          echo "📊 Total Gemini API calls: $TOTAL_API_CALLS"
-          echo "   - Stage 1 (3-phase search): $API_ATTEMPT calls"
-          echo "   - Stage 2 (article generation): $GENERATED_COUNT calls" 
-          echo "📈 3-Stage Optimization Results:"
-          echo "   - Information quality: Surface → Professional-grade analysis"
-          echo "   - Target audience: Generic → Investor/Engineer-focused"
-          echo "   - Content depth: News-level → Decision-making level"
-          echo "🎯 Expected performance improvements:"
-          echo "   - Reader engagement: 2.5min → 5min+ reading time"
-          echo "   - Professional value: Generic news → Actionable intelligence"
+          echo "📊 Total API calls: $TOTAL_API_CALLS (Stage 1: $API_ATTEMPT + Articles: $GENERATED_COUNT)"
 
       - name: Semantic article selection
         run: |
@@ -477,61 +457,8 @@ jobs:
             touch _temp/existing_titles.txt
           fi
           
-          # Create Python script for semantic analysis using echo statements
-          echo "import os" > _temp/semantic_selector.py
-          echo "import glob" >> _temp/semantic_selector.py
-          echo "from sentence_transformers import SentenceTransformer" >> _temp/semantic_selector.py
-          echo "from sklearn.metrics.pairwise import cosine_similarity" >> _temp/semantic_selector.py
-          echo "" >> _temp/semantic_selector.py
-          echo "print('Loading multilingual sentence transformer model...')" >> _temp/semantic_selector.py
-          echo "model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')" >> _temp/semantic_selector.py
-          echo "" >> _temp/semantic_selector.py
-          echo "def get_embedding(text):" >> _temp/semantic_selector.py
-          echo "    return model.encode([text])" >> _temp/semantic_selector.py
-          echo "" >> _temp/semantic_selector.py
-          echo "def extract_title(filepath):" >> _temp/semantic_selector.py
-          echo "    try:" >> _temp/semantic_selector.py
-          echo "        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:" >> _temp/semantic_selector.py
-          echo "            for line in f:" >> _temp/semantic_selector.py
-          echo "                if line.startswith('title:'):" >> _temp/semantic_selector.py
-          echo "                    return line.replace('title:', '').strip().strip('\"')" >> _temp/semantic_selector.py
-          echo "    except Exception as e:" >> _temp/semantic_selector.py
-          echo "        print(f'Error reading {filepath}: {e}')" >> _temp/semantic_selector.py
-          echo "    return ''" >> _temp/semantic_selector.py
-          echo "" >> _temp/semantic_selector.py
-          echo "existing_titles = []" >> _temp/semantic_selector.py
-          echo "if os.path.exists('_temp/existing_titles.txt'):" >> _temp/semantic_selector.py
-          echo "    with open('_temp/existing_titles.txt', 'r') as f:" >> _temp/semantic_selector.py
-          echo "        existing_titles = [line.strip().replace('title:', '').strip().strip('\"') for line in f.readlines() if line.strip()]" >> _temp/semantic_selector.py
-          echo "" >> _temp/semantic_selector.py
-          echo "temp_articles = glob.glob('_temp/temp-*.md')" >> _temp/semantic_selector.py
-          echo "published_count = 0" >> _temp/semantic_selector.py
-          echo "print(f'Evaluating {len(temp_articles)} articles...')" >> _temp/semantic_selector.py
-          echo "" >> _temp/semantic_selector.py
-          echo "for filepath in temp_articles:" >> _temp/semantic_selector.py
-          echo "    title = extract_title(filepath)" >> _temp/semantic_selector.py
-          echo "    if not title:" >> _temp/semantic_selector.py
-          echo "        continue" >> _temp/semantic_selector.py
-          echo "    max_similarity = 0.0" >> _temp/semantic_selector.py
-          echo "    if existing_titles:" >> _temp/semantic_selector.py
-          echo "        title_embedding = get_embedding(title)" >> _temp/semantic_selector.py
-          echo "        for existing_title in existing_titles:" >> _temp/semantic_selector.py
-          echo "            if existing_title:" >> _temp/semantic_selector.py
-          echo "                existing_embedding = get_embedding(existing_title)" >> _temp/semantic_selector.py
-          echo "                similarity = cosine_similarity(title_embedding.reshape(1, -1), existing_embedding.reshape(1, -1))[0][0]" >> _temp/semantic_selector.py
-          echo "                max_similarity = max(max_similarity, similarity)" >> _temp/semantic_selector.py
-          echo "    is_duplicate = max_similarity > 0.75" >> _temp/semantic_selector.py
-          echo "    if not is_duplicate:" >> _temp/semantic_selector.py
-          echo "        final_name = os.path.basename(filepath).replace('temp-', '')" >> _temp/semantic_selector.py
-          echo "        os.rename(filepath, f'_posts/{final_name}')" >> _temp/semantic_selector.py
-          echo "        print(f'Published: {final_name}')" >> _temp/semantic_selector.py
-          echo "        published_count += 1" >> _temp/semantic_selector.py
-          echo "    else:" >> _temp/semantic_selector.py
-          echo "        print(f'Skipped duplicate: {title[:50]}... (similarity: {max_similarity:.3f})')" >> _temp/semantic_selector.py
-          echo "print(f'Published {published_count} unique articles')" >> _temp/semantic_selector.py
-          
-          # Run the semantic selector
-          python3 _temp/semantic_selector.py
+          # Run semantic analysis for duplicate detection
+          python3 scripts/semantic_selector.py
 
       - name: Stage 3 - Professional quality enhancement with advanced textlint
         run: |
@@ -613,12 +540,6 @@ jobs:
           
           echo "🎯 Stage 3 completed: All articles enhanced for professional readership"
 
-      - name: Skip image generation (HuggingFace quota exceeded)
-        run: |
-          echo "ℹ️ Image generation disabled due to HuggingFace API quota exceeded"
-          echo "ℹ️ This saves 20+ API calls per execution"
-          echo "ℹ️ To re-enable: upgrade to HuggingFace PRO or wait for quota reset"
-          echo "ℹ️ Mermaid generation also disabled to optimize API calls (saves 5+ calls)"
 
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@v1
