@@ -129,9 +129,15 @@ jobs:
               cat _temp/phase2_results.txt >> _temp/combined_results.txt
             fi
             
-            VERIFICATION_PROMPT="以下の3段階検索で収集された情報について、信頼性と整合性を検証し、投資家・技術者向けに整理してください。【検証・整理要件】1.情報源の信頼性評価（公式発表>業界レポート>メディア報道）2.数値データの整合性チェック 3.矛盾する情報の指摘と解釈 4.投資家・技術者が求める重要情報の抽出【出力形式】最終的に5個の高品質な話題を番号付きでリストアップしてください。各話題は具体的な企業名・製品名・人名・数値データを含み、投資判断または技術選定に有用な情報で、信頼できる情報源に基づく内容。例:1.OpenAI GPT-5、企業向けAPI価格を従来比30%削減し月額500ドルで提供開始"
+            # Phase 3のプロンプトに結合データを直接組み込む
+            echo "以下の3段階検索で収集された情報について、信頼性と整合性を検証し、投資家・技術者向けに整理してください。" > _temp/verification_prompt.txt
+            echo "" >> _temp/verification_prompt.txt
+            echo "【収集情報】" >> _temp/verification_prompt.txt
+            cat _temp/combined_results.txt >> _temp/verification_prompt.txt
+            echo "" >> _temp/verification_prompt.txt
+            echo "【検証・整理要件】1.情報源の信頼性評価（公式発表>業界レポート>メディア報道）2.数値データの整合性チェック 3.矛盾する情報の指摘と解釈 4.投資家・技術者が求める重要情報の抽出【出力形式】最終的に5個の高品質な話題を番号付きでリストアップしてください。各話題は具体的な企業名・製品名・人名・数値データを含み、投資判断または技術選定に有用な情報で、信頼できる情報源に基づく内容。例:1.OpenAI GPT-5、企業向けAPI価格を従来比30%削減し月額500ドルで提供開始" >> _temp/verification_prompt.txt
             
-            if gemini -m "gemini-2.5-flash" -p "$VERIFICATION_PROMPT" > _temp/topics.txt 2>_temp/gemini_error3.log; then
+            if cat _temp/verification_prompt.txt | gemini -m "gemini-2.5-flash" > _temp/topics.txt 2>_temp/gemini_error3.log; then
               echo "✅ Phase 3 verification successful"
               TOPIC_API_SUCCESS=true
             else
