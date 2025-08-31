@@ -389,14 +389,56 @@ jobs:
                 ARTICLE_PROMPT="WebSearch: $(date '+%Y年%m月%d日') $TOPIC。「$TOPIC」について、Web検索で最新情報を調査し、ALLFORCES AI情報メディア向けの市場動向記事を作成してください。要件：実際の最新情報に基づく具体的な内容、企業名・製品名・人名・数値データを正確に記載、詳細かつ包括的な記事、Markdown形式で出力。構成：#$TOPIC、##概要と背景、##詳細な技術・ビジネス内容、##市場・競合への影響、##今後の展望。重要：AIっぽい表現を避け人間が書いたような自然な文章、全ての構成要素を完結するまで記事内容のみを出力。"
             fi
             
-            # Test WebSearch for article generation
+            # ✅ ANTI-TRUNCATION: Add completion verification and retry logic
             echo "🔍 API call #$((TOPIC_INDEX + 1)): Testing WebSearch for article $TOPIC_INDEX"
+            echo "🛡️ Anti-truncation measures: Completion verification enabled"
             
+            # ✅ ANTI-TRUNCATION: First attempt with completion verification
             if timeout 120 gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${TOPIC_INDEX}.md" 2>_temp/gemini_error_${TOPIC_INDEX}.log; then
               # ✅ FIX: 強化されたエラー検出
               if ! grep -q "What would you like to work on\|How can I help\|What can I help you with" "_temp/article-${TOPIC_INDEX}.md" 2>/dev/null; then
                 # コンテンツ長チェック（空記事防止）
                 CONTENT_LENGTH=$(wc -c < "_temp/article-${TOPIC_INDEX}.md")
+                
+                # ✅ ANTI-TRUNCATION: Check for truncation signs
+                TRUNCATION_DETECTED=false
+                
+                # Check 1: Article ends abruptly without proper conclusion
+                LAST_LINES=$(tail -5 "_temp/article-${TOPIC_INDEX}.md" | tr -d '\n' | sed 's/[[:space:]]*$//')
+                if [[ ! "$LAST_LINES" =~ (です|ます|。|でしょう|れます|られます)$ ]] && [[ ! "$LAST_LINES" =~ (要因|要素|事項|可能性)$ ]]; then
+                  echo "🚨 Truncation detected: Article ends abruptly without proper sentence ending"
+                  TRUNCATION_DETECTED=true
+                fi
+                
+                # Check 2: Missing expected final sections
+                if ! grep -q "今後の展望\|提言\|まとめ\|結論" "_temp/article-${TOPIC_INDEX}.md"; then
+                  echo "🚨 Truncation detected: Missing expected final sections"
+                  TRUNCATION_DETECTED=true
+                fi
+                
+                # Check 3: Content length is reasonable but might be cut
+                if [ "$CONTENT_LENGTH" -gt 200 ] && [ "$CONTENT_LENGTH" -lt 3000 ] && [ "$TRUNCATION_DETECTED" = "true" ]; then
+                  echo "🔧 Article seems truncated ($CONTENT_LENGTH chars). Attempting continuation..."
+                  
+                  # Create continuation prompt
+                  echo "以下の記事を続きから完成させてください。記事の残り部分を書き、特に最後の段落と結論部分を含めて完結させてください：" > "_temp/continuation_prompt-${TOPIC_INDEX}.txt"
+                  echo "" >> "_temp/continuation_prompt-${TOPIC_INDEX}.txt"
+                  cat "_temp/article-${TOPIC_INDEX}.md" >> "_temp/continuation_prompt-${TOPIC_INDEX}.txt"
+                  echo "" >> "_temp/continuation_prompt-${TOPIC_INDEX}.txt"
+                  echo "上記の続きから書き続けて、記事を完成させてください。重複は避けて、残りの構成要素を全て完結させてください。" >> "_temp/continuation_prompt-${TOPIC_INDEX}.txt"
+                  
+                  # Try continuation
+                  if timeout 90 gemini -m "gemini-2.5-flash" < "_temp/continuation_prompt-${TOPIC_INDEX}.txt" > "_temp/continuation-${TOPIC_INDEX}.md" 2>_temp/continuation_error_${TOPIC_INDEX}.log; then
+                    # Append continuation to original
+                    echo "" >> "_temp/article-${TOPIC_INDEX}.md"
+                    cat "_temp/continuation-${TOPIC_INDEX}.md" >> "_temp/article-${TOPIC_INDEX}.md"
+                    CONTENT_LENGTH=$(wc -c < "_temp/article-${TOPIC_INDEX}.md")
+                    echo "✅ Article continued successfully. Total length: $CONTENT_LENGTH chars"
+                  else
+                    echo "⚠️ Continuation failed, using original truncated version"
+                  fi
+                fi
+                
                 if [ "$CONTENT_LENGTH" -gt 200 ]; then
                   echo "✅ WebSearch article $TOPIC_INDEX generated successfully ($CONTENT_LENGTH chars)"
                   ARTICLE_SUCCESS=true
