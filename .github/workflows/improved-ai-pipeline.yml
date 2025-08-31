@@ -434,27 +434,37 @@ jobs:
             fi
             
             if [ -s "_temp/article-${TOPIC_INDEX}.md" ]; then
-              # 戦略的でわかりやすいタイトル生成（文字化け対策＋UTF-8適切処理）
-              RAW_TITLE=$(printf '%s' "$TOPIC" | sed 's/\*\*//g' | tr -d '�' | iconv -f UTF-8 -t UTF-8//IGNORE)  # **除去＋文字化け記号除去＋UTF-8検証
-              # コロンの前部分を抽出し、さらに読みやすく具体的なタイトルに
-              if echo "$RAW_TITLE" | grep -q "："; then
-                BASE_TITLE=$(echo "$RAW_TITLE" | cut -d'：' -f1)
-              else
-                BASE_TITLE="$RAW_TITLE"
-              fi
+              # ✅ IMPROVED: 記事本文のH1タイトルを抽出してYAMLタイトルに使用
+              ARTICLE_H1_TITLE=$(grep -m1 '^# ' "_temp/article-${TOPIC_INDEX}.md" | sed 's/^# //' | sed 's/\*\*//g' | tr -d '�' | iconv -f UTF-8 -t UTF-8//IGNORE)
               
-              # 具体的で魅力的なタイトルに変換
-              case "$BASE_TITLE" in
-                *AIモデル*性能*) TITLE="AIモデル性能競争が白熱化" ;;
-                *マルチモーダル*) TITLE="マルチモーダルAI技術が急進展" ;;
-                *AI市場*成長*) TITLE="AI市場、前年比200%の急成長" ;;
-                *企業*AI導入*) TITLE="企業AI導入で生産性大幅向上" ;;
-                *AI技術*課題*) TITLE="AI技術の課題と今後の展望" ;;
-                *) 
-                  # デフォルト：25文字以内に調整
-                  TITLE=$(echo "$BASE_TITLE" | cut -c1-25)
-                  ;;
-              esac
+              if [ -n "$ARTICLE_H1_TITLE" ] && [ ${#ARTICLE_H1_TITLE} -gt 10 ]; then
+                # 記事本文のH1タイトルが存在し、10文字以上の場合はそれを使用
+                TITLE="$ARTICLE_H1_TITLE"
+                echo "📝 Using article H1 title: $TITLE"
+              else
+                # フォールバック：元のトピックからタイトル生成
+                echo "📝 Fallback to topic-based title generation"
+                RAW_TITLE=$(printf '%s' "$TOPIC" | sed 's/\*\*//g' | tr -d '�' | iconv -f UTF-8 -t UTF-8//IGNORE)
+                # コロンの前部分を抽出し、さらに読みやすく具体的なタイトルに
+                if echo "$RAW_TITLE" | grep -q "："; then
+                  BASE_TITLE=$(echo "$RAW_TITLE" | cut -d'：' -f1)
+                else
+                  BASE_TITLE="$RAW_TITLE"
+                fi
+                
+                # 具体的で魅力的なタイトルに変換
+                case "$BASE_TITLE" in
+                  *AIモデル*性能*) TITLE="AIモデル性能競争が白熱化" ;;
+                  *マルチモーダル*) TITLE="マルチモーダルAI技術が急進展" ;;
+                  *AI市場*成長*) TITLE="AI市場、前年比200%の急成長" ;;
+                  *企業*AI導入*) TITLE="企業AI導入で生産性大幅向上" ;;
+                  *AI技術*課題*) TITLE="AI技術の課題と今後の展望" ;;
+                  *) 
+                    # デフォルト：50文字以内に調整（記事タイトルはより詳細に）
+                    TITLE=$(echo "$BASE_TITLE" | cut -c1-50)
+                    ;;
+                esac
+              fi
               # タイムスタンプベースのユニークファイル名生成
               TIMESTAMP=$(date +%H%M%S)
               FILENAME="$(date +%Y-%m-%d)-${TOPIC_INDEX}-${TIMESTAMP}.md"
