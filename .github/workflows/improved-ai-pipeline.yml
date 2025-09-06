@@ -87,89 +87,129 @@ jobs:
         run: |
           echo "📝 Generating professional articles..."
           
-          # Extract topics (limit to 3 articles to ensure quality)
+          # Extract topics and save as temp files for duplicate checking
           grep -E "^[0-9]+\." _temp/topics.txt | head -3 > _temp/selected_topics.txt
           
-          ARTICLE_COUNT=0
+          # Prepare existing titles for duplicate checking
+          echo "🔍 Preparing duplicate check data..."
+          find _posts -name "*.md" -mtime -3 | head -20 | while read -r post; do
+            if [ -f "$post" ]; then
+              grep "^title:" "$post" 2>/dev/null || true
+            fi
+          done > _temp/existing_titles.txt || true
+          
+          TEMP_ARTICLE_COUNT=0
+          GENERATED_COUNT=0
           while IFS= read -r topic_line; do
             if [ -z "$topic_line" ]; then
               continue
             fi
             
-            ARTICLE_COUNT=$((ARTICLE_COUNT + 1))
+            TEMP_ARTICLE_COUNT=$((TEMP_ARTICLE_COUNT + 1))
             TOPIC=$(echo "$topic_line" | sed 's/^[0-9]*\. *//')
             
-            echo "📝 Generating article $ARTICLE_COUNT: $TOPIC"
+            echo "📝 Processing topic $TEMP_ARTICLE_COUNT: $TOPIC"
             
             # Quality-focused article generation prompt
             ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. 「$TOPIC」について、以下の要件で専門記事を作成してください。【記事要件】タイトル30文字以内・具体的で魅力的、文字数3000-4000文字、対象読者は投資家・技術者、情報源は公式発表・信頼できるメディア。【記事構造】# [30文字以内のタイトル] ## 概要 [200文字程度の要約] ## 詳細分析 [具体的な数値データ・企業情報] ## 市場への影響 [投資・技術選定への示唆] ## 今後の展望 [3-6ヶ月の予測]。【重要な制約】タイトルは必ず30文字以内、企業名・製品名・数値データを豊富に含める、AI的表現は使用禁止、自然な日本語で記述、記事の最後に「---END---」を必ず記載。"
 
-            # Generate article with error handling
+            # Generate article with improved error handling
             GENERATION_SUCCESS=false
             for retry in 1 2; do
-              echo "📝 API attempt $retry for article $ARTICLE_COUNT"
-              if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${ARTICLE_COUNT}.md" 2>_temp/api_error_${ARTICLE_COUNT}.log; then
+              echo "📝 API attempt $retry for topic $TEMP_ARTICLE_COUNT"
+              if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md" 2>_temp/api_error_${TEMP_ARTICLE_COUNT}.log; then
                 GENERATION_SUCCESS=true
                 break
               else
                 echo "⚠️ API attempt $retry failed, checking error..."
-                if grep -q "503\|UNAVAILABLE\|overloaded" _temp/api_error_${ARTICLE_COUNT}.log 2>/dev/null; then
+                if grep -q "503\|UNAVAILABLE\|overloaded" _temp/api_error_${TEMP_ARTICLE_COUNT}.log 2>/dev/null; then
                   echo "🔄 API overloaded (503), waiting 30s before retry..."
                   sleep 30
-                elif grep -q "429\|quota" _temp/api_error_${ARTICLE_COUNT}.log 2>/dev/null; then
-                  echo "🚫 API quota exceeded, stopping generation"
-                  break 2
+                elif grep -q "429\|quota" _temp/api_error_${TEMP_ARTICLE_COUNT}.log 2>/dev/null; then
+                  echo "🚫 API quota exceeded, will continue with generated articles"
+                  break
+                else
+                  echo "⚠️ Other API error, will continue with generated articles"
+                  break
                 fi
               fi
             done
             
             if [ "$GENERATION_SUCCESS" = "true" ]; then
-              echo "✅ Article $ARTICLE_COUNT generated"
-              
               # Quality check
-              if ! grep -q -- "---END---" "_temp/article-${ARTICLE_COUNT}.md"; then
-                echo "⚠️ Article $ARTICLE_COUNT may be incomplete (no END marker)"
+              if ! grep -q -- "---END---" "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md"; then
+                echo "⚠️ Article $TEMP_ARTICLE_COUNT may be incomplete (no END marker)"
               fi
               
               # Title extraction and validation
-              TITLE=$(head -1 "_temp/article-${ARTICLE_COUNT}.md" | sed 's/^# *//')
+              TITLE=$(head -1 "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md" | sed 's/^# *//')
               TITLE_LENGTH=${#TITLE}
               
               if [ $TITLE_LENGTH -gt 30 ]; then
                 echo "⚠️ Title too long ($TITLE_LENGTH chars): $TITLE"
-                # Trim title to 30 characters
                 TITLE=$(echo "$TITLE" | cut -c1-30)
                 echo "✂️ Trimmed to: $TITLE"
               fi
               
-              # Save in Jekyll format using printf (HEREDOC-free)
-              FILENAME="$(date +%Y-%m-%d)-${ARTICLE_COUNT}-$(date +%H%M).md"
+              # Create temp file with Jekyll format for duplicate checking
+              TEMP_FILENAME="temp-$(date +%Y-%m-%d)-${TEMP_ARTICLE_COUNT}-$(date +%H%M).md"
               CURRENT_DATE="$(date +%Y-%m-%d\ %H:%M:%S\ %z)"
               EXCERPT_TEXT="$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
               
-              # Create Jekyll frontmatter without HEREDOC (safe printf usage)
-              printf "%s\n" "---" > "_posts/$FILENAME"
-              printf "%s\n" "layout: post" >> "_posts/$FILENAME"
-              printf "title: \"%s\"\n" "$TITLE" >> "_posts/$FILENAME"
-              printf "date: %s\n" "$CURRENT_DATE" >> "_posts/$FILENAME"
-              printf "%s\n" 'categories: ["AI技術"]' >> "_posts/$FILENAME"
-              printf "%s\n" 'tags: ["AI", "最新ニュース", "技術動向"]' >> "_posts/$FILENAME"
-              printf "%s\n" 'author: "ALLFORCES編集部"' >> "_posts/$FILENAME"
-              printf "excerpt: \"%s\"\n" "$EXCERPT_TEXT" >> "_posts/$FILENAME"
-              printf "%s\n" "reading_time: 8" >> "_posts/$FILENAME"
-              printf "%s\n\n" "---" >> "_posts/$FILENAME"
+              # Create temp article with frontmatter
+              printf "%s\n" "---" > "_temp/$TEMP_FILENAME"
+              printf "%s\n" "layout: post" >> "_temp/$TEMP_FILENAME"
+              printf "title: \"%s\"\n" "$TITLE" >> "_temp/$TEMP_FILENAME"
+              printf "date: %s\n" "$CURRENT_DATE" >> "_temp/$TEMP_FILENAME"
+              printf "%s\n" 'categories: ["AI技術"]' >> "_temp/$TEMP_FILENAME"
+              printf "%s\n" 'tags: ["AI", "最新ニュース", "技術動向"]' >> "_temp/$TEMP_FILENAME"
+              printf "%s\n" 'author: "ALLFORCES編集部"' >> "_temp/$TEMP_FILENAME"
+              printf "excerpt: \"%s\"\n" "$EXCERPT_TEXT" >> "_temp/$TEMP_FILENAME"
+              printf "%s\n" "reading_time: 8" >> "_temp/$TEMP_FILENAME"
+              printf "%s\n\n" "---" >> "_temp/$TEMP_FILENAME"
               
               # Add article content (excluding ---END--- marker)
-              sed '/---END---/,$d' "_temp/article-${ARTICLE_COUNT}.md" >> "_posts/$FILENAME"
+              sed '/---END---/,$d' "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md" >> "_temp/$TEMP_FILENAME"
               
-              echo "✅ Saved: $FILENAME"
+              echo "✅ Generated temp article: $TEMP_FILENAME"
+              GENERATED_COUNT=$((GENERATED_COUNT + 1))
             else
-              echo "❌ Failed to generate article $ARTICLE_COUNT"
+              echo "❌ Failed to generate article for topic $TEMP_ARTICLE_COUNT"
             fi
             
           done < _temp/selected_topics.txt
           
-          echo "📊 Generated $ARTICLE_COUNT articles"
+          echo "📊 Generated $GENERATED_COUNT temp articles for duplicate checking"
+
+      # STAGE 2.5: Semantic Duplicate Detection & Publishing
+      - name: Semantic duplicate detection and publishing
+        run: |
+          echo "🧠 Running semantic duplicate detection..."
+          
+          # Run semantic selector to filter duplicates and publish unique articles
+          if python3 scripts/semantic_selector.py; then
+            echo "✅ Semantic duplicate detection completed"
+            
+            # Count published articles
+            TODAY=$(date +%Y-%m-%d)
+            PUBLISHED_COUNT=$(find _posts -name "${TODAY}-*.md" -newer _temp/topics.txt 2>/dev/null | wc -l || echo "0")
+            echo "📊 Published $PUBLISHED_COUNT unique articles after duplicate detection"
+          else
+            echo "⚠️ Semantic detection failed, proceeding with basic publishing..."
+            
+            # Fallback: move temp files directly to _posts
+            FALLBACK_COUNT=0
+            for temp_file in _temp/temp-*.md; do
+              if [ -f "$temp_file" ]; then
+                final_name=$(basename "$temp_file" | sed 's/^temp-//')
+                if mv "$temp_file" "_posts/$final_name" 2>/dev/null; then
+                  echo "✅ Published: $final_name"
+                  FALLBACK_COUNT=$((FALLBACK_COUNT + 1))
+                fi
+              fi
+            done
+            echo "📊 Published $FALLBACK_COUNT articles via fallback method"
+          fi
 
       # STAGE 3: Advanced Quality Enhancement
       - name: Advanced textlint quality enhancement
