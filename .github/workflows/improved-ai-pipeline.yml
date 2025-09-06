@@ -159,6 +159,12 @@ jobs:
           # Extract topics and save as temp files for duplicate checking
           grep -E "^[0-9]+\." _temp/topics.txt | head -3 > _temp/selected_topics.txt
           
+          # Debug: Show extracted topics
+          echo "📋 Extracted topics for processing:"
+          cat _temp/selected_topics.txt
+          AVAILABLE_TOPICS=$(wc -l < _temp/selected_topics.txt)
+          echo "📊 Available topics: $AVAILABLE_TOPICS"
+          
           # Prepare existing titles for duplicate checking
           echo "🔍 Preparing duplicate check data..."
           find _posts -name "*.md" -mtime -3 | head -20 | while read -r post; do
@@ -167,17 +173,23 @@ jobs:
             fi
           done > _temp/existing_titles.txt || true
           
-          TEMP_ARTICLE_COUNT=0
+          echo "📝 Existing titles for duplicate checking:"
+          head -5 _temp/existing_titles.txt || echo "No existing titles found"
+          
+          # Use robust for-loop instead of while-loop to ensure all topics are processed
           GENERATED_COUNT=0
-          while IFS= read -r topic_line; do
-            if [ -z "$topic_line" ]; then
+          FAILED_COUNT=0
+          
+          for topic_number in 1 2 3; do
+            TOPIC_LINE=$(sed -n "${topic_number}p" _temp/selected_topics.txt 2>/dev/null)
+            
+            if [ -z "$TOPIC_LINE" ]; then
+              echo "⚠️ No topic found at position $topic_number"
               continue
             fi
             
-            TEMP_ARTICLE_COUNT=$((TEMP_ARTICLE_COUNT + 1))
-            TOPIC=$(echo "$topic_line" | sed 's/^[0-9]*\. *//')
-            
-            echo "📝 Processing topic $TEMP_ARTICLE_COUNT: $TOPIC"
+            TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+            echo "📝 Processing topic $topic_number: $TOPIC"
             
             # Quality-focused article generation prompt
             ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. 「$TOPIC」について、以下の要件で専門記事を作成してください。【記事要件】タイトル30文字以内・具体的で魅力的、文字数3000-4000文字、対象読者は投資家・技術者、情報源は公式発表・信頼できるメディア。【記事構造】# [30文字以内のタイトル] ## 概要 [200文字程度の要約] ## 詳細分析 [具体的な数値データ・企業情報] ## 市場への影響 [投資・技術選定への示唆] ## 今後の展望 [3-6ヶ月の予測]。【重要な制約】タイトルは必ず30文字以内、企業名・製品名・数値データを豊富に含める、AI的表現は使用禁止、自然な日本語で記述、記事の最後に「---END---」を必ず記載。"
@@ -185,33 +197,41 @@ jobs:
             # Generate article with improved error handling
             GENERATION_SUCCESS=false
             for retry in 1 2; do
-              echo "📝 API attempt $retry for topic $TEMP_ARTICLE_COUNT"
-              if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md" 2>_temp/api_error_${TEMP_ARTICLE_COUNT}.log; then
+              echo "📝 API attempt $retry for topic $topic_number"
+              if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/raw-article-${topic_number}.md" 2>_temp/api_error_${topic_number}.log; then
+                echo "✅ API call successful for topic $topic_number"
                 GENERATION_SUCCESS=true
                 break
               else
-                echo "⚠️ API attempt $retry failed, checking error..."
-                if grep -q "503\|UNAVAILABLE\|overloaded" _temp/api_error_${TEMP_ARTICLE_COUNT}.log 2>/dev/null; then
+                echo "⚠️ API attempt $retry failed for topic $topic_number, checking error..."
+                if [ -f "_temp/api_error_${topic_number}.log" ]; then
+                  echo "Error log content:"
+                  cat _temp/api_error_${topic_number}.log
+                fi
+                
+                if grep -q "503\|UNAVAILABLE\|overloaded" _temp/api_error_${topic_number}.log 2>/dev/null; then
                   echo "🔄 API overloaded (503), waiting 30s before retry..."
                   sleep 30
-                elif grep -q "429\|quota" _temp/api_error_${TEMP_ARTICLE_COUNT}.log 2>/dev/null; then
-                  echo "🚫 API quota exceeded, will continue with generated articles"
+                elif grep -q "429\|quota" _temp/api_error_${topic_number}.log 2>/dev/null; then
+                  echo "🚫 API quota exceeded, will continue with next topic"
                   break
                 else
-                  echo "⚠️ Other API error, will continue with generated articles"
-                  break
+                  echo "⚠️ Other API error, will continue with next topic"
+                  if [ "$retry" -eq 2 ]; then
+                    break
+                  fi
                 fi
               fi
             done
             
             if [ "$GENERATION_SUCCESS" = "true" ]; then
               # Quality check
-              if ! grep -q -- "---END---" "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md"; then
-                echo "⚠️ Article $TEMP_ARTICLE_COUNT may be incomplete (no END marker)"
+              if ! grep -q -- "---END---" "_temp/raw-article-${topic_number}.md"; then
+                echo "⚠️ Article $topic_number may be incomplete (no END marker)"
               fi
               
               # Title extraction and validation
-              TITLE=$(head -1 "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md" | sed 's/^# *//')
+              TITLE=$(head -1 "_temp/raw-article-${topic_number}.md" | sed 's/^# *//')
               TITLE_LENGTH=${#TITLE}
               
               if [ $TITLE_LENGTH -gt 30 ]; then
@@ -221,7 +241,7 @@ jobs:
               fi
               
               # Create temp file with Jekyll format for duplicate checking
-              TEMP_FILENAME="temp-$(date +%Y-%m-%d)-${TEMP_ARTICLE_COUNT}-$(date +%H%M).md"
+              TEMP_FILENAME="temp-$(date +%Y-%m-%d)-${topic_number}-$(date +%H%M).md"
               CURRENT_DATE="$(date +%Y-%m-%d\ %H:%M:%S\ %z)"
               EXCERPT_TEXT="$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
               
@@ -238,17 +258,25 @@ jobs:
               printf "%s\n\n" "---" >> "_temp/$TEMP_FILENAME"
               
               # Add article content (excluding ---END--- marker)
-              sed '/---END---/,$d' "_temp/raw-article-${TEMP_ARTICLE_COUNT}.md" >> "_temp/$TEMP_FILENAME"
+              sed '/---END---/,$d' "_temp/raw-article-${topic_number}.md" >> "_temp/$TEMP_FILENAME"
               
               echo "✅ Generated temp article: $TEMP_FILENAME"
               GENERATED_COUNT=$((GENERATED_COUNT + 1))
             else
-              echo "❌ Failed to generate article for topic $TEMP_ARTICLE_COUNT"
+              echo "❌ Failed to generate article for topic $topic_number: $TOPIC"
+              FAILED_COUNT=$((FAILED_COUNT + 1))
             fi
             
-          done < _temp/selected_topics.txt
+          done
           
-          echo "📊 Generated $GENERATED_COUNT temp articles for duplicate checking"
+          echo "📊 Article generation summary:"
+          echo "   ✅ Generated: $GENERATED_COUNT articles"
+          echo "   ❌ Failed: $FAILED_COUNT articles"
+          
+          if [ "$GENERATED_COUNT" -eq 0 ]; then
+            echo "💀 No articles were generated successfully!"
+            exit 1
+          fi
 
       # STAGE 2.5: Semantic Duplicate Detection & Publishing
       - name: Semantic duplicate detection and publishing
@@ -256,6 +284,9 @@ jobs:
           echo "🧠 Running semantic duplicate detection..."
           
           # Run semantic selector to filter duplicates and publish unique articles
+          echo "📋 Temp articles available for duplicate checking:"
+          ls -la _temp/temp-*.md || echo "No temp articles found!"
+          
           if python3 scripts/semantic_selector.py; then
             echo "✅ Semantic duplicate detection completed"
             
@@ -263,6 +294,19 @@ jobs:
             TODAY=$(date +%Y-%m-%d)
             PUBLISHED_COUNT=$(find _posts -name "${TODAY}-*.md" -newer _temp/topics.txt 2>/dev/null | wc -l || echo "0")
             echo "📊 Published $PUBLISHED_COUNT unique articles after duplicate detection"
+            
+            # If no articles were published due to duplicates, publish the most recent one anyway
+            if [ "$PUBLISHED_COUNT" -eq 0 ]; then
+              echo "⚠️ All articles were marked as duplicates. Publishing the newest one anyway..."
+              NEWEST_TEMP=$(ls -t _temp/temp-*.md 2>/dev/null | head -1)
+              if [ -n "$NEWEST_TEMP" ] && [ -f "$NEWEST_TEMP" ]; then
+                final_name=$(basename "$NEWEST_TEMP" | sed 's/^temp-//')
+                if mv "$NEWEST_TEMP" "_posts/$final_name" 2>/dev/null; then
+                  echo "✅ Force-published newest article: $final_name"
+                  PUBLISHED_COUNT=1
+                fi
+              fi
+            fi
           else
             echo "⚠️ Semantic detection failed, proceeding with basic publishing..."
             
