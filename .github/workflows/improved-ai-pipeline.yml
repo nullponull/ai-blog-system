@@ -59,25 +59,7 @@ jobs:
           fi
           
           # Simple and reliable topic generation prompt
-          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日')
-
-以下の要件で、AI業界の最新話題を3個生成してください：
-
-【要件】
-- 具体的な企業名・製品名・人名を含む
-- 投資家または技術者が関心を持つ内容  
-- 30文字以内の簡潔なタイトル形式
-- 番号付きリスト形式で出力
-
-【出力例】
-1. OpenAI GPT-5、企業向けAPI価格30%削減
-2. NVIDIA新チップ、AI処理速度3倍向上
-3. Google AI研究、自動運転技術で突破口
-
-【重要】
-- タイトルは30文字以内厳守
-- 具体的な数値・企業名必須
-- 投資判断・技術選定に有用な情報"
+          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 以下の要件で、AI業界の最新話題を3個生成してください。【要件】具体的な企業名・製品名・人名を含む、投資家または技術者が関心を持つ内容、30文字以内の簡潔なタイトル形式、番号付きリスト形式で出力。【出力例】1. OpenAI GPT-5、企業向けAPI価格30%削減 2. NVIDIA新チップ、AI処理速度3倍向上 3. Google AI研究、自動運転技術で突破口。【重要】タイトルは30文字以内厳守、具体的な数値・企業名必須、投資判断・技術選定に有用な情報。"
 
           # Single API call for topics
           if gemini -m "gemini-2.5-flash" -p "$TOPIC_PROMPT" > _temp/topics.txt; then
