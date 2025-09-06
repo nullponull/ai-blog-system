@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Midjourneyが画像から動画生成機能に参入"
+title: "Midjourney動画生成機能参入"
 date: 2025-08-29 14:54:40 +0000
 categories: ["最新動向"]
 tags: ["AI", "最新ニュース", "技術動向"]
-author: "AI記事生成アーキテクチャ"
-excerpt: "AI業界の最新動向について詳しく解説します。"
+author: "ALLFORCES編集部"
+excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8
 ---
 

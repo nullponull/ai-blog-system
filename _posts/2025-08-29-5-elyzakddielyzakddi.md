@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "ELYZAとKDDIの資本業務提携: 日本語大規模言語モデル開発�"
+title: "ELYZAとKDDI業務提携"
 date: 2025-08-29 07:10:35 +0000
 categories: ["最新動向"]
 tags: ["AI", "最新ニュース", "技術動向"]
-author: "AI記事生成アーキテクチャ"
-excerpt: "AI業界の最新動向について詳しく解説します。"
+author: "ALLFORCES編集部"
+excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8
 ---
 
