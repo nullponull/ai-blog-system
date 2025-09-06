@@ -61,22 +61,91 @@ jobs:
           # Simple and reliable topic generation prompt
           TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 以下の要件で、AI業界の最新話題を3個生成してください。【要件】具体的な企業名・製品名・人名を含む、投資家または技術者が関心を持つ内容、30文字以内の簡潔なタイトル形式、番号付きリスト形式で出力。【出力例】1. OpenAI GPT-5、企業向けAPI価格30%削減 2. NVIDIA新チップ、AI処理速度3倍向上 3. Google AI研究、自動運転技術で突破口。【重要】タイトルは30文字以内厳守、具体的な数値・企業名必須、投資判断・技術選定に有用な情報。"
 
-          # Single API call for topics
-          if gemini -m "gemini-2.5-flash" -p "$TOPIC_PROMPT" > _temp/topics.txt; then
-            echo "✅ Topics generated successfully"
-            echo "Generated topics:"
-            cat _temp/topics.txt
+          # Enhanced API call with comprehensive validation
+          echo "🔄 Attempting topic generation (with retry)..."
+          TOPIC_GENERATION_SUCCESS=false
+          
+          for api_retry in 1 2; do
+            echo "📡 API attempt $api_retry for topic generation"
             
-            # Verify we have topics
-            TOPIC_COUNT=$(grep -c "^[0-9]\+\." _temp/topics.txt || echo "0")
-            if [ "$TOPIC_COUNT" -eq 0 ]; then
-              echo "❌ No valid topics generated"
+            if gemini -m "gemini-2.5-flash" -p "$TOPIC_PROMPT" > _temp/topics.txt 2>_temp/topic_generation_error.log; then
+              echo "✅ API call completed successfully"
+              
+              # Comprehensive content validation
+              if [ -s "_temp/topics.txt" ]; then
+                echo "📄 Topics file created with content:"
+                cat _temp/topics.txt
+                
+                # Check for error messages in response
+                if grep -qi "error\|failed\|unable\|quota\|limit" _temp/topics.txt 2>/dev/null; then
+                  echo "⚠️ API response contains error messages"
+                  echo "Response content:"
+                  cat _temp/topics.txt
+                else
+                  # Safe topic counting with file existence check
+                  TOPIC_COUNT=0
+                  if [ -s "_temp/topics.txt" ]; then
+                    TOPIC_COUNT=$(grep -c "^[0-9]\+\." _temp/topics.txt 2>/dev/null || echo "0")
+                  fi
+                  
+                  # Validate topic count is a number and > 0
+                  if [[ "$TOPIC_COUNT" =~ ^[0-9]+$ ]] && [ "$TOPIC_COUNT" -gt 0 ]; then
+                    echo "📊 Generated $TOPIC_COUNT valid topics"
+                    TOPIC_GENERATION_SUCCESS=true
+                    break
+                  else
+                    echo "⚠️ No valid numbered topics found in response"
+                    echo "Expected format: '1. Topic title'"
+                  fi
+                fi
+              else
+                echo "❌ Topics file is empty or not created"
+                if [ -f "_temp/topic_generation_error.log" ]; then
+                  echo "Error log:"
+                  cat _temp/topic_generation_error.log
+                fi
+              fi
+            else
+              echo "❌ API call failed with exit code $?"
+              if [ -f "_temp/topic_generation_error.log" ]; then
+                echo "Error details:"
+                cat _temp/topic_generation_error.log
+              fi
+            fi
+            
+            if [ "$TOPIC_GENERATION_SUCCESS" = "false" ] && [ "$api_retry" -lt 2 ]; then
+              echo "🔄 Retrying in 15 seconds..."
+              sleep 15
+            fi
+          done
+          
+          if [ "$TOPIC_GENERATION_SUCCESS" = "false" ]; then
+            echo "❌ Failed to generate valid topics after 2 attempts"
+            echo "🔧 Attempting fallback with simpler prompt..."
+            
+            # Fallback with simpler prompt
+            SIMPLE_PROMPT="Generate 3 AI industry news topics in this format: 1. Topic 2. Topic 2. Topic. Each topic should be under 30 characters and mention specific companies."
+            
+            if gemini -m "gemini-2.5-flash" -p "$SIMPLE_PROMPT" > _temp/topics_fallback.txt 2>/dev/null; then
+              if [ -s "_temp/topics_fallback.txt" ]; then
+                mv _temp/topics_fallback.txt _temp/topics.txt
+                echo "✅ Fallback topics generated"
+                cat _temp/topics.txt
+              fi
+            fi
+            
+            # Final validation
+            FINAL_TOPIC_COUNT=0
+            if [ -s "_temp/topics.txt" ]; then
+              FINAL_TOPIC_COUNT=$(grep -c "^[0-9]\+\." _temp/topics.txt 2>/dev/null || echo "0")
+            fi
+            
+            if [[ "$FINAL_TOPIC_COUNT" =~ ^[0-9]+$ ]] && [ "$FINAL_TOPIC_COUNT" -gt 0 ]; then
+              echo "📊 Final validation: $FINAL_TOPIC_COUNT topics available"
+            else
+              echo "💀 Complete failure: No valid topics could be generated"
               exit 1
             fi
-            echo "📊 Generated $TOPIC_COUNT topics"
-          else
-            echo "❌ Topic generation failed"
-            exit 1
           fi
 
       # STAGE 2: Quality-Focused Article Generation  
