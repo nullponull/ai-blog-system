@@ -104,12 +104,30 @@ jobs:
             # Quality-focused article generation prompt
             ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. 「$TOPIC」について、以下の要件で専門記事を作成してください。【記事要件】タイトル30文字以内・具体的で魅力的、文字数3000-4000文字、対象読者は投資家・技術者、情報源は公式発表・信頼できるメディア。【記事構造】# [30文字以内のタイトル] ## 概要 [200文字程度の要約] ## 詳細分析 [具体的な数値データ・企業情報] ## 市場への影響 [投資・技術選定への示唆] ## 今後の展望 [3-6ヶ月の予測]。【重要な制約】タイトルは必ず30文字以内、企業名・製品名・数値データを豊富に含める、AI的表現は使用禁止、自然な日本語で記述、記事の最後に「---END---」を必ず記載。"
 
-            # Generate article
-            if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${ARTICLE_COUNT}.md"; then
+            # Generate article with error handling
+            GENERATION_SUCCESS=false
+            for retry in 1 2; do
+              echo "📝 API attempt $retry for article $ARTICLE_COUNT"
+              if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/article-${ARTICLE_COUNT}.md" 2>_temp/api_error_${ARTICLE_COUNT}.log; then
+                GENERATION_SUCCESS=true
+                break
+              else
+                echo "⚠️ API attempt $retry failed, checking error..."
+                if grep -q "503\|UNAVAILABLE\|overloaded" _temp/api_error_${ARTICLE_COUNT}.log 2>/dev/null; then
+                  echo "🔄 API overloaded (503), waiting 30s before retry..."
+                  sleep 30
+                elif grep -q "429\|quota" _temp/api_error_${ARTICLE_COUNT}.log 2>/dev/null; then
+                  echo "🚫 API quota exceeded, stopping generation"
+                  break 2
+                fi
+              fi
+            done
+            
+            if [ "$GENERATION_SUCCESS" = "true" ]; then
               echo "✅ Article $ARTICLE_COUNT generated"
               
               # Quality check
-              if ! grep -q "---END---" "_temp/article-${ARTICLE_COUNT}.md"; then
+              if ! grep -q -- "---END---" "_temp/article-${ARTICLE_COUNT}.md"; then
                 echo "⚠️ Article $ARTICLE_COUNT may be incomplete (no END marker)"
               fi
               
@@ -129,17 +147,17 @@ jobs:
               CURRENT_DATE="$(date +%Y-%m-%d\ %H:%M:%S\ %z)"
               EXCERPT_TEXT="$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
               
-              # Create Jekyll frontmatter without HEREDOC
-              printf "---\n" > "_posts/$FILENAME"
-              printf "layout: post\n" >> "_posts/$FILENAME"
+              # Create Jekyll frontmatter without HEREDOC (safe printf usage)
+              printf "%s\n" "---" > "_posts/$FILENAME"
+              printf "%s\n" "layout: post" >> "_posts/$FILENAME"
               printf "title: \"%s\"\n" "$TITLE" >> "_posts/$FILENAME"
               printf "date: %s\n" "$CURRENT_DATE" >> "_posts/$FILENAME"
-              printf "categories: [\"AI技術\"]\n" >> "_posts/$FILENAME"
-              printf "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]\n" >> "_posts/$FILENAME"
-              printf "author: \"ALLFORCES編集部\"\n" >> "_posts/$FILENAME"
+              printf "%s\n" 'categories: ["AI技術"]' >> "_posts/$FILENAME"
+              printf "%s\n" 'tags: ["AI", "最新ニュース", "技術動向"]' >> "_posts/$FILENAME"
+              printf "%s\n" 'author: "ALLFORCES編集部"' >> "_posts/$FILENAME"
               printf "excerpt: \"%s\"\n" "$EXCERPT_TEXT" >> "_posts/$FILENAME"
-              printf "reading_time: 8\n" >> "_posts/$FILENAME"
-              printf "---\n\n" >> "_posts/$FILENAME"
+              printf "%s\n" "reading_time: 8" >> "_posts/$FILENAME"
+              printf "%s\n\n" "---" >> "_posts/$FILENAME"
               
               # Add article content (excluding ---END--- marker)
               sed '/---END---/,$d' "_temp/article-${ARTICLE_COUNT}.md" >> "_posts/$FILENAME"
