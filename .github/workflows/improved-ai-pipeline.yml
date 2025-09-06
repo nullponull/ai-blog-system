@@ -88,7 +88,7 @@ jobs:
           echo "📝 Generating professional articles..."
           
           # Extract topics (limit to 3 articles to ensure quality)
-          TOPICS=$(grep -E "^[0-9]+\." _temp/topics.txt | head -3)
+          grep -E "^[0-9]+\." _temp/topics.txt | head -3 > _temp/selected_topics.txt
           
           ARTICLE_COUNT=0
           while IFS= read -r topic_line; do
@@ -156,7 +156,7 @@ EOF
               echo "❌ Failed to generate article $ARTICLE_COUNT"
             fi
             
-          done <<< "$TOPICS"
+          done < _temp/selected_topics.txt
           
           echo "📊 Generated $ARTICLE_COUNT articles"
 
