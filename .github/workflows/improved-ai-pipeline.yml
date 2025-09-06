@@ -124,29 +124,22 @@ jobs:
                 echo "✂️ Trimmed to: $TITLE"
               fi
               
-              # Save in Jekyll format
+              # Save in Jekyll format using printf (HEREDOC-free)
               FILENAME="$(date +%Y-%m-%d)-${ARTICLE_COUNT}-$(date +%H%M).md"
               CURRENT_DATE="$(date +%Y-%m-%d\ %H:%M:%S\ %z)"
               EXCERPT_TEXT="$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
               
-              cat > "_posts/$FILENAME" << 'EOF'
----
-layout: post
-title: "TITLE_PLACEHOLDER"
-date: DATE_PLACEHOLDER
-categories: ["AI技術"]
-tags: ["AI", "最新ニュース", "技術動向"]
-author: "ALLFORCES編集部"
-excerpt: "EXCERPT_PLACEHOLDER"
-reading_time: 8
----
-
-EOF
-              
-              # Replace placeholders
-              sed -i "s/TITLE_PLACEHOLDER/$TITLE/g" "_posts/$FILENAME"
-              sed -i "s/DATE_PLACEHOLDER/$CURRENT_DATE/g" "_posts/$FILENAME"
-              sed -i "s/EXCERPT_PLACEHOLDER/$EXCERPT_TEXT/g" "_posts/$FILENAME"
+              # Create Jekyll frontmatter without HEREDOC
+              printf "---\n" > "_posts/$FILENAME"
+              printf "layout: post\n" >> "_posts/$FILENAME"
+              printf "title: \"%s\"\n" "$TITLE" >> "_posts/$FILENAME"
+              printf "date: %s\n" "$CURRENT_DATE" >> "_posts/$FILENAME"
+              printf "categories: [\"AI技術\"]\n" >> "_posts/$FILENAME"
+              printf "tags: [\"AI\", \"最新ニュース\", \"技術動向\"]\n" >> "_posts/$FILENAME"
+              printf "author: \"ALLFORCES編集部\"\n" >> "_posts/$FILENAME"
+              printf "excerpt: \"%s\"\n" "$EXCERPT_TEXT" >> "_posts/$FILENAME"
+              printf "reading_time: 8\n" >> "_posts/$FILENAME"
+              printf "---\n\n" >> "_posts/$FILENAME"
               
               # Add article content (excluding ---END--- marker)
               sed '/---END---/,$d' "_temp/article-${ARTICLE_COUNT}.md" >> "_posts/$FILENAME"
