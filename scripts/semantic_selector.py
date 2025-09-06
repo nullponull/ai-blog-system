@@ -72,8 +72,8 @@ def main():
                         max_similarity = similarity
                         best_match = existing_title
         
-        # Adjusted threshold for better quality control
-        is_duplicate = max_similarity > 0.70
+        # Adjusted threshold for better quality control (more lenient)
+        is_duplicate = max_similarity > 0.85
         
         if not is_duplicate:
             final_name = os.path.basename(filepath).replace('temp-', '')
@@ -122,7 +122,7 @@ def simple_fallback():
         title_words = set(word.lower() for word in title.split()[:3] if len(word) > 2)
         overlap = len(title_words.intersection(existing_keywords))
         
-        is_duplicate = overlap >= 2  # If 2+ keywords match existing titles
+        is_duplicate = overlap >= 3  # If 3+ keywords match existing titles (more lenient)
         
         if not is_duplicate:
             final_name = os.path.basename(filepath).replace('temp-', '')
