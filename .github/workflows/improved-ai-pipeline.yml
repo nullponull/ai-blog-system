@@ -126,20 +126,27 @@ jobs:
               
               # Save in Jekyll format
               FILENAME="$(date +%Y-%m-%d)-${ARTICLE_COUNT}-$(date +%H%M).md"
+              CURRENT_DATE="$(date +%Y-%m-%d\ %H:%M:%S\ %z)"
+              EXCERPT_TEXT="$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
               
-              cat > "_posts/$FILENAME" << EOF
+              cat > "_posts/$FILENAME" << 'EOF'
 ---
 layout: post
-title: "$TITLE"
-date: $(date +%Y-%m-%d\ %H:%M:%S\ %z)
+title: "TITLE_PLACEHOLDER"
+date: DATE_PLACEHOLDER
 categories: ["AI技術"]
 tags: ["AI", "最新ニュース", "技術動向"]
 author: "ALLFORCES編集部"
-excerpt: "$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
+excerpt: "EXCERPT_PLACEHOLDER"
 reading_time: 8
 ---
 
 EOF
+              
+              # Replace placeholders
+              sed -i "s/TITLE_PLACEHOLDER/$TITLE/g" "_posts/$FILENAME"
+              sed -i "s/DATE_PLACEHOLDER/$CURRENT_DATE/g" "_posts/$FILENAME"
+              sed -i "s/EXCERPT_PLACEHOLDER/$EXCERPT_TEXT/g" "_posts/$FILENAME"
               
               # Add article content (excluding ---END--- marker)
               sed '/---END---/,$d' "_temp/article-${ARTICLE_COUNT}.md" >> "_posts/$FILENAME"
