@@ -2,8 +2,8 @@
 layout: post
 title: "Google Geminiへの「2.5 Flash Image」統合"
 date: 2025-08-29 11:34:53 +0000
-categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["技術解説"]
+tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8
