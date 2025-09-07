@@ -50,12 +50,12 @@ hide_breadcrumbs: true
         <a href="/archive" class="section-link">すべて見る →</a>
     </div>
     
-    <div class="featured-grid">
-        <!-- Main Featured Article -->
+    <div class="featured-container">
         {% if site.posts.size > 0 %}
-        <article class="featured-main">
+        <!-- Main Featured Article -->
+        <article class="featured-main-card">
             {% assign featured_post = site.posts.first %}
-            <div class="article-image">
+            <div class="featured-main-icon">
                 {%- if featured_post.categories and featured_post.categories.size > 0 -%}
                     {%- assign category = featured_post.categories.first -%}
                     {%- assign found_icon = false -%}
@@ -71,44 +71,53 @@ hide_breadcrumbs: true
                     🤖
                 {%- endif -%}
             </div>
-            <div class="article-content">
-                <div class="article-meta">
+            
+            <div class="featured-main-content">
+                <div class="featured-main-meta">
                     {% if featured_post.categories and featured_post.categories.size > 0 %}
-                    <span class="article-category">
+                    <span class="featured-category-badge">
                         {{ featured_post.categories.first }}
                     </span>
                     {% endif %}
-                    <span class="article-date">
-                        📅 {{ featured_post.date | date: "%Y年%m月%d日" }}
-                    </span>
-                    {% if featured_post.reading_time %}
-                    <span class="article-reading-time">
-                        📖 {{ featured_post.reading_time }}分
-                    </span>
-                    {% endif %}
+                    <div class="featured-meta-items">
+                        <time class="featured-date" datetime="{{ featured_post.date | date_to_xmlschema }}">
+                            {{ featured_post.date | date: "%Y年%m月%d日" }}
+                        </time>
+                        {% if featured_post.reading_time %}
+                        <span class="featured-reading-time">
+                            📖 {{ featured_post.reading_time }}分
+                        </span>
+                        {% endif %}
+                    </div>
                 </div>
                 
-                <h3 class="article-title">
+                <h3 class="featured-main-title">
                     <a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
                 </h3>
                 
                 {% if featured_post.excerpt %}
-                <p class="article-excerpt">{{ featured_post.excerpt | strip_html | truncate: 200 }}</p>
+                <div class="featured-main-excerpt">
+                    {{ featured_post.excerpt | strip_html | truncate: 180 }}
+                </div>
                 {% endif %}
                 
-                <div class="article-footer">
-                    <div class="article-author">
-                        👤 {{ featured_post.author | default: site.author }}
+                <div class="featured-main-footer">
+                    <div class="featured-author">
+                        <span class="author-icon">👤</span>
+                        {{ featured_post.author | default: site.author }}
                     </div>
+                    <a href="{{ featured_post.url | relative_url }}" class="featured-read-more">
+                        続きを読む →
+                    </a>
                 </div>
             </div>
         </article>
         
         <!-- Secondary Featured Articles -->
-        <div class="featured-secondary">
+        <div class="featured-secondary-grid">
             {% for post in site.posts offset:1 limit:3 %}
-            <article class="article-card small">
-                <div class="article-image small">
+            <article class="featured-secondary-card">
+                <div class="featured-secondary-icon">
                     {%- if post.categories and post.categories.size > 0 -%}
                         {%- assign category = post.categories.first -%}
                         {%- assign found_icon = false -%}
@@ -124,22 +133,27 @@ hide_breadcrumbs: true
                         🤖
                     {%- endif -%}
                 </div>
-                <div class="article-content small">
-                    <div class="article-meta">
+                
+                <div class="featured-secondary-content">
+                    <div class="featured-secondary-meta">
                         {% if post.categories and post.categories.size > 0 %}
-                        <span class="article-category">
+                        <span class="secondary-category-badge">
                             {{ post.categories.first }}
                         </span>
                         {% endif %}
-                        <span class="article-date">{{ post.date | date: "%m/%d" }}</span>
+                        <time class="secondary-date" datetime="{{ post.date | date_to_xmlschema }}">
+                            {{ post.date | date: "%m/%d" }}
+                        </time>
                     </div>
                     
-                    <h4 class="article-title small">
+                    <h4 class="featured-secondary-title">
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                     </h4>
                     
                     {% if post.excerpt %}
-                    <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                    <div class="featured-secondary-excerpt">
+                        {{ post.excerpt | strip_html | truncate: 80 }}
+                    </div>
                     {% endif %}
                 </div>
             </article>
