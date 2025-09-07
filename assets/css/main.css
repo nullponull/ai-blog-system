@@ -391,10 +391,10 @@ input, button, textarea, select {
 }
 
 .corporate-link {
-  background: var(--brand-primary) !important;
-  color: var(--color-neutral-0) !important;
-  font-weight: var(--font-weight-semibold) !important;
-  box-shadow: var(--elevation-100);
+    background: #0052cc70 !important;
+    color: var(--color-neutral-0) !important;
+    font-weight: var(--font-weight-semibold) !important;
+    box-shadow: var(--elevation-100);
 }
 
 .corporate-link:hover {
@@ -1508,7 +1508,7 @@ a:focus {
     display: inline-flex;
     align-items: center;
     padding: var(--space-1) var(--space-3);
-    background: var(--brand-primary);
+    background: #0052cc2b;
     color: var(--surface-default);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-semibold);
@@ -1579,7 +1579,7 @@ a:focus {
 
 .featured-read-more {
     padding: var(--space-2) var(--space-4);
-    background: var(--brand-primary);
+    background: #0052cc1a;
     color: var(--surface-default);
     text-decoration: none;
     font-size: var(--font-size-sm);
@@ -2525,7 +2525,7 @@ a:focus {
     text-align: center;
     margin-bottom: var(--space-16);
     padding: var(--space-16) var(--space-8);
-    background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-primary-pressed) 100%);
+    background: linear-gradient(135deg, #0052cc45 0%, #0b36810f 100%);
     color: var(--surface-default);
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-medium);
@@ -2712,7 +2712,7 @@ a:focus {
 }
 
 .article-date {
-    background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-hover));
+    background: linear-gradient(135deg, #0052cc52, #0747a642);
     color: var(--surface-default);
     padding: var(--space-6);
     display: flex;
@@ -2721,7 +2721,7 @@ a:focus {
     justify-content: center;
     min-width: 100px;
     text-align: center;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .article-date .day {
