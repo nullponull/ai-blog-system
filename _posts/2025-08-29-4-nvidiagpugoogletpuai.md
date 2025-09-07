@@ -2,8 +2,8 @@
 layout: post
 title: "NVIDIA GPUやGoogle TPUなどAIチップの進化"
 date: 2025-08-29 10:03:59 +0000
-categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["技術解説"]
+tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "NVIDIA"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8

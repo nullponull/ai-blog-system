@@ -2,8 +2,8 @@
 layout: post
 title: "Disney等Midjourney著作権提訴"
 date: 2025-08-29 14:55:13 +0000
-categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["技術解説"]
+tags: ["AI", "最新ニュース", "技術動向", "投資", "データ", "生成AI"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8

@@ -24,6 +24,64 @@ def extract_title(filepath):
         print(f'Error reading {filepath}: {e}')
     return ''
 
+def extract_date(filepath):
+    """Extract date from markdown file"""
+    try:
+        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                if line.startswith('date:'):
+                    date_str = line.replace('date:', '').strip()
+                    return date_str.split()[0]  # Get YYYY-MM-DD part
+    except Exception as e:
+        print(f'Error reading date from {filepath}: {e}')
+    return ''
+
+def slugify(title):
+    """Convert title to URL-friendly slug"""
+    import re
+    import unicodedata
+    
+    # Normalize unicode characters
+    title = unicodedata.normalize('NFKD', title)
+    
+    # For Japanese text, use romaji conversion or keep essential characters
+    # Replace common Japanese AI terms with English equivalents
+    title = re.sub(r'人工知能|AI技術', 'ai', title, flags=re.IGNORECASE)
+    title = re.sub(r'投資|市場', 'market', title, flags=re.IGNORECASE)
+    title = re.sub(r'技術', 'tech', title, flags=re.IGNORECASE)
+    title = re.sub(r'企業', 'company', title, flags=re.IGNORECASE)
+    title = re.sub(r'分析', 'analysis', title, flags=re.IGNORECASE)
+    title = re.sub(r'最新', 'latest', title, flags=re.IGNORECASE)
+    
+    # Keep alphanumeric characters, spaces, and hyphens only
+    slug = re.sub(r'[^\w\s-]', '', title)
+    # Replace spaces with hyphens and lowercase
+    slug = re.sub(r'[-\s]+', '-', slug).strip('-').lower()
+    # Limit length and ensure it's not empty
+    if not slug or len(slug.replace('-', '')) < 2:
+        return 'ai-article'
+    return slug[:50]  # Limit to 50 characters
+
+def generate_semantic_filename(filepath):
+    """Generate semantic filename based on article title and date"""
+    title = extract_title(filepath)
+    date = extract_date(filepath)
+    
+    if not date:
+        from datetime import datetime
+        date = datetime.now().strftime('%Y-%m-%d')
+    
+    if not title:
+        title = 'AI Article'
+    
+    slug = slugify(title)
+    # Extract topic number from original temp filename for uniqueness
+    import re
+    match = re.search(r'-(\d+)-\d+\.md$', filepath)
+    topic_num = match.group(1) if match else '1'
+    
+    return f'{date}-{topic_num}-{slug}.md'
+
 def main():
     """Main semantic selector function"""
     print('🧠 Loading multilingual sentence transformer model...')
@@ -76,7 +134,7 @@ def main():
         is_duplicate = max_similarity > 0.85
         
         if not is_duplicate:
-            final_name = os.path.basename(filepath).replace('temp-', '')
+            final_name = generate_semantic_filename(filepath)
             try:
                 os.rename(filepath, f'_posts/{final_name}')
                 print(f'✅ Published: {final_name}')
@@ -125,7 +183,7 @@ def simple_fallback():
         is_duplicate = overlap >= 3  # If 3+ keywords match existing titles (more lenient)
         
         if not is_duplicate:
-            final_name = os.path.basename(filepath).replace('temp-', '')
+            final_name = generate_semantic_filename(filepath)
             try:
                 os.rename(filepath, f'_posts/{final_name}')
                 print(f'✅ Published: {final_name}')

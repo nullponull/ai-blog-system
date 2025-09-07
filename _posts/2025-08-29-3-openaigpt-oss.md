@@ -2,8 +2,8 @@
 layout: post
 title: "OpenAI gpt-ossリリース"
 date: 2025-08-29 08:40:49 +0000
-categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["技術解説"]
+tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Meta"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8

@@ -2,8 +2,8 @@
 layout: post
 title: "ELYZAとKDDI業務提携"
 date: 2025-08-29 07:10:35 +0000
-categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["技術解説"]
+tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Meta"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8

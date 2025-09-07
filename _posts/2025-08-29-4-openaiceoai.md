@@ -2,8 +2,8 @@
 layout: post
 title: "アルトマンCEO AIバブル警告"
 date: 2025-08-29 03:44:13 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["投資分析"]
+tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Meta"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8
