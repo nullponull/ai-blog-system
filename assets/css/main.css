@@ -47,6 +47,36 @@
   --color-neutral-900: #253858;
   --color-neutral-1000: #091e42;
   
+  /* High Contrast Semantic Color System */
+  --text-default: var(--color-neutral-1000);      /* Highest contrast for body text */
+  --text-subtle: var(--color-neutral-700);        /* Medium contrast for secondary text */
+  --text-muted: var(--color-neutral-600);         /* Low contrast for hints and labels */
+  --text-disabled: var(--color-neutral-400);      /* Disabled state text */
+  --text-inverse: var(--color-neutral-0);         /* White text on dark backgrounds */
+  
+  --surface-default: var(--color-neutral-0);      /* Main content backgrounds */
+  --surface-raised: var(--color-neutral-100);     /* Card and elevated surfaces */
+  --surface-sunken: var(--color-neutral-200);     /* Input fields, code blocks */
+  --surface-overlay: rgba(9, 30, 66, 0.8);       /* Modal overlays */
+  
+  --border-default: var(--color-neutral-300);     /* Standard borders */
+  --border-subtle: var(--color-neutral-200);      /* Subtle dividers */
+  --border-strong: var(--color-neutral-400);      /* Emphasis borders */
+  --border-inverse: var(--color-neutral-0);       /* Light borders on dark backgrounds */
+  
+  --link-color: var(--brand-primary);
+  --link-hover-color: var(--brand-primary-hover);
+  --link-visited-color: var(--brand-accent-purple);
+  
+  --focus-ring: var(--brand-primary-light);
+  --focus-ring-offset: var(--color-neutral-0);
+  
+  /* Shadow System - High Contrast */
+  --shadow-small: 0 1px 3px rgba(9, 30, 66, 0.2), 0 0 1px rgba(9, 30, 66, 0.1);
+  --shadow-medium: 0 4px 8px rgba(9, 30, 66, 0.15), 0 0 1px rgba(9, 30, 66, 0.1);
+  --shadow-large: 0 8px 16px rgba(9, 30, 66, 0.15), 0 0 1px rgba(9, 30, 66, 0.1);
+  --shadow-extra-large: 0 12px 24px rgba(9, 30, 66, 0.15), 0 0 1px rgba(9, 30, 66, 0.1);
+  
   /* Legacy support - mapping to new colors */
   --primary-color: var(--brand-primary);
   --primary-dark: var(--brand-primary-hover);
@@ -189,8 +219,8 @@ body {
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-relaxed);
-  color: var(--color-neutral-800);
-  background-color: var(--color-neutral-100);
+  color: var(--text-default);
+  background-color: var(--surface-raised);
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -1296,6 +1326,107 @@ input, button, textarea, select {
 
 .search-button:active {
     transform: translateY(0);
+}
+
+/* ============================================
+   ACCESSIBILITY & CONTRAST IMPROVEMENTS
+   ============================================ */
+
+/* High contrast text and backgrounds */
+.article-meta,
+.post-meta,
+.featured-meta,
+.related-post-meta,
+.category-stats .stat {
+  color: var(--text-subtle) !important;
+  font-weight: var(--font-weight-medium);
+}
+
+/* Ensure sufficient contrast for links */
+a {
+  color: var(--link-color);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+a:focus {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Better contrast for muted text */
+.text-muted,
+.article-excerpt,
+.post-excerpt,
+.related-post-excerpt {
+  color: var(--text-subtle) !important;
+}
+
+/* Card backgrounds for better readability */
+.article-card,
+.featured-main-card,
+.featured-secondary-card,
+.related-post,
+.featured-post {
+  background: var(--surface-default) !important;
+  border: 1px solid var(--border-subtle);
+}
+
+/* Better visibility for category badges */
+.featured-category-badge,
+.secondary-category-badge,
+.category-badge {
+  background: var(--brand-primary) !important;
+  color: var(--text-inverse) !important;
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Improved button contrast */
+.featured-read-more,
+.btn-primary {
+  background: var(--brand-primary) !important;
+  color: var(--text-inverse) !important;
+  font-weight: var(--font-weight-medium);
+  border: 1px solid var(--brand-primary);
+}
+
+.featured-read-more:hover,
+.btn-primary:hover {
+  background: var(--brand-primary-hover) !important;
+  border-color: var(--brand-primary-hover);
+}
+
+/* Navigation improvements */
+.site-nav a {
+  color: var(--text-default) !important;
+  font-weight: var(--font-weight-medium);
+}
+
+.site-nav a:hover {
+  color: var(--brand-primary) !important;
+}
+
+/* Section titles with better contrast */
+.section-title {
+  color: var(--text-default) !important;
+  font-weight: var(--font-weight-bold);
+}
+
+/* Footer text improvements */
+.footer-section {
+  color: var(--text-default) !important;
+}
+
+.footer-section a {
+  color: var(--link-color) !important;
+}
+
+.footer-section a:hover {
+  color: var(--link-hover-color) !important;
 }
 
 /* ===== Modern Section System ===== */
