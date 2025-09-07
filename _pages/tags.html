@@ -15,17 +15,28 @@ description: "記事に付けられたタグ一覧から、興味のあるトピ
     <div class="tag-cloud-section">
         <h2 class="section-title">タグクラウド</h2>
         <div class="tag-cloud">
-            {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' %}
-            {% assign sorted_tags = all_tags | group_by: 'name' | sort: 'size' | reverse %}
+            {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+            {% assign tag_data = '' %}
             
-            {% for tag_group in sorted_tags %}
-                {% assign tag_name = tag_group.items.first %}
-                {% assign tag_count = tag_group.size %}
-                {% if tag_name != '' %}
-                <a href="#tag-{{ tag_name | slugify }}" class="tag-cloud-item" data-count="{{ tag_count }}">
-                    {{ tag_name }}
-                    <span class="tag-count">({{ tag_count }})</span>
-                </a>
+            {% for tag in all_tags %}
+                {% if tag != '' %}
+                    {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
+                    {% assign tag_count = tagged_posts.size %}
+                    {% assign tag_entry = tag_count | prepend: '000' | slice: -3, 3 | append: '|' | append: tag %}
+                    {% assign tag_data = tag_data | append: tag_entry | append: ',' %}
+                {% endif %}
+            {% endfor %}
+            
+            {% assign sorted_tag_data = tag_data | split: ',' | sort | reverse %}
+            {% for tag_entry in sorted_tag_data %}
+                {% if tag_entry != '' %}
+                    {% assign parts = tag_entry | split: '|' %}
+                    {% assign tag_count = parts[0] | plus: 0 %}
+                    {% assign tag = parts[1] %}
+                    <a href="#tag-{{ tag | slugify }}" class="tag-cloud-item" data-count="{{ tag_count }}">
+                        {{ tag }}
+                        <span class="tag-count">({{ tag_count }})</span>
+                    </a>
                 {% endif %}
             {% endfor %}
         </div>
@@ -162,10 +173,14 @@ description: "記事に付けられたタグ一覧から、興味のあるトピ
     box-shadow: var(--shadow-md);
 }
 
-.tag-cloud-item[data-count="1"] { font-size: 0.9rem; }
-.tag-cloud-item[data-count="2"], .tag-cloud-item[data-count="3"] { font-size: 1rem; }
-.tag-cloud-item[data-count="4"], .tag-cloud-item[data-count="5"] { font-size: 1.1rem; }
-.tag-cloud-item[data-count="6"], .tag-cloud-item[data-count="7"], .tag-cloud-item[data-count="8"] { font-size: 1.2rem; }
+/* Tag sizes based on usage frequency */
+.tag-cloud-item { font-size: 0.9rem; } /* Default for low usage tags (1-5) */
+.tag-cloud-item[data-count="6"], .tag-cloud-item[data-count="7"], .tag-cloud-item[data-count="8"], .tag-cloud-item[data-count="9"], .tag-cloud-item[data-count="10"] { font-size: 1rem; }
+.tag-cloud-item[data-count="11"], .tag-cloud-item[data-count="12"], .tag-cloud-item[data-count="13"], .tag-cloud-item[data-count="14"], .tag-cloud-item[data-count="15"] { font-size: 1.1rem; }
+/* Medium usage tags (20-50) */
+.tag-cloud-item[data-count^="2"], .tag-cloud-item[data-count^="3"], .tag-cloud-item[data-count^="4"] { font-size: 1.2rem; }
+/* High usage tags (50+) */
+.tag-cloud-item[data-count^="5"], .tag-cloud-item[data-count^="6"], .tag-cloud-item[data-count^="7"], .tag-cloud-item[data-count^="8"], .tag-cloud-item[data-count^="9"] { font-size: 1.4rem; font-weight: 700; }
 
 .tag-count {
     font-size: 0.8rem;
