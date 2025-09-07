@@ -47,7 +47,7 @@ layout: default
                     <circle cx="12" cy="12" r="10"></circle>
                     <polyline points="12,6 12,12 16,14"></polyline>
                 </svg>
-                <span aria-label="読了時間">📖 {{ page.reading_time }}分で読めます</span>
+                <span aria-label="読了時間">{{ page.reading_time }}分で読めます</span>
             </div>
             {% endif %}
             
@@ -95,7 +95,6 @@ layout: default
         <!-- Social Share Section -->
         <section class="social-share" aria-labelledby="share-heading">
             <h4 id="share-heading" class="share-heading">
-                <span class="share-icon">🔗</span>
                 この記事をシェア
             </h4>
             <div class="share-buttons" role="group" aria-label="ソーシャルメディアシェアボタン">
@@ -178,7 +177,6 @@ layout: default
 <section class="related-posts" aria-labelledby="related-heading">
     <header class="related-posts-header">
         <h3 id="related-heading" class="related-posts-title">
-            <span class="related-icon">📖</span>
             関連記事
         </h3>
         <p class="related-posts-subtitle">こちらの記事もおすすめです</p>
@@ -215,7 +213,7 @@ layout: default
                     <footer class="related-post-meta">
                         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
                         {% if post.reading_time %}
-                        <span class="related-reading-time">📖 {{ post.reading_time }}分</span>
+                        <span class="related-reading-time">{{ post.reading_time }}分</span>
                         {% endif %}
                         {% if post.tags.size > 0 %}
                         <div class="related-post-tags">
