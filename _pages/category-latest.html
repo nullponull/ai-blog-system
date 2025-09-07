@@ -12,9 +12,9 @@ description: "AI業界の最新ニュース、企業発表、業界動向を専�
         <p>AI業界の最新ニュース、企業発表、業界動向を専門的な視点でお届けします。</p>
         <div class="category-stats">
             {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '最新動向'" %}
-            <span class="stat">📰 {{ category_posts.size }}記事</span>
+            <span class="stat">{{ category_posts.size }}記事</span>
             {% if category_posts.size > 0 %}
-            <span class="stat">📅 最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>
+            <span class="stat">最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>
             {% endif %}
         </div>
     </div>
@@ -28,7 +28,7 @@ description: "AI業界の最新ニュース、企業発表、業界動向を専�
             <div class="featured-content">
                 <div class="featured-meta">
                     <span class="featured-date">{{ featured_post.date | date: "%Y年%m月%d日" }}</span>
-                    <span class="reading-time">📖 {{ featured_post.reading_time | default: "8" }}分</span>
+                    <span class="reading-time">{{ featured_post.reading_time | default: "8" }}分</span>
                 </div>
                 <h3><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h3>
                 <p>{{ featured_post.excerpt | strip_html | truncate: 200 }}</p>
@@ -57,7 +57,7 @@ description: "AI業界の最新ニュース、企業発表、業界動向を専�
                 
                 <div class="article-content">
                     <div class="article-meta">
-                        <span class="reading-time">📖 {{ post.reading_time | default: "8" }}分</span>
+                        <span class="reading-time">{{ post.reading_time | default: "8" }}分</span>
                     </div>
                     
                     <h3 class="article-title">

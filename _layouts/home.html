@@ -44,7 +44,6 @@ hide_breadcrumbs: true
 <section class="featured-section">
     <div class="section-header">
         <h2 class="section-title">
-            <span class="section-icon">⭐</span>
             注目記事
         </h2>
         <a href="/archive" class="section-link">すべて見る →</a>
@@ -85,7 +84,7 @@ hide_breadcrumbs: true
                         </time>
                         {% if featured_post.reading_time %}
                         <span class="featured-reading-time">
-                            📖 {{ featured_post.reading_time }}分
+                            {{ featured_post.reading_time }}分で読める
                         </span>
                         {% endif %}
                     </div>
@@ -103,8 +102,7 @@ hide_breadcrumbs: true
                 
                 <div class="featured-main-footer">
                     <div class="featured-author">
-                        <span class="author-icon">👤</span>
-                        {{ featured_post.author | default: site.author }}
+                        執筆者: {{ featured_post.author | default: site.author }}
                     </div>
                     <a href="{{ featured_post.url | relative_url }}" class="featured-read-more">
                         続きを読む →
@@ -167,7 +165,6 @@ hide_breadcrumbs: true
 <section class="articles-section">
     <div class="section-header">
         <h2 class="section-title">
-            <span class="section-icon">📰</span>
             最新記事
         </h2>
         <a href="/archive" class="section-link">すべて見る →</a>
@@ -208,11 +205,11 @@ hide_breadcrumbs: true
                     </span>
                     {% endif %}
                     <span class="article-date">
-                        📅 {{ post.date | date: "%Y年%m月%d日" }}
+                        {{ post.date | date: "%Y年%m月%d日" }}
                     </span>
                     {% if post.reading_time %}
                     <span class="article-reading-time">
-                        📖 {{ post.reading_time }}分
+                        {{ post.reading_time }}分
                     </span>
                     {% endif %}
                 </div>
@@ -227,7 +224,7 @@ hide_breadcrumbs: true
                 
                 <div class="article-footer">
                     <div class="article-author">
-                        👤 {{ post.author | default: site.author }}
+                        {{ post.author | default: site.author }}
                     </div>
                 </div>
             </div>
@@ -269,7 +266,6 @@ hide_breadcrumbs: true
 <section class="categories-section">
     <div class="section-header">
         <h2 class="section-title">
-            <span class="section-icon">📂</span>
             カテゴリ別記事
         </h2>
     </div>
