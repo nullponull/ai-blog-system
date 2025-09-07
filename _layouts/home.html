@@ -57,17 +57,9 @@ hide_breadcrumbs: true
             <div class="featured-main-icon">
                 {%- if featured_post.categories and featured_post.categories.size > 0 -%}
                     {%- assign category = featured_post.categories.first -%}
-                    {%- assign found_icon = false -%}
-                    {%- for cat in site.content_categories -%}
-                        {%- if cat.name == category -%}
-                            {{- cat.icon -}}
-                            {%- assign found_icon = true -%}
-                            {%- break -%}
-                        {%- endif -%}
-                    {%- endfor -%}
-                    {%- unless found_icon -%}🤖{%- endunless -%}
+                    {% include icon.html category=category class="featured-main-icon-svg" %}
                 {%- else -%}
-                    🤖
+                    {% include icon.html category="" class="featured-main-icon-svg" %}
                 {%- endif -%}
             </div>
             
@@ -118,17 +110,9 @@ hide_breadcrumbs: true
                 <div class="featured-secondary-icon">
                     {%- if post.categories and post.categories.size > 0 -%}
                         {%- assign category = post.categories.first -%}
-                        {%- assign found_icon = false -%}
-                        {%- for cat in site.content_categories -%}
-                            {%- if cat.name == category -%}
-                                {{- cat.icon -}}
-                                {%- assign found_icon = true -%}
-                                {%- break -%}
-                            {%- endif -%}
-                        {%- endfor -%}
-                        {%- unless found_icon -%}🤖{%- endunless -%}
+                        {% include icon.html category=category class="featured-secondary-icon-svg" %}
                     {%- else -%}
-                        🤖
+                        {% include icon.html category="" class="featured-secondary-icon-svg" %}
                     {%- endif -%}
                 </div>
                 
@@ -184,17 +168,9 @@ hide_breadcrumbs: true
             <div class="article-image">
                 {%- if post.categories and post.categories.size > 0 -%}
                     {%- assign category = post.categories.first -%}
-                    {%- assign found_icon = false -%}
-                    {%- for cat in site.content_categories -%}
-                        {%- if cat.name == category -%}
-                            {{- cat.icon -}}
-                            {%- assign found_icon = true -%}
-                            {%- break -%}
-                        {%- endif -%}
-                    {%- endfor -%}
-                    {%- unless found_icon -%}🤖{%- endunless -%}
+                    {% include icon.html category=category class="article-icon-svg" %}
                 {%- else -%}
-                    🤖
+                    {% include icon.html category="" class="article-icon-svg" %}
                 {%- endif -%}
             </div>
             <div class="article-content">
@@ -276,7 +252,7 @@ hide_breadcrumbs: true
         {% if category_posts.size > 0 %}
         <div class="category-card">
             <div class="category-header">
-                <div class="category-icon-large">{{ category.icon }}</div>
+                <div class="category-icon-large">{% include icon.html category=category.name class="category-large-icon-svg" size="32" %}</div>
                 <div class="category-info">
                     <h3 class="category-title">{{ category.name }}</h3>
                     <p class="category-description">{{ category.description }}</p>
