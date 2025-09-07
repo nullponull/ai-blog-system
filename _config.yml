@@ -148,19 +148,19 @@ related_posts_limit: 3
 content_categories:
   - name: "最新動向"
     description: "AI業界の最新ニュースと企業動向"
-    icon: "📈"
+    icon_type: "trend-analysis"
   - name: "技術解説"
     description: "Transformer、GANなどのコア技術解説"
-    icon: "🔬"
+    icon_type: "technology"
   - name: "研究論文"
     description: "NeurIPS、ICMLなどの注目論文レビュー"
-    icon: "📑"
+    icon_type: "research-paper"
   - name: "実装事例"
     description: "ALLFORCESの実際の開発プロジェクト事例"
-    icon: "💻"
+    icon_type: "implementation"
   - name: "業界分析"
     description: "特定業界におけるAI活用動向"
-    icon: "📊"
+    icon_type: "business-analysis"
 
 # Custom variables for AI article generation
 ai_generation:
