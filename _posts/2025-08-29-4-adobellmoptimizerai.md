@@ -3,7 +3,7 @@ layout: post
 title: "Adobe LLM Optimizer発表"
 date: 2025-08-29 08:41:24 +0000
 categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向"]
+tags: ["AI", "最新ニュース", "技術動向", "投資", "技術革新", "クラウド"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
 reading_time: 8

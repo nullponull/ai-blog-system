@@ -245,13 +245,62 @@ jobs:
               CURRENT_DATE="$(date +%Y-%m-%d\ %H:%M:%S\ %z)"
               EXCERPT_TEXT="$(echo "$TOPIC" | cut -c1-100)について詳細に分析します。"
               
+              # Analyze content for appropriate category and tags
+              CONTENT=$(sed '/---END---/,$d' "_temp/raw-article-${topic_number}.md" | head -500 | tr '[:upper:]' '[:lower:]')
+              
+              # Determine category based on content analysis
+              CATEGORY="最新動向"  # default
+              if echo "$CONTENT $TITLE" | grep -E "(投資|市場|資金調達|評価額|roi|億ドル|兆ドル)" >/dev/null; then
+                CATEGORY="投資分析"
+              elif echo "$CONTENT $TITLE" | grep -E "(技術|アーキテクチャ|api|sdk|プログラム|コード|アルゴリズム|モデル|学習)" >/dev/null; then
+                CATEGORY="技術解説"
+              elif echo "$CONTENT $TITLE" | grep -E "(実装|導入|活用|事例|ケーススタディ|展開|適用|運用)" >/dev/null; then
+                CATEGORY="実装事例"
+              elif echo "$CONTENT $TITLE" | grep -E "(研究|論文|学術|実験|データ|結果|検証|分析)" >/dev/null; then
+                CATEGORY="研究論文"
+              fi
+              
+              # Generate tags based on content
+              TAGS='"AI", "最新ニュース", "技術動向"'  # default tags
+              
+              # Add company-specific tags
+              if echo "$CONTENT $TITLE" | grep -i "openai\|gpt\|chatgpt" >/dev/null; then
+                TAGS="${TAGS}, \"OpenAI\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "google\|gemini\|bard\|deepmind" >/dev/null; then
+                TAGS="${TAGS}, \"Google\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "microsoft\|azure\|copilot" >/dev/null; then
+                TAGS="${TAGS}, \"Microsoft\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "meta\|facebook\|llama" >/dev/null; then
+                TAGS="${TAGS}, \"Meta\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "nvidia\|gpu\|cuda" >/dev/null; then
+                TAGS="${TAGS}, \"NVIDIA\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "amazon\|aws\|anthropic\|claude" >/dev/null; then
+                TAGS="${TAGS}, \"Amazon\""
+              fi
+              
+              # Add topic-specific tags
+              if echo "$CONTENT $TITLE" | grep -i "投資\|資金調達\|評価額" >/dev/null; then
+                TAGS="${TAGS}, \"投資\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "chip\|チップ\|gpu\|tpu\|semiconductor" >/dev/null; then
+                TAGS="${TAGS}, \"チップ\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "エージェント\|agent\|自動化" >/dev/null; then
+                TAGS="${TAGS}, \"エージェント\""
+              fi
+              
               # Create temp article with frontmatter
               printf "%s\n" "---" > "_temp/$TEMP_FILENAME"
               printf "%s\n" "layout: post" >> "_temp/$TEMP_FILENAME"
               printf "title: \"%s\"\n" "$TITLE" >> "_temp/$TEMP_FILENAME"
               printf "date: %s\n" "$CURRENT_DATE" >> "_temp/$TEMP_FILENAME"
-              printf "%s\n" 'categories: ["AI技術"]' >> "_temp/$TEMP_FILENAME"
-              printf "%s\n" 'tags: ["AI", "最新ニュース", "技術動向"]' >> "_temp/$TEMP_FILENAME"
+              printf "categories: [\"%s\"]\n" "$CATEGORY" >> "_temp/$TEMP_FILENAME"
+              printf "tags: [%s]\n" "$TAGS" >> "_temp/$TEMP_FILENAME"
               printf "%s\n" 'author: "ALLFORCES編集部"' >> "_temp/$TEMP_FILENAME"
               printf "excerpt: \"%s\"\n" "$EXCERPT_TEXT" >> "_temp/$TEMP_FILENAME"
               printf "%s\n" "reading_time: 8" >> "_temp/$TEMP_FILENAME"
@@ -283,6 +332,51 @@ jobs:
         run: |
           echo "🧠 Running semantic duplicate detection..."
           
+          # Helper function to generate semantic filename
+          generate_semantic_filename() {
+            local temp_file="$1"
+            
+            # Extract title and date from markdown file
+            local title=$(grep '^title:' "$temp_file" | sed 's/^title: *//' | sed 's/^"//' | sed 's/"$//' | head -1)
+            local date=$(grep '^date:' "$temp_file" | sed 's/^date: *//' | cut -d' ' -f1 | head -1)
+            
+            # Default values if not found
+            if [ -z "$title" ]; then
+              title="AI Article"
+            fi
+            
+            if [ -z "$date" ]; then
+              date=$(date +%Y-%m-%d)
+            fi
+            
+            # Extract topic number from original filename for uniqueness
+            local topic_num=$(basename "$temp_file" | sed 's/.*-\([0-9]\+\)-[0-9]\+\.md$/\1/' | head -c 1)
+            if [ -z "$topic_num" ]; then
+              topic_num="1"
+            fi
+            
+            # Create slug from title (handle Japanese characters better)
+            local slug=$(echo "$title" | \
+              sed 's/人工知能\|AI技術/ai/gi' | \
+              sed 's/投資\|市場/market/gi' | \
+              sed 's/技術/tech/gi' | \
+              sed 's/企業/company/gi' | \
+              sed 's/分析/analysis/gi' | \
+              sed 's/最新/latest/gi' | \
+              tr '[:upper:]' '[:lower:]' | \
+              sed 's/[^a-z0-9]/-/g' | \
+              sed 's/-\+/-/g' | \
+              sed 's/^-\|-$//g' | \
+              cut -c1-50)
+            
+            # Ensure slug is not empty or too short
+            if [ -z "$slug" ] || [ "${#slug}" -lt 2 ]; then
+              slug="ai-article"
+            fi
+            
+            echo "${date}-${topic_num}-${slug}.md"
+          }
+          
           # Run semantic selector to filter duplicates and publish unique articles
           echo "📋 Temp articles available for duplicate checking:"
           ls -la _temp/temp-*.md || echo "No temp articles found!"
@@ -300,7 +394,7 @@ jobs:
               echo "⚠️ All articles were marked as duplicates. Publishing the newest one anyway..."
               NEWEST_TEMP=$(ls -t _temp/temp-*.md 2>/dev/null | head -1)
               if [ -n "$NEWEST_TEMP" ] && [ -f "$NEWEST_TEMP" ]; then
-                final_name=$(basename "$NEWEST_TEMP" | sed 's/^temp-//')
+                final_name=$(generate_semantic_filename "$NEWEST_TEMP")
                 if mv "$NEWEST_TEMP" "_posts/$final_name" 2>/dev/null; then
                   echo "✅ Force-published newest article: $final_name"
                   PUBLISHED_COUNT=1
@@ -314,7 +408,7 @@ jobs:
             FALLBACK_COUNT=0
             for temp_file in _temp/temp-*.md; do
               if [ -f "$temp_file" ]; then
-                final_name=$(basename "$temp_file" | sed 's/^temp-//')
+                final_name=$(generate_semantic_filename "$temp_file")
                 if mv "$temp_file" "_posts/$final_name" 2>/dev/null; then
                   echo "✅ Published: $final_name"
                   FALLBACK_COUNT=$((FALLBACK_COUNT + 1))
