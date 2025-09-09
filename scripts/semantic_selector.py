@@ -37,30 +37,65 @@ def extract_date(filepath):
     return ''
 
 def slugify(title):
-    """Convert title to URL-friendly slug"""
+    """Convert title to URL-friendly slug with improved Japanese handling"""
     import re
     import unicodedata
     
-    # Normalize unicode characters
-    title = unicodedata.normalize('NFKD', title)
+    # Clean the title first
+    title = title.strip().replace('"', '')
     
-    # For Japanese text, use romaji conversion or keep essential characters
-    # Replace common Japanese AI terms with English equivalents
-    title = re.sub(r'人工知能|AI技術', 'ai', title, flags=re.IGNORECASE)
-    title = re.sub(r'投資|市場', 'market', title, flags=re.IGNORECASE)
-    title = re.sub(r'技術', 'tech', title, flags=re.IGNORECASE)
-    title = re.sub(r'企業', 'company', title, flags=re.IGNORECASE)
-    title = re.sub(r'分析', 'analysis', title, flags=re.IGNORECASE)
-    title = re.sub(r'最新', 'latest', title, flags=re.IGNORECASE)
+    # Comprehensive Japanese-to-English mapping for better SEO
+    japanese_mappings = {
+        r'GoogleとMeta.*覇権争い': 'google-meta-ai-competition',
+        r'GPT-5.*衝撃': 'gpt-5-impact',
+        r'NVIDIA.*Blackwell': 'nvidia-blackwell',
+        r'OpenAI.*自社.*チップ': 'openai-custom-chip',
+        r'Microsoft.*AI.*投資': 'microsoft-ai-investment',
+        r'クラウド.*覇権': 'cloud-ai-competition',
+        r'重力波検出.*AI': 'gravitational-wave-ai',
+        r'Broadcom.*OpenAI': 'broadcom-openai-deal',
+        
+        # General terms
+        r'人工知能|AI技術|汎用人工知能|AGI': 'ai',
+        r'投資.*分析|市場.*分析': 'investment-analysis',
+        r'技術.*解説|技術.*革新': 'technology-analysis', 
+        r'最新.*動向|最新.*ニュース': 'latest-trends',
+        r'実装.*事例': 'implementation-case',
+        r'研究.*論文': 'research-paper',
+        r'覇権.*争い|競争.*激化': 'market-competition',
+        r'新時代.*拓く': 'new-era',
+        r'未来.*加速': 'future-acceleration',
+        
+        # Company and product names (keep in romaji)
+        r'マイクロソフト': 'microsoft',
+        r'グーグル': 'google',
+        r'アマゾン': 'amazon',
+        r'メタ': 'meta',
+        r'エヌビディア': 'nvidia',
+        r'アップル': 'apple',
+        r'オープンAI': 'openai',
+        r'ブロードコム': 'broadcom',
+        r'日立Vantara': 'hitachi-vantara',
+        r'エッジAI': 'edge-ai',
+    }
     
-    # Keep alphanumeric characters, spaces, and hyphens only
-    slug = re.sub(r'[^\w\s-]', '', title)
-    # Replace spaces with hyphens and lowercase
+    # Apply mappings
+    slug = title
+    for pattern, replacement in japanese_mappings.items():
+        slug = re.sub(pattern, replacement, slug, flags=re.IGNORECASE)
+    
+    # Remove remaining Japanese characters and special characters
+    slug = re.sub(r'[^\w\s-]', '', slug)
+    slug = re.sub(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]+', '', slug)  # Remove Japanese chars
+    
+    # Clean up and format
     slug = re.sub(r'[-\s]+', '-', slug).strip('-').lower()
-    # Limit length and ensure it's not empty
-    if not slug or len(slug.replace('-', '')) < 2:
-        return 'ai-article'
-    return slug[:50]  # Limit to 50 characters
+    
+    # Ensure minimum quality
+    if not slug or len(slug.replace('-', '')) < 3:
+        return 'ai-article-update'
+    
+    return slug[:60]  # Increase limit to 60 characters for better descriptiveness
 
 def generate_semantic_filename(filepath):
     """Generate semantic filename based on article title and date"""
@@ -130,8 +165,28 @@ def main():
                         max_similarity = similarity
                         best_match = existing_title
         
-        # Adjusted threshold for better quality control (more lenient)
-        is_duplicate = max_similarity > 0.85
+        # Multiple duplicate detection strategies
+        similarity_duplicate = max_similarity > 0.75
+        
+        # Check for same-day topic duplicates (GPT-5, NVIDIA, etc.)
+        date_today = extract_date(filepath)
+        topic_duplicate = False
+        
+        if date_today:
+            # Extract key topic from title
+            title_lower = title.lower()
+            key_topics = ['gpt-5', 'nvidia', 'google ai', 'microsoft ai', 'openai', 'meta ai']
+            
+            for topic in key_topics:
+                if topic in title_lower:
+                    # Check if we already have this topic today
+                    today_files = glob.glob(f'_posts/{date_today}*{topic.replace(" ", "*")}*.md')
+                    if today_files:
+                        topic_duplicate = True
+                        print(f'⚠️ Same-day topic duplicate detected: {topic} on {date_today}')
+                        break
+        
+        is_duplicate = similarity_duplicate or topic_duplicate
         
         if not is_duplicate:
             final_name = generate_semantic_filename(filepath)
