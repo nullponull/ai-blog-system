@@ -59,7 +59,18 @@ jobs:
           fi
           
           # Simple and reliable topic generation prompt
-          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 以下の要件で、AI業界の最新話題を3個生成してください。【要件】具体的な企業名・製品名・人名を含む、投資家または技術者が関心を持つ内容、30文字以内の簡潔なタイトル形式、番号付きリスト形式で出力。【出力例】1. OpenAI GPT-5、企業向けAPI価格30%削減 2. NVIDIA新チップ、AI処理速度3倍向上 3. Google AI研究、自動運転技術で突破口。【重要】タイトルは30文字以内厳守、具体的な数値・企業名必須、投資判断・技術選定に有用な情報。"
+          # Enhanced topic prompt with diversity focus and recent content filtering
+          RECENT_TITLES=$(find _posts -name "$(date +%Y-%m)*" -exec basename {} \; 2>/dev/null | head -10 | tr '\n' ' ')
+          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 【重要】過去記事との重複を避け、以下の最近のタイトルと異なる新しい話題を生成: $RECENT_TITLES
+          
+【要求】AI業界の最新・独自話題を3個生成。【必須条件】
+1. 異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazon、Apple、Anthropic、中国AI企業、新興企業、規制・政策、業界動向等）
+2. 具体的な企業名・製品名・数値を含む
+3. 30文字以内のタイトル
+4. 投資家・技術者が関心を持つ内容
+5. 番号付きリスト形式
+
+【多様性重視】同じ企業・同じトピック（GPT、NVIDIA等）の重複を避ける。【出力例】1. Anthropic Claude 3.5、コード生成精度40%向上 2. 中国ByteDance、AI動画生成で米国進出 3. EU AI法施行、企業コンプライアンス対応急務"
 
           # Enhanced API call with comprehensive validation
           echo "🔄 Attempting topic generation (with retry)..."
@@ -260,27 +271,45 @@ jobs:
                 CATEGORY="研究論文"
               fi
               
-              # Generate tags based on content
+              # Generate tags based on title and content analysis  
               TAGS='"AI", "最新ニュース", "技術動向"'  # default tags
               
-              # Add company-specific tags
-              if echo "$CONTENT $TITLE" | grep -i "openai\|gpt\|chatgpt" >/dev/null; then
+              # Primary company detection (check title first, then content)
+              PRIMARY_COMPANY=""
+              
+              # Check title first for primary company mention
+              if echo "$TITLE" | grep -i "openai\|gpt-5\|gpt-4\|chatgpt" >/dev/null; then
+                PRIMARY_COMPANY="OpenAI"
+              elif echo "$TITLE" | grep -i "google\|gemini\|deepmind\|グーグル" >/dev/null; then
+                PRIMARY_COMPANY="Google"
+              elif echo "$TITLE" | grep -i "microsoft\|マイクロソフト\|azure\|copilot" >/dev/null; then
+                PRIMARY_COMPANY="Microsoft"
+              elif echo "$TITLE" | grep -i "nvidia\|エヌビディア\|blackwell" >/dev/null; then
+                PRIMARY_COMPANY="NVIDIA"
+              elif echo "$TITLE" | grep -i "meta\|メタ\|facebook\|llama" >/dev/null; then
+                PRIMARY_COMPANY="Meta"
+              elif echo "$TITLE" | grep -i "amazon\|aws\|anthropic\|claude" >/dev/null; then
+                PRIMARY_COMPANY="Amazon"
+              elif echo "$TITLE" | grep -i "broadcom\|ブロードコム" >/dev/null; then
+                PRIMARY_COMPANY="Broadcom"
+              elif echo "$TITLE" | grep -i "apple\|アップル\|siri" >/dev/null; then
+                PRIMARY_COMPANY="Apple"
+              fi
+              
+              # Add primary company tag
+              if [ -n "$PRIMARY_COMPANY" ]; then
+                TAGS="${TAGS}, \"$PRIMARY_COMPANY\""
+              fi
+              
+              # Add secondary companies only if they appear prominently in title or are main focus
+              if echo "$TITLE $CONTENT" | grep -c -i "openai\|gpt" | grep -q "[2-9]" && [ "$PRIMARY_COMPANY" != "OpenAI" ]; then
                 TAGS="${TAGS}, \"OpenAI\""
               fi
-              if echo "$CONTENT $TITLE" | grep -i "google\|gemini\|bard\|deepmind" >/dev/null; then
+              if echo "$TITLE $CONTENT" | grep -c -i "google\|gemini" | grep -q "[2-9]" && [ "$PRIMARY_COMPANY" != "Google" ]; then
                 TAGS="${TAGS}, \"Google\""
               fi
-              if echo "$CONTENT $TITLE" | grep -i "microsoft\|azure\|copilot" >/dev/null; then
+              if echo "$TITLE $CONTENT" | grep -c -i "microsoft\|azure" | grep -q "[2-9]" && [ "$PRIMARY_COMPANY" != "Microsoft" ]; then
                 TAGS="${TAGS}, \"Microsoft\""
-              fi
-              if echo "$CONTENT $TITLE" | grep -i "meta\|facebook\|llama" >/dev/null; then
-                TAGS="${TAGS}, \"Meta\""
-              fi
-              if echo "$CONTENT $TITLE" | grep -i "nvidia\|gpu\|cuda" >/dev/null; then
-                TAGS="${TAGS}, \"NVIDIA\""
-              fi
-              if echo "$CONTENT $TITLE" | grep -i "amazon\|aws\|anthropic\|claude" >/dev/null; then
-                TAGS="${TAGS}, \"Amazon\""
               fi
               
               # Add topic-specific tags
@@ -355,19 +384,40 @@ jobs:
               topic_num="1"
             fi
             
-            # Create slug from title (handle Japanese characters better)
+            # Create slug from title with improved Japanese mapping
             local slug=$(echo "$title" | \
+              # Specific pattern mappings for better SEO
+              sed 's/GoogleとMeta.*覇権争い.*/google-meta-ai-competition/gi' | \
+              sed 's/GPT-5.*衝撃.*/gpt-5-impact/gi' | \
+              sed 's/NVIDIA.*Blackwell.*/nvidia-blackwell/gi' | \
+              sed 's/OpenAI.*自社.*チップ.*/openai-custom-chip/gi' | \
+              sed 's/Microsoft.*AI.*投資.*/microsoft-ai-investment/gi' | \
+              sed 's/クラウド.*覇権.*/cloud-ai-competition/gi' | \
+              sed 's/重力波検出.*AI.*/gravitational-wave-ai/gi' | \
+              sed 's/Broadcom.*OpenAI.*/broadcom-openai-deal/gi' | \
+              # General term replacements
               sed 's/人工知能\|AI技術/ai/gi' | \
               sed 's/投資\|市場/market/gi' | \
               sed 's/技術/tech/gi' | \
               sed 's/企業/company/gi' | \
               sed 's/分析/analysis/gi' | \
               sed 's/最新/latest/gi' | \
+              sed 's/覇権争い\|競争激化/competition/gi' | \
+              sed 's/新時代/new-era/gi' | \
+              sed 's/未来.*加速/future-acceleration/gi' | \
+              # Company name mappings
+              sed 's/マイクロソフト/microsoft/gi' | \
+              sed 's/グーグル/google/gi' | \
+              sed 's/エヌビディア/nvidia/gi' | \
+              sed 's/メタ/meta/gi' | \
+              sed 's/アップル/apple/gi' | \
+              sed 's/ブロードコム/broadcom/gi' | \
+              # Clean up
               tr '[:upper:]' '[:lower:]' | \
               sed 's/[^a-z0-9]/-/g' | \
               sed 's/-\+/-/g' | \
               sed 's/^-\|-$//g' | \
-              cut -c1-50)
+              cut -c1-60)
             
             # Ensure slug is not empty or too short
             if [ -z "$slug" ] || [ "${#slug}" -lt 2 ]; then
