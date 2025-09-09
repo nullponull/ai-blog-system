@@ -61,16 +61,7 @@ jobs:
           # Simple and reliable topic generation prompt
           # Enhanced topic prompt with diversity focus and recent content filtering
           RECENT_TITLES=$(find _posts -name "$(date +%Y-%m)*" -exec basename {} \; 2>/dev/null | head -10 | tr '\n' ' ')
-          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 【重要】過去記事との重複を避け、以下の最近のタイトルと異なる新しい話題を生成: $RECENT_TITLES
-          
-【要求】AI業界の最新・独自話題を3個生成。【必須条件】
-1. 異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazon、Apple、Anthropic、中国AI企業、新興企業、規制・政策、業界動向等）
-2. 具体的な企業名・製品名・数値を含む
-3. 30文字以内のタイトル
-4. 投資家・技術者が関心を持つ内容
-5. 番号付きリスト形式
-
-【多様性重視】同じ企業・同じトピック（GPT、NVIDIA等）の重複を避ける。【出力例】1. Anthropic Claude 3.5、コード生成精度40%向上 2. 中国ByteDance、AI動画生成で米国進出 3. EU AI法施行、企業コンプライアンス対応急務"
+          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 【重要】過去記事との重複を避け、以下の最近のタイトルと異なる新しい話題を生成: $RECENT_TITLES 【要求】AI業界の最新・独自話題を3個生成。【必須条件】1. 異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazon、Apple、Anthropic、中国AI企業、新興企業、規制・政策、業界動向等） 2. 具体的な企業名・製品名・数値を含む 3. 30文字以内のタイトル 4. 投資家・技術者が関心を持つ内容 5. 番号付きリスト形式 【多様性重視】同じ企業・同じトピック（GPT、NVIDIA等）の重複を避ける。【出力例】1. Anthropic Claude 3.5、コード生成精度40%向上 2. 中国ByteDance、AI動画生成で米国進出 3. EU AI法施行、企業コンプライアンス対応急務"
 
           # Enhanced API call with comprehensive validation
           echo "🔄 Attempting topic generation (with retry)..."
