@@ -1,0 +1,58 @@
+name: Article Completion Pipeline
+'on':
+  workflow_dispatch: null
+  schedule:
+  - cron: 0 9 * * *
+jobs:
+  complete-articles:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: 'pip install requests
+
+        mkdir -p _temp scripts'
+    - name: Check for incomplete articles
+      run: "echo \"\U0001F50D Checking for incomplete articles...\"\npython3 scripts/article_completion_checker.py\
+        \ _posts\n\nif [ -f \"_temp/incomplete_articles.txt\" ] && [ -s \"_temp/incomplete_articles.txt\"\
+        \ ]; then\n  echo \"\U0001F4CB Found incomplete articles:\"\n  cat _temp/incomplete_articles.txt\n\
+        \  echo \"INCOMPLETE_FOUND=true\" >> $GITHUB_ENV\nelse\n  echo \"✅ No incomplete\
+        \ articles found\"\n  echo \"INCOMPLETE_FOUND=false\" >> $GITHUB_ENV\nfi"
+    - name: Complete articles
+      if: env.INCOMPLETE_FOUND == 'true'
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: "echo \"\U0001F680 Starting article completion...\"\nexport GEMINI_API_KEY=\"\
+        $GEMINI_API_KEY\"\n\nif [ -z \"$GEMINI_API_KEY\" ]; then\n  echo \"❌ GEMINI_API_KEY\
+        \ is not set\"\n  exit 1\nfi\n\npython3 scripts/article_completer.py\n\necho\
+        \ \"✅ Article completion process finished\""
+    - name: Validate completed articles
+      if: env.INCOMPLETE_FOUND == 'true'
+      run: "echo \"\U0001F50D Re-checking completed articles...\"\npython3 scripts/article_completion_checker.py\
+        \ _posts\n\nif [ -f \"_temp/incomplete_articles.txt\" ] && [ -s \"_temp/incomplete_articles.txt\"\
+        \ ]; then\n  echo \"⚠️ Some articles still incomplete:\"\n  cat _temp/incomplete_articles.txt\n\
+        \  echo \"COMPLETION_SUCCESS=partial\" >> $GITHUB_ENV\nelse\n  echo \"✅ All\
+        \ articles completed successfully\"\n  echo \"COMPLETION_SUCCESS=full\" >>\
+        \ $GITHUB_ENV\nfi"
+    - name: Commit completed articles
+      if: env.INCOMPLETE_FOUND == 'true'
+      run: "git config --global user.name \"github-actions[bot]\"\ngit config --global\
+        \ user.email \"github-actions[bot]@users.noreply.github.com\"\n\nif [ -n \"\
+        $(git status --porcelain _posts/)\" ]; then\n  COMPLETED_COUNT=$(git status\
+        \ --porcelain _posts/ | wc -l)\n  git add _posts/\n  git commit -m \"\U0001F527\
+        \ Complete $COMPLETED_COUNT articles - $(date +%Y-%m-%d)\"\n  \n  if git push;\
+        \ then\n    echo \"✅ Successfully pushed completed articles\"\n  else\n  \
+        \  echo \"❌ Push failed, attempting force push with lease...\"\n    git push\
+        \ --force-with-lease || exit 1\n  fi\nelse\n  echo \"ℹ️ No changes to commit\"\
+        \nfi"

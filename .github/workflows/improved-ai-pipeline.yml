@@ -193,8 +193,8 @@ jobs:
             TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
             echo "📝 Processing topic $topic_number: $TOPIC"
             
-            # Human-like article generation prompt - compressed for YAML compatibility
-            ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. あなたは、AI業界を20年間ウォッチし続けてきた、経験豊富なテクノロジー・アナリストです。シリコンバレーのスタートアップから日本の大企業まで、数百社のAI導入を間近で見てきました。技術の本質を見抜く洞察力と、複雑な技術動向を投資家や技術者にとって使える情報に変換する能力が強みです。あなたは決して完璧ではなく、時には予測を外すこともあり、新しい技術に対して最初は懐疑的になることもあります。しかし、その慎重さが分析に信頼性をもたらしています。【文体指示】親しみやすく専門的。業界の先輩が後輩にアドバイスするような温かみのある語りかけで書いてください。短い文で注意を引き、長い文で詳しく説明するリズムを意識し、読者に直接話しかけるスタイル（あなたも感じているかもしれませんが、正直なところ、個人的には等）を使用してください。【思考プロセス】1.最初の印象を率直に述べる 2.過去の経験と照らし合わせる 3.疑問や懸念を表現 4.複数の視点を検討 5.自分なりの結論に至る【避けること】結論として、留意すべき重要な点は等の常套句、予測されますの多用、完璧すぎる論理構成、箇条書きの多用【記事構成】固定的な概要→詳細分析→市場影響→展望ではなく、自然な流れで：1.印象的な導入（最初の反応、読者への問いかけ）2.背景説明（重要性、経験談）3.核心分析（技術・ビジネス詳細、数値データ）4.実践的示唆（投資家・技術者が何をすべきか）5.開かれた結び（思考を促す問いかけで終わる）【タスク】$TOPICについて上記ペルソナで3000-4000文字の記事を作成。タイトルは30文字以内で好奇心を刺激するもの（衝撃、変える未来等の煽り文句でなく、その真意は？、何が変わるのか？等の思考を促すタイトル）。記事末尾に---END---を必ず記載。【重要：キーワード網羅性要件】記事主題に関連する具体的な技術名、製品名、サービス名、企業名、提携先、国際会議名等をWeb検索結果から可能な限り抽出し、不自然にならない形で本文中に盛り込むこと。特に重要な固有名詞（技術・サービス名、企業・団体名、規格・会議名）は物語の流れを壊さない範囲で積極的に言及し、単なる羅列ではなくそれが物語の中でどのような意味を持つかを簡潔に解説すること。【最終チェック】読者への問いかけ2回以上、個人的見解・経験含有、完璧すぎない構成（人間らしい不完全さ）、親しみやすさの確保、重要キーワードの自然な文脈での網羅。"
+            # Enhanced article generation prompt with completion safeguards
+            ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. あなたは、AI業界を20年間ウォッチし続けてきた、経験豊富なテクノロジー・アナリストです。シリコンバレーのスタートアップから日本の大企業まで、数百社のAI導入を間近で見てきました。技術の本質を見抜く洞察力と、複雑な技術動向を投資家や技術者にとって使える情報に変換する能力が強みです。あなたは決して完璧ではなく、時には予測を外すこともあり、新しい技術に対して最初は懐疑的になることもあります。しかし、その慎重さが分析に信頼性をもたらしています。【文体指示】親しみやすく専門的。業界の先輩が後輩にアドバイスするような温かみのある語りかけで書いてください。短い文で注意を引き、長い文で詳しく説明するリズムを意識し、読者に直接話しかけるスタイル（あなたも感じているかもしれませんが、正直なところ、個人的には等）を使用してください。【思考プロセス】1.最初の印象を率直に述べる 2.過去の経験と照らし合わせる 3.疑問や懸念を表現 4.複数の視点を検討 5.自分なりの結論に至る【避けること】結論として、留意すべき重要な点は等の常套句、予測されますの多用、完璧すぎる論理構成、箇条書きの多用【記事構成】固定的な概要→詳細分析→市場影響→展望ではなく、自然な流れで：1.印象的な導入（最初の反応、読者への問いかけ）2.背景説明（重要性、経験談）3.核心分析（技術・ビジネス詳細、数値データ）4.実践的示唆（投資家・技術者が何をすべきか）5.開かれた結び（思考を促す問いかけで終わる）【完成度保証】記事は必ず完結させること。文章の途中で終わることは絶対に避け、すべての段落が適切な句読点で完結していることを確認してください。特に最後の段落は読者への問いかけと個人的見解で自然に締めくくること。【タスク】$TOPICについて上記ペルソナで3000-4000文字の記事を作成。タイトルは40文字程度で好奇心を刺激するもの（衝撃、変える未来等の煽り文句でなく、その真意は？、何が変わるのか？等の思考を促すタイトル）。タイトルは必ず完全な文として終わらせ、途中で切れることがないよう注意してください。記事末尾に---END---を必ず記載。【重要：キーワード網羅性要件】記事主題に関連する具体的な技術名、製品名、サービス名、企業名、提携先、国際会議名等をWeb検索結果から可能な限り抽出し、不自然にならない形で本文中に盛り込むこと。特に重要な固有名詞（技術・サービス名、企業・団体名、規格・会議名）は物語の流れを壊さない範囲で積極的に言及し、単なる羅列ではなくそれが物語の中でどのような意味を持つかを簡潔に解説すること。【最終チェック】読者への問いかけ2回以上、個人的見解・経験含有、完璧すぎない構成（人間らしい不完全さ）、親しみやすさの確保、重要キーワードの自然な文脈での網羅、記事の完全性（文章が途切れていないこと）。"
 
             # Generate article with improved error handling
             GENERATION_SUCCESS=false
@@ -227,19 +227,64 @@ jobs:
             done
             
             if [ "$GENERATION_SUCCESS" = "true" ]; then
-              # Quality check
-              if ! grep -q -- "---END---" "_temp/raw-article-${topic_number}.md"; then
-                echo "⚠️ Article $topic_number may be incomplete (no END marker)"
+              # Enhanced quality and completion checks
+              ARTICLE_FILE="_temp/raw-article-${topic_number}.md"
+              QUALITY_ISSUES=""
+              
+              # Check for END marker
+              if ! grep -q -- "---END---" "$ARTICLE_FILE"; then
+                echo "⚠️ Article $topic_number missing ---END--- marker"
+                QUALITY_ISSUES="${QUALITY_ISSUES}no_end_marker "
+              fi
+              
+              # Check article length (should be 3000-4000 characters)
+              ARTICLE_LENGTH=$(wc -c < "$ARTICLE_FILE")
+              if [ "$ARTICLE_LENGTH" -lt 2000 ]; then
+                echo "⚠️ Article $topic_number too short: ${ARTICLE_LENGTH} characters"
+                QUALITY_ISSUES="${QUALITY_ISSUES}too_short "
+              fi
+              
+              # Check for incomplete sentences (ending with incomplete words)
+              LAST_LINE=$(tail -n 10 "$ARTICLE_FILE" | grep -v "^---END---" | tail -n 1)
+              if echo "$LAST_LINE" | grep -E "[、]$|[段エとかがてでにはをのもしまたり]$" >/dev/null; then
+                echo "⚠️ Article $topic_number may have incomplete ending: $LAST_LINE"
+                QUALITY_ISSUES="${QUALITY_ISSUES}incomplete_ending "
+              fi
+              
+              # Check for proper conclusion
+              if ! grep -E "(個人的には|あなたはどう|期待してい|考えてい)" "$ARTICLE_FILE" >/dev/null; then
+                echo "⚠️ Article $topic_number may lack personal conclusion"
+                QUALITY_ISSUES="${QUALITY_ISSUES}no_conclusion "
+              fi
+              
+              if [ -n "$QUALITY_ISSUES" ]; then
+                echo "📝 Article $topic_number quality issues: $QUALITY_ISSUES"
+              else
+                echo "✅ Article $topic_number passed quality checks"
               fi
               
               # Title extraction and validation
-              TITLE=$(head -1 "_temp/raw-article-${topic_number}.md" | sed 's/^# *//')
-              TITLE_LENGTH=${#TITLE}
+              RAW_TITLE=$(head -1 "_temp/raw-article-${topic_number}.md" | sed 's/^# *//')
+              TITLE_LENGTH=${#RAW_TITLE}
               
-              if [ $TITLE_LENGTH -gt 30 ]; then
-                echo "⚠️ Title too long ($TITLE_LENGTH chars): $TITLE"
-                TITLE=$(echo "$TITLE" | cut -c1-30)
-                echo "✂️ Trimmed to: $TITLE"
+              # Smart title handling - don't truncate, but warn if too long
+              if [ $TITLE_LENGTH -gt 40 ]; then
+                echo "⚠️ Title very long ($TITLE_LENGTH chars): $RAW_TITLE"
+                # Extract a meaningful title from the raw title without brutal truncation
+                TITLE=$(echo "$RAW_TITLE" | sed 's/：.*/：その真意は？/' | sed 's/、.*/の可能性とは？/' | head -c 40)
+                if [ ${#TITLE} -eq 40 ]; then
+                  TITLE="${TITLE}？"
+                fi
+                echo "✂️ Smartly adjusted to: $TITLE"
+              else
+                TITLE="$RAW_TITLE"
+                echo "✅ Title length OK: $TITLE"
+              fi
+              
+              # Ensure title ends properly (not with broken characters)
+              if echo "$TITLE" | grep -E "[段エとかがてでにはをのもしまたり]$" >/dev/null; then
+                TITLE=$(echo "$TITLE" | sed 's/[段エとかがてでにはをのもしまたり]$/？/')
+                echo "🔧 Fixed broken title ending: $TITLE"
               fi
               
               # Create temp file with Jekyll format for duplicate checking
@@ -457,6 +502,39 @@ jobs:
               fi
             done
             echo "📊 Published $FALLBACK_COUNT articles via fallback method"
+          fi
+
+      # STAGE 2.7: Article Completion Check
+      - name: Check and complete incomplete articles
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "🔍 Checking for incomplete articles..."
+          python3 scripts/article_completion_checker.py _posts
+          
+          if [ -f "_temp/incomplete_articles.txt" ] && [ -s "_temp/incomplete_articles.txt" ]; then
+            echo "📋 Found incomplete articles, attempting completion..."
+            INCOMPLETE_COUNT=$(wc -l < _temp/incomplete_articles.txt)
+            echo "Found $INCOMPLETE_COUNT incomplete articles"
+            
+            if [ "$INCOMPLETE_COUNT" -le 5 ] && [ -n "$GEMINI_API_KEY" ]; then
+              echo "🚀 Attempting automatic completion..."
+              python3 scripts/article_completer.py
+              
+              # Re-check after completion
+              python3 scripts/article_completion_checker.py _posts
+              
+              if [ -f "_temp/incomplete_articles.txt" ] && [ -s "_temp/incomplete_articles.txt" ]; then
+                REMAINING_COUNT=$(wc -l < _temp/incomplete_articles.txt)
+                echo "⚠️ $REMAINING_COUNT articles still incomplete after completion attempt"
+              else
+                echo "✅ All articles completed successfully"
+              fi
+            else
+              echo "⚠️ Too many incomplete articles ($INCOMPLETE_COUNT) or no API key - manual review needed"
+            fi
+          else
+            echo "✅ No incomplete articles found"
           fi
 
       # STAGE 3: Advanced Quality Enhancement
