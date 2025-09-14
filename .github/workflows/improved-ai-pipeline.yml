@@ -61,7 +61,7 @@ jobs:
           # Simple and reliable topic generation prompt
           # Enhanced topic prompt with diversity focus and recent content filtering
           RECENT_TITLES=$(find _posts -name "$(date +%Y-%m)*" -exec basename {} \; 2>/dev/null | head -10 | tr '\n' ' ')
-          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 【重要】過去記事との重複を避け、以下の最近のタイトルと異なる新しい話題を生成: $RECENT_TITLES 【要求】AI業界の最新・独自話題を3個生成。【必須条件】1. 異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazon、Apple、Anthropic、中国AI企業、新興企業、規制・政策、業界動向等） 2. 具体的な企業名・製品名・数値を含む 3. 30文字以内のタイトル 4. 投資家・技術者が関心を持つ内容 5. 番号付きリスト形式 【多様性重視】同じ企業・同じトピック（GPT、NVIDIA等）の重複を避ける。【出力例】1. Anthropic Claude 3.5、コード生成精度40%向上 2. 中国ByteDance、AI動画生成で米国進出 3. EU AI法施行、企業コンプライアンス対応急務"
+          TOPIC_PROMPT="AI業界の最新ニュース$(date '+%Y年%m月%d日')。必ず番号付きリスト形式で3つ生成。形式: 1. [トピック] 2. [トピック] 3. [トピック]。条件: 30文字以内、具体的企業名含む、投資家向け内容、異なる分野から選択。最近の記事と重複避ける: $RECENT_TITLES。例: 1. OpenAI GPT-5を2025年内完了予定 2. Google Gemini Pro性能向上 3. NVIDIA H200量産開始"
 
           # Enhanced API call with comprehensive validation
           echo "🔄 Attempting topic generation (with retry)..."
@@ -126,7 +126,7 @@ jobs:
             echo "🔧 Attempting fallback with simpler prompt..."
             
             # Fallback with simpler prompt
-            SIMPLE_PROMPT="Generate 3 AI industry news topics in this format: 1. Topic 2. Topic 2. Topic. Each topic should be under 30 characters and mention specific companies."
+            SIMPLE_PROMPT="Generate 3 AI topics: 1. OpenAI new model 2. Google AI research 3. Microsoft AI services"
             
             if gemini -m "gemini-2.5-flash" -p "$SIMPLE_PROMPT" > _temp/topics_fallback.txt 2>/dev/null; then
               if [ -s "_temp/topics_fallback.txt" ]; then
