@@ -150,7 +150,7 @@ def complete_article(article_path, api_key):
         # backup_path = article_path + '.backup'
         # with open(backup_path, 'w', encoding='utf-8') as f:
         #     f.write(original_content)
-        print(f"💾 バックアップ作成: {backup_path}")
+        # print(f"💾 バックアップ作成: {backup_path}")
         
         # 補完した記事を保存
         with open(article_path, 'w', encoding='utf-8') as f:
