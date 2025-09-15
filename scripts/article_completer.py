@@ -146,10 +146,10 @@ def complete_article(article_path, api_key):
         # 元の記事と補完部分を結合
         completed_content = frontmatter + '\n\n' + article_body.strip() + '\n\n' + completion
         
-        # バックアップを作成
-        backup_path = article_path + '.backup'
-        with open(backup_path, 'w', encoding='utf-8') as f:
-            f.write(original_content)
+        # バックアップ作成をスキップ（不要）
+        # backup_path = article_path + '.backup'
+        # with open(backup_path, 'w', encoding='utf-8') as f:
+        #     f.write(original_content)
         print(f"💾 バックアップ作成: {backup_path}")
         
         # 補完した記事を保存
@@ -227,7 +227,6 @@ def main():
     
     if success_count > 0:
         print(f"\n🎉 {success_count}個の記事の補完が完了しました！")
-        print("💡 バックアップファイル（.backup）が作成されています")
 
 if __name__ == "__main__":
     main()
