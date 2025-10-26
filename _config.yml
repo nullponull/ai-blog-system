@@ -62,25 +62,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-archives
-
-# Jekyll Archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-    - year
-    - month
-  layouts:
-    category: category
-    tag: tag
-    year: year
-    month: month
-  permalinks:
-    category: '/categories/:name/'
-    tag: '/tags/:name/'
-    year: '/:year/'
-    month: '/:year/:month/'
 
 # Exclude files
 exclude:
