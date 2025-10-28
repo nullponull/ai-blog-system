@@ -50,11 +50,17 @@ defaults:
       author: "AI記事生成システム"
       comments: false
       share: true
+      sitemap:
+        priority: 0.8
+        changefreq: weekly
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
+      sitemap:
+        priority: 0.6
+        changefreq: weekly
 
 # Plugins
 plugins:
@@ -62,6 +68,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+
+# Sitemap settings for better Google Search Console compatibility
+sitemap:
+  priority: 0.7
+  changefreq: daily
+  lastmod: site.time
 
 # Exclude files
 exclude:
