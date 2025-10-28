@@ -2,7 +2,7 @@
 layout: post
 title: "Ant InternationalのAIセキュリティ"
 date: 2025-09-29 04:38:19 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Ant International、金融AIセキュリティ強化について詳細に分析します。"

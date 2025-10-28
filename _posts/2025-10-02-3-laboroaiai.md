@@ -2,7 +2,7 @@
 layout: post
 title: "Laboro.AIが描く産業AIの未来、その真価とは？"
 date: 2025-10-02 13:00:13 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Laboro.AI、産業向け最適化AIソリューションについて詳細に分析します。"

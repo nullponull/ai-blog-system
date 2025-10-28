@@ -2,7 +2,7 @@
 layout: post
 title: "生成AIブームが引き起こす半導体不足の真意とは？業界のベテランが語る未来への洞察"
 date: 2025-10-25 20:33:45 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "生成AIブームで汎用半導体不足について詳細に分析します。"

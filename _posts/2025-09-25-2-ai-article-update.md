@@ -2,7 +2,7 @@
 layout: post
 title: "シンガポール、公務員AI研修義務化の真意とは？国家戦略が示す未来への布石"
 date: 2025-09-25 08:41:18 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "シンガポール、公務員AI研修義務化について詳細に分析します。"

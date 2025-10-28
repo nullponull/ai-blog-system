@@ -2,7 +2,7 @@
 layout: post
 title: "「ソブリンAI」が中東で花開く：その真意と、私たちが学ぶべきこととは？"
 date: 2025-09-19 08:39:15 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "UAE・サウジ、ソブリンAIで先行について詳細に分析します。"

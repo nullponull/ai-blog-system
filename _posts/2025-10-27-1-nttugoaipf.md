@@ -2,7 +2,7 @@
 layout: post
 title: "NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？"
 date: 2025-10-27 13:04:04 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "NTTとugo、AIロボティクスPFを12月提供について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "パナソニックのAI画像生成、自己改善の真意とは？その技術が業界をどう変えるのか？"
 date: 2025-10-21 13:07:29 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "パナソニック、AI画像生成を自動改善について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "IBMの「Co-intelligence」は、AIと人間の関係をどう変えるのか？"
 date: 2025-09-14 04:38:07 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "IBM提唱「Co-intelligence」進展について詳細に分析します。"

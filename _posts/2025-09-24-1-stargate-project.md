@@ -2,7 +2,7 @@
 layout: post
 title: "「Stargate Project」の真意とは？"
 date: 2025-09-24 02:03:31 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI等、5000億ドルAIDC計画について詳細に分析します。"

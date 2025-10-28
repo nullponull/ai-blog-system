@@ -2,7 +2,7 @@
 layout: post
 title: "中国AI、推論モデルで静かに台頭するその真意とは？"
 date: 2025-10-20 16:41:25 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "中国AI、推論モデルで台頭について詳細に分析します。"

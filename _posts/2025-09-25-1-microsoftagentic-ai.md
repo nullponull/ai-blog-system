@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoftが韓国でAgentic AIを加速"
 date: 2025-09-25 08:40:21 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、韓国でAgentic AI導入加速について詳細に分析します。"

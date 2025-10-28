@@ -2,7 +2,7 @@
 layout: post
 title: "「科学AI」は本当に次のフロ�"
 date: 2025-10-05 08:36:08 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Periodic Labs設立、科学AI開発について詳細に分析します。"

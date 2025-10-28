@@ -2,7 +2,7 @@
 layout: post
 title: "FuriosaAIの省エネAI推論サーバ�"
 date: 2025-09-27 08:35:06 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "FuriosaAI、省エネAI推論サーバー発表について詳細に分析します。"

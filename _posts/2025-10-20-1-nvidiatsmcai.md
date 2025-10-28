@@ -2,7 +2,7 @@
 layout: post
 title: "NvidiaとTSMC、米国でのAIチップ製造の真意とは？"
 date: 2025-10-20 02:20:22 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Nvidia、TSMCと提携し米国でAIチップ製造について詳細に分析します。"

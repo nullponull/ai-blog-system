@@ -2,7 +2,7 @@
 layout: post
 title: "韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？"
 date: 2025-09-23 04:37:30 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "韓国、BlackRockとAIハブ化へ協力について詳細に分析します。"

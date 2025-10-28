@@ -2,7 +2,7 @@
 layout: post
 title: "Celesticaの1.6TbEスイッチ発表の�"
 date: 2025-10-10 20:34:29 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Celestica、AI/ML向け1.6TbEスイッチ発表について詳細に分析します。"

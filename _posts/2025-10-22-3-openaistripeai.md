@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？"
 date: 2025-10-22 08:45:46 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI×Stripe、AI決済を小売へについて詳細に分析します。"

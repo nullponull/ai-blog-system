@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIAのAI Boost Programの可能性？"
 date: 2025-10-14 08:40:14 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIA、AIスタートアップ支援「AI Boost Program」開始について詳細に分析します。"

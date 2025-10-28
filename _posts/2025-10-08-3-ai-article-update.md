@@ -2,7 +2,7 @@
 layout: post
 title: "申し訳ありませんがの可能性�"
 date: 2025-10-08 16:41:24 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "TDK、CEATEC 2025でAIチップ展示について詳細に分析します。"

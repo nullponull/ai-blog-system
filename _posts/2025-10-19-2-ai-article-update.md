@@ -2,7 +2,7 @@
 layout: post
 title: "AIエージェントが産業を変革�"
 date: 2025-10-19 16:37:36 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AIエージェント進化、IFS新プラットフォームについて詳細に分析します。"

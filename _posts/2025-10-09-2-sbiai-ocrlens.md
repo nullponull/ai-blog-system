@@ -2,7 +2,7 @@
 layout: post
 title: "SBIの生成AI-OCR「Lens」が示す、バックオフィス変革の真意とは？"
 date: 2025-10-09 04:36:57 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "SBI、生成AI-OCR「Lens」提供開始について詳細に分析します。"

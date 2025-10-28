@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIA、AIチップ市場を牽引する戦略と未来"
 date: 2025-09-08 20:35:54 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIA AIチップ牽引について詳細に分析します。"

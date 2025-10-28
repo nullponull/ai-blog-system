@@ -2,7 +2,7 @@
 layout: post
 title: "Oracle AI Database 26aiの真意は？�"
 date: 2025-10-15 08:43:35 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle、AI DB 26ai発表について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？"
 date: 2025-10-02 08:41:30 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、日本デジタル庁と提携「Gennai」提供について詳細に分析します。"

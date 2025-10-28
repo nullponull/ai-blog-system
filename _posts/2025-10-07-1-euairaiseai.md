@@ -2,7 +2,7 @@
 layout: post
 title: "EUの科学AI戦略「Raise」が目指す、欧州AIの真の自立とは？"
 date: 2025-10-07 04:36:42 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "EU、科学AI戦略を採択「Raise」創設について詳細に分析します。"

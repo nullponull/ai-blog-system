@@ -2,7 +2,7 @@
 layout: post
 title: "NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？"
 date: 2025-09-26 13:00:45 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Nvidia/Telus、加に主権AIハブ設立について詳細に分析します。"

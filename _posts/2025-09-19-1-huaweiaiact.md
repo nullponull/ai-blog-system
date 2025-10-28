@@ -2,7 +2,7 @@
 layout: post
 title: "Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解く"
 date: 2025-09-19 08:38:40 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Huawei、産業AI向け「ACT」発表について詳細に分析します。"

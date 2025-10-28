@@ -2,7 +2,7 @@
 layout: post
 title: "TCSとCEA、Physical AI提携の真意は？"
 date: 2025-09-09 10:32:17 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "TCSとCEA、Physical AI研究で提携について詳細に分析します。"

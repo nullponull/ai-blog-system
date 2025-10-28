@@ -2,7 +2,7 @@
 layout: post
 title: "ANAが「neoAI Chat」を導入、その真意はどこにあるのか？"
 date: 2025-10-21 04:38:20 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "ANA、生成AI「neoAI Chat」導入について詳細に分析します。"

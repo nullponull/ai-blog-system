@@ -2,7 +2,7 @@
 layout: post
 title: "Ant Internationalの「AI SHIELD」は�"
 date: 2025-09-26 20:33:28 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Ant International「AI SHIELD」発表について詳細に分析します。"

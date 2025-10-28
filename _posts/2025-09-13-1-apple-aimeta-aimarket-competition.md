@@ -2,7 +2,7 @@
 layout: post
 title: "Apple AI幹部、Metaへ流出の真意は？ AI覇権争いの新たな局面を読む"
 date: 2025-09-13 16:34:21 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Apple AI幹部流出、Metaへ移籍について詳細に分析します。"

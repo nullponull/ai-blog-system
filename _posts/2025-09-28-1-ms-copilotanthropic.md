@@ -2,7 +2,7 @@
 layout: post
 title: "MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？"
 date: 2025-09-28 04:36:09 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "MS Copilot、Anthropicモデル採用について詳細に分析します。"

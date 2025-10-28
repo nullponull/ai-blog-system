@@ -2,7 +2,7 @@
 layout: post
 title: "量子AIデータセンター開設の�"
 date: 2025-09-16 20:33:49 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OQC、NVIDIA 量子AIデータC開設について詳細に分析します。"

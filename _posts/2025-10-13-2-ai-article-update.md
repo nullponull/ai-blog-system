@@ -2,7 +2,7 @@
 layout: post
 title: "シンガポールが金融AI支援を強化する真意とは？その戦略と未来を読み解く"
 date: 2025-10-13 08:44:04 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "シンガポール、金融AI支援強化について詳細に分析します。"

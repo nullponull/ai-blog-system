@@ -2,7 +2,7 @@
 layout: post
 title: "NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？"
 date: 2025-10-20 16:42:06 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "NTT、軽量LLM「tsuzumi 2」提供について詳細に分析します。"

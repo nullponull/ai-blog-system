@@ -2,7 +2,7 @@
 layout: post
 title: "QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意と？"
 date: 2025-10-28 08:41:52 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm、Nvidia対抗AIチップ「AI200」発表について詳細に分析します。"

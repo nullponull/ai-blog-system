@@ -2,7 +2,7 @@
 layout: post
 title: "Athos Omics AI、新薬ターゲット発見の真意とは？"
 date: 2025-09-21 12:55:02 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Athos Omics AI、新薬ターゲット発見**について詳細に分析します。"

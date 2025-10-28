@@ -2,7 +2,7 @@
 layout: post
 title: "Broadcomの800G AI NIC「Thor Ultra」�"
 date: 2025-10-17 08:42:08 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Broadcom", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Broadcom、800G AI NIC発表について詳細に分析します。"

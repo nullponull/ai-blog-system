@@ -2,7 +2,7 @@
 layout: post
 title: "IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？"
 date: 2025-10-01 13:04:01 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "IBM/AMD、Zyphraに次世代AIインフラについて詳細に分析します。"

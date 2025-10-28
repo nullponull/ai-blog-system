@@ -2,7 +2,7 @@
 layout: post
 title: "AWS Strands Agentsの登場がAIエー�"
 date: 2025-09-15 20:33:28 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AWS Strands Agents 100万DL突破について詳細に分析します。"

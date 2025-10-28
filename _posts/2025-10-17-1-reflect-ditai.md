@@ -2,7 +2,7 @@
 layout: post
 title: "パナソニックの「Reflect-Dit」は画像生成AIの常識をどう変えるのか？"
 date: 2025-10-17 20:34:38 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "パナソニック、画像生成AI「Reflect-Dit」開発について詳細に分析します。"
