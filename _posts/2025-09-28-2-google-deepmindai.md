@@ -2,7 +2,7 @@
 layout: post
 title: "Google DeepMindのロボットAI新モデル、その真意はどこにあるのか？"
 date: 2025-09-28 04:37:02 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、ロボAI新モデルについて詳細に分析します。"

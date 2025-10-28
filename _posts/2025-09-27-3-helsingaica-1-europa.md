@@ -2,7 +2,7 @@
 layout: post
 title: "独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？"
 date: 2025-09-27 04:39:33 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "独Helsing、AI戦闘機CA-1発表について詳細に分析します。"

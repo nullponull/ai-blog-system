@@ -2,7 +2,7 @@
 layout: post
 title: "Huawei CloudのEMS発表の可能性と�"
 date: 2025-09-23 16:38:49 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Huawei Cloud、AI計算/EMS発表について詳細に分析します。"

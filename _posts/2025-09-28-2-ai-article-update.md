@@ -2,7 +2,7 @@
 layout: post
 title: "アクセンチュアの組織再編とA"
 date: 2025-09-28 20:32:33 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Accenture、AIで1.1万人削減、組織再編について詳細に分析します。"

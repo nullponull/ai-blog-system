@@ -2,7 +2,7 @@
 layout: post
 title: "イタリアAI法案可決、その真意はどこにあるのか？"
 date: 2025-10-06 13:01:36 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "イタリアAI法案可決、初のEU整合について詳細に分析します。"

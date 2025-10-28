@@ -2,7 +2,7 @@
 layout: post
 title: "LillyのTuneLab：創薬AIの真価はどこに？"
 date: 2025-09-09 20:34:26 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Lilly、AI創薬プラットフォーム「TuneLab」発表について詳細に分析します。"

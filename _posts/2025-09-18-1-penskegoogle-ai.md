@@ -2,7 +2,7 @@
 layout: post
 title: "「Penske対Google AI訴訟：その真�"
 date: 2025-09-18 08:39:41 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Penske、Google AI提訴: 著作権争い激化について詳細に分析します。"

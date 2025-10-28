@@ -2,7 +2,7 @@
 layout: post
 title: "Google AI検索進化：投資と技術の最前線"
 date: 2025-09-07 20:32:03 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google AI Search進化について詳細に分析します。"

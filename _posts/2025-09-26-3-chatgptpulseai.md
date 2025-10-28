@@ -2,7 +2,7 @@
 layout: post
 title: "ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？"
 date: 2025-09-26 16:41:29 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "ChatGPT新機能「Pulse」自動要約について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？"
 date: 2025-10-25 08:37:05 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "xAI、AIでソフト企業構築「Macrohard」構想について詳細に分析します。"

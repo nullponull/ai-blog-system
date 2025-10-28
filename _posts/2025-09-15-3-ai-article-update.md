@@ -2,7 +2,7 @@
 layout: post
 title: "韓国AI規制、その真意は？ 開発と信頼の狭間で何が変わるの？"
 date: 2025-09-15 20:34:10 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "韓国政府、AI規制を大幅見直しについて詳細に分析します。"

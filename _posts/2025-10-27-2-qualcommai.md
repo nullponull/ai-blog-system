@@ -2,7 +2,7 @@
 layout: post
 title: "Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？"
 date: 2025-10-27 20:34:37 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm、サウジにAIインフラ展開について詳細に分析します。"

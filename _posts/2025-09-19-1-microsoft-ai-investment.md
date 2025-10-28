@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftのノルウェーAI投資、その真意はどこにあるのか？"
 date: 2025-09-19 16:37:53 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、ノルウェーAIに62億ドル投資について詳細に分析します。"

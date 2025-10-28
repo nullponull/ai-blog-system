@@ -2,7 +2,7 @@
 layout: post
 title: "Hon PrecisionのAIチップ生産40%増�"
 date: 2025-10-28 02:08:05 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Hon Precision、AIチップ生産40%増について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "サムスンの「Scientist AI」構想、その真意はどこにあるのか？"
 date: 2025-09-15 16:40:47 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung、新AI「Scientist AI」発表について詳細に分析します。"

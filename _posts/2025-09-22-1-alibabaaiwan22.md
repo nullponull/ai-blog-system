@@ -2,7 +2,7 @@
 layout: post
 title: "AlibabaのAI動画生成「Wan2.2」は�"
 date: 2025-09-22 02:14:28 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Alibaba、AI動画生成「Wan2.2」発表について詳細に分析します。"

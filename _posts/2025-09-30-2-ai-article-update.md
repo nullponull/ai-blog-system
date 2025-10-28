@@ -2,7 +2,7 @@
 layout: post
 title: "セブン-イレブンがAIロボット店舗を導入する真意とは何か？"
 date: 2025-09-30 20:35:02 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "セブン-イレブン、AIロボ店舗導入へについて詳細に分析します。"

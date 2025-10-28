@@ -2,7 +2,7 @@
 layout: post
 title: "韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来"
 date: 2025-09-21 02:15:11 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "韓国AI、世界3位に浮上。LG/Upstage貢献について詳細に分析します。"

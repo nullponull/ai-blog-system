@@ -2,7 +2,7 @@
 layout: post
 title: "カナダの新たなAI戦略、その真意はどこにあるのか？"
 date: 2025-09-27 04:37:58 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "カナダ、新AI戦略策定へについて詳細に分析します。"

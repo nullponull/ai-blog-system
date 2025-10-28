@@ -2,7 +2,7 @@
 layout: post
 title: "Tempus AIの心臓AI、FDA承認の真意は？"
 date: 2025-09-12 04:34:35 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Tempus AI、心臓AIでFDA承認、株価上昇について詳細に分析します。"

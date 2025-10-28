@@ -2,7 +2,7 @@
 layout: post
 title: "「MIRAI Review」が製薬業界にも�"
 date: 2025-10-27 08:43:52 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "木村情報技術、製薬AIサービス開始について詳細に分析します。"

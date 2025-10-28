@@ -2,7 +2,7 @@
 layout: post
 title: "Mistral AIの企業向けAI戦略の可�"
 date: 2025-10-26 04:35:19 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Mistral AI、企業向けAIプラットフォーム発表について詳細に分析します。"

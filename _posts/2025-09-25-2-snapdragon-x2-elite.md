@@ -2,7 +2,7 @@
 layout: post
 title: "Snapdragon X2 Eliteの可能性とは？"
 date: 2025-09-25 13:03:12 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm、Snapdragon X2 Elite発表について詳細に分析します。"

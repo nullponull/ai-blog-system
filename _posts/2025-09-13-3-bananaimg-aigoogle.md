@@ -2,7 +2,7 @@
 layout: post
 title: "BananaImg AIとGoogle新技術統合：�"
 date: 2025-09-13 01:56:29 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "BananaImg AI、Google新技術統合について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "TDKのアナログAIチップ、その真意は？電力問題に挑む日本の技術革新の行方。"
 date: 2025-10-02 20:34:28 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "TDK、アナログAIチップ開発について詳細に分析します。"

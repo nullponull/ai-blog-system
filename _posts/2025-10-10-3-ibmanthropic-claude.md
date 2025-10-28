@@ -2,7 +2,7 @@
 layout: post
 title: "IBMとAnthropic Claudeの統合：そ？"
 date: 2025-10-10 13:01:54 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "IBM、Anthropic Claudeを統合について詳細に分析します。"

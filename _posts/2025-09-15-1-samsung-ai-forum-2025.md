@@ -2,7 +2,7 @@
 layout: post
 title: "Samsung AI Forum 2025：その真意は�"
 date: 2025-09-15 20:32:49 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung AI Forum開催、新AIモデル発表について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？"
 date: 2025-10-06 16:41:07 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "ソニー銀、勘定系に生成AI導入について詳細に分析します。"
