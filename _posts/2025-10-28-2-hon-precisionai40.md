@@ -55,7 +55,7 @@ Hon Precisionの増産は、彼ら単独の成功物語ではない。半導体�
 
 さらに、AIチップの製造には、最先端のリソグラフィ装置（ASML）、エッチング・成膜装置（Applied Materials, Lam Research）、そして検査装置（KLA）など、多岐にわたる製造装置が必要となる。Hon Precisionの増産は、AIチップ全体の生産量が増えることを意味し、これらの上流工程の装置メーカーにも間接的に恩恵が及ぶことになる。
 
-OSAT企業（Outsourced Semiconductor Assembly and Test）であるASE Technologyのような企業も、Hon Precisionの顧客であり、パートナーだ。AIチップのパッケージングと最終テストは、OSAT企業の主要な業務の一つであり、Hon Precisionのハンドラーは彼らの生産ラインに組み込まれている。Hon Precisionの生産能力増強は、OSAT企業がAIチップの需要増に対応するための基盤を強化することにも繋がるんだ。
+OSAT企業（Outsourced Semiconductor Assembly and Test）であるASE Technologyのような企業も、Hon Precisionの顧客であり、パートナーだ。AIチップのパッケージングと最終テストは、OSAT企業の主要な業務の1つであり、Hon Precisionのハンドラーは彼らの生産ラインに組み込まれている。Hon Precisionの生産能力増強は、OSAT企業がAIチップの需要増に対応するための基盤を強化することにも繋がるんだ。
 
 ### 投資家への示唆：Hon Precisionと「縁の下の力持ち」への視点
 
