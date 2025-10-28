@@ -2,7 +2,7 @@
 layout: post
 title: "MicronのHBM3e生産3倍増、その真意とAI時代の半導体戦略とは？"
 date: 2025-09-21 08:35:15 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Micron、HBM3e生産3倍へについて詳細に分析します。"

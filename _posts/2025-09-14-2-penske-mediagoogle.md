@@ -2,7 +2,7 @@
 layout: post
 title: "Penske MediaがGoogleを提訴：その�"
 date: 2025-09-14 08:58:06 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Penske Media、GoogleをAI著作権侵害で提訴について詳細に分析します。"

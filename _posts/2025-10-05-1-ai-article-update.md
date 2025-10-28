@@ -2,7 +2,7 @@
 layout: post
 title: "AIが半導体市場を牽引する未来、その数字の裏に何があるのか？"
 date: 2025-10-05 12:54:16 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "半導体市場、AIで7310億ドルへについて詳細に分析します。"

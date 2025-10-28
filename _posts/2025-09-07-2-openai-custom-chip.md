@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAI、自社AIチップ投資で新時代を拓く"
 date: 2025-09-07 12:53:09 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI自社チップ投資について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIAのAIインフラと物理世界AIの進化�"
 date: 2025-08-31 16:40:47 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "技術革新"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"

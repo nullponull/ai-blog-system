@@ -2,7 +2,7 @@
 layout: post
 title: "CarbonSixの製造AIロボット、その真価はどこにあるのか？"
 date: 2025-09-19 02:05:15 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "CarbonSix、製造AIロボット発表について詳細に分析します。"

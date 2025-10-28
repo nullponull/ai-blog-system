@@ -2,7 +2,7 @@
 layout: post
 title: "NetSuiteのAI ERP「Next」発表の可�"
 date: 2025-10-21 04:37:44 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NetSuite、AI ERP「Next」発表について詳細に分析します。"

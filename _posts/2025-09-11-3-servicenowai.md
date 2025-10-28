@@ -2,7 +2,7 @@
 layout: post
 title: "ServiceNowのAI強化、その"
 date: 2025-09-11 04:37:44 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "ServiceNow、AIプラットフォーム強化について詳細に分析します。"

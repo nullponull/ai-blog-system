@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？"
 date: 2025-10-18 04:34:56 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、AIエージェントとセキュリティ強化について詳細に分析します。"

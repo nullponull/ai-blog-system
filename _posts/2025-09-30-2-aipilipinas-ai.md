@@ -2,7 +2,7 @@
 layout: post
 title: "フィリピン国産AI「Pilipinas AI�"
 date: 2025-09-30 02:01:44 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "フィリピン国産AI「Pilipinas AI」について詳細に分析します。"

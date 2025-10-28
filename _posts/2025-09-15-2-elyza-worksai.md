@@ -2,7 +2,7 @@
 layout: post
 title: "ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？"
 date: 2025-09-15 02:12:37 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "ELYZA Works、AIエージェント自動生成サービス開始について詳細に分析します。"

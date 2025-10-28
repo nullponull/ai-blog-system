@@ -2,7 +2,7 @@
 layout: post
 title: "「モバイルAIスマホの可能性�"
 date: 2025-09-28 16:35:15 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "モバイルAIスマホ、2025年4億台出荷へについて詳細に分析します。"

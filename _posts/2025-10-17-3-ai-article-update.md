@@ -2,7 +2,7 @@
 layout: post
 title: "チューリッヒが描くAI保険の未来：その真意はどこにあるのか？"
 date: 2025-10-17 16:40:33 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "チューリッヒ、AI保険イノベーションについて詳細に分析します。"

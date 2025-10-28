@@ -2,7 +2,7 @@
 layout: post
 title: "AIデータセンターの未来は液�"
 date: 2025-09-20 20:30:32 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "MS、NVIDIA GB200搭載AIデータC完成へについて詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIとBroadcomの提携が示すも�"
 date: 2025-10-18 08:37:05 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI/Broadcom、10GW級AI加速器開発について詳細に分析します。"

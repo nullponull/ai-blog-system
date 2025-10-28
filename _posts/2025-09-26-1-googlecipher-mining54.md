@@ -2,7 +2,7 @@
 layout: post
 title: "GoogleがCipher Miningに5.4%出資の�"
 date: 2025-09-26 08:40:06 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Google、Cipher Miningに5.4%出資について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "豪州、AI著作権免除を阻止：その真意はどこにあるのか？"
 date: 2025-10-27 04:44:09 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "豪、AI著作権免除を阻止について詳細に分析します。"

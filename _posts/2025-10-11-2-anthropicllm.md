@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropicが鳴らすLLM脆弱性の警鐘、その真意と企業が今すべきこととは？"
 date: 2025-10-11 20:31:19 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、LLM脆弱性で警鐘について詳細に分析します。"

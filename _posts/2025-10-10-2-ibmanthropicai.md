@@ -2,7 +2,7 @@
 layout: post
 title: "IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？"
 date: 2025-10-10 04:37:03 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropic提携、Claude導入で生産性45%向上について詳細に分析します。"

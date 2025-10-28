@@ -2,7 +2,7 @@
 layout: post
 title: "# Copilot Proが拓く自律AIエージェントの真意とは？"
 date: 2025-10-23 16:40:51 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、Copilot Proで自律AIエージェント機能強化について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？"
 date: 2025-09-28 20:33:12 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Zen Intelligence、建設現場無人化へ追加出資について詳細に分析します。"

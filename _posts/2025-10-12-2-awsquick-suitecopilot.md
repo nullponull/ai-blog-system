@@ -2,7 +2,7 @@
 layout: post
 title: "AWS「Quick Suite」がCopilotに挑む�"
 date: 2025-10-12 20:33:14 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AWS、企業向けAI「Quick Suite」発表、Copilot対抗について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Broadcom、OpenAIから100億�"
 date: 2025-09-06 16:38:04 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Meta"]
 author: "ALLFORCES編集部"
 excerpt: "Broadcom、OpenAIから100億ドルAIチップ受注について詳細に分析します。"

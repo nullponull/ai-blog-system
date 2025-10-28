@@ -2,7 +2,7 @@
 layout: post
 title: "# オーストラリア、AI著作権法改正拒否の真意はどこにあるのか？"
 date: 2025-10-27 08:42:28 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "オーストラリア、AI著作権法改正拒否について詳細に分析します。"

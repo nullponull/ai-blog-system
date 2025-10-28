@@ -2,7 +2,7 @@
 layout: post
 title: "日本、国産AIに本腰を入れる？ その真意と、私たちが注視すべきポイントと？"
 date: 2025-09-18 04:37:41 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "日本政府、国産AI開発を支援について詳細に分析します。"

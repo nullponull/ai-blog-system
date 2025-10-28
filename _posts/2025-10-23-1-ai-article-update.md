@@ -2,7 +2,7 @@
 layout: post
 title: "日立の営業AIエージェント、その真意は？現場の変革と未来への布石"
 date: 2025-10-23 02:06:55 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "日立、営業AIエージェント提供開始について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "「さくらのAI Engine」が示す、日本のAIインフラの真価とは？"
 date: 2025-09-24 13:01:13 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "さくら、生成AI推論API基盤提供について詳細に分析します。"

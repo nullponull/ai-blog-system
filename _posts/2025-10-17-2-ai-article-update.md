@@ -2,7 +2,7 @@
 layout: post
 title: "ペガトロン、テキサスにAIサーバー工場を建設する真意とは？"
 date: 2025-10-17 16:39:56 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "ペガトロン、米テキサスにAIサーバー工場について詳細に分析します。"

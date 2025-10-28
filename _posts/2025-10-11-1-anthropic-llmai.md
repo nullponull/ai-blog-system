@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropic LLMの深層に潜む影：AIの信頼性はどこへ向かうのか？"
 date: 2025-10-11 04:34:38 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic LLMに深刻な脆弱性について詳細に分析します。"

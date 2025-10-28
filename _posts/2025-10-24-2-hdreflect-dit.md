@@ -2,7 +2,7 @@
 layout: post
 title: "パナソニックHDの「Reflect-Dit」"
 date: 2025-10-24 16:43:39 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "パナソニックHD、AI画像生成改善について詳細に分析します。"

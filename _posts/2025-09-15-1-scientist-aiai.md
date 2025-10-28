@@ -2,7 +2,7 @@
 layout: post
 title: "「Scientist AI」が示す、サムスンAI戦略の「真意」とは？"
 date: 2025-09-15 08:41:15 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung AI Forum開催: Scientist AI発表について詳細に分析します。"

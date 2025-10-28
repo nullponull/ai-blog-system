@@ -2,7 +2,7 @@
 layout: post
 title: "Qualcomm、AIチップ市場への挑戦：その真意はどこにあるのか？"
 date: 2025-10-28 04:37:39 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm、AIチップ市場参入について詳細に分析します。"

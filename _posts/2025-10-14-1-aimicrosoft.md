@@ -2,7 +2,7 @@
 layout: post
 title: "AIの電力渇望、マイクロソフトが原発に目を向ける真意とは？"
 date: 2025-10-14 04:37:19 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AI電力需要増、MS原発投資検討について詳細に分析します。"

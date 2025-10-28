@@ -2,7 +2,7 @@
 layout: post
 title: "AIスキルの可能性とは？"
 date: 2025-09-24 13:01:57 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AIスキル、ICT職種の78%で必須化について詳細に分析します。"

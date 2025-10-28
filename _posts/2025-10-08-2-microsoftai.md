@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？"
 date: 2025-10-08 02:02:29 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、AIエージェント開発キット発表について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるの？"
 date: 2025-10-08 04:36:25 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、AMDとGPU供給提携について詳細に分析します。"

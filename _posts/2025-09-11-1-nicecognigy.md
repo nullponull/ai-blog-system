@@ -2,7 +2,7 @@
 layout: post
 title: "**タイトル: NiCEとCognigy"
 date: 2025-09-11 12:59:20 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NiCE、Cognigy買収完了: CX AI強化について詳細に分析します。"

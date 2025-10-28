@@ -2,7 +2,7 @@
 layout: post
 title: "Google AI検索進化：Gemini 2.5が拓く新時代"
 date: 2025-09-09 02:27:22 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Google AI Search進化について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "英国の臨床試験減少とAI投資の真意：ヘルスケアの未来は何を語るのか？"
 date: 2025-10-07 08:41:00 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "英国、AIで臨床試験承認半減について詳細に分析します。"

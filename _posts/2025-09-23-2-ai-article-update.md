@@ -2,7 +2,7 @@
 layout: post
 title: "イタリアのAI規制法、懲役刑の導入が示唆するものとは？"
 date: 2025-09-23 20:35:10 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "伊、AI規制法承認 懲役刑もについて詳細に分析します。"

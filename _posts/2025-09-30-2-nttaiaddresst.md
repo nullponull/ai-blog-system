@@ -2,7 +2,7 @@
 layout: post
 title: "NTTデータの国際送金AI「Addresst"
 date: 2025-09-30 08:43:08 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "NTTデータ、国際送金AI「Addresstune」展開について詳細に分析します。"

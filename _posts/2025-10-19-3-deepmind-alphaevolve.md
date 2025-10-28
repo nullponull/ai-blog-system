@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMind AlphaEvolveが科学発見を�"
 date: 2025-10-19 20:34:36 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind AlphaEvolve、科学発見について詳細に分析します。"

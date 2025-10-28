@@ -2,7 +2,7 @@
 layout: post
 title: "富士通、生成AI軽量化94%達成：投資と技術の新時代"
 date: 2025-09-08 08:41:43 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "NVIDIA", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "富士通、生成AI軽量化94%達成について詳細に分析します。"

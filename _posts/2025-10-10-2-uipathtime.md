@@ -2,7 +2,7 @@
 layout: post
 title: "UiPathのTIME誌選出、エージェント自動化が拓く未来の真意とは？"
 date: 2025-10-10 16:39:57 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "UiPath、エージェント自動化でTIME誌選出について詳細に分析します。"

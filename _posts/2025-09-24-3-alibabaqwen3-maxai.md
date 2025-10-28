@@ -2,7 +2,7 @@
 layout: post
 title: "Alibabaの「Qwen3-Max」はAIの未来をどう変えるのか？"
 date: 2025-09-24 04:36:55 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Alibaba、1兆超Qwen3-Max発表について詳細に分析します。"

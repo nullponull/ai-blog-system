@@ -2,7 +2,7 @@
 layout: post
 title: "カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけ"
 date: 2025-10-23 20:34:55 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州、AIチャットボット規制法制定について詳細に分析します。"

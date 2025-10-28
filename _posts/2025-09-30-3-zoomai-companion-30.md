@@ -2,7 +2,7 @@
 layout: post
 title: "ZoomのAI Companion 3.0の可能性と�"
 date: 2025-09-30 02:02:26 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Zoom、AI Companion 3.0発表について詳細に分析します。"

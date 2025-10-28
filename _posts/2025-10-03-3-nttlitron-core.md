@@ -2,7 +2,7 @@
 layout: post
 title: "NTTデータの「LITRON® CORE」は？"
 date: 2025-10-03 13:00:15 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NTTデータ、AI基盤LITRON® CORE提供について詳細に分析します。"

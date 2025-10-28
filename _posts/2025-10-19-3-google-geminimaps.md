@@ -2,7 +2,7 @@
 layout: post
 title: "Google GeminiとMaps連携強化：そ�"
 date: 2025-10-19 16:38:14 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini API、Maps連携強化について詳細に分析します。"

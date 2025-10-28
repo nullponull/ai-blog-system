@@ -2,7 +2,7 @@
 layout: post
 title: "SK hynix HBM4、その真意は？AI半導体競争の行方"
 date: 2025-09-12 02:00:06 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "SK hynix、HBM4開発完了し量産体制確立について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？"
 date: 2025-09-13 08:35:22 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Apple", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Apple、AI担当幹部が退社について詳細に分析します。"

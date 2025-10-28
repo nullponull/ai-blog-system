@@ -2,7 +2,7 @@
 layout: post
 title: "AIアニメの未来はの可能性と�"
 date: 2025-10-09 16:43:42 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "KaKa Creation、AIアニメで4.5億円調達について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropicの警告：AIバックドア脆弱性は、私たちの未来をどう変えるのか？"
 date: 2025-10-11 16:34:34 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Anthropic、AIバックドア脆弱性を警告**について詳細に分析します。"

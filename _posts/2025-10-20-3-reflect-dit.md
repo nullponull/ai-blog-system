@@ -2,7 +2,7 @@
 layout: post
 title: "パナソニックの「Reflect-Dit」�"
 date: 2025-10-20 20:37:32 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "パナソニック、画像生成AI効率5倍について詳細に分析します。"

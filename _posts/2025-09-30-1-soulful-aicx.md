@@ -2,7 +2,7 @@
 layout: post
 title: "オプトの「Soulful AI」は、CXの未来をどう変えるのか？"
 date: 2025-09-30 08:42:23 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "オプト、CX向け「Soulful AI」提供開始について詳細に分析します。"

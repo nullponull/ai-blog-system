@@ -2,7 +2,7 @@
 layout: post
 title: "Google GeminiとMaps連携、その真意はどこにあるのか？"
 date: 2025-10-19 20:33:59 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini API、Maps連携について詳細に分析します。"

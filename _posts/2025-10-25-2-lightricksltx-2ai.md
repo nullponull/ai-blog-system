@@ -2,7 +2,7 @@
 layout: post
 title: "LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意と？"
 date: 2025-10-25 12:55:14 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Lightricks、AI動画生成LTX-2公開について詳細に分析します。"

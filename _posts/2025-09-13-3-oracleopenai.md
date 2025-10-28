@@ -2,7 +2,7 @@
 layout: post
 title: "OracleとOpenAIの提携、その真意はどこにあるのか？"
 date: 2025-09-13 16:36:04 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OracleとOpenAI提携、AI市場再編へについて詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？"
 date: 2025-10-18 20:32:48 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、LLMバックドア脆弱性を確認について詳細に分析します。"

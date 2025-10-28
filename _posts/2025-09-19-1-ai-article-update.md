@@ -2,7 +2,7 @@
 layout: post
 title: "北朝鮮のAIドローン開発、その真意と技術的挑戦とは？"
 date: 2025-09-19 12:59:06 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "北朝鮮、AI戦術ドローン開発を最優先について詳細に分析します。"

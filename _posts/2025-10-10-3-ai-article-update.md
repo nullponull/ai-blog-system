@@ -2,7 +2,7 @@
 layout: post
 title: "プレシジョンの医療AIプロジェクト、その真意はどこにあるのか？"
 date: 2025-10-10 16:40:35 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "プレシジョン、医療AI開発強化プロジェクト採択について詳細に分析します。"

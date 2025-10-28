@@ -2,7 +2,7 @@
 layout: post
 title: "Google CodeMenderがOSSに72件の修正をもたらした真意とは？"
 date: 2025-10-15 02:07:42 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google CodeMender、OSS72件修正について詳細に分析します。"

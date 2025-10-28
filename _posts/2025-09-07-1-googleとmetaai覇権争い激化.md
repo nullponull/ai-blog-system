@@ -2,7 +2,7 @@
 layout: post
 title: "GoogleとMeta、AI覇権争い激化"
 date: 2025-09-07 08:25:25 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft"]
 author: "ALLFORCES編集部"
 excerpt: "Google, Meta AI rivalry heats upについて詳細に分析します。"

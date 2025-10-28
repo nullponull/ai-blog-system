@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIがハードウェアへ？ Luxsha"
 date: 2025-09-21 02:14:07 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、LuxshareとAI専用HW製造契約について詳細に分析します。"

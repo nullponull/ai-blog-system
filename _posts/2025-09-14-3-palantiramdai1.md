@@ -2,7 +2,7 @@
 layout: post
 title: "「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」"
 date: 2025-09-14 12:53:54 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Palantir/AMD、AIで1兆ドル企業へについて詳細に分析します。"

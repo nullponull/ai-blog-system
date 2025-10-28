@@ -2,7 +2,7 @@
 layout: post
 title: "医療現場にAIが深く浸透する時、何が本当に変わるのか？大阪がんセンターの挑戦"
 date: 2025-10-02 02:02:32 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "大阪がんセンター、問診AI導入について詳細に分析します。"

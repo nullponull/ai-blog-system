@@ -2,7 +2,7 @@
 layout: post
 title: "NTTドコモの「AIPEX」はIP監修の未来を本当に変えるのか？"
 date: 2025-09-16 20:35:59 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NTTドコモ、AI監修PF「AIPEX」について詳細に分析します。"

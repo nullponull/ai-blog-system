@@ -2,7 +2,7 @@
 layout: post
 title: "ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？"
 date: 2025-09-14 12:53:00 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "ClipLine、サービス業向けAIエージェント提供について詳細に分析します。"

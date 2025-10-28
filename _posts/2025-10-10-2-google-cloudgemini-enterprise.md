@@ -2,7 +2,7 @@
 layout: post
 title: "Google CloudのGemini Enterpriseの可�"
 date: 2025-10-10 02:04:46 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Cloud、Gemini Enterprise発表について詳細に分析します。"

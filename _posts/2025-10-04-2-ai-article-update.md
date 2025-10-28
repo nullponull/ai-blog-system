@@ -2,7 +2,7 @@
 layout: post
 title: "「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側"
 date: 2025-10-04 20:32:21 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**AI産業インフラ化、各業界で導入加速**について詳細に分析します。"

@@ -1,0 +1,29 @@
+# robots.txt for ALLFORCES AI情報メディア
+# https://ai-allforces.allforces.wuaze.com
+
+User-agent: *
+Allow: /
+
+# Allow all content
+Allow: /category/
+Allow: /tags/
+Allow: /_pages/
+Allow: /assets/
+
+# Disallow admin and development files
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow search engines to index all posts
+Allow: /20*/
+
+# Sitemap location
+Sitemap: https://ai-allforces.allforces.wuaze.com/sitemap.xml
+Sitemap: https://ai-allforces.allforces.wuaze.com/sitemap_index.xml
+
+# Crawl rate (optional, for major search engines)
+# Crawl-delay: 1
+
+# Host (for Google)
+Host: https://ai-allforces.allforces.wuaze.com

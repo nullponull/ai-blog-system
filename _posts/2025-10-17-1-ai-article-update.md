@@ -2,7 +2,7 @@
 layout: post
 title: "アフリカAI導入加速の真意とは？新たな市場の可能性を探る"
 date: 2025-10-17 16:39:00 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "アフリカAI導入加速へ提携について詳細に分析します。"

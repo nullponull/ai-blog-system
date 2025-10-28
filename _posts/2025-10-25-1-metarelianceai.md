@@ -2,7 +2,7 @@
 layout: post
 title: "MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？"
 date: 2025-10-25 20:32:59 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Meta、RelianceとAI合弁事業設立について詳細に分析します。"

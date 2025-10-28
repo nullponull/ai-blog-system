@@ -2,7 +2,7 @@
 layout: post
 title: "ByteDanceの画像生成AI「Seedream」"
 date: 2025-10-23 20:35:26 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Maison AI、ByteDance画像生成搭載について詳細に分析します。"

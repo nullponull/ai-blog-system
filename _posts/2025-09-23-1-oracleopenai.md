@@ -2,7 +2,7 @@
 layout: post
 title: "OracleとOpenAIの可能性とは？"
 date: 2025-09-23 20:34:37 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle、OpenAIと3000億ドル契約について詳細に分析します。"

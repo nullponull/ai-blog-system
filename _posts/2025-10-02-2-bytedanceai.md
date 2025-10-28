@@ -2,7 +2,7 @@
 layout: post
 title: "アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？"
 date: 2025-10-02 16:40:16 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "アリババ/ByteDance動画AI進化について詳細に分析します。"

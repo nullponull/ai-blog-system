@@ -2,7 +2,7 @@
 layout: post
 title: "富士通の「因果AI」が遺伝子解明に挑む真意とは？"
 date: 2025-10-09 13:03:23 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "富士通、因果AIで遺伝子解明について詳細に分析します。"

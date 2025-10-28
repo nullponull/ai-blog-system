@@ -2,7 +2,7 @@
 layout: post
 title: "富士通とNVIDIA、AI協業拡大の真意とは？日本のAI戦略に何をもたらすの？"
 date: 2025-10-10 02:04:04 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "富士通・NVIDIA、AI協業拡大について詳細に分析します。"

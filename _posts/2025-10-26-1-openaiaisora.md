@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？"
 date: 2025-10-26 08:36:47 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、音楽生成AI開発とSora規制強化について詳細に分析します。"

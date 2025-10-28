@@ -2,7 +2,7 @@
 layout: post
 title: "Snowflakeの金融向けCortex AIの可�"
 date: 2025-10-02 20:35:07 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Snowflake、金融向けCortex AIについて詳細に分析します。"

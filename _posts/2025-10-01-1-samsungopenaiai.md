@@ -2,7 +2,7 @@
 layout: post
 title: "SamsungとOpenAIの提携、その真意は？AIインフラの未来を読み解く"
 date: 2025-10-01 20:34:49 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung/OpenAI、AIインフラ強化について詳細に分析します。"

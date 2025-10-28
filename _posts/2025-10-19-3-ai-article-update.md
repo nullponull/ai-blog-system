@@ -2,7 +2,7 @@
 layout: post
 title: "日本政府の「新AI基本計画」は、本当にゲームチェンジャーとなるのか？"
 date: 2025-10-19 12:56:45 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "日本政府、新AI基本計画で反転攻勢について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "ASML、Mistral AIに13億ユ�"
 date: 2025-09-08 08:42:20 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Meta", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "ASML、Mistralに13億ユーロ投資について詳細に分析します。"

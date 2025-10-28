@@ -2,7 +2,7 @@
 layout: post
 title: "Kuaishou Kling AI 2.5 Turboの可能性�"
 date: 2025-09-26 13:01:25 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Kuaishou Kling AI 2.5 Turbo発表について詳細に分析します。"

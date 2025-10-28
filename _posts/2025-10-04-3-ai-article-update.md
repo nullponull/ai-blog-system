@@ -2,7 +2,7 @@
 layout: post
 title: "河南省のAI産業の可能性とは�"
 date: 2025-10-04 04:35:54 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**中国河南省、AI産業27年1600億元**について詳細に分析します。"

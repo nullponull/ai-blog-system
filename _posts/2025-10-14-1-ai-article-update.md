@@ -2,7 +2,7 @@
 layout: post
 title: "日立の「フィジカルAI」戦略、その真意はどこにあるのか？"
 date: 2025-10-14 02:03:55 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "日立、フィジカルAI戦略強化 2万件目標について詳細に分析します。"

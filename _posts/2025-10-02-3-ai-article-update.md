@@ -2,7 +2,7 @@
 layout: post
 title: "英国のAIインフラ投資、その真意はどこにあるのか？"
 date: 2025-10-02 04:36:54 +0000
-categories: ["投資分析"]
+categories: ["業界分析"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "英国、AIインフラに2.5億ポンド投資について詳細に分析します。"
