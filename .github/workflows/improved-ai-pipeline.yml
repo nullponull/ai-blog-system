@@ -595,6 +595,7 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true
+          cache-version: 1  # Increment this to invalidate cache if needed
 
       - name: Build and Deploy
         run: |
