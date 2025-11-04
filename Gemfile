@@ -8,6 +8,10 @@ gem "jekyll-paginate"
 gem "jekyll-archives"
 gem "jekyll-redirect-from"
 
+# Fix sass-embedded compatibility issue with Ruby 3.1.7
+# sass-embedded 1.93.3 has JSON::Fragment error on Ruby 3.1
+gem "sass-embedded", "~> 1.69.0"
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
