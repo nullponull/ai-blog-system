@@ -96,3 +96,9 @@ Google Cloudが目指すのは、AIを「特別な技術」から「当たり前
 Amazon、Google、MicrosoftといったメガベンダーによるAI投資競争は、2025年には3,200億ドルを超えると言われています。この熾烈な競争の中で、Google Cloudがどのように差別化を図っていくのか。AWSが持つ広大なエコシステムと既存顧客基盤、Microsoft Azureが持つエンター
 
 ---END---
+
+Amazon、Google、MicrosoftといったメガベンダーによるAI投資競争は、2025年には3,200億ドルを超えると言われています。この熾烈な競争の中で、Google Cloudがどのように差別化を図っていくのか。AWSが持つ広大なエコシステムと既存顧客基盤、Microsoft Azureが持つエンタープライズ領域での強固な実績とOpenAIとの連携を考えると、Google Cloudの道のりは決して平坦ではありません。
+
+しかし、個人的には、この競争
+
+---END---
