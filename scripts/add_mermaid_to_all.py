@@ -32,7 +32,7 @@ def generate_simple_mermaid(article_content, article_title, base_filename):
         
         # Gemini CLIを実行
         result = subprocess.run([
-            'gemini', '-m', 'gemini-2.5-flash', '-p', prompt
+            'gemini', '-m', 'gemini-2.5-flash-lite', '-p', prompt
         ], capture_output=True, text=True, timeout=30, encoding='utf-8')
         
         if result.returncode == 0:

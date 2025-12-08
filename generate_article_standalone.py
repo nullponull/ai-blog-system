@@ -48,7 +48,7 @@ def generate_ai_news():
 技術的な詳細、具体的な数値、企業名、人名などを含めて、リアルなニュース記事として作成してください。"""
 
     # Call Gemini API
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
     headers = {
         'Content-Type': 'application/json',
         'X-goog-api-key': api_key
