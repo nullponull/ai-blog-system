@@ -53,7 +53,7 @@ def analyze_article_for_mermaid_diagrams(article_content, article_title):
         
         # gemini CLIを実行（プロンプトをstdinで渡す）
         result = subprocess.run([
-            'gemini', '-m', 'gemini-2.5-flash'
+            'gemini', '-m', 'gemini-2.5-flash-lite'
         ], input=prompt, capture_output=True, text=True, timeout=60, encoding='utf-8')
         
         if result.returncode == 0:

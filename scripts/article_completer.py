@@ -19,7 +19,7 @@ def call_gemini_api(prompt, api_key, max_retries=3):
         print("❌ GEMINI_API_KEY が設定されていません")
         return None
     
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
     headers = {
         'Content-Type': 'application/json',
         'X-goog-api-key': api_key
