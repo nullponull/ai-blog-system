@@ -47,13 +47,18 @@ def generate_ai_news():
 
 技術的な詳細、具体的な数値、企業名、人名などを含めて、リアルなニュース記事として作成してください。"""
 
-    # Call Gemini API
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
+    # Model rotation for quota management
+    models = [
+        "gemini-2.5-flash-lite",
+        "gemini-2.5-flash",
+        "gemini-2.0-flash"
+    ]
+
     headers = {
         'Content-Type': 'application/json',
         'X-goog-api-key': api_key
     }
-    
+
     data = {
         "contents": [
             {
@@ -65,25 +70,42 @@ def generate_ai_news():
             }
         ]
     }
-    
-    try:
-        response = requests.post(url, headers=headers, json=data)
-        response.raise_for_status()
-        
-        result = response.json()
-        if 'candidates' in result and len(result['candidates']) > 0:
-            content = result['candidates'][0]['content']['parts'][0]['text']
-            return content
-        else:
-            print("Error: No content generated")
-            return None
-            
-    except requests.exceptions.RequestException as e:
-        print(f"API request failed: {e}")
-        return None
-    except Exception as e:
-        print(f"Error processing response: {e}")
-        return None
+
+    # Try each model until one succeeds
+    for model_index, model in enumerate(models):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+        try:
+            print(f"Trying model {model_index + 1}/{len(models)}: {model}")
+            response = requests.post(url, headers=headers, json=data)
+
+            # Check for quota error
+            if response.status_code == 429:
+                print(f"Quota limit reached for {model}")
+                continue  # Try next model
+
+            response.raise_for_status()
+
+            result = response.json()
+            if 'candidates' in result and len(result['candidates']) > 0:
+                content = result['candidates'][0]['content']['parts'][0]['text']
+                print(f"Successfully generated with {model}")
+                return content
+            else:
+                print(f"No content generated with {model}")
+                continue
+
+        except requests.exceptions.RequestException as e:
+            print(f"API request failed for {model}: {e}")
+            if "quota" in str(e).lower() or "429" in str(e):
+                continue  # Try next model
+            continue
+        except Exception as e:
+            print(f"Error processing response for {model}: {e}")
+            continue
+
+    print("All models failed or quota exceeded")
+    return None
 
 # Generate article
 article_content = generate_ai_news()

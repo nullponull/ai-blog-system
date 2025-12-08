@@ -13,18 +13,24 @@ from datetime import datetime
 
 def call_gemini_api(prompt, api_key, max_retries=3):
     """
-    Gemini APIを呼び出して記事の続きを生成
+    Gemini APIを呼び出して記事の続きを生成（モデルローテーション対応）
     """
     if not api_key:
         print("❌ GEMINI_API_KEY が設定されていません")
         return None
-    
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
+
+    # モデルローテーション用のリスト
+    models = [
+        "gemini-2.5-flash-lite",
+        "gemini-2.5-flash",
+        "gemini-2.0-flash"
+    ]
+
     headers = {
         'Content-Type': 'application/json',
         'X-goog-api-key': api_key
     }
-    
+
     data = {
         "contents": [
             {
@@ -42,38 +48,50 @@ def call_gemini_api(prompt, api_key, max_retries=3):
             "maxOutputTokens": 4096,
         }
     }
-    
+
     for attempt in range(max_retries):
-        try:
-            print(f"📡 API呼び出し試行 {attempt + 1}/{max_retries}")
-            response = requests.post(url, headers=headers, json=data, timeout=60)
-            response.raise_for_status()
-            
-            result = response.json()
-            if 'candidates' in result and len(result['candidates']) > 0:
-                content = result['candidates'][0]['content']['parts'][0]['text']
-                return content.strip()
-            else:
-                print(f"⚠️ 試行 {attempt + 1}: レスポンスに候補が含まれていません")
-                
-        except requests.exceptions.Timeout:
-            print(f"⏰ 試行 {attempt + 1}: タイムアウトが発生")
-            if attempt < max_retries - 1:
-                print("🔄 30秒後に再試行...")
-                import time
-                time.sleep(30)
-        except requests.exceptions.RequestException as e:
-            print(f"❌ 試行 {attempt + 1}: API呼び出しエラー: {e}")
-            if attempt < max_retries - 1:
-                print("🔄 15秒後に再試行...")
-                import time
-                time.sleep(15)
-        except Exception as e:
-            print(f"💀 試行 {attempt + 1}: 予期しないエラー: {e}")
-            if attempt < max_retries - 1:
-                import time
-                time.sleep(10)
-    
+        for model_index, model in enumerate(models):
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+            try:
+                print(f"📡 API呼び出し試行 {attempt + 1}/{max_retries} - モデル {model_index + 1}/{len(models)}: {model}")
+                response = requests.post(url, headers=headers, json=data, timeout=60)
+
+                # クォータエラーチェック
+                if response.status_code == 429:
+                    print(f"⚠️ {model} のクォータ制限に到達")
+                    continue  # 次のモデルを試す
+
+                response.raise_for_status()
+
+                result = response.json()
+                if 'candidates' in result and len(result['candidates']) > 0:
+                    content = result['candidates'][0]['content']['parts'][0]['text']
+                    print(f"✅ {model} で生成成功")
+                    return content.strip()
+                else:
+                    print(f"⚠️ {model}: レスポンスに候補が含まれていません")
+                    continue  # 次のモデルを試す
+
+            except requests.exceptions.Timeout:
+                print(f"⏰ {model}: タイムアウトが発生")
+                continue  # 次のモデルを試す
+            except requests.exceptions.RequestException as e:
+                print(f"❌ {model}: API呼び出しエラー: {e}")
+                if "quota" in str(e).lower() or "429" in str(e):
+                    continue  # 次のモデルを試す
+                # その他のエラーの場合も次のモデルを試す
+                continue
+            except Exception as e:
+                print(f"💀 {model}: 予期しないエラー: {e}")
+                continue  # 次のモデルを試す
+
+        # すべてのモデルで失敗した場合、少し待ってから再試行
+        if attempt < max_retries - 1:
+            print(f"🔄 すべてのモデルで失敗。30秒後に再試行...")
+            import time
+            time.sleep(30)
+
     return None
 
 def complete_article(article_path, api_key):
