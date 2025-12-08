@@ -70,7 +70,7 @@ jobs:
           for api_retry in 1 2; do
             echo "📡 API attempt $api_retry for topic generation"
 
-            if gemini -m "gemini-2.5-flash" -p "$TOPIC_PROMPT" > _temp/topics.txt 2>_temp/topic_generation_error.log; then
+            if gemini -m "gemini-2.5-flash-lite" -p "$TOPIC_PROMPT" > _temp/topics.txt 2>_temp/topic_generation_error.log; then
               echo "✅ API call completed successfully"
               
               # Comprehensive content validation
@@ -128,7 +128,7 @@ jobs:
             # Fallback with simpler prompt
             SIMPLE_PROMPT="Generate 3 AI industry news topics in this format: 1. Topic 2. Topic 3. Topic. Each topic should be under 30 characters and mention specific companies."
             
-            if gemini -m "gemini-2.5-flash" -p "$SIMPLE_PROMPT" > _temp/topics_fallback.txt 2>/dev/null; then
+            if gemini -m "gemini-2.5-flash-lite" -p "$SIMPLE_PROMPT" > _temp/topics_fallback.txt 2>/dev/null; then
               if [ -s "_temp/topics_fallback.txt" ]; then
                 mv _temp/topics_fallback.txt _temp/topics.txt
                 echo "✅ Fallback topics generated"
@@ -200,7 +200,7 @@ jobs:
             GENERATION_SUCCESS=false
             for retry in 1 2; do
               echo "📝 API attempt $retry for topic $topic_number"
-              if gemini -m "gemini-2.5-flash" -p "$ARTICLE_PROMPT" > "_temp/raw-article-${topic_number}.md" 2>_temp/api_error_${topic_number}.log; then
+              if gemini -m "gemini-2.5-flash-lite" -p "$ARTICLE_PROMPT" > "_temp/raw-article-${topic_number}.md" 2>_temp/api_error_${topic_number}.log; then
                 echo "✅ API call successful for topic $topic_number"
                 GENERATION_SUCCESS=true
                 break
