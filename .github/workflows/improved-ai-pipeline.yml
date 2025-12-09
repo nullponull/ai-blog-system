@@ -38,9 +38,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install -g @google/gemini-cli textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing @textlint-ja/textlint-rule-preset-ai-writing
+          npm install -g textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing @textlint-ja/textlint-rule-preset-ai-writing
           pip install sentence-transformers scikit-learn numpy requests pillow
           mkdir -p _temp _posts assets/images/posts scripts
+          chmod +x scripts/generate_content.py
 
       # STAGE 1: Simplified and Reliable Topic Generation
       - name: Generate high-quality topics
@@ -66,70 +67,54 @@ jobs:
           # Enhanced API call with comprehensive validation
           echo "🔄 Attempting topic generation (with retry)..."
           TOPIC_GENERATION_SUCCESS=false
-          
-          # Model rotation array
-          MODELS=("gemini-2.5-flash-lite" "gemini-2.5-flash" "gemini-2.0-flash")
 
           for api_retry in 1 2; do
             echo "📡 API attempt $api_retry for topic generation"
 
-            # Try each model until one succeeds
-            MODEL_SUCCESS=false
-            for MODEL in "${MODELS[@]}"; do
-              echo "🤖 Trying model: $MODEL"
+            # Use Python script for API calls (handles model rotation internally)
+            if python3 scripts/generate_content.py "$TOPIC_PROMPT" _temp/topics.txt 2>_temp/topic_generation_error.log; then
+              echo "✅ API call completed successfully"
 
-              if gemini -m "$MODEL" -p "$TOPIC_PROMPT" > _temp/topics.txt 2>_temp/topic_generation_error.log; then
-                echo "✅ API call completed successfully with $MODEL"
+              # Comprehensive content validation
+              if [ -s "_temp/topics.txt" ]; then
+                echo "📄 Topics file created with content:"
+                cat _temp/topics.txt
 
-                # Comprehensive content validation
-                if [ -s "_temp/topics.txt" ]; then
-                  echo "📄 Topics file created with content:"
+                # Check for error messages in response
+                if grep -qi "error\|failed\|unable\|quota\|limit" _temp/topics.txt 2>/dev/null; then
+                  echo "⚠️ API response contains error messages"
+                  echo "Response content:"
                   cat _temp/topics.txt
-
-                  # Check for error messages in response
-                  if grep -qi "error\|failed\|unable\|quota\|limit" _temp/topics.txt 2>/dev/null; then
-                    echo "⚠️ API response contains error messages"
-                    echo "Response content:"
-                    cat _temp/topics.txt
-                  else
-                    # Safe topic counting with file existence check
-                    TOPIC_COUNT=0
-                    if [ -s "_temp/topics.txt" ]; then
-                      TOPIC_COUNT=$(grep -c "^[0-9]\+\." _temp/topics.txt 2>/dev/null || echo "0")
-                    fi
-
-                    # Validate topic count is a number and > 0
-                    if [[ "$TOPIC_COUNT" =~ ^[0-9]+$ ]] && [ "$TOPIC_COUNT" -gt 0 ]; then
-                      echo "📊 Generated $TOPIC_COUNT valid topics with $MODEL"
-                      TOPIC_GENERATION_SUCCESS=true
-                      MODEL_SUCCESS=true
-                      break 2  # Break out of both model and retry loops
-                    else
-                      echo "⚠️ No valid numbered topics found in response from $MODEL"
-                      echo "Expected format: '1. Topic title'"
-                    fi
-                  fi
                 else
-                  echo "❌ Topics file is empty or not created for $MODEL"
-                  if [ -f "_temp/topic_generation_error.log" ]; then
-                    echo "Error log:"
-                    cat _temp/topic_generation_error.log
+                  # Safe topic counting with file existence check
+                  TOPIC_COUNT=0
+                  if [ -s "_temp/topics.txt" ]; then
+                    TOPIC_COUNT=$(grep -c "^[0-9]\+\." _temp/topics.txt 2>/dev/null || echo "0")
+                  fi
+
+                  # Validate topic count is a number and > 0
+                  if [[ "$TOPIC_COUNT" =~ ^[0-9]+$ ]] && [ "$TOPIC_COUNT" -gt 0 ]; then
+                    echo "📊 Generated $TOPIC_COUNT valid topics"
+                    TOPIC_GENERATION_SUCCESS=true
+                    break  # Break out of retry loop
+                  else
+                    echo "⚠️ No valid numbered topics found in response"
+                    echo "Expected format: '1. Topic title'"
                   fi
                 fi
               else
-                echo "❌ API call failed with exit code $? for $MODEL"
-                if [ -f "_temp/topic_generation_error.log" ] && grep -qi "quota\|429" _temp/topic_generation_error.log; then
-                  echo "⚠️ Quota limit reached for $MODEL, trying next model..."
-                elif [ -f "_temp/topic_generation_error.log" ]; then
-                  echo "Error details:"
+                echo "❌ Topics file is empty or not created"
+                if [ -f "_temp/topic_generation_error.log" ]; then
+                  echo "Error log:"
                   cat _temp/topic_generation_error.log
                 fi
               fi
-            done
-
-            # If no model succeeded in this attempt
-            if [ "$MODEL_SUCCESS" = "false" ]; then
-              echo "❌ All models failed in attempt $api_retry"
+            else
+              echo "❌ API call failed with exit code $?"
+              if [ -f "_temp/topic_generation_error.log" ]; then
+                echo "Error details:"
+                cat _temp/topic_generation_error.log
+              fi
             fi
             
             if [ "$TOPIC_GENERATION_SUCCESS" = "false" ] && [ "$api_retry" -lt 2 ]; then
@@ -142,20 +127,17 @@ jobs:
             echo "❌ Failed to generate valid topics after 2 attempts"
             echo "🔧 Attempting fallback with simpler prompt..."
             
-            # Fallback with simpler prompt and model rotation
+            # Fallback with simpler prompt (Python script handles model rotation)
             SIMPLE_PROMPT="Generate 3 AI industry news topics in this format: 1. Topic 2. Topic 3. Topic. Each topic should be under 30 characters and mention specific companies."
 
-            for MODEL in "${MODELS[@]}"; do
-              echo "🔄 Fallback attempt with $MODEL"
-              if gemini -m "$MODEL" -p "$SIMPLE_PROMPT" > _temp/topics_fallback.txt 2>/dev/null; then
-                if [ -s "_temp/topics_fallback.txt" ]; then
-                  mv _temp/topics_fallback.txt _temp/topics.txt
-                  echo "✅ Fallback topics generated with $MODEL"
-                  cat _temp/topics.txt
-                  break
-                fi
+            echo "🔄 Fallback attempt with simpler prompt"
+            if python3 scripts/generate_content.py "$SIMPLE_PROMPT" _temp/topics_fallback.txt 2>/dev/null; then
+              if [ -s "_temp/topics_fallback.txt" ]; then
+                mv _temp/topics_fallback.txt _temp/topics.txt
+                echo "✅ Fallback topics generated"
+                cat _temp/topics.txt
               fi
-            done
+            fi
             
             # Final validation
             FINAL_TOPIC_COUNT=0
@@ -221,31 +203,28 @@ jobs:
             GENERATION_SUCCESS=false
             for retry in 1 2; do
               echo "📝 API attempt $retry for topic $topic_number"
-              # Model rotation for article generation
-              ARTICLE_SUCCESS=false
-              for MODEL in "${MODELS[@]}"; do
-                echo "📝 Trying model: $MODEL for article generation"
-                if gemini -m "$MODEL" -p "$ARTICLE_PROMPT" > "_temp/raw-article-${topic_number}.md" 2>_temp/api_error_${topic_number}.log; then
-                  echo "✅ API call successful for topic $topic_number with $MODEL"
-                  GENERATION_SUCCESS=true
-                  ARTICLE_SUCCESS=true
-                  break 2  # Break out of both model and retry loops
-                else
-                  echo "⚠️ $MODEL failed for topic $topic_number, checking error..."
-                  if [ -f "_temp/api_error_${topic_number}.log" ]; then
-                    if grep -q "429\|quota" _temp/api_error_${topic_number}.log 2>/dev/null; then
-                      echo "🚫 Quota exceeded for $MODEL, trying next model..."
-                    else
-                      echo "Error log content:"
-                      cat _temp/api_error_${topic_number}.log
-                    fi
-                  fi
-                fi
-              done
 
-              # If all models failed, handle retry logic
-              if [ "$ARTICLE_SUCCESS" = "false" ]; then
-                echo "❌ All models failed for article generation attempt $retry"
+              # Use Python script for article generation (handles model rotation internally)
+              if python3 scripts/generate_content.py "$ARTICLE_PROMPT" "_temp/raw-article-${topic_number}.md" 2>_temp/api_error_${topic_number}.log; then
+                echo "✅ API call successful for topic $topic_number"
+                GENERATION_SUCCESS=true
+                break  # Break out of retry loop
+              else
+                EXIT_CODE=$?
+                echo "⚠️ Failed for topic $topic_number with exit code: $EXIT_CODE"
+
+                # Show error log content
+                if [ -f "_temp/api_error_${topic_number}.log" ]; then
+                  echo "📋 Error log content:"
+                  cat _temp/api_error_${topic_number}.log
+                fi
+
+                # Try to capture any partial output
+                if [ -f "_temp/raw-article-${topic_number}.md" ]; then
+                  echo "📋 Partial output (if any):"
+                  head -20 "_temp/raw-article-${topic_number}.md"
+                fi
+
                 if [ "$retry" -lt 2 ]; then
                   echo "🔄 Waiting 30s before retry..."
                   sleep 30
