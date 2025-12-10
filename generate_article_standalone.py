@@ -7,9 +7,10 @@ import urllib.parse
 import time
 
 def generate_ai_news():
-    api_key = os.environ.get('GEMINI_API_KEY')
+    # GEMINI_API_KEY2を優先、フォールバックでGEMINI_API_KEY
+    api_key = os.environ.get('GEMINI_API_KEY2') or os.environ.get('GEMINI_API_KEY')
     if not api_key:
-        print("Error: GEMINI_API_KEY not found")
+        print("Error: GEMINI_API_KEY2 or GEMINI_API_KEY not found")
         return None
     
     today = datetime.now()

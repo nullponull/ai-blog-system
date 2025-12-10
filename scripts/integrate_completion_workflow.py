@@ -64,13 +64,13 @@ fi'''
                         'name': 'Complete articles',
                         'if': 'env.INCOMPLETE_FOUND == \'true\'',
                         'env': {
-                            'GEMINI_API_KEY': '${{ secrets.GEMINI_API_KEY }}'
+                            'GEMINI_API_KEY': '${{ secrets.GEMINI_API_KEY2 }}'
                         },
                         'run': '''echo "🚀 Starting article completion..."
 export GEMINI_API_KEY="$GEMINI_API_KEY"
 
 if [ -z "$GEMINI_API_KEY" ]; then
-  echo "❌ GEMINI_API_KEY is not set"
+  echo "❌ GEMINI_API_KEY2 is not set"
   exit 1
 fi
 
@@ -153,7 +153,7 @@ else
   echo "✅ No incomplete articles found"
 fi''',
         'env': {
-            'GEMINI_API_KEY': '${{ secrets.GEMINI_API_KEY }}'
+            'GEMINI_API_KEY': '${{ secrets.GEMINI_API_KEY2 }}'
         }
     }
     
@@ -192,7 +192,7 @@ def main():
     print("3. 統合実行: メインのAI記事生成パイプラインに補完機能が組み込まれます")
     
     print("\n⚠️  注意事項:")
-    print("- GEMINI_API_KEY シークレットが設定されている必要があります")
+    print("- GEMINI_API_KEY2 シークレットが設定されている必要があります")
     print("- 大量の記事補完時はAPI制限に注意してください")
     print("- 補完前の記事は自動でバックアップされます")
     
