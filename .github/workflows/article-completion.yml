@@ -32,7 +32,7 @@ jobs:
     - name: Complete articles
       if: env.INCOMPLETE_FOUND == 'true'
       env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
       run: "echo \"\U0001F680 Starting article completion...\"\nexport GEMINI_API_KEY=\"\
         $GEMINI_API_KEY\"\n\nif [ -z \"$GEMINI_API_KEY\" ]; then\n  echo \"❌ GEMINI_API_KEY\
         \ is not set\"\n  exit 1\nfi\n\npython3 scripts/article_completer.py\n\necho\
