@@ -16,7 +16,7 @@ def call_gemini_api(prompt, api_key, max_retries=3):
     Gemini APIを呼び出して記事の続きを生成（モデルローテーション対応）
     """
     if not api_key:
-        print("❌ GEMINI_API_KEY が設定されていません")
+        print("❌ GEMINI_API_KEY2 が設定されていません")
         return None
 
     # モデルローテーション用のリスト
@@ -194,10 +194,10 @@ def complete_article(article_path, api_key):
 
 def main():
     """メイン処理"""
-    # 環境変数からAPIキーを取得
-    api_key = os.environ.get('GEMINI_API_KEY')
+    # 環境変数からAPIキーを取得（GEMINI_API_KEY2を優先、フォールバックでGEMINI_API_KEY）
+    api_key = os.environ.get('GEMINI_API_KEY2') or os.environ.get('GEMINI_API_KEY')
     if not api_key:
-        print("❌ 環境変数 GEMINI_API_KEY が設定されていません")
+        print("❌ 環境変数 GEMINI_API_KEY2 または GEMINI_API_KEY が設定されていません")
         sys.exit(1)
     
     # 不完全な記事のリストを読み込み

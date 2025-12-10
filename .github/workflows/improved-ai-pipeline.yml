@@ -47,7 +47,7 @@ jobs:
       - name: Generate high-quality topics
         shell: bash
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           export GEMINI_API_KEY="$GEMINI_API_KEY"
           
@@ -153,11 +153,11 @@ jobs:
             fi
           fi
 
-      # STAGE 2: Quality-Focused Article Generation  
+      # STAGE 2: Quality-Focused Article Generation
       - name: Generate high-quality articles
         shell: bash
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           echo "📝 Generating professional articles..."
           
@@ -513,7 +513,7 @@ jobs:
       # STAGE 2.7: Article Completion Check
       - name: Check and complete incomplete articles
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           echo "🔍 Checking for incomplete articles..."
           python3 scripts/article_completion_checker.py _posts
