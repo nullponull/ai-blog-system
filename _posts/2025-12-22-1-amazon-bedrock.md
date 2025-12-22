@@ -19,7 +19,7 @@ Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競�
 
 **「モデルの百貨店」戦略の深化、その真意は？**
 
-今回のBedrockに追加されたのは、Anthropicの「Claude 3 Haiku」、Metaの「Llama 3 8B Instruct」と「Llama 3 70B Instruct」、そしてCohereの「Command R+」の計4モデルです。これら1つ一つを見ていくと、AWSが何を狙っているのかが透けて見えてきます。
+今回のBedrockに追加されたのは、Anthropicの「Claude 3 Haiku」、Metaの「Llama 3 8B Instruct」と「Llama 3 70B Instruct」、そしてCohereの「Command R+」の計4モデルです。これら1つ1つを見ていくと、AWSが何を狙っているのかが透けて見えてきます。
 
 まず、**AnthropicのClaude 3 Haiku**。これは「最速かつ最も費用対効果の高いモデル」と謳われていますね。AnthropicはClaude 3 OpusやSonnetで高性能を実証していますが、Haikuの投入は、高性能モデルだけではカバーしきれない、リアルタイム性やコスト感度が求められる広範なユースケースを狙っていることがわかります。例えば、大量の顧客からの問い合わせをリアルタイムで処理するチャットボットや、社内システムでの迅速な情報検索など、低レイテンシーが鍵となる場面で、このHaikuは非常に大きなアドバンテージを発揮するでしょう。AWSがAnthropicとの提携をさらに強化している背景には、こうしたエンタープライズにおける実用性の追求があるんです。
 
