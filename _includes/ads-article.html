@@ -1,0 +1,12 @@
+{% if site.google_adsense_id %}
+<!-- Ad: In-Article -->
+<div class="ad-container ad-article" aria-label="広告">
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-client="{{ site.google_adsense_id }}"
+         data-ad-slot="{{ site.ads.article_slot }}"
+         data-ad-format="fluid"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}
