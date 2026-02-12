@@ -119,6 +119,13 @@ compress_html:
 # Google Analytics設定
 google_analytics: "G-TKR1S3YGB2"
 
+# Google AdSense設定（審査通過後にIDを設定してコメント解除）
+# google_adsense_id: "ca-pub-XXXXXXXXXXXXXXXX"
+# ads:
+#   header_slot: "XXXXXXXXXX"
+#   article_slot: "XXXXXXXXXX"
+#   sidebar_slot: "XXXXXXXXXX"
+
 # Social links
 social:
   twitter: "https://twitter.com/allforces_ai"

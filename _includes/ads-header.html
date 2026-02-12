@@ -1,0 +1,12 @@
+{% if site.google_adsense_id %}
+<!-- Ad: Header Banner -->
+<div class="ad-container ad-header" aria-label="広告">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="{{ site.google_adsense_id }}"
+         data-ad-slot="{{ site.ads.header_slot }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}

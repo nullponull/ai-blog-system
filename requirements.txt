@@ -1,0 +1,5 @@
+sentence-transformers==3.2.1
+scikit-learn==1.6.1
+numpy==2.2.3
+requests==2.32.4
+pillow==11.1.0

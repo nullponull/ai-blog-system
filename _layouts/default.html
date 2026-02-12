@@ -43,6 +43,11 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <!-- Google AdSense -->
+    {% if site.google_adsense_id %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google_adsense_id }}" crossorigin="anonymous"></script>
+    {% endif %}
     
     <!-- RSS Feeds -->
     <link type="application/atom+xml" rel="alternate" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title }} - すべての記事">
@@ -133,6 +138,7 @@
         
         <!-- Sidebar -->
         <aside class="sidebar" role="complementary" aria-label="サイドバー">
+            {% include ads-sidebar.html %}
             <!-- Recent Posts Widget -->
             <section class="widget" aria-labelledby="recent-posts-title">
                 <h3 id="recent-posts-title" class="widget-title">最新記事</h3>
@@ -170,6 +176,8 @@
                         <li><a href="{{ '/' | relative_url }}" aria-label="ホームページに戻る">ホーム</a></li>
                         <li><a href="/search/" aria-label="サイト内検索">検索</a></li>
                         <li><a href="/archive/" aria-label="記事アーカイブ">アーカイブ</a></li>
+                        <li><a href="/privacy/" aria-label="プライバシーポリシー">プライバシーポリシー</a></li>
+                        <li><a href="/terms/" aria-label="利用規約">利用規約</a></li>
                         <li><a href="https://allforces.wuaze.com" target="_blank" rel="noopener noreferrer" aria-label="コーポレートサイト（新しいタブで開く）">コーポレートサイト</a></li>
                     </ul>
                 </section>

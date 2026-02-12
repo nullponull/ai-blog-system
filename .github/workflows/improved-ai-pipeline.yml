@@ -11,11 +11,10 @@ jobs:
     permissions:
       contents: write
       pages: write
-      id-token: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0
 
@@ -27,19 +26,19 @@ jobs:
           git pull origin main || echo "⚠️ No remote changes to pull"
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '20'
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
         with:
           python-version: '3.10'
 
       - name: Install dependencies
         run: |
           npm install -g textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing @textlint-ja/textlint-rule-preset-ai-writing
-          pip install sentence-transformers scikit-learn numpy requests pillow
+          pip install -r requirements.txt
           mkdir -p _temp _posts assets/images/posts scripts
           chmod +x scripts/generate_content.py
 
@@ -596,8 +595,15 @@ jobs:
             fi
           done
 
+      # STAGE 3.5: Article Enrichment (Amazon Associates + Internal Links + Comparison Tables)
+      - name: Article enrichment (Amazon, internal links, comparison tables)
+        run: |
+          echo "📚 Running article enrichment..."
+          python3 scripts/enrich_article.py _posts/
+          echo "✅ Article enrichment complete"
+
       - name: Setup Ruby and Jekyll
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd # v1.288.0
         with:
           ruby-version: '3.1'
           bundler-cache: true
@@ -609,15 +615,15 @@ jobs:
           bundle exec jekyll build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: './_site'
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
 
       - name: Commit generated articles
         run: |
