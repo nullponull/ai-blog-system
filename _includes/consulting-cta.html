@@ -5,14 +5,14 @@
       <h3 class="consulting-cta__title">{{ site.consulting.cta_text | default: 'AI導入をサポート' }}</h3>
       <p class="consulting-cta__description">{{ site.consulting.cta_description | default: '貴社のAI活用を無料でご相談' }}</p>
       <div class="consulting-cta__actions">
-        <a href="{{ site.consulting.cta_url | default: '/contact/' }}" class="btn btn-primary">無料で相談する</a>
+        <a href="{{ site.consulting.contact_url | default: '/contact/' }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">無料で相談する</a>
       </div>
 
     {% when 'home' %}
       <h2 class="consulting-cta__title">{{ site.consulting.cta_text | default: 'AI導入をトータルサポート' }}</h2>
       <p class="consulting-cta__description">{{ site.consulting.cta_description | default: 'ALLFORCESは、AI戦略立案から実装・運用まで、貴社のAI活用を包括的に支援します。まずは無料相談で課題をお聞かせください。' }}</p>
       <div class="consulting-cta__actions">
-        <a href="{{ site.consulting.cta_url | default: '/contact/' }}" class="btn btn-primary">無料で相談する</a>
+        <a href="{{ site.consulting.contact_url | default: '/contact/' }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">無料で相談する</a>
         <a href="/services/" class="btn btn-outline">サービス内容を見る</a>
       </div>
 
@@ -21,7 +21,7 @@
       <h3 class="consulting-cta__title">{{ site.consulting.cta_text | default: 'この記事の内容について、無料相談を受付中' }}</h3>
       <p class="consulting-cta__description">{{ site.consulting.cta_description | default: 'ALLFORCESは、記事で紹介したAI技術の導入支援を行っています。貴社の課題に合わせた最適なソリューションをご提案します。' }}</p>
       <div class="consulting-cta__actions">
-        <a href="{{ site.consulting.cta_url | default: '/contact/' }}" class="btn btn-primary">無料で相談する</a>
+        <a href="{{ site.consulting.contact_url | default: '/contact/' }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">無料で相談する</a>
         <a href="/services/" class="btn btn-outline">サービス内容を見る</a>
       </div>
   {% endcase %}
