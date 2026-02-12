@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。"
 date: 2026-01-26 05:04:41 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新LLMモデル対応へ**について詳細に分析します。"

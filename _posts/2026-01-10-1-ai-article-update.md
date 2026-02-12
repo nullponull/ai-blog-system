@@ -2,7 +2,7 @@
 layout: post
 title: "AI医療の新たな波：その真意�"
 date: 2026-01-10 20:35:58 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、医療画像診断支援で成果について詳細に分析します。"

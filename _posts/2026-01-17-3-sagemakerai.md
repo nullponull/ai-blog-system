@@ -2,7 +2,7 @@
 layout: post
 title: "SageMakerのコスト削減、本当にAI開発を変えるのか？"
 date: 2026-01-17 20:37:03 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon SageMaker、AI開発コスト30%削減へ**について詳細に分析します。"

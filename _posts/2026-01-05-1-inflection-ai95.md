@@ -2,7 +2,7 @@
 layout: post
 title: "Inflection AIの感情分析95%達成、何が変わるのか？"
 date: 2026-01-05 20:39:33 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AI Pi、対話型AIの感情分析精度95%達成について詳細に分析します。"

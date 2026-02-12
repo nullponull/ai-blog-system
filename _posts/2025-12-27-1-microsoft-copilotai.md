@@ -2,7 +2,7 @@
 layout: post
 title: "# Microsoft Copilotが産業AIと連携�"
 date: 2025-12-27 20:35:27 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、産業AIでAPI連携強化について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "# Microsoft Copilotの個人有料プラ"
 date: 2026-01-20 20:50:36 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot、個人向け有料プラン加入者3億人突破**について詳細に分析します。"

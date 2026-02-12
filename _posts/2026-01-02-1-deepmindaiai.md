@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？"
 date: 2026-01-02 20:35:53 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、AGI模倣AIで新境地**について詳細に分析します。"

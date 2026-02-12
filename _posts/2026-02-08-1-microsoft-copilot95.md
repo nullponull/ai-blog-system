@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot、医療分野で「95%の精度」って、本当なの？"
 date: 2026-02-08 20:45:23 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot、医療分野で精度95%**について詳細に分析します。"

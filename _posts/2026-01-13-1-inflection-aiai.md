@@ -2,7 +2,7 @@
 layout: post
 title: "Inflection AIの野望、AIチップの未来はどう変わる？"
 date: 2026-01-13 20:39:54 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AI、次世代AIチップ開発へ巨額投資について詳細に分析します。"

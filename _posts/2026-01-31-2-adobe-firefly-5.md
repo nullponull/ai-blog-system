@@ -2,7 +2,7 @@
 layout: post
 title: "Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？"
 date: 2026-01-31 13:12:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Adobe Firefly 5、生成AIでデザイン自動化** (27文字)について詳細に分析します。"

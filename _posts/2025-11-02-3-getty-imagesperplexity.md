@@ -2,7 +2,7 @@
 layout: post
 title: "Getty ImagesとPerplexityの提携：そ"
 date: 2025-11-02 16:38:42 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Getty Images、Perplexityと提携について詳細に分析します。"

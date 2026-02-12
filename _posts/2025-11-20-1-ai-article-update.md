@@ -2,7 +2,7 @@
 layout: post
 title: "米国AI規制の嵐、その真意と業界に何をもたらすのか？"
 date: 2025-11-20 20:37:10 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "米国AI法案急増、規制複雑化について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "I've established a detailed article stru？"
 date: 2025-11-20 13:04:48 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "米、AI半導体輸出規制を強化について詳細に分析します。"

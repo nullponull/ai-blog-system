@@ -2,7 +2,7 @@
 layout: post
 title: "米国でAI規制の議論、何が変わるのでしょうか？"
 date: 2026-01-24 08:41:57 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AI規制法案、米国で連邦レベルの議論開始について詳細に分析します。"

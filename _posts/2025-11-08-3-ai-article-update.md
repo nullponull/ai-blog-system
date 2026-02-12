@@ -2,7 +2,7 @@
 layout: post
 title: "アドバンテスト、AIが牽引する株価最高値の真意とは？"
 date: 2025-11-08 20:32:02 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "アドバンテスト、AIで最高値更新について詳細に分析します。"

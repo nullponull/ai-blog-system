@@ -2,7 +2,7 @@
 layout: post
 title: "Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？"
 date: 2025-11-22 02:06:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Hon HaiとOpenAI、次世代AIインフラ強化について詳細に分析します。"

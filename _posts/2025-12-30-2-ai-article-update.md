@@ -2,7 +2,7 @@
 layout: post
 title: "日本のAI半導体特区、その本気度はどこまで届くのか？"
 date: 2025-12-30 20:37:25 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**日本、AI特区で半導体開発加速**について詳細に分析します。"

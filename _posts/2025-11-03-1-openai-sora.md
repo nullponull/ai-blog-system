@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAI Soraのクレジット制導入、その真意はどこにあるのか？"
 date: 2025-11-03 02:21:58 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI Sora、クレジット制導入で収益化について詳細に分析します。"

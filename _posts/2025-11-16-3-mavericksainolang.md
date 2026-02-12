@@ -2,7 +2,7 @@
 layout: post
 title: "Mavericksの動画生成AI「NoLang」�"
 date: 2025-11-16 04:41:11 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Mavericks、動画生成AI機能拡充について詳細に分析します。"

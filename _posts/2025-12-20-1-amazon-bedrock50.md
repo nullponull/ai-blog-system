@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、新モデル50種搭載。何が変わるのか？"
 date: 2025-12-20 08:39:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデル50種搭載**について詳細に分析します。"

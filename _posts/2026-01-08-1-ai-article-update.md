@@ -2,7 +2,7 @@
 layout: post
 title: "ソニーAIの脳波音楽、未来はもう始まっているのか？"
 date: 2026-01-08 20:38:55 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Sony AI、脳波AIで音楽生成進化**について詳細に分析します。"

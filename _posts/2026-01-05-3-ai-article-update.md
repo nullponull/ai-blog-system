@@ -2,7 +2,7 @@
 layout: post
 title: "医療AI、その真価はどこにある？"
 date: 2026-01-05 16:45:54 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**新興AI、医療画像診断を高度化** (新興企業)について詳細に分析します。"

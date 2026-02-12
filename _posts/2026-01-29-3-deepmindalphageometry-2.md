@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindの「AlphaGeometry 2」は、何を変えるのか？"
 date: 2026-01-29 08:59:54 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、新AIモデル「AlphaGeometry 2」公開**について詳細に分析します。"

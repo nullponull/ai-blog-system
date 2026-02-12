@@ -2,7 +2,7 @@
 layout: post
 title: "**FoxconnとNVIDIAの可能性とは？"
 date: 2025-11-23 02:33:17 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Foxconn、NVIDIA・OpenAIと提携強化について詳細に分析します。"

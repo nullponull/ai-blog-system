@@ -2,7 +2,7 @@
 layout: post
 title: "Meta Llama 4と量子AIの融合は、私たちの未来をどう書き換えるのか？"
 date: 2025-12-13 04:40:33 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Meta Llama 4、量子AI融合へ**について詳細に分析します。"

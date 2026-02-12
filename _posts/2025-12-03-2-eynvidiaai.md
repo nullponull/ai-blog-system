@@ -2,7 +2,7 @@
 layout: post
 title: "**EYとNVIDIAの物理AIプラットフ�"
 date: 2025-12-03 13:08:25 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "EY、NVIDIAと物理AIプラットフォーム展開について詳細に分析します。"

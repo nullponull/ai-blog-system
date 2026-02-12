@@ -2,7 +2,7 @@
 layout: post
 title: "AIチップ特許戦争、IntelがTSMCに挑む。この闘いが業界をどう変えるのか？"
 date: 2026-01-02 16:41:26 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**AIチップ特許争い激化、IntelがTSMCに提訴**について詳細に分析します。"

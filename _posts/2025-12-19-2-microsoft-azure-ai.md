@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Azure AIと量子コンピュ�"
 date: 2025-12-19 16:45:04 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Azure AI、量子コンピューティング連携強化**について詳細に分析します。"

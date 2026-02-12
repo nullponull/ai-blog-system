@@ -2,7 +2,7 @@
 layout: post
 title: "**Hugging Faceの1億ドル調達の可�"
 date: 2026-02-02 17:01:43 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Hugging Face、AIモデル共有プラットフォームで新規資金調達1億ドル**について詳細に分析します。"

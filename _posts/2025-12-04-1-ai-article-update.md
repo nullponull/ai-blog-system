@@ -2,7 +2,7 @@
 layout: post
 title: "AIと金融コンプライアンスの交差点、その真意とは？"
 date: 2025-12-04 16:48:36 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "銀行向けAIコンプライアンスAlinia、750万ドル調達について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "中国矩僑工業の触覚繊維センサー、ロボットの未来をどう変えるのか？"
 date: 2025-11-17 02:20:45 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "中国矩僑工業、触覚繊維センサー開発について詳細に分析します。"

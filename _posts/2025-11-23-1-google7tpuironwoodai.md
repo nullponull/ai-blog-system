@@ -2,7 +2,7 @@
 layout: post
 title: "Googleの第7世代TPU「Ironwood」はAIの未来をどう変えるのか？"
 date: 2025-11-23 04:47:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Google、第7世代TPU「Ironwood」公開について詳細に分析します。"

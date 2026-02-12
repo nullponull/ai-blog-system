@@ -2,7 +2,7 @@
 layout: post
 title: "トヨタは深層学習で自動運転AIをどう変える？"
 date: 2026-01-21 08:50:32 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "トヨタ、自動運転AIに深層学習導入について詳細に分析します。"

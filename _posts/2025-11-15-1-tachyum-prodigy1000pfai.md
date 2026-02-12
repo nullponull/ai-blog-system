@@ -2,7 +2,7 @@
 layout: post
 title: "Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？"
 date: 2025-11-15 12:56:54 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Tachyum 2nm Prodigy発表、AI性能1000PF超について詳細に分析します。"

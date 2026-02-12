@@ -2,7 +2,7 @@
 layout: post
 title: "バイドゥの『崑崙芯』、中国AIチップ市場の覇権を握るのか？その真意と？"
 date: 2025-11-28 16:40:42 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Baidu、AIチップ「Kunlunxin」で中国市場リードについて詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "MetaがGoogle TPUを検討？ 720億ド�"
 date: 2025-11-30 16:40:23 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Meta、Google TPU検討 720億ドル投資について詳細に分析します。"

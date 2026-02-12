@@ -1,0 +1,89 @@
+---
+layout: default
+title: "AI導入戦略 - 投資判断・ROI分析・導入ロードマップ"
+permalink: /category/strategy/
+description: "AI投資判断、ROI分析、導入ロードマップなど、AI導入の戦略面を専門家の視点で解説します。"
+---
+
+<div class="category-page">
+    <div class="category-header">
+        <div class="category-icon">{% include icon.html category="AI導入戦略" class="category-page-icon-svg" size="48" %}</div>
+        <h1>AI導入戦略</h1>
+        <p>AI投資判断、ROI分析、導入ロードマップなど、AI導入の戦略面を専門家の視点で解説します。</p>
+        <div class="category-stats">
+            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains 'AI導入戦略'" %}
+            <span class="stat">{{ category_posts.size }}記事</span>
+            {% if category_posts.size > 0 %}
+            <span class="stat">最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Featured Article -->
+    {% if category_posts.size > 0 %}
+    {% assign featured_post = category_posts.first %}
+    <div class="featured-article">
+        <h2 class="section-title">注目記事</h2>
+        <article class="featured-post">
+            <div class="featured-content">
+                <div class="featured-meta">
+                    <span class="featured-date">{{ featured_post.date | date: "%Y年%m月%d日" }}</span>
+                    <span class="reading-time">{{ featured_post.reading_time | default: "8" }}分</span>
+                </div>
+                <h3><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h3>
+                <p>{{ featured_post.excerpt | strip_html | truncate: 200 }}</p>
+                <div class="featured-tags">
+                    {% for tag in featured_post.tags limit:4 %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </article>
+    </div>
+    {% endif %}
+
+    <!-- Articles List -->
+    <div class="articles-section">
+        <h2 class="section-title">記事一覧</h2>
+
+        {% if category_posts.size > 0 %}
+        <div class="articles-grid">
+            {% for post in category_posts offset:1 %}
+            <article class="article-card">
+                <div class="article-date">
+                    <span class="day">{{ post.date | date: "%-d" }}</span>
+                    <span class="month">{{ post.date | date: "%b" }}</span>
+                </div>
+
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="reading-time">{{ post.reading_time | default: "8" }}分</span>
+                    </div>
+
+                    <h3 class="article-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+
+                    {% if post.excerpt %}
+                    <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                    {% endif %}
+
+                    {% if post.tags and post.tags.size > 0 %}
+                    <div class="article-tags">
+                        {% for tag in post.tags limit:3 %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="no-posts">
+            <p>このカテゴリの記事はまだありません。</p>
+            <p><a href="{{ '/' | relative_url }}">ホームに戻る</a></p>
+        </div>
+        {% endif %}
+    </div>
+</div>

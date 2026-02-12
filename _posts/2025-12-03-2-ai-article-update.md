@@ -2,7 +2,7 @@
 layout: post
 title: "# ファナックが描く「フィジカルAI」の真意とは？ 産業の未来は何が変わるのか？"
 date: 2025-12-03 20:39:28 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "ファナック等、フィジカルAIに注力について詳細に分析します。"

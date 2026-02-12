@@ -2,7 +2,7 @@
 layout: post
 title: "AI倫理の国際標準化はの可能�"
 date: 2026-02-09 05:47:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AI倫理ガイドライン、国際標準化へについて詳細に分析します。"

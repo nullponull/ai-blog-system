@@ -2,7 +2,7 @@
 layout: post
 title: "日本がAIチップ独自規格を検討する真意とは？そして、その先に何が変わるのか？"
 date: 2025-12-12 20:39:32 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AIチップ規制、日本が独自規格検討について詳細に分析します。"

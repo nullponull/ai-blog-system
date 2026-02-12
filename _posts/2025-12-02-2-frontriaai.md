@@ -2,7 +2,7 @@
 layout: post
 title: "富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？"
 date: 2025-12-02 16:48:39 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "富士通、AI偽情報対策コンソーシアム設立について詳細に分析します。"

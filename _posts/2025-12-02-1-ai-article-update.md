@@ -2,7 +2,7 @@
 layout: post
 title: "オーストラリアのAI安全投資、その真意はどこにあるのか？"
 date: 2025-12-02 04:45:51 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "豪、AI安全研究所に2990万ドル投資について詳細に分析します。"

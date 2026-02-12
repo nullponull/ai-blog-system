@@ -2,7 +2,7 @@
 layout: post
 title: "Sonyの「BraviaAI」がPS6にもたら�"
 date: 2026-01-31 05:10:04 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Sony、PS6向けAIチップ「BraviaAI」発表** (16文字)について詳細に分析します。"

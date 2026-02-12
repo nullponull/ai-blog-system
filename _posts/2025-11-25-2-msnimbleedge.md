@@ -2,7 +2,7 @@
 layout: post
 title: "「MSとNimbleEdgeの可能性とは？"
 date: 2025-11-25 20:39:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "MSとNimbleEdge、AndroidオンデバイスAIについて詳細に分析します。"

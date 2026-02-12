@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrockの可能性とは？"
 date: 2026-01-15 20:40:15 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデル50種超対応**について詳細に分析します。"

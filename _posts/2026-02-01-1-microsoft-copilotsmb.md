@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot、SMBの未来をどう変えるのか？"
 date: 2026-02-01 05:39:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、SMB向け機能強化について詳細に分析します。"

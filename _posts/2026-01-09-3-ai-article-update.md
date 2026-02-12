@@ -2,7 +2,7 @@
 layout: post
 title: "トヨタの可能性とは？"
 date: 2026-01-09 13:10:53 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**トヨタ、自動運転AIに3兆円投資**について詳細に分析します。"

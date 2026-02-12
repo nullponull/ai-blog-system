@@ -2,7 +2,7 @@
 layout: post
 title: "Googleの「Nano Banana Pro」：その�"
 date: 2025-12-01 02:40:59 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Google、日本語特化AI「Nano Banana Pro」について詳細に分析します。"

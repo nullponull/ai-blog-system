@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoftの次世代HPC、AI性能2倍の真意は何？"
 date: 2025-12-26 08:43:50 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、次世代HPCでAI性能2倍**について詳細に分析します。"

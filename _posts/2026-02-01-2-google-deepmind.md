@@ -2,7 +2,7 @@
 layout: post
 title: "Google DeepMindがの可能性とは？"
 date: 2026-02-01 20:43:00 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Google DeepMind、脳型AIで新記録達成**について詳細に分析します。"

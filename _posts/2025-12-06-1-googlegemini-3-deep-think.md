@@ -2,7 +2,7 @@
 layout: post
 title: "**Google「Gemini 3 Deep Think」発表�"
 date: 2025-12-06 20:34:41 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google「Gemini 3 Deep Think」発表について詳細に分析します。"

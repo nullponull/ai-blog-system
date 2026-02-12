@@ -2,7 +2,7 @@
 layout: post
 title: "百度、自動運転レベル４実用化は本当に来るのか？"
 date: 2026-02-06 09:02:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、自動運転レベル4実用化へ**について詳細に分析します。"

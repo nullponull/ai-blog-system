@@ -1,10 +1,11 @@
 # Site settings
-title: "ALLFORCES AI情報メディア"
-description: "株式会社ALLFORCESが運営するAI専門情報メディア。最新のAI技術動向、研究成果、実装事例、業界分析を専門家の視点でお届けします。"
+title: "AIコンパス by ALLFORCES"
+description: "AI導入の羅針盤 -- 技術と経営をつなぐ。株式会社ALLFORCESが運営するAI専門メディア。最新のAI技術動向、導入戦略、実装事例、業界分析を実務の視点でお届けします。"
 author: "株式会社ALLFORCES"
-email: "info@allforces.wuaze.com"
-url: "https://ai-allforces.allforces.wuaze.com"
+email: "info@ai-media.co.jp"
+url: "https://ai-media.co.jp"
 baseurl: ""
+tagline: "AI導入の羅針盤 -- 技術と経営をつなぐ"
 
 # SEO settings
 logo: "/assets/images/logo.png"
@@ -47,7 +48,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "AI記事生成システム"
+      author: "AIコンパス編集部"
       comments: false
       share: true
       sitemap:
@@ -131,6 +132,21 @@ social:
   twitter: "https://twitter.com/allforces_ai"
   github: "https://github.com/allforces"
   linkedin: "https://linkedin.com/company/allforces"
+  note: "https://note.com/allforces"
+
+# Consulting settings
+consulting:
+  enabled: true
+  cta_text: "AI導入でお悩みですか?"
+  cta_description: "ALLFORCESは多数のAI導入支援実績を持つ専門家チームです。まずは無料相談から。"
+  cta_url: "/contact/"
+  formspree_id: "placeholder"
+
+# Newsletter settings
+newsletter:
+  enabled: true
+  cta_text: "AI最新情報を毎週お届け"
+  formspree_id: "placeholder"
 
 # Reading time calculation
 reading_time: true
@@ -147,21 +163,30 @@ related_posts_limit: 3
 
 # Content categories for media
 content_categories:
-  - name: "最新動向"
+  - name: "AI最新ニュース"
     description: "AI業界の最新ニュースと企業動向"
     icon_type: "trend-analysis"
-  - name: "技術解説"
-    description: "Transformer、GANなどのコア技術解説"
+    slug: "latest"
+  - name: "AI技術ガイド"
+    description: "LLM、RAG、エージェントなどのコア技術解説"
     icon_type: "technology"
+    slug: "tech"
+  - name: "AI導入戦略"
+    description: "AI投資判断・ROI分析・導入ロードマップ"
+    icon_type: "strategy"
+    slug: "strategy"
+  - name: "業界別AI活用"
+    description: "製造・金融・小売など業界別のAI活用動向"
+    icon_type: "business-analysis"
+    slug: "industry"
+  - name: "導入事例"
+    description: "企業のAI実装プロジェクト事例とコンサルティング知見"
+    icon_type: "implementation"
+    slug: "case-studies"
   - name: "研究論文"
     description: "NeurIPS、ICMLなどの注目論文レビュー"
     icon_type: "research-paper"
-  - name: "実装事例"
-    description: "ALLFORCESの実際の開発プロジェクト事例"
-    icon_type: "implementation"
-  - name: "業界分析"
-    description: "特定業界におけるAI活用動向"
-    icon_type: "business-analysis"
+    slug: "research"
 
 # Custom variables for AI article generation
 ai_generation:

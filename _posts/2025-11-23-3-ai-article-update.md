@@ -2,7 +2,7 @@
 layout: post
 title: "中国「AIプラス」戦略の真意�"
 date: 2025-11-23 08:39:23 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "中国「AIプラス」産業統合加速について詳細に分析します。"

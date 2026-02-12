@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftはAzure AIで何を発表したのだろうか？"
 date: 2025-12-21 16:38:40 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、Azure AIで新生成モデル発表について詳細に分析します。"

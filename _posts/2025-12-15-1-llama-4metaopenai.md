@@ -2,7 +2,7 @@
 layout: post
 title: "# Llama 4の登場で、Metaが描くオープンAI戦略の深層とは何か？"
 date: 2025-12-15 20:38:57 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "OpenAI", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Meta、次世代LLM「Llama 4」発表、性能30%向上**について詳細に分析します。"

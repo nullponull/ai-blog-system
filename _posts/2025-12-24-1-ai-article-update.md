@@ -2,7 +2,7 @@
 layout: post
 title: "**ソニーがAIチップで画像処理"
 date: 2025-12-24 13:04:03 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Sony、AIチップで画像処理能力3倍**について詳細に分析します。"

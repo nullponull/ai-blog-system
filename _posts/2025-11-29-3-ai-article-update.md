@@ -2,7 +2,7 @@
 layout: post
 title: "生成AI、無料の蜜月は終わるのか？ コストの現実が示す未来とは？"
 date: 2025-11-29 16:40:33 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "生成AI無料利用制限、コストが現実化について詳細に分析します。"

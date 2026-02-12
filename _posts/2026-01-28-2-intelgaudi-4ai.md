@@ -2,7 +2,7 @@
 layout: post
 title: "IntelのGaudi 4、AIのゲームチェンジャーとなるのか？"
 date: 2026-01-28 20:50:43 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Intel、AI向け新GPU「Gaudi 4」投入**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "# AIチップ市場の可能性とは？"
 date: 2026-02-02 17:02:48 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**AIチップ市場、2026年までにAMDがNVIDIAシェアを15%奪取へ**について詳細に分析します。"
