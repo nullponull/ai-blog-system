@@ -311,10 +311,10 @@ input, button, textarea, select {
 
 .site-title {
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-extrabold);
   font-family: var(--font-family-display);
   text-decoration: none;
-  color: var(--color-neutral-900);
+  color: var(--text-default);
   display: flex;
   align-items: center;
   gap: var(--space-3);
@@ -1342,8 +1342,7 @@ input, button, textarea, select {
 .article-meta,
 .post-meta,
 .featured-meta,
-.related-post-meta,
-.category-stats .stat {
+.related-post-meta {
   color: var(--text-subtle) !important;
   font-weight: var(--font-weight-medium);
 }
