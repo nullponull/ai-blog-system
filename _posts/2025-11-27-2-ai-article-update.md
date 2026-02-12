@@ -2,7 +2,7 @@
 layout: post
 title: "タイトル：その真意は？"
 date: 2025-11-27 08:46:35 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Sakana AI、200億円調達：日本のAIスタートアップSakana AI、約200億円資金調達�について詳細に分析します。"

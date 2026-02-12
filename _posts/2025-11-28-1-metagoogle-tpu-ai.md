@@ -2,7 +2,7 @@
 layout: post
 title: "メタがGoogle TPUを採用？ AIイン"
 date: 2025-11-28 08:44:46 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Meta、Google AIチップTPU採用へについて詳細に分析します。"

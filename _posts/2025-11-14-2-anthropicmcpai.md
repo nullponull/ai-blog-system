@@ -2,7 +2,7 @@
 layout: post
 title: "AnthropicのMCPが金融AIを変革する真意とは？"
 date: 2025-11-14 20:38:15 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic MCP、金融AI変革について詳細に分析します。"

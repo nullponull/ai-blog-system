@@ -44,12 +44,45 @@ Usage: {% include icon.html category="最新動向" class="optional-class" %}
         <polyline points="8 6 2 12 8 18"/>
       </svg>
     </span>
-  {%- when "業界分析" -%}
+  {%- when "業界別AI活用" -%}
     <span class="icon {{ icon_class }}" aria-hidden="true">
       <svg width="{{ icon_size }}" height="{{ icon_size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M12 20V10"/>
         <path d="M18 20V4"/>
         <path d="M6 20v-6"/>
+      </svg>
+    </span>
+  {%- when "AI導入戦略" -%}
+    <span class="icon {{ icon_class }}" aria-hidden="true">
+      <svg width="{{ icon_size }}" height="{{ icon_size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+      </svg>
+    </span>
+  {%- when "AI最新ニュース" -%}
+    <span class="icon {{ icon_class }}" aria-hidden="true">
+      <svg width="{{ icon_size }}" height="{{ icon_size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 3v18h18"/>
+        <path d="m19 9-5 5-4-4-3 3"/>
+        <circle cx="9" cy="9" r="1"/>
+        <circle cx="14" cy="14" r="1"/>
+        <circle cx="19" cy="9" r="1"/>
+      </svg>
+    </span>
+  {%- when "AI技術ガイド" -%}
+    <span class="icon {{ icon_class }}" aria-hidden="true">
+      <svg width="{{ icon_size }}" height="{{ icon_size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="14" height="8" x="5" y="2" rx="2"/>
+        <rect width="20" height="8" x="2" y="14" rx="2"/>
+        <path d="M6 18h2"/>
+        <path d="M12 18h6"/>
+      </svg>
+    </span>
+  {%- when "導入事例" -%}
+    <span class="icon {{ icon_class }}" aria-hidden="true">
+      <svg width="{{ icon_size }}" height="{{ icon_size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="16 18 22 12 16 6"/>
+        <polyline points="8 6 2 12 8 18"/>
       </svg>
     </span>
   {%- else -%}

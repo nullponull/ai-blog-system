@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot Pro法人利用率30%�"
 date: 2026-02-04 20:53:56 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot Pro、法人向け利用率30%突破について詳細に分析します。"

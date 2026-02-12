@@ -2,7 +2,7 @@
 layout: post
 title: "富士通「Frontria」が問うAIの信頼性、その真意とは何か？"
 date: 2025-12-02 13:07:34 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "富士通、AIリスク対応新コンソーシアムについて詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "日俳連のAI音声DB「J-VOX-PRO」始動、その真意は何を語るのか？"
 date: 2025-11-14 08:43:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "日俳連、AI音声DB「J-VOX-PRO」始動について詳細に分析します。"

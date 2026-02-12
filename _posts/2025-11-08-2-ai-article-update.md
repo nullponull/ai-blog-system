@@ -2,7 +2,7 @@
 layout: post
 title: "台湾企業がAIスマートグラスに注力する真意とは？その戦略と未来を読み解く"
 date: 2025-11-08 08:37:57 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "台湾企業、AIスマートグラスに注力について詳細に分析します。"

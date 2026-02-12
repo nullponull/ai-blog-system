@@ -2,7 +2,7 @@
 layout: post
 title: "メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？"
 date: 2025-11-29 04:40:08 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Meta AI、日本で提供開始Llama 4基盤について詳細に分析します。"

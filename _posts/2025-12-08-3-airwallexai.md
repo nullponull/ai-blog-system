@@ -2,7 +2,7 @@
 layout: post
 title: "# AirwallexのAI、金融ワークフローをどこまで変えるのか？"
 date: 2025-12-08 08:51:06 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Airwallex: AI Automates Workflows**について詳細に分析します。"

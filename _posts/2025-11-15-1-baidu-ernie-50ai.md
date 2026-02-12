@@ -2,7 +2,7 @@
 layout: post
 title: "Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？"
 date: 2025-11-15 20:33:03 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE 5.0発表、マルチモーダルAIについて詳細に分析します。"

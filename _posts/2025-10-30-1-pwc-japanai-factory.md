@@ -2,7 +2,7 @@
 layout: post
 title: "PwC Japanの「AI Factory」発足、その真意はどこにあるのか？"
 date: 2025-10-30 08:03:51 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "PwC Japan、AI Factory発足について詳細に分析します。"

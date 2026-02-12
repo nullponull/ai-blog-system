@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMind「AlphaFold 3」が拓く創薬"
 date: 2026-01-17 20:36:56 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、新AIモデル「AlphaFold 3」で創薬革命**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "ByteDanceのAI収益化戦略、その真意は？"
 date: 2025-12-21 08:40:16 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**ByteDance、AI生成コンテンツ収益化戦略を発表**について詳細に分析します。"

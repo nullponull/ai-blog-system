@@ -2,7 +2,7 @@
 layout: post
 title: "Baidu ERNIEの可能性とは？"
 date: 2025-11-14 16:44:11 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE、視覚AIでGPT超えについて詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "**AdobeのSemrush買収、その真意はどこにあるのか？**"
 date: 2025-11-28 08:45:52 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe、Semrushを19億ドル買収について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "# Amazon BedrockとClaude 4の連携の�"
 date: 2025-12-28 04:55:30 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、Anthropic Claude 4発表について詳細に分析します。"

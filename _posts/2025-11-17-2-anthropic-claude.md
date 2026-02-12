@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropic Claude悪用事件が問い？"
 date: 2025-11-17 04:41:37 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude、中国攻撃者に悪用について詳細に分析します。"

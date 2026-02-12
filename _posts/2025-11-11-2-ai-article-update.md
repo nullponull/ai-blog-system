@@ -2,7 +2,7 @@
 layout: post
 title: "中国、人型ロボット「小衆」進化の真意とは？その技術と市場の未来を読み解く"
 date: 2025-11-11 20:36:10 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "中国、人型ロボット「小衆」進化について詳細に分析します。"

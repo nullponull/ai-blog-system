@@ -7,20 +7,25 @@ hide_breadcrumbs: true
 <section class="hero-section">
     <div class="hero-content">
         <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
+        <p class="hero-tagline">{{ site.tagline | default: site.description }}</p>
+        <p class="hero-description">{{ site.description }}</p>
         <div class="hero-stats">
             <div class="stat">
                 <span class="stat-number">{{ site.posts.size }}</span>
                 <span class="stat-label">記事</span>
             </div>
             <div class="stat">
-                <span class="stat-number">30+</span>
-                <span class="stat-label">専門エンジニア</span>
+                <span class="stat-number">50+</span>
+                <span class="stat-label">導入支援実績</span>
             </div>
             <div class="stat">
-                <span class="stat-number">50+</span>
-                <span class="stat-label">開発実績</span>
+                <span class="stat-number">100+</span>
+                <span class="stat-label">AI開発プロジェクト</span>
             </div>
+        </div>
+        <div class="hero-actions">
+            <a href="/services/" class="btn-primary">サービスを見る</a>
+            <a href="/contact/" class="btn-outline">無料相談</a>
         </div>
     </div>
 </section>
@@ -237,6 +242,45 @@ hide_breadcrumbs: true
     </nav>
     {% endif %}
 </section>
+
+<!-- Consulting Teaser Section -->
+{% if site.consulting.enabled %}
+<section class="consulting-teaser-section">
+    <div class="section-header">
+        <h2 class="section-title">AIコンサルティング</h2>
+        <a href="/services/" class="section-link">サービス詳細 →</a>
+    </div>
+    <div class="service-grid">
+        <div class="service-card">
+            <div class="service-card__icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                </svg>
+            </div>
+            <h3 class="service-card__title">AI戦略策定</h3>
+            <p class="service-card__description">業界・事業特性に合わせたAI導入ロードマップを策定。投資対効果を最大化する戦略をご提案します。</p>
+        </div>
+        <div class="service-card">
+            <div class="service-card__icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                </svg>
+            </div>
+            <h3 class="service-card__title">PoC開発</h3>
+            <p class="service-card__description">最小限のコストで仮説検証。AIの実現可能性を素早く確認し、本格導入への判断材料を提供します。</p>
+        </div>
+        <div class="service-card">
+            <div class="service-card__icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="14" height="8" x="5" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6 18h2"/><path d="M12 18h6"/>
+                </svg>
+            </div>
+            <h3 class="service-card__title">AI導入支援</h3>
+            <p class="service-card__description">設計から実装、運用まで一貫してサポート。既存システムとのシームレスな統合を実現します。</p>
+        </div>
+    </div>
+</section>
+{% endif %}
 
 <!-- Categories Section -->
 <section class="categories-section">

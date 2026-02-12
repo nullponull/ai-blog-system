@@ -2,7 +2,7 @@
 layout: post
 title: "AIの電力消費、環境規制の波は来るのか？その真意と未来への影響"
 date: 2025-10-30 20:36:37 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "環境団体、AI電力規制を議会に要請について詳細に分析します。"

@@ -1,0 +1,273 @@
+---
+layout: default
+title: "お問い合わせ"
+permalink: /contact/
+description: "ALLFORCES AI情報メディアへのお問い合わせ。AI導入コンサルティング、研修、記事に関するご質問など、お気軽にご連絡ください。"
+sitemap:
+  priority: 0.8
+  changefreq: monthly
+---
+
+<div class="contact-page">
+    <!-- ヒーローセクション -->
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>お問い合わせ</h1>
+            <p class="hero-subtitle">AI導入に関するご相談、記事に関するご質問など、お気軽にご連絡ください</p>
+        </div>
+    </section>
+
+    <!-- メインコンテンツ -->
+    <section class="contact-main">
+        <div class="contact-container">
+            <!-- フォームエリア -->
+            <div class="contact-form-area">
+                <div class="form-header">
+                    <h2>お問い合わせフォーム</h2>
+                    <p>下記のフォームからお問い合わせいただけます。<span class="required-note">※</span>は必須項目です。</p>
+                </div>
+                {% include contact-form.html %}
+            </div>
+
+            <!-- サイドパネル -->
+            <div class="contact-info-area">
+                <div class="info-card">
+                    <h3>お問い合わせ先</h3>
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <div class="info-label">メールアドレス</div>
+                            <div class="info-value">
+                                <a href="mailto:info@ai-media.co.jp">info@ai-media.co.jp</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-content">
+                            <div class="info-label">対応時間</div>
+                            <div class="info-value">平日 10:00 - 18:00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>返信について</h3>
+                    <p>お問い合わせいただいた内容は、2営業日以内にご返信いたします。</p>
+                    <p>お急ぎの場合は、件名に「至急」とご記入ください。</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>よくあるお問い合わせ</h3>
+                    <ul class="faq-list">
+                        <li>AI導入コンサルティングの流れ</li>
+                        <li>研修プログラムの内容</li>
+                        <li>記事の転載・引用について</li>
+                        <li>メディア掲載・取材のご依頼</li>
+                    </ul>
+                    <a href="/about/" class="info-link">会社概要を見る →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-hero {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+    color: var(--white);
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-main {
+    padding: 0 2rem 4rem;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+
+.contact-form-area {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--gray-200);
+}
+
+.form-header {
+    margin-bottom: 2rem;
+}
+
+.form-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 0.5rem;
+}
+
+.form-header p {
+    color: var(--gray-600);
+    line-height: 1.6;
+}
+
+.required-note {
+    color: var(--red-500);
+}
+
+.contact-info-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--gray-200);
+}
+
+.info-card h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-green);
+}
+
+.info-card p {
+    color: var(--gray-700);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.info-content {
+    flex: 1;
+}
+
+.info-label {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.info-value {
+    color: var(--gray-900);
+    font-weight: 500;
+}
+
+.info-value a {
+    color: var(--primary-green);
+    text-decoration: none;
+}
+
+.info-value a:hover {
+    text-decoration: underline;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.faq-list li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    color: var(--gray-700);
+    position: relative;
+}
+
+.faq-list li::before {
+    content: '・';
+    color: var(--primary-green);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.info-link {
+    display: inline-block;
+    color: var(--primary-green);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.info-link:hover {
+    color: var(--primary-green-dark);
+    transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+    .contact-hero {
+        padding: 2rem 1rem;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .contact-main {
+        padding: 0 1rem 2rem;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-form-area {
+        padding: 1.5rem;
+    }
+
+    .form-header h2 {
+        font-size: 1.3rem;
+    }
+}
+</style>

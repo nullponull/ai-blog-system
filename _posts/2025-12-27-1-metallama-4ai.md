@@ -2,7 +2,7 @@
 layout: post
 title: "MetaのLlama 4、汎用AIの夜明けを告げるのか？その真価と未来への問い"
 date: 2025-12-27 13:00:39 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "OpenAI", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Meta、Llama 4で汎用AI性能向上**について詳細に分析します。"

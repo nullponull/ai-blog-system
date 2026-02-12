@@ -2,7 +2,7 @@
 layout: post
 title: "World Labsの「Marble」が描く、3D世界生成の未来とその真価とは？"
 date: 2025-11-25 16:47:08 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "World Labs 3D世界モデル「マーブル」公開について詳細に分析します。"

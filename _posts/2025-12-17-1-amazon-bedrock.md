@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、自社製チップで性能倍増、何が変わるのか？"
 date: 2025-12-17 20:38:36 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、自社製チップで性能倍増**について詳細に分析します。"

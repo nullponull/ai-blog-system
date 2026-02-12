@@ -2,7 +2,7 @@
 layout: post
 title: "Google Gemini 3が示す、AIの「自律」への真意とは？"
 date: 2025-11-30 08:38:32 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google、Gemini 3発表「自律AI」へについて詳細に分析します。"

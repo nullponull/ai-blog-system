@@ -2,7 +2,7 @@
 layout: post
 title: "最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？"
 date: 2026-01-04 16:40:19 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Kaggle、最新LLMコンペで新記録達成**について詳細に分析します。"

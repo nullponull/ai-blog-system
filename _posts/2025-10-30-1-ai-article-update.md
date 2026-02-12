@@ -2,7 +2,7 @@
 layout: post
 title: "「AI生成コンテンツ」著作権法の行方：技術の進化と法整備の狭間で何が変わるのか？"
 date: 2025-10-30 16:43:41 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "「AI生成コンテンツ」著作権法整備へについて詳細に分析します。"

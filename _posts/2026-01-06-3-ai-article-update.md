@@ -2,7 +2,7 @@
 layout: post
 title: "最近「AI倫理ガイドラインの�"
 date: 2026-01-06 20:39:46 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**AI倫理ガイドライン、国際標準化へ進展**について詳細に分析します。"

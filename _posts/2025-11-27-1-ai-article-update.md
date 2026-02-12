@@ -2,7 +2,7 @@
 layout: post
 title: "AIがメモリチップ市場に投じる波紋、その真意とは？"
 date: 2025-11-27 04:39:59 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "メモリチップ50%高騰予測: AI需要で供給逼迫について詳細に分析します。"

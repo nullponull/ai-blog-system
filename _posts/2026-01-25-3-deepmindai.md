@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindの創薬AI、その真意と未来はどこにあるのか？"
 date: 2026-01-25 20:39:08 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、新AIモデルで創薬速度3倍に**について詳細に分析します。"

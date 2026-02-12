@@ -2,7 +2,7 @@
 layout: post
 title: "AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解く"
 date: 2025-11-01 08:38:06 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、AI投資とAWS成長で株価上昇について詳細に分析します。"

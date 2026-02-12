@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrockの50モデル突破が示"
 date: 2025-12-26 13:03:25 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、生成AIモデル数50突破について詳細に分析します。"

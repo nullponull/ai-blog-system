@@ -2,7 +2,7 @@
 layout: post
 title: "Google Gemini 3 Proが掲げる「高情"
 date: 2025-11-23 20:35:23 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3 Pro、高情報処理を強調について詳細に分析します。"

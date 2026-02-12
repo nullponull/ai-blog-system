@@ -2,7 +2,7 @@
 layout: post
 title: "Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？"
 date: 2025-12-17 13:08:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**AIチップ特許紛争、IntelがAMDを提訴** (企業・技術・訴訟)について詳細に分析します。"

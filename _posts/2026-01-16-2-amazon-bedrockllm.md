@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、新LLMモデル追加で何が変わる？"
 date: 2026-01-16 04:53:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新LLMモデル追加**について詳細に分析します。"

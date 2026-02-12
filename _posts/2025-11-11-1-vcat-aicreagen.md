@@ -2,7 +2,7 @@
 layout: post
 title: "VCAT AIのCREAGENの可能性とは？"
 date: 2025-11-11 02:18:41 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "VCAT AI、GPT-5搭載「CREAGEN」発表について詳細に分析します。"

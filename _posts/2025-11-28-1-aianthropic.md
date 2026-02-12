@@ -2,7 +2,7 @@
 layout: post
 title: "AI時代の著作権、Anthropicの巨額和解が示す「フェアユース」の真意とは？"
 date: 2025-11-28 04:39:20 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、著作権訴訟で15億ドル和解について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "AIの「思考の連鎖ハイジャック」は、単なる脆弱性なのか？"
 date: 2025-11-29 12:59:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "新AI攻撃「Chain-of-Thought Hijacking」発見について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindの生物学AIが新薬開発にもたらす変革の本質とは？"
 date: 2025-12-18 16:48:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、生物学研究にAI活用、新薬発見加速**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？"
 date: 2025-11-15 02:10:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、インドでChatGPT Goを1年無料提供について詳細に分析します。"

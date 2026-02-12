@@ -2,7 +2,7 @@
 layout: post
 title: "Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？"
 date: 2025-11-16 12:57:20 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Kodiak AI、ZFと無人トラック開発加速について詳細に分析します。"

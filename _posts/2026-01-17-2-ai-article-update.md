@@ -2,7 +2,7 @@
 layout: post
 title: "トヨタの自動運転レベル4、その真意は何だろうか？"
 date: 2026-01-17 02:23:57 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "トヨタ、AI自動運転レベル4達成へ研究加速について詳細に分析します。"

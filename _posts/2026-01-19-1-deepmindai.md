@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？"
 date: 2026-01-19 05:03:01 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、汎用AI研究で新ブレークスルー**について詳細に分析します。"

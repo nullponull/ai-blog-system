@@ -2,7 +2,7 @@
 layout: post
 title: "IBM WatsonX、製薬AIで臨床試験期間20%短縮。何が変わるのか？"
 date: 2026-01-04 16:39:31 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**IBM WatsonX、製薬AIで臨床試験期間20%短縮**について詳細に分析します。"

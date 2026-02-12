@@ -2,7 +2,7 @@
 layout: post
 title: "AIが創る三次元世界の未来、スタンフォード発「マーブル」は何をもたらすのか？"
 date: 2025-11-25 20:39:39 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "スタンフォード発、3D世界モデル「マーブル」について詳細に分析します。"

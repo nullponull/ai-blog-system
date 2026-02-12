@@ -2,7 +2,7 @@
 layout: post
 title: "AIの未来は「土」にあり？希土類元素が握るインフラの真意と？"
 date: 2025-11-02 08:36:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AIインフラ、希土類元素が重要について詳細に分析します。"

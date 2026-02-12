@@ -2,7 +2,7 @@
 layout: post
 title: "「Copilot for Finance」の85%予測精"
 date: 2026-01-26 02:42:27 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot for Finance、予測精度85%**について詳細に分析します。"

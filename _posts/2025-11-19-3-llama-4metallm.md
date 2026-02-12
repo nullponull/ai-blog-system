@@ -2,7 +2,7 @@
 layout: post
 title: "Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？"
 date: 2025-11-19 04:40:28 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "OpenAI", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Meta、新オープンLLM「Llama 4」について詳細に分析します。"

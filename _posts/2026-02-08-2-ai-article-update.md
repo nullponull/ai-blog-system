@@ -2,7 +2,7 @@
 layout: post
 title: "トヨタの自動運転AI、北米で何が変わる？"
 date: 2026-02-08 16:50:35 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**トヨタ、自動運転AIで北米展開加速**について詳細に分析します。"

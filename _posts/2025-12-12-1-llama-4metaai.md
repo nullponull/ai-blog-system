@@ -2,7 +2,7 @@
 layout: post
 title: "Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？"
 date: 2025-12-12 20:38:40 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Meta、Llama 4で多言語LLM刷新について詳細に分析します。"

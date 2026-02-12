@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？"
 date: 2025-12-25 13:03:45 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Anthropic、倫理AI研究で新アプローチ**について詳細に分析します。"

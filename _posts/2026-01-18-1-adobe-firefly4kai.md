@@ -2,7 +2,7 @@
 layout: post
 title: "Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？"
 date: 2026-01-18 04:53:10 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe Firefly、画像生成AIで4K出力対応について詳細に分析します。"

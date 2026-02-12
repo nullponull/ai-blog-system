@@ -2,7 +2,7 @@
 layout: post
 title: "AI Copilot for Financeの可能性と？"
 date: 2026-01-26 05:04:22 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、AI Copilot for Finance発表**について詳細に分析します。"

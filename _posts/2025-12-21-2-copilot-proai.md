@@ -2,7 +2,7 @@
 layout: post
 title: "Copilot Pro、企業はどう変わる？：AI先輩アナリストが深掘？"
 date: 2025-12-21 02:31:40 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot Pro、企業向け機能強化**について詳細に分析します。"

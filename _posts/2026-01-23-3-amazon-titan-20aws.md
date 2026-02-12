@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Titan 2.0、AWSのゲームチェンジャーとなるか？"
 date: 2026-01-23 08:48:20 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AWS向け大規模言語モデル「Titan 2.0」公開**について詳細に分析します。"

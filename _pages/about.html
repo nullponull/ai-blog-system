@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "会社概要・このメディアについて"
+title: "AIコンパスについて"
 permalink: /about/
-description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについてご紹介します。"
+description: "AIコンパスは、AI導入の羅針盤として技術と経営をつなぐ専門メディアです。"
 ---
 
 <div class="about-page">
@@ -10,42 +10,50 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
     <section class="about-hero">
         <div class="about-hero-content">
             <h1>{{ site.title }}</h1>
-            <p class="hero-subtitle">AI技術の最前線を伝える専門メディア</p>
+            <p class="hero-subtitle">{{ site.tagline }}</p>
             <div class="hero-description">
                 <p>{{ site.description }}</p>
             </div>
         </div>
     </section>
-    
+
     <!-- ミッション -->
     <section class="mission-section">
         <div class="section-content">
             <h2>私たちのミッション</h2>
             <div class="mission-grid">
                 <div class="mission-item">
-                    <div class="mission-icon">🎯</div>
-                    <h3>最新情報の発信</h3>
-                    <p>AI業界の最新動向、技術革新、企業の取り組みをいち早くお届けします。</p>
+                    <div class="mission-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                    </div>
+                    <h3>AI導入の羅針盤</h3>
+                    <p>経営判断に必要なAI情報を、技術とビジネスの両面から分かりやすくお届けします。</p>
                 </div>
                 <div class="mission-item">
-                    <div class="mission-icon">🔬</div>
-                    <h3>技術的洞察</h3>
-                    <p>複雑なAI技術を分かりやすく解説し、実務に活かせる知識を提供します。</p>
+                    <div class="mission-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="8" x="5" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6 18h2"/><path d="M12 18h6"/></svg>
+                    </div>
+                    <h3>実践的な技術解説</h3>
+                    <p>最新AI技術を実務で活用するための、実践的なガイドと事例を提供します。</p>
                 </div>
                 <div class="mission-item">
-                    <div class="mission-icon">🌐</div>
-                    <h3>業界の橋渡し</h3>
-                    <p>研究者、エンジニア、経営者をつなぎ、AI業界の発展に貢献します。</p>
+                    <div class="mission-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-6"/></svg>
+                    </div>
+                    <h3>業界別の深い分析</h3>
+                    <p>各業界でのAI活用動向を、データに基づいて分析し、導入のヒントを提供します。</p>
                 </div>
                 <div class="mission-item">
-                    <div class="mission-icon">📊</div>
-                    <h3>データに基づく分析</h3>
-                    <p>市場データと専門知識を組み合わせた深い業界分析を提供します。</p>
+                    <div class="mission-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>導入支援サービス</h3>
+                    <p>メディアで培った知見を活かし、<a href="/services/">AI導入コンサルティング</a>も提供しています。</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!-- コンテンツカテゴリ -->
     <section class="content-categories-section">
         <div class="section-content">
@@ -53,7 +61,7 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
             <div class="categories-grid">
                 {% for category in site.content_categories %}
                 <div class="category-card">
-                    <div class="category-icon">{{ category.icon }}</div>
+                    <div class="category-icon">{% include icon.html category=category.name class="category-about-icon-svg" size="32" %}</div>
                     <h3>{{ category.name }}</h3>
                     <p>{{ category.description }}</p>
                     <div class="category-stats">
@@ -65,62 +73,7 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
             </div>
         </div>
     </section>
-    
-    <!-- 会社情報 -->
-    <section class="company-section">
-        <div class="section-content">
-            <h2>運営会社について</h2>
-            <div class="company-info">
-                <div class="company-details">
-                    <h3>株式会社ALLFORCES</h3>
-                    <div class="company-description">
-                        <p>私たちは、AI技術の可能性を最大限に引き出し、社会に価値を提供することを使命とする会社です。</p>
-                        <p>研究開発から実用化まで、AI技術のあらゆる側面をカバーし、お客様のビジネス成長をサポートします。</p>
-                    </div>
-                    
-                    <div class="company-services">
-                        <h4>主なサービス</h4>
-                        <ul>
-                            <li>AI技術コンサルティング</li>
-                            <li>機械学習システム開発</li>
-                            <li>データ分析・予測モデル構築</li>
-                            <li>AI人材育成・研修プログラム</li>
-                            <li>技術メディア運営</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="company-links">
-                        <a href="https://allforces.wuaze.com" target="_blank" class="company-link">
-                            🌐 コーポレートサイト
-                        </a>
-                        <a href="https://allforces.wuaze.com/contact" target="_blank" class="company-link">
-                            📧 お問い合わせ
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="company-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">{{ site.posts.size }}</div>
-                        <div class="stat-label">公開記事数</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">30+</div>
-                        <div class="stat-label">専門エンジニア</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">プロジェクト実績</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">情報収集体制</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+
     <!-- 編集方針 -->
     <section class="editorial-section">
         <div class="section-content">
@@ -133,51 +86,26 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
                         <li><strong>独立性</strong>：特定の企業や技術に偏らない、公平な視点を維持します</li>
                         <li><strong>実用性</strong>：読者の実務に直接活かせる情報を優先して提供します</li>
                         <li><strong>最新性</strong>：AI業界の急速な変化に対応し、常に最新情報をお届けします</li>
-                        <li><strong>専門性</strong>：技術的な正確性と深い洞察を両立させます</li>
+                        <li><strong>透明性</strong>：AI生成コンテンツを含む場合はその旨を明記します</li>
                     </ul>
                 </div>
-                
-                <div class="update-schedule">
-                    <h3>更新スケジュール</h3>
-                    <div class="schedule-grid">
-                        <div class="schedule-item">
-                            <div class="day">月・木</div>
-                            <div class="category">📈 最新動向</div>
-                        </div>
-                        <div class="schedule-item">
-                            <div class="day">火・金</div>
-                            <div class="category">🔬 技術解説</div>
-                        </div>
-                        <div class="schedule-item">
-                            <div class="day">水</div>
-                            <div class="category">💼 実装事例</div>
-                        </div>
-                        <div class="schedule-item">
-                            <div class="day">土</div>
-                            <div class="category">📊 業界分析</div>
-                        </div>
-                        <div class="schedule-item">
-                            <div class="day">日</div>
-                            <div class="category">🎓 研究論文</div>
-                        </div>
-                    </div>
+
+                <div class="editorial-note">
+                    <h3>AI活用について</h3>
+                    <p>AIコンパスでは、記事の一部にAI技術を活用して生成されたコンテンツが含まれます。すべてのAI生成コンテンツは、専門知識を持つ編集チームが監修・校正を行っています。詳しくは<a href="/disclaimer/">免責事項</a>をご確認ください。</p>
                 </div>
             </div>
         </div>
     </section>
-    
-    <!-- お問い合わせ -->
-    <section class="contact-cta">
+
+    <!-- 運営会社 -->
+    <section class="about-company-section">
         <div class="section-content">
-            <h2>お気軽にお問い合わせください</h2>
-            <p>記事に関するご質問、取材のご依頼、協業のご提案など、お気軽にご連絡ください。</p>
-            <div class="cta-buttons">
-                <a href="https://allforces.wuaze.com/contact" target="_blank" class="cta-button primary">
-                    📧 お問い合わせフォーム
-                </a>
-                <a href="/media-kit/" class="cta-button secondary">
-                    📋 メディアキット
-                </a>
+            <h2>運営会社</h2>
+            <p>AIコンパスは、<strong>株式会社ALLFORCES</strong>が運営しています。AI技術コンサルティング、機械学習システム開発、データ分析などの事業を展開しています。</p>
+            <div class="about-company-links">
+                <a href="/company/" class="btn-primary">会社情報を見る</a>
+                <a href="/contact/" class="btn-outline">お問い合わせ</a>
             </div>
         </div>
     </section>
@@ -190,11 +118,12 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
 }
 
 .about-hero {
-    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
-    color: var(--white);
+    background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-primary-hover, #153052) 100%);
+    color: white;
     padding: 4rem 2rem;
     text-align: center;
     margin-bottom: 4rem;
+    border-radius: 0 0 var(--radius-xl) var(--radius-xl);
 }
 
 .about-hero-content h1 {
@@ -203,13 +132,14 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
     margin-bottom: 1rem;
 }
 
-.hero-subtitle {
+.about-page .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     opacity: 0.9;
+    color: var(--brand-secondary-lightest, #e6fffa);
 }
 
-.hero-description {
+.about-page .hero-description {
     max-width: 600px;
     margin: 0 auto;
     font-size: 1.1rem;
@@ -221,49 +151,47 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
 }
 
 .section-content h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    color: var(--gray-900);
-    margin-bottom: 3rem;
+    color: var(--text-default);
+    margin-bottom: 2rem;
     text-align: center;
-    border-bottom: 3px solid var(--primary-green);
+    border-bottom: 3px solid var(--brand-primary);
     padding-bottom: 1rem;
 }
 
 .mission-section {
-    background: var(--gray-50);
+    background: var(--surface-raised);
     padding: 4rem 0;
 }
 
 .mission-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
 }
 
 .mission-item {
-    background: var(--white);
+    background: var(--surface-default);
     padding: 2rem;
-    border-radius: var(--border-radius-lg);
+    border-radius: var(--radius-xl);
     text-align: center;
-    box-shadow: var(--shadow-sm);
-    border: 1px solid var(--gray-200);
+    border: 1px solid var(--border-default);
 }
 
 .mission-icon {
-    font-size: 3rem;
+    color: var(--brand-secondary);
     margin-bottom: 1rem;
 }
 
 .mission-item h3 {
-    color: var(--gray-900);
+    color: var(--text-default);
     margin-bottom: 1rem;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .mission-item p {
-    color: var(--gray-600);
+    color: var(--text-subtle);
     line-height: 1.6;
 }
 
@@ -273,161 +201,40 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
     gap: 2rem;
 }
 
-.category-card {
-    background: var(--white);
+.about-page .category-card {
+    background: var(--surface-default);
     padding: 2rem;
-    border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-default);
     text-align: center;
     transition: all 0.2s ease;
 }
 
-.category-card:hover {
+.about-page .category-card:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-medium);
 }
 
-.category-icon {
-    font-size: 2.5rem;
+.about-page .category-icon {
+    color: var(--brand-secondary);
     margin-bottom: 1rem;
 }
 
-.category-card h3 {
-    color: var(--gray-900);
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.category-card p {
-    color: var(--gray-600);
-    line-height: 1.5;
-    margin-bottom: 1rem;
-}
-
-.category-stats {
-    color: var(--primary-green);
+.about-page .category-stats {
+    color: var(--brand-secondary);
     font-weight: 600;
     font-size: 0.9rem;
-}
-
-.company-section {
-    background: var(--gray-50);
-    padding: 4rem 0;
-}
-
-.company-info {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 4rem;
-    align-items: start;
-}
-
-.company-details h3 {
-    color: var(--gray-900);
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    font-weight: 700;
-}
-
-.company-description p {
-    color: var(--gray-700);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.company-services {
-    margin: 2rem 0;
-}
-
-.company-services h4 {
-    color: var(--gray-900);
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-.company-services ul {
-    list-style: none;
-    padding: 0;
-}
-
-.company-services li {
-    padding: 0.5rem 0;
-    color: var(--gray-700);
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.company-services li::before {
-    content: '✓';
-    color: var(--primary-green);
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-}
-
-.company-links {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.company-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    background: var(--primary-green);
-    color: var(--white);
-    text-decoration: none;
-    border-radius: var(--border-radius);
-    font-weight: 600;
-    transition: all 0.2s ease;
-}
-
-.company-link:hover {
-    background: var(--primary-green-dark);
-    transform: translateY(-2px);
-}
-
-.company-stats {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.stat-card {
-    background: var(--white);
-    padding: 2rem;
-    border-radius: var(--border-radius-lg);
-    text-align: center;
-    box-shadow: var(--shadow-sm);
-    border: 1px solid var(--gray-200);
-}
-
-.stat-number {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: var(--primary-green);
-    margin-bottom: 0.5rem;
-}
-
-.stat-label {
-    color: var(--gray-600);
-    font-size: 0.9rem;
-    font-weight: 600;
 }
 
 .editorial-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .editorial-principles h3,
-.update-schedule h3 {
-    color: var(--gray-900);
+.editorial-note h3 {
+    color: var(--text-default);
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
@@ -439,143 +246,59 @@ description: "ALLFORCES AI情報メディアと株式会社ALLFORCESについて
 
 .editorial-principles li {
     padding: 0.75rem 0;
-    color: var(--gray-700);
+    color: var(--text-subtle);
     line-height: 1.6;
-    border-bottom: 1px solid var(--gray-200);
+    border-bottom: 1px solid var(--border-default);
 }
 
 .editorial-principles li:last-child {
     border-bottom: none;
 }
 
-.schedule-grid {
-    display: grid;
-    gap: 1rem;
+.editorial-note {
+    background: var(--surface-raised);
+    padding: 2rem;
+    border-radius: var(--radius-xl);
+    border-left: 4px solid var(--brand-primary);
 }
 
-.schedule-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    background: var(--white);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-sm);
-    border: 1px solid var(--gray-200);
+.editorial-note p {
+    color: var(--text-subtle);
+    line-height: 1.8;
 }
 
-.schedule-item .day {
-    background: var(--primary-green);
-    color: var(--white);
-    padding: 0.5rem 1rem;
-    border-radius: var(--border-radius);
-    font-weight: 600;
-    min-width: 60px;
-    text-align: center;
-}
-
-.schedule-item .category {
-    color: var(--gray-700);
-    font-weight: 500;
-}
-
-.contact-cta {
-    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
-    color: var(--white);
+.about-company-section {
+    background: var(--surface-raised);
     padding: 4rem 0;
     text-align: center;
 }
 
-.contact-cta h2 {
-    color: var(--white);
-    border: none;
-    padding-bottom: 0;
+.about-company-section p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: var(--text-subtle);
+    line-height: 1.8;
 }
 
-.contact-cta p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-}
-
-.cta-buttons {
+.about-company-links {
     display: flex;
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.cta-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    border-radius: var(--border-radius);
-    font-weight: 600;
-    transition: all 0.2s ease;
-}
-
-.cta-button.primary {
-    background: var(--white);
-    color: var(--primary-green);
-}
-
-.cta-button.primary:hover {
-    background: var(--gray-100);
-    transform: translateY(-2px);
-}
-
-.cta-button.secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white);
-    border: 2px solid var(--white);
-}
-
-.cta-button.secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
+.about-company-links .btn-outline {
+    color: var(--brand-primary);
+    border-color: var(--brand-primary);
 }
 
 @media (max-width: 768px) {
-    .about-hero {
-        padding: 2rem 1rem;
-    }
-    
-    .about-hero-content h1 {
-        font-size: 2rem;
-    }
-    
-    .hero-subtitle {
-        font-size: 1.2rem;
-    }
-    
-    .section-content {
-        padding: 0 1rem 2rem;
-    }
-    
-    .section-content h2 {
-        font-size: 2rem;
-    }
-    
-    .mission-grid,
-    .categories-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .company-info {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .editorial-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
+    .about-hero { padding: 2rem 1rem; }
+    .about-hero-content h1 { font-size: 2rem; }
+    .about-page .hero-subtitle { font-size: 1.2rem; }
+    .section-content { padding: 0 1rem 2rem; }
+    .mission-grid, .categories-grid { grid-template-columns: 1fr; }
+    .editorial-content { grid-template-columns: 1fr; gap: 2rem; }
+    .about-company-links { flex-direction: column; align-items: center; }
 }
 </style>

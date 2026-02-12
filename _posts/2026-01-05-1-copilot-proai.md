@@ -2,7 +2,7 @@
 layout: post
 title: "Copilot Pro、製造業のAI導入、どこまで本気？"
 date: 2026-01-05 02:40:54 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot Pro、製造業向けAI導入加速**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot 2.0の可能性とは�"
 date: 2026-01-07 08:49:00 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot 2.0、医療AI診断支援で5%向上**について詳細に分析します。"

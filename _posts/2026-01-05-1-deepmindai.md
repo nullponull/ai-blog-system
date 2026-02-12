@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindの創薬AIが予測する「承"
 date: 2026-01-05 05:06:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、創薬AIで新物質発見、承認率80%予測**について詳細に分析します。"

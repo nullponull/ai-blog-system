@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot Proの可能性とは�"
 date: 2026-01-29 02:51:41 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot Pro、医療分野で精度95%について詳細に分析します。"

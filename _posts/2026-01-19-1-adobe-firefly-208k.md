@@ -2,7 +2,7 @@
 layout: post
 title: "Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？"
 date: 2026-01-19 13:13:48 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Adobe Firefly 2.0、画像生成8K対応**について詳細に分析します。"

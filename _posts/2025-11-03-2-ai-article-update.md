@@ -2,7 +2,7 @@
 layout: post
 title: "ロシュのAI創薬投資、その真意はどこにあるのか？"
 date: 2025-11-03 13:03:51 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "ロシュ、AI創薬に5500万ドル投資について詳細に分析します。"

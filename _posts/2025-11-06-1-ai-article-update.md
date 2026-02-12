@@ -2,7 +2,7 @@
 layout: post
 title: "アイルランドAI雇用市場の急成長、その真意と未来への示唆とは？"
 date: 2025-11-06 13:03:23 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "アイルランドAI雇用市場2年で倍増について詳細に分析します。"

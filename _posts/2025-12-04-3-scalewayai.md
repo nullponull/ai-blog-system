@@ -2,7 +2,7 @@
 layout: post
 title: "富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？"
 date: 2025-12-04 13:09:06 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "富士通、Scalewayと持続可能AI提携について詳細に分析します。"

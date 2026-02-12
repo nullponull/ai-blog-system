@@ -2,7 +2,7 @@
 layout: post
 title: "Samsungの次世代AIスマホ向けSoC�"
 date: 2025-12-23 04:50:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Samsung、次世代AIスマホ向けSoC投入**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？"
 date: 2025-12-10 08:45:55 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Intel Gaudi 3、AMD MI300X対抗で性能向上**について詳細に分析します。"

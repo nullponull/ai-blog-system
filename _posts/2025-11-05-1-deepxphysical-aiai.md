@@ -2,7 +2,7 @@
 layout: post
 title: "DEEPXの「Physical AI」は、AIの未来をどう変えるのか？"
 date: 2025-11-05 04:37:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "DEEPX、WEFで「Physical AI」発表について詳細に分析します。"

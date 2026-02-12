@@ -2,7 +2,7 @@
 layout: post
 title: "FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？"
 date: 2025-11-26 02:20:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "FoxconnとOpenAI、次世代AI提携について詳細に分析します。"

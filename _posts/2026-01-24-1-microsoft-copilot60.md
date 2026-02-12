@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot、企業導入60%超え、何が変わるのか？"
 date: 2026-01-24 08:41:37 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、企業向け導入率60%超について詳細に分析します。"
