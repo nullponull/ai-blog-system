@@ -1247,7 +1247,7 @@ input, button, textarea, select {
 
 .hero-stats .stat-label {
     font-size: var(--font-size-sm);
-    opacity: 0.9;
+    opacity: 1;
     margin-top: var(--space-2);
     font-weight: var(--font-weight-medium);
 }
@@ -1526,7 +1526,7 @@ a:focus {
     align-items: center;
     gap: var(--space-4);
     font-size: var(--font-size-sm);
-    color: var(--text-muted);
+    color: var(--text-subtle);
 }
 
 .featured-date,
@@ -1650,7 +1650,7 @@ a:focus {
 .secondary-category-badge {
     padding: var(--space-1) var(--space-2);
     background: var(--brand-secondary-lightest);
-    color: var(--brand-secondary);
+    color: var(--brand-secondary-hover);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-medium);
     border-radius: var(--border-radius-sm);
@@ -2377,7 +2377,7 @@ a:focus {
     gap: 1rem;
     margin-bottom: 1.5rem;
     font-size: 0.9rem;
-    color: var(--gray-600);
+    color: var(--text-subtle);
 }
 
 .featured-date {
@@ -2466,7 +2466,7 @@ a:focus {
 .article-meta {
     margin-bottom: 1rem;
     font-size: 0.9rem;
-    color: var(--gray-600);
+    color: var(--text-subtle);
 }
 
 .article-title {
@@ -2754,7 +2754,7 @@ a:focus {
 .article-meta {
     margin-bottom: var(--space-4);
     font-size: var(--font-size-sm);
-    color: var(--text-muted);
+    color: var(--text-subtle);
 }
 
 .article-title {
@@ -2791,7 +2791,7 @@ a:focus {
 
 .tag {
     background: var(--surface-raised);
-    color: var(--text-muted);
+    color: var(--text-subtle);
     padding: var(--space-1) var(--space-3);
     border-radius: var(--border-radius-lg);
     font-size: var(--font-size-xs);
@@ -3157,10 +3157,10 @@ a:focus {
   color: var(--surface-default);
 }
 
-.share-twitter { background: #1da1f2; }
-.share-facebook { background: #4267b2; }
-.share-linkedin { background: #0077b5; }
-.share-hatena { background: #00a4de; }
+.share-twitter { background: #0a7abf; }
+.share-facebook { background: #365899; }
+.share-linkedin { background: #005e8a; }
+.share-hatena { background: #007db3; }
 
 .share-button:hover {
   transform: translateY(-2px);
@@ -3224,7 +3224,7 @@ a:focus {
 .nav-label {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  color: var(--text-muted);
+  color: var(--text-subtle);
 }
 
 .nav-link:hover .nav-label {
