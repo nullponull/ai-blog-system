@@ -120,8 +120,8 @@ compress_html:
 # Google Analytics設定
 google_analytics: "G-TKR1S3YGB2"
 
-# Google AdSense設定（審査通過後にIDを設定してコメント解除）
-# google_adsense_id: "ca-pub-XXXXXXXXXXXXXXXX"
+# Google AdSense設定
+google_adsense_id: "ca-pub-2749909945906194"
 # ads:
 #   header_slot: "XXXXXXXXXX"
 #   article_slot: "XXXXXXXXXX"
