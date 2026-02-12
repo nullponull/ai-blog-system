@@ -87,10 +87,14 @@ layout: default
         {% endif %}
     </header>
     
+    {% include ads-header.html %}
+
     <div class="post-content" itemprop="articleBody">
         {{ content }}
     </div>
-    
+
+    {% include ads-article.html %}
+
     <footer class="post-footer" role="contentinfo">
         <!-- Social Share Section -->
         <section class="social-share" aria-labelledby="share-heading">
