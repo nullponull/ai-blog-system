@@ -2,7 +2,7 @@
 layout: post
 title: "Intelの「Gaudi 4」発表、AI業界に新風？その真意は？"
 date: 2026-01-24 04:48:25 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Intel、次世代AIチップ「Gaudi 4」発表について詳細に分析します。"

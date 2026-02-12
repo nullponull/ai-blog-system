@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrockが製薬研究にもた�"
 date: 2026-02-08 20:45:48 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、製薬研究にAI導入**について詳細に分析します。"

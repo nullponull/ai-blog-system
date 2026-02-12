@@ -2,7 +2,7 @@
 layout: post
 title: "Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？"
 date: 2026-02-05 17:09:01 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、AI検索エンジン「Ernie 5」発表**について詳細に分析します。"

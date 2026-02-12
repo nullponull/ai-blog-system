@@ -2,7 +2,7 @@
 layout: post
 title: "AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実"
 date: 2025-12-07 08:39:46 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AI企業安全対策、低評価相次ぐについて詳細に分析します。"

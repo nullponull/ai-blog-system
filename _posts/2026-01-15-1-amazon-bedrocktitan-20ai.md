@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、Titan 2.0発表：生成AIの次なる一手は何？"
 date: 2026-01-15 08:48:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新LLM「Titan 2.0」発表について詳細に分析します。"

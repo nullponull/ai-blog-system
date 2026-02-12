@@ -2,7 +2,7 @@
 layout: post
 title: "米国「Genesis Mission」が描くAI国家基盤の真意とは？"
 date: 2025-11-26 20:34:55 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "米国「Genesis Mission」AI国家基盤を構築について詳細に分析します。"

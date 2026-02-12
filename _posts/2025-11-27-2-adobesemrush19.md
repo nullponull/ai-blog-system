@@ -2,7 +2,7 @@
 layout: post
 title: "AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？"
 date: 2025-11-27 13:05:15 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe、Semrushを19億ドルで買収について詳細に分析します。"

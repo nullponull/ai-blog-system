@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindの量子AI、創薬の未来をどう変えるのだろうか？"
 date: 2026-01-16 16:48:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、量子AIで創薬加速**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Apple SiriとGoogle Gemini統合が示�"
 date: 2025-11-29 02:11:16 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Apple SiriにGoogle Gemini統合について詳細に分析します。"

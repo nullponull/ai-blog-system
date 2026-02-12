@@ -301,15 +301,18 @@ jobs:
               CONTENT=$(sed '/---END---/,$d' "_temp/raw-article-${topic_number}.md" | head -500 | tr '[:upper:]' '[:lower:]')
               
               # Determine category based on content analysis
-              CATEGORY="最新動向"  # default
-              if echo "$CONTENT $TITLE" | grep -E "(投資|市場|資金調達|評価額|roi|億ドル|兆ドル)" >/dev/null; then
-                CATEGORY="投資分析"
-              elif echo "$CONTENT $TITLE" | grep -E "(技術|アーキテクチャ|api|sdk|プログラム|コード|アルゴリズム|モデル|学習)" >/dev/null; then
-                CATEGORY="技術解説"
-              elif echo "$CONTENT $TITLE" | grep -E "(実装|導入|活用|事例|ケーススタディ|展開|適用|運用)" >/dev/null; then
-                CATEGORY="実装事例"
-              elif echo "$CONTENT $TITLE" | grep -E "(研究|論文|学術|実験|データ|結果|検証|分析)" >/dev/null; then
+              # Priority: 導入事例 > AI技術ガイド > 業界別AI活用 > 研究論文 > AI導入戦略 > AI最新ニュース
+              CATEGORY="AI最新ニュース"  # default
+              if echo "$CONTENT $TITLE" | grep -E "(実装|導入事例|活用事例|ケーススタディ|プロジェクト事例)" >/dev/null; then
+                CATEGORY="導入事例"
+              elif echo "$CONTENT $TITLE" | grep -E "(技術|アーキテクチャ|api|sdk|プログラム|コード|アルゴリズム|モデル|学習|ファインチューニング|rag)" >/dev/null; then
+                CATEGORY="AI技術ガイド"
+              elif echo "$CONTENT $TITLE" | grep -E "(製造|金融|医療|小売|物流|教育|建設|不動産|保険|農業)" >/dev/null; then
+                CATEGORY="業界別AI活用"
+              elif echo "$CONTENT $TITLE" | grep -E "(研究|論文|学術|実験|検証|arxiv|neurips|icml)" >/dev/null; then
                 CATEGORY="研究論文"
+              elif echo "$CONTENT $TITLE" | grep -E "(投資|市場|資金調達|評価額|roi|億ドル|兆ドル|戦略|ロードマップ)" >/dev/null; then
+                CATEGORY="AI導入戦略"
               fi
               
               # Generate tags based on title and content analysis  

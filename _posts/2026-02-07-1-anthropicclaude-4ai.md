@@ -2,7 +2,7 @@
 layout: post
 title: "AnthropicのClaude 4は医療AIのゲー"
 date: 2026-02-07 16:50:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、新モデル「Claude 4」で医療AI分野を刷新について詳細に分析します。"

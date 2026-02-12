@@ -2,7 +2,7 @@
 layout: post
 title: "Google、Gemini 3とTPUの発表、その真意は何処にあるのか？"
 date: 2025-11-25 04:41:45 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google、Gemini 3とTPU発表について詳細に分析します。"

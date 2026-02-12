@@ -2,7 +2,7 @@
 layout: post
 title: "BaiduのERNIE Bot 5.0はの可能性と�"
 date: 2025-12-21 04:49:41 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、ERNIE Bot 5.0発表、中国語LLM市場制覇へ**について詳細に分析します。"

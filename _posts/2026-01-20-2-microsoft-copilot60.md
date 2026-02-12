@@ -2,7 +2,7 @@
 layout: post
 title: "# Microsoft Copilotの企業導入率60%"
 date: 2026-01-20 16:53:40 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot、企業向け導入率60%超え**について詳細に分析します。"

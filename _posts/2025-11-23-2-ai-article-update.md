@@ -2,7 +2,7 @@
 layout: post
 title: "跡見学園のAI科学芸術センター新設：その真意はどこにあるのか？"
 date: 2025-11-23 20:35:50 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "跡見学園、AI科学芸術センター新設について詳細に分析します。"

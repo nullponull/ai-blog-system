@@ -2,7 +2,7 @@
 layout: post
 title: "**SAPのAI統合ERP戦略：企業DXの加速は夢か現実か、その深層を探る**"
 date: 2026-01-01 20:37:19 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**SAP、AI統合ERPで企業DX加速**について詳細に分析します。"

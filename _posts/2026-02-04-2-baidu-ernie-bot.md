@@ -2,7 +2,7 @@
 layout: post
 title: "Baidu ERNIE Botの可能性とは？"
 date: 2026-02-04 09:01:45 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**中国AI、 Baidu ERNIE Bot、 医療診断精度95%達成**について詳細に分析します。"

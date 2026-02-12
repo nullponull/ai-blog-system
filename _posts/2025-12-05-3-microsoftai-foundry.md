@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？"
 date: 2025-12-05 16:44:51 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft「AI Foundry」脅威検知機能について詳細に分析します。"

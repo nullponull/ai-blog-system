@@ -2,7 +2,7 @@
 layout: post
 title: "Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？"
 date: 2025-11-18 08:46:01 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Apple", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Apple、Siri独占終了12月他社開放について詳細に分析します。"

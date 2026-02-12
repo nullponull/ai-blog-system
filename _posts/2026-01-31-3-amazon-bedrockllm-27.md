@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、LLM戦国時代に何をもたらすのか？ (27文字)"
 date: 2026-01-31 13:12:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、大規模言語モデル競合** (27文字)について詳細に分析します。"

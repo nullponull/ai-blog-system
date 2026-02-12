@@ -1,38 +1,43 @@
-/* ALLFORCES AI情報メディア - メインスタイルシート */
+/* AIコンパス by ALLFORCES - メインスタイルシート */
 
-/* ===== Atlassian Design System Inspired - Color Tokens ===== */
+/* ===== AI Compass Design System - Color Tokens ===== */
 :root {
-  /* Primary Brand Colors - Inspired by Atlassian Blue */
-  --brand-primary: #0052cc;
-  --brand-primary-hover: #0747a6;
-  --brand-primary-pressed: #0b3681;
-  --brand-primary-light: #579dff;
-  --brand-primary-lighter: #b3d4ff;
-  --brand-primary-lightest: #deebff;
-  
-  /* Secondary Brand Colors */
-  --brand-secondary: #00875a;
-  --brand-secondary-hover: #006b47;
-  --brand-secondary-pressed: #004a33;
-  --brand-secondary-light: #36b37e;
-  --brand-secondary-lighter: #79f2c0;
-  --brand-secondary-lightest: #e3fcef;
-  
+  /* Primary Brand Colors - Deep Navy (信頼性・専門性) */
+  --brand-primary: #1a365d;
+  --brand-primary-hover: #153052;
+  --brand-primary-pressed: #0f2440;
+  --brand-primary-light: #4a7ab5;
+  --brand-primary-lighter: #a3c4e8;
+  --brand-primary-lightest: #e8f0fb;
+
+  /* Secondary Brand Colors - Teal (イノベーション) */
+  --brand-secondary: #0d9488;
+  --brand-secondary-hover: #0a7a70;
+  --brand-secondary-pressed: #065f58;
+  --brand-secondary-light: #2dd4bf;
+  --brand-secondary-lighter: #99f6e4;
+  --brand-secondary-lightest: #e6fffa;
+
   /* Accent Colors */
-  --brand-accent-orange: #ff5722;
-  --brand-accent-orange-light: #ff8a65;
-  --brand-accent-purple: #6554c0;
-  --brand-accent-purple-light: #8777d9;
+  --brand-accent-orange: #f59e0b;
+  --brand-accent-orange-light: #fbbf24;
+  --brand-accent-purple: #7c3aed;
+  --brand-accent-purple-light: #a78bfa;
+
+  /* Legacy variable mapping for inline styles in pages */
+  --primary-green: var(--brand-secondary);
+  --primary-green-dark: var(--brand-secondary-hover);
+  --secondary-blue: var(--brand-primary);
   
   /* Semantic Colors */
-  --color-success: #00875a;
-  --color-success-light: #e3fcef;
-  --color-warning: #ff8b00;
-  --color-warning-light: #fff4e6;
-  --color-danger: #de350b;
-  --color-danger-light: #ffebe6;
-  --color-info: #0052cc;
-  --color-info-light: #deebff;
+  --color-success: #0d9488;
+  --color-success-light: #e6fffa;
+  --color-warning: #f59e0b;
+  --color-warning-light: #fffbeb;
+  --color-danger: #dc2626;
+  --color-danger-light: #fef2f2;
+  --color-info: #1a365d;
+  --color-info-light: #e8f0fb;
   
   /* Neutral Colors - Atlassian's refined gray scale */
   --color-neutral-0: #ffffff;
@@ -3413,5 +3418,581 @@ a:focus {
   
   .share-button {
     justify-content: center;
+  }
+}
+
+/* ==========================================================================
+   Component Styles - Consulting & Services
+   ========================================================================== */
+
+/* Consulting CTA Component */
+.consulting-cta {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-hover, #2d4a7c));
+  color: white;
+  border-radius: var(--radius-xl);
+  text-align: center;
+  padding: var(--space-10) var(--space-8);
+  margin: var(--space-12) 0;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+.consulting-cta--post {
+  margin: var(--space-10) 0;
+  border-radius: var(--radius-lg);
+}
+
+.consulting-cta--sidebar {
+  padding: var(--space-6) var(--space-4);
+}
+
+.consulting-cta--home {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.consulting-cta__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-4);
+  line-height: 1.3;
+}
+
+.consulting-cta__description {
+  font-size: var(--font-size-base);
+  opacity: 0.9;
+  margin-bottom: var(--space-6);
+  line-height: 1.6;
+}
+
+.consulting-cta__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+/* Button Styles */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-8);
+  background-color: var(--brand-accent-orange);
+  color: var(--neutral-1000, #1a1a1a);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--radius-lg);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.38, 0.9);
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  line-height: 1;
+}
+
+.btn-primary:hover {
+  background-color: var(--brand-accent-orange-light, #fbbf24);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-8);
+  background-color: transparent;
+  color: white;
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--radius-lg);
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.38, 0.9);
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  line-height: 1;
+}
+
+.btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Newsletter Signup */
+.newsletter-signup {
+  background-color: var(--surface-raised);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  text-align: center;
+}
+
+.newsletter-signup__form {
+  display: flex;
+  gap: var(--space-3);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.newsletter-signup__input {
+  flex: 1;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-family: inherit;
+}
+
+.newsletter-signup__input:focus {
+  outline: none;
+  border-color: var(--brand-secondary);
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
+}
+
+.newsletter-signup--sidebar {
+  padding: var(--space-6);
+}
+
+.newsletter-signup--sidebar .newsletter-signup__form {
+  flex-direction: column;
+}
+
+/* Service Banner */
+.service-banner {
+  background-color: var(--brand-primary-lightest, #e8edf5);
+  border-bottom: 1px solid var(--brand-primary-lighter, #c3d1e8);
+  padding: var(--space-2) var(--space-4);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+
+.service-banner__badge {
+  display: inline-block;
+  background-color: var(--brand-primary);
+  color: white;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-banner__text {
+  margin-left: var(--space-2);
+}
+
+.service-banner__link {
+  color: var(--brand-primary);
+  font-weight: var(--font-weight-semibold);
+  margin-left: var(--space-3);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.service-banner__link:hover {
+  color: var(--brand-secondary);
+}
+
+/* Contact Form */
+.contact-form .form-group {
+  margin-bottom: var(--space-6);
+}
+
+.contact-form label {
+  display: block;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-2);
+  color: var(--text-default);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-family: inherit;
+  background-color: var(--surface-default);
+  color: var(--text-default);
+  transition: all 0.2s cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--brand-secondary);
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form .required {
+  color: var(--danger, #dc2626);
+}
+
+/* Navigation CTA */
+.nav-cta {
+  background-color: var(--brand-accent-orange);
+  color: var(--neutral-1000, #1a1a1a);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-lg);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.38, 0.9);
+  display: inline-block;
+}
+
+.nav-cta:hover {
+  background-color: var(--brand-accent-orange-light, #fbbf24);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-small);
+}
+
+/* Service Page Styles */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-8);
+  margin: var(--space-8) 0;
+}
+
+.service-card {
+  background-color: var(--surface-default);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-large);
+  border-color: var(--brand-secondary);
+}
+
+.service-card__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: var(--space-4);
+  color: var(--brand-secondary);
+}
+
+.service-card__title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-3);
+  color: var(--text-default);
+}
+
+.service-card__description {
+  font-size: var(--font-size-base);
+  color: var(--text-subtle);
+  line-height: 1.6;
+}
+
+/* Case Study Cards */
+.case-study-card {
+  background-color: var(--surface-default);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+.case-study-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-large);
+}
+
+.case-study-card__header {
+  background-color: var(--brand-primary);
+  color: white;
+  padding: var(--space-6);
+}
+
+.case-study-card__company {
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin-bottom: var(--space-2);
+}
+
+.case-study-card__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.3;
+}
+
+.case-study-card__body {
+  padding: var(--space-6);
+}
+
+.case-study-card__stats {
+  display: flex;
+  gap: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.case-study-card__stat {
+  text-align: center;
+}
+
+.case-study-card__stat-value {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--brand-secondary);
+  line-height: 1;
+  margin-bottom: var(--space-1);
+}
+
+.case-study-card__stat-label {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+}
+
+.case-study-card__description {
+  font-size: var(--font-size-base);
+  color: var(--text-subtle);
+  line-height: 1.6;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .consulting-cta {
+    padding: var(--space-8) var(--space-6);
+  }
+
+  .consulting-cta__title {
+    font-size: var(--font-size-xl);
+  }
+
+  .consulting-cta__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    width: 100%;
+  }
+
+  .newsletter-signup__form {
+    flex-direction: column;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .case-study-card__stats {
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+}
+
+@media (max-width: 480px) {
+  .consulting-cta {
+    padding: var(--space-6) var(--space-4);
+    margin: var(--space-8) 0;
+  }
+
+  .consulting-cta__title {
+    font-size: var(--font-size-lg);
+  }
+
+  .service-banner {
+    font-size: var(--font-size-xs);
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .service-banner__text,
+  .service-banner__link {
+    display: block;
+    margin-left: 0;
+    margin-top: var(--space-1);
+  }
+}
+
+/* Hero Section Enhancements */
+.hero-tagline {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--brand-secondary);
+  margin-bottom: var(--space-2);
+}
+
+.hero-description {
+  font-size: var(--font-size-base);
+  color: var(--text-subtle);
+  max-width: 600px;
+  margin: 0 auto var(--space-6);
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  flex-wrap: wrap;
+}
+
+/* Consulting Teaser Section */
+.consulting-teaser-section {
+  margin: var(--space-12) 0;
+  padding: var(--space-10) 0;
+  border-top: 1px solid var(--border-default);
+  border-bottom: 1px solid var(--border-default);
+}
+
+@media (max-width: 768px) {
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-actions .btn-primary,
+  .hero-actions .btn-outline {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* ==========================================================================
+   Contact / Services / Company Page Styles
+   ========================================================================== */
+
+/* Contact Page */
+.contact-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-10);
+}
+
+.contact-info-sidebar {
+  background-color: var(--surface-raised);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+}
+
+/* Services Page */
+.services-page .page-header {
+  text-align: center;
+  margin-bottom: var(--space-10);
+}
+
+.services-page .page-header h1 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--space-4);
+}
+
+.process-section {
+  margin: var(--space-12) 0;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-6);
+  counter-reset: step;
+}
+
+.process-step {
+  text-align: center;
+  padding: var(--space-6);
+  position: relative;
+}
+
+.process-step::before {
+  counter-increment: step;
+  content: counter(step);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--brand-primary);
+  color: white;
+  font-weight: var(--font-weight-bold);
+  margin: 0 auto var(--space-4);
+}
+
+/* Company Page */
+.company-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+}
+
+.company-table th,
+.company-table td {
+  padding: var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--border-default);
+  text-align: left;
+}
+
+.company-table th {
+  width: 30%;
+  background-color: var(--surface-raised);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-default);
+}
+
+/* Disclaimer Page */
+.disclaimer-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.disclaimer-page section {
+  margin-bottom: var(--space-8);
+}
+
+.disclaimer-page h2 {
+  font-size: var(--font-size-xl);
+  border-bottom: 2px solid var(--brand-primary);
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+@media (max-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-table th,
+  .company-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .company-table th {
+    border-bottom: none;
+    padding-bottom: var(--space-1);
   }
 }

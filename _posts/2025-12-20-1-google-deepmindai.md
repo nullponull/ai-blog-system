@@ -2,7 +2,7 @@
 layout: post
 title: "Google DeepMindの創薬AI、本当に未来を変えるのか？"
 date: 2025-12-20 12:58:43 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、新AIモデルで創薬期間半減について詳細に分析します。"

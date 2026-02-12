@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Copilot、中小企業はどう変わる？"
 date: 2026-01-22 08:51:36 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、中小企業向け料金体系拡充について詳細に分析します。"

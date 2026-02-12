@@ -1,0 +1,27 @@
+{% if site.newsletter.enabled %}
+<div class="newsletter-signup newsletter-signup--{{ include.position | default: 'post' }}">
+  <h3 class="newsletter-signup__title">AI最新情報を毎週お届け</h3>
+  <p class="newsletter-signup__description">最新のAI動向を毎週月曜日にお届けします</p>
+
+  <form
+    action="https://formspree.io/f/{{ site.newsletter.formspree_id }}"
+    method="POST"
+    class="newsletter-signup__form"
+  >
+    <input type="hidden" name="_subject" value="AIコンパス ニュースレター登録">
+
+    <div class="newsletter-signup__input-group">
+      <input
+        type="email"
+        name="email"
+        placeholder="メールアドレスを入力"
+        required
+        class="newsletter-signup__input"
+      >
+      <button type="submit" class="btn btn-primary newsletter-signup__submit">
+        登録する
+      </button>
+    </div>
+  </form>
+</div>
+{% endif %}

@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftのBing 7.0、検索の未来は本当に変わるのか？"
 date: 2025-12-22 13:04:34 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、AI検索エンジン Bing 7.0発表** (2025-12-22)について詳細に分析します。"

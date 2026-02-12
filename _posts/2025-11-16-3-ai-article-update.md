@@ -2,7 +2,7 @@
 layout: post
 title: "中国新メディア大会が示すAI活用の真意とは？その波紋はどこまで広がるのか。"
 date: 2025-11-16 16:38:17 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "中国新メディア大会、AI活用を推進について詳細に分析します。"

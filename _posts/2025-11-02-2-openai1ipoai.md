@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAI、1兆ドルIPOの噂が示すAI業界の真意とは？"
 date: 2025-11-02 04:37:46 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、1兆ドルIPO準備について詳細に分析します。"

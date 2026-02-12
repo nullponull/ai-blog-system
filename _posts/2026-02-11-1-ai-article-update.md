@@ -2,7 +2,7 @@
 layout: post
 title: "ソニーのAIカメラが映像解析�"
 date: 2026-02-11 20:58:28 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Sony、AIカメラで映像解析性能50%向上**について詳細に分析します。"

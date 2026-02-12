@@ -2,7 +2,7 @@
 layout: post
 title: "AIチップ規制強化は日本に「本物の」商機をもたらすのか、その真意を問う。"
 date: 2026-02-09 05:46:42 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AIチップ規制強化、日本企業に商機について詳細に分析します。"

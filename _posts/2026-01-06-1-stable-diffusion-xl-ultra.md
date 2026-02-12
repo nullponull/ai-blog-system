@@ -2,7 +2,7 @@
 layout: post
 title: "Stable Diffusion XL Ultraが掲げる「"
 date: 2026-01-06 20:38:35 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Stable Diffusion XL Ultra、実写画像生成率95%**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？"
 date: 2025-12-16 20:39:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "具体的な企業名・製品名・数値を含むについて詳細に分析します。"

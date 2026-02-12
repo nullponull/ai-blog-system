@@ -129,6 +129,76 @@ def build_amazon_section(recommendations: list) -> str:
 
 
 # ============================================================
+# コンサルティングCTA自動挿入
+# ============================================================
+# カテゴリ別CTA設定（BOFU/MOFU/TOFU順）
+CONSULTING_CTA_MAP = {
+    "導入事例": {
+        "heading": "AI導入についてご相談ください",
+        "text": "本記事で紹介した事例のようなAI導入を検討されていますか？ALLFORCESでは、戦略策定からPoC開発、本番システム構築まで一貫してサポートしています。",
+        "cta_text": "無料相談を申し込む",
+        "cta_url": "/contact/?utm_source=article&utm_medium=cta&utm_campaign=case_study",
+    },
+    "AI導入戦略": {
+        "heading": "AI導入戦略の策定を支援します",
+        "text": "AI投資のROI最大化や導入ロードマップの策定でお困りではありませんか？豊富な実績を持つコンサルタントがお手伝いします。",
+        "cta_text": "無料相談を申し込む",
+        "cta_url": "/contact/?utm_source=article&utm_medium=cta&utm_campaign=strategy",
+    },
+    "AI技術ガイド": {
+        "heading": "技術選定でお困りですか？",
+        "text": "自社に最適なAI技術の選定や、PoC開発のご相談を承っています。",
+        "cta_text": "サービス詳細を見る",
+        "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=tech_guide",
+    },
+    "業界別AI活用": {
+        "heading": "業界特化のAI導入支援",
+        "text": "お客様の業界に特化したAI活用戦略をご提案します。まずはお気軽にご相談ください。",
+        "cta_text": "サービス詳細を見る",
+        "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=industry",
+    },
+}
+
+
+def get_article_category(content: str) -> str:
+    """記事のfront matterからカテゴリを取得"""
+    in_frontmatter = False
+    for line in content.split("\n"):
+        if line.strip() == "---":
+            if not in_frontmatter:
+                in_frontmatter = True
+                continue
+            else:
+                break
+        if in_frontmatter and line.startswith("categories:"):
+            cat_str = line.replace("categories:", "").strip().strip("[]")
+            cats = [c.strip().strip('"').strip("'") for c in cat_str.split(",")]
+            return cats[0] if cats else ""
+    return ""
+
+
+def build_consulting_cta_section(category: str) -> str:
+    """カテゴリに基づくコンサルティングCTAセクションを生成"""
+    cta_config = CONSULTING_CTA_MAP.get(category)
+    if not cta_config:
+        return ""
+
+    lines = []
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append(f"## {cta_config['heading']}")
+    lines.append("")
+    lines.append(f"{cta_config['text']}")
+    lines.append("")
+    lines.append(f"[{cta_config['cta_text']}]({cta_config['cta_url']})")
+    lines.append("{: .consulting-cta-link}")
+    lines.append("")
+
+    return "\n".join(lines)
+
+
+# ============================================================
 # 比較表テンプレート自動挿入
 # ============================================================
 # 企業/技術比較の文脈を検出するパターン
@@ -373,11 +443,16 @@ def enrich_article(filepath: str, posts_dir: str):
     related = find_related_posts(filepath, posts_dir)
     internal_section = build_internal_links_section(related)
 
+    # コンサルティングCTAを生成
+    category = get_article_category(content)
+    consulting_section = build_consulting_cta_section(category)
+
     # 記事末尾に追加（---END---マーカーがあれば除去して末尾に追加）
     content = content.rstrip()
     content = re.sub(r'\n*---END---\s*$', '', content)
 
     content += internal_section
+    content += consulting_section
     content += amazon_section
     content += "\n"
 

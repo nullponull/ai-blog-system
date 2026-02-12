@@ -2,7 +2,7 @@
 layout: post
 title: "AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？"
 date: 2025-12-03 02:21:37 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AWS「Trainium3」発表、NVIDIA対抗について詳細に分析します。"

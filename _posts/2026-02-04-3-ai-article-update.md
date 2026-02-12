@@ -2,7 +2,7 @@
 layout: post
 title: "日本のAI規制、著作権保護強化で何が変わる？"
 date: 2026-02-04 09:01:57 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**AI規制、 日本、 著作権保護強化へ法改正検討**について詳細に分析します。"

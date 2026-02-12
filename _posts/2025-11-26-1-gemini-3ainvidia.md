@@ -2,7 +2,7 @@
 layout: post
 title: "**Gemini 3がAIの覇権を握るのか？Nvidia株下落の真意とは。**"
 date: 2025-11-26 02:19:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3でAI覇権、Nvidia株下落について詳細に分析します。"

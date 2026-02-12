@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？"
 date: 2026-01-21 13:14:19 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、企業向けLLM構築支援強化について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "SageMaker と量子AI、この連携強化で何が変わる？"
 date: 2025-12-17 02:20:42 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon SageMaker、量子AI連携強化**について詳細に分析します。"

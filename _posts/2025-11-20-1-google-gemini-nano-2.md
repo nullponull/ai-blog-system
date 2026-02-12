@@ -2,7 +2,7 @@
 layout: post
 title: "Google Gemini Nano 2、その真意はどこにあるのか？"
 date: 2025-11-20 13:03:03 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Google、新Gemini Nano 2発表について詳細に分析します。"

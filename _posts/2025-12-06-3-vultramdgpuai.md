@@ -2,7 +2,7 @@
 layout: post
 title: "VultrとAMDのGPU大増設は、クラウドAIの風景をどう塗り替えるのか？"
 date: 2025-12-06 16:39:43 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Vultr AMD提携 GPU2.4万基増設について詳細に分析します。"

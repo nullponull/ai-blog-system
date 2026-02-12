@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？"
 date: 2026-01-28 16:58:18 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、AWSでLLM推論コスト20%削減について詳細に分析します。"

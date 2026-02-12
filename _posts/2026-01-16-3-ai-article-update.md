@@ -2,7 +2,7 @@
 layout: post
 title: "日本のAI特区構想、その真意はどこにあるのか？"
 date: 2026-01-16 02:31:10 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**日本、AI特区で研究開発加速**について詳細に分析します。"

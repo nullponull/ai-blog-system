@@ -2,7 +2,7 @@
 layout: post
 title: "AppleのAR/VR向けAIチップ、その真意は何でしょうか？"
 date: 2025-12-09 16:43:34 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Apple", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Apple、AR/VR向けAIチップ投入について詳細に分析します。"

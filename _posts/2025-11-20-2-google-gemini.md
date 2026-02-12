@@ -2,7 +2,7 @@
 layout: post
 title: "Google Geminiの可能性とは？"
 date: 2025-11-20 08:43:59 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini、旅行AI機能を拡張：予約代行もについて詳細に分析します。"

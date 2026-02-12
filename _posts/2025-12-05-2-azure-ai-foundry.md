@@ -2,7 +2,7 @@
 layout: post
 title: "**Azure AI Foundryのセキュリティ�"
 date: 2025-12-05 02:22:40 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "MS Azure AI Foundry、セキュリティ強化について詳細に分析します。"

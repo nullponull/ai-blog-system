@@ -2,7 +2,7 @@
 layout: post
 title: "AMDのAIチップ「Instinct MI350」？"
 date: 2026-01-15 08:48:37 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AMD、AIチップ「Instinct MI350」でNVIDIA追撃について詳細に分析します。"

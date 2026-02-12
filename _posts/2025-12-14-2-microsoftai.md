@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftのAI倫理刷新、その真意は何だろう？"
 date: 2025-12-14 13:00:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、AI倫理ガイドラインを刷新**について詳細に分析します。"

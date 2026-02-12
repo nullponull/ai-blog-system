@@ -2,7 +2,7 @@
 layout: post
 title: "NECが営業支援にAgentic AI導入："
 date: 2025-11-27 02:10:58 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NEC、営業支援にAgentic AI導入について詳細に分析します。"

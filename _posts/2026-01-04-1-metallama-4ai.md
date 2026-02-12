@@ -2,7 +2,7 @@
 layout: post
 title: "# MetaとLlama 4が描く脳波AIの未来図：私たちはどこへ向かうのか？"
 date: 2026-01-04 20:36:39 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Meta、Llama 4で脳波AI連携**について詳細に分析します。"

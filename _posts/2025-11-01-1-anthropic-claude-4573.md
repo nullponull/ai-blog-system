@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropic Claude 4.5のコード能力73%向上、その真意とは？"
 date: 2025-11-01 12:56:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude 4.5、コード73%向上について詳細に分析します。"

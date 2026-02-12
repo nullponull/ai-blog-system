@@ -2,7 +2,7 @@
 layout: post
 title: "AI業界を揺るがす二つの波：�"
 date: 2025-12-04 20:39:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AWS Nova AI、Anthropic IPO準備について詳細に分析します。"

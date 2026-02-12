@@ -2,7 +2,7 @@
 layout: post
 title: "次世代SnapdragonのNPU搭載、何が変わるのか？"
 date: 2026-01-06 08:49:56 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm、次世代SnapdragonにエッジAI専用NPU搭載について詳細に分析します。"

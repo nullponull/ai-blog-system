@@ -2,7 +2,7 @@
 layout: post
 title: "## Inflection AIのPi 2.0の可能性？"
 date: 2026-01-02 13:03:32 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、AIアシスタント「Pi 2.0」発表。応答速度30%向上。**について詳細に分析します。"

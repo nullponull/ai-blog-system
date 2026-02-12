@@ -2,7 +2,7 @@
 layout: post
 title: "金融規制にGenAIが浸透？FINRAの動きから見えてくる未来と？"
 date: 2025-11-27 20:34:44 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "FINRA、金融規制にGenAI導入拡大について詳細に分析します。"

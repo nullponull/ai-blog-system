@@ -2,7 +2,7 @@
 layout: post
 title: "AIインフラ投資狂騒曲：大手クラウドが次に目指すものは何か？"
 date: 2025-11-30 02:31:43 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AIインフラ投資: MS/Google/AWS激化について詳細に分析します。"

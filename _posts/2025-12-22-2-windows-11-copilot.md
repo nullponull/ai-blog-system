@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 11 Copilotの可能性とは？"
 date: 2025-12-22 08:47:50 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、AI copilot for Windows 11、3000万人利用**について詳細に分析します。"

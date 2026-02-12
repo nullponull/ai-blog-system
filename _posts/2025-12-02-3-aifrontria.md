@@ -2,7 +2,7 @@
 layout: post
 title: "富士通が仕掛けるAIリスク対応「Frontria」、その真意はどこにあるのか？"
 date: 2025-12-02 08:49:10 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "富士通、AIリスク対応「Frontria」設立について詳細に分析します。"

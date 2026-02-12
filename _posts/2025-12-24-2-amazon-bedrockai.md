@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Bedrockと量子AI、その連携強化で何が変わるのか？"
 date: 2025-12-24 08:46:39 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、量子AI連携強化**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "**Google AI検索にGemini広告がテ�"
 date: 2025-11-24 04:48:40 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google AI検索、Gemini広告テスト開始について詳細に分析します。"

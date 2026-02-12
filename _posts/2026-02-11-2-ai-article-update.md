@@ -2,7 +2,7 @@
 layout: post
 title: "トヨタの自動運転AI新チップ開発、その真意は何を意味するのか？"
 date: 2026-02-11 20:59:09 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**トヨタ、自動運転AIで新チップ開発へ**について詳細に分析します。"

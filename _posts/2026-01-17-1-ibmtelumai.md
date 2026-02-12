@@ -2,7 +2,7 @@
 layout: post
 title: "IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。"
 date: 2026-01-17 20:36:00 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**IBM、AIチップ「Telum」で産業AIを加速**について詳細に分析します。"

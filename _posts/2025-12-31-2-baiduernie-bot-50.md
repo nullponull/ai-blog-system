@@ -2,7 +2,7 @@
 layout: post
 title: "BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？"
 date: 2025-12-31 20:36:19 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、ERNIE Bot 5.0で多言語対応強化**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Inflection AIの会話AI、本当に「新境地」と言えるのか？"
 date: 2025-12-19 13:04:42 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、会話AIで新境地**について詳細に分析します。"

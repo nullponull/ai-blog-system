@@ -2,7 +2,7 @@
 layout: post
 title: "中国の可能性とは？"
 date: 2025-11-10 20:38:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "中国、政府データセンターで外国製AIチップ禁止について詳細に分析します。"

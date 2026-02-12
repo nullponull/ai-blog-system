@@ -2,7 +2,7 @@
 layout: post
 title: "サカナAIの可能性とは？"
 date: 2025-11-24 13:05:01 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Sakana AI、B資金200億円調達について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "ソニーのAIチップ、ゲームの未来をどう変えるのか？"
 date: 2026-01-18 02:39:30 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Sony、AIチップでゲーム体験革新**について詳細に分析します。"

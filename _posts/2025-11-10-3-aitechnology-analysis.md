@@ -2,7 +2,7 @@
 layout: post
 title: "AIデータセンターの環境負荷、その真意は？持続可能な未来への投資と技術革新"
 date: 2025-11-10 16:50:04 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AIデータセンター環境負荷、削減策提示について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Sony AITVの感性AI、映像制作はどう変わる？"
 date: 2026-02-08 05:40:46 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Sony AITV、感性AIで映像制作革新**について詳細に分析します。"

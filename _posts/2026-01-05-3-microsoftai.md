@@ -2,7 +2,7 @@
 layout: post
 title: "MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？"
 date: 2026-01-05 20:41:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、AI倫理ガイドラインを刷新について詳細に分析します。"

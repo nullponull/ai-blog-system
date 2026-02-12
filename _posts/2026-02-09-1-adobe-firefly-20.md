@@ -2,7 +2,7 @@
 layout: post
 title: "**Adobe Firefly 2.0はの可能性と？"
 date: 2026-02-09 17:13:44 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Adobe Firefly 2.0、生成AIでUXデザイン革新**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "# Microsoft Copilot Xが示す生産性2"
 date: 2026-02-04 17:07:53 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot X、新AIモデルで生産性25%向上について詳細に分析します。"

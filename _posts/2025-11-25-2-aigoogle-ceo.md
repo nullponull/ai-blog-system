@@ -2,7 +2,7 @@
 layout: post
 title: "AIバブルの真意はどこに？Google CEOの警鐘が問うも？"
 date: 2025-11-25 02:19:34 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google CEO、AIバブル警告について詳細に分析します。"

@@ -1,0 +1,124 @@
+---
+layout: default
+title: "ニュースレター - AI最新情報をお届け"
+permalink: /newsletter/
+description: "AIコンパスのニュースレターに登録して、AI業界の最新動向、技術解説、導入事例を毎週お届けします。"
+---
+
+<div class="newsletter-page">
+    <div class="newsletter-hero">
+        <h1>AIコンパス ニュースレター</h1>
+        <p class="newsletter-subtitle">AI業界の最新動向を毎週お届けします</p>
+    </div>
+
+    <div class="newsletter-content">
+        <div class="newsletter-benefits">
+            <h2>ニュースレターの特徴</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <h3>厳選された情報</h3>
+                    <p>膨大なAIニュースの中から、ビジネスに直結する重要な情報だけを厳選してお届けします。</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>専門家の分析</h3>
+                    <p>単なるニュース配信ではなく、AI導入の現場を知る専門家による独自の分析をお届けします。</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>実務に活かせる</h3>
+                    <p>技術解説から導入事例まで、明日からの業務に活かせる実践的な情報を提供します。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="newsletter-signup-section">
+            <h2>無料で登録する</h2>
+            {% include newsletter-signup.html %}
+            <p class="newsletter-note">登録は無料です。いつでも解除できます。</p>
+        </div>
+    </div>
+</div>
+
+<style>
+.newsletter-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter-hero {
+    text-align: center;
+    background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-primary-hover, #153052) 100%);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+    margin-bottom: var(--space-10);
+}
+
+.newsletter-hero h1 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-4);
+}
+
+.newsletter-subtitle {
+    font-size: var(--font-size-xl);
+    opacity: 0.9;
+}
+
+.newsletter-content {
+    padding: 0 var(--space-4);
+}
+
+.newsletter-benefits {
+    margin-bottom: var(--space-12);
+}
+
+.newsletter-benefits h2 {
+    text-align: center;
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-8);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-6);
+}
+
+.benefit-item {
+    background: var(--surface-raised);
+    padding: var(--space-6);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    border: 1px solid var(--border-default);
+}
+
+.benefit-item h3 {
+    color: var(--brand-primary);
+    margin-bottom: var(--space-3);
+}
+
+.benefit-item p {
+    color: var(--text-subtle);
+    line-height: 1.6;
+}
+
+.newsletter-signup-section {
+    text-align: center;
+    margin-bottom: var(--space-12);
+}
+
+.newsletter-signup-section h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-6);
+}
+
+.newsletter-note {
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    margin-top: var(--space-4);
+}
+
+@media (max-width: 768px) {
+    .newsletter-hero { padding: 2rem 1rem; }
+    .benefits-grid { grid-template-columns: 1fr; }
+}
+</style>

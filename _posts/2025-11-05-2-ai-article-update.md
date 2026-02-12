@@ -2,7 +2,7 @@
 layout: post
 title: "ダイキン、AI冷却企業買収の真意とは？データセンターの未来をどう変えるのか？"
 date: 2025-11-05 13:04:16 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "ダイキン、AI冷却企業を買収について詳細に分析します。"

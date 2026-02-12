@@ -2,7 +2,7 @@
 layout: post
 title: "最近のニュースの可能性とは�"
 date: 2026-02-10 21:01:35 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**AI創薬、DeepMindが100万新分子設計**について詳細に分析します。"

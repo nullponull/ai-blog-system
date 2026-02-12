@@ -2,7 +2,7 @@
 layout: post
 title: "「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路"
 date: 2025-12-04 08:46:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI CEO、Gemini猛追で「コードレッド」宣言について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "AI市場、アジア新興企業の躍進が問いかける未来とは？"
 date: 2025-12-05 04:44:28 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AI株市場、アジア新興企業へ注目について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Inflection AIのPi 2.0の可能性と？"
 date: 2026-01-12 08:50:59 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、新モデルPi 2.0発表。対話性能1.5倍**について詳細に分析します。"

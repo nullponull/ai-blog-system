@@ -2,7 +2,7 @@
 layout: post
 title: "EU、Meta AI独占禁止調査開始：その真意とAI市場の未来はどう変わるのか？"
 date: 2025-12-06 13:00:36 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Meta", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "EU、Meta AI独占禁止調査を開始について詳細に分析します。"

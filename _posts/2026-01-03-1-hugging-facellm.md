@@ -2,7 +2,7 @@
 layout: post
 title: "# Hugging Faceが提示するLLM評価�"
 date: 2026-01-03 20:35:48 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Hugging Face、LLM評価の新基準発表**について詳細に分析します。"

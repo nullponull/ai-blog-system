@@ -2,7 +2,7 @@
 layout: post
 title: "NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？"
 date: 2025-11-24 08:46:58 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "NATOとGoogle、AIソブリン雲提携について詳細に分析します。"

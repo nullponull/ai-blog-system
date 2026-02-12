@@ -2,7 +2,7 @@
 layout: post
 title: "Inflection AIのPi 3.0の可能性と？"
 date: 2026-01-30 05:16:48 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、Pi 3.0で会話応答速度2倍**について詳細に分析します。"

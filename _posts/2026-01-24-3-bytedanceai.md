@@ -2,7 +2,7 @@
 layout: post
 title: "ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？"
 date: 2026-01-24 13:04:27 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDance、AI生成コンテンツ新プラットフォームについて詳細に分析します。"

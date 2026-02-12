@@ -1,0 +1,143 @@
+---
+layout: default
+title: "導入事例 - AI導入の成功パターン"
+permalink: /case-studies/
+description: "AIコンパスが支援したAI導入プロジェクトの事例をご紹介。業界別の成功パターンと導入効果をご確認いただけます。"
+---
+
+<div class="case-studies-page">
+    <div class="page-header">
+        <h1>導入事例</h1>
+        <p>AI導入プロジェクトの成功パターンと具体的な導入効果をご紹介します。</p>
+    </div>
+
+    <!-- カテゴリの導入事例記事を表示 -->
+    {% assign case_posts = site.posts | where_exp: "post", "post.categories contains '導入事例'" %}
+
+    {% if case_posts.size > 0 %}
+    <div class="case-studies-grid">
+        {% for post in case_posts limit:12 %}
+        <article class="case-study-card">
+            <div class="case-study-card__header">
+                <div class="case-study-card__company">導入事例</div>
+                <h3 class="case-study-card__title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+            </div>
+            <div class="case-study-card__body">
+                {% if post.excerpt %}
+                <p class="case-study-card__description">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+                {% endif %}
+                <div class="case-study-card__meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
+                    {% if post.tags and post.tags.size > 0 %}
+                    <div class="case-study-card__tags">
+                        {% for tag in post.tags limit:3 %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="coming-soon">
+        <h2>事例を準備中です</h2>
+        <p>詳細な導入事例は現在準備中です。AI導入に関するご相談は、お気軽にお問い合わせください。</p>
+        <a href="/contact/" class="btn-primary">お問い合わせ</a>
+    </div>
+    {% endif %}
+
+    <!-- CTA -->
+    <section class="case-studies-cta">
+        <div class="consulting-cta consulting-cta--home">
+            <h2 class="consulting-cta__title">御社のAI導入を成功事例に</h2>
+            <p class="consulting-cta__description">業界や課題に応じた最適なAI導入プランをご提案します。まずはお気軽にご相談ください。</p>
+            <div class="consulting-cta__actions">
+                <a href="/contact/" class="btn-primary">無料相談を申し込む</a>
+                <a href="/services/" class="btn-outline">サービス詳細</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+.case-studies-page .page-header {
+    text-align: center;
+    margin-bottom: var(--space-10);
+}
+
+.case-studies-page .page-header h1 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-4);
+}
+
+.case-studies-page .page-header p {
+    color: var(--text-subtle);
+    font-size: var(--font-size-lg);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--space-8);
+    margin-bottom: var(--space-12);
+}
+
+.case-study-card__title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.case-study-card__title a:hover {
+    text-decoration: underline;
+}
+
+.case-study-card__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--space-4);
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+}
+
+.case-study-card__tags {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.coming-soon {
+    text-align: center;
+    padding: var(--space-16) var(--space-8);
+    background: var(--surface-raised);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--space-12);
+}
+
+.coming-soon h2 {
+    margin-bottom: var(--space-4);
+}
+
+.coming-soon p {
+    color: var(--text-subtle);
+    margin-bottom: var(--space-6);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case-studies-cta {
+    margin: var(--space-12) 0;
+}
+
+@media (max-width: 768px) {
+    .case-studies-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

@@ -2,7 +2,7 @@
 layout: post
 title: "日本のAI新法、その真意とは？研究開発支援強化で何が変わるのか？"
 date: 2025-12-10 08:46:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**日本、AI新法で研究開発支援を強化**について詳細に分析します。"

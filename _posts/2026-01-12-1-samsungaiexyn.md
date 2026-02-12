@@ -2,7 +2,7 @@
 layout: post
 title: "「Samsungが次世代AIチップ『Exyn"
 date: 2026-01-12 20:39:30 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Samsung、次世代AIチップ発表**：次世代AIチップ「Exynos AI 7」を発表。推論�について詳細に分析します。"

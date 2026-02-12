@@ -2,7 +2,7 @@
 layout: post
 title: "Nvidia CEOのTSMC増産要請の可能�"
 date: 2025-11-08 20:31:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Nvidia CEO、TSMCに増産要請について詳細に分析します。"

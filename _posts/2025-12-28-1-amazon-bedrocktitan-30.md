@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon BedrockのTitan 3.0はの可能�"
 date: 2025-12-28 13:01:47 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデル「Titan 3.0」発表**について詳細に分析します。"

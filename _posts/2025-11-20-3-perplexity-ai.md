@@ -2,7 +2,7 @@
 layout: post
 title: "**Perplexity AIの企業向け機能拡�"
 date: 2025-11-20 13:05:28 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "新興Perplexity AI、企業向け機能拡充について詳細に分析します。"

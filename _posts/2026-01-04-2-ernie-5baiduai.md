@@ -2,7 +2,7 @@
 layout: post
 title: "ERNIE 5登場！BaiduのAI戦略、何がすごいのか？"
 date: 2026-01-04 20:36:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、AIモデル「ERNIE 5」発表**について詳細に分析します。"

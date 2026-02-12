@@ -2,7 +2,7 @@
 layout: post
 title: "**Adobe Fireflyが動画編集市場に�"
 date: 2026-01-14 16:51:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Adobe、生成AI「Firefly」で動画編集強化、月額$20**について詳細に分析します。"

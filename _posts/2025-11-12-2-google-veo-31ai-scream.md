@@ -2,7 +2,7 @@
 layout: post
 title: "Google Veo 3.1と「AI SCREAM」が示�"
 date: 2025-11-12 02:14:57 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AI SCREAM、Google Veo 3.1動画生成AI実装について詳細に分析します。"

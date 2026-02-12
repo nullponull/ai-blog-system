@@ -2,7 +2,7 @@
 layout: post
 title: "# トヨタが本気を見せる時：�"
 date: 2026-01-19 20:38:25 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**トヨタ、自動運転AI「TRI-AD v7」を2026年量産へ**について詳細に分析します。"

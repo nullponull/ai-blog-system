@@ -2,7 +2,7 @@
 layout: post
 title: "日本がAI信頼性評価システムを開発する真意とは？その影響を読み解く"
 date: 2025-11-16 04:40:01 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "日本、AI信頼性評価システム開発へについて詳細に分析します。"

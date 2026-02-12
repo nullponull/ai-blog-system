@@ -2,7 +2,7 @@
 layout: post
 title: "「フィジカルAI」が拓く新時代、日本が握る「データ戦略」の真意とは？"
 date: 2025-11-09 02:22:37 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "フィジカルAI到来、日本データ戦略が鍵について詳細に分析します。"

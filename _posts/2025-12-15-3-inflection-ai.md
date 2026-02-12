@@ -2,7 +2,7 @@
 layout: post
 title: "Inflection AI、次世代モデル公開の真意は何だろうか？"
 date: 2025-12-15 08:50:16 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Microsoft", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AI、次世代AIモデル公開について詳細に分析します。"

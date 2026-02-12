@@ -2,7 +2,7 @@
 layout: post
 title: "AmazonのInferentia3、AIの未来をどう変えるのか？"
 date: 2026-01-16 02:30:13 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AIチップ「Inferentia3」発表**について詳細に分析します。"

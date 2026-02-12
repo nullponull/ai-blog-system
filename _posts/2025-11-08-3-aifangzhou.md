@@ -2,7 +2,7 @@
 layout: post
 title: "AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意と？"
 date: 2025-11-08 08:38:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Fangzhou、AI慢性疾患管理で受賞について詳細に分析します。"

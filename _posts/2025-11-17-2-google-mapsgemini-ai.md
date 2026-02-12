@@ -2,7 +2,7 @@
 layout: post
 title: "Google MapsとGemini AIの融合が示�"
 date: 2025-11-17 02:20:19 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google Maps、Gemini AI統合で進化について詳細に分析します。"

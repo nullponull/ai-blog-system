@@ -2,7 +2,7 @@
 layout: post
 title: "次世代AIデータセンター共同�"
 date: 2025-11-12 08:44:30 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "次世代AIデータセンター構築へ共同検討について詳細に分析します。"

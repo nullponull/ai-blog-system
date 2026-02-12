@@ -2,7 +2,7 @@
 layout: post
 title: "**Samsungの3nm AIチップ、その真意と未来への影響とは？**"
 date: 2026-02-10 21:01:05 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Samsung、次世代AIチップで3nmプロセス採用**について詳細に分析します。"

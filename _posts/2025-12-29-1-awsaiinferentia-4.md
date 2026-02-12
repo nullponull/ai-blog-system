@@ -2,7 +2,7 @@
 layout: post
 title: "AWSのAIチップ「Inferentia 4」投�"
 date: 2025-12-29 16:41:33 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、AWSでAIチップ「Inferentia 4」投入について詳細に分析します。"

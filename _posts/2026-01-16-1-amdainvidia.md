@@ -2,7 +2,7 @@
 layout: post
 title: "AMDのAIチップ新戦略、NVIDIAにどう挑む？"
 date: 2026-01-16 13:08:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**AMD、AIチップ「Instinct MI400」発表、NVIDIA対抗へ**について詳細に分析します。"

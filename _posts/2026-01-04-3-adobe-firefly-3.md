@@ -2,7 +2,7 @@
 layout: post
 title: "# Adobe Firefly 3の真意とは？ ク�"
 date: 2026-01-04 20:37:10 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Adobe、AI画像生成AI「Firefly 3」実装**について詳細に分析します。"

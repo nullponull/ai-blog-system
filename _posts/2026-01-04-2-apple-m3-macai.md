@@ -2,7 +2,7 @@
 layout: post
 title: "# Apple M3 MacがAI開発を加速させ"
 date: 2026-01-04 16:39:52 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Apple", "Google", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "**Apple、M3チップ搭載MacでAI開発加速**について詳細に分析します。"

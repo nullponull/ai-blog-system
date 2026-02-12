@@ -1,7 +1,7 @@
 {
-    "name": "ALLFORCES AI情報メディア",
-    "short_name": "ALLFORCES AI",
-    "description": "株式会社ALLFORCESが運営するAI専門情報メディア。最新のAI技術動向、研究成果、実装事例、業界分析を専門家の視点でお届けします。",
+    "name": "AIコンパス by ALLFORCES",
+    "short_name": "AIコンパス",
+    "description": "AI導入の羅針盤 -- 技術と経営をつなぐ。株式会社ALLFORCESが運営するAI専門メディア。",
     "icons": [
         {
             "src": "/assets/images/favicon.ico",
@@ -22,7 +22,7 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "theme_color": "#10b981",
+    "theme_color": "#1a365d",
     "background_color": "#ffffff",
-    "categories": ["news", "technology", "artificial-intelligence", "research"]
+    "categories": ["news", "technology", "artificial-intelligence", "business", "consulting"]
 }

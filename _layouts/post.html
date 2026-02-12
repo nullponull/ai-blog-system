@@ -95,6 +95,18 @@ layout: default
 
     {% include ads-article.html %}
 
+    <!-- Category-based Consulting CTA -->
+    {% if site.consulting.enabled %}
+    {% assign post_category = page.categories.first %}
+    {% if post_category == "導入事例" or post_category == "AI導入戦略" %}
+        {% include consulting-cta.html variant="post" %}
+    {% elsif post_category == "AI技術ガイド" or post_category == "業界別AI活用" %}
+        {% include consulting-cta.html variant="post" %}
+    {% else %}
+        {% include newsletter-signup.html %}
+    {% endif %}
+    {% endif %}
+
     <footer class="post-footer" role="contentinfo">
         <!-- Social Share Section -->
         <section class="social-share" aria-labelledby="share-heading">

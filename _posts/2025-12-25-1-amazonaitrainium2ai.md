@@ -2,7 +2,7 @@
 layout: post
 title: "AmazonのAIチップ「Trainium2」は、AI開発に何をもたらすのか？"
 date: 2025-12-25 08:44:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、AIチップ「Trainium2」で性能2倍について詳細に分析します。"

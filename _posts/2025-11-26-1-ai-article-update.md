@@ -2,7 +2,7 @@
 layout: post
 title: "AIチップの熱き戦い、液冷が未来を左右するのか？"
 date: 2025-11-26 20:34:30 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "AIチップ競争激化：AMD対NVIDIA、液冷47%へについて詳細に分析します。"

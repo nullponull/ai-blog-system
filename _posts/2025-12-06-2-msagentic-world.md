@@ -2,7 +2,7 @@
 layout: post
 title: "MSが描く「Agentic World」の真意�"
 date: 2025-12-06 08:40:34 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "MS、Agentic AIで人材管理革新について詳細に分析します。"

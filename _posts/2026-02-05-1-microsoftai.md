@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoftの巨額投資、欧州AIはどう変わるのか？"
 date: 2026-02-05 09:03:03 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot 1000億ドル投資、欧州AI開発加速**について詳細に分析します。"

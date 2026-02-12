@@ -2,7 +2,7 @@
 layout: post
 title: "地図アプリ開発の未来はAIエージェントが握るのか？その真意を探る"
 date: 2025-11-15 16:37:24 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google、地図アプリ自動生成AIエージェントについて詳細に分析します。"

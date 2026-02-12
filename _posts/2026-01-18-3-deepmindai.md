@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindの新たなAIモデルがの可"
 date: 2026-01-18 04:53:46 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind、新AIモデルでタンパク質構造予測刷新について詳細に分析します。"

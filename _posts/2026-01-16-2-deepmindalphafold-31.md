@@ -2,7 +2,7 @@
 layout: post
 title: "DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？"
 date: 2026-01-16 08:47:38 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、新AIモデル「AlphaFold 3.1」発表**について詳細に分析します。"

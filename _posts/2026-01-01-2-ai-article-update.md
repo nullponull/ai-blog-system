@@ -2,7 +2,7 @@
 layout: post
 title: "AI家電とヘルスケアの融合、サムスンの次の一手は何をもたらすのか？"
 date: 2026-01-01 13:04:54 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Samsung、AI搭載家電でSamsung Health連携強化**について詳細に分析します。"

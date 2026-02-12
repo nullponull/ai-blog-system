@@ -2,7 +2,7 @@
 layout: post
 title: "防衛とAI、物理世界で進化する技術が株式市場に何を問いかけるのか？"
 date: 2025-11-27 02:12:02 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "防衛×AI関連株が注目、Physical AIについて詳細に分析します。"

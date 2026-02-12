@@ -2,7 +2,7 @@
 layout: post
 title: "AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来"
 date: 2025-11-06 20:36:03 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung/NVIDIA、世界初のAI工場建設へについて詳細に分析します。"

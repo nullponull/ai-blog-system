@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon BedrockとClaude 3.5 Opus統合�"
 date: 2025-12-21 04:49:20 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、Anthropic Claude 3.5 Opus統合**について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "英国、AI大国への野望：巨額投資の真意と、私たちが注目すべき変化とは？"
 date: 2025-11-21 20:37:26 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Microsoft", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "英政府、AIに大規模投資発表について詳細に分析します。"

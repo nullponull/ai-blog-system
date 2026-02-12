@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropic Claude Sonnet 4.5の可能性�"
 date: 2025-11-01 20:32:15 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Sonnet 4.5、コード生成精度73%について詳細に分析します。"

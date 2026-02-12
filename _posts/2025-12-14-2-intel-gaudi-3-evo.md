@@ -2,7 +2,7 @@
 layout: post
 title: "Intel Gaudi 3 Evoの可能性とは？"
 date: 2025-12-14 04:50:09 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Intel、Gaudi 3 EvoでAI推論加速について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "Adobe Fireflyが月間1億ドルの収�"
 date: 2026-01-15 13:10:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Adobe Firefly、画像生成AIの月間収益1億ドル**について詳細に分析します。"

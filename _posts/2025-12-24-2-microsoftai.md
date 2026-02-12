@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoftの新AIツール、開発者の現場はどう変わる？"
 date: 2025-12-24 20:36:18 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "チップ"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、AI開発者向け新ツール提供開始について詳細に分析します。"

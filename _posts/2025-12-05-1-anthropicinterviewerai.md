@@ -2,7 +2,7 @@
 layout: post
 title: "Anthropicの「Interviewer」AI、その真意とは何か？"
 date: 2025-12-05 16:43:49 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、調査AI「Interviewer」公開について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "**Inflection AIのPi 2.0発表がの可�"
 date: 2026-01-24 16:41:02 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、個人向けAIアシスタントPi 2.0発表**について詳細に分析します。"

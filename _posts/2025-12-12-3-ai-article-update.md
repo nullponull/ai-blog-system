@@ -2,7 +2,7 @@
 layout: post
 title: "# 韓国AI特許申請が示す未来？"
 date: 2025-12-12 13:06:29 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "AI特許申請、韓国企業が前年比15%増について詳細に分析します。"

@@ -2,7 +2,7 @@
 layout: post
 title: "AI著作権、日本で初の摘発事例が示す「創造」の未来とは？"
 date: 2025-11-22 20:35:07 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "日本、AI著作権で初摘発事例について詳細に分析します。"

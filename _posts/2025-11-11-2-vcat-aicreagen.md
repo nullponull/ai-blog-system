@@ -2,7 +2,7 @@
 layout: post
 title: "VCAT AIの「CREAGEN」発表の可能�"
 date: 2025-11-11 04:39:58 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "VCAT AI、画像動画生成「CREAGEN」発表について詳細に分析します。"

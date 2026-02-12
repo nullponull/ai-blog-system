@@ -2,7 +2,7 @@
 layout: post
 title: "ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？"
 date: 2025-12-13 08:39:30 +0000
-categories: ["投資分析"]
+categories: ["AI導入戦略"]
 tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、ERNIE Bot 5.0発表**について詳細に分析します。"
