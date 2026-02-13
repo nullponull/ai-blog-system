@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ねえの可能性とは？"
+title: "マイクロソフトAzureのAIインフラ1兆円投資、その真意とは？"
 date: 2026-02-06 17:04:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

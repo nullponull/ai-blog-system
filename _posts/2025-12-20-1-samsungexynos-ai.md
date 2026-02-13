@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Samsung「Exynos AI」発表の可能"
+title: "Samsung「Exynos AI」発表の可能"
 date: 2025-12-20 16:38:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]

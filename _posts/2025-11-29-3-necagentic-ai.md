@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**NECのAgentic AI営業支援ソリュ"
+title: "NECのAgentic AI営業支援ソリュ"
 date: 2025-11-29 13:00:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "AIエージェント", "推論最適化", "ROI分析", "AI規制", "AI人材"]

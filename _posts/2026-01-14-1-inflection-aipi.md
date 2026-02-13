@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの「Pi」の可能性と"
+title: "Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？"
 date: 2026-01-14 08:56:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot Proの可能性とは"
+title: "Microsoft Copilot Pro、医療分野で精度95%って、本当？"
 date: 2026-01-29 02:51:41 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]

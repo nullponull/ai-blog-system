@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BedrockにClaude 4登場の可能性と"
+title: "BedrockにClaude 4登場、これはAI市場の競争をどう変えるのだろうか？"
 date: 2025-12-22 20:36:50 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "タイトル：その真意は？"
+title: "OpenAIの影に潜む9600億ドルの負債：その真意は何を意味するのか？"
 date: 2025-11-30 08:37:56 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "推論最適化", "AI規制", "AI倫理"]

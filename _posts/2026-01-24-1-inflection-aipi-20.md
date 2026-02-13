@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Inflection AIのPi 2.0発表がの可"
+title: "Inflection AIのPi 2.0発表がの可"
 date: 2026-01-24 16:41:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

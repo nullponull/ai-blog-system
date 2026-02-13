@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**米国「Genesis Mission」：その"
+title: "米国「Genesis Mission」：AIが科学発見を変革する真意とは？"
 date: 2025-11-29 02:11:40 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "やあ、元気かい？"
+title: "正直なところ、私がこの業界に入った頃、AIはまだ「冬の時代」を抜け出せずにいた。"
 date: 2025-12-11 20:37:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
