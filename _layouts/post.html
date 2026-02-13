@@ -95,6 +95,26 @@ layout: default
 
     {% include ads-article.html %}
 
+    {% if site.google_adsense_id %}
+    <script>
+    (function() {
+      var content = document.querySelector('.post-content');
+      if (!content) return;
+      var headings = content.querySelectorAll('h2');
+      if (headings.length >= 3) {
+        var target = headings[2];
+        var ad = document.createElement('div');
+        ad.className = 'ad-mid-article';
+        ad.setAttribute('role', 'complementary');
+        ad.setAttribute('aria-label', '\u5e83\u544a');
+        ad.innerHTML = '<ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="{{ site.google_adsense_id }}" {% if site.ads.in_article %}data-ad-slot="{{ site.ads.in_article }}"{% endif %}></ins>';
+        target.parentNode.insertBefore(ad, target);
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    })();
+    </script>
+    {% endif %}
+
     <!-- Category-based Consulting CTA -->
     {% if site.consulting.enabled %}
     {% assign post_category = page.categories.first %}

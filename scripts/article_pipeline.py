@@ -340,8 +340,8 @@ def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=Fals
         print("  ERROR: Article generation failed", file=sys.stderr)
         return None
 
-    # Clean up: remove ---END--- markers if present
-    result = re.sub(r'\n*---END---\s*$', '', result).strip()
+    # Clean up: remove ALL ---END--- markers (may appear mid-article or at end)
+    result = re.sub(r'\n*---END---[^\n]*', '', result).strip()
 
     print(f"  Generated {len(result)} chars", file=sys.stderr)
     return result
