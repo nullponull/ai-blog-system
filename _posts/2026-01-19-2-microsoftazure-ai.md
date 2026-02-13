@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAzure AIの可能性とは"
+title: "MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？"
 date: 2026-01-19 16:49:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダル", "AI規制"]

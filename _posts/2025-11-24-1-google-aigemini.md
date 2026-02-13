@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Google AI検索にGemini広告がテ"
+title: "Google AI検索にGemini広告がテ"
 date: 2025-11-24 04:48:40 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "AIエージェント", "推論最適化", "AI人材", "セキュリティ"]

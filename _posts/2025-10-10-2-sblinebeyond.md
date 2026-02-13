@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "東大・SB・LINEヤフーの「Beyond "
+title: "東大・SB・LINEヤフーの「Beyond"
 date: 2025-10-10 13:01:16 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制"]

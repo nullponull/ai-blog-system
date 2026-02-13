@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot Proの可能性とは"
+title: "Microsoft Copilot Pro、個人向け料金改定、何が変わるのだろうか？"
 date: 2025-12-24 04:50:12 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "画像生成", "ファインチューニング"]

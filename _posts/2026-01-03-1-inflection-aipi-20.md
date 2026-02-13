@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "## Inflection AIのPi 2.0の可能性？"
+title: "Inflection AIのPi 2.0の可能性？"
 date: 2026-01-03 16:39:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

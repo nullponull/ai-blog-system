@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**FoxconnとNVIDIAの可能性とは？"
+title: "FoxconnとNVIDIAの可能性とは？"
 date: 2025-11-23 02:33:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "LLM", "推論最適化", "AI人材", "セキュリティ"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Amazon Bedrockの可能性とは？"
+title: "Amazon Bedrockの可能性とは？"
 date: 2025-12-19 20:36:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "Apple", "RAG"]

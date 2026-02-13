@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Penske MediaがGoogleを提訴：その"
+title: "Penske MediaがGoogleを提訴：AI著作権侵害の波紋はどこまで広がるのか？"
 date: 2025-09-14 08:58:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "画像生成", "AI規制", "セキュリティ"]

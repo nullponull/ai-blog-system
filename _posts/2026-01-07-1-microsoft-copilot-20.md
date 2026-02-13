@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot 2.0の可能性とは"
+title: "Microsoft Copilot 2.0、医療AI診断支援の5%向上、その真意は何でしょう？"
 date: 2026-01-07 08:49:00 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "AI規制", "DX推進"]

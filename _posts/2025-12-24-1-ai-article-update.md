@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**ソニーがAIチップで画像処理"
+title: "ソニーがAIチップで画像処理"
 date: 2025-12-24 13:04:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "マルチモーダル", "音声AI", "推論最適化", "AI人材"]

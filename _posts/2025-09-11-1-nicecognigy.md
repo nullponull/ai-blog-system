@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**タイトル: NiCEとCognigy"
+title: "NiCEとCognigy"
 date: 2025-09-11 12:59:20 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "LLM"]

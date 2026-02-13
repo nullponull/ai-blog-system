@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon BedrockとTitan 3.0の発表の"
+title: "Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？"
 date: 2026-02-06 17:05:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LLM競争激化の中の可能性とは"
+title: "LLM競争激化の中、Amazon Bedrockの30%性能向上は企業導入をどう変えるのか。"
 date: 2026-01-13 16:51:46 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

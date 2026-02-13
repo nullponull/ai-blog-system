@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとBroadcomの提携が示すも"
+title: "OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？"
 date: 2025-10-18 08:37:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaiduのERNIE Bot 5.0はの可能性と"
+title: "BaiduのERNIE Bot 5.0は、中国語LLM市場を本当に掌握できるのか？"
 date: 2025-12-21 04:49:41 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "マルチモーダル", "音声AI"]
