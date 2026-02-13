@@ -34,7 +34,7 @@ import requests
 
 
 class GeminiClient:
-    """Gemini API client with model rotation, JSON mode, and Web Search."""
+    """Gemini API client with model rotation, API key rotation, JSON mode, and Web Search."""
 
     # Model rotation list
     # Strategy: pro for quality-critical drafts, flash-lite for everything else
@@ -53,17 +53,50 @@ class GeminiClient:
     BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
     def __init__(self, api_key=None):
-        """Initialize Gemini client.
+        """Initialize Gemini client with multiple API key support.
 
-        Args:
-            api_key: Gemini API key. If None, reads from GEMINI_API_KEY env var.
+        Reads API keys from:
+          1. api_key argument (single key)
+          2. GEMINI_API_KEYS env var (comma-separated list)
+          3. GEMINI_API_KEY env var (single key, backward compatible)
 
-        Raises:
-            ValueError: If API key is not provided or found in environment.
+        On 429 quota errors, automatically rotates to the next API key.
         """
-        self.api_key = api_key or os.environ.get('GEMINI_API_KEY')
-        if not self.api_key:
-            raise ValueError("GEMINI_API_KEY not set")
+        self.api_keys = []
+        self._current_key_index = 0
+
+        if api_key:
+            self.api_keys = [api_key]
+        else:
+            # Try comma-separated list first
+            keys_str = os.environ.get('GEMINI_API_KEYS', '')
+            if keys_str:
+                self.api_keys = [k.strip() for k in keys_str.split(',') if k.strip()]
+            # Fallback to single key
+            if not self.api_keys:
+                single_key = os.environ.get('GEMINI_API_KEY', '')
+                if single_key:
+                    self.api_keys = [single_key]
+
+        if not self.api_keys:
+            raise ValueError("No Gemini API keys found (set GEMINI_API_KEYS or GEMINI_API_KEY)")
+
+        # Track exhausted keys per model to avoid retrying known-bad combos
+        self._exhausted = set()
+
+        print(f"  [GeminiClient] Initialized with {len(self.api_keys)} API key(s)", file=sys.stderr)
+
+    @property
+    def api_key(self):
+        """Current active API key (backward compatible)."""
+        return self.api_keys[self._current_key_index]
+
+    @api_key.setter
+    def api_key(self, value):
+        """Setter for backward compatibility."""
+        if value and value not in self.api_keys:
+            self.api_keys = [value]
+            self._current_key_index = 0
 
     def call(self, prompt, model=None, temperature=0.9, max_tokens=8192):
         """Generate text content.
@@ -203,26 +236,13 @@ class GeminiClient:
 
     def _request(self, model, prompt, temperature, max_tokens,
                  response_mime_type=None, response_schema=None, enable_search=False):
-        """Internal: Make API request to a specific model.
+        """Internal: Make API request with automatic key rotation on 429.
 
-        Args:
-            model: Model name to use
-            prompt: The prompt text
-            temperature: Sampling temperature
-            max_tokens: Maximum output tokens
-            response_mime_type: Optional MIME type for structured output
-            response_schema: Optional JSON schema for validation
-            enable_search: Whether to enable Google Search grounding
-
-        Returns:
-            Generated text string, or None on failure
+        Tries the current API key first. On quota error (429), rotates to
+        the next key and retries the same model. Only returns None when all
+        keys are exhausted for this model.
         """
         url = f"{self.BASE_URL}/{model}:generateContent"
-
-        headers = {
-            'Content-Type': 'application/json',
-            'X-goog-api-key': self.api_key
-        }
 
         data = {
             "contents": [{"parts": [{"text": prompt}]}],
@@ -234,49 +254,75 @@ class GeminiClient:
             }
         }
 
-        # Add JSON response format
         if response_mime_type:
             data["generationConfig"]["responseMimeType"] = response_mime_type
         if response_schema:
             data["generationConfig"]["responseSchema"] = response_schema
 
-        # Add Google Search tool (use google_search for 2.5+ models)
         if enable_search:
             data["tools"] = [{"google_search": {}}]
 
-        try:
-            print(f"  [GeminiClient] Trying {model}...", file=sys.stderr)
-            response = requests.post(url, headers=headers, json=data, timeout=120)
+        # Try each API key for this model
+        keys_tried = 0
+        start_index = self._current_key_index
 
-            if response.status_code == 429:
-                print(f"  [GeminiClient] Quota limit for {model}", file=sys.stderr)
+        while keys_tried < len(self.api_keys):
+            key_id = self._current_key_index
+            cache_key = f"{model}:key{key_id}"
+
+            # Skip keys already known to be exhausted for this model
+            if cache_key in self._exhausted:
+                self._current_key_index = (self._current_key_index + 1) % len(self.api_keys)
+                keys_tried += 1
+                continue
+
+            current_key = self.api_keys[self._current_key_index]
+            key_label = f"key{key_id + 1}/{len(self.api_keys)}"
+
+            headers = {
+                'Content-Type': 'application/json',
+                'X-goog-api-key': current_key
+            }
+
+            try:
+                print(f"  [GeminiClient] Trying {model} ({key_label})...", file=sys.stderr)
+                response = requests.post(url, headers=headers, json=data, timeout=120)
+
+                if response.status_code == 429:
+                    print(f"  [GeminiClient] Quota limit for {model} ({key_label})", file=sys.stderr)
+                    self._exhausted.add(cache_key)
+                    self._current_key_index = (self._current_key_index + 1) % len(self.api_keys)
+                    keys_tried += 1
+                    continue
+
+                if response.status_code != 200:
+                    print(f"  [GeminiClient] HTTP {response.status_code} for {model}: {response.text[:200]}", file=sys.stderr)
+                    return None
+
+                result = response.json()
+                if 'candidates' in result and len(result['candidates']) > 0:
+                    candidate = result['candidates'][0]
+                    if 'content' in candidate and 'parts' in candidate['content']:
+                        text = candidate['content']['parts'][0].get('text', '')
+                        if text:
+                            print(f"  [GeminiClient] Success with {model} ({key_label})", file=sys.stderr)
+                            return text
+
+                print(f"  [GeminiClient] No content from {model}", file=sys.stderr)
                 return None
 
-            if response.status_code != 200:
-                print(f"  [GeminiClient] HTTP {response.status_code} for {model}: {response.text[:200]}", file=sys.stderr)
+            except requests.exceptions.Timeout:
+                print(f"  [GeminiClient] Timeout for {model}", file=sys.stderr)
+                return None
+            except requests.exceptions.RequestException as e:
+                print(f"  [GeminiClient] Request error for {model}: {e}", file=sys.stderr)
+                return None
+            except Exception as e:
+                print(f"  [GeminiClient] Error for {model}: {e}", file=sys.stderr)
                 return None
 
-            result = response.json()
-            if 'candidates' in result and len(result['candidates']) > 0:
-                candidate = result['candidates'][0]
-                if 'content' in candidate and 'parts' in candidate['content']:
-                    text = candidate['content']['parts'][0].get('text', '')
-                    if text:
-                        print(f"  [GeminiClient] Success with {model}", file=sys.stderr)
-                        return text
-
-            print(f"  [GeminiClient] No content from {model}", file=sys.stderr)
-            return None
-
-        except requests.exceptions.Timeout:
-            print(f"  [GeminiClient] Timeout for {model}", file=sys.stderr)
-            return None
-        except requests.exceptions.RequestException as e:
-            print(f"  [GeminiClient] Request error for {model}: {e}", file=sys.stderr)
-            return None
-        except Exception as e:
-            print(f"  [GeminiClient] Error for {model}: {e}", file=sys.stderr)
-            return None
+        print(f"  [GeminiClient] All {len(self.api_keys)} keys exhausted for {model}", file=sys.stderr)
+        return None
 
 
 # Convenience function for backward compatibility
