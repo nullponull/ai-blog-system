@@ -2,8 +2,8 @@
 layout: post
 title: "IBM WatsonX、金融アナリストの「相棒」となるか？その実力と未来"
 date: 2026-02-03 20:55:28 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "LLM", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "**IBM WatsonX、金融アナリスト支援強化** (2026-02-03)について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "Baidu「Apollo」の都市展開の可�"
 date: 2026-01-22 20:44:35 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、自動運転AIを一部都市で展開**について詳細に分析します。"
-reading_time: 8
+reading_time: 14
 ---
 
 Baidu「Apollo」の都市展開、中国が描く自動運転社会の青写真は本当に実現するのか？

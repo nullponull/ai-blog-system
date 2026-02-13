@@ -2,11 +2,11 @@
 layout: post
 title: "AIエージェントの自律性が業務を変える？ その真意と、私たちが今すべきこ？"
 date: 2025-10-19 08:35:17 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "AIエージェント、自律性向上で業務変革について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIエージェントの自律性が業務を変える？ その真意と、私たちが今すべきこと

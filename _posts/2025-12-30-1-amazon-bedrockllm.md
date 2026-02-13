@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockが新LLMでコスト半�"
 date: 2025-12-30 04:52:50 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新LLMでコスト半減**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 Amazon Bedrockが新LLMでコスト半減、その真価と変革の波をどう読み解く？

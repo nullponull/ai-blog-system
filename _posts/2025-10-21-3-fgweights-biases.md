@@ -2,11 +2,11 @@
 layout: post
 title: "みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？"
 date: 2025-10-21 20:37:49 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Microsoft", "Amazon", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "みずほFG、AI開発にW&B採用について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？

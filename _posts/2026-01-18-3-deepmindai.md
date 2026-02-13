@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindの新たなAIモデルがの可"
 date: 2026-01-18 04:53:46 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["研究論文"]
+tags: ["Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind、新AIモデルでタンパク質構造予測刷新について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 DeepMindの新たなAIモデルが、タンパク質構造予測の常識をどう塗り替えるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "Google Gemini 3 Deep Thinkの真意はどこにあるのか？"
 date: 2025-12-06 16:38:43 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3 Deep Think発表について詳細に分析します。"
-reading_time: 8
+reading_time: 5
 ---
 
 Google Gemini 3 Deep Thinkの真意はどこにあるのか？

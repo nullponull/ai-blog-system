@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrock、産業AI導入、何が変わるのか？"
 date: 2026-02-07 08:51:08 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、産業AI導入加速について詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 Amazon Bedrock、産業AI導入、何が変わるのか？

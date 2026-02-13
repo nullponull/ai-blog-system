@@ -2,11 +2,11 @@
 layout: post
 title: "PwCとGoogle Cloudが描くAIエージ�"
 date: 2025-10-15 16:38:10 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "xAI", "LLM", "AIエージェント", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "PwC、Google CloudとAIエージェント拡大について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？

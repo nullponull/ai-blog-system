@@ -2,11 +2,11 @@
 layout: post
 title: "IBM WatsonX、製薬業界で何を変えようとしている？"
 date: 2026-01-11 08:41:59 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "**IBM WatsonX、製薬企業向けAI解析強化**について詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 IBM WatsonX、製薬業界で何を変えようとしている？

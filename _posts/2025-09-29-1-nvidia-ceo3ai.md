@@ -2,11 +2,11 @@
 layout: post
 title: "Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来"
 date: 2025-09-29 04:37:36 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Nvidia CEO、AIインフラ投資3-4兆ドル予測について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来

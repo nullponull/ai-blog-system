@@ -2,11 +2,11 @@
 layout: post
 title: "Google AI検索進化：投資と技術の最前線"
 date: 2025-09-08 20:34:33 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "Meta", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Meta", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Google AI Search進化について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 # Google AI検索進化：投資と技術の最前線

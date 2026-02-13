@@ -2,11 +2,11 @@
 layout: post
 title: "AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？"
 date: 2025-11-11 08:42:55 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["推論最適化", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "AgiBotとAnt Group、AIロボ合弁について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？

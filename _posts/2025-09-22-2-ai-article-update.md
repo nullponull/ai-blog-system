@@ -2,11 +2,11 @@
 layout: post
 title: "日本郵船のAI配船最適化、その真意は？海運業界の未来をどう変えるの？"
 date: 2025-09-22 04:37:27 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "ROI分析", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "日本郵船、AIで自動車専用船の配船計画を自動最適化、7月より本格運用について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 日本郵船のAI配船最適化、その真意は？海運業界の未来をどう変えるのか

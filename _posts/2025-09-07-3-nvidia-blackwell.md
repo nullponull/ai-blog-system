@@ -2,11 +2,11 @@
 layout: post
 title: "NVIDIA Blackwell: AI時代の覇権"
 date: 2025-09-07 10:21:55 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "チップ", "技術革新"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIA Blackwell Dominanceについて詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 # NVIDIA Blackwell: AI時代の覇権を握る技術と市場戦略

@@ -2,11 +2,11 @@
 layout: post
 title: "# IBM WatsonXが製薬DXで示す「成�"
 date: 2026-01-06 04:53:01 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "xAI", "LLM", "ファインチューニング", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**IBM WatsonX、製薬DXで成果**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## IBM WatsonXが製薬DXで示す「成果」の真意とは？ AIの長い旅路が今、新たな局面を迎える。

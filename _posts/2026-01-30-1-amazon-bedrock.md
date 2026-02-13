@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの新モデル、学習コスト半減の真意とは？"
 date: 2026-01-30 08:57:57 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルで学習コスト半減**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrockの新モデル、学習コスト半減の真意とは？

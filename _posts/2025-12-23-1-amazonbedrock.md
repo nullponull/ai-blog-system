@@ -2,11 +2,11 @@
 layout: post
 title: "アマゾンBedrockの可能性とは？"
 date: 2025-12-23 13:06:40 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、生成AIモデル数2倍に**について詳細に分析します。"
-reading_time: 8
+reading_time: 12
 ---
 
 アマゾンBedrock、生成AIモデル数2倍増が問いかける、マルチモーダル時代の本質とは？

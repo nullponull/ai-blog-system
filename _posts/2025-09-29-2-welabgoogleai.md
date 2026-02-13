@@ -2,11 +2,11 @@
 layout: post
 title: "WeLabとGoogleの金融AI提携、その真意はどこにあるのか？"
 date: 2025-09-29 02:07:12 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "WeLabとGoogle、金融AI提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 WeLabとGoogleの金融AI提携、その真意はどこにあるのか？

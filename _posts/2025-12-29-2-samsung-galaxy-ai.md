@@ -2,11 +2,11 @@
 layout: post
 title: "Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？"
 date: 2025-12-29 13:08:37 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "NVIDIA", "Apple", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung Galaxy AI、新チップ搭載で小型化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？

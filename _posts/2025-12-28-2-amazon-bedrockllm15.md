@@ -2,8 +2,8 @@
 layout: post
 title: "Amazon Bedrock、LLM15種追加：何が変わるのか？"
 date: 2025-12-28 08:41:23 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["Meta", "Amazon", "Anthropic", "LLM", "画像生成", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新規LLM 15種追加**について詳細に分析します。"
 reading_time: 8

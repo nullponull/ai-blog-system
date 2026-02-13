@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの可能性とは？"
 date: 2026-01-26 08:52:37 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデルで学習コスト30%削減について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？

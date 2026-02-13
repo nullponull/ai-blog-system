@@ -2,8 +2,8 @@
 layout: post
 title: "Amazon Bedrockが示唆するAIコスト"
 date: 2025-12-18 20:33:42 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新LLMでコスト半減**について詳細に分析します。"
 reading_time: 8

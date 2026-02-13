@@ -2,11 +2,11 @@
 layout: post
 title: "GoogleのTPU v6、本当にAIのゲームを変えるのか？"
 date: 2026-01-04 08:43:05 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Google、AIチップ「TPU v6」発表、性能2倍について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 GoogleのTPU v6、本当にAIのゲームを変えるのか？

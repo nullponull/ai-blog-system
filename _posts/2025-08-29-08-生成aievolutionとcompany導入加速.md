@@ -2,11 +2,11 @@
 layout: post
 title: "生成AI進化と企業導入加速"
 date: 2025-08-29 07:07:33 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## 概要と背景

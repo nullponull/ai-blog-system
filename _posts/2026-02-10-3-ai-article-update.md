@@ -2,8 +2,8 @@
 layout: post
 title: "AI倫理指数、欧州トップに何が見える？"
 date: 2026-02-10 21:01:45 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "**「AI倫理指数」初公表、トップ10は欧州企業**について詳細に分析します。"
 reading_time: 8

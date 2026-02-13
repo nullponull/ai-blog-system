@@ -2,11 +2,11 @@
 layout: post
 title: "GoogleのTPUv7「Ironwood」：その真"
 date: 2025-12-01 05:00:09 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Google TPUv7、NVIDIAに挑戦について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？

@@ -2,11 +2,11 @@
 layout: post
 title: "次世代AIデータセンター共同�"
 date: 2025-11-12 08:44:30 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Meta", "NVIDIA", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "次世代AIデータセンター構築へ共同検討について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 次世代AIデータセンター共同検討：その真意と、日本のAIインフラが迎える未来とは？

@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMind AlphaFold3の可能性とは？"
 date: 2026-01-20 16:53:09 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind AlphaFold3、タンパク質構造予測精度95%**について詳細に分析します。"
-reading_time: 8
+reading_time: 14
 ---
 
 DeepMind AlphaFold3、タンパク質予測精度95%の衝撃は、本当に創薬の未来を変えるのか？

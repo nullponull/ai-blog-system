@@ -2,11 +2,11 @@
 layout: post
 title: "「ソフトバンクと安川が手を�"
 date: 2025-12-01 13:10:05 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["LLM", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンク・安川、フィジカルAI協業について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「ソフトバンクと安川が手を組む、フィジカルAIの真意とは？そして何が変わるのか？」

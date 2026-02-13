@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？"
 date: 2026-01-18 20:36:17 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "xAI", "推論最適化", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、AI創薬で新パートナーシップについて詳細に分析します。"
-reading_time: 8
+reading_time: 15
 ---
 
 DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？

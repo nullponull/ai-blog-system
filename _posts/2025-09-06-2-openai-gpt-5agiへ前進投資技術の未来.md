@@ -2,11 +2,11 @@
 layout: post
 title: "OpenAI GPT-5、AGIへ前進：投資・技術の未来"
 date: 2025-09-06 12:45:53 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Microsoft", "NVIDIA"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Microsoft", "NVIDIA", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI GPT-5 rumorsについて詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 # OpenAI GPT-5、AGIへ前進：投資・技術の未来

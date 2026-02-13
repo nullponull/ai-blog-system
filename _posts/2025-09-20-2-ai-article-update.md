@@ -2,11 +2,11 @@
 layout: post
 title: "AIデータセンターの未来は液�"
 date: 2025-09-20 20:30:32 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "MS、NVIDIA GB200搭載AIデータC完成へについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？

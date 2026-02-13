@@ -2,11 +2,11 @@
 layout: post
 title: "AlibabaのQuark AI眼鏡の可能性と�"
 date: 2025-11-28 13:03:49 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Apple", "LLM", "RAG", "音声AI", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "Alibaba、Quark AI眼鏡投入について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る

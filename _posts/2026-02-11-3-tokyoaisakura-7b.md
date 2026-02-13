@@ -2,11 +2,11 @@
 layout: post
 title: "TokyoAIの「Sakura-7B」公開、何が変わるのか？"
 date: 2026-02-11 09:07:11 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Microsoft", "LLM", "ファインチューニング", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "**TokyoAI、新言語モデル「Sakura-7B」公開**について詳細に分析します。"
-reading_time: 8
+reading_time: 12
 ---
 
 TokyoAIの「Sakura-7B」公開、何が変わるのか？

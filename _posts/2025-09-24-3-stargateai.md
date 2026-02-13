@@ -2,11 +2,11 @@
 layout: post
 title: "「Stargate」が拓くAIインフラの新時代、その真意とは？"
 date: 2025-09-24 08:52:15 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI/Oracle/SB、AIデータDC拡大について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「Stargate」が拓くAIインフラの新時代、その真意とは？

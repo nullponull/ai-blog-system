@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？"
 date: 2026-02-10 17:19:23 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["NVIDIA", "Amazon", "LLM", "AIエージェント", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AIロボット「Amazon Astro」に2億ドル投資**について詳細に分析します。"
-reading_time: 8
+reading_time: 10
 ---
 
 Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？

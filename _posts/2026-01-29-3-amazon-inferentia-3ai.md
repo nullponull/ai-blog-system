@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Inferentia 3、AIの舞台裏で何が起こるのか？"
 date: 2026-01-29 20:49:43 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AWS向け次世代GPU「Inferentia 3」発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 14
 ---
 
 Amazon Inferentia 3、AIの舞台裏で何が起こるのか？

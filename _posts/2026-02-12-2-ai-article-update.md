@@ -2,11 +2,11 @@
 layout: post
 title: "トヨタのレベル4自律走行、その真意は何なのか？"
 date: 2026-02-12 14:48:43 +0000
-categories: ["導入事例"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["NVIDIA", "Amazon", "画像生成", "AI規制", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "**トヨタ、自律走行AIでレベル4達成**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 トヨタのレベル4自律走行、その真意は何なのか？

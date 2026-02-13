@@ -61,8 +61,20 @@ jobs:
           
           # Simple and reliable topic generation prompt
           # Enhanced topic prompt with diversity focus and recent content filtering
+
+          # Determine today's target categories (rotate to ensure diversity)
+          DAY_OF_WEEK=$(date +%u)
+          case $DAY_OF_WEEK in
+            1) TARGET_CATS="AI技術ガイド、業界別AI活用、AI最新ニュース" ;;
+            2) TARGET_CATS="導入事例、AI最新ニュース、AI導入戦略" ;;
+            3) TARGET_CATS="AI技術ガイド、研究論文、業界別AI活用" ;;
+            4) TARGET_CATS="AI最新ニュース、導入事例、AI技術ガイド" ;;
+            5) TARGET_CATS="業界別AI活用、AI導入戦略、AI最新ニュース" ;;
+            *) TARGET_CATS="AI技術ガイド、AI最新ニュース、業界別AI活用" ;;
+          esac
+
           RECENT_TITLES=$(find _posts -name "$(date +%Y-%m)*" -exec basename {} \; 2>/dev/null | head -10 | tr '\n' ' ')
-          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 【重要】過去記事との重複を避け、以下の最近のタイトルと異なる新しい話題を生成: $RECENT_TITLES 【要求】AI業界の最新・独自話題を3個生成。【必須条件】1. 異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazon、Apple、Anthropic、中国AI企業、新興企業、規制・政策、業界動向等） 2. 具体的な企業名・製品名・数値を含む 3. 30文字以内のタイトル 4. 投資家・技術者が関心を持つ内容 5. 番号付きリスト形式 【多様性重視】同じ企業・同じトピック（GPT、NVIDIA等）の重複を避ける。【出力例】1. Anthropic Claude 3.5、コード生成精度40%向上 2. 中国ByteDance、AI動画生成で米国進出 3. EU AI法施行、企業コンプライアンス対応急務"
+          TOPIC_PROMPT="WebSearch: AI業界 最新ニュース $(date '+%Y年%m月%d日'). 【重要】過去記事との重複を避け、以下の最近のタイトルと異なる新しい話題を生成: $RECENT_TITLES 【要求】AI業界の最新・独自話題を3個生成。【カテゴリ指定】今日の3記事は以下のカテゴリで1本ずつ生成すること: ${TARGET_CATS}。各トピックの先頭に[カテゴリ名]を付記。【必須条件】1. 異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazon、Apple、Anthropic、中国AI企業、新興企業、規制・政策、業界動向等） 2. 具体的な企業名・製品名・数値を含む 3. 30文字以内のタイトル 4. 投資家・技術者が関心を持つ内容 5. 番号付きリスト形式 【多様性重視】同じ企業・同じトピック（GPT、NVIDIA等）の重複を避ける。【出力例】1. [AI技術ガイド] RAG 2.0のアーキテクチャ、何が変わったのか 2. [業界別AI活用] 製造業のAI品質検査、歩留まり15%改善の裏側 3. [AI最新ニュース] Anthropic Claude 4.5、コード生成精度40%向上"
 
           # Enhanced API call with comprehensive validation
           echo "🔄 Attempting topic generation (with retry)..."
@@ -194,10 +206,54 @@ jobs:
             fi
             
             TOPIC=$(echo "$TOPIC_LINE" | sed 's/^[0-9]*\. *//')
+
+            # Extract category hint from topic (format: [カテゴリ名] トピック)
+            TOPIC_CATEGORY=""
+            TOPIC_AUTHOR="ALLFORCES編集部"
+            if echo "$TOPIC" | grep -q '^\['; then
+              TOPIC_CATEGORY=$(echo "$TOPIC" | sed 's/^\[\([^]]*\)\].*/\1/')
+              TOPIC=$(echo "$TOPIC" | sed 's/^\[[^]]*\] *//')
+            fi
+
+            # Category-specific persona and structure
+            case "$TOPIC_CATEGORY" in
+              "AI技術ガイド")
+                PERSONA="あなたは、大手テック企業でMLエンジニアとして10年の経験を持つ技術ライターです。LLMからMLOpsまで幅広い実装経験があり、複雑な技術を実践的なコード例を交えて解説するのが得意です。理論だけでなく「実際に動かしてみた」視点を大切にしています。"
+                STRUCTURE="【記事構成】1.技術の概要と背景（なぜ今この技術か）2.アーキテクチャ詳細（図解的説明）3.実装のポイント（擬似コードやベストプラクティス）4.パフォーマンス比較（ベンチマーク数値）5.導入時の注意点と次のステップ"
+                TOPIC_AUTHOR="ALLFORCESテクニカルチーム"
+                ;;
+              "導入事例")
+                PERSONA="あなたは、50社以上のAI導入プロジェクトを手がけてきたITコンサルタントです。成功事例だけでなく失敗からの学びも隠さず共有する誠実さが信頼されています。数値で語ることにこだわり、ROIと実装タイムラインを必ず示します。"
+                STRUCTURE="【記事構成】1.導入企業の課題（Before）2.選定したAIソリューションと理由 3.実装プロセスとタイムライン 4.定量的な成果（数値必須）5.成功要因と横展開のポイント"
+                TOPIC_AUTHOR="ALLFORCES戦略コンサルタント"
+                ;;
+              "業界別AI活用")
+                PERSONA="あなたは、特定業界に精通した産業アナリストです。業界の商習慣や規制環境を熟知しており、AIの可能性と現実的な制約の両方を理解しています。現場の声を大切にし、経営層と現場の両方に響く分析を心がけています。"
+                STRUCTURE="【記事構成】1.業界の現状と課題 2.AI活用の最新トレンド（3-4事例）3.導入障壁と克服策 4.ROI試算と投資判断のポイント 5.今後の展望とアクションプラン"
+                TOPIC_AUTHOR="ALLFORCES産業リサーチチーム"
+                ;;
+              "研究論文")
+                PERSONA="あなたは、NeurIPSやICMLの常連参加者で、最新のAI研究をビジネスパーソンにも理解できるよう翻訳するサイエンスライターです。論文の新規性を正確に伝えつつ、実用化までの距離感も冷静に評価します。"
+                STRUCTURE="【記事構成】1.研究の背景と動機 2.手法の核心（数式なしで直感的に）3.実験結果と既存手法との比較 4.実用化への道筋と課題 5.この研究が意味すること（大局的視点）"
+                TOPIC_AUTHOR="ALLFORCESリサーチチーム"
+                ;;
+              "AI導入戦略")
+                PERSONA="あなたは、大企業のCDO/CTOにアドバイスしてきた戦略コンサルタントです。テクノロジーの知識とビジネス戦略の両方に精通し、投資対効果を重視した実践的な提言を行います。"
+                STRUCTURE="【記事構成】1.戦略的背景（市場環境の変化）2.フレームワーク提示 3.具体的なアクションステップ 4.リスクと対策 5.成功の条件と次のアクション"
+                TOPIC_AUTHOR="ALLFORCES戦略コンサルタント"
+                ;;
+              *)
+                PERSONA="あなたは、AI業界を20年間ウォッチし続けてきた、経験豊富なテクノロジー・アナリストです。シリコンバレーのスタートアップから日本の大企業まで、数百社のAI導入を間近で見てきました。技術の本質を見抜く洞察力と、複雑な技術動向を投資家や技術者にとって使える情報に変換する能力が強みです。"
+                STRUCTURE="【記事構成】1.印象的な導入（最初の反応、読者への問いかけ）2.背景説明（重要性、経験談）3.核心分析（技術・ビジネス詳細、数値データ）4.実践的示唆（投資家・技術者が何をすべきか）5.開かれた結び（思考を促す問いかけで終わる）"
+                TOPIC_AUTHOR="ALLFORCES編集部"
+                ;;
+            esac
+
             echo "📝 Processing topic $topic_number: $TOPIC"
-            
+            echo "📂 Category: ${TOPIC_CATEGORY:-default} | Author: $TOPIC_AUTHOR"
+
             # Enhanced article generation prompt with completion safeguards
-            ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. あなたは、AI業界を20年間ウォッチし続けてきた、経験豊富なテクノロジー・アナリストです。シリコンバレーのスタートアップから日本の大企業まで、数百社のAI導入を間近で見てきました。技術の本質を見抜く洞察力と、複雑な技術動向を投資家や技術者にとって使える情報に変換する能力が強みです。あなたは決して完璧ではなく、時には予測を外すこともあり、新しい技術に対して最初は懐疑的になることもあります。しかし、その慎重さが分析に信頼性をもたらしています。【文体指示】親しみやすく専門的。業界の先輩が後輩にアドバイスするような温かみのある語りかけで書いてください。短い文で注意を引き、長い文で詳しく説明するリズムを意識し、読者に直接話しかけるスタイル（あなたも感じているかもしれませんが、正直なところ、個人的には等）を使用してください。【思考プロセス】1.最初の印象を率直に述べる 2.過去の経験と照らし合わせる 3.疑問や懸念を表現 4.複数の視点を検討 5.自分なりの結論に至る【避けること】結論として、留意すべき重要な点は等の常套句、予測されますの多用、完璧すぎる論理構成、箇条書きの多用【記事構成】固定的な概要→詳細分析→市場影響→展望ではなく、自然な流れで：1.印象的な導入（最初の反応、読者への問いかけ）2.背景説明（重要性、経験談）3.核心分析（技術・ビジネス詳細、数値データ）4.実践的示唆（投資家・技術者が何をすべきか）5.開かれた結び（思考を促す問いかけで終わる）【完成度保証】記事は必ず完結させること。文章の途中で終わることは絶対に避け、すべての段落が適切な句読点で完結していることを確認してください。特に最後の段落は読者への問いかけと個人的見解で自然に締めくくること。【タスク】$TOPICについて上記ペルソナで3000-4000文字の記事を作成。タイトルは40文字程度で好奇心を刺激するもの（衝撃、変える未来等の煽り文句でなく、その真意は？、何が変わるのか？等の思考を促すタイトル）。タイトルは必ず完全な文として終わらせ、途中で切れることがないよう注意してください。記事末尾に---END---を必ず記載。【重要：キーワード網羅性要件】記事主題に関連する具体的な技術名、製品名、サービス名、企業名、提携先、国際会議名等をWeb検索結果から可能な限り抽出し、不自然にならない形で本文中に盛り込むこと。特に重要な固有名詞（技術・サービス名、企業・団体名、規格・会議名）は物語の流れを壊さない範囲で積極的に言及し、単なる羅列ではなくそれが物語の中でどのような意味を持つかを簡潔に解説すること。【最終チェック】読者への問いかけ2回以上、個人的見解・経験含有、完璧すぎない構成（人間らしい不完全さ）、親しみやすさの確保、重要キーワードの自然な文脈での網羅、記事の完全性（文章が途切れていないこと）。"
+            ARTICLE_PROMPT="WebSearch: $TOPIC 詳細情報 企業 投資 技術. ${PERSONA}【文体指示】親しみやすく専門的。業界の先輩が後輩にアドバイスするような温かみのある語りかけで書いてください。短い文で注意を引き、長い文で詳しく説明するリズムを意識し、読者に直接話しかけるスタイル（あなたも感じているかもしれませんが、正直なところ、個人的には等）を使用してください。【思考プロセス】1.最初の印象を率直に述べる 2.過去の経験と照らし合わせる 3.疑問や懸念を表現 4.複数の視点を検討 5.自分なりの結論に至る【避けること】結論として、留意すべき重要な点は等の常套句、予測されますの多用、完璧すぎる論理構成、箇条書きの多用${STRUCTURE}【完成度保証】記事は必ず完結させること。文章の途中で終わることは絶対に避け、すべての段落が適切な句読点で完結していることを確認してください。特に最後の段落は読者への問いかけと個人的見解で自然に締めくくること。【タスク】$TOPICについて上記ペルソナで3000-4000文字の記事を作成。タイトルは40文字程度で好奇心を刺激するもの（衝撃、変える未来等の煽り文句でなく、その真意は？、何が変わるのか？等の思考を促すタイトル）。タイトルは必ず完全な文として終わらせ、途中で切れることがないよう注意してください。記事末尾に---END---を必ず記載。【重要：キーワード網羅性要件】記事主題に関連する具体的な技術名、製品名、サービス名、企業名、提携先、国際会議名等をWeb検索結果から可能な限り抽出し、不自然にならない形で本文中に盛り込むこと。特に重要な固有名詞（技術・サービス名、企業・団体名、規格・会議名）は物語の流れを壊さない範囲で積極的に言及し、単なる羅列ではなくそれが物語の中でどのような意味を持つかを簡潔に解説すること。【最終チェック】読者への問いかけ2回以上、個人的見解・経験含有、完璧すぎない構成（人間らしい不完全さ）、親しみやすさの確保、重要キーワードの自然な文脈での網羅、記事の完全性（文章が途切れていないこと）。"
 
             # Generate article with improved error handling
             GENERATION_SUCCESS=false
@@ -273,24 +329,14 @@ jobs:
               RAW_TITLE=$(head -1 "_temp/raw-article-${topic_number}.md" | sed 's/^# *//')
               TITLE_LENGTH=${#RAW_TITLE}
               
-              # Smart title handling - don't truncate, but warn if too long
+              # Smart title handling - safe multibyte truncation via Python
               if [ $TITLE_LENGTH -gt 40 ]; then
                 echo "⚠️ Title very long ($TITLE_LENGTH chars): $RAW_TITLE"
-                # Extract a meaningful title from the raw title without brutal truncation
-                TITLE=$(echo "$RAW_TITLE" | sed 's/：.*/：その真意は？/' | sed 's/、.*/の可能性とは？/' | head -c 40)
-                if [ ${#TITLE} -eq 40 ]; then
-                  TITLE="${TITLE}？"
-                fi
+                TITLE=$(python3 -c "import sys; t=sys.argv[1]; seps=['：','、','。','？','！']; idxs=[t.find(s) for s in seps if 15<t.find(s)<40]; t=t[:min(idxs)+1] if idxs else t; t=t[:38]+'...' if len(t)>40 else t; print(t)" "$RAW_TITLE")
                 echo "✂️ Smartly adjusted to: $TITLE"
               else
                 TITLE="$RAW_TITLE"
                 echo "✅ Title length OK: $TITLE"
-              fi
-              
-              # Ensure title ends properly (not with broken characters)
-              if echo "$TITLE" | grep -E "[段エとかがてでにはをのもしまたり]$" >/dev/null; then
-                TITLE=$(echo "$TITLE" | sed 's/[段エとかがてでにはをのもしまたり]$/？/')
-                echo "🔧 Fixed broken title ending: $TITLE"
               fi
               
               # Create temp file with Jekyll format for duplicate checking
@@ -301,23 +347,28 @@ jobs:
               # Analyze content for appropriate category and tags
               CONTENT=$(sed '/---END---/,$d' "_temp/raw-article-${topic_number}.md" | head -500 | tr '[:upper:]' '[:lower:]')
               
-              # Determine category based on content analysis
-              # Priority: 導入事例 > AI技術ガイド > 業界別AI活用 > 研究論文 > AI導入戦略 > AI最新ニュース
-              CATEGORY="AI最新ニュース"  # default
-              if echo "$CONTENT $TITLE" | grep -E "(実装|導入事例|活用事例|ケーススタディ|プロジェクト事例)" >/dev/null; then
-                CATEGORY="導入事例"
-              elif echo "$CONTENT $TITLE" | grep -E "(技術|アーキテクチャ|api|sdk|プログラム|コード|アルゴリズム|モデル|学習|ファインチューニング|rag)" >/dev/null; then
-                CATEGORY="AI技術ガイド"
-              elif echo "$CONTENT $TITLE" | grep -E "(製造|金融|医療|小売|物流|教育|建設|不動産|保険|農業)" >/dev/null; then
-                CATEGORY="業界別AI活用"
-              elif echo "$CONTENT $TITLE" | grep -E "(研究|論文|学術|実験|検証|arxiv|neurips|icml)" >/dev/null; then
-                CATEGORY="研究論文"
-              elif echo "$CONTENT $TITLE" | grep -E "(投資|市場|資金調達|評価額|roi|億ドル|兆ドル|戦略|ロードマップ)" >/dev/null; then
-                CATEGORY="AI導入戦略"
+              # Use topic-specified category if available, otherwise fall back to content analysis
+              if [ -n "$TOPIC_CATEGORY" ]; then
+                CATEGORY="$TOPIC_CATEGORY"
+              else
+                # Determine category based on content analysis
+                # Priority: 導入事例 > AI技術ガイド > 業界別AI活用 > 研究論文 > AI導入戦略 > AI最新ニュース
+                CATEGORY="AI最新ニュース"  # default
+                if echo "$CONTENT $TITLE" | grep -E "(実装|導入事例|活用事例|ケーススタディ|プロジェクト事例)" >/dev/null; then
+                  CATEGORY="導入事例"
+                elif echo "$CONTENT $TITLE" | grep -E "(技術|アーキテクチャ|api|sdk|プログラム|コード|アルゴリズム|モデル|学習|ファインチューニング|rag)" >/dev/null; then
+                  CATEGORY="AI技術ガイド"
+                elif echo "$CONTENT $TITLE" | grep -E "(製造|金融|医療|小売|物流|教育|建設|不動産|保険|農業)" >/dev/null; then
+                  CATEGORY="業界別AI活用"
+                elif echo "$CONTENT $TITLE" | grep -E "(研究|論文|学術|実験|検証|arxiv|neurips|icml)" >/dev/null; then
+                  CATEGORY="研究論文"
+                elif echo "$CONTENT $TITLE" | grep -E "(投資|市場|資金調達|評価額|roi|億ドル|兆ドル|戦略|ロードマップ)" >/dev/null; then
+                  CATEGORY="AI導入戦略"
+                fi
               fi
               
-              # Generate tags based on title and content analysis  
-              TAGS='"AI", "最新ニュース", "技術動向"'  # default tags
+              # Generate tags based on title and content analysis
+              TAGS=""  # No default filler tags - built from content analysis
               
               # Primary company detection (check title first, then content)
               PRIMARY_COMPANY=""
@@ -343,29 +394,61 @@ jobs:
               
               # Add primary company tag
               if [ -n "$PRIMARY_COMPANY" ]; then
-                TAGS="${TAGS}, \"$PRIMARY_COMPANY\""
+                TAGS="${TAGS:+$TAGS, }\"$PRIMARY_COMPANY\""
               fi
               
               # Add secondary companies only if they appear prominently in title or are main focus
               if echo "$TITLE $CONTENT" | grep -c -i "openai\|gpt" | grep -q "[2-9]" && [ "$PRIMARY_COMPANY" != "OpenAI" ]; then
-                TAGS="${TAGS}, \"OpenAI\""
+                TAGS="${TAGS:+$TAGS, }\"OpenAI\""
               fi
               if echo "$TITLE $CONTENT" | grep -c -i "google\|gemini" | grep -q "[2-9]" && [ "$PRIMARY_COMPANY" != "Google" ]; then
-                TAGS="${TAGS}, \"Google\""
+                TAGS="${TAGS:+$TAGS, }\"Google\""
               fi
               if echo "$TITLE $CONTENT" | grep -c -i "microsoft\|azure" | grep -q "[2-9]" && [ "$PRIMARY_COMPANY" != "Microsoft" ]; then
-                TAGS="${TAGS}, \"Microsoft\""
+                TAGS="${TAGS:+$TAGS, }\"Microsoft\""
               fi
-              
-              # Add topic-specific tags
+
+              # Technology-specific tags
+              if echo "$CONTENT $TITLE" | grep -i "llm\|大規模言語モデル\|language model\|transformer" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"LLM\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "rag\|検索拡張\|retrieval augmented" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"RAG\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "マルチモーダル\|multimodal\|画像認識" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"マルチモーダル\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "画像生成\|stable diffusion\|midjourney\|dall-e" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"画像生成\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "音声\|speech\|tts\|whisper" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"音声AI\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "ファインチューニング\|fine-tun\|lora\|qlora" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"ファインチューニング\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "ロボット\|robot\|ロボティクス" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"ロボティクス\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "自動運転\|autonomous\|waymo" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"自動運転\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "規制\|法律\|ガイドライン\|eu ai act" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"AI規制\""
+              fi
+              if echo "$CONTENT $TITLE" | grep -i "倫理\|ethics\|バイアス\|公平性" >/dev/null; then
+                TAGS="${TAGS:+$TAGS, }\"AI倫理\""
+              fi
+
+              # Topic-specific tags
               if echo "$CONTENT $TITLE" | grep -i "投資\|資金調達\|評価額" >/dev/null; then
-                TAGS="${TAGS}, \"投資\""
+                TAGS="${TAGS:+$TAGS, }\"投資\""
               fi
               if echo "$CONTENT $TITLE" | grep -i "chip\|チップ\|gpu\|tpu\|semiconductor" >/dev/null; then
-                TAGS="${TAGS}, \"チップ\""
+                TAGS="${TAGS:+$TAGS, }\"チップ\""
               fi
               if echo "$CONTENT $TITLE" | grep -i "エージェント\|agent\|自動化" >/dev/null; then
-                TAGS="${TAGS}, \"エージェント\""
+                TAGS="${TAGS:+$TAGS, }\"AIエージェント\""
               fi
               
               # Create temp article with frontmatter
@@ -375,9 +458,12 @@ jobs:
               printf "date: %s\n" "$CURRENT_DATE" >> "_temp/$TEMP_FILENAME"
               printf "categories: [\"%s\"]\n" "$CATEGORY" >> "_temp/$TEMP_FILENAME"
               printf "tags: [%s]\n" "$TAGS" >> "_temp/$TEMP_FILENAME"
-              printf "%s\n" 'author: "ALLFORCES編集部"' >> "_temp/$TEMP_FILENAME"
+              printf 'author: "%s"\n' "$TOPIC_AUTHOR" >> "_temp/$TEMP_FILENAME"
               printf "excerpt: \"%s\"\n" "$EXCERPT_TEXT" >> "_temp/$TEMP_FILENAME"
-              printf "%s\n" "reading_time: 8" >> "_temp/$TEMP_FILENAME"
+              # Calculate reading time based on character count (500 chars/min for Japanese)
+              ARTICLE_CHARS=$(wc -m < "_temp/raw-article-${topic_number}.md")
+              READING_TIME=$(python3 -c "import sys; c=int(sys.argv[1]); print(max(3, min(20, c//500+1)))" "$ARTICLE_CHARS")
+              printf "reading_time: %s\n" "$READING_TIME" >> "_temp/$TEMP_FILENAME"
               printf "%s\n\n" "---" >> "_temp/$TEMP_FILENAME"
               
               # Add article content (excluding ---END--- marker)
@@ -606,6 +692,19 @@ jobs:
           python3 scripts/enrich_article.py _posts/
           echo "✅ Article enrichment complete"
 
+      # STAGE 3.7: OGP Image Generation
+      - name: Generate OGP images for new articles
+        run: |
+          echo "Generating OGP images for today's articles..."
+          TODAY=$(date +%Y-%m-%d)
+          NEW_POSTS=$(find _posts -name "${TODAY}-*.md" 2>/dev/null)
+          if [ -n "$NEW_POSTS" ]; then
+            python3 scripts/generate_ogp_image.py _posts/ 2>&1 || echo "OGP generation had issues, continuing..."
+            echo "OGP image generation complete"
+          else
+            echo "No new posts found for today, skipping OGP generation"
+          fi
+
       - name: Setup Ruby and Jekyll
         uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd # v1.288.0
         with:
@@ -635,7 +734,7 @@ jobs:
           
           if [ -n "$(git status --porcelain _posts/)" ]; then
             ARTICLE_COUNT=$(ls _posts/$(date +%Y-%m-%d)-*.md 2>/dev/null | wc -l)
-            git add _posts/
+            git add _posts/ assets/images/posts/
             git commit -m "🤖 Add $ARTICLE_COUNT quality AI articles - $(date +%Y-%m-%d)"
             
             echo "📤 Pushing $ARTICLE_COUNT new articles..."

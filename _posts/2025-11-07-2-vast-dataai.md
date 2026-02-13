@@ -2,11 +2,11 @@
 layout: post
 title: "Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？"
 date: 2025-11-07 20:32:55 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Vast Data、AIインフラ11.7億ドル契約について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？

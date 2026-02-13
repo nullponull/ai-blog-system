@@ -2,11 +2,11 @@
 layout: post
 title: "Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？"
 date: 2025-12-19 04:51:01 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["NVIDIA", "マルチモーダル", "推論最適化", "AI規制", "AI人材", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "中国Baidu、AIチップ「Kunlun 5」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 13
 ---
 
 Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？

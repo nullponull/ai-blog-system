@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindの創薬AI、その新発見は何を意味するのだろうか？"
 date: 2025-12-09 08:47:06 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、創薬AIで新発見**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 DeepMindの創薬AI、その新発見は何を意味するのだろうか？

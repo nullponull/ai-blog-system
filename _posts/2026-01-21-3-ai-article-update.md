@@ -2,11 +2,11 @@
 layout: post
 title: "中国バイドゥの可能性とは？"
 date: 2026-01-21 17:19:34 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["LLM", "マルチモーダル", "音声AI", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、AIロボット発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 中国バイドゥ、AIロボット発表の波紋：未来を読み解くテクノロジーアナリストの視点。

@@ -2,11 +2,11 @@
 layout: post
 title: "# Google DeepMindの可能性とは？"
 date: 2025-12-23 16:44:41 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "LLM", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、創薬AIで新薬候補300件発見について詳細に分析します。"
-reading_time: 8
+reading_time: 10
 ---
 
 ## Google DeepMind、創薬AIで300件の新薬候補を発見：その真意と、医療の未来をどう変えるのか？

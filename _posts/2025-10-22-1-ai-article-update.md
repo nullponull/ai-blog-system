@@ -2,11 +2,11 @@
 layout: post
 title: "中国AIブーム、その真意はどこにあるのか？"
 date: 2025-10-22 08:44:33 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "中国AIブーム、デジタル経済牽引について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 中国AIブーム、その真意はどこにあるのか？

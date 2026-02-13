@@ -1,0 +1,11 @@
+{% if site.google_adsense_id %}
+<div class="ad-mid-article" role="complementary" aria-label="広告">
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="{{ site.google_adsense_id }}"
+         {% if site.ads.in_article %}data-ad-slot="{{ site.ads.in_article }}"{% endif %}></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}

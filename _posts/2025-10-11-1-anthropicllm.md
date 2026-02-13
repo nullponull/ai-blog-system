@@ -2,11 +2,11 @@
 layout: post
 title: "Anthropicが警告するLLMバックド�"
 date: 2025-10-11 12:53:28 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、LLMバックドア脆弱性発見について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Anthropicが警告するLLMバックドアの真意とは？AIの未来に何が変わるのか？

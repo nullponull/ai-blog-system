@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindの創薬AI、本当に「新記録」なのか？"
 date: 2025-12-24 08:46:18 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "LLM", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**Google DeepMind、創薬AIで新記録**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 DeepMindの創薬AI、本当に「新記録」なのか？

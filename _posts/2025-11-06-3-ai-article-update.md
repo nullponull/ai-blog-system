@@ -2,11 +2,11 @@
 layout: post
 title: "カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波"
 date: 2025-11-06 20:37:13 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州、AI規制法案を緩和・廃止について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波

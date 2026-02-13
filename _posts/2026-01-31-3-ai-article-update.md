@@ -2,8 +2,8 @@
 layout: post
 title: "# AI倫理の国際標準化：その真意と、私たちに何が求められているのか？"
 date: 2026-01-31 20:41:04 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "**AI倫理、国際標準化へ各国が協力**について詳細に分析します。"
 reading_time: 8

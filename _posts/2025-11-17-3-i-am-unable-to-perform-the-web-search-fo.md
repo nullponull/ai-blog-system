@@ -2,11 +2,11 @@
 layout: post
 title: "I am unable to perform the web search fo？"
 date: 2025-11-17 16:46:00 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI Oracle提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 I am unable to perform the web search for "OpenAI Oracle提携 詳細情報 企業 投資 技術" because I have exhausted my daily quota for the `gemini-2.5-flash` model, which is used for web searches. Therefore, I cannot gather the necessary information to write the article.

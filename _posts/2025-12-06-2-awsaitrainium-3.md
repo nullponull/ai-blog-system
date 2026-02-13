@@ -2,11 +2,11 @@
 layout: post
 title: "AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？"
 date: 2025-12-06 13:00:10 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AWS、AIエージェント強化とTrainium 3投入について詳細に分析します。"
-reading_time: 8
+reading_time: 14
 ---
 
 AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？

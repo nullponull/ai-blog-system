@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの新モデルの可能�"
 date: 2025-12-22 02:30:45 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデル4種追加**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？

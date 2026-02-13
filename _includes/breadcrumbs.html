@@ -12,13 +12,13 @@
             <li class="breadcrumb-separator">›</li>
             <li class="breadcrumb-item">
                 {% case category %}
-                    {% when '最新動向' %}
+                    {% when 'AI最新ニュース' %}
                         <a href="/category/latest/">📈 {{ category }}</a>
-                    {% when '技術解説' %}
+                    {% when 'AI技術ガイド' %}
                         <a href="/category/tech/">🔬 {{ category }}</a>
-                    {% when '実装事例' %}
+                    {% when '導入事例' %}
                         <a href="/category/implementation/">💼 {{ category }}</a>
-                    {% when '業界分析' %}
+                    {% when '業界別AI活用' %}
                         <a href="/category/analysis/">📊 {{ category }}</a>
                     {% when '研究論文' %}
                         <a href="/category/research/">🎓 {{ category }}</a>
@@ -81,13 +81,13 @@
             <li class="breadcrumb-separator">›</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
                 {% if page.permalink == '/category/latest/' %}
-                    <span>📈 最新動向</span>
+                    <span>📈 AI最新ニュース</span>
                 {% elsif page.permalink == '/category/tech/' %}
-                    <span>🔬 技術解説</span>
+                    <span>🔬 AI技術ガイド</span>
                 {% elsif page.permalink == '/category/implementation/' %}
-                    <span>💼 実装事例</span>
+                    <span>💼 導入事例</span>
                 {% elsif page.permalink == '/category/analysis/' %}
-                    <span>📊 業界分析</span>
+                    <span>📊 業界別AI活用</span>
                 {% elsif page.permalink == '/category/research/' %}
                     <span>🎓 研究論文</span>
                 {% else %}
@@ -106,6 +106,44 @@
         {% endif %}
     </ol>
 </nav>
+
+{% if page.layout == 'post' and page.categories and page.categories.size > 0 %}
+{% assign bc_category = page.categories.first %}
+{% assign bc_category_url = "" %}
+{% case bc_category %}
+    {% when 'AI最新ニュース' %}{% assign bc_category_url = "/category/latest/" %}
+    {% when 'AI技術ガイド' %}{% assign bc_category_url = "/category/tech/" %}
+    {% when 'AI導入戦略' %}{% assign bc_category_url = "/category/strategy/" %}
+    {% when '業界別AI活用' %}{% assign bc_category_url = "/category/analysis/" %}
+    {% when '導入事例' %}{% assign bc_category_url = "/category/implementation/" %}
+    {% when '研究論文' %}{% assign bc_category_url = "/category/research/" %}
+{% endcase %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ホーム",
+            "item": "{{ site.url }}"
+        }{% if bc_category_url != "" %},
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ bc_category }}",
+            "item": "{{ site.url }}{{ bc_category_url }}"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{{ page.title | truncate: 50 }}"
+        }{% endif %}
+    ]
+}
+</script>
+{% endif %}
 
 <style>
 .breadcrumbs {

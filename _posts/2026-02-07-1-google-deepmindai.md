@@ -2,11 +2,11 @@
 layout: post
 title: "Google DeepMindの創薬AIの可能性�"
 date: 2026-02-07 02:51:46 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "xAI", "LLM", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、創薬AIで新薬候補1000件発見について詳細に分析します。"
-reading_time: 8
+reading_time: 17
 ---
 
 Google DeepMindの創薬AI、新薬候補1000件発見の衝撃、何が変わるのだろうか？

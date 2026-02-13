@@ -2,11 +2,11 @@
 layout: post
 title: "Anthropic Claudeの「Agent Skills」導"
 date: 2025-11-09 20:33:35 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、Claudeに「Agent Skills」導入について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？

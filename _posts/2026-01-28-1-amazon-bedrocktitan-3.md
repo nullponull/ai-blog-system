@@ -2,11 +2,11 @@
 layout: post
 title: "# Amazon BedrockとTitan 3の発表が�"
 date: 2026-01-28 20:50:05 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "Microsoft", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデル「Titan 3」発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## Amazon BedrockとTitan 3の発表が、クラウドAIの未来に何を問いかけるのか？

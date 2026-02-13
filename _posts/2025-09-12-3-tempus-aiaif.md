@@ -2,11 +2,11 @@
 layout: post
 title: "Tempus AI、心臓AI診断でFDA承認の真意とは？"
 date: 2025-09-12 02:01:25 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Google", "マルチモーダル", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Tempus AI、心臓AI診断でFDA承認について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Tempus AI、心臓AI診断のFDA承認：その真意はどこにあるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "MetaがLlama 4で目指す汎用AIの地平、その真意とは何でしょうか？"
 date: 2025-12-09 16:42:55 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Meta", "OpenAI", "Google", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Meta、Llama 4で汎用AI開発加速について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 # MetaがLlama 4で目指す汎用AIの地平、その真意とは何でしょうか？

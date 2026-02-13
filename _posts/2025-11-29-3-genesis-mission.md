@@ -2,11 +2,11 @@
 layout: post
 title: "**米国「Genesis Mission」：その�"
 date: 2025-11-29 02:11:40 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "NVIDIA", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "米国「Genesis Mission」AI科学推進について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 **米国「Genesis Mission」：AIが科学発見を変革する真意とは？**

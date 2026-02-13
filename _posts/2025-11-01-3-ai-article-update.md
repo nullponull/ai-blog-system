@@ -2,11 +2,11 @@
 layout: post
 title: "日本が目指す「フィジカルAI�"
 date: 2025-11-01 20:33:00 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "xAI", "マルチモーダル", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "日本、フィジカルAIで「身体知」融合へについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 日本が目指す「フィジカルAIと身体知の融合」は、本当にゲームチェンジャーとなるのか？

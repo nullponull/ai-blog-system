@@ -2,11 +2,11 @@
 layout: post
 title: "Intel Gaudi 3、AIチップ市場で何が変わる？"
 date: 2025-12-18 20:34:26 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "**Intel Gaudi 3、性能競争激化でシェア拡大**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 Intel Gaudi 3、AIチップ市場で何が変わる？

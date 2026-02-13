@@ -2,11 +2,11 @@
 layout: post
 title: "AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？"
 date: 2025-12-23 08:46:58 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、AWS新GPUで性能2倍**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？

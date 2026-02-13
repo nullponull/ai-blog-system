@@ -2,11 +2,11 @@
 layout: post
 title: "Google DeepMindの創薬AI新発見：�"
 date: 2025-12-24 04:50:31 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**Google DeepMind、創薬AIで新発見**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 Google DeepMindの創薬AI新発見：その真価と、私たちが本当に見るべき未来とは？

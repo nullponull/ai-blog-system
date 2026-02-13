@@ -2,11 +2,11 @@
 layout: post
 title: "MicrosoftのAzure AIの可能性とは�"
 date: 2026-01-19 16:49:58 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダル", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、Azure AIで中小企業向けDX支援強化、月額1万円～**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？

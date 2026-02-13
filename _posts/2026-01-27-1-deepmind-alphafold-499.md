@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMind AlphaFold 4の精度99%はの�"
 date: 2026-01-27 20:38:35 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Meta", "NVIDIA", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind, AlphaFold 4発表、タンパク質構造予測精度99%**について詳細に分析します。"
-reading_time: 8
+reading_time: 17
 ---
 
 DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。

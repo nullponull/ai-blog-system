@@ -2,11 +2,11 @@
 layout: post
 title: "AI創薬で抗がん剤候補発見率�"
 date: 2026-01-09 13:09:58 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["NVIDIA", "xAI", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**AI創薬、新規抗がん剤候補発見率2倍**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 AI創薬で抗がん剤候補発見率が2倍？ その数字が語る真意と、私たちが見るべき未来とは

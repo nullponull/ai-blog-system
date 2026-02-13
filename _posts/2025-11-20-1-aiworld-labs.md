@@ -2,11 +2,11 @@
 layout: post
 title: "シスコの空間AI「World Labs」投資、その真意はどこにあるのか？"
 date: 2025-11-20 16:44:36 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["マルチモーダル", "音声AI", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "シスコ、空間AI「World Labs」に投資について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 シスコの空間AI「World Labs」投資、その真意はどこにあるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？"
 date: 2025-11-01 04:35:09 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "LLM", "AIエージェント", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIA/SK Group、韓国にAI工場建設 (5万基GPU)について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？

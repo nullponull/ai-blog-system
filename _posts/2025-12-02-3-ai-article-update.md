@@ -2,11 +2,11 @@
 layout: post
 title: "「機械大手とフィジカルAI、その協業が示す産業の未来とは何か？」"
 date: 2025-12-02 13:08:34 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["NVIDIA", "AIエージェント", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "機械大手、フィジカルAIで協業加速について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「機械大手とフィジカルAI、その協業が示す産業の未来とは何か？」

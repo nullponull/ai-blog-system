@@ -2,11 +2,11 @@
 layout: post
 title: "ソフトバンクの可能性とは？"
 date: 2025-10-18 20:33:18 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["AIエージェント", "マルチモーダル", "音声AI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、ABBロボット事業を8000億円で買収について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ソフトバンク、ABBロボット事業買収の真意とは？AIと物理世界の融合が何を変えるのか？

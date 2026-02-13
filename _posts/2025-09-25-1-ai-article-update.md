@@ -2,11 +2,11 @@
 layout: post
 title: "物理AI、産業導入の真意とは？投資家と技術者が今、注目すべきこと。"
 date: 2025-09-25 20:34:42 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "物理AI、産業導入へ移行。投資注目について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 物理AI、産業導入の真意とは？投資家と技術者が今、注目すべきこと。

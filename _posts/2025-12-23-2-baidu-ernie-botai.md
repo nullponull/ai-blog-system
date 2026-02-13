@@ -2,11 +2,11 @@
 layout: post
 title: "Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？"
 date: 2025-12-23 02:26:59 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Anthropic", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、AIチャットボット「Ernie Bot」の最新版発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？

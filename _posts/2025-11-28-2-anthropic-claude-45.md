@@ -2,11 +2,11 @@
 layout: post
 title: "Anthropic Claude 4.5がもたらす「防御力」の真意とは？"
 date: 2025-11-28 08:45:23 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude 4.5、防御力向上について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Anthropic Claude 4.5がもたらす「防御力」の真意とは？

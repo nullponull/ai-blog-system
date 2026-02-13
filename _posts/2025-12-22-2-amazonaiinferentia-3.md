@@ -2,11 +2,11 @@
 layout: post
 title: "# AmazonのAIチップ「Inferentia 3」"
 date: 2025-12-22 13:05:04 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AIチップ「Inferentia 3」でコスト削減** (2025-12-22)について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## AmazonのAIチップ「Inferentia 3」、クラウドAIの未来をどう塗り替えるのか？

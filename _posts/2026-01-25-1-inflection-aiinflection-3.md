@@ -2,11 +2,11 @@
 layout: post
 title: "Inflection AIの「Inflection-3」発表"
 date: 2026-01-25 05:01:07 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、大規模言語モデル「Inflection-3」発表、企業向けAPI提供開始**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？

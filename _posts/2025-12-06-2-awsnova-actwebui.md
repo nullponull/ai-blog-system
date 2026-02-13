@@ -2,11 +2,11 @@
 layout: post
 title: "AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？"
 date: 2025-12-06 02:10:27 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "AWS、WebUI自動化AI「Nova Act」について詳細に分析します。"
-reading_time: 8
+reading_time: 5
 ---
 
 AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？

@@ -2,8 +2,8 @@
 layout: post
 title: "# トヨタの可能性とは？"
 date: 2025-12-10 20:44:56 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["導入事例"]
+tags: ["NVIDIA", "Amazon", "LLM", "AI人材", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "トヨタ、自動運転AIに100億円投資について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "ソフトバンクの可能性とは？"
 date: 2025-11-19 20:33:45 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、NVIDIA Blackwellで国内AI基盤1位について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？

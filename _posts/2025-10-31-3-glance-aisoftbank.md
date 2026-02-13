@@ -2,11 +2,11 @@
 layout: post
 title: "「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？"
 date: 2025-10-31 02:12:19 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Meta", "Amazon", "Apple", "xAI", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "SoftBank、AI活用「Glance AI」搭載について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？

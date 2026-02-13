@@ -2,11 +2,11 @@
 layout: post
 title: "「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？"
 date: 2025-11-26 04:41:41 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Google「Gemini 3」発表、Meta採用検討について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？

@@ -2,11 +2,11 @@
 layout: post
 title: "AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？"
 date: 2025-11-09 12:57:03 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe、Googleと生成AI連携強化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？

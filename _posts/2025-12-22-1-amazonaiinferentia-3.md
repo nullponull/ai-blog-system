@@ -2,11 +2,11 @@
 layout: post
 title: "AmazonのAIチップ「Inferentia 3」発表、その真意は何？"
 date: 2025-12-22 08:47:38 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "Microsoft", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AIチップ「Inferentia 3」発表、性能2倍**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 AmazonのAIチップ「Inferentia 3」発表、その真意は何？

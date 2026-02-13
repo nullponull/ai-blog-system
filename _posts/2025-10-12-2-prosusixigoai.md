@@ -2,11 +2,11 @@
 layout: post
 title: "ProsusのIxigo投資、その裏に潜むAI戦略の真意とは？"
 date: 2025-10-12 16:36:15 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "LLM", "RAG", "AIエージェント", "ファインチューニング"]
 author: "ALLFORCES編集部"
 excerpt: "Prosus、印Ixigoに1.46億ドル投資について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ProsusのIxigo投資、その裏に潜むAI戦略の真意とは？

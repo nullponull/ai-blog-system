@@ -2,11 +2,11 @@
 layout: post
 title: "「IndustrialMind.aiの挑戦：製造業AIの未来をどう変えるのか？」"
 date: 2025-11-10 13:04:21 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["AIエージェント", "ROI分析", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "IndustrialMind.ai、製造AI資金調達について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「IndustrialMind.aiの挑戦：製造業AIの未来をどう変えるのか？」

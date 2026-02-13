@@ -2,11 +2,11 @@
 layout: post
 title: "**Samsung新ISPが示す未来：AIスマホ競争、その真意とは何か？**"
 date: 2026-01-31 20:40:43 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Apple", "RAG", "マルチモーダル", "ROI分析", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**Samsung、次世代AIスマホ向け新ISP発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 11
 ---
 
 **Samsung新ISPが示す未来：AIスマホ競争、その真意とは何か？**

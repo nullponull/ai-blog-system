@@ -2,11 +2,11 @@
 layout: post
 title: "Applied Digitalの50億ドル調達の�"
 date: 2025-10-07 20:35:25 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Applied Digital、AIインフラ50億ドル調達について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Applied Digitalの50億ドル調達、AIインフラの未来をどう変えるのか？

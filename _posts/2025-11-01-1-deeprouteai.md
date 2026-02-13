@@ -2,11 +2,11 @@
 layout: post
 title: "DeepRoute.aiのロボタクシー展開�"
 date: 2025-11-01 08:36:59 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "LLM", "マルチモーダル", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "DeepRoute.ai、年末にロボタクシー展開について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 DeepRoute.aiのロボタクシー展開、その真意は？自動運転の未来をどう変えるのか。

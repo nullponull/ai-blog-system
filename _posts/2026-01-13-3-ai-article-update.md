@@ -2,11 +2,11 @@
 layout: post
 title: "東大のAI創薬、次世代への扉を開くのか？"
 date: 2026-01-13 08:50:15 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "東京大学、AI創薬プラットフォームで新薬候補3件発見について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 東大のAI創薬、次世代への扉を開くのか？

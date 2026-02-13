@@ -2,11 +2,11 @@
 layout: post
 title: "EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？"
 date: 2025-12-28 16:40:56 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "EU、AI規制第2弾、倫理基準強化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？

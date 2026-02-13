@@ -2,11 +2,11 @@
 layout: post
 title: "「科学AI」は本当に次のフロ�"
 date: 2025-10-05 08:36:08 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "NVIDIA", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Periodic Labs設立、科学AI開発について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「科学AI」は本当に次のフロンティアなのか？Periodic Labsの挑戦とその真意

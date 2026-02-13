@@ -122,10 +122,11 @@ google_analytics: "G-TKR1S3YGB2"
 
 # Google AdSense設定
 google_adsense_id: "ca-pub-2749909945906194"
-# ads:
-#   header_slot: "XXXXXXXXXX"
-#   article_slot: "XXXXXXXXXX"
-#   sidebar_slot: "XXXXXXXXXX"
+ads:
+  header_slot: "6340486834"
+  article_slot: "5027405161"
+  sidebar_slot: "6404066018"
+  in_article: "1607034907"
 
 # Social links
 social:
@@ -144,8 +145,9 @@ consulting:
 
 # Newsletter settings
 newsletter:
-  enabled: false
+  enabled: true
   cta_text: "AI最新情報を毎週お届け"
+  formspree_id: "xpqjpllv"
 
 # Reading time calculation
 reading_time: true

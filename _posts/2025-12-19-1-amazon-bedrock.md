@@ -2,11 +2,11 @@
 layout: post
 title: "**Amazon Bedrockの可能性とは？"
 date: 2025-12-19 20:36:44 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "Apple", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、AIモデル30種追加**について詳細に分析します。"
-reading_time: 8
+reading_time: 10
 ---
 
 **Amazon Bedrock、AIモデル30種追加：これは単なる数の勝負ではない、その深層を読み解こう**

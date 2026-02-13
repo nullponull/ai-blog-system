@@ -2,11 +2,11 @@
 layout: post
 title: "Samsung AI Forum 2025：その真意は�"
 date: 2025-09-15 20:32:49 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "xAI", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung AI Forum開催、新AIモデル発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？

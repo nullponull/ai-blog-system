@@ -2,11 +2,11 @@
 layout: post
 title: "FuriosaAIの省エネAI推論サーバ�"
 date: 2025-09-27 08:35:06 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "FuriosaAI、省エネAI推論サーバー発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？"
 date: 2025-12-12 13:05:27 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Amazon", "ROI分析", "AI人材", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、AIロボット「Digit」製造ラインを2倍にについて詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？

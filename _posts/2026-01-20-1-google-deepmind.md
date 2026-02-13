@@ -2,11 +2,11 @@
 layout: post
 title: "Google DeepMindのタンパク質構造�"
 date: 2026-01-20 20:50:13 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "xAI", "LLM", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "**Google DeepMind、新タンパク質構造予測精度95%達成**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？

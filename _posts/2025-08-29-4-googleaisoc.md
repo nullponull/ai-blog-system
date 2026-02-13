@@ -2,11 +2,11 @@
 layout: post
 title: "GoogleがAIエージェント駆動の「エージェント型SOC」構想を発"
 date: 2025-08-29 14:55:57 +0000
-categories: ["最新動向"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "Amazon"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 17
 ---
 
 ## 概要と背景

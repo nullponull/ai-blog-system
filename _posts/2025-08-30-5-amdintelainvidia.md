@@ -2,11 +2,11 @@
 layout: post
 title: "AMD・Intel AI専用チップ参入"
 date: 2025-08-30 08:39:30 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "NVIDIA"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## 概要と背景

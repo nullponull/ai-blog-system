@@ -2,11 +2,11 @@
 layout: post
 title: "AnthropicのClaude Haiku 4.5、その真意はどこにあるのか？"
 date: 2025-10-25 04:35:57 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic、Claude Haiku 4.5発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AnthropicのClaude Haiku 4.5、その真意はどこにあるのか？

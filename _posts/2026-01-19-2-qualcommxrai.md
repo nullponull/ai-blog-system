@@ -2,8 +2,8 @@
 layout: post
 title: "QualcommのXR向けAIチップ、その真意は何だろうか？"
 date: 2026-01-19 08:51:51 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Meta", "NVIDIA", "Apple", "RAG", "推論最適化", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm、XR向けAIチップ発表について詳細に分析します。"
 reading_time: 8

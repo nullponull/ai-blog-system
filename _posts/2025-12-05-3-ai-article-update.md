@@ -2,11 +2,11 @@
 layout: post
 title: "インドネシアと中国、AIで深まる絆の真意とは？アジアのテック地図に変化の予兆"
 date: 2025-12-05 04:45:09 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Microsoft", "NVIDIA", "LLM", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "インドネシア、中国とAI協力強化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 インドネシアと中国、AIで深まる絆の真意とは？アジアのテック地図に変化の予兆

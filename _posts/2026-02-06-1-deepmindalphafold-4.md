@@ -2,8 +2,8 @@
 layout: post
 title: "DeepMind『AlphaFold 4』発表：そ？"
 date: 2026-02-06 05:22:50 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、創薬AI「AlphaFold 4」発表。タンパク質構造予測精度95%超。**について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "AI倫理の国際標準化の可能性�"
 date: 2025-12-30 13:07:31 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["研究論文"]
+tags: ["OpenAI", "Microsoft", "Amazon", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**AI倫理、国際標準化へ議論活発化**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 AI倫理の国際標準化、その議論の活発化は、私たちのAIの未来をどう変えるのだろう？

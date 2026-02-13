@@ -2,11 +2,11 @@
 layout: post
 title: "# Microsoft Azureの量子AI基盤発表"
 date: 2025-12-26 02:25:22 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "NVIDIA"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Azure、量子AI基盤を発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 ## Microsoft Azureの量子AI基盤発表：その真意と、私たちの未来に何をもたらすのか？

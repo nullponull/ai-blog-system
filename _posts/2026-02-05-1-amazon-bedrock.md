@@ -2,8 +2,8 @@
 layout: post
 title: "# Amazon Bedrockの新モデルがコス"
 date: 2026-02-05 20:52:33 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "Microsoft", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルでコスト30%削減**について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？"
 date: 2025-12-31 13:05:13 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "LLM", "マルチモーダル", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、AI言語モデル「Ernie 5.0」発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？

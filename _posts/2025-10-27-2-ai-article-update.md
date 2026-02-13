@@ -2,11 +2,11 @@
 layout: post
 title: "カリフォルニア州のAIチャットボット安全対策法、その真意とは？"
 date: 2025-10-27 13:04:57 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州、AIチャットボット安全対策法制定について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 カリフォルニア州のAIチャットボット安全対策法、その真意とは？

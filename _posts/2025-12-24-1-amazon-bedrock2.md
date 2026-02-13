@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの推論速度2倍の可�"
 date: 2025-12-24 16:40:27 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルで推論速度2倍**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 Amazon Bedrockの推論速度2倍、その真価を問うのは、生成AIの新たな進化点か？

@@ -2,8 +2,8 @@
 layout: post
 title: "Amazon BedrockとClaude 4の可能性？"
 date: 2025-12-22 16:42:42 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、Anthropic Claude 4発表**について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "中国AIチップ大手Cambriconが急成長"
 date: 2025-09-06 08:37:39 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "技術革新"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 5
 ---
 # **中国AIチップ大手Cambriconの急成長と市場競争力**:
 

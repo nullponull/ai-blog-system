@@ -2,11 +2,11 @@
 layout: post
 title: "InspirenのAI介護プラットフォーム、その真価はどこにあるのか？"
 date: 2025-09-25 20:36:24 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "ROI分析", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Inspiren、AI介護プラットフォーム1億ドル調達について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 InspirenのAI介護プラットフォーム、その真価はどこにあるのか？

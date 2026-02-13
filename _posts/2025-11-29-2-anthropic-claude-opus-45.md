@@ -2,11 +2,11 @@
 layout: post
 title: "Anthropic Claude Opus 4.5が示すの可"
 date: 2025-11-29 04:39:36 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Opus 4.5発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ

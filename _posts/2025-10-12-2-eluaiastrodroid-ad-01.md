@@ -2,11 +2,11 @@
 layout: post
 title: "ELU.AIの「AstroDroid AD-01」はの可"
 date: 2025-10-12 04:35:23 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["AIエージェント", "マルチモーダル", "推論最適化", "ROI分析", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "ELU.AI、人型ロボット「AstroDroid AD-01」公開について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ELU.AIの「AstroDroid AD-01」は、人型ロボット市場に何をもたらすのか？

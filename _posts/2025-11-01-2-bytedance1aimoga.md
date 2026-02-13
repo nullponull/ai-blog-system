@@ -2,11 +2,11 @@
 layout: post
 title: "ByteDanceの1分動画生成AI「MoGA」"
 date: 2025-11-01 02:19:35 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Meta", "ByteDance", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDance、1分動画生成AI「MoGA」について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？

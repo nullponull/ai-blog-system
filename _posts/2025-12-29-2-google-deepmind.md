@@ -2,11 +2,11 @@
 layout: post
 title: "Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？"
 date: 2025-12-29 05:00:28 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、AI創薬で新薬候補発見について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？

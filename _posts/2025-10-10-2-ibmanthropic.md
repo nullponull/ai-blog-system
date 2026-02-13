@@ -2,11 +2,11 @@
 layout: post
 title: "IBMとAnthropicの提携が示す、開発現場の未来図とは？"
 date: 2025-10-10 08:39:57 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropic提携、生産性45%向上について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 IBMとAnthropicの提携が示す、開発現場の未来図とは？

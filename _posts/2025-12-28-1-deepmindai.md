@@ -2,11 +2,11 @@
 layout: post
 title: "**DeepMind創薬AIが拓く新時代：�"
 date: 2025-12-28 02:38:55 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**Google DeepMind、創薬AIで新薬候補300件発見**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 **DeepMind創薬AIが拓く新時代：300の新薬候補は、医療と投資に何をもたらすのか？**

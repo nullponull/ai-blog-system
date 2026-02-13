@@ -2,11 +2,11 @@
 layout: post
 title: "Googleの「Nano Banana Pro」：その�"
 date: 2025-12-01 02:40:59 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "LLM", "マルチモーダル", "画像生成", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Google、日本語特化AI「Nano Banana Pro」について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Googleの「Nano Banana Pro」：日本語AI画像生成、その真意はどこにあるのか？

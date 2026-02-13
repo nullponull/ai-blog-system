@@ -2,11 +2,11 @@
 layout: post
 title: "中国AI産業の驚異的な成長、その真意と未来への示唆とは？"
 date: 2025-10-03 16:38:25 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["LLM", "マルチモーダル", "音声AI", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "中国AI産業、5300社超え9000億元規模にについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 中国AI産業の驚異的な成長、その真意と未来への示唆とは？

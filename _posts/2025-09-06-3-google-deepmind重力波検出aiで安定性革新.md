@@ -2,11 +2,11 @@
 layout: post
 title: "Google DeepMind、重力波検出AIで安定性革新"
 date: 2025-09-06 16:39:20 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "技術革新"]
+categories: ["AI技術ガイド"]
+tags: ["Google"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、重力波検出AIで安定性向上について詳細に分析します。"
-reading_time: 8
+reading_time: 5
 ---
 
 # Google DeepMind、重力波検出AIで安定性革新

@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMind「AlphaFold 3」が拓く創薬"
 date: 2026-01-17 20:36:56 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "画像生成", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、新AIモデル「AlphaFold 3」で創薬革命**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 DeepMind「AlphaFold 3」が拓く創薬革命、その本質と我々が問われる未来とは。

@@ -2,8 +2,8 @@
 layout: post
 title: "# AIスタートアップ「Synthetix」"
 date: 2025-12-10 16:45:26 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "NVIDIA", "Anthropic", "LLM", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "**AIスタートアップ「Synthetix」が70億円調達**について詳細に分析します。"
 reading_time: 8

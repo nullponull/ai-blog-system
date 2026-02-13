@@ -2,11 +2,11 @@
 layout: post
 title: "AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意と？"
 date: 2025-12-04 02:22:29 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AWS、新AI戦略「Nova Forge」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 15
 ---
 
 AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは
