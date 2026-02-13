@@ -1,8 +1,10 @@
-name: AI Article Generation & Publishing Pipeline - Quality Enhanced
+name: "[DEPRECATED] AI Article Generation & Publishing Pipeline - Quality Enhanced"
 
+# DEPRECATED: Replaced by article-pipeline.yml (v2)
+# Schedule disabled. Use workflow_dispatch only for rollback testing.
 on:
-  schedule:
-    - cron: '15 */4 * * *'  # Every 4 hours
+  # schedule:
+  #   - cron: '15 */4 * * *'
   workflow_dispatch:
 
 jobs:
