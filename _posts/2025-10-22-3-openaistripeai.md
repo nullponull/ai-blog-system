@@ -5,7 +5,7 @@ date: 2025-10-22 08:45:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI×Stripe、AI決済を小売へについて詳細に分析します。"
+excerpt: "OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？"
 reading_time: 20
 ---
 

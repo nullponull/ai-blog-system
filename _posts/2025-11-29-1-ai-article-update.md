@@ -5,7 +5,7 @@ date: 2025-11-29 20:39:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "生成AIフリーミアム化加速について詳細に分析します。"
+excerpt: "「生成AIフリーミアム化」の真意はどこにあるのか？技術と投資の視点から紐解く現状"
 reading_time: 20
 ---
 

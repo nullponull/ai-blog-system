@@ -5,7 +5,7 @@ date: 2025-09-19 02:05:15 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "マルチモーダル", "ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "CarbonSix、製造AIロボット発表について詳細に分析します。"
+excerpt: "CarbonSixの製造AIロボット、その真価はどこにあるのか？"
 reading_time: 20
 ---
 

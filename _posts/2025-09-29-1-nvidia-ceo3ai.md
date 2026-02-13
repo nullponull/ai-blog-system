@@ -5,7 +5,7 @@ date: 2025-09-29 04:37:36 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "Nvidia CEO、AIインフラ投資3-4兆ドル予測について詳細に分析します。"
+excerpt: "Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-01 20:35:40 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Spring Health、AI倫理評議会設立について詳細に分析します。"
+excerpt: "Spring HealthのAI倫理評議会、その真意と業界への波紋とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-30 08:37:56 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "推論最適化", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、AIインフラで9600億ドル負債について詳細に分析します。"
+excerpt: "タイトル：OpenAIの影に潜む9600億ドルの負債：その真意は何を意味するのか？"
 reading_time: 18
 ---
 

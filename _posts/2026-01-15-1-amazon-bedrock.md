@@ -5,7 +5,7 @@ date: 2026-01-15 20:40:15 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル50種超対応**について詳細に分析します。"
+excerpt: "Amazon Bedrock、50モデル超対応の衝撃：AWSが描くAIプラットフォームの未来図とは？"
 reading_time: 20
 ---
 

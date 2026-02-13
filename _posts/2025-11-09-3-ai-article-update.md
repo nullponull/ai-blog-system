@@ -5,7 +5,7 @@ date: 2025-11-09 02:22:37 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "フィジカルAI到来、日本データ戦略が鍵について詳細に分析します。"
+excerpt: "「フィジカルAI」が拓く新時代、日本が握る「データ戦略」の真意とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-19 04:37:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "米国、AI独禁法執行を強化について詳細に分析します。"
+excerpt: "米国AI独禁法強化の真意は？イノベーションと競争の未来を読み解く"
 reading_time: 20
 ---
 

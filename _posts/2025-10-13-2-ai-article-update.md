@@ -5,7 +5,7 @@ date: 2025-10-13 08:44:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "シンガポール、金融AI支援強化について詳細に分析します。"
+excerpt: "シンガポールが金融AI支援を強化する真意とは？その戦略と未来を読み解く"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-02 08:41:30 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Amazon", "Anthropic", "xAI", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、日本デジタル庁と提携「Gennai」提供について詳細に分析します。"
+excerpt: "OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？"
 reading_time: 20
 ---
 

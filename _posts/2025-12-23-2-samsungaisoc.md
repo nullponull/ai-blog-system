@@ -5,7 +5,7 @@ date: 2025-12-23 04:50:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、次世代AIスマホ向けSoC投入**について詳細に分析します。"
+excerpt: "Samsungの次世代AIスマホ向けSoC投入が問いかける、AI時代の進化の岐路とは？"
 reading_time: 20
 ---
 

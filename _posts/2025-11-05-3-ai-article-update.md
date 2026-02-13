@@ -5,7 +5,7 @@ date: 2025-11-05 16:44:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "LLM", "RAG", "AIエージェント", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "トムソン・ロイター、専門家向けAI発表について詳細に分析します。"
+excerpt: "トムソン・ロイターの「エージェントAI」戦略、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

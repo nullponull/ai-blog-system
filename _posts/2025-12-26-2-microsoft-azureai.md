@@ -5,7 +5,7 @@ date: 2025-12-26 02:25:22 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Azure、量子AI基盤を発表**について詳細に分析します。"
+excerpt: "君も薄々感じていたかもしれないが、Microsoft Azureが「量子AI基盤」を発表したというニュースを耳にした時、正直なところ、私はまた来たか、という印象だったね。量子コンピューティングとAIの融合。"
 reading_time: 7
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-10 16:45:26 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "Anthropic", "LLM", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**AIスタートアップ「Synthetix」が70億円調達**について詳細に分析します。"
+excerpt: "正直なところ、最初にこのニュースを見たとき、私は一瞬「ん？ SynthetixってあのDeFi（分散型金融）のプロトコルじゃなかったかな？」と、頭の中でクエスチョンマークがいくつも浮かんだんだ。"
 reading_time: 8
 ---
 

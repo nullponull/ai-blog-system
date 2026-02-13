@@ -5,7 +5,7 @@ date: 2025-12-23 20:36:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AIチップ開発でAMDと提携について詳細に分析します。"
+excerpt: "MicrosoftとAMDのAIチップ提携が、半導体とクラウドの未来をどう変えるのか？"
 reading_time: 8
 ---
 

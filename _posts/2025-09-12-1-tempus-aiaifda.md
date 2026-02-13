@@ -5,7 +5,7 @@ date: 2025-09-12 04:34:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Tempus AI、心臓AIでFDA承認、株価上昇について詳細に分析します。"
+excerpt: "Tempus AIの心臓AI、FDA承認の真意は？株価高騰の裏側と医療AIの未来"
 reading_time: 20
 ---
 

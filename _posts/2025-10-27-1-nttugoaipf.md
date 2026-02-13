@@ -5,7 +5,7 @@ date: 2025-10-27 13:04:04 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "マルチモーダル", "AI規制", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "NTTとugo、AIロボティクスPFを12月提供について詳細に分析します。"
+excerpt: "NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？"
 reading_time: 20
 ---
 

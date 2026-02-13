@@ -5,7 +5,7 @@ date: 2025-09-12 02:01:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "マルチモーダル", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Tempus AI、心臓AI診断でFDA承認について詳細に分析します。"
+excerpt: "Tempus AI、心臓AI診断のFDA承認：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

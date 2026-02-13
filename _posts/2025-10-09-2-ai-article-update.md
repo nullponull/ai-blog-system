@@ -5,7 +5,7 @@ date: 2025-10-09 16:43:42 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "画像生成", "ファインチューニング", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "KaKa Creation、AIアニメで4.5億円調達について詳細に分析します。"
+excerpt: "AIアニメの未来は、本当にAIが描くのか？KaKa Creationの4.5億円調達が示す真意とは"
 reading_time: 20
 ---
 

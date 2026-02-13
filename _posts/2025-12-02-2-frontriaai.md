@@ -5,7 +5,7 @@ date: 2025-12-02 16:48:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "xAI", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、AI偽情報対策コンソーシアム設立について詳細に分析します。"
+excerpt: "富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？"
 reading_time: 20
 ---
 

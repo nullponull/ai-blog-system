@@ -5,7 +5,7 @@ date: 2026-02-07 05:13:08 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot、エンタープライズ向けに高度なLLM統合で効率化**について詳細に分析します。"
+excerpt: "Microsoft Copilotがエンタープライズを変えるのか？ その深層にある技術とビジネスの真意とは"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-20 02:10:07 +0000
 categories: ["AI技術ガイド"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "米、UAE・サウジにAI半導体承認について詳細に分析します。"
+excerpt: "米国のAI半導体輸出承認、中東の野望とグローバル市場に何をもたらすのか？"
 reading_time: 20
 ---
 

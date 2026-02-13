@@ -5,7 +5,7 @@ date: 2026-01-09 16:47:39 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、Claude次期版で推論速度2倍を達成について詳細に分析します。"
+excerpt: "あなたも、最近のAIニュースの洪水にちょっと食傷気味じゃないかな？ 「〇〇が史上最高性能！」とか「△△が飛躍的な進化！」みたいなヘッドラインを目にするたびに、「はいはい、また始まったね」って、どこか冷めた目で見てしまう気持ち、"
 reading_time: 10
 ---
 

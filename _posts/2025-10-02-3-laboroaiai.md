@@ -5,7 +5,7 @@ date: 2025-10-02 13:00:13 +0000
 categories: ["業界別AI活用"]
 tags: ["マルチモーダル", "ROI分析", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Laboro.AI、産業向け最適化AIソリューションについて詳細に分析します。"
+excerpt: "Laboro.AIという名前を聞いて、正直なところ、また新しいAI企業か、と最初は少し斜に構えていました。あなたも感じているかもしれませんが、この数年、AIという言葉が独り歩きして、"
 reading_time: 20
 ---
 

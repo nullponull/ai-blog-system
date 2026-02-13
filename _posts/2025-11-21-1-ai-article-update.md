@@ -5,7 +5,7 @@ date: 2025-11-21 20:36:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "推論最適化", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、FoxconnとAIハード提携について詳細に分析します。"
+excerpt: "AIハードウェアの内製化、その真意は？OpenAIとFoxconn提携が拓く新たな局面"
 reading_time: 20
 ---
 

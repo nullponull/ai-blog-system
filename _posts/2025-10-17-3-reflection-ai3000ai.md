@@ -5,7 +5,7 @@ date: 2025-10-17 20:35:33 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Reflection AI、3000億円調達について詳細に分析します。"
+excerpt: "Reflection AI、3000億円調達の真意とは？AI業界の新たな波を読む"
 reading_time: 20
 ---
 

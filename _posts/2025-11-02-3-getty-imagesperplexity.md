@@ -5,7 +5,7 @@ date: 2025-11-02 16:38:42 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Getty Images、Perplexityと提携について詳細に分析します。"
+excerpt: "Getty ImagesとPerplexityの提携：AI時代のコンテンツ利用に何が変わるのか？"
 reading_time: 20
 ---
 

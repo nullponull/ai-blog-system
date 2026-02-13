@@ -5,7 +5,7 @@ date: 2026-01-29 02:51:41 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft Copilot Pro、医療分野で精度95%について詳細に分析します。"
+excerpt: "Microsoft Copilot Pro、医療分野で精度95%って、本当？何が変わるのか？"
 reading_time: 20
 ---
 

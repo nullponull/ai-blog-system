@@ -5,7 +5,7 @@ date: 2025-12-28 04:55:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、Anthropic Claude 4発表について詳細に分析します。"
+excerpt: "正直なところ、これがAmazon Bedrock上でAnthropic Claude 4、いや正確にはClaude 3のOpus, Sonnet, Haikuモデルが利用可能になったというニュースを聞いた時の、私の第一印象でした。"
 reading_time: 11
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-07 02:02:48 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Meta", "NVIDIA", "LLM", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AI Agent Framework発表について詳細に分析します。"
+excerpt: "MicrosoftのAI Agent Framework、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

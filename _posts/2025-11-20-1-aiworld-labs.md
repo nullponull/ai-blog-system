@@ -5,7 +5,7 @@ date: 2025-11-20 16:44:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "音声AI", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "シスコ、空間AI「World Labs」に投資について詳細に分析します。"
+excerpt: "シスコの空間AI「World Labs」投資、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

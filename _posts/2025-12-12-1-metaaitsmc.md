@@ -5,7 +5,7 @@ date: 2025-12-12 02:25:03 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、AIチップ設計にTSMCと連携強化について詳細に分析します。"
+excerpt: "MetaのAIチップ、TSMCとの連携強化で何が変わるのか？"
 reading_time: 9
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-21 20:31:59 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "xAI", "AIエージェント", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini、Chromeに統合開始について詳細に分析します。"
+excerpt: "Google Gemini、Chromeに統合開始：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

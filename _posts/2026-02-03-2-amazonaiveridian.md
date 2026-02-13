@@ -5,7 +5,7 @@ date: 2026-02-03 03:14:04 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Meta", "Amazon", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AI小売分析SaaS「Veridian」発表、売上予測精度95%**について詳細に分析します。"
+excerpt: "AmazonのAI小売分析「Veridian」、その本当の実力とは？"
 reading_time: 7
 ---
 

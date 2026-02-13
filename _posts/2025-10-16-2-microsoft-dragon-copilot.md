@@ -5,7 +5,7 @@ date: 2025-10-16 16:42:50 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "MS、医療AI「Dragon Copilot」強化について詳細に分析します。"
+excerpt: "「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。"
 reading_time: 20
 ---
 

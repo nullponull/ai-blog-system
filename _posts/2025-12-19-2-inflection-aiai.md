@@ -5,7 +5,7 @@ date: 2025-12-19 13:04:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、会話AIで新境地**について詳細に分析します。"
+excerpt: "Inflection AIの会話AI、本当に「新境地」と言えるのか？"
 reading_time: 8
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-29 16:34:34 +0000
 categories: ["業界別AI活用"]
 tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "ソフトバンク、理研と量子AI連携について詳細に分析します。"
+excerpt: "ソフトバンクと理研の量子AI連携：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

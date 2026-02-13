@@ -5,7 +5,7 @@ date: 2026-01-31 20:41:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "**AI倫理、国際標準化へ各国が協力**について詳細に分析します。"
+excerpt: "「AI倫理、国際標準化へ各国が協力」――このニュースを見た時、あなたも正直なところ、「またか」という思いと、「今度こそは」という期待が入り混じった複雑な気持ちになったんじゃないでしょうか？ 僕もまさにそうでした。"
 reading_time: 8
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-05 08:44:41 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Alibaba、1兆超Qwen3-Max発表について詳細に分析します。"
+excerpt: "AlibabaのQwen3-Max、1兆パラメータ超えの真意とは？"
 reading_time: 20
 ---
 

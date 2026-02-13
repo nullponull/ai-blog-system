@@ -5,7 +5,7 @@ date: 2025-12-05 04:45:09 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "LLM", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "インドネシア、中国とAI協力強化について詳細に分析します。"
+excerpt: "インドネシアと中国、AIで深まる絆の真意とは？アジアのテック地図に変化の予兆"
 reading_time: 20
 ---
 

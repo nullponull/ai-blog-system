@@ -5,7 +5,7 @@ date: 2025-09-26 13:00:45 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "ファインチューニング", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Nvidia/Telus、加に主権AIハブ設立について詳細に分析します。"
+excerpt: "NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？"
 reading_time: 20
 ---
 

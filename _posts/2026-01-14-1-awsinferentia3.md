@@ -5,7 +5,7 @@ date: 2026-01-14 16:51:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWS AIチップ「Inferentia3」発表、性能2倍**について詳細に分析します。"
+excerpt: "AWSのInferentia3、性能2倍の発表はAIチップ市場をどう変えるのか？ その真意と次なる一手"
 reading_time: 20
 ---
 

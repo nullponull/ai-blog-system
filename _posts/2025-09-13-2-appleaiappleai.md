@@ -5,7 +5,7 @@ date: 2025-09-13 08:35:22 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "Apple", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Apple、AI担当幹部が退社について詳細に分析します。"
+excerpt: "AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？"
 reading_time: 20
 ---
 

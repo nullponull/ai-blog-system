@@ -5,7 +5,7 @@ date: 2025-10-18 20:32:48 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "Anthropic", "xAI", "LLM", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、LLMバックドア脆弱性を確認について詳細に分析します。"
+excerpt: "Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？"
 reading_time: 20
 ---
 

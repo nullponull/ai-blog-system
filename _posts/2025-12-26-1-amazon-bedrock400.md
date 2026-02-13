@@ -5,7 +5,7 @@ date: 2025-12-26 20:35:23 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、生成AIモデル400種突破について詳細に分析します。"
+excerpt: "Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？"
 reading_time: 8
 ---
 

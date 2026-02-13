@@ -5,7 +5,7 @@ date: 2025-11-29 04:39:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude Opus 4.5発表について詳細に分析します。"
+excerpt: "Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ"
 reading_time: 20
 ---
 

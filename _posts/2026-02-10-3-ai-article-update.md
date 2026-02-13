@@ -5,7 +5,7 @@ date: 2026-02-10 21:01:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**「AI倫理指数」初公表、トップ10は欧州企業**について詳細に分析します。"
+excerpt: "いやー、ついにこの日が来たか、という感じだよ。先週、「AI倫理指数」が初めて公表されたっていうニュース、君ももうチェックしたかな？正直、AI業界を20年近く見てきて、数えきれないほどの技術やサービス、"
 reading_time: 8
 ---
 

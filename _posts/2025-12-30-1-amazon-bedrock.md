@@ -5,7 +5,7 @@ date: 2025-12-30 02:27:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル10種追加**について詳細に分析します。"
+excerpt: "正直なところ、Amazon Bedrockの発表を聞いた時、私の最初の反応はそうだったんだ。新モデルが10種類も追加されたというニュースを見て、あなたも「またか、とんでもない勢いだな」と感じたかもしれませんね。"
 reading_time: 10
 ---
 

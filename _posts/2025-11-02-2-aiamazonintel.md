@@ -5,7 +5,7 @@ date: 2025-11-02 12:55:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "AIで10万超人員削減、Amazon/Intelについて詳細に分析します。"
+excerpt: "AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？"
 reading_time: 20
 ---
 

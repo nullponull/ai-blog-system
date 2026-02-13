@@ -5,7 +5,7 @@ date: 2025-12-22 08:47:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "マルチモーダル", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AI copilot for Windows 11、3000万人利用**について詳細に分析します。"
+excerpt: "Windows 11 Copilot、3000万人の「顔」が見えたとき、何が起きる？"
 reading_time: 20
 ---
 

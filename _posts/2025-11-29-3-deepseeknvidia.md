@@ -5,7 +5,7 @@ date: 2025-11-29 20:40:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "DeepSeek、NVIDIA覇権に挑戦について詳細に分析します。"
+excerpt: "DeepSeekがNVIDIAの牙城を崩せるか？ AIの未来に問われる「効率」の真価とは。"
 reading_time: 20
 ---
 

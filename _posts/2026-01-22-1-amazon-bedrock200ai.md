@@ -5,7 +5,7 @@ date: 2026-01-22 04:59:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、商用AIモデル200種超について詳細に分析します。"
+excerpt: "ねえ、最近のAmazon Bedrockのニュース、あなたも目にしましたか？「商用AIモデル200種超に対応」なんて聞くと、正直言って、私の最初の反応は「またAWSが来たか」という、少しばかり皮肉めいたものだったんですよ。"
 reading_time: 8
 ---
 

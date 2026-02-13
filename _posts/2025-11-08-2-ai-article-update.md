@@ -5,7 +5,7 @@ date: 2025-11-08 08:37:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "RAG", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "台湾企業、AIスマートグラスに注力について詳細に分析します。"
+excerpt: "台湾企業がAIスマートグラスに注力する真意とは？その戦略と未来を読み解く"
 reading_time: 20
 ---
 

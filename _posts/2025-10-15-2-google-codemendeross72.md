@@ -5,7 +5,7 @@ date: 2025-10-15 02:07:42 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Apple", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Google CodeMender、OSS72件修正について詳細に分析します。"
+excerpt: "Google CodeMenderがOSSに72件の修正をもたらした真意とは？"
 reading_time: 20
 ---
 

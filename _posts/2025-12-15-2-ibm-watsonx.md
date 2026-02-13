@@ -5,7 +5,7 @@ date: 2025-12-15 13:10:41 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "xAI", "ファインチューニング", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**IBM WatsonX、製薬研究を加速**について詳細に分析します。"
+excerpt: "過去の教訓を活かせるか？ IBM WatsonXが製薬研究に挑む真意とは。"
 reading_time: 15
 ---
 

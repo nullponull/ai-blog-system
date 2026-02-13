@@ -5,7 +5,7 @@ date: 2026-01-26 05:04:41 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新LLMモデル対応へ**について詳細に分析します。"
+excerpt: "Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。"
 reading_time: 7
 ---
 

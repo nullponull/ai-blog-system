@@ -5,7 +5,7 @@ date: 2025-12-02 08:48:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "Anthropic", "xAI", "マルチモーダル", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "英中銀、AI評価過熱に警告について詳細に分析します。"
+excerpt: "「AI評価の過熱、その真意は？英中銀が鳴らす警鐘の背景にあるもの」"
 reading_time: 20
 ---
 

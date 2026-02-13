@@ -5,7 +5,7 @@ date: 2026-01-18 20:36:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "推論最適化", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、AI創薬で新パートナーシップについて詳細に分析します。"
+excerpt: "DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？"
 reading_time: 15
 ---
 

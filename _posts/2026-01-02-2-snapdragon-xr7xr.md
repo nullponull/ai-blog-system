@@ -5,7 +5,7 @@ date: 2026-01-02 08:46:14 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Apple", "RAG", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**Qualcomm、XR向けAIチップ「Snapdragon XR7」発表**について詳細に分析します。"
+excerpt: "Snapdragon XR7、XRの未来を本当に変えるのか？"
 reading_time: 20
 ---
 

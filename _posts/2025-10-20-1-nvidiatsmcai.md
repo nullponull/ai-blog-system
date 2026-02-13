@@ -5,7 +5,7 @@ date: 2025-10-20 02:20:22 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "Nvidia、TSMCと提携し米国でAIチップ製造について詳細に分析します。"
+excerpt: "皆さん、最近のニュースでNvidiaとTSMCが米国アリゾナ州で次世代AIチップ「Blackwell」の最初のウェハーを製造したという話、耳にしましたか？正直なところ、最初にこのニュースを聞いた時、「おや、ついに来たか」という感覚と同時に、"
 reading_time: 20
 ---
 

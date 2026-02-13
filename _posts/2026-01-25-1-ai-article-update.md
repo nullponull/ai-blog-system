@@ -5,7 +5,7 @@ date: 2026-01-25 16:42:03 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "異なる企業・分野・角度から選択（OpenAI、NVIDIA、Google、Microsoft、Meta、Amazonについて詳細に分析します。"
+excerpt: "AIの地殻変動：この嵐の真ん中で、私たちは何を見るべきなのか？"
 reading_time: 20
 ---
 

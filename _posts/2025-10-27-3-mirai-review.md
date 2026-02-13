@@ -5,7 +5,7 @@ date: 2025-10-27 08:43:52 +0000
 categories: ["業界別AI活用"]
 tags: ["RAG", "ファインチューニング", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "木村情報技術、製薬AIサービス開始について詳細に分析します。"
+excerpt: "「MIRAI Review」が製薬業界にもたらす変革の真意とは？木村情報技術のAI戦略を読み解く"
 reading_time: 20
 ---
 

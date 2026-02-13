@@ -5,7 +5,7 @@ date: 2025-12-02 20:40:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "マルチモーダル", "音声AI", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "富士通Frontria設立、AI偽情報対策について詳細に分析します。"
+excerpt: "富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。"
 reading_time: 20
 ---
 

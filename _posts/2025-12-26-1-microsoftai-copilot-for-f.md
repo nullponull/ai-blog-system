@@ -5,7 +5,7 @@ date: 2025-12-26 16:39:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AI Copilot for Finance発表**について詳細に分析します。"
+excerpt: "マイクロソフトのAI Copilot for Finance、金融業務の未来を本当に変えるのか？"
 reading_time: 10
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-26 02:19:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini 3でAI覇権、Nvidia株下落について詳細に分析します。"
+excerpt: "いやぁ、皆さん、最近のAI業界の動きには本当に目を見張るものがありますね。Googleの「Gemini 3」が華々しく登場し、Nvidiaの株価がそれに反応して少し落ち着きを見せている、というニュースを聞いて、"
 reading_time: 20
 ---
 

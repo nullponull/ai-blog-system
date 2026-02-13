@@ -5,7 +5,7 @@ date: 2025-12-31 13:04:30 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWSでAIチップ内製強化**について詳細に分析します。"
+excerpt: "AmazonとAWSがAIチップ内製を強化する、その戦略的意義と未来への影響とは？"
 reading_time: 20
 ---
 

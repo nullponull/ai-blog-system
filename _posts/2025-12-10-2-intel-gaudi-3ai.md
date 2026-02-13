@@ -5,7 +5,7 @@ date: 2025-12-10 08:45:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "LLM", "画像生成", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Intel Gaudi 3、AMD MI300X対抗で性能向上**について詳細に分析します。"
+excerpt: "Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？"
 reading_time: 6
 ---
 

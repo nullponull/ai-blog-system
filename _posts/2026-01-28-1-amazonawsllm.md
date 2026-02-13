@@ -5,7 +5,7 @@ date: 2026-01-28 16:58:18 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AWSでLLM推論コスト20%削減について詳細に分析します。"
+excerpt: "Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？"
 reading_time: 20
 ---
 

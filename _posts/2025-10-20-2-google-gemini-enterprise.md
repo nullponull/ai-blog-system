@@ -5,7 +5,7 @@ date: 2025-10-20 02:21:09 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Google、企業向け会話型AI「Gemini Enterprise」発表について詳細に分析します。"
+excerpt: "Google Gemini Enterprise、その真意は？企業AIの未来をどう変えるのか"
 reading_time: 20
 ---
 

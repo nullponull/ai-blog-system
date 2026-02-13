@@ -5,7 +5,7 @@ date: 2025-12-23 08:46:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、AWS新GPUで性能2倍**について詳細に分析します。"
+excerpt: "AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？"
 reading_time: 20
 ---
 

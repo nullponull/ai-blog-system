@@ -5,7 +5,7 @@ date: 2025-12-29 16:41:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AWSでAIチップ「Inferentia 4」投入について詳細に分析します。"
+excerpt: "AWSのAIチップ「Inferentia 4」投入が示す、AIインフラ競争の真意とは？"
 reading_time: 20
 ---
 

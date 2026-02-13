@@ -5,7 +5,7 @@ date: 2026-01-28 20:50:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル「Titan 3」発表**について詳細に分析します。"
+excerpt: "お疲れ様。また新しいニュースが飛び込んできたね。Amazon Bedrockで新モデル「Titan 3」シリーズの発表だ。正直なところ、私もこの発表を聞いた時、「来たか」という感覚と同時に、「本当にゲームチェンジャーになるのか、"
 reading_time: 9
 ---
 

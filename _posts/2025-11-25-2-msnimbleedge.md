@@ -5,7 +5,7 @@ date: 2025-11-25 20:39:07 +0000
 categories: ["AI導入戦略"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Apple", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "MSとNimbleEdge、AndroidオンデバイスAIについて詳細に分析します。"
+excerpt: "「MSとNimbleEdge、AndroidオンデバイスAI連携の真意はどこにあるのか？」"
 reading_time: 20
 ---
 

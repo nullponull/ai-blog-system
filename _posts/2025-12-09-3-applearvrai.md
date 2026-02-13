@@ -5,7 +5,7 @@ date: 2025-12-09 16:43:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Apple、AR/VR向けAIチップ投入について詳細に分析します。"
+excerpt: "AppleのAR/VR向けAIチップ、その真意は何でしょうか？"
 reading_time: 20
 ---
 

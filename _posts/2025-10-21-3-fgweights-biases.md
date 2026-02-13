@@ -5,7 +5,7 @@ date: 2025-10-21 20:37:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Amazon", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "みずほFG、AI開発にW&B採用について詳細に分析します。"
+excerpt: "みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

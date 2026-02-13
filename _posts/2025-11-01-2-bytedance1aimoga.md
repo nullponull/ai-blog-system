@@ -5,7 +5,7 @@ date: 2025-11-01 02:19:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "ByteDance", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "ByteDance、1分動画生成AI「MoGA」について詳細に分析します。"
+excerpt: "ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？"
 reading_time: 20
 ---
 

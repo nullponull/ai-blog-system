@@ -5,7 +5,7 @@ date: 2026-01-12 20:39:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、次世代AIチップ発表**：次世代AIチップ「Exynos AI 7」を発表。推論�について詳細に分析します。"
+excerpt: "「Samsungが次世代AIチップ『Exynos AI 7』を発表、推論速度30%向上だって？」"
 reading_time: 10
 ---
 

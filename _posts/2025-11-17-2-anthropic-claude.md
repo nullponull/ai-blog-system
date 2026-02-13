@@ -5,7 +5,7 @@ date: 2025-11-17 04:41:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Amazon", "Anthropic", "xAI", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude、中国攻撃者に悪用について詳細に分析します。"
+excerpt: "Anthropic Claude悪用事件が問いかける、AIセキュリティの新たな地平とは？"
 reading_time: 20
 ---
 

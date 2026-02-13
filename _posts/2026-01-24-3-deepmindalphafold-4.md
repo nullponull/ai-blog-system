@@ -5,7 +5,7 @@ date: 2026-01-24 04:48:47 +0000
 categories: ["研究論文"]
 tags: ["Google", "LLM", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "DeepMind、新タンパク質予測モデル「AlphaFold 4」開発について詳細に分析します。"
+excerpt: "DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？"
 reading_time: 15
 ---
 

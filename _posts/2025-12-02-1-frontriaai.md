@@ -5,7 +5,7 @@ date: 2025-12-02 13:07:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "音声AI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、AIリスク対応新コンソーシアムについて詳細に分析します。"
+excerpt: "富士通「Frontria」が問うAIの信頼性、その真意とは何か？"
 reading_time: 20
 ---
 

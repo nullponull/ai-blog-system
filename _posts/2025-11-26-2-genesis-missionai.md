@@ -5,7 +5,7 @@ date: 2025-11-26 20:34:55 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "AIエージェント", "ファインチューニング", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "米国「Genesis Mission」AI国家基盤を構築について詳細に分析します。"
+excerpt: "米国「Genesis Mission」が描くAI国家基盤の真意とは？"
 reading_time: 20
 ---
 

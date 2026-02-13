@@ -5,7 +5,7 @@ date: 2025-12-26 08:43:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、次世代HPCでAI性能2倍**について詳細に分析します。"
+excerpt: "いやー、このニュース、目に飛び込んできたとき、正直「またか」とも思ったんですよ。Microsoftが次世代HPC（ハイパフォーマンスコンピューティング）でAI性能を2倍にする、なんて見出し。"
 reading_time: 20
 ---
 

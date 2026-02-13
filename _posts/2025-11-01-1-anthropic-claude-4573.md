@@ -5,7 +5,7 @@ date: 2025-11-01 12:56:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude 4.5、コード73%向上について詳細に分析します。"
+excerpt: "Anthropic Claude 4.5のコード能力73%向上、その真意とは？"
 reading_time: 20
 ---
 

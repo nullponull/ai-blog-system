@@ -5,7 +5,7 @@ date: 2025-09-19 08:39:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "UAE・サウジ、ソブリンAIで先行について詳細に分析します。"
+excerpt: "「ソブリンAI」が中東で花開く：その真意と、私たちが学ぶべきこととは？"
 reading_time: 20
 ---
 

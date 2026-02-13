@@ -5,7 +5,7 @@ date: 2025-10-02 04:36:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "英国、AIインフラに2.5億ポンド投資について詳細に分析します。"
+excerpt: "「英国がAIインフラに2.5億ポンドを投じる」――このニュースを聞いて、あなたはどう感じましたか？正直なところ、私自身、20年間この業界を見てきて、最初は「またか」という気持ちがよぎりました。"
 reading_time: 20
 ---
 

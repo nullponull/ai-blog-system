@@ -5,7 +5,7 @@ date: 2026-01-16 08:47:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、新AIモデル「AlphaFold 3.1」発表**について詳細に分析します。"
+excerpt: "DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？"
 reading_time: 8
 ---
 

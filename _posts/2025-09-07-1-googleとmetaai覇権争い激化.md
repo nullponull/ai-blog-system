@@ -5,7 +5,7 @@ date: 2025-09-07 08:25:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google, Meta AI rivalry heats upについて詳細に分析します。"
+excerpt: "2024年、GoogleとMetaはAI分野への投資を大幅に拡大し、技術開発と市場シェア獲得に向けた競争を激化させている。両社はそれぞれ独自の戦略でAIエコシステムの構築を進め、特にGoogleはTPU、"
 reading_time: 7
 ---
 

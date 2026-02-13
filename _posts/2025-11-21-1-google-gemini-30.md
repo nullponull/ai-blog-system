@@ -5,7 +5,7 @@ date: 2025-11-21 16:39:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini 3.0を発表について詳細に分析します。"
+excerpt: "Google Gemini 3.0、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

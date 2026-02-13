@@ -5,7 +5,7 @@ date: 2025-10-26 08:36:47 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "xAI", "マルチモーダル", "画像生成", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、音楽生成AI開発とSora規制強化について詳細に分析します。"
+excerpt: "OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？"
 reading_time: 20
 ---
 

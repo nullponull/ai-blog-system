@@ -5,7 +5,7 @@ date: 2025-10-08 04:36:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、AMDとGPU供給提携について詳細に分析します。"
+excerpt: "OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるのか"
 reading_time: 20
 ---
 

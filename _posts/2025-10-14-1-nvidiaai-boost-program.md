@@ -5,7 +5,7 @@ date: 2025-10-14 08:40:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "AIエージェント", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "NVIDIA、AIスタートアップ支援「AI Boost Program」開始について詳細に分析します。"
+excerpt: "NVIDIAのAI Boost Program、その真意は？日本のスタートアップが掴むべき未来とは"
 reading_time: 20
 ---
 

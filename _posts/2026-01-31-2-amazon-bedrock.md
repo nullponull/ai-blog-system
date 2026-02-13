@@ -5,7 +5,7 @@ date: 2026-01-31 08:48:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルで推論速度30%改善**について詳細に分析します。"
+excerpt: "いやー、ついに来ましたね！Amazon Bedrockが新しいモデルで推論速度を30%も改善したっていうニュース、あなたも耳にしましたか？正直、この業界で20年近くもAIの進化を追いかけていると、毎日のように新しい技術やサービスが登場して、"
 reading_time: 20
 ---
 

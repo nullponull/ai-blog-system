@@ -5,7 +5,7 @@ date: 2025-12-27 08:40:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "NVIDIA", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、AWS新モデルでコスト半減**について詳細に分析します。"
+excerpt: "AWS新モデル、Bedrockのコスト半減は本当にすごいのか？"
 reading_time: 8
 ---
 

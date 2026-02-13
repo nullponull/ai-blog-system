@@ -5,7 +5,7 @@ date: 2025-09-27 12:54:15 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "FuriosaAI、NXT RNGDサーバー発表について詳細に分析します。"
+excerpt: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

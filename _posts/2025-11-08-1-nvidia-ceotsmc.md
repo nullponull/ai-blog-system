@@ -5,7 +5,7 @@ date: 2025-11-08 20:31:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "Nvidia CEO、TSMCに増産要請について詳細に分析します。"
+excerpt: "Nvidia CEOのTSMC増産要請、その真意とAI半導体市場の未来は何を語るのか？"
 reading_time: 20
 ---
 

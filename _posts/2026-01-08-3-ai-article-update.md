@@ -5,7 +5,7 @@ date: 2026-01-08 20:39:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**シンガポール、AI人材育成で国家戦略**について詳細に分析します。"
+excerpt: "シンガポールのAI人材戦略、その先にあるのは単なる技術大国か、それとも…？"
 reading_time: 20
 ---
 

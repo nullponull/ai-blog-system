@@ -5,7 +5,7 @@ date: 2025-12-21 12:59:18 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、新LLMでコスト半減について詳細に分析します。"
+excerpt: "「Amazon Bedrockが新しいLLMでコストを半減した」というニュース、君も耳にしたんじゃないかな。正直なところ、私も最初にこの見出しを見たときは、「また来たか」と少し斜に構えてしまったんだ。"
 reading_time: 9
 ---
 

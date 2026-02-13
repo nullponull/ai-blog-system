@@ -5,7 +5,7 @@ date: 2025-10-30 20:35:21 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "xAI", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "CoreWeave、Marimo買収でAI開発強化について詳細に分析します。"
+excerpt: "CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？"
 reading_time: 20
 ---
 

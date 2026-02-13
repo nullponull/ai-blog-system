@@ -5,7 +5,7 @@ date: 2025-09-29 13:02:30 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Alibaba Cloud、AIに3800億元投資について詳細に分析します。"
+excerpt: "Alibaba CloudのAI投資3800億元、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

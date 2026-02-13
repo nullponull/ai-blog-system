@@ -5,7 +5,7 @@ date: 2025-12-11 20:36:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "Apple", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "ソニー、AIチップでゲーム体験向上について詳細に分析します。"
+excerpt: "ソニーがAIチップでゲーム体験向上を図る。その真意と未来はどこにあるのか？"
 reading_time: 20
 ---
 

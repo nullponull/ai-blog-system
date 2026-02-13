@@ -5,7 +5,7 @@ date: 2026-01-26 05:04:22 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AI Copilot for Finance発表**について詳細に分析します。"
+excerpt: "AI Copilot for Finance、Microsoftの次の一手は何を狙うのか？"
 reading_time: 8
 ---
 

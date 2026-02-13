@@ -5,7 +5,7 @@ date: 2026-01-24 13:04:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "ByteDance", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "ByteDance、AI生成コンテンツ新プラットフォームについて詳細に分析します。"
+excerpt: "ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？"
 reading_time: 20
 ---
 

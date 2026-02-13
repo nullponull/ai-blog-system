@@ -5,7 +5,7 @@ date: 2026-01-25 20:39:08 +0000
 categories: ["導入事例"]
 tags: ["Google", "xAI", "LLM", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、新AIモデルで創薬速度3倍に**について詳細に分析します。"
+excerpt: "DeepMindの創薬AI、その真意と未来はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-16 20:34:28 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "ファインチューニング", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Inflection AI、対話型AIで「人間レベル」の共感性実現について詳細に分析します。"
+excerpt: "Inflection AIの「人間レベル」の共感性、本当に実現できるのか？"
 reading_time: 20
 ---
 

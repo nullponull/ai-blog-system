@@ -5,7 +5,7 @@ date: 2026-01-20 20:50:36 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot、個人向け有料プラン加入者3億人突破**について詳細に分析します。"
+excerpt: "「Microsoft Copilot、個人向け有料プラン加入者3億人突破」——あなたもこのニュースを聞いて、正直なところ驚いたんじゃないかな？私も、この数字を見たとき、思わず資料を二度見してしまったよ。"
 reading_time: 7
 ---
 

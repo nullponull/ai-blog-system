@@ -5,7 +5,7 @@ date: 2026-01-04 16:40:19 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Kaggle、最新LLMコンペで新記録達成**について詳細に分析します。"
+excerpt: "最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？"
 reading_time: 20
 ---
 

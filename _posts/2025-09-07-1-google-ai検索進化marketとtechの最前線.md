@@ -5,7 +5,7 @@ date: 2025-09-07 20:32:03 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google AI Search進化について詳細に分析します。"
+excerpt: "GoogleのAI検索は、長年にわたるAI技術の統合と大規模な戦略的投資により、従来の検索体験から劇的に進化を遂げています。2025年には、より複雑なユーザーの問いに対応するための多数のAI機能が検索エンジンに導入される予定です。"
 reading_time: 8
 ---
 

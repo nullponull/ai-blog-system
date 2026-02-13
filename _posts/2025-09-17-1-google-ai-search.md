@@ -5,7 +5,7 @@ date: 2025-09-17 02:01:11 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Google AI Search進化について詳細に分析します。"
+excerpt: "Google AI Searchの進化、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

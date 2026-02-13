@@ -5,7 +5,7 @@ date: 2025-12-29 13:07:54 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、新モデルLLaMA 4性能向上について詳細に分析します。"
+excerpt: "Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

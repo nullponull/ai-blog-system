@@ -5,7 +5,7 @@ date: 2025-10-01 13:04:01 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AIエージェント", "マルチモーダル", "音声AI", "推論最適化", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "IBM/AMD、Zyphraに次世代AIインフラについて詳細に分析します。"
+excerpt: "IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？"
 reading_time: 20
 ---
 

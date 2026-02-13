@@ -5,7 +5,7 @@ date: 2025-09-30 02:01:44 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "フィリピン国産AI「Pilipinas AI」について詳細に分析します。"
+excerpt: "フィリピン国産AI「Pilipinas AI」の真意とは？ 新興市場のAI戦略を読み解く。"
 reading_time: 20
 ---
 

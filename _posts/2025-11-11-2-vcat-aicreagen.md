@@ -5,7 +5,7 @@ date: 2025-11-11 04:39:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "音声AI", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "VCAT AI、画像動画生成「CREAGEN」発表について詳細に分析します。"
+excerpt: "VCAT AIの「CREAGEN」発表、企業コンテンツ制作の未来をどう変えるのか？"
 reading_time: 20
 ---
 

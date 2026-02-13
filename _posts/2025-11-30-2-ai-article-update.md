@@ -5,7 +5,7 @@ date: 2025-11-30 02:31:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "AIインフラ投資: MS/Google/AWS激化について詳細に分析します。"
+excerpt: "AIインフラ投資狂騒曲：大手クラウドが次に目指すものは何か？"
 reading_time: 20
 ---
 

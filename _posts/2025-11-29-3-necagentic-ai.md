@@ -5,7 +5,7 @@ date: 2025-11-29 13:00:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "AIエージェント", "推論最適化", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "NEC、Agentic AI営業支援ソリューション開始について詳細に分析します。"
+excerpt: "NECがAgentic AIを活用した営業支援ソリューション「NEC Document Automation - for Proposals」を発表したと聞いて、正直なところ、私も最初は「またAI営業支援か」と、"
 reading_time: 20
 ---
 

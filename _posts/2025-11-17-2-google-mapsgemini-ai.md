@@ -5,7 +5,7 @@ date: 2025-11-17 02:20:19 +0000
 categories: ["導入事例"]
 tags: ["Google", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Google Maps、Gemini AI統合で進化について詳細に分析します。"
+excerpt: "Google MapsとGemini AIの融合が示す、私たちの日常とビジネスの未来は何が変わるのか？"
 reading_time: 20
 ---
 

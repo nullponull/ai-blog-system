@@ -5,7 +5,7 @@ date: 2025-11-21 16:39:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "画像生成", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "GPT-5.1 ProとCodex-Max公開について詳細に分析します。"
+excerpt: "GPT-5.1 ProとCodex-Max公開：AI進化の「真意」はどこにあるのか？"
 reading_time: 20
 ---
 

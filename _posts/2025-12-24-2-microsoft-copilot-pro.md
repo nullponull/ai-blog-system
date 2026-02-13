@@ -5,7 +5,7 @@ date: 2025-12-24 04:50:12 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "画像生成", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot Pro、個人向け料金改定**について詳細に分析します。"
+excerpt: "Microsoft Copilot Pro、個人向け料金改定、何が変わるのだろうか？"
 reading_time: 8
 ---
 

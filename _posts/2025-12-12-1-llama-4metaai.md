@@ -5,7 +5,7 @@ date: 2025-12-12 20:38:40 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、Llama 4で多言語LLM刷新について詳細に分析します。"
+excerpt: "Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？"
 reading_time: 6
 ---
 

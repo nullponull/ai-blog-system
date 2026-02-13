@@ -5,7 +5,7 @@ date: 2026-01-15 04:53:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Intel Gaudi 3b、推論性能2倍に**について詳細に分析します。"
+excerpt: "あなたもこのニュースを見たとき、どう感じましたか？ 「Intel Gaudi 3b、推論性能2倍に」──正直なところ、私の最初の反応は「おや、またIntelが動いたな」というものだったんですよ。"
 reading_time: 8
 ---
 

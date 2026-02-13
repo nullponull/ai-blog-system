@@ -5,7 +5,7 @@ date: 2025-09-19 16:37:53 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、ノルウェーAIに62億ドル投資について詳細に分析します。"
+excerpt: "MicrosoftのノルウェーAI投資、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

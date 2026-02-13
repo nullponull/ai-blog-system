@@ -5,7 +5,7 @@ date: 2026-02-05 09:03:03 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot 1000億ドル投資、欧州AI開発加速**について詳細に分析します。"
+excerpt: "ねぇ、君もあのニュース見た？MicrosoftがCopilotに1000億ドルも突っ込むって話。正直、最初は「またか」って思ったんだ。だって、ここ数年、AI、特に生成AIへの投資合戦は熾烈を極めているからね。"
 reading_time: 6
 ---
 

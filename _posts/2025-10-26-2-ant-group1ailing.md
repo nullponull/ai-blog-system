@@ -5,7 +5,7 @@ date: 2025-10-26 12:56:33 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "マルチモーダル", "推論最適化", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "Ant Group、1兆パラメータAI公開について詳細に分析します。"
+excerpt: "Ant Groupの1兆パラメータAI「Ling-1T」が示す、オープンソースの新たな地平とは？"
 reading_time: 20
 ---
 

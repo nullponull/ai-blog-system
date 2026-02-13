@@ -5,7 +5,7 @@ date: 2025-10-17 16:40:33 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "チューリッヒ、AI保険イノベーションについて詳細に分析します。"
+excerpt: "チューリッヒが描くAI保険の未来：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

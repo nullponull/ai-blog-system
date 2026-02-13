@@ -5,7 +5,7 @@ date: 2026-02-04 17:08:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AWSでAIチップ「Inferentia 3」発表について詳細に分析します。"
+excerpt: "AWSの「Inferentia 3」発表、AIの未来はどう変わる？"
 reading_time: 20
 ---
 

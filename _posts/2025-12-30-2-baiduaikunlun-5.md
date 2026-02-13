@@ -5,7 +5,7 @@ date: 2025-12-30 13:07:09 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "LLM", "RAG", "推論最適化", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、AIチップ「Kunlun 5」発表**について詳細に分析します。"
+excerpt: "君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-12 08:51:14 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "マルチモーダル", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**Google DeepMind、AI創薬プラットフォームで新薬候補発見**について詳細に分析します。"
+excerpt: "いやはや、またしてもDeepMindのニュースですよ。AI創薬プラットフォームで新薬候補を発見した、と。彼らがAlphaFoldでタンパク質構造予測という、まさに「科学の壁」を打ち破った実績を考えると、この「創薬」という、"
 reading_time: 6
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-29 02:07:12 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "WeLabとGoogle、金融AI提携について詳細に分析します。"
+excerpt: "WeLabとGoogleの金融AI提携、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

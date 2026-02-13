@@ -5,7 +5,7 @@ date: 2025-12-27 04:46:22 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルAPI提供開始**について詳細に分析します。"
+excerpt: "Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略はどこへ向かうのだろうか？"
 reading_time: 9
 ---
 

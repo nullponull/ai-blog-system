@@ -5,7 +5,7 @@ date: 2025-10-17 13:02:24 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Amazon", "Anthropic", "LLM", "AIエージェント", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude「Skills」発表、楽天で効率化について詳細に分析します。"
+excerpt: "Anthropic Claudeの「Skills」は、楽天の業務をどう変革するのか？その真意を探る"
 reading_time: 20
 ---
 

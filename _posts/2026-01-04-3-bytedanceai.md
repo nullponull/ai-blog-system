@@ -5,7 +5,7 @@ date: 2026-01-04 08:43:34 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "xAI", "ByteDance", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "ByteDance、AI学習ツールで教育市場開拓について詳細に分析します。"
+excerpt: "やあ、みんな。AI業界を20年近く見続けてきたベテランアナリストとして、最近のByteDanceの動きには、正直言って「おっ」と思わされたよ。AI学習ツールで教育市場を開拓するというニュース、君たちも耳にしたかな？"
 reading_time: 20
 ---
 

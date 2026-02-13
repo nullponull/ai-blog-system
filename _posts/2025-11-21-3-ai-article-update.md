@@ -5,7 +5,7 @@ date: 2025-11-21 08:45:05 +0000
 categories: ["業界別AI活用"]
 tags: ["AI規制", "AI人材", "DX推進", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "アフリカAI新興、5億ドル調達で教育変革について詳細に分析します。"
+excerpt: "アフリカAI教育投資の真意とは？そして、その変革がもたらす未来は何か？"
 reading_time: 20
 ---
 

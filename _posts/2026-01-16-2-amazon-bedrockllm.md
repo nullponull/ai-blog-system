@@ -5,7 +5,7 @@ date: 2026-01-16 04:53:29 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新LLMモデル追加**について詳細に分析します。"
+excerpt: "Amazon Bedrock、新LLMモデル追加で何が変わる？"
 reading_time: 20
 ---
 

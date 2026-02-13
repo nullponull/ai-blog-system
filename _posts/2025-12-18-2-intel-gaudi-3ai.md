@@ -5,7 +5,7 @@ date: 2025-12-18 20:34:26 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**Intel Gaudi 3、性能競争激化でシェア拡大**について詳細に分析します。"
+excerpt: "いやー、IntelのGaudi 3の話、耳にしてます？正直、最初は「またIntelか」って思ったんですよ。だって、AIチップの世界って、NVIDIA一強みたいな空気がずっと続いてたじゃないですか。"
 reading_time: 7
 ---
 

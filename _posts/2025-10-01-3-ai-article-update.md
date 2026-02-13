@@ -5,7 +5,7 @@ date: 2025-10-01 20:36:36 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "推論最適化", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "滋賀大、先端因果推論AIチーム発足について詳細に分析します。"
+excerpt: "滋賀大の「先端因果推論AI」チーム発足、その真意は何だろうか？"
 reading_time: 20
 ---
 

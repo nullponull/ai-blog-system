@@ -5,7 +5,7 @@ date: 2026-01-06 02:28:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "マルチモーダル", "音声AI", "推論最適化", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、人間らしさ追求の新モデル発表**について詳細に分析します。"
+excerpt: "Inflection AIの新モデル、人間らしさとは何を目指すのか？"
 reading_time: 20
 ---
 

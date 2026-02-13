@@ -5,7 +5,7 @@ date: 2025-11-25 08:45:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "World Labs、3D世界モデル「Marble」公開について詳細に分析します。"
+excerpt: "World Labsの「Marble」が描く、3D世界生成の新たな可能性とその真意は？"
 reading_time: 20
 ---
 

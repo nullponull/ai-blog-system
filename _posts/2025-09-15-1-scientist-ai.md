@@ -5,7 +5,7 @@ date: 2025-09-15 16:40:47 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "RAG", "AIエージェント", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Samsung、新AI「Scientist AI」発表について詳細に分析します。"
+excerpt: "サムスンの「Scientist AI」構想、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

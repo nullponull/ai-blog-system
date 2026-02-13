@@ -5,7 +5,7 @@ date: 2025-11-18 08:46:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Amazon", "Apple", "xAI", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "Apple、Siri独占終了12月他社開放について詳細に分析します。"
+excerpt: "Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-22 20:44:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot、法人向け導入加速**について詳細に分析します。"
+excerpt: "Microsoft Copilot、法人導入加速で何が変わる？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-23 04:55:24 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルで20%高速化**について詳細に分析します。"
+excerpt: "「Amazon Bedrockが新モデルで20%高速化」――このニュースを聞いて、あなたは率直にどう感じただろうか？ 正直なところ、私の最初の反応は「お、来たか」という期待と、「たった20%？」という少しばかりの懐疑心が半々だったんだ。"
 reading_time: 10
 ---
 

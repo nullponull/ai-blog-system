@@ -5,7 +5,7 @@ date: 2025-12-04 13:09:06 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "音声AI", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、Scalewayと持続可能AI提携について詳細に分析します。"
+excerpt: "富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？"
 reading_time: 18
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-28 04:37:02 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AIエージェント", "マルチモーダル", "推論最適化", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、ロボAI新モデルについて詳細に分析します。"
+excerpt: "Google DeepMindのロボットAI新モデル、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

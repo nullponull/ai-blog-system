@@ -5,7 +5,7 @@ date: 2025-09-13 08:35:51 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "RAG", "ファインチューニング", "AI規制", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "ブリタニカ、Perplexityを著作権侵害で提訴について詳細に分析します。"
+excerpt: "ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？"
 reading_time: 20
 ---
 
