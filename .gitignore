@@ -15,6 +15,10 @@ yarn-error.log*
 Gemfile.lock
 .bundle/
 
+# Python
+__pycache__/
+*.pyc
+
 # Temporary files
 _temp/
 *.tmp
