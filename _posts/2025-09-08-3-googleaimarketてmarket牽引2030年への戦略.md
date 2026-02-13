@@ -5,7 +5,7 @@ date: 2025-09-08 08:42:58 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Google、AIで2030年5兆ドル価値予測について詳細に分析します。"
+excerpt: "AI市場は2030年までに世界経済に19.9兆ドルの経済効果をもたらすと予測され、Googleの親会社Alphabetは2025年に750億ドル（約11兆5000億円）をAIインフラに投じる計画です。"
 reading_time: 6
 ---
 

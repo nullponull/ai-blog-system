@@ -5,7 +5,7 @@ date: 2025-11-05 04:37:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "音声AI", "推論最適化", "ROI分析", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "DEEPX、WEFで「Physical AI」発表について詳細に分析します。"
+excerpt: "DEEPXの「Physical AI」は、AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

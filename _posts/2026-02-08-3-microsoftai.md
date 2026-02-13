@@ -5,7 +5,7 @@ date: 2026-02-08 03:36:18 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AIチップ自社開発を加速**について詳細に分析します。"
+excerpt: "MicrosoftのAIチップ自社開発加速、その真の狙いと業界の未来はどう動くのか？"
 reading_time: 8
 ---
 

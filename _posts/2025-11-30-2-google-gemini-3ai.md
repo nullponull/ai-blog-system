@@ -5,7 +5,7 @@ date: 2025-11-30 08:38:32 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Google、Gemini 3発表「自律AI」へについて詳細に分析します。"
+excerpt: "Google Gemini 3が示す、AIの「自律」への真意とは？"
 reading_time: 20
 ---
 

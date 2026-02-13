@@ -5,7 +5,7 @@ date: 2025-10-11 02:00:31 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、DevDayで開発者向け機能強化について詳細に分析します。"
+excerpt: "OpenAI DevDayが示す、AIアプリエコシステムの未来とは？"
 reading_time: 20
 ---
 

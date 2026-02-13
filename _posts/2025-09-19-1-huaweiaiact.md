@@ -5,7 +5,7 @@ date: 2025-09-19 08:38:40 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Huawei、産業AI向け「ACT」発表について詳細に分析します。"
+excerpt: "Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解く"
 reading_time: 20
 ---
 

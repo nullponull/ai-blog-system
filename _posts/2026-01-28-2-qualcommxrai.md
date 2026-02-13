@@ -5,7 +5,7 @@ date: 2026-01-28 16:58:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "RAG", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm、XR向けAIチップ上市について詳細に分析します。"
+excerpt: "QualcommのXR向けAIチップ上市：これはXRの夜明け、それともまだ長い道のりなのか？"
 reading_time: 9
 ---
 

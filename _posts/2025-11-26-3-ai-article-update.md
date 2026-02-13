@@ -5,7 +5,7 @@ date: 2025-11-26 20:35:16 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "パナソニック、データセンター液冷ポンプを開発について詳細に分析します。"
+excerpt: "パナソニックのデータセンター液冷ポンプ開発、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

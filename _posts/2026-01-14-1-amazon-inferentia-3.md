@@ -5,7 +5,7 @@ date: 2026-01-14 20:36:47 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "LLM", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AIチップ「Inferentia 3」発表**について詳細に分析します。"
+excerpt: "いやはや、また来たか、と正直思ったよ。AmazonがAIチップ「Inferentia 3」を発表したというニュースを聞いて、長年この業界の移り変わりを見てきた私としては、その意図を読み解くのが面白くてね。Inferentia 3。"
 reading_time: 8
 ---
 

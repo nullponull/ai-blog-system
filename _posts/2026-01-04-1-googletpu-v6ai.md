@@ -5,7 +5,7 @@ date: 2026-01-04 08:43:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Google、AIチップ「TPU v6」発表、性能2倍について詳細に分析します。"
+excerpt: "GoogleのTPU v6、本当にAIのゲームを変えるのか？"
 reading_time: 20
 ---
 

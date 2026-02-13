@@ -5,7 +5,7 @@ date: 2025-09-09 02:27:22 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Google AI Search進化について詳細に分析します。"
+excerpt: "Googleは2025年9月9日、日本語を含む5言語で「Google AIモード」の提供を開始しました。これは、同社の最先端AIモデル「Gemini 2.5」のカスタム版を基盤とし、"
 reading_time: 8
 ---
 

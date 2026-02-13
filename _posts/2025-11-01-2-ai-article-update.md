@@ -5,7 +5,7 @@ date: 2025-11-01 04:35:53 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "マルチモーダル", "音声AI", "ROI分析", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "ツクリンク、AIマッチング機能提供開始 (建設業向け)について詳細に分析します。"
+excerpt: "ツクリンクのAIマッチング機能、建設業界に何をもたらすのか？"
 reading_time: 20
 ---
 

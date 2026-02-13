@@ -5,7 +5,7 @@ date: 2026-01-31 13:12:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "LLM", "AIエージェント", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**Adobe Firefly 5、生成AIでデザイン自動化** (27文字)について詳細に分析します。"
+excerpt: "Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？"
 reading_time: 20
 ---
 

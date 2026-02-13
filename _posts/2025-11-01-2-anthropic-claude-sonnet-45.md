@@ -5,7 +5,7 @@ date: 2025-11-01 20:32:15 +0000
 categories: ["AI技術ガイド"]
 tags: ["Amazon", "Anthropic", "xAI", "AIエージェント", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude Sonnet 4.5、コード生成精度73%について詳細に分析します。"
+excerpt: "Anthropic Claude Sonnet 4.5、そのコード生成能力の真価とは？"
 reading_time: 20
 ---
 

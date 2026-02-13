@@ -5,7 +5,7 @@ date: 2025-11-27 20:34:44 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "AIエージェント", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "FINRA、金融規制にGenAI導入拡大について詳細に分析します。"
+excerpt: "金融規制にGenAIが浸透？FINRAの動きから見えてくる未来とは"
 reading_time: 20
 ---
 

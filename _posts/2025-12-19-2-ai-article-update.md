@@ -5,7 +5,7 @@ date: 2025-12-19 08:46:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "マルチモーダル", "音声AI", "自動運転"]
 author: "ALLFORCES編集部"
-excerpt: "Sony、AIチップ事業でIntelと提携について詳細に分析します。"
+excerpt: "いやー、このニュース、正直ちょっと意外だったんだよね。ソニーがインテルとAIチップ事業で提携だって？AI業界を20年近く見てきたけど、こういう組み合わせはなかなか想像がつかなかった。"
 reading_time: 8
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-13 13:03:13 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Google、AIポッドキャスト生成「Audio Overview」発表について詳細に分析します。"
+excerpt: "Googleの「Audio Overview」は、情報消費の未来をどう変えるのか？"
 reading_time: 20
 ---
 

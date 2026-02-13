@@ -5,7 +5,7 @@ date: 2026-01-30 05:16:48 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、Pi 3.0で会話応答速度2倍**について詳細に分析します。"
+excerpt: "Inflection AIのPi 3.0、応答速度2倍の真意とは？ AI会話の未来を解き明かす"
 reading_time: 9
 ---
 

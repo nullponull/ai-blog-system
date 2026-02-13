@@ -5,7 +5,7 @@ date: 2026-01-12 13:11:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、次世代AIチップ「Exynos 2800」発表**について詳細に分析します。"
+excerpt: "Samsungの次世代AIチップ「Exynos 2800」発表、その真意は何だろうか？"
 reading_time: 20
 ---
 

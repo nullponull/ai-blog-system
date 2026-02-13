@@ -5,7 +5,7 @@ date: 2025-09-18 13:00:34 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Huawei、世界最強AIクラスター展開へについて詳細に分析します。"
+excerpt: "ファーウェイが目指すAIクラスターの真意とは？ 米国制裁下の技術革新が市場に与える影響を読み解く"
 reading_time: 20
 ---
 

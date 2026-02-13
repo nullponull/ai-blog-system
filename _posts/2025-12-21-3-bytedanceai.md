@@ -5,7 +5,7 @@ date: 2025-12-21 08:40:16 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "ByteDance"]
 author: "ALLFORCES編集部"
-excerpt: "**ByteDance、AI生成コンテンツ収益化戦略を発表**について詳細に分析します。"
+excerpt: "いやー、ByteDanceがAI生成コンテンツの収益化戦略を発表したというニュース、あなたも耳にしましたか？正直、この手のニュースは日々飛び交っているので、最初は「またか」という気持ちも少しありました。"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-13 20:39:54 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "Inflection AI、次世代AIチップ開発へ巨額投資について詳細に分析します。"
+excerpt: "Inflection AIの野望、AIチップの未来はどう変わる？"
 reading_time: 20
 ---
 

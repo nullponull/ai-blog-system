@@ -5,7 +5,7 @@ date: 2025-10-24 16:44:25 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "ソフトバンク・サムスン、AI-RAN協業について詳細に分析します。"
+excerpt: "ソフトバンクとサムスン、AI-RAN協業の真意とは？通信業界の未来をどう変えるのか？"
 reading_time: 20
 ---
 

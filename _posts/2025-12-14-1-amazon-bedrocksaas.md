@@ -5,7 +5,7 @@ date: 2025-12-14 20:35:04 +0000
 categories: ["研究論文"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "AIエージェント", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、SaaS連携強化へ**について詳細に分析します。"
+excerpt: "Amazon BedrockのSaaS連携強化、何が変わるのか？"
 reading_time: 9
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-25 13:03:12 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm、Snapdragon X2 Elite発表について詳細に分析します。"
+excerpt: "Snapdragon X2 Elite、その真意は？Qualcommが描くAI PCの未来を読み解く"
 reading_time: 20
 ---
 

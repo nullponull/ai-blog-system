@@ -5,7 +5,7 @@ date: 2025-09-28 02:18:35 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、CopilotにAnthropic追加について詳細に分析します。"
+excerpt: "CopilotにAnthropicが加わることで、私たちのAI体験は何が変わるのか？"
 reading_time: 20
 ---
 

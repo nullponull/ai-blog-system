@@ -5,7 +5,7 @@ date: 2026-01-31 08:48:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "ファインチューニング", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu ERNIE Bot、多言語対応を強化**について詳細に分析します。"
+excerpt: "Baidu ERNIE Botの多言語強化、何が変わるのか？"
 reading_time: 20
 ---
 

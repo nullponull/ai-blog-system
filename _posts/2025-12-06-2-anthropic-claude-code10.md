@@ -5,7 +5,7 @@ date: 2025-12-06 16:39:10 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude Code収益10億ドルについて詳細に分析します。"
+excerpt: "Anthropic Claude Codeが10億ドル収益を達成、その真意とは？"
 reading_time: 5
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-25 20:35:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Apple", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm、PC向けAIチップ発表について詳細に分析します。"
+excerpt: "QualcommのPC向けAIチップ、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

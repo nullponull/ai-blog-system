@@ -5,7 +5,7 @@ date: 2025-11-14 13:09:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["Anthropic", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic partners with Marylandについて詳細に分析します。"
+excerpt: "AIが行政サービスを変える？メリーランド州とAnthropicの提携が示す未来とは。"
 reading_time: 20
 ---
 

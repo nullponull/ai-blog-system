@@ -5,7 +5,7 @@ date: 2025-10-05 12:54:16 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "半導体市場、AIで7310億ドルへについて詳細に分析します。"
+excerpt: "AIが半導体市場を牽引する未来、その数字の裏に何があるのか？"
 reading_time: 20
 ---
 

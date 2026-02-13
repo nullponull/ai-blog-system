@@ -5,7 +5,7 @@ date: 2025-09-15 02:12:37 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "RAG", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "ELYZA Works、AIエージェント自動生成サービス開始について詳細に分析します。"
+excerpt: "ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？"
 reading_time: 20
 ---
 

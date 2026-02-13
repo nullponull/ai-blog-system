@@ -5,7 +5,7 @@ date: 2025-11-10 04:42:18 +0000
 categories: ["AI最新ニュース"]
 tags: ["LLM", "AI規制", "AI人材", "セキュリティ", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "香港、AIスパコン・研究所設立へについて詳細に分析します。"
+excerpt: "香港、AIスパコンで何が変わるのか？アジアのハブを目指す真意とは"
 reading_time: 20
 ---
 

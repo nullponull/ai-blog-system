@@ -5,7 +5,7 @@ date: 2025-12-17 20:38:36 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、自社製チップで性能倍増**について詳細に分析します。"
+excerpt: "Amazon Bedrock、自社製チップで性能倍増、何が変わるのか？"
 reading_time: 20
 ---
 

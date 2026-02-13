@@ -5,7 +5,7 @@ date: 2026-02-01 16:48:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Apple", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、AIチップ「Kunlun 4」発表**について詳細に分析します。"
+excerpt: "Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？"
 reading_time: 20
 ---
 

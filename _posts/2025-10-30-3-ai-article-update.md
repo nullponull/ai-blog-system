@@ -5,7 +5,7 @@ date: 2025-10-30 20:36:37 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "環境団体、AI電力規制を議会に要請について詳細に分析します。"
+excerpt: "AIの電力消費、環境規制の波は来るのか？その真意と未来への影響"
 reading_time: 20
 ---
 

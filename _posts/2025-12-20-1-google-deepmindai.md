@@ -5,7 +5,7 @@ date: 2025-12-20 12:58:43 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "マルチモーダル", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、新AIモデルで創薬期間半減について詳細に分析します。"
+excerpt: "Google DeepMindの創薬AI、本当に未来を変えるのか？"
 reading_time: 20
 ---
 

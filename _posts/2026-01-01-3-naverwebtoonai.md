@@ -5,7 +5,7 @@ date: 2026-01-01 20:38:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "LLM", "AIエージェント", "マルチモーダル", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "**韓国Naver、Webtoon向けAI強化**について詳細に分析します。"
+excerpt: "NaverのWebtoon向けAI強化は、私たちのコンテンツ体験をどう変えるのだろうか。"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-06 16:38:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini 3 Deep Think発表について詳細に分析します。"
+excerpt: "Google Gemini 3 Deep Thinkの真意はどこにあるのか？"
 reading_time: 5
 ---
 

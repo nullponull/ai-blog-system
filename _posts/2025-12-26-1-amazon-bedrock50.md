@@ -5,7 +5,7 @@ date: 2025-12-26 13:03:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "Anthropic", "LLM", "RAG", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、生成AIモデル数50突破について詳細に分析します。"
+excerpt: "Amazon Bedrockの50モデル突破が示す、生成AIプラットフォーム競争の深層は何か？"
 reading_time: 7
 ---
 

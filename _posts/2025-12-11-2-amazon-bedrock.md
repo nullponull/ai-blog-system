@@ -5,7 +5,7 @@ date: 2025-12-11 04:49:51 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルでコスト半減**について詳細に分析します。"
+excerpt: "「Amazon Bedrock、新モデルでコスト半減」――このニュースを見た時、正直なところ、あなたも「おお、またか！」と驚きつつも、どこか既視感を覚えたのではないでしょうか？"
 reading_time: 8
 ---
 

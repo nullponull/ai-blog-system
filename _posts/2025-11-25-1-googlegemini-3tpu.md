@@ -5,7 +5,7 @@ date: 2025-11-25 04:41:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google、Gemini 3とTPU発表について詳細に分析します。"
+excerpt: "Google、Gemini 3とTPUの発表、その真意は何処にあるのか？"
 reading_time: 20
 ---
 

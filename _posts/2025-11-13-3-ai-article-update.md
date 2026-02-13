@@ -5,7 +5,7 @@ date: 2025-11-13 08:49:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Apple", "マルチモーダル", "音声AI", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "CCTV警告、AIによる旅行写真からのプライバシー漏洩リスクについて詳細に分析します。"
+excerpt: "旅行写真に潜むAIの罠：あなたのプライバシーは本当に守られているのか？"
 reading_time: 20
 ---
 

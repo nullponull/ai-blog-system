@@ -5,7 +5,7 @@ date: 2026-02-06 17:05:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、独自LLM「Titan 3.0」発表**について詳細に分析します。"
+excerpt: "Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？"
 reading_time: 9
 ---
 

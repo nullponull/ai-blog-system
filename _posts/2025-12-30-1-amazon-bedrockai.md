@@ -5,7 +5,7 @@ date: 2025-12-30 13:06:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、量子AI対応へ**について詳細に分析します。"
+excerpt: "Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-21 04:49:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、Anthropic Claude 3.5 Opus統合**について詳細に分析します。"
+excerpt: "Amazon BedrockとClaude 3.5 Opus統合、何が変わるのか？"
 reading_time: 9
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-14 16:38:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、LLaMA 5で生成AIコスト半減について詳細に分析します。"
+excerpt: "LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？"
 reading_time: 20
 ---
 

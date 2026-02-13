@@ -5,7 +5,7 @@ date: 2025-09-20 20:30:32 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "MS、NVIDIA GB200搭載AIデータC完成へについて詳細に分析します。"
+excerpt: "AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？"
 reading_time: 20
 ---
 

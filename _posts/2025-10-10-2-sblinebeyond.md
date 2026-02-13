@@ -5,7 +5,7 @@ date: 2025-10-10 13:01:16 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "東大・SB・LINEヤフー、Beyond AI始動について詳細に分析します。"
+excerpt: "東大・SB・LINEヤフーの「Beyond AI」始動、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

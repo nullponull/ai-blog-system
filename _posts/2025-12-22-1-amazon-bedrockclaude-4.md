@@ -5,7 +5,7 @@ date: 2025-12-22 16:42:42 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、Anthropic Claude 4発表**について詳細に分析します。"
+excerpt: "Amazon BedrockとClaude 4、このタッグがAIの未来をどう塗り替えるのか？"
 reading_time: 8
 ---
 

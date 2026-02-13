@@ -5,7 +5,7 @@ date: 2025-11-07 16:39:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "アリババ、大規模AIクラウド構築について詳細に分析します。"
+excerpt: "アリババ、AIクラウドに巨額投資：その戦略の深層と市場への影響とは？"
 reading_time: 20
 ---
 

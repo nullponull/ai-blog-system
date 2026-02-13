@@ -5,7 +5,7 @@ date: 2025-11-27 04:39:59 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "メモリチップ50%高騰予測: AI需要で供給逼迫について詳細に分析します。"
+excerpt: "最近、「メモリチップが50%も高騰する」なんてニュースを目にして、あなたも「おいおい、またか」と思われたんじゃないでしょうか。正直なところ、私も最初にこの数字を聞いた時は、思わず眉間にシワが寄りましたよ。"
 reading_time: 20
 ---
 

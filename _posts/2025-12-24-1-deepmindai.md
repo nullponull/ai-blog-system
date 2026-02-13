@@ -5,7 +5,7 @@ date: 2025-12-24 08:46:18 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "LLM", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**Google DeepMind、創薬AIで新記録**について詳細に分析します。"
+excerpt: "いやー、Google DeepMindが創薬AIで「新記録」だってニュース、あなたも耳にしました？正直、最初は「またか」って思っちゃったんですよ。だって、AIと創薬の組み合わせって、もう何年も前から期待されてて、"
 reading_time: 20
 ---
 

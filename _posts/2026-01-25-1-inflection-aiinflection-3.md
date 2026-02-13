@@ -5,7 +5,7 @@ date: 2026-01-25 05:01:07 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、大規模言語モデル「Inflection-3」発表、企業向けAPI提供開始**について詳細に分析します。"
+excerpt: "Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？"
 reading_time: 20
 ---
 

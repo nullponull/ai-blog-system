@@ -5,7 +5,7 @@ date: 2025-09-15 20:32:49 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Samsung AI Forum開催、新AIモデル発表について詳細に分析します。"
+excerpt: "Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？"
 reading_time: 20
 ---
 

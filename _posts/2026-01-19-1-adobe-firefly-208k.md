@@ -5,7 +5,7 @@ date: 2026-01-19 13:13:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Adobe Firefly 2.0、画像生成8K対応**について詳細に分析します。"
+excerpt: "Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？"
 reading_time: 8
 ---
 

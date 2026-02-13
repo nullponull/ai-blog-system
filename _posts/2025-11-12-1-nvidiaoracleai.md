@@ -5,7 +5,7 @@ date: 2025-11-12 04:38:53 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "NVIDIA/Oracle、AIスパコン構築について詳細に分析します。"
+excerpt: "NVIDIAとOracleが描くAIスパコンの未来、その真意とは？"
 reading_time: 20
 ---
 

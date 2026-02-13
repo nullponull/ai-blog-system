@@ -5,7 +5,7 @@ date: 2025-09-09 04:37:39 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "音声AI", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "ClipLine、サービス業向けAIエージェントについて詳細に分析します。"
+excerpt: "ClipLine株式会社は、サービス業の人手不足と業務複雑化に対応するため、「サービス業の現場にAIを」を掲げ、AIエージェント「ABILI Pal」と「ABILI Buddy」を開発・提供しています。"
 reading_time: 5
 ---
 

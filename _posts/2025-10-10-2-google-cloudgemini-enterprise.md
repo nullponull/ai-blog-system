@@ -5,7 +5,7 @@ date: 2025-10-10 02:04:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "AIエージェント", "マルチモーダル", "音声AI", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Google Cloud、Gemini Enterprise発表について詳細に分析します。"
+excerpt: "Google CloudのGemini Enterprise、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

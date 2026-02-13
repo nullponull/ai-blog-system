@@ -5,7 +5,7 @@ date: 2025-09-27 20:32:39 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "AIデータセンター株、GPU主軸で投資加速について詳細に分析します。"
+excerpt: "AIデータセンター株、GPUが牽引する投資の真意とは？ベテランアナリストが読み解く未来"
 reading_time: 20
 ---
 

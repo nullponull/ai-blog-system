@@ -5,7 +5,7 @@ date: 2025-10-10 02:05:27 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
-excerpt: "EU、新AI戦略「Apply AI」発表について詳細に分析します。"
+excerpt: "EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？"
 reading_time: 20
 ---
 

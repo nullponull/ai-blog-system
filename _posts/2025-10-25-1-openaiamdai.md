@@ -5,7 +5,7 @@ date: 2025-10-25 02:04:30 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、AMDと巨額AIインフラ提携について詳細に分析します。"
+excerpt: "OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面"
 reading_time: 20
 ---
 

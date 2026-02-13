@@ -5,7 +5,7 @@ date: 2026-01-19 16:49:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダル", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、Azure AIで中小企業向けDX支援強化、月額1万円～**について詳細に分析します。"
+excerpt: "MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？"
 reading_time: 9
 ---
 

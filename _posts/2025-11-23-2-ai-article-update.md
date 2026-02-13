@@ -5,7 +5,7 @@ date: 2025-11-23 20:35:50 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "画像生成", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "跡見学園、AI科学芸術センター新設について詳細に分析します。"
+excerpt: "跡見学園のAI科学芸術センター新設：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

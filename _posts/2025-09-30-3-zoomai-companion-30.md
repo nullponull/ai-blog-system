@@ -5,7 +5,7 @@ date: 2025-09-30 02:02:26 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "LLM", "AIエージェント", "音声AI", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Zoom、AI Companion 3.0発表について詳細に分析します。"
+excerpt: "ZoomのAI Companion 3.0、その真意は「エージェントAI」への静かなる変革か？"
 reading_time: 20
 ---
 

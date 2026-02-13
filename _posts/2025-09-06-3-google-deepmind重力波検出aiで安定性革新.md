@@ -5,7 +5,7 @@ date: 2025-09-06 16:39:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、重力波検出AIで安定性向上について詳細に分析します。"
+excerpt: "Google DeepMindは、重力波検出技術の安定性向上に大きく貢献するAI技術を推進しています。マックス・プランク光科学研究所（MPL）とLIGOの研究者らが開発したAI「Urania」は、"
 reading_time: 5
 ---
 

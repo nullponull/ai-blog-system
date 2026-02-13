@@ -5,7 +5,7 @@ date: 2025-10-15 08:43:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Oracle、AI DB 26ai発表について詳細に分析します。"
+excerpt: "Oracle AI Database 26aiの真意は？データとAIの融合がもたらす未来とは。"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-18 04:53:46 +0000
 categories: ["研究論文"]
 tags: ["Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "DeepMind、新AIモデルでタンパク質構造予測刷新について詳細に分析します。"
+excerpt: "DeepMindの新たなAIモデルが、タンパク質構造予測の常識をどう塗り替えるのか？"
 reading_time: 20
 ---
 

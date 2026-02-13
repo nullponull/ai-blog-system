@@ -5,7 +5,7 @@ date: 2025-11-07 20:32:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Vast Data、AIインフラ11.7億ドル契約について詳細に分析します。"
+excerpt: "Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？"
 reading_time: 20
 ---
 

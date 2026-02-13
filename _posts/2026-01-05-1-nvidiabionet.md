@@ -5,7 +5,7 @@ date: 2026-01-05 13:10:10 +0000
 categories: ["AI技術ガイド"]
 tags: ["NVIDIA", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "NVIDIA、AI創薬スパコン「BioNet」稼働開始、新薬開発10倍高速化へについて詳細に分析します。"
+excerpt: "NVIDIAの「BioNet」、創薬の未来をどう変えるのか？"
 reading_time: 6
 ---
 

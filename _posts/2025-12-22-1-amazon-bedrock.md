@@ -5,7 +5,7 @@ date: 2025-12-22 02:30:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル4種追加**について詳細に分析します。"
+excerpt: "Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？"
 reading_time: 20
 ---
 

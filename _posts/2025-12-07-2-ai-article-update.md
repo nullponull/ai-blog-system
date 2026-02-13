@@ -5,7 +5,7 @@ date: 2025-12-07 08:39:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "推論最適化", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "IBM CEO、AI投資リスク警鐘について詳細に分析します。"
+excerpt: "AI投資、その巨額の裏に潜む「現実」：アービンド・クリシュナが本当に伝えたいこととは？"
 reading_time: 20
 ---
 

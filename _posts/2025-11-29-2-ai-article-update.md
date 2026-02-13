@@ -5,7 +5,7 @@ date: 2025-11-29 12:59:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "新AI攻撃「Chain-of-Thought Hijacking」発見について詳細に分析します。"
+excerpt: "皆さん、最近AI業界で「Chain-of-Thought Hijacking（思考の連鎖ハイジャック）」という新たな攻撃手法が話題になっているのをご存知ですか？正直なところ、私も最初にこの話を聞いた時は、「また新しいジェイルブレイクか」と、"
 reading_time: 20
 ---
 

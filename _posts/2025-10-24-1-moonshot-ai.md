@@ -5,7 +5,7 @@ date: 2025-10-24 04:36:48 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Moonshot AI、数億ドル調達へについて詳細に分析します。"
+excerpt: "Moonshot AI、数億ドル調達の真意とは？中国AIの新たな波が世界を変えるのか？"
 reading_time: 20
 ---
 

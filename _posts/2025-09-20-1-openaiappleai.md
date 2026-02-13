@@ -5,7 +5,7 @@ date: 2025-09-20 04:34:51 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Apple", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、AppleサプライヤーとAIデバイス製造で提携について詳細に分析します。"
+excerpt: "OpenAIがAppleサプライヤーと組む真意は？AIデバイスの未来を読み解く"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-09 04:36:57 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "SBI、生成AI-OCR「Lens」提供開始について詳細に分析します。"
+excerpt: "SBIの生成AI-OCR「Lens」が示す、バックオフィス変革の真意とは？"
 reading_time: 20
 ---
 

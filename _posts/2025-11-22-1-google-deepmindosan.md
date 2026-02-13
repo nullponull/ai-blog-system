@@ -5,7 +5,7 @@ date: 2025-11-22 16:37:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、GeminiをロボットOSにについて詳細に分析します。"
+excerpt: "Google DeepMindがロボットOSの「Android」を目指す真意とは？"
 reading_time: 20
 ---
 

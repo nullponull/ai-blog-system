@@ -5,7 +5,7 @@ date: 2025-09-23 16:38:49 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Huawei Cloud、AI計算/EMS発表について詳細に分析します。"
+excerpt: "Huawei CloudのEMS発表、その真意はどこにあるのか？AI時代のメモリ戦略を読み解く"
 reading_time: 20
 ---
 

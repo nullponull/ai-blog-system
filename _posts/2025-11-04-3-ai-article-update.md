@@ -5,7 +5,7 @@ date: 2025-11-04 04:41:47 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "Anthropic", "xAI", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "ソフトバンク、フィジカルAI注目について詳細に分析します。"
+excerpt: "ソフトバンクが描く「フィジカルAI」の真意とは？ 次世代社会をどう変えるのか？"
 reading_time: 20
 ---
 

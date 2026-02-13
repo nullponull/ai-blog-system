@@ -5,7 +5,7 @@ date: 2025-11-15 16:37:24 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "AIエージェント", "音声AI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Google、地図アプリ自動生成AIエージェントについて詳細に分析します。"
+excerpt: "地図アプリ開発の未来はAIエージェントが握るのか？その真意を探る"
 reading_time: 20
 ---
 

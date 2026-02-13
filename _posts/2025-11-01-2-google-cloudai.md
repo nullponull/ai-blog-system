@@ -5,7 +5,7 @@ date: 2025-11-01 16:37:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google Cloud、企業向けAI革新発表について詳細に分析します。"
+excerpt: "Google Cloudの企業向けAI戦略：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

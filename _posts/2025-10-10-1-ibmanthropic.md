@@ -5,7 +5,7 @@ date: 2025-10-10 20:33:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "IBMとAnthropic、Claude統合で提携について詳細に分析します。"
+excerpt: "IBMとAnthropicの提携、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-21 13:02:08 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "画像生成", "推論最適化", "ファインチューニング", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "AiHUB、国産画像生成AI「oboro:base」公開について詳細に分析します。"
+excerpt: "AiHUBの「oboro:base」：国産AIが描く、創造現場の新たな風景とは？"
 reading_time: 20
 ---
 

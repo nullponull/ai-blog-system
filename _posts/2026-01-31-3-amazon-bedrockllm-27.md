@@ -5,7 +5,7 @@ date: 2026-01-31 13:12:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、大規模言語モデル競合** (27文字)について詳細に分析します。"
+excerpt: "Amazon Bedrock、LLM戦国時代に何をもたらすのか？ (27文字)"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-14 20:37:32 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Baidu ERNIE、視覚AIでGPT超えについて詳細に分析します。"
+excerpt: "Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？"
 reading_time: 20
 ---
 

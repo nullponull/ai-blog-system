@@ -5,7 +5,7 @@ date: 2025-11-18 08:45:26 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Google、Gemini 3.0年末リリースへについて詳細に分析します。"
+excerpt: "Google Gemini 3.0、その静かなる登場がAIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-13 20:35:47 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "AIオンコロジー市場、2035年91億ドルへについて詳細に分析します。"
+excerpt: "AIオンコロジー市場、2035年に91億ドルへ？その真意と、私たちが今考えるべきこと。"
 reading_time: 20
 ---
 

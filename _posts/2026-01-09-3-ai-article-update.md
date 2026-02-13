@@ -5,7 +5,7 @@ date: 2026-01-09 13:10:53 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "Amazon", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**トヨタ、自動運転AIに3兆円投資**について詳細に分析します。"
+excerpt: "トヨタ、自動運転AIに3兆円の巨額投資。この一手が示す、モビリティ変革の行方とは？"
 reading_time: 20
 ---
 

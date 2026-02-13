@@ -5,7 +5,7 @@ date: 2025-12-04 20:40:08 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "xAI", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "ソフトバンク、全社員AIエージェント化について詳細に分析します。"
+excerpt: "ソフトバンクの「全社員AIエージェント化」、その真意と未来への布石とは？"
 reading_time: 20
 ---
 

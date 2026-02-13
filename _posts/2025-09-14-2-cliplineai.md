@@ -5,7 +5,7 @@ date: 2025-09-14 12:53:00 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "AIエージェント", "マルチモーダル", "音声AI", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "ClipLine、サービス業向けAIエージェント提供について詳細に分析します。"
+excerpt: "ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-15 20:37:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Oracle AI Data Platform一般提供開始について詳細に分析します。"
+excerpt: "Oracle AI Data Platform、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

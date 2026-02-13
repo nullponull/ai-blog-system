@@ -5,7 +5,7 @@ date: 2025-12-04 02:23:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini 3、TPUでNVIDIA対抗について詳細に分析します。"
+excerpt: "Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？"
 reading_time: 20
 ---
 

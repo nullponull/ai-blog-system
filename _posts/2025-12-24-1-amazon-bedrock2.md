@@ -5,7 +5,7 @@ date: 2025-12-24 16:40:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルで推論速度2倍**について詳細に分析します。"
+excerpt: "Amazon Bedrockの推論速度2倍、その真価を問うのは、生成AIの新たな進化点か？"
 reading_time: 7
 ---
 

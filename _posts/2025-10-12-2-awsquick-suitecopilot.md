@@ -5,7 +5,7 @@ date: 2025-10-12 20:33:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "AWS、企業向けAI「Quick Suite」発表、Copilot対抗について詳細に分析します。"
+excerpt: "AWS「Quick Suite」がCopilotに挑む：企業AIの未来は何処へ向かうのか？"
 reading_time: 20
 ---
 

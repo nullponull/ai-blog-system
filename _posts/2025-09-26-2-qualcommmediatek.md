@@ -5,7 +5,7 @@ date: 2025-09-26 04:36:33 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm/MediaTek、雲AI ASIC注力について詳細に分析します。"
+excerpt: "QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-10 08:45:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Meta、Llama 4で大規模言語モデル競争を加速**について詳細に分析します。"
+excerpt: "MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？"
 reading_time: 20
 ---
 

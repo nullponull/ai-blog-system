@@ -5,7 +5,7 @@ date: 2025-11-24 08:46:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "NATOとGoogle、AIソブリン雲提携について詳細に分析します。"
+excerpt: "NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

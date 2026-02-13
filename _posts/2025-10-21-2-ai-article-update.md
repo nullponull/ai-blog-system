@@ -5,7 +5,7 @@ date: 2025-10-21 20:37:10 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "マルチモーダル", "推論最適化", "ファインチューニング", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "日本GPUアライアンス設立について詳細に分析します。"
+excerpt: "タイトル：「日本GPUアライアンス」の設立が示す、国内AIインフラの新たな夜明けとは？"
 reading_time: 20
 ---
 

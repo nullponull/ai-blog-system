@@ -5,7 +5,7 @@ date: 2025-10-13 13:01:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "マレーシア、AI研修税優遇を2027年末まで延長について詳細に分析します。"
+excerpt: "おや、マレーシアがまた動いたね。AI関連の研修や投資に対する税制優遇措置を2027年末まで延長する、というニュースを聞いて、正直なところ、最初は少し懐疑的だったんだ。"
 reading_time: 20
 ---
 

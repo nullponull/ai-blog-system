@@ -5,7 +5,7 @@ date: 2025-11-06 20:36:03 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AIエージェント", "ROI分析", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Samsung/NVIDIA、世界初のAI工場建設へについて詳細に分析します。"
+excerpt: "AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来"
 reading_time: 20
 ---
 

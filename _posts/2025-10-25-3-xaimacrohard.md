@@ -5,7 +5,7 @@ date: 2025-10-25 08:37:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Anthropic", "Apple", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "xAI、AIでソフト企業構築「Macrohard」構想について詳細に分析します。"
+excerpt: "xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？"
 reading_time: 20
 ---
 

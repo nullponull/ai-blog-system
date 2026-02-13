@@ -5,7 +5,7 @@ date: 2025-09-25 20:36:24 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "ROI分析", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Inspiren、AI介護プラットフォーム1億ドル調達について詳細に分析します。"
+excerpt: "InspirenのAI介護プラットフォーム、その真価はどこにあるのか？"
 reading_time: 20
 ---
 

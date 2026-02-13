@@ -5,7 +5,7 @@ date: 2025-12-28 20:36:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["Microsoft", "Amazon", "LLM", "AIエージェント", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon SageMaker、推論コスト30%削減**について詳細に分析します。"
+excerpt: "Amazon SageMaker、推論コスト30%削減の真意とは？AI導入の未来を変えるのか"
 reading_time: 20
 ---
 

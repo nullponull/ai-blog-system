@@ -5,7 +5,7 @@ date: 2025-12-14 13:00:07 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AI倫理ガイドラインを刷新**について詳細に分析します。"
+excerpt: "いやー、MicrosoftがAI倫理ガイドラインを刷新したというニュース、あなたも耳にしましたか？率直に言って、最初にこの見出しを見たとき、「またか」という気持ちが半分、そして「今度は本気なのか？」という期待が半分でした。"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-24 08:46:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、量子AI連携強化**について詳細に分析します。"
+excerpt: "Amazon Bedrockと量子AI、その連携強化で何が変わるのか？"
 reading_time: 20
 ---
 

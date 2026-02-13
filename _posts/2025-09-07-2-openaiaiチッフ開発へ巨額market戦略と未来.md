@@ -5,7 +5,7 @@ date: 2025-09-07 20:33:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAIチップ投資について詳細に分析します。"
+excerpt: "OpenAIは、AIモデルの性能最適化とNVIDIAへの依存度低減を目指し、カスタムAIチップの開発に大規模な投資を進めています。Broadcomとの100億ドル規模の提携を通じて、2026年からの量産開始を計画。"
 reading_time: 6
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-02 20:35:07 +0000
 categories: ["業界別AI活用"]
 tags: ["Anthropic", "xAI", "AIエージェント", "音声AI", "推論最適化", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Snowflake、金融向けCortex AIについて詳細に分析します。"
+excerpt: "Snowflakeの金融向けCortex AI、その真意はデータとAIの融合にあるのか？"
 reading_time: 20
 ---
 

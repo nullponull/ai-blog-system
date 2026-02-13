@@ -5,7 +5,7 @@ date: 2025-11-20 08:43:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "AIエージェント", "AI規制", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini、旅行AI機能を拡張：予約代行もについて詳細に分析します。"
+excerpt: "Google Gemini、旅行AI機能を拡張：予約代行が拓く「旅の未来」の真意は？"
 reading_time: 20
 ---
 

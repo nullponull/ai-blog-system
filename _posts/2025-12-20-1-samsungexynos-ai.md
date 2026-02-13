@@ -5,7 +5,7 @@ date: 2025-12-20 16:38:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、次世代AIチップ「Exynos AI」発表、性能3倍**について詳細に分析します。"
+excerpt: "おい、君も朝からこのニュースに釘付けになったんじゃないか？ Samsungが次世代AIチップ「Exynos AI」を発表して、その性能が「3倍」だっていうんだから、そりゃあ目を引くよな。"
 reading_time: 20
 ---
 

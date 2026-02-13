@@ -5,7 +5,7 @@ date: 2025-12-25 08:44:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "Amazon", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AIチップ「Trainium2」で性能2倍について詳細に分析します。"
+excerpt: "AmazonのAIチップ「Trainium2」は、AI開発に何をもたらすのか？"
 reading_time: 20
 ---
 

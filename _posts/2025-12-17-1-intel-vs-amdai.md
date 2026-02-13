@@ -5,7 +5,7 @@ date: 2025-12-17 13:08:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "Apple", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**AIチップ特許紛争、IntelがAMDを提訴** (企業・技術・訴訟)について詳細に分析します。"
+excerpt: "Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？"
 reading_time: 20
 ---
 

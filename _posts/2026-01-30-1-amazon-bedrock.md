@@ -5,7 +5,7 @@ date: 2026-01-30 08:57:57 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルで学習コスト半減**について詳細に分析します。"
+excerpt: "Amazon Bedrockの新モデル、学習コスト半減の真意とは？"
 reading_time: 20
 ---
 

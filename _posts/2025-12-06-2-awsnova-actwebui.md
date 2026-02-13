@@ -5,7 +5,7 @@ date: 2025-12-06 02:10:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "AWS、WebUI自動化AI「Nova Act」について詳細に分析します。"
+excerpt: "AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？"
 reading_time: 5
 ---
 

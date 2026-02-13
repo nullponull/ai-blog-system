@@ -5,7 +5,7 @@ date: 2025-09-14 15:56:55 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI Oracle提携について詳細に分析します。"
+excerpt: "OpenAIとOracleの提携、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

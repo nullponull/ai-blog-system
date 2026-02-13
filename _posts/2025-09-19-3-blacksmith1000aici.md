@@ -5,7 +5,7 @@ date: 2025-09-19 20:34:17 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "Blacksmith、AI開発ツールで1000万ドル調達について詳細に分析します。"
+excerpt: "Blacksmithの1000万ドル調達、AI開発のCIに何をもたらすのか？"
 reading_time: 20
 ---
 

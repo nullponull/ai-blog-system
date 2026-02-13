@@ -5,7 +5,7 @@ date: 2025-10-18 02:00:30 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "ANA、neoAI Chat導入で検索90%削減について詳細に分析します。"
+excerpt: "ANAの「neoAI Chat」導入、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

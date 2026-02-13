@@ -5,7 +5,7 @@ date: 2026-01-16 04:52:51 +0000
 categories: ["AI導入戦略"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot+、法人向け機能強化**について詳細に分析します。"
+excerpt: "Microsoft Copilot+と法人AI戦略の真意：私たちの働き方はどう変わるのか？"
 reading_time: 12
 ---
 

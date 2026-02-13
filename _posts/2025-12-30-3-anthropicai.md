@@ -5,7 +5,7 @@ date: 2025-12-30 20:38:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Anthropic、AI倫理ガイドラインを国際標準化へ**について詳細に分析します。"
+excerpt: "AnthropicのAI倫理、世界標準になるって本当？何が変わるのか、一緒に考えてみませんか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-13 20:34:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["Meta", "NVIDIA", "マルチモーダル", "推論最適化", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**Sony、AIチップでゲーム体験革新**について詳細に分析します。"
+excerpt: "ソニーのAIチップがゲーム体験をどう革新するのか、その深層を覗いてみよう。"
 reading_time: 15
 ---
 

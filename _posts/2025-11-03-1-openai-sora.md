@@ -5,7 +5,7 @@ date: 2025-11-03 02:21:58 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Apple", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI Sora、クレジット制導入で収益化について詳細に分析します。"
+excerpt: "OpenAI Soraのクレジット制導入、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-02-06 17:04:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Azure、AIインフラ投資、1兆円規模へ**について詳細に分析します。"
+excerpt: "ねえ、あなたもこのニュースを見て驚いたんじゃないかな？ マイクロソフトがAzureのAIインフラに1兆円規模の投資をするって。正直なところ、私も最初にこの数字を見た時、思わず二度見しちゃったよ。「また大規模な投資か…」って。"
 reading_time: 20
 ---
 

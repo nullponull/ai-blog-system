@@ -5,7 +5,7 @@ date: 2025-12-22 20:36:50 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、Anthropic Claude 4投入について詳細に分析します。"
+excerpt: "BedrockにClaude 4登場、これはAI市場の競争をどう変えるのだろうか？"
 reading_time: 8
 ---
 

@@ -5,7 +5,7 @@ date: 2026-02-12 09:06:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**ARM、AIチップ向け新アーキテクチャ「Neoverse V3」公開**について詳細に分析します。"
+excerpt: "さて、皆さん、ARMからAIチップ向けの新しいアーキテクチャ「Neoverse V3」が公開されたというニュース、もうチェックしましたか？ 私もAI業界を20年近く見てきましたが、こうした大きな動きがあるたびに、"
 reading_time: 9
 ---
 

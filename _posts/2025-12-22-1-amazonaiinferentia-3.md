@@ -5,7 +5,7 @@ date: 2025-12-22 08:47:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AIチップ「Inferentia 3」発表、性能2倍**について詳細に分析します。"
+excerpt: "AmazonのAIチップ「Inferentia 3」発表、その真意は何？"
 reading_time: 7
 ---
 

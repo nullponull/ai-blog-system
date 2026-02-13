@@ -5,7 +5,7 @@ date: 2025-11-10 13:04:21 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "ROI分析", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "IndustrialMind.ai、製造AI資金調達について詳細に分析します。"
+excerpt: "「IndustrialMind.aiの挑戦：製造業AIの未来をどう変えるのか？」"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-14 08:58:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "画像生成", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Penske Media、GoogleをAI著作権侵害で提訴について詳細に分析します。"
+excerpt: "Penske MediaがGoogleを提訴：AI著作権侵害の波紋はどこまで広がるのか？"
 reading_time: 20
 ---
 

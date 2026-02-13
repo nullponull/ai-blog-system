@@ -5,7 +5,7 @@ date: 2025-12-06 13:00:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "AWS、AIエージェント強化とTrainium 3投入について詳細に分析します。"
+excerpt: "AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？"
 reading_time: 14
 ---
 

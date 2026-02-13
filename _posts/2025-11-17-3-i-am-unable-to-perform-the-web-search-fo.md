@@ -5,7 +5,7 @@ date: 2025-11-17 16:46:00 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI Oracle提携について詳細に分析します。"
+excerpt: "I am unable to perform the web search for 'OpenAI Oracle提携 詳細情報 企業 投資 技術' because I have exhausted my daily quota for th"
 reading_time: 20
 ---
 

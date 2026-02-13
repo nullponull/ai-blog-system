@@ -5,7 +5,7 @@ date: 2025-10-10 08:40:39 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "東大・SB・LINEヤフー「Beyond AI」始動について詳細に分析します。"
+excerpt: "東大・SB・LINEヤフー「Beyond AI」始動、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

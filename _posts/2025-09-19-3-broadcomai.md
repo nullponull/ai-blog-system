@@ -5,7 +5,7 @@ date: 2025-09-19 08:39:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Broadcom、AI半導体で大型受注について詳細に分析します。"
+excerpt: "BroadcomのAI半導体、その大型受注が示す業界の真意とは？"
 reading_time: 20
 ---
 

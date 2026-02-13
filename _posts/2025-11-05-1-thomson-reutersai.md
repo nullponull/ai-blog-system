@@ -5,7 +5,7 @@ date: 2025-11-05 20:37:11 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "LLM", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Thomson Reuters、専門家向けAIエージェント発表について詳細に分析します。"
+excerpt: "Thomson ReutersのAIエージェント、専門家の働き方をどう変えるのか？"
 reading_time: 20
 ---
 

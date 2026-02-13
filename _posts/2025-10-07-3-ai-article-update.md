@@ -5,7 +5,7 @@ date: 2025-10-07 08:41:00 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "音声AI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "英国、AIで臨床試験承認半減について詳細に分析します。"
+excerpt: "英国の臨床試験減少とAI投資の真意：ヘルスケアの未来は何を語るのか？"
 reading_time: 20
 ---
 

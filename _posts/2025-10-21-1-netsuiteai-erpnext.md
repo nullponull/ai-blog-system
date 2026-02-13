@@ -5,7 +5,7 @@ date: 2025-10-21 04:37:44 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "xAI", "AIエージェント", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "NetSuite、AI ERP「Next」発表について詳細に分析します。"
+excerpt: "NetSuiteのAI ERP「Next」発表、その真意とビジネス変革の可能性とは？"
 reading_time: 20
 ---
 

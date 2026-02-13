@@ -5,7 +5,7 @@ date: 2026-01-20 20:50:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "LLM", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "**Google DeepMind、新タンパク質構造予測精度95%達成**について詳細に分析します。"
+excerpt: "Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？"
 reading_time: 20
 ---
 

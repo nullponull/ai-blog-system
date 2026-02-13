@@ -5,7 +5,7 @@ date: 2026-01-16 02:30:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AIチップ「Inferentia3」発表**について詳細に分析します。"
+excerpt: "AmazonのInferentia3、AIの未来をどう変えるのか？"
 reading_time: 10
 ---
 

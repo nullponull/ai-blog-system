@@ -5,7 +5,7 @@ date: 2025-11-12 20:36:31 +0000
 categories: ["導入事例"]
 tags: ["ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "ドコモビジネス、AIソフトセンサー導入支援について詳細に分析します。"
+excerpt: "I apologize, but I am currently unable to perform web searches due to a daily quota limit on the underlying model. This "
 reading_time: 20
 ---
 

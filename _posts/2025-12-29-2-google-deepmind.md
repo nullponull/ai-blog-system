@@ -5,7 +5,7 @@ date: 2025-12-29 05:00:28 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、AI創薬で新薬候補発見について詳細に分析します。"
+excerpt: "Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？"
 reading_time: 20
 ---
 

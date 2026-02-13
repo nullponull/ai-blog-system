@@ -5,7 +5,7 @@ date: 2025-11-26 08:43:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "Google「Gemini 3」発表、AIチップ需要増について詳細に分析します。"
+excerpt: "Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？"
 reading_time: 20
 ---
 

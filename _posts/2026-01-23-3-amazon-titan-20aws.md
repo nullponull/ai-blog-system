@@ -5,7 +5,7 @@ date: 2026-01-23 08:48:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWS向け大規模言語モデル「Titan 2.0」公開**について詳細に分析します。"
+excerpt: "Amazon Titan 2.0、AWSのゲームチェンジャーとなるか？"
 reading_time: 16
 ---
 

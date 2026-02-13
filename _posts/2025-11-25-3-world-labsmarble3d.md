@@ -5,7 +5,7 @@ date: 2025-11-25 16:47:08 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "マルチモーダル", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "World Labs 3D世界モデル「マーブル」公開について詳細に分析します。"
+excerpt: "World Labsの「Marble」が描く、3D世界生成の未来とその真価とは？"
 reading_time: 20
 ---
 

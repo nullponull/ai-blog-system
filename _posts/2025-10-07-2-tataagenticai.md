@@ -5,7 +5,7 @@ date: 2025-10-07 04:37:11 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声AI", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Tata、Agentic音声AIプラットフォーム発表について詳細に分析します。"
+excerpt: "TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

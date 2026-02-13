@@ -5,7 +5,7 @@ date: 2026-02-02 17:02:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**AIチップ市場、2026年までにAMDがNVIDIAシェアを15%奪取へ**について詳細に分析します。"
+excerpt: "「AMDが2026年までにNVIDIAからAIチップ市場のシェアを15%奪取する」――この見出しを初めて目にした時、正直なところ、私の頭の中にはいくつかの疑問符が浮かんだんだ。あなたもきっと、同じように感じたかもしれないね。"
 reading_time: 8
 ---
 

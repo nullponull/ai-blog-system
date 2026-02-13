@@ -5,7 +5,7 @@ date: 2025-12-23 16:44:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、創薬AIで新薬候補300件発見について詳細に分析します。"
+excerpt: "「Google DeepMindが創薬AIで300件もの新薬候補を発見したって、あなたもニュースで見たんじゃないかな？」"
 reading_time: 10
 ---
 

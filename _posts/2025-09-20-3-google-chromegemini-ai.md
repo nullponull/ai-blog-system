@@ -5,7 +5,7 @@ date: 2025-09-20 16:34:48 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Google Chrome、Gemini AI機能搭載について詳細に分析します。"
+excerpt: "Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？"
 reading_time: 20
 ---
 

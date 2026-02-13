@@ -5,7 +5,7 @@ date: 2025-11-23 20:35:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini 3 Pro、高情報処理を強調について詳細に分析します。"
+excerpt: "Google Gemini 3 Proが掲げる「高情報処理」の真意とは？AIの未来をどう変えるのか、ベテランアナリストが読み解く。"
 reading_time: 20
 ---
 

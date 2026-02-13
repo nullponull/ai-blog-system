@@ -5,7 +5,7 @@ date: 2025-10-31 02:11:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Akamai、NVIDIAとエッジAI推論発表について詳細に分析します。"
+excerpt: "AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-01 05:00:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google TPUv7、NVIDIAに挑戦について詳細に分析します。"
+excerpt: "GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-01 02:19:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "PwC Japan、AI Factory設立について詳細に分析します。"
+excerpt: "PwC Japanの「AI Factory」は、コンサルティングの未来をどう変えるのか？"
 reading_time: 20
 ---
 

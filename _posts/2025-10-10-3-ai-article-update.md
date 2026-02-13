@@ -5,7 +5,7 @@ date: 2025-10-10 16:40:35 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "RAG", "ROI分析", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "プレシジョン、医療AI開発強化プロジェクト採択について詳細に分析します。"
+excerpt: "プレシジョンの医療AIプロジェクト、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

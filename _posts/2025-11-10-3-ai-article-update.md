@@ -5,7 +5,7 @@ date: 2025-11-10 20:38:38 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "中国、政府データセンターで外国製AIチップ禁止について詳細に分析します。"
+excerpt: "中国、政府データセンターで外国製AIチップ禁止：その真意と市場の行方はどうなるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-23 13:06:40 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、生成AIモデル数2倍に**について詳細に分析します。"
+excerpt: "アマゾンBedrock、生成AIモデル数2倍増が問いかける、マルチモーダル時代の本質とは？"
 reading_time: 12
 ---
 

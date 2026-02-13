@@ -5,7 +5,7 @@ date: 2025-12-14 04:50:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Intel、Gaudi 3 EvoでAI推論加速について詳細に分析します。"
+excerpt: "Intel Gaudi 3 Evo、AI推論市場に新たな波を起こすか？その真価を問う。"
 reading_time: 12
 ---
 

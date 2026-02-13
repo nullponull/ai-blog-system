@@ -5,7 +5,7 @@ date: 2025-11-24 04:48:40 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "AIエージェント", "推論最適化", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Google AI検索、Gemini広告テスト開始について詳細に分析します。"
+excerpt: "ねえ、最近のGoogleの動き、あなたも気になっていますか？「Google AI検索でGemini搭載の広告テストが始まった」というニュース、一見すると小さな変化に見えるかもしれません。"
 reading_time: 20
 ---
 

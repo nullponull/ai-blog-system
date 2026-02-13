@@ -5,7 +5,7 @@ date: 2025-11-14 20:38:15 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "Anthropic", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic MCP、金融AI変革について詳細に分析します。"
+excerpt: "皆さん、最近「AnthropicのMCP」という言葉を耳にしましたか？正直なところ、私も最初は「また新しいバズワードか」と少し懐疑的でした。AI業界を20年近く見てきた経験から言うと、"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-05 20:41:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AI倫理ガイドラインを刷新について詳細に分析します。"
+excerpt: "MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？"
 reading_time: 9
 ---
 

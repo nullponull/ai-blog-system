@@ -5,7 +5,7 @@ date: 2026-01-26 08:52:37 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、新モデルで学習コスト30%削減について詳細に分析します。"
+excerpt: "Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-18 04:34:56 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "xAI", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AIエージェントとセキュリティ強化について詳細に分析します。"
+excerpt: "MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？"
 reading_time: 20
 ---
 

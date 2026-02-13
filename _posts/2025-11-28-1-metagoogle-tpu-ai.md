@@ -5,7 +5,7 @@ date: 2025-11-28 08:44:46 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、Google AIチップTPU採用へについて詳細に分析します。"
+excerpt: "メタがGoogle TPUを採用？ AIインフラの未来に何が変わるのか、その真意は"
 reading_time: 20
 ---
 

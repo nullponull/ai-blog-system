@@ -5,7 +5,7 @@ date: 2025-12-16 20:39:05 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "具体的な企業名・製品名・数値を含むについて詳細に分析します。"
+excerpt: "NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-02-06 05:24:01 +0000
 categories: ["導入事例"]
 tags: ["Google", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、自動運転AI「Apollo 8.0」公開。実証実験都市拡大。**について詳細に分析します。"
+excerpt: "やあ、君もBaiduの自動運転AI「Apollo 8.0」のニュースを見たかい？ 中国の巨人がまた1つ、新しいバージョンを発表して、実証実験の都市も拡大すると聞けば、AI業界に身を置く者としては、無視できない話題だよね。"
 reading_time: 20
 ---
 

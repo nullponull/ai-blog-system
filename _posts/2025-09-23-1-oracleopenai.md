@@ -5,7 +5,7 @@ date: 2025-09-23 20:34:37 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Oracle、OpenAIと3000億ドル契約について詳細に分析します。"
+excerpt: "OracleとOpenAI、3000億ドルの巨額契約が示すAIインフラの未来とは？"
 reading_time: 20
 ---
 

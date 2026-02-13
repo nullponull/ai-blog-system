@@ -5,7 +5,7 @@ date: 2025-11-29 04:40:08 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Meta AI、日本で提供開始Llama 4基盤について詳細に分析します。"
+excerpt: "メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？"
 reading_time: 20
 ---
 

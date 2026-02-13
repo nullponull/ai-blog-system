@@ -5,7 +5,7 @@ date: 2025-12-16 04:50:13 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "**シンガポール、AI倫理ガイドライン改定**について詳細に分析します。"
+excerpt: "シンガポールのAI倫理ガイドライン改定：世界標準のその先へ、何を目指すのか？"
 reading_time: 20
 ---
 

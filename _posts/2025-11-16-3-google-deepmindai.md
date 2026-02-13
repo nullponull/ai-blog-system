@@ -5,7 +5,7 @@ date: 2025-11-16 02:26:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "AIエージェント", "マルチモーダル", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、科学研究AI発表について詳細に分析します。"
+excerpt: "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

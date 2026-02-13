@@ -5,7 +5,7 @@ date: 2025-11-20 13:05:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "新興Perplexity AI、企業向け機能拡充について詳細に分析します。"
+excerpt: "最近、Perplexity AIが企業向け機能の拡充に力を入れているというニュースを耳にして、あなたも少し驚いたのではないでしょうか。正直なところ、私自身も最初は「また新しいAIスタートアップがB2B市場に参入か」と、"
 reading_time: 20
 ---
 

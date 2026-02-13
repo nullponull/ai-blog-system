@@ -5,7 +5,7 @@ date: 2025-10-23 20:34:55 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "xAI", "音声AI", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "カリフォルニア州、AIチャットボット規制法制定について詳細に分析します。"
+excerpt: "カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけ"
 reading_time: 20
 ---
 

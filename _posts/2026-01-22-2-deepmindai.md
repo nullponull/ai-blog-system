@@ -5,7 +5,7 @@ date: 2026-01-22 20:44:14 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、新AIモデルで創薬効率化**について詳細に分析します。"
+excerpt: "いやー、DeepMindが新しいAIモデルで創薬の効率化を進めているっていうニュース、あなたも耳にしましたか？率直に言って、最初は「またか」って思ったんですよ。だって、AIと創薬の組み合わせなんて、"
 reading_time: 20
 ---
 

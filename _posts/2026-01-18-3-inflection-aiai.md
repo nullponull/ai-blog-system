@@ -5,7 +5,7 @@ date: 2026-01-18 20:36:44 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Inflection AI、次世代AIチップ開発に注力について詳細に分析します。"
+excerpt: "Inflection AIが次世代AIチップ開発に注力している、というニュースを聞いて、あなたもきっと驚いたのではないでしょうか。正直なところ、私も最初は「え、Inflection AIが？ あのPiを開発している会社が？"
 reading_time: 10
 ---
 

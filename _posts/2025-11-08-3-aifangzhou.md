@@ -5,7 +5,7 @@ date: 2025-11-08 08:38:29 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "AIエージェント", "推論最適化", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Fangzhou、AI慢性疾患管理で受賞について詳細に分析します。"
+excerpt: "AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意とは"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-15 20:33:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Anthropic", "AIエージェント", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Baidu ERNIE 5.0発表、マルチモーダルAIについて詳細に分析します。"
+excerpt: "Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？"
 reading_time: 20
 ---
 

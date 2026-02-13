@@ -5,7 +5,7 @@ date: 2025-09-12 02:00:06 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "SK hynix、HBM4開発完了し量産体制確立について詳細に分析します。"
+excerpt: "SK hynix HBM4、その真意は？AI半導体競争の行方"
 reading_time: 20
 ---
 

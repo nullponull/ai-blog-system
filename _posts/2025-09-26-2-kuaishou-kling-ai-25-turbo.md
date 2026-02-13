@@ -5,7 +5,7 @@ date: 2025-09-26 13:01:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Kuaishou Kling AI 2.5 Turbo発表について詳細に分析します。"
+excerpt: "Kuaishou Kling AI 2.5 Turbo、その真価はどこにあるのか？"
 reading_time: 20
 ---
 

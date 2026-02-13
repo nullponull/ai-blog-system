@@ -5,7 +5,7 @@ date: 2025-10-15 16:38:10 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "LLM", "AIエージェント", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "PwC、Google CloudとAIエージェント拡大について詳細に分析します。"
+excerpt: "PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

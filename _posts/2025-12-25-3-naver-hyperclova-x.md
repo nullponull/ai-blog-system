@@ -5,7 +5,7 @@ date: 2025-12-25 04:51:33 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "**韓国Naver HyperCLOVA X、韓国語LLMで世界市場へ**について詳細に分析します。"
+excerpt: "いやはや、AIの進化のスピードには本当に驚かされるばかりですね。あなたも「また新しいLLMの話か」と、正直少し食傷気味かもしれませんね。私も、この20年間、シリコンバレーのガレージから始まったようなAIスタートアップから、"
 reading_time: 10
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-02 20:35:53 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、AGI模倣AIで新境地**について詳細に分析します。"
+excerpt: "DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？"
 reading_time: 7
 ---
 

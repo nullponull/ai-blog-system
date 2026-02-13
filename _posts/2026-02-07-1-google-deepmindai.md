@@ -5,7 +5,7 @@ date: 2026-02-07 02:51:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "xAI", "LLM", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、創薬AIで新薬候補1000件発見について詳細に分析します。"
+excerpt: "Google DeepMindの創薬AI、新薬候補1000件発見の衝撃、何が変わるのだろうか？"
 reading_time: 17
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-20 01:59:55 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "リコージャパン、自治体向け生成AIについて詳細に分析します。"
+excerpt: "リコージャパンの自治体向け生成AI、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-28 08:51:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、ERNIE Bot 5.0発表、多言語対応強化**について詳細に分析します。"
+excerpt: "BaiduのERNIE Bot 5.0、中国AIの次なる一手は多言語対応強化か？"
 reading_time: 13
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-06 20:38:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "画像生成", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "**Stable Diffusion XL Ultra、実写画像生成率95%**について詳細に分析します。"
+excerpt: "Stable Diffusion XL Ultraが掲げる「実写95%」、私たちのクリエイティブはどこへ向かうのだろう？"
 reading_time: 8
 ---
 

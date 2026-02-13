@@ -5,7 +5,7 @@ date: 2025-10-07 20:35:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Applied Digital、AIインフラ50億ドル調達について詳細に分析します。"
+excerpt: "Applied Digitalの50億ドル調達、AIインフラの未来をどう変えるのか？"
 reading_time: 20
 ---
 

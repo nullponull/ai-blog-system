@@ -5,7 +5,7 @@ date: 2025-11-26 04:41:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Google「Gemini 3」発表、Meta採用検討について詳細に分析します。"
+excerpt: "「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？"
 reading_time: 20
 ---
 

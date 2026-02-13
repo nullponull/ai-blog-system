@@ -5,7 +5,7 @@ date: 2025-12-27 04:47:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**日本政府、AI倫理ガイドライン改定へ**について詳細に分析します。"
+excerpt: "日本政府のAI倫理ガイドライン改定、その真意と私たちへの影響とは？"
 reading_time: 20
 ---
 

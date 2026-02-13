@@ -5,7 +5,7 @@ date: 2025-12-04 20:39:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "AWS Nova AI、Anthropic IPO準備について詳細に分析します。"
+excerpt: "AI業界を揺るがす2つの波：Anthropic IPOとAWS Nova AIの真意は何か？"
 reading_time: 20
 ---
 
