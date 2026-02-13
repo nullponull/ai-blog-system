@@ -33,6 +33,11 @@ from gemini_client import GeminiClient
 from title_sanitizer import TitleSanitizer
 from quality_scorer import QualityScorer
 from knowledge_base import KnowledgeBase
+from research_loader import ResearchLoader
+try:
+    from compliance_loader import ComplianceLoader
+except ImportError:
+    ComplianceLoader = None
 
 # Japan timezone
 JST = timezone(timedelta(hours=9))
@@ -233,8 +238,8 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
     return result[:num_articles]
 
 
-def stage2_article_draft(client, kb, topic, dry_run=False):
-    """Stage 2: Generate article draft with knowledge base context."""
+def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=False):
+    """Stage 2: Generate article draft with knowledge base + research + compliance context."""
     print(f"\n=== Stage 2: Article Draft [{topic['category']}] ===", file=sys.stderr)
 
     category = topic['category']
@@ -250,9 +255,47 @@ def stage2_article_draft(client, kb, topic, dry_run=False):
         include_trends=True
     )
 
+    # Load pre-research data if available (graceful degradation)
+    research_context = ""
+    try:
+        research_loader = ResearchLoader()
+        slug = topic.get('slug', '')
+        keywords = [topic.get('title_seed', '')] + topic.get('target_companies', [])
+        research_data = research_loader.find_research(
+            topic_slug=slug if slug else None,
+            keywords=[k for k in keywords if k],
+            max_age_days=7
+        )
+        if research_data:
+            research_context = research_loader.format_research_context(research_data)
+            print(f"  [Research] Injecting pre-research data", file=sys.stderr)
+        else:
+            print(f"  [Research] No pre-research data found (using KB only)", file=sys.stderr)
+    except Exception as e:
+        print(f"  [Research] Skipped: {e}", file=sys.stderr)
+
+    # Load compliance context (graceful degradation)
+    compliance_context = ""
+    try:
+        if compliance_loader:
+            compliance_context = compliance_loader.build_article_context(
+                category=category,
+                company_names=company_ids
+            )
+            print(f"  [Compliance] Injecting compliance rules ({len(compliance_context)} chars)", file=sys.stderr)
+    except Exception as e:
+        print(f"  [Compliance] Skipped: {e}", file=sys.stderr)
+
+    # Build prompt with KB context + optional research + compliance context
+    context_block = kb_context
+    if research_context:
+        context_block = f"{kb_context}\n\n{research_context}"
+    if compliance_context:
+        context_block = f"{context_block}\n\n{compliance_context}"
+
     prompt = f"""{persona_info['persona']}
 
-{kb_context}
+{context_block}
 
 【トピック】{topic.get('title_seed', '')}
 【角度】{topic.get('angle', '')}
@@ -430,8 +473,21 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
         tags = result.get('tags', [])[:6]
         # Validate tags are not empty
         tags = [t for t in tags if t and len(t) > 0]
-        if not tags:
-            tags = ["AI", category]
+        # Ensure minimum 3 tags
+        if len(tags) < 3:
+            # Add category-based fallback tags
+            fallback_tags = {
+                "AI技術ガイド": ["LLM", "AI技術", "実装"],
+                "導入事例": ["AI導入", "DX推進", "ROI分析"],
+                "業界別AI活用": ["業界分析", "DX推進", "AI活用"],
+                "研究論文": ["AI研究", "LLM", "機械学習"],
+                "AI導入戦略": ["AI投資", "導入ロードマップ", "DX推進"],
+                "AI最新ニュース": ["AI動向", "テック企業", "AI投資"],
+            }
+            extras = fallback_tags.get(category, ["AI", "テクノロジー", "DX推進"])
+            for tag in extras:
+                if tag not in tags and len(tags) < 3:
+                    tags.append(tag)
 
         slug = result.get('slug', '').strip()
         # Sanitize slug
@@ -597,7 +653,7 @@ def remove_body_title(body):
 
 
 def generate_article(client, kb, topic, article_num, posts_dir="_posts",
-                     dry_run=False, skip_enrich=False):
+                     dry_run=False, skip_enrich=False, compliance_loader=None):
     """Generate a single article through the full pipeline."""
     now = datetime.now(JST)
 
@@ -606,7 +662,7 @@ def generate_article(client, kb, topic, article_num, posts_dir="_posts",
     print(f"{'='*60}", file=sys.stderr)
 
     # Stage 2: Article Draft
-    body = stage2_article_draft(client, kb, topic, dry_run)
+    body = stage2_article_draft(client, kb, topic, compliance_loader, dry_run)
     if not body:
         print(f"  SKIP: Article generation failed", file=sys.stderr)
         return None
@@ -692,10 +748,23 @@ def main():
     try:
         client = GeminiClient()
     except ValueError as e:
-        print(f"ERROR: {e}", file=sys.stderr)
-        sys.exit(1)
+        if args.dry_run:
+            print(f"WARNING: {e} (dry-run mode, continuing)", file=sys.stderr)
+            client = None
+        else:
+            print(f"ERROR: {e}", file=sys.stderr)
+            sys.exit(1)
 
     kb = KnowledgeBase(args.kb_dir)
+
+    # Initialize compliance loader (optional)
+    cl = None
+    if ComplianceLoader is not None:
+        try:
+            cl = ComplianceLoader()
+            print(f"Compliance knowledge: {'loaded' if (cl.base_dir / 'compliance').exists() else 'not found'}", file=sys.stderr)
+        except Exception as e:
+            print(f"Compliance loader init failed (skipping): {e}", file=sys.stderr)
 
     # Stage 1: Topic Planning
     topics = stage1_topic_planning(client, kb, args.articles, args.dry_run)
@@ -711,7 +780,8 @@ def main():
             client, kb, topic, i + 1,
             posts_dir=args.posts_dir,
             dry_run=args.dry_run,
-            skip_enrich=args.skip_enrich
+            skip_enrich=args.skip_enrich,
+            compliance_loader=cl
         )
         if filepath:
             results.append(filepath)
