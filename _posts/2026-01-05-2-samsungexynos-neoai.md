@@ -5,7 +5,7 @@ date: 2026-01-05 05:07:21 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、AIチップ「Exynos Neo」発表、処理能力2倍**について詳細に分析します。"
+excerpt: "Samsungが「Exynos Neo」で狙うAI半導体市場の深層：処理能力2倍はゲームチェンジャーとなるのか？"
 reading_time: 20
 ---
 

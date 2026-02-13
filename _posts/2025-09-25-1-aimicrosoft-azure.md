@@ -5,7 +5,7 @@ date: 2025-09-25 13:02:27 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft Azure、韓国企業AI導入加速について詳細に分析します。"
+excerpt: "韓国AI市場、Microsoft Azureが牽引する変革の真意とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-24 02:23:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、新モデルでコスト半減について詳細に分析します。"
+excerpt: "「え、Amazon Bedrockが新モデルでコストを半減させるって、本当？」"
 reading_time: 20
 ---
 

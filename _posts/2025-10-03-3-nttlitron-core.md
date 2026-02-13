@@ -5,7 +5,7 @@ date: 2025-10-03 13:00:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "NTTデータ、AI基盤LITRON® CORE提供について詳細に分析します。"
+excerpt: "NTTデータの「LITRON® CORE」は、本当にAIエージェントの未来を切り開くのか？"
 reading_time: 20
 ---
 

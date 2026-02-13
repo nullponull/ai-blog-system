@@ -5,7 +5,7 @@ date: 2025-10-11 12:53:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、LLMバックドア脆弱性発見について詳細に分析します。"
+excerpt: "Anthropicが警告するLLMバックドアの真意とは？AIの未来に何が変わるのか？"
 reading_time: 20
 ---
 

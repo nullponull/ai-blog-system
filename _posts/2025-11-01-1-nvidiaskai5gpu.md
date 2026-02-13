@@ -5,7 +5,7 @@ date: 2025-11-01 04:35:09 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "AIエージェント", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "NVIDIA/SK Group、韓国にAI工場建設 (5万基GPU)について詳細に分析します。"
+excerpt: "NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？"
 reading_time: 20
 ---
 

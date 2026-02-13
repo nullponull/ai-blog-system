@@ -5,7 +5,7 @@ date: 2025-10-30 16:45:12 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "音声AI", "AI規制", "セキュリティ", "自動運転", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "SenseTime、自動運転AIで新提携について詳細に分析します。"
+excerpt: "SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？"
 reading_time: 20
 ---
 

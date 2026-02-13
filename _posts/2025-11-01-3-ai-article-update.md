@@ -5,7 +5,7 @@ date: 2025-11-01 20:33:00 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "マルチモーダル", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "日本、フィジカルAIで「身体知」融合へについて詳細に分析します。"
+excerpt: "日本が目指す「フィジカルAIと身体知の融合」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
 ---
 

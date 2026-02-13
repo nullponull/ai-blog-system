@@ -5,7 +5,7 @@ date: 2025-10-31 02:12:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Amazon", "Apple", "xAI", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "SoftBank、AI活用「Glance AI」搭載について詳細に分析します。"
+excerpt: "「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？"
 reading_time: 20
 ---
 

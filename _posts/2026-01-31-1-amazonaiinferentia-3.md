@@ -5,7 +5,7 @@ date: 2026-01-31 05:09:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWSでAIチップ「Inferentia 3」投入** (10文字)について詳細に分析します。"
+excerpt: "AmazonのAIチップ「Inferentia 3」投入、その真意と未来への影響は？"
 reading_time: 20
 ---
 

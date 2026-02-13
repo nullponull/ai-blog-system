@@ -5,7 +5,7 @@ date: 2025-12-15 20:39:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**AWS、AIチップ「Inferentia 4」でコスト削減提案**について詳細に分析します。"
+excerpt: "AWSの「Inferentia 4」は、本当にAIコストのゲームチェンジャーとなるのか？"
 reading_time: 10
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-27 13:04:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Anthropic", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini Agent, Antigravity発表について詳細に分析します。"
+excerpt: "「Antigravity」という言葉を聞いて、あなたは何を想像しましたか？ 私も最初は「ついにGoogleが反重力技術でも発表したのか？」と、SF映画のような興奮を覚えたものです。正直なところ、一瞬は本当にそう思いましたよ。"
 reading_time: 20
 ---
 

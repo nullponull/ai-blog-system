@@ -5,7 +5,7 @@ date: 2025-10-27 20:34:37 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "RAG", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm、サウジにAIインフラ展開について詳細に分析します。"
+excerpt: "Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？"
 reading_time: 20
 ---
 

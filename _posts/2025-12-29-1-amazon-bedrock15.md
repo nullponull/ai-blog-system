@@ -5,7 +5,7 @@ date: 2025-12-29 02:36:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル15種追加**について詳細に分析します。"
+excerpt: "Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？"
 reading_time: 20
 ---
 

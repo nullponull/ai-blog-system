@@ -5,7 +5,7 @@ date: 2025-09-28 16:34:37 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Northern Data、独当局が施設捜索について詳細に分析します。"
+excerpt: "Northern Dataの施設捜索、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

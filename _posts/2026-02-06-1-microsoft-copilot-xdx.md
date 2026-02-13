@@ -5,7 +5,7 @@ date: 2026-02-06 09:01:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AI規制", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot X、医療DXを加速**について詳細に分析します。"
+excerpt: "Microsoft Copilot X、医療DXはどこまで進む？"
 reading_time: 8
 ---
 

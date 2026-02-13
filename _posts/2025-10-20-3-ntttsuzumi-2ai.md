@@ -5,7 +5,7 @@ date: 2025-10-20 16:42:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "NTT、軽量LLM「tsuzumi 2」提供について詳細に分析します。"
+excerpt: "NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？"
 reading_time: 20
 ---
 

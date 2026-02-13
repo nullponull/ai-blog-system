@@ -5,7 +5,7 @@ date: 2026-01-14 16:51:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "ByteDance"]
 author: "ALLFORCES編集部"
-excerpt: "**Adobe、生成AI「Firefly」で動画編集強化、月額$20**について詳細に分析します。"
+excerpt: "「またAdobeか！」正直、初めてこのニュースに触れた時、私の口からこぼれたのはそんな言葉だったね。君も同じように感じたかもしれない。Adobeが生成AI「Firefly」を動画編集に本格的に持ち込み、"
 reading_time: 20
 ---
 

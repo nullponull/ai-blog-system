@@ -5,7 +5,7 @@ date: 2025-11-27 08:46:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Sakana AI、200億円調達：日本のAIスタートアップSakana AI、約200億円資金調達�について詳細に分析します。"
+excerpt: "タイトル：サカナAI、200億円調達の真意とは？日本のAIが世界を変える日、本当に来るのか"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-02 08:45:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルでエンタープライズAI活用拡大**について詳細に分析します。"
+excerpt: "Amazon Bedrockの新モデル、エンタープライズAIの未来をどう変える？"
 reading_time: 18
 ---
 

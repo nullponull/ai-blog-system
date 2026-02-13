@@ -5,7 +5,7 @@ date: 2025-11-22 20:34:15 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini 3発表、推論強化について詳細に分析します。"
+excerpt: "Google Gemini 3、その「推論強化」の真意は何だろうか？"
 reading_time: 20
 ---
 

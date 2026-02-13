@@ -5,7 +5,7 @@ date: 2025-09-16 20:33:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "OQC、NVIDIA 量子AIデータC開設について詳細に分析します。"
+excerpt: "量子AIデータセンター開設の真意とは？OQCとNVIDIAの提携が示す未来への布石"
 reading_time: 20
 ---
 

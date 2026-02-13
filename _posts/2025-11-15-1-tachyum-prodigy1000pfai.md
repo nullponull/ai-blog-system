@@ -5,7 +5,7 @@ date: 2025-11-15 12:56:54 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Tachyum 2nm Prodigy発表、AI性能1000PF超について詳細に分析します。"
+excerpt: "Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？"
 reading_time: 20
 ---
 

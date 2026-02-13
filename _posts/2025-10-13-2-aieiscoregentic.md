@@ -5,7 +5,7 @@ date: 2025-10-13 13:02:12 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "音声AI", "推論最適化", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "EIS、保険AI「CoreGentic」で業務自動化について詳細に分析します。"
+excerpt: "保険業界のAI革命、EIS「CoreGentic」が変える業務自動化の真意とは？"
 reading_time: 20
 ---
 

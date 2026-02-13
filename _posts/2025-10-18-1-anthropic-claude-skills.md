@@ -5,7 +5,7 @@ date: 2025-10-18 16:36:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude Skills発表について詳細に分析します。"
+excerpt: "Anthropic Claude Skillsの真意はどこにあるのか？"
 reading_time: 20
 ---
 

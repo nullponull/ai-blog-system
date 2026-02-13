@@ -5,7 +5,7 @@ date: 2025-12-28 13:01:47 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル「Titan 3.0」発表**について詳細に分析します。"
+excerpt: "Amazon BedrockのTitan 3.0は、エンタープライズAIのゲームチェンジャーとなりうるのか？"
 reading_time: 10
 ---
 

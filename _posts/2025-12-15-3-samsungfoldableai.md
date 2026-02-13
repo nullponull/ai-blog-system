@@ -5,7 +5,7 @@ date: 2025-12-15 04:53:48 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Apple", "xAI", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、次世代FoldableスマホにAI搭載**について詳細に分析します。"
+excerpt: "Samsungの次世代FoldableにAI搭載：スマホの未来は、本当に変わるのか？"
 reading_time: 20
 ---
 

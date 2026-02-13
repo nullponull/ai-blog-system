@@ -5,7 +5,7 @@ date: 2026-01-20 08:52:04 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、企業向けLLM採用加速について詳細に分析します。"
+excerpt: "Amazon Bedrock、企業LLM導入の「次」は何を意味するのか？"
 reading_time: 8
 ---
 

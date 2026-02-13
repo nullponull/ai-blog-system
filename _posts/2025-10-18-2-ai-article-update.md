@@ -5,7 +5,7 @@ date: 2025-10-18 12:55:08 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "GS、AIインフラ融資拡大で市場牽引について詳細に分析します。"
+excerpt: "AIインフラ融資拡大、ゴールドマン・サックスは何を見ているのか？"
 reading_time: 20
 ---
 

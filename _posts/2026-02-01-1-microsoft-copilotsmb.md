@@ -5,7 +5,7 @@ date: 2026-02-01 05:39:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft Copilot、SMB向け機能強化について詳細に分析します。"
+excerpt: "Microsoft Copilot、SMBの未来をどう変えるのか？"
 reading_time: 20
 ---
 

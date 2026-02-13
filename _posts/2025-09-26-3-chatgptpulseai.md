@@ -5,7 +5,7 @@ date: 2025-09-26 16:41:29 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "ChatGPT新機能「Pulse」自動要約について詳細に分析します。"
+excerpt: "ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-24 16:41:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、個人向けAIアシスタントPi 2.0発表**について詳細に分析します。"
+excerpt: "やあ、久しぶりだね。元気にしてたかな？最近のAI業界、本当に目まぐるしい変化の連続で、あなたもきっとついていくのが大変だと感じているんじゃないかな。私もね、もう20年以上この業界のアップダウンを見てきたけど、最近のスピード感には正直、"
 reading_time: 20
 ---
 

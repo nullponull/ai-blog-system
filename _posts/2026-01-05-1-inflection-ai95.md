@@ -5,7 +5,7 @@ date: 2026-01-05 20:39:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Inflection AI Pi、対話型AIの感情分析精度95%達成について詳細に分析します。"
+excerpt: "Inflection AIの感情分析95%達成、何が変わるのか？"
 reading_time: 6
 ---
 

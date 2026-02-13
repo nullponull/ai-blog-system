@@ -5,7 +5,7 @@ date: 2025-09-19 13:00:21 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "音声AI", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "CarbonSix、製造業向けAIロボットツール発表について詳細に分析します。"
+excerpt: "CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？"
 reading_time: 20
 ---
 

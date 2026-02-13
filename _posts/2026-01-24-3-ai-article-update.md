@@ -5,7 +5,7 @@ date: 2026-01-24 08:41:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "AI規制法案、米国で連邦レベルの議論開始について詳細に分析します。"
+excerpt: "いやはや、ついにきましたね、AI規制の連邦レベルでの議論。米国でですよ。正直、この業界を20年近く見てきて、AIの進化のスピードにはいつも驚かされてきましたが、規制となると話はまた別です。"
 reading_time: 20
 ---
 

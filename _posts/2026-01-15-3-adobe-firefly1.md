@@ -5,7 +5,7 @@ date: 2026-01-15 13:10:07 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Adobe Firefly、画像生成AIの月間収益1億ドル**について詳細に分析します。"
+excerpt: "Adobe Fireflyが月間1億ドルの収益を叩き出した、その真意とAI業界の未来は何処へ向かうのか？"
 reading_time: 20
 ---
 

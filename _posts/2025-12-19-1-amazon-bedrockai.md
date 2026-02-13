@@ -5,7 +5,7 @@ date: 2025-12-19 13:04:26 +0000
 categories: ["AI技術ガイド"]
 tags: ["Microsoft", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新LLM10種追加**について詳細に分析します。"
+excerpt: "おい、君もこのニュース、気になっていたんじゃないか？ Amazon Bedrockに新たに10種類ものLLMが追加されたって話。正直、僕らの期待を裏切らない、というか、ある意味「来たか！」って感じだよね。"
 reading_time: 9
 ---
 

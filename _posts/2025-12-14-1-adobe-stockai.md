@@ -5,7 +5,7 @@ date: 2025-12-14 08:39:32 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "画像生成", "ファインチューニング", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**Adobe、画像生成AIでAdobe Stock刷新**について詳細に分析します。"
+excerpt: "いやあ、このニュース、あなたも耳にしましたか？「Adobe、画像生成AIでAdobe Stock刷新」。率直に言って、最初は「またAIか…」という気持ちでした。だって、この20年、AIの波は何度も来ましたからね。"
 reading_time: 16
 ---
 

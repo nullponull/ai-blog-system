@@ -5,7 +5,7 @@ date: 2025-09-25 16:40:55 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "LLM", "ファインチューニング", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "電通ら、日本語広告AI共同研究について詳細に分析します。"
+excerpt: "電通とソフトバンクの日本語広告AI、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

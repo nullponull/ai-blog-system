@@ -5,7 +5,7 @@ date: 2025-10-20 20:37:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "推論最適化", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "NTT、日本語特化LLM「tsuzumi 2」提供について詳細に分析します。"
+excerpt: "NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-15 08:48:29 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、新LLM「Titan 2.0」発表について詳細に分析します。"
+excerpt: "Amazon Bedrock、Titan 2.0発表：生成AIの次なる一手は何？"
 reading_time: 8
 ---
 

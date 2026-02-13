@@ -5,7 +5,7 @@ date: 2025-11-27 02:10:58 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "マルチモーダル", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "NEC、営業支援にAgentic AI導入について詳細に分析します。"
+excerpt: "NECが営業支援にAgentic AI導入：その真意は、単なる効率化を超えた未来か？"
 reading_time: 20
 ---
 

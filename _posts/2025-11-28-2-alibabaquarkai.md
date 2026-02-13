@@ -5,7 +5,7 @@ date: 2025-11-28 04:39:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Apple", "LLM", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Alibaba、新AIメガネ「Quark」発表について詳細に分析します。"
+excerpt: "Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-07 13:01:14 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "AI規制", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
-excerpt: "Applied Materials、AIチップ製造革新について詳細に分析します。"
+excerpt: "AIチップ製造の舞台裏：Applied Materialsの静かなる革新が未来をどう変えるのか？"
 reading_time: 20
 ---
 

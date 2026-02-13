@@ -5,7 +5,7 @@ date: 2025-11-16 04:40:01 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "日本、AI信頼性評価システム開発へについて詳細に分析します。"
+excerpt: "日本がAI信頼性評価システムを開発する真意とは？その影響を読み解く"
 reading_time: 20
 ---
 

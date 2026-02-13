@@ -5,7 +5,7 @@ date: 2025-12-07 08:39:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "AI企業安全対策、低評価相次ぐについて詳細に分析します。"
+excerpt: "AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実"
 reading_time: 5
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-06 13:04:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["AIエージェント", "AI規制", "AI人材", "DX推進", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "ServiceNowとNTTデータ、AI変革加速について詳細に分析します。"
+excerpt: "ServiceNowとNTTデータ、AI変革の真意とは？グローバル企業の未来をどう変えるのか？"
 reading_time: 20
 ---
 

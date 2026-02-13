@@ -5,7 +5,7 @@ date: 2025-10-24 13:03:40 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Copilot新アバター「Mico」登場について詳細に分析します。"
+excerpt: "Copilot新アバター「Mico」登場、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

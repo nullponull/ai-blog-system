@@ -5,7 +5,7 @@ date: 2026-01-21 13:14:19 +0000
 categories: ["AI技術ガイド"]
 tags: ["Amazon", "Anthropic", "xAI", "LLM", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、企業向けLLM構築支援強化について詳細に分析します。"
+excerpt: "Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-28 16:40:56 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "EU、AI規制第2弾、倫理基準強化について詳細に分析します。"
+excerpt: "EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？"
 reading_time: 20
 ---
 

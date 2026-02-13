@@ -5,7 +5,7 @@ date: 2025-10-21 04:38:20 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "RAG", "マルチモーダル", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "ANA、生成AI「neoAI Chat」導入について詳細に分析します。"
+excerpt: "ANAが「neoAI Chat」を導入、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

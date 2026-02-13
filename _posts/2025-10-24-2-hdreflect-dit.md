@@ -5,7 +5,7 @@ date: 2025-10-24 16:43:39 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "LLM", "画像生成", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "パナソニックHD、AI画像生成改善について詳細に分析します。"
+excerpt: "パナソニックHDの「Reflect-Dit」：AIが自ら画像を改善する、その真意とは？"
 reading_time: 20
 ---
 

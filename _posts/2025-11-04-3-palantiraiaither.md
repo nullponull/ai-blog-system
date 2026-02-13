@@ -5,7 +5,7 @@ date: 2025-11-04 13:08:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["推論最適化", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "ドバイ、PalantirとAI合弁Aitherについて詳細に分析します。"
+excerpt: "ドバイとPalantir、AI合弁「Aither」の真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-23 16:41:45 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "ByteDance", "AIエージェント", "マルチモーダル", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini Ultra、リアルタイム動画解析を実装について詳細に分析します。"
+excerpt: "Google Gemini Ultraのリアルタイム動画解析、その真価はどこにあるのか？"
 reading_time: 20
 ---
 

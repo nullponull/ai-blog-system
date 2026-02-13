@@ -5,7 +5,7 @@ date: 2025-12-06 20:34:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Google「Gemini 3 Deep Think」発表について詳細に分析します。"
+excerpt: "「また新しいAIモデルか」――正直なところ、Googleが「Gemini 3 Deep Think」を発表したと聞いた時、最初に私の脳裏をよぎったのはそんな思いでした。あなたもそう感じたかもしれませんね。"
 reading_time: 20
 ---
 

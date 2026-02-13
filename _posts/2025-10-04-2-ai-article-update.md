@@ -5,7 +5,7 @@ date: 2025-10-04 20:32:21 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**AI産業インフラ化、各業界で導入加速**について詳細に分析します。"
+excerpt: "「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側"
 reading_time: 20
 ---
 

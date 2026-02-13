@@ -5,7 +5,7 @@ date: 2025-12-18 16:48:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AIインフラ投資、Azureデータセンター増設**について詳細に分析します。"
+excerpt: "MicrosoftのAIインフラ投資、その真意は何でしょうか？"
 reading_time: 20
 ---
 

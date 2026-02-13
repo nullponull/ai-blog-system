@@ -5,7 +5,7 @@ date: 2026-02-10 17:19:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "Amazon", "LLM", "AIエージェント", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AIロボット「Amazon Astro」に2億ドル投資**について詳細に分析します。"
+excerpt: "Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？"
 reading_time: 10
 ---
 

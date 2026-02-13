@@ -5,7 +5,7 @@ date: 2025-12-30 04:52:50 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新LLMでコスト半減**について詳細に分析します。"
+excerpt: "Amazon Bedrockが新LLMでコスト半減、その真価と変革の波をどう読み解く？"
 reading_time: 7
 ---
 

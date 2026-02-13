@@ -5,7 +5,7 @@ date: 2025-11-19 04:40:28 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、新オープンLLM「Llama 4」について詳細に分析します。"
+excerpt: "Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？"
 reading_time: 20
 ---
 

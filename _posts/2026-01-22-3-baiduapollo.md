@@ -5,7 +5,7 @@ date: 2026-01-22 20:44:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、自動運転AIを一部都市で展開**について詳細に分析します。"
+excerpt: "Baidu「Apollo」の都市展開、中国が描く自動運転社会の青写真は本当に実現するのか？"
 reading_time: 14
 ---
 

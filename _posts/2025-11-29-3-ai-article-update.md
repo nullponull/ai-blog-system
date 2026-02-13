@@ -5,7 +5,7 @@ date: 2025-11-29 16:40:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "生成AI無料利用制限、コストが現実化について詳細に分析します。"
+excerpt: "生成AI、無料の蜜月は終わるのか？ コストの現実が示す未来とは？"
 reading_time: 20
 ---
 

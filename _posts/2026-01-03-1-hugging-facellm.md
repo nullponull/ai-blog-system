@@ -5,7 +5,7 @@ date: 2026-01-03 20:35:48 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Hugging Face、LLM評価の新基準発表**について詳細に分析します。"
+excerpt: "正直なところ、Hugging FaceがまたLLMの「評価基準」について発表したと聞いた時、私の最初の反応は「またか」というものでした。あなたも感じているかもしれませんが、"
 reading_time: 9
 ---
 

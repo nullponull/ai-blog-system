@@ -5,7 +5,7 @@ date: 2025-10-17 02:04:47 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude、MS365連携で収益2.9倍増について詳細に分析します。"
+excerpt: "Anthropic ClaudeとMS365連携の真意：AI市場の新たな潮流は何をもたらすのか？"
 reading_time: 20
 ---
 

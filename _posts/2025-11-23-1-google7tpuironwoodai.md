@@ -5,7 +5,7 @@ date: 2025-11-23 04:47:05 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Google、第7世代TPU「Ironwood」公開について詳細に分析します。"
+excerpt: "Googleの第7世代TPU「Ironwood」はAIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

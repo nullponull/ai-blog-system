@@ -5,7 +5,7 @@ date: 2025-09-29 20:30:41 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "推論最適化", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "ソフトバンク・理研、量子AI連携10月開始について詳細に分析します。"
+excerpt: "ソフトバンクと理研の量子AI連携、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

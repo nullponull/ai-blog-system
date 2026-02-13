@@ -5,7 +5,7 @@ date: 2025-10-16 20:36:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Amazon", "xAI", "AIエージェント", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AI Agent Framework公開について詳細に分析します。"
+excerpt: "MicrosoftのAIエージェントフレームワーク、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

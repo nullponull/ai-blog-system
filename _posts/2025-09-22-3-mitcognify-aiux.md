@@ -5,7 +5,7 @@ date: 2025-09-22 04:38:01 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "ROI分析", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "MIT発Cognify、AIでウェブサイトUXをシミュレートしデジタル体験向上について詳細に分析します。"
+excerpt: "MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-25 04:36:05 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
-excerpt: "Kodiak AI、自動運転トラックでNasdaq上場について詳細に分析します。"
+excerpt: "自動運転トラックのKodiak AI、Nasdaq上場が示す未来の物流とは？"
 reading_time: 20
 ---
 

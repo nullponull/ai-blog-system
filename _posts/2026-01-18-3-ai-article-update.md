@@ -5,7 +5,7 @@ date: 2026-01-18 16:40:25 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**AIチップ特許競争、Intelが新規参入**について詳細に分析します。"
+excerpt: "いやはや、驚きましたね。AIチップの特許競争に、あのインテルが本格的に乗り込んできたというニュース。皆さんも、もしかしたら「え、インテルってCPUの会社じゃなかったっけ？」と思われたかもしれません。私も正直、最初は「本当かな？"
 reading_time: 20
 ---
 

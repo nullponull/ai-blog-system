@@ -5,7 +5,7 @@ date: 2025-12-10 02:24:30 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Unitree Robotics、産業用AIロボ出荷5万台突破**について詳細に分析します。"
+excerpt: "Unitree Roboticsの5万台突破、何が変わるのか？"
 reading_time: 20
 ---
 

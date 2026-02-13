@@ -5,7 +5,7 @@ date: 2025-11-15 02:09:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Moonshot AI、GPT-5超えKimi K2発表について詳細に分析します。"
+excerpt: "Moonshot AIのKimi K2 Thinkingは、AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

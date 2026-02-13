@@ -5,7 +5,7 @@ date: 2025-11-20 20:37:56 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "World Labs、空間AIで$投資について詳細に分析します。"
+excerpt: "World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探る"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-24 02:03:31 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI等、5000億ドルAIDC計画について詳細に分析します。"
+excerpt: "「Stargate Project」の真意とは？AIインフラ投資の巨大な波が示す未来"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-02-05 09:03:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["ByteDance", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**ByteDance、AI生成コンテンツ倫理指針発表**について詳細に分析します。"
+excerpt: "いやー、ByteDanceがAI生成コンテンツの倫理指針を発表したってニュース、みんなももうチェックしたかな？私自身、このAI業界をもう20年も見てきて、シリコンバレーのピカピカのスタートアップから、日本の老舗企業まで、"
 reading_time: 6
 ---
 

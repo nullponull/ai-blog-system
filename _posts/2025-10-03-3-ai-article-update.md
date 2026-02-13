@@ -5,7 +5,7 @@ date: 2025-10-03 20:35:04 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "AI電力消費、持続可能性に警告について詳細に分析します。"
+excerpt: "正直なところ、最近のAIの進化には目を見張るものがありますよね。まるでSFの世界が現実になったかのようです。しかし、あなたも感じているかもしれませんが、この華々しい進歩の裏で、ある「影」が忍び寄っているという話が、"
 reading_time: 20
 ---
 

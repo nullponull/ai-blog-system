@@ -5,7 +5,7 @@ date: 2025-09-29 04:38:19 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Ant International、金融AIセキュリティ強化について詳細に分析します。"
+excerpt: "Ant InternationalのAIセキュリティ強化、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

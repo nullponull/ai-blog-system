@@ -5,7 +5,7 @@ date: 2025-10-19 16:37:36 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "AIエージェント進化、IFS新プラットフォームについて詳細に分析します。"
+excerpt: "AIエージェントが産業を変革する？IFS新プラットフォーム「Loops」の真意とは"
 reading_time: 20
 ---
 

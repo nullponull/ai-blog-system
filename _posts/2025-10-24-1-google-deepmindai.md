@@ -5,7 +5,7 @@ date: 2025-10-24 16:42:58 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "xAI", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、AIエージェント進化について詳細に分析します。"
+excerpt: "Google DeepMindのAIエージェント進化、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

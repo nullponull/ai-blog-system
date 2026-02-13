@@ -5,7 +5,7 @@ date: 2026-01-02 04:54:00 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Apple", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "**Apple、iPhone 17にAIチップ搭載、生成AI性能3倍**について詳細に分析します。"
+excerpt: "おや、また来たか、という感じだね。AppleがiPhone 17にAIチップを搭載し、生成AI性能が3倍になるというニュースを耳にした時、正直なところ、私は少しばかり懐疑的な気持ちになったんだ。"
 reading_time: 9
 ---
 

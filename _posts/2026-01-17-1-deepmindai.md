@@ -5,7 +5,7 @@ date: 2026-01-17 04:45:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "ファインチューニング", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、AI創薬で新分子設計成功**について詳細に分析します。"
+excerpt: "DeepMindのAI創薬、新分子設計成功の衝撃：私たちはその本質をどこまで理解しているか？"
 reading_time: 8
 ---
 

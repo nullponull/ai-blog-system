@@ -5,7 +5,7 @@ date: 2025-10-21 13:07:29 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Anthropic", "画像生成", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "パナソニック、AI画像生成を自動改善について詳細に分析します。"
+excerpt: "パナソニックのAI画像生成、自己改善の真意とは？その技術が業界をどう変えるのか？"
 reading_time: 20
 ---
 

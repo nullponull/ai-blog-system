@@ -5,7 +5,7 @@ date: 2025-09-27 12:53:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "ROI分析", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Adobe/Google AI画像生成統合について詳細に分析します。"
+excerpt: "AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

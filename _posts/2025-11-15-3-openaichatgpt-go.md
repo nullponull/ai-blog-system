@@ -5,7 +5,7 @@ date: 2025-11-15 02:10:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、インドでChatGPT Goを1年無料提供について詳細に分析します。"
+excerpt: "OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-31 02:27:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "中国Baidu、AIチップ「Kunlun 5」発表について詳細に分析します。"
+excerpt: "やあ、元気にしてるかな？最近のニュース、Baiduが新しいAIチップ「Kunlun 5」を発表したって聞いて、あなたも「また来たか」って思ったんじゃないかな。正直なところ、僕も最初の反応はそんな感じだったよ。"
 reading_time: 13
 ---
 

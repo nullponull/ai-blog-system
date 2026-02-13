@@ -5,7 +5,7 @@ date: 2025-11-02 08:36:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "AIインフラ、希土類元素が重要について詳細に分析します。"
+excerpt: "AIの未来は「土」にあり？希土類元素が握るインフラの真意とは"
 reading_time: 20
 ---
 

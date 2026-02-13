@@ -5,7 +5,7 @@ date: 2026-02-06 05:22:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、創薬AI「AlphaFold 4」発表。タンパク質構造予測精度95%超。**について詳細に分析します。"
+excerpt: "DeepMind『AlphaFold 4』発表：95%超の精度が創薬にもたらす本当の地平とは？"
 reading_time: 8
 ---
 

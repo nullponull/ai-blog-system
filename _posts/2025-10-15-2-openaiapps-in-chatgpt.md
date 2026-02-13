@@ -5,7 +5,7 @@ date: 2025-10-15 04:37:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Apple", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、アプリストア構想発表について詳細に分析します。"
+excerpt: "OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-19 16:45:04 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "LLM", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Azure AI、量子コンピューティング連携強化**について詳細に分析します。"
+excerpt: "Microsoft Azure AIと量子コンピューティングの深化：その真意と、私たちが備えるべき未来とは？"
 reading_time: 20
 ---
 

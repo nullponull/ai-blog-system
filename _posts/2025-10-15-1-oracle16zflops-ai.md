@@ -5,7 +5,7 @@ date: 2025-10-15 13:04:09 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Oracle、16ZFLOPS AIスパコン発表について詳細に分析します。"
+excerpt: "Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

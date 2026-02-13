@@ -5,7 +5,7 @@ date: 2025-12-25 04:50:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルで生成コスト半減**について詳細に分析します。"
+excerpt: "あなたがこのニュースを見て、もし私と同じような反応をしたなら、あなたはきっとこのAI業界で酸いも甘いも噛み分けてきた戦友のはずだね。Amazon Bedrockが新モデルの導入で生成コストを半減させると聞いて、正直なところ、私は一瞬、"
 reading_time: 7
 ---
 

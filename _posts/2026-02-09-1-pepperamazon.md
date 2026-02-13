@@ -5,7 +5,7 @@ date: 2026-02-09 05:46:14 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "マルチモーダル", "音声AI", "AI人材", "セキュリティ", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AIロボット「Pepper」改良版発表について詳細に分析します。"
+excerpt: "いやー、驚きましたね。AmazonがAIロボット「Pepper」の改良版を発表したというニュース、あなたも耳にしましたか？正直、最初は「え、Pepperってまだ現役だったんだ」なんて思っちゃいましたよ。"
 reading_time: 7
 ---
 

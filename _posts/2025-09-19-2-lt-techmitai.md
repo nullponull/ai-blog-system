@@ -5,7 +5,7 @@ date: 2025-09-19 12:59:42 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "xAI", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "L&T Tech、MITと提携しAGI探求について詳細に分析します。"
+excerpt: "L&T TechとMITのAGI探求、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

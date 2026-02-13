@@ -5,7 +5,7 @@ date: 2026-01-29 08:59:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWS Sagemakerで推論コスト30%削減**について詳細に分析します。"
+excerpt: "いやー、またAWS SageMakerのニュースが出ましたね。「推論コストを30%削減」なんて聞くと、正直「またか」と思う反面、これは無視できない動きだと感じています。AI業界を20年近く見ていると、こういうニュースは波紋を広げるんですよね。"
 reading_time: 20
 ---
 

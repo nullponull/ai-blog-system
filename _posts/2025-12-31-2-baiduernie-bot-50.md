@@ -5,7 +5,7 @@ date: 2025-12-31 20:36:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "LLM", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、ERNIE Bot 5.0で多言語対応強化**について詳細に分析します。"
+excerpt: "BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？"
 reading_time: 9
 ---
 

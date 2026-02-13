@@ -5,7 +5,7 @@ date: 2026-01-04 16:39:52 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "**Apple、M3チップ搭載MacでAI開発加速**について詳細に分析します。"
+excerpt: "皆さん、最近AppleがM3チップ搭載MacでAI開発を加速させるといったニュースを目にして、どう感じましたか？ 「またAppleが何か企んでいるな」と、私と同じように少し懐疑的に受け止めた人も少なくないのではないでしょうか。"
 reading_time: 9
 ---
 

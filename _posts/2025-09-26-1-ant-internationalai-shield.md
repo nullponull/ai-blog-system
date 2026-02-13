@@ -5,7 +5,7 @@ date: 2025-09-26 20:33:28 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Ant International「AI SHIELD」発表について詳細に分析します。"
+excerpt: "Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

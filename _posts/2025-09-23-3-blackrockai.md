@@ -5,7 +5,7 @@ date: 2025-09-23 04:37:30 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "韓国、BlackRockとAIハブ化へ協力について詳細に分析します。"
+excerpt: "韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？"
 reading_time: 20
 ---
 

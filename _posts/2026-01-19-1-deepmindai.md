@@ -5,7 +5,7 @@ date: 2026-01-19 05:03:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Anthropic", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、汎用AI研究で新ブレークスルー**について詳細に分析します。"
+excerpt: "DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？"
 reading_time: 7
 ---
 

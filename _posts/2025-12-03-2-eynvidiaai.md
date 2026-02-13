@@ -5,7 +5,7 @@ date: 2025-12-03 13:08:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "EY、NVIDIAと物理AIプラットフォーム展開について詳細に分析します。"
+excerpt: "おいおい、また大きなニュースが飛び込んできたね。EYとNVIDIAが「物理AIプラットフォーム」を展開するって？正直なところ、最初にこの見出しを見た時、「また新しいバズワードか？」と少し懐疑的に思ったんだ。"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-11 04:40:30 +0000
 categories: ["AI技術ガイド"]
 tags: ["xAI", "LLM", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "AIエージェント、新ハッキング脅威に直面について詳細に分析します。"
+excerpt: "AIエージェントが直面する新たなサイバー脅威、その真意とは？"
 reading_time: 20
 ---
 

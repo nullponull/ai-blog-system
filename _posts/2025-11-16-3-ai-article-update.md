@@ -5,7 +5,7 @@ date: 2025-11-16 16:38:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "AIエージェント", "推論最適化", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "中国新メディア大会、AI活用を推進について詳細に分析します。"
+excerpt: "中国新メディア大会が示すAI活用の真意とは？その波紋はどこまで広がるのか。"
 reading_time: 20
 ---
 

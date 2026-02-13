@@ -5,7 +5,7 @@ date: 2025-12-17 02:20:42 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon SageMaker、量子AI連携強化**について詳細に分析します。"
+excerpt: "いやはや、Amazon SageMaker の量子AI連携強化のニュース。正直、最初に耳にした時は「また新しい技術トレンドか」と、ちょっと懐疑的になったというのが本音です。"
 reading_time: 9
 ---
 

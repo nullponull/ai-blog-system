@@ -5,7 +5,7 @@ date: 2025-12-24 04:49:57 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルで30%性能向上**について詳細に分析します。"
+excerpt: "AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？"
 reading_time: 20
 ---
 

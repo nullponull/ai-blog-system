@@ -5,7 +5,7 @@ date: 2025-09-26 20:34:52 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "ChatGPT新機能「Pulse」発表について詳細に分析します。"
+excerpt: "ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

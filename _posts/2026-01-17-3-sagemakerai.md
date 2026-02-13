@@ -5,7 +5,7 @@ date: 2026-01-17 20:37:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon SageMaker、AI開発コスト30%削減へ**について詳細に分析します。"
+excerpt: "SageMakerのコスト削減、本当にAI開発を変えるのか？"
 reading_time: 9
 ---
 

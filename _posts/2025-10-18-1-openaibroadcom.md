@@ -5,7 +5,7 @@ date: 2025-10-18 08:37:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI/Broadcom、10GW級AI加速器開発について詳細に分析します。"
+excerpt: "OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？"
 reading_time: 20
 ---
 

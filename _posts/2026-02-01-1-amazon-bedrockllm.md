@@ -5,7 +5,7 @@ date: 2026-02-01 16:48:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、次世代LLM連携強化**について詳細に分析します。"
+excerpt: "Amazon Bedrock、次世代LLM連携強化で何が変わるのか？"
 reading_time: 20
 ---
 

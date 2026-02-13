@@ -5,7 +5,7 @@ date: 2025-09-27 16:36:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "NVIDIA", "Apple", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "GreenBitAI、オフラインAI「Libra」発表について詳細に分析します。"
+excerpt: "GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？"
 reading_time: 20
 ---
 

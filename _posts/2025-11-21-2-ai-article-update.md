@@ -5,7 +5,7 @@ date: 2025-11-21 20:37:26 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "英政府、AIに大規模投資発表について詳細に分析します。"
+excerpt: "英国、AI大国への野望：巨額投資の真意と、私たちが注目すべき変化とは？"
 reading_time: 20
 ---
 

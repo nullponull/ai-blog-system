@@ -5,7 +5,7 @@ date: 2025-12-02 13:08:34 +0000
 categories: ["AI技術ガイド"]
 tags: ["NVIDIA", "AIエージェント", "推論最適化", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "機械大手、フィジカルAIで協業加速について詳細に分析します。"
+excerpt: "「機械大手とフィジカルAI、その協業が示す産業の未来とは何か？」"
 reading_time: 20
 ---
 

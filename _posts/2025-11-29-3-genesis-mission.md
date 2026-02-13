@@ -5,7 +5,7 @@ date: 2025-11-29 02:11:40 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "米国「Genesis Mission」AI科学推進について詳細に分析します。"
+excerpt: "正直なところ、最初に「Genesis Mission」という言葉を聞いたとき、私の中にはわずかながら懐疑の念がよぎったんですよ。また壮大な国家プロジェクトか、と。AI業界を20年近く見てきて、"
 reading_time: 20
 ---
 

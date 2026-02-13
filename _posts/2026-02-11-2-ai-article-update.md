@@ -5,7 +5,7 @@ date: 2026-02-11 20:59:09 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "推論最適化", "AI人材", "自動運転"]
 author: "ALLFORCES編集部"
-excerpt: "**トヨタ、自動運転AIで新チップ開発へ**について詳細に分析します。"
+excerpt: "トヨタの自動運転AI新チップ開発、その真意は何を意味するのか？"
 reading_time: 7
 ---
 

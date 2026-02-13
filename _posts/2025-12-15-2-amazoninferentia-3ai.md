@@ -5,7 +5,7 @@ date: 2025-12-15 02:29:53 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWSでAIチップ「Inferentia 3」投入**について詳細に分析します。"
+excerpt: "AmazonのInferentia 3、AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

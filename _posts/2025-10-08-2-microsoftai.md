@@ -5,7 +5,7 @@ date: 2025-10-08 02:02:29 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AIエージェント開発キット発表について詳細に分析します。"
+excerpt: "MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

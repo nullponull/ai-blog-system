@@ -5,7 +5,7 @@ date: 2025-12-22 13:04:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AI検索エンジン Bing 7.0発表** (2025-12-22)について詳細に分析します。"
+excerpt: "MicrosoftのBing 7.0、検索の未来は本当に変わるのか？"
 reading_time: 6
 ---
 

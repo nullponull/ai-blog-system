@@ -5,7 +5,7 @@ date: 2025-10-10 20:34:29 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Celestica、AI/ML向け1.6TbEスイッチ発表について詳細に分析します。"
+excerpt: "Celesticaの1.6TbEスイッチ発表、その真意は？AIインフラの未来に何が変わるのか？"
 reading_time: 20
 ---
 

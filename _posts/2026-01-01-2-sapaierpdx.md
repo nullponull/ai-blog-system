@@ -5,7 +5,7 @@ date: 2026-01-01 20:37:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "**SAP、AI統合ERPで企業DX加速**について詳細に分析します。"
+excerpt: "あなたも、「SAP、AI統合ERPで企業DX加速」という見出しを見て、正直なところ「またか」と感じたかもしれませんね。AIがバズワードになって久しいですが、ERPという企業の心臓部にまでその波が押し寄せている。"
 reading_time: 20
 ---
 

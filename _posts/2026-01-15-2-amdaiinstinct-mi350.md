@@ -5,7 +5,7 @@ date: 2026-01-15 08:48:37 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "AMD、AIチップ「Instinct MI350」でNVIDIA追撃について詳細に分析します。"
+excerpt: "AMDのAIチップ「Instinct MI350」でNVIDIAを追撃？ 何が変わるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-02-11 20:58:28 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "RAG", "マルチモーダル", "推論最適化", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**Sony、AIカメラで映像解析性能50%向上**について詳細に分析します。"
+excerpt: "ソニーのAIカメラが映像解析性能を50%向上させたというニュース、その真意は何だろう？"
 reading_time: 8
 ---
 

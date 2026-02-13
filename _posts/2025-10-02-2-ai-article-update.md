@@ -5,7 +5,7 @@ date: 2025-10-02 02:02:32 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "音声AI", "ファインチューニング", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "大阪がんセンター、問診AI導入について詳細に分析します。"
+excerpt: "医療現場にAIが深く浸透する時、何が本当に変わるのか？大阪がんセンターの挑戦"
 reading_time: 20
 ---
 

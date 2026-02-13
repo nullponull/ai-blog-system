@@ -5,7 +5,7 @@ date: 2026-01-07 20:40:33 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "RAG", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、AIチップ「Zynq UltraScale+」で10%性能向上について詳細に分析します。"
+excerpt: "富士通のZynq UltraScale+性能向上、AIエッジに何をもたらすのか？"
 reading_time: 20
 ---
 

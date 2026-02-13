@@ -5,7 +5,7 @@ date: 2025-09-24 08:51:36 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "xAI、Microsoft対抗「Macrohard」設立について詳細に分析します。"
+excerpt: "xAIの「Macrohard」構想、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-05 16:44:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft「AI Foundry」脅威検知機能について詳細に分析します。"
+excerpt: "Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？"
 reading_time: 12
 ---
 

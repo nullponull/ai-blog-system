@@ -5,7 +5,7 @@ date: 2025-12-19 04:49:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "LLM", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft Copilot、法人向け新機能で生産性25%向上について詳細に分析します。"
+excerpt: "Microsoft Copilotの「生産性25%向上」がもたらす企業変革、その真意とは何か？"
 reading_time: 9
 ---
 

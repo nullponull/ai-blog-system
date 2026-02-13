@@ -5,7 +5,7 @@ date: 2026-01-06 08:49:42 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "中国Baidu、EUで自動運転AI「Apollo」本格展開へについて詳細に分析します。"
+excerpt: "BaiduのApollo、欧州で本当に成功するのか？その真意を探る"
 reading_time: 20
 ---
 

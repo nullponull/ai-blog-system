@@ -5,7 +5,7 @@ date: 2025-10-14 08:40:43 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "Amazon", "LLM", "画像生成", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "データセクション、豪でAIデータセンター100MW供給について詳細に分析します。"
+excerpt: "データセクションの豪州AIデータセンター100MW供給、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

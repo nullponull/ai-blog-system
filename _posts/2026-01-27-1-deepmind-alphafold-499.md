@@ -5,7 +5,7 @@ date: 2026-01-27 20:38:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind, AlphaFold 4発表、タンパク質構造予測精度99%**について詳細に分析します。"
+excerpt: "DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。"
 reading_time: 17
 ---
 

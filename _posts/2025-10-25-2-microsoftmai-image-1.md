@@ -5,7 +5,7 @@ date: 2025-10-25 08:36:32 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、自社製画像生成AI「MAI-Image-1」公開について詳細に分析します。"
+excerpt: "Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-02 16:48:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "HPE、AMD「Helios」AIラック発表について詳細に分析します。"
+excerpt: "HPEとAMDの「Helios」AIラック発表、その真意は？AIインフラ競争の新たな地平を探る"
 reading_time: 20
 ---
 

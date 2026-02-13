@@ -5,7 +5,7 @@ date: 2026-01-19 08:51:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["Meta", "NVIDIA", "Apple", "RAG", "推論最適化", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm、XR向けAIチップ発表について詳細に分析します。"
+excerpt: "QualcommのXR向けAIチップ、その真意は何だろうか？"
 reading_time: 8
 ---
 

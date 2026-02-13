@@ -5,7 +5,7 @@ date: 2026-01-03 16:39:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、新モデル「Pi 2.0」発表、対話精度85%**について詳細に分析します。"
+excerpt: "「Inflection AI、新モデル『Pi 2.0』発表、対話精度85%」――この見出しを目にしたとき、正直なところ、あなたも「またか」と少しだけ疲れたんじゃないかな？"
 reading_time: 8
 ---
 

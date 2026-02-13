@@ -5,7 +5,7 @@ date: 2026-02-08 20:45:23 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "xAI", "LLM", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot、医療分野で精度95%**について詳細に分析します。"
+excerpt: "Microsoft Copilot、医療分野で「95%の精度」って、本当なの？"
 reading_time: 20
 ---
 

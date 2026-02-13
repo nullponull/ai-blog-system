@@ -5,7 +5,7 @@ date: 2026-01-29 20:49:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon、AWS向け次世代GPU「Inferentia 3」発表**について詳細に分析します。"
+excerpt: "Amazon Inferentia 3、AIの舞台裏で何が起こるのか？"
 reading_time: 14
 ---
 

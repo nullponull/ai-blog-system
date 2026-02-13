@@ -5,7 +5,7 @@ date: 2026-01-26 02:42:27 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot for Finance、予測精度85%**について詳細に分析します。"
+excerpt: "「Copilot for Finance」の85%予測精度、本当にそこまで信じていいの？"
 reading_time: 7
 ---
 

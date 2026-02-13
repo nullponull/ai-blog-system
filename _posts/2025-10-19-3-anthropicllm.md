@@ -5,7 +5,7 @@ date: 2025-10-19 04:38:49 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "Anthropic", "xAI", "LLM", "AIエージェント", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、LLM汚染リスクを警告について詳細に分析します。"
+excerpt: "Anthropicが警告するLLM汚染リスクの真意とは？AIセキュリティの常識は本当に変わるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-07 08:41:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Anthropic", "画像生成", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Figma、AIデザインツール「Weave」発表について詳細に分析します。"
+excerpt: "FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？"
 reading_time: 20
 ---
 

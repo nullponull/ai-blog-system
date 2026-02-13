@@ -5,7 +5,7 @@ date: 2025-11-03 08:46:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "欧州、AI主権確立へ現地インフラ重視について詳細に分析します。"
+excerpt: "欧州がAI主権にこだわる真意とは？現地インフラ重視の戦略を読み解く"
 reading_time: 20
 ---
 

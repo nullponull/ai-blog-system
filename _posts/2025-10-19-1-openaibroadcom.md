@@ -5,7 +5,7 @@ date: 2025-10-19 02:23:19 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI、Broadcomと1兆ドルAIチップ開発について詳細に分析します。"
+excerpt: "OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探る"
 reading_time: 20
 ---
 

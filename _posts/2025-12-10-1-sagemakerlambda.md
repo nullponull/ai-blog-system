@@ -5,7 +5,7 @@ date: 2025-12-10 16:44:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "AIエージェント", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon SageMaker、AWS Lambda連携強化**について詳細に分析します。"
+excerpt: "SageMakerとLambdaの連携強化、何が変わるのか？"
 reading_time: 8
 ---
 

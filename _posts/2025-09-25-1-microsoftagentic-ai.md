@@ -5,7 +5,7 @@ date: 2025-09-25 08:40:21 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "マルチモーダル", "推論最適化", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、韓国でAgentic AI導入加速について詳細に分析します。"
+excerpt: "Microsoftが韓国でAgentic AIを加速させる真意とは？その戦略の深層を探る"
 reading_time: 20
 ---
 

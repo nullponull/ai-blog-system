@@ -5,7 +5,7 @@ date: 2026-01-13 16:51:46 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、新モデルLLM推論性能30%向上について詳細に分析します。"
+excerpt: "LLM競争激化の中、Amazon Bedrockの30%性能向上は企業導入をどう変えるのか。"
 reading_time: 20
 ---
 

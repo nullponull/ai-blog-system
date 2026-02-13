@@ -5,7 +5,7 @@ date: 2025-12-18 16:48:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "xAI", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、生物学研究にAI活用、新薬発見加速**について詳細に分析します。"
+excerpt: "またDeepMindか、と正直なところ、私も最初は思ったんですよ。AlphaGoで囲碁の世界を驚かせ、その後AlphaFoldでタンパク質構造予測という生物学の「グランドチャレンジ」を解決した彼らが、今度は新薬発見、"
 reading_time: 9
 ---
 

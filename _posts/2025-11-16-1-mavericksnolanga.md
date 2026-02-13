@@ -5,7 +5,7 @@ date: 2025-11-16 12:56:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["LLM", "音声AI", "AI規制", "AI人材", "DX推進", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Mavericks「NoLang」動画生成AI強化について詳細に分析します。"
+excerpt: "Mavericksの「NoLang」が動画生成AIを強化、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

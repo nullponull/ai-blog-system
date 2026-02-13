@@ -5,7 +5,7 @@ date: 2025-12-23 02:26:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Anthropic", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "**中国Baidu、AIチャットボット「Ernie Bot」の最新版発表**について詳細に分析します。"
+excerpt: "Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？"
 reading_time: 20
 ---
 

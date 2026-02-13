@@ -5,7 +5,7 @@ date: 2025-10-25 04:35:57 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、Claude Haiku 4.5発表について詳細に分析します。"
+excerpt: "AnthropicのClaude Haiku 4.5、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

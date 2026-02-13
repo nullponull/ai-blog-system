@@ -5,7 +5,7 @@ date: 2025-10-21 08:45:36 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Oracle、年次イベントを「AI World」に改称について詳細に分析します。"
+excerpt: "Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。"
 reading_time: 20
 ---
 

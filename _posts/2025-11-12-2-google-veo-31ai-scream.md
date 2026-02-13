@@ -5,7 +5,7 @@ date: 2025-11-12 02:14:57 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "AI SCREAM、Google Veo 3.1動画生成AI実装について詳細に分析します。"
+excerpt: "Google Veo 3.1と「AI SCREAM」が示す、動画生成AIの新たな地平とは？"
 reading_time: 20
 ---
 

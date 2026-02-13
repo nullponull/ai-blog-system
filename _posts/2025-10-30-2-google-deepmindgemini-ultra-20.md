@@ -5,7 +5,7 @@ date: 2025-10-30 16:44:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、Gemini Ultra 2.0発表へについて詳細に分析します。"
+excerpt: "Google DeepMindのGemini Ultra 2.0、その真意とAIの未来に何をもたらすのか？"
 reading_time: 20
 ---
 

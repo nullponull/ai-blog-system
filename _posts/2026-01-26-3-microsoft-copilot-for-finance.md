@@ -5,7 +5,7 @@ date: 2026-01-26 08:53:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、Copilot for Finance提供開始について詳細に分析します。"
+excerpt: "Microsoft Copilot for Finance、その実力は本物なのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-24 13:05:01 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Sakana AI、B資金200億円調達について詳細に分析します。"
+excerpt: "サカナAI、200億円調達の真意は？計算資源に依存しないAI開発が変える未来の景色"
 reading_time: 20
 ---
 

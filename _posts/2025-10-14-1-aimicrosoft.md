@@ -5,7 +5,7 @@ date: 2025-10-14 04:37:19 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "AI電力需要増、MS原発投資検討について詳細に分析します。"
+excerpt: "「え、マイクロソフトが原発に投資？」──正直なところ、このニュースを最初に聞いた時、私もあなたと同じように驚いたんじゃないでしょうか？シリコンバレーの華やかなAIスタートアップから、日本の重厚長大企業まで、"
 reading_time: 20
 ---
 

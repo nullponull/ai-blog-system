@@ -5,7 +5,7 @@ date: 2025-12-02 08:49:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、AIリスク対応「Frontria」設立について詳細に分析します。"
+excerpt: "富士通が仕掛けるAIリスク対応「Frontria」、その真意はどこにあるのか？"
 reading_time: 16
 ---
 

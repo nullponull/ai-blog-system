@@ -5,7 +5,7 @@ date: 2025-10-20 04:40:41 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "画像生成", "推論最適化", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "パナソニック、新画像生成AI発表について詳細に分析します。"
+excerpt: "パナソニックの「Reflect-Dit」は画像生成AIの未来を変えるのか？"
 reading_time: 20
 ---
 

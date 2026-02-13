@@ -5,7 +5,7 @@ date: 2025-11-06 13:03:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "アイルランドAI雇用市場2年で倍増について詳細に分析します。"
+excerpt: "アイルランドAI雇用市場の急成長、その真意と未来への示唆とは？"
 reading_time: 20
 ---
 

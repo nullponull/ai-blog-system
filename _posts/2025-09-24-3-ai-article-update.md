@@ -5,7 +5,7 @@ date: 2025-09-24 13:01:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "画像生成", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "AIスキル、ICT職種の78%で必須化について詳細に分析します。"
+excerpt: "AIスキル、ICT職種の78%で必須化：この数字が示す未来と、私たちが今すべきこととは？"
 reading_time: 20
 ---
 

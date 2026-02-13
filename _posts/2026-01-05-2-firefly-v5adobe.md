@@ -5,7 +5,7 @@ date: 2026-01-05 08:51:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Apple", "マルチモーダル", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "**AI画像生成、Adobe Firefly V5発表**について詳細に分析します。"
+excerpt: "いやー、ついにAdobe Firefly V5の発表ですよ。AI画像生成の界隈、本当に目まぐるしいですよね。私もこの業界を20年近く見てきましたが、ここまで技術の進化が加速するとは、正直20年前には想像もできませんでした。"
 reading_time: 20
 ---
 

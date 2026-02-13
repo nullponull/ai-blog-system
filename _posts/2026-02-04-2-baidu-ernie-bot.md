@@ -5,7 +5,7 @@ date: 2026-02-04 09:01:45 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**中国AI、 Baidu ERNIE Bot、 医療診断精度95%達成**について詳細に分析します。"
+excerpt: "Baidu ERNIE Bot、医療診断95%達成の衝撃：その数字の裏に何が隠されているのか？"
 reading_time: 20
 ---
 

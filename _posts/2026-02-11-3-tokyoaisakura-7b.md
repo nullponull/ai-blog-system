@@ -5,7 +5,7 @@ date: 2026-02-11 09:07:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "LLM", "ファインチューニング", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**TokyoAI、新言語モデル「Sakura-7B」公開**について詳細に分析します。"
+excerpt: "TokyoAIの「Sakura-7B」公開、何が変わるのか？"
 reading_time: 12
 ---
 

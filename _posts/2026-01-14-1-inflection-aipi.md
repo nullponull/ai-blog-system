@@ -5,7 +5,7 @@ date: 2026-01-14 08:56:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Inflection AI、人間らしい対話AI発表について詳細に分析します。"
+excerpt: "Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？"
 reading_time: 19
 ---
 

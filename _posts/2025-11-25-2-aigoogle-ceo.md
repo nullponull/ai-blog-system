@@ -5,7 +5,7 @@ date: 2025-11-25 02:19:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Google CEO、AIバブル警告について詳細に分析します。"
+excerpt: "AIバブルの真意はどこに？Google CEOの警鐘が問うもの"
 reading_time: 20
 ---
 

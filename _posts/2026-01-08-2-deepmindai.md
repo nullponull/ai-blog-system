@@ -5,7 +5,7 @@ date: 2026-01-08 04:52:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、創薬AIで新発見**について詳細に分析します。"
+excerpt: "いやー、まいったね。DeepMindがまたやってくれたか、というのが率直な感想だよ。今回の「創薬AIで新発見」というニュース、君たちも耳にしたかな？　AI業界を20年以上見てきた僕でも、正直、最初は「またか」と思ったんだ。"
 reading_time: 20
 ---
 

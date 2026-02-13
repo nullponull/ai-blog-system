@@ -5,7 +5,7 @@ date: 2026-02-10 21:01:35 +0000
 categories: ["研究論文"]
 tags: ["Google", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**AI創薬、DeepMindが100万新分子設計**について詳細に分析します。"
+excerpt: "最近のニュース、あなたも目にしましたか？ 「DeepMindが100万もの新規分子を設計した」というヘッドライン。これを聞いて、正直なところ、私は一瞬「またか」と思ってしまったんです。"
 reading_time: 8
 ---
 

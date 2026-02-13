@@ -5,7 +5,7 @@ date: 2025-10-11 20:31:19 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、LLM脆弱性で警鐘について詳細に分析します。"
+excerpt: "Anthropicが鳴らすLLM脆弱性の警鐘、その真意と企業が今すべきこととは？"
 reading_time: 20
 ---
 

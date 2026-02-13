@@ -5,7 +5,7 @@ date: 2026-01-21 17:18:14 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル20種追加**について詳細に分析します。"
+excerpt: "Amazon Bedrock、新モデル20種追加。何が変わるのか？"
 reading_time: 8
 ---
 

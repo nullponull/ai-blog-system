@@ -5,7 +5,7 @@ date: 2025-09-21 12:55:02 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "推論最適化", "AI規制", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**Athos Omics AI、新薬ターゲット発見**について詳細に分析します。"
+excerpt: "Athos Omics AI、新薬ターゲット発見の真意とは？"
 reading_time: 20
 ---
 

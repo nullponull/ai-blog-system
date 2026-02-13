@@ -5,7 +5,7 @@ date: 2025-11-16 08:38:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "NTTデータ、AI Agentで20億ドルについて詳細に分析します。"
+excerpt: "NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？"
 reading_time: 20
 ---
 

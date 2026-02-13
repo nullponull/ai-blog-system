@@ -5,7 +5,7 @@ date: 2026-02-05 20:52:33 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデルでコスト30%削減**について詳細に分析します。"
+excerpt: "このニュース、あなたはどう感じたかな？「Amazon Bedrock、新モデルでコスト30%削減」。正直なところ、僕も最初は「お、またAWS（Amazon Web Services）がやってくれたか」と、"
 reading_time: 8
 ---
 

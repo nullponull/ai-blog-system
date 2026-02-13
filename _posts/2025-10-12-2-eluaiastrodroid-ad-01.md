@@ -5,7 +5,7 @@ date: 2025-10-12 04:35:23 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "マルチモーダル", "推論最適化", "ROI分析", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "ELU.AI、人型ロボット「AstroDroid AD-01」公開について詳細に分析します。"
+excerpt: "ELU.AIの「AstroDroid AD-01」は、人型ロボット市場に何をもたらすのか？"
 reading_time: 20
 ---
 

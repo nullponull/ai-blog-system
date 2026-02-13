@@ -5,7 +5,7 @@ date: 2025-12-05 16:43:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "Anthropic", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、調査AI「Interviewer」公開について詳細に分析します。"
+excerpt: "Anthropicの「Interviewer」AI、その真意とは何か？"
 reading_time: 13
 ---
 

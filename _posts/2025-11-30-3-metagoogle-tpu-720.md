@@ -5,7 +5,7 @@ date: 2025-11-30 16:40:23 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "Anthropic", "Apple", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、Google TPU検討 720億ドル投資について詳細に分析します。"
+excerpt: "MetaがGoogle TPUを検討？ 720億ドル投資の裏に隠されたAI戦略の真意とは"
 reading_time: 20
 ---
 

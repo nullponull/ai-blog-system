@@ -5,7 +5,7 @@ date: 2025-09-25 20:34:42 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "物理AI、産業導入へ移行。投資注目について詳細に分析します。"
+excerpt: "物理AI、産業導入の真意とは？投資家と技術者が今、注目すべきこと。"
 reading_time: 20
 ---
 

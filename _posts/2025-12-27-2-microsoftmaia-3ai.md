@@ -5,7 +5,7 @@ date: 2025-12-27 16:40:09 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft、AIチップ「Maia 3」発表**について詳細に分析します。"
+excerpt: "MicrosoftのMaia 3、AI業界の潮目を変えるのか？"
 reading_time: 20
 ---
 

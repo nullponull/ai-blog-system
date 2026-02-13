@@ -5,7 +5,7 @@ date: 2026-01-25 20:38:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "画像生成", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**Adobe、AI画像生成「Firefly 2.0」発表**について詳細に分析します。"
+excerpt: "AdobeがFirefly 2.0を発表したね。正直、私のような古い人間からすると、また新しいバージョンか、と一瞬構えてしまうものだよ。だって、この20年、AI業界の浮き沈みをずっと見てきたからね。"
 reading_time: 8
 ---
 

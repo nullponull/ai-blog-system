@@ -5,7 +5,7 @@ date: 2025-12-06 08:40:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "AIエージェント", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "MS、Agentic AIで人材管理革新について詳細に分析します。"
+excerpt: "MSが描く「Agentic World」の真意とは？ 人材管理を変革するAIの進化とその課題に迫る"
 reading_time: 20
 ---
 

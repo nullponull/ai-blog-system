@@ -5,7 +5,7 @@ date: 2025-10-19 20:34:36 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "DeepMind AlphaEvolve、科学発見について詳細に分析します。"
+excerpt: "DeepMind AlphaEvolveが科学発見をどう変えるのか？その真意と未来への示唆"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-08 04:37:10 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "LLM", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Google AI、脆弱性修正CodeMenderについて詳細に分析します。"
+excerpt: "GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？"
 reading_time: 20
 ---
 

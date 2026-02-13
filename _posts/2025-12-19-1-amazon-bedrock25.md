@@ -5,7 +5,7 @@ date: 2025-12-19 08:46:21 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "Amazon", "Anthropic", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、推論コスト25%削減について詳細に分析します。"
+excerpt: "Amazon Bedrock、推論コスト25%削減は、何を変えるのか？"
 reading_time: 20
 ---
 

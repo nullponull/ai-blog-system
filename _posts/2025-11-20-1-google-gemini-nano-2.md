@@ -5,7 +5,7 @@ date: 2025-11-20 13:03:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "Google、新Gemini Nano 2発表について詳細に分析します。"
+excerpt: "Google Gemini Nano 2、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

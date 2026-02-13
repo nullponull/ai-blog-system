@@ -5,7 +5,7 @@ date: 2025-09-06 12:45:53 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "マルチモーダル", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI GPT-5 rumorsについて詳細に分析します。"
+excerpt: "OpenAIは2025年8月7日（米国時間）に次世代AIモデル「GPT-5」を正式発表し、無料ユーザーを含む全てのChatGPTユーザーへの段階的な提供を開始しました。"
 reading_time: 7
 ---
 

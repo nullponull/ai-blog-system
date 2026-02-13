@@ -5,7 +5,7 @@ date: 2026-01-28 20:50:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Intel、AI向け新GPU「Gaudi 4」投入**について詳細に分析します。"
+excerpt: "IntelのGaudi 4、AIのゲームチェンジャーとなるのか？"
 reading_time: 6
 ---
 

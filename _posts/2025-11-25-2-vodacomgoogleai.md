@@ -5,7 +5,7 @@ date: 2025-11-25 08:45:17 +0000
 categories: ["導入事例"]
 tags: ["Google", "マルチモーダル", "画像生成", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Vodacom/Google、アフリカAI推進について詳細に分析します。"
+excerpt: "VodacomとGoogleがアフリカAI市場に投じる、その真意とは？"
 reading_time: 20
 ---
 

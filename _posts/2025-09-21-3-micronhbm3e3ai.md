@@ -5,7 +5,7 @@ date: 2025-09-21 08:35:15 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Micron、HBM3e生産3倍へについて詳細に分析します。"
+excerpt: "MicronのHBM3e生産3倍増、その真意とAI時代の半導体戦略とは？"
 reading_time: 20
 ---
 

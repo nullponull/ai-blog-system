@@ -5,7 +5,7 @@ date: 2025-12-04 08:46:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI CEO、Gemini猛追で「コードレッド」宣言について詳細に分析します。"
+excerpt: "「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路"
 reading_time: 20
 ---
 

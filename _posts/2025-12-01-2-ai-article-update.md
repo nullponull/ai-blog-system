@@ -5,7 +5,7 @@ date: 2025-12-01 20:48:12 +0000
 categories: ["AI最新ニュース"]
 tags: ["AIエージェント", "ROI分析", "AI規制", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、マルチAIエージェント供給網最適化について詳細に分析します。"
+excerpt: "富士通が描く「マルチAIエージェント」の真意とは？供給網最適化のその先"
 reading_time: 20
 ---
 

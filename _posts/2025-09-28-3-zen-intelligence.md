@@ -5,7 +5,7 @@ date: 2025-09-28 20:33:12 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Zen Intelligence、建設現場無人化へ追加出資について詳細に分析します。"
+excerpt: "Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

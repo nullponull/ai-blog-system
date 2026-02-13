@@ -5,7 +5,7 @@ date: 2025-09-09 10:32:17 +0000
 categories: ["業界別AI活用"]
 tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "TCSとCEA、Physical AI研究で提携について詳細に分析します。"
+excerpt: "「また新しいAIのバズワードか？」正直なところ、TCSとCEAがPhysical AIの研究で提携したというニュースを聞いた時、私の最初の反応はそんな感じでした。あなたも、AI業界のニュースに触れるたびに、"
 reading_time: 20
 ---
 

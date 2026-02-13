@@ -5,7 +5,7 @@ date: 2025-10-05 12:55:33 +0000
 categories: ["業界別AI活用"]
 tags: ["RAG", "AIエージェント", "マルチモーダル", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "TempestAI、融資稟議AIシステムについて詳細に分析します。"
+excerpt: "TempestAIの融資稟議AIシステム、その真価はどこにあるのか？"
 reading_time: 20
 ---
 

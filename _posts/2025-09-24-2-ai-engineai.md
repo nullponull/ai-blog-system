@@ -5,7 +5,7 @@ date: 2025-09-24 13:01:13 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "RAG", "推論最適化", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "さくら、生成AI推論API基盤提供について詳細に分析します。"
+excerpt: "「さくらのAI Engine」が示す、日本のAIインフラの真価とは？"
 reading_time: 20
 ---
 

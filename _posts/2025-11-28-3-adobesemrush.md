@@ -5,7 +5,7 @@ date: 2025-11-28 08:45:52 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Adobe、Semrushを19億ドル買収について詳細に分析します。"
+excerpt: "AdobeがSemrushを19億ドルで買収すると聞いた時、正直なところ「ほう、来たか」というのが最初の感想だったね。君も同じように感じたかもしれないけれど、このディールは単なる企業買収以上の、"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-26 20:35:02 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "米商務省、AI輸出プログラム始動について詳細に分析します。"
+excerpt: "米商務省のAI輸出プログラム始動、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

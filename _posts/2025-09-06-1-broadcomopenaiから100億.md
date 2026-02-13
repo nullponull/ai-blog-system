@@ -5,7 +5,7 @@ date: 2025-09-06 16:38:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "ByteDance"]
 author: "ALLFORCES編集部"
-excerpt: "Broadcom、OpenAIから100億ドルAIチップ受注について詳細に分析します。"
+excerpt: "半導体大手ブロードコムは、生成AIのリーディングカンパニーであるOpenAIから、100億ドル規模のカスタムAIチップ製造を受注しました。この戦略的提携は、OpenAIがNVIDIA製GPUへの依存度を低減し、"
 reading_time: 5
 ---
 

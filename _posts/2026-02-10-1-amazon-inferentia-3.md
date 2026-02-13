@@ -5,7 +5,7 @@ date: 2026-02-10 05:47:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AIチップ「Inferentia 3」発表、性能50%向上について詳細に分析します。"
+excerpt: "Amazon Inferentia 3、性能50%向上。その裏に潜むAWSの真意とは何だろうか？"
 reading_time: 8
 ---
 

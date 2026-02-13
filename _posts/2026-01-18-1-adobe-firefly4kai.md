@@ -5,7 +5,7 @@ date: 2026-01-18 04:53:10 +0000
 categories: ["AI技術ガイド"]
 tags: ["マルチモーダル", "画像生成", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Adobe Firefly、画像生成AIで4K出力対応について詳細に分析します。"
+excerpt: "Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-23 20:35:26 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "ByteDance", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "Maison AI、ByteDance画像生成搭載について詳細に分析します。"
+excerpt: "ByteDanceの画像生成AI「Seedream」が描く未来：その真意はどこにあるのか？"
 reading_time: 20
 ---
 

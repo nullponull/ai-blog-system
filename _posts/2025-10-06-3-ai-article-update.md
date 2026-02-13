@@ -5,7 +5,7 @@ date: 2025-10-06 16:41:07 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "LLM", "RAG", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
-excerpt: "ソニー銀、勘定系に生成AI導入について詳細に分析します。"
+excerpt: "ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-14 12:53:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Palantir/AMD、AIで1兆ドル企業へについて詳細に分析します。"
+excerpt: "「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」"
 reading_time: 20
 ---
 

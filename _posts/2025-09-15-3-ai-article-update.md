@@ -5,7 +5,7 @@ date: 2025-09-15 20:34:10 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "音声AI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "韓国政府、AI規制を大幅見直しについて詳細に分析します。"
+excerpt: "韓国AI規制、その真意は？ 開発と信頼の狭間で何が変わるのか"
 reading_time: 20
 ---
 

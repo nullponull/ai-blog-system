@@ -5,7 +5,7 @@ date: 2025-11-12 08:43:50 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "金融AIエージェント、2028年4500億ドルについて詳細に分析します。"
+excerpt: "「金融AIエージェントが2028年までに4500億ドル市場になる」――こんな数字を聞くと、正直なところ、最初は「またか」と思ってしまう自分がいます。あなたも感じているかもしれませんが、この業界に20年もいると、"
 reading_time: 20
 ---
 

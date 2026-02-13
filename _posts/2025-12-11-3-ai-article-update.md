@@ -5,7 +5,7 @@ date: 2025-12-11 20:37:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "シンギュラリティAI、倫理的AI研究に巨額投資について詳細に分析します。"
+excerpt: "最近、「シンギュラリティAI」とか「倫理的AI研究」への巨額投資っていうニュースが立て続けに流れてくるけれど、あなたも感じているかもしれませんが、正直なところ、私も最初は「またか」って思ったんだ。でもね、今回ばかりはちょっと違う。"
 reading_time: 20
 ---
 

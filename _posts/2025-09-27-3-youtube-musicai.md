@@ -5,7 +5,7 @@ date: 2025-09-27 20:33:17 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Apple", "マルチモーダル", "音声AI", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "YouTube Music、AIホストでトリビアテストについて詳細に分析します。"
+excerpt: "YouTube MusicのAIホストは、音楽体験をどう変えるのか？その真意を探る"
 reading_time: 20
 ---
 

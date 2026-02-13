@@ -5,7 +5,7 @@ date: 2025-11-27 13:05:15 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "Adobe、Semrushを19億ドルで買収について詳細に分析します。"
+excerpt: "AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-02 13:03:32 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "**Inflection AI、AIアシスタント「Pi 2.0」発表。応答速度30%向上。**について詳細に分析します。"
+excerpt: "ねえ、最近のAIニュース、追いかけるのも大変じゃないかい？ 日々新しい発表があって、正直なところ、私も「またか」と思ってしまうことが増えたんだ。特に「〇〇が××%向上！"
 reading_time: 19
 ---
 

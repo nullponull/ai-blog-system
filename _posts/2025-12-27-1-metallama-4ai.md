@@ -5,7 +5,7 @@ date: 2025-12-27 13:00:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "**Meta、Llama 4で汎用AI性能向上**について詳細に分析します。"
+excerpt: "「また『汎用AI性能向上』か」――正直なところ、MetaがLlama 4（仮称）でこの言葉を打ち出してきたというニュースを聞いた時、私の最初の反応は、そうでした。あなたも、この「汎用AI性能向上」という言葉に、正直なところ、"
 reading_time: 8
 ---
 

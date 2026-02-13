@@ -5,7 +5,7 @@ date: 2025-12-04 02:22:29 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "AWS、新AI戦略「Nova Forge」発表について詳細に分析します。"
+excerpt: "AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは"
 reading_time: 15
 ---
 

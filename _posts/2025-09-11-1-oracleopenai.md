@@ -5,7 +5,7 @@ date: 2025-09-11 04:36:17 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Oracle/OpenAI、3000億ドル契約締結について詳細に分析します。"
+excerpt: "いやはや、皆さん、このニュースには本当に驚きましたよね？ OracleとOpenAIが3000億ドル規模のクラウドコンピューティング契約を結んだって聞いて、正直なところ「え、マジか？」って声が出ちゃいましたよ。"
 reading_time: 20
 ---
 

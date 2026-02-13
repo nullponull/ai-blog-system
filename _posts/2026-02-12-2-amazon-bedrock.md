@@ -5,7 +5,7 @@ date: 2026-02-12 20:52:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル3種追加**について詳細に分析します。"
+excerpt: "Amazon Bedrock、新モデル追加は、何を変えるのだろうか？"
 reading_time: 8
 ---
 

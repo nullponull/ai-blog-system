@@ -5,7 +5,7 @@ date: 2025-10-25 04:35:16 +0000
 categories: ["業界別AI活用"]
 tags: ["画像生成", "推論最適化", "AI規制", "AI人材", "DX推進", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "パナソニック、AI画像生成「Reflect-Dit」開発について詳細に分析します。"
+excerpt: "パナソニックの「Reflect-Dit」はAI画像生成の常識をどう変えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-16 04:41:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["ByteDance", "AIエージェント", "マルチモーダル", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Mavericks、動画生成AI機能拡充について詳細に分析します。"
+excerpt: "Mavericksの動画生成AI「NoLang」機能拡充、その真意と市場への波紋とは？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-09-18 04:37:41 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Amazon", "Apple", "LLM", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "日本政府、国産AI開発を支援について詳細に分析します。"
+excerpt: "日本、国産AIに本腰を入れる？ その真意と、私たちが注視すべきポイントとは"
 reading_time: 20
 ---
 

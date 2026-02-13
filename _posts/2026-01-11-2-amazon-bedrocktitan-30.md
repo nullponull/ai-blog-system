@@ -5,7 +5,7 @@ date: 2026-01-11 04:58:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、独自LLM「Titan 3.0」を発表**について詳細に分析します。"
+excerpt: "正直なところ、最初に「Amazon Bedrockが進化して、独自LLMのTitan 3.0を発表した」というニュースを聞いた時、あなたも「また来たか」と感じたかもしれませんね。"
 reading_time: 11
 ---
 

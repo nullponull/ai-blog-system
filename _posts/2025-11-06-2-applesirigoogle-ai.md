@@ -5,7 +5,7 @@ date: 2025-11-06 02:19:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Apple、SiriにGoogle AI採用検討について詳細に分析します。"
+excerpt: "Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？"
 reading_time: 20
 ---
 

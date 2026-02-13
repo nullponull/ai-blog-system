@@ -5,7 +5,7 @@ date: 2025-11-29 02:11:16 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "Apple SiriにGoogle Gemini統合について詳細に分析します。"
+excerpt: "「SiriにGeminiが載るかもしれない」──最初にそのニュースを聞いた時、正直なところ、私は耳を疑いました。皆さんの中にも、「まさか、あのAppleがGoogleの技術を？」と感じた方も少なくないのではないでしょうか。"
 reading_time: 20
 ---
 

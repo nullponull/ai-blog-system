@@ -5,7 +5,7 @@ date: 2025-09-27 08:35:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "FuriosaAI、省エネAI推論サーバー発表について詳細に分析します。"
+excerpt: "FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？"
 reading_time: 20
 ---
 

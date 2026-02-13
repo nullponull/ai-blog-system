@@ -5,7 +5,7 @@ date: 2025-11-19 20:33:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "ソフトバンク、NVIDIA Blackwellで国内AI基盤1位について詳細に分析します。"
+excerpt: "ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？"
 reading_time: 20
 ---
 

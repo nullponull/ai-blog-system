@@ -5,7 +5,7 @@ date: 2025-09-24 02:04:18 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "xAI", "AIエージェント", "画像生成", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "コカ・コーラ、MITとAI活用推進について詳細に分析します。"
+excerpt: "正直なところ、最初に「コカ・コーラがMITとAI活用推進」というニュースを聞いた時、私の頭の中には「またか」という思いがよぎりました。AI業界を20年近く見てきた人間としては、"
 reading_time: 20
 ---
 

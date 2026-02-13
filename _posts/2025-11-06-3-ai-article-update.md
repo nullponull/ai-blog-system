@@ -5,7 +5,7 @@ date: 2025-11-06 20:37:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "カリフォルニア州、AI規制法案を緩和・廃止について詳細に分析します。"
+excerpt: "カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波"
 reading_time: 20
 ---
 

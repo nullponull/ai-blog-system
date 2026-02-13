@@ -5,7 +5,7 @@ date: 2025-09-19 04:37:18 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "AIエージェント", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "CarbonSix、製造業向けAIロボット発表について詳細に分析します。"
+excerpt: "CarbonSixのAIロボット、製造業の「常識」をどう塗り替えるのか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-28 13:03:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Apple", "LLM", "RAG", "音声AI", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Alibaba、Quark AI眼鏡投入について詳細に分析します。"
+excerpt: "AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る"
 reading_time: 20
 ---
 

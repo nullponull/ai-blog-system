@@ -5,7 +5,7 @@ date: 2025-10-24 04:37:30 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "AIエージェント", "AI規制", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "中国「AI+」政策、全産業を強化について詳細に分析します。"
+excerpt: "中国「AI+」政策の真意とは？ 全産業を巻き込む巨大戦略の裏側"
 reading_time: 20
 ---
 

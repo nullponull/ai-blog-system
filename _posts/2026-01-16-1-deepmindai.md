@@ -5,7 +5,7 @@ date: 2026-01-16 16:48:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI規制", "AI人材", "DX推進", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、量子AIで創薬加速**について詳細に分析します。"
+excerpt: "DeepMindの量子AI、創薬の未来をどう変えるのだろうか？"
 reading_time: 20
 ---
 

@@ -5,7 +5,7 @@ date: 2025-12-23 13:07:00 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "Amazon", "AIエージェント", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**Microsoft Copilot、中小企業向け機能強化**について詳細に分析します。"
+excerpt: "Microsoft Copilot、中小企業に何をもたらすのか？"
 reading_time: 8
 ---
 

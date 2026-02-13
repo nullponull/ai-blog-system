@@ -5,7 +5,7 @@ date: 2025-12-31 08:46:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、AWSでAIチップ「Inferentia 4」発表について詳細に分析します。"
+excerpt: "Amazon AWSの「Inferentia 4」発表、何が変わるのか？"
 reading_time: 20
 ---
 

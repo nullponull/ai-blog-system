@@ -5,7 +5,7 @@ date: 2025-12-24 20:36:18 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、AI開発者向け新ツール提供開始について詳細に分析します。"
+excerpt: "Microsoftの新AIツール、開発者の現場はどう変わる？"
 reading_time: 13
 ---
 

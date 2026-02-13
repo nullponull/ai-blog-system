@@ -5,7 +5,7 @@ date: 2025-10-27 13:04:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "カリフォルニア州、AIチャットボット安全対策法制定について詳細に分析します。"
+excerpt: "カリフォルニア州のAIチャットボット安全対策法、その真意とは？"
 reading_time: 20
 ---
 

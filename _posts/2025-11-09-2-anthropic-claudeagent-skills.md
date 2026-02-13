@@ -5,7 +5,7 @@ date: 2025-11-09 20:33:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、Claudeに「Agent Skills」導入について詳細に分析します。"
+excerpt: "Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？"
 reading_time: 20
 ---
 

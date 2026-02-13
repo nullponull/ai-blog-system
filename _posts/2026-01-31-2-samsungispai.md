@@ -5,7 +5,7 @@ date: 2026-01-31 20:40:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Apple", "RAG", "マルチモーダル", "ROI分析", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Samsung、次世代AIスマホ向け新ISP発表**について詳細に分析します。"
+excerpt: "皆さん、こんにちは！ AI業界を20年近く見続けてきたベテランアナリストの私です。先日、「Samsungが次世代AIスマホ向けに新ISPを発表した」というニュースが飛び込んできましたね。"
 reading_time: 11
 ---
 

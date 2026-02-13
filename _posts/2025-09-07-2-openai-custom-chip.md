@@ -5,7 +5,7 @@ date: 2025-09-07 12:53:09 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI自社チップ投資について詳細に分析します。"
+excerpt: "OpenAIは、AIモデル運用コスト削減、NVIDIAへの依存度低減、そして供給安定化を目指し、自社開発AIチップへの大規模投資を加速しています。米半導体大手Broadcom、"
 reading_time: 5
 ---
 

@@ -5,7 +5,7 @@ date: 2025-11-11 20:35:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic Claude、28年黒字化について詳細に分析します。"
+excerpt: "Anthropic Claude、2028年黒字化の真意とは？AI業界のベテランが読み解くその戦略"
 reading_time: 20
 ---
 

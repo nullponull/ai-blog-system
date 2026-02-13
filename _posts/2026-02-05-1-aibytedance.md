@@ -5,7 +5,7 @@ date: 2026-02-05 03:11:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "ByteDance", "LLM", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**ByteDance、AI動画生成で欧米進出加速**について詳細に分析します。"
+excerpt: "AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？"
 reading_time: 8
 ---
 

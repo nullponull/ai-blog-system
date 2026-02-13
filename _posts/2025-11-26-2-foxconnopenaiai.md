@@ -5,7 +5,7 @@ date: 2025-11-26 02:20:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "FoxconnとOpenAI、次世代AI提携について詳細に分析します。"
+excerpt: "FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？"
 reading_time: 20
 ---
 

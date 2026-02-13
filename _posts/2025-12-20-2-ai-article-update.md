@@ -5,7 +5,7 @@ date: 2025-12-20 12:59:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon AWS、AIインフラ投資200億ドル増強について詳細に分析します。"
+excerpt: "ねえ、あなたも耳にしたんじゃないかな？ Amazon AWSがAIインフラに200億ドルを投資するっていうニュース。正直なところ、最初にこの数字を見た時、「またか」という思いと同時に、"
 reading_time: 8
 ---
 

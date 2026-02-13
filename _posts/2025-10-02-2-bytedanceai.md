@@ -5,7 +5,7 @@ date: 2025-10-02 16:40:16 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "ByteDance", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "アリババ/ByteDance動画AI進化について詳細に分析します。"
+excerpt: "アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？"
 reading_time: 20
 ---
 

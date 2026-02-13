@@ -5,7 +5,7 @@ date: 2025-11-16 20:34:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
-excerpt: "中国新メディア大会、AI活用議論について詳細に分析します。"
+excerpt: "中国新メディア大会が示す、AIがメディアの未来をどう再構築するのか？"
 reading_time: 20
 ---
 

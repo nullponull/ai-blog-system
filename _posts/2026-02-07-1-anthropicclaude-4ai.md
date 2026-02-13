@@ -5,7 +5,7 @@ date: 2026-02-07 16:50:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic、新モデル「Claude 4」で医療AI分野を刷新について詳細に分析します。"
+excerpt: "AnthropicのClaude 4は医療AIのゲームチェンジャーとなるのか、その真意とは？"
 reading_time: 7
 ---
 

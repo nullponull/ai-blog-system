@@ -5,7 +5,7 @@ date: 2025-10-25 20:32:59 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "Amazon", "xAI", "ROI分析"]
 author: "ALLFORCES編集部"
-excerpt: "Meta、RelianceとAI合弁事業設立について詳細に分析します。"
+excerpt: "MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？"
 reading_time: 20
 ---
 

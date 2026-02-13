@@ -5,7 +5,7 @@ date: 2025-09-24 08:52:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "OpenAI/Oracle/SB、AIデータDC拡大について詳細に分析します。"
+excerpt: "「Stargate」が拓くAIインフラの新時代、その真意とは？"
 reading_time: 20
 ---
 

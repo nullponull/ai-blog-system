@@ -5,7 +5,7 @@ date: 2025-12-22 04:52:44 +0000
 categories: ["AI技術ガイド"]
 tags: ["NVIDIA", "マルチモーダル", "音声AI", "推論最適化", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "**Sony、AIチップでエンタメ進化**について詳細に分析します。"
+excerpt: "ソニーはAIチップでエンタメの常識を塗り替えるか？ 20年の経験から探るその真価。"
 reading_time: 20
 ---
 

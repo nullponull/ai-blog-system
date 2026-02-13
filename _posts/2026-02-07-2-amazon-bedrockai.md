@@ -5,7 +5,7 @@ date: 2026-02-07 08:51:08 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、産業AI導入加速について詳細に分析します。"
+excerpt: "Amazon Bedrock、産業AI導入、何が変わるのか？"
 reading_time: 6
 ---
 

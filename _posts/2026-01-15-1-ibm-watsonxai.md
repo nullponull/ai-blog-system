@@ -5,7 +5,7 @@ date: 2026-01-15 13:09:36 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "**IBM WatsonX、企業向けLLMで300社突破**について詳細に分析します。"
+excerpt: "いやぁ、このニュースを見たとき、正直言ってね、ちょっと驚いたんだ。IBM WatsonXが企業向けLLMで300社突破だって？あなたも感じたかもしれないけど、私の頭にはまず「またWatsonか…」という思いがよぎったんだよね。"
 reading_time: 12
 ---
 

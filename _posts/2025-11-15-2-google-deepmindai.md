@@ -5,7 +5,7 @@ date: 2025-11-15 20:33:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "LLM", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "Google DeepMind、科学研究AI発表について詳細に分析します。"
+excerpt: "Google DeepMindの科学研究AI、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

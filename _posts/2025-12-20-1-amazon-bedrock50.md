@@ -5,7 +5,7 @@ date: 2025-12-20 08:39:13 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、新モデル50種搭載**について詳細に分析します。"
+excerpt: "Amazon Bedrock、新モデル50種搭載。何が変わるのか？"
 reading_time: 8
 ---
 

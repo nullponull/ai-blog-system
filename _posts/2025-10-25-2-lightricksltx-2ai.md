@@ -5,7 +5,7 @@ date: 2025-10-25 12:55:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Lightricks、AI動画生成LTX-2公開について詳細に分析します。"
+excerpt: "LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意とは"
 reading_time: 20
 ---
 

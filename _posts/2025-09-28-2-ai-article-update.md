@@ -5,7 +5,7 @@ date: 2025-09-28 20:32:33 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "マルチモーダル", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Accenture、AIで1.1万人削減、組織再編について詳細に分析します。"
+excerpt: "アクセンチュアの組織再編とAI戦略：1.1万人削減の裏に隠された、コンサルティング業界の未来とは？"
 reading_time: 20
 ---
 

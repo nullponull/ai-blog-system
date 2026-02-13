@@ -5,7 +5,7 @@ date: 2025-11-16 12:57:20 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Kodiak AI、ZFと無人トラック開発加速について詳細に分析します。"
+excerpt: "Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？"
 reading_time: 20
 ---
 

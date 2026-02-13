@@ -5,7 +5,7 @@ date: 2025-09-15 20:33:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "AWS Strands Agents 100万DL突破について詳細に分析します。"
+excerpt: "AWS Strands Agentsの登場がAIエージェント開発に何をもたらすのか？"
 reading_time: 20
 ---
 

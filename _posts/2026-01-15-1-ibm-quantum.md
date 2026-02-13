@@ -5,7 +5,7 @@ date: 2026-01-15 02:29:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "**IBM Quantum、AI向け計算能力を倍増**について詳細に分析します。"
+excerpt: "IBM Quantum、AI計算能力倍増の真意とは？ その戦略が示す未来への一手。"
 reading_time: 20
 ---
 

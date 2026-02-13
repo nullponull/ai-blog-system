@@ -5,7 +5,7 @@ date: 2025-11-19 08:43:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "音声AI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "Saishin、AIエンタメで1.4億円調達について詳細に分析します。"
+excerpt: "タイトル: Saishin Technologies、AIエンタメ1.4億円調達の真意はどこにあるのか？"
 reading_time: 20
 ---
 

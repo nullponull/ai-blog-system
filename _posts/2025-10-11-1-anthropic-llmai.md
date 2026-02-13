@@ -5,7 +5,7 @@ date: 2025-10-11 04:34:38 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Anthropic LLMに深刻な脆弱性について詳細に分析します。"
+excerpt: "Anthropic LLMの深層に潜む影：AIの信頼性はどこへ向かうのか？"
 reading_time: 20
 ---
 

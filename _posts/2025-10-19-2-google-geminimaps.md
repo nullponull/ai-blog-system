@@ -5,7 +5,7 @@ date: 2025-10-19 20:33:59 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Anthropic", "Apple", "xAI", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Google Gemini API、Maps連携について詳細に分析します。"
+excerpt: "Google GeminiとMaps連携、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

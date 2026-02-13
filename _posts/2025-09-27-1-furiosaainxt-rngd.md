@@ -5,7 +5,7 @@ date: 2025-09-27 01:58:56 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Meta", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "FuriosaAI、NXT RNGDサーバ発表について詳細に分析します。"
+excerpt: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

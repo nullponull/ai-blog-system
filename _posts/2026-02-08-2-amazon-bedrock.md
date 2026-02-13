@@ -5,7 +5,7 @@ date: 2026-02-08 20:45:48 +0000
 categories: ["研究論文"]
 tags: ["Meta", "Amazon", "Anthropic", "xAI", "LLM", "ファインチューニング"]
 author: "ALLFORCES編集部"
-excerpt: "**Amazon Bedrock、製薬研究にAI導入**について詳細に分析します。"
+excerpt: "Amazon Bedrockが製薬研究にもたらす変革の兆し、その本質はどこにあるのか？"
 reading_time: 20
 ---
 

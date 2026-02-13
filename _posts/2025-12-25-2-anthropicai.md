@@ -5,7 +5,7 @@ date: 2025-12-25 13:03:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "Apple", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "**Anthropic、倫理AI研究で新アプローチ**について詳細に分析します。"
+excerpt: "Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？"
 reading_time: 13
 ---
 

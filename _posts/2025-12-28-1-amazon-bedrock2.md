@@ -5,7 +5,7 @@ date: 2025-12-28 16:40:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、推論速度2倍にについて詳細に分析します。"
+excerpt: "Amazon Bedrockの推論速度2倍、何が変わるのか？"
 reading_time: 20
 ---
 

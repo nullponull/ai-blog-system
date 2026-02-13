@@ -5,7 +5,7 @@ date: 2025-10-27 16:42:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Meta", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
-excerpt: "Qualcomm、AIデータC参入「AI200」発表について詳細に分析します。"
+excerpt: "QualcommのAIデータセンター参入、その真意は何処にあるのか？"
 reading_time: 20
 ---
 

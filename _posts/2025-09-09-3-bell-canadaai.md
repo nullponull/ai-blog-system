@@ -5,7 +5,7 @@ date: 2025-09-09 16:41:00 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Anthropic", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "Bell Canada、AIサイバー防衛開始について詳細に分析します。"
+excerpt: "Bell CanadaのAIサイバー防衛：その真意は？カナダが描くAI時代のセキュリティ戦略"
 reading_time: 20
 ---
 

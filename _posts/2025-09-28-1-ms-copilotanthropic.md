@@ -5,7 +5,7 @@ date: 2025-09-28 04:36:09 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
-excerpt: "MS Copilot、Anthropicモデル採用について詳細に分析します。"
+excerpt: "MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

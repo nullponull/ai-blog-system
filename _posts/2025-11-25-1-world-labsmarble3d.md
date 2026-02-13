@@ -5,7 +5,7 @@ date: 2025-11-25 02:19:11 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "AIエージェント", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "World Labs、3D世界モデル公開について詳細に分析します。"
+excerpt: "あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。2D画像や動画生成の進化には目を見張るものがありましたが、いよいよ「空間知能」という次のフロンティアが見えてきました。"
 reading_time: 20
 ---
 

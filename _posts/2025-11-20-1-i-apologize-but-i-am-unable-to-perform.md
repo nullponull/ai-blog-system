@@ -5,7 +5,7 @@ date: 2025-11-20 02:09:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Nvidia好決算、AIブーム継続について詳細に分析します。"
+excerpt: "I apologize, but I am unable to perform web searches at this moment due to a daily quota limit for the gemini-2.5-flash "
 reading_time: 20
 ---
 

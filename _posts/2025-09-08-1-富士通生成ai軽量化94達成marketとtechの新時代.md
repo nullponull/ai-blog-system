@@ -5,7 +5,7 @@ date: 2025-09-08 08:41:43 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "推論最適化", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "富士通、生成AI軽量化94%達成について詳細に分析します。"
+excerpt: "富士通は、生成AIモデルのメモリ消費量を94%削減する「生成AI再構成技術」を開発しました。この革新的な技術は、同社のAIサービス「Fujitsu Kozuchi」の中核を成し、大規模言語モデル「Takane」を強化します。"
 reading_time: 5
 ---
 

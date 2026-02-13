@@ -5,7 +5,7 @@ date: 2025-12-31 04:51:50 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon Bedrock、企業向けLLM導入支援強化について詳細に分析します。"
+excerpt: "Amazon Bedrock、企業向けLLM導入支援強化の真意とは何だろうか？"
 reading_time: 10
 ---
 

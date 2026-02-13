@@ -5,7 +5,7 @@ date: 2025-09-07 16:37:31 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "Nvidia Blackwell発表について詳細に分析します。"
+excerpt: "NVIDIAは、2024年3月18日に開催された「NVIDIA GTC 2024」において、次世代AIプラットフォーム「NVIDIA Blackwell」を発表しました。"
 reading_time: 8
 ---
 

@@ -5,7 +5,7 @@ date: 2025-10-10 13:01:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Meta", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "IBM、Anthropic Claudeを統合について詳細に分析します。"
+excerpt: "IBMとAnthropic Claudeの統合：エンタープライズAI開発の未来は何を語るのか？"
 reading_time: 20
 ---
 

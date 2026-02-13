@@ -5,7 +5,7 @@ date: 2025-12-08 08:51:06 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "RAG", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**Airwallex: AI Automates Workflows**について詳細に分析します。"
+excerpt: "いやはや、AIの話題は尽きませんね。私もこの業界を20年近く見てきましたが、ここ数年のような、まさに「革命」と呼ぶにふさわしい変化は初めてかもしれません。特に金融分野でのAI活用は、私自身も懐疑的な目を向けてきた部分がありましたが、最近、"
 reading_time: 20
 ---
 

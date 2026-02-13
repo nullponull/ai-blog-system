@@ -5,7 +5,7 @@ date: 2026-02-07 20:46:11 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "ByteDance", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "ByteDance、AI画像生成モデル「Doubao 2.0」投入について詳細に分析します。"
+excerpt: "ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？"
 reading_time: 19
 ---
 

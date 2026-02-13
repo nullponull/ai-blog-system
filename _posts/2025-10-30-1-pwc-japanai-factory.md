@@ -5,7 +5,7 @@ date: 2025-10-30 08:03:51 +0000
 categories: ["導入事例"]
 tags: ["LLM", "RAG", "AIエージェント", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "PwC Japan、AI Factory発足について詳細に分析します。"
+excerpt: "PwC Japanの「AI Factory」発足、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

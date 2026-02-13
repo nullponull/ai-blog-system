@@ -5,7 +5,7 @@ date: 2026-01-29 08:59:54 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "**DeepMind、新AIモデル「AlphaGeometry 2」公開**について詳細に分析します。"
+excerpt: "DeepMindの「AlphaGeometry 2」は、何を変えるのか？"
 reading_time: 8
 ---
 

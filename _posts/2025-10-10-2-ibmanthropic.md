@@ -5,7 +5,7 @@ date: 2025-10-10 08:39:57 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
-excerpt: "IBMとAnthropic提携、生産性45%向上について詳細に分析します。"
+excerpt: "IBMとAnthropicの提携が示す、開発現場の未来図とは？"
 reading_time: 20
 ---
 

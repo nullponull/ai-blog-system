@@ -5,7 +5,7 @@ date: 2025-11-11 02:19:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "推論最適化", "ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
-excerpt: "ASUS IoT、AlgorizedとエッジAI提携について詳細に分析します。"
+excerpt: "ASUS IoTとAlgorizedの提携、その真意はどこにあるのか？"
 reading_time: 20
 ---
 

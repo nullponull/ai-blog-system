@@ -5,7 +5,7 @@ date: 2025-11-08 02:06:20 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
-excerpt: "Microsoft、独自画像生成AI「MAI Image 1」発表について詳細に分析します。"
+excerpt: "Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？"
 reading_time: 20
 ---
 

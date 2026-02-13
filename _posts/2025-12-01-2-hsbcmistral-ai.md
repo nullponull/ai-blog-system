@@ -5,7 +5,7 @@ date: 2025-12-01 08:49:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "LLM", "推論最適化", "ファインチューニング", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "HSBC、Mistral AIと提携加速について詳細に分析します。"
+excerpt: "金融の巨人が選んだ道：HSBCとMistral AI提携の真意とは？"
 reading_time: 20
 ---
 

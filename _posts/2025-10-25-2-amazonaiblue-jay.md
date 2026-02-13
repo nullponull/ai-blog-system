@@ -5,7 +5,7 @@ date: 2025-10-25 02:05:02 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "AIエージェント", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
-excerpt: "Amazon、新型AIロボット「Blue Jay」発表について詳細に分析します。"
+excerpt: "Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と雇用への真意とは？"
 reading_time: 20
 ---
 
