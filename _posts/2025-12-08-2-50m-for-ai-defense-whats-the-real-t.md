@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**$50M for AI Defense: What's the Real T？"
+title: "$50M for AI Defense: What's the Real T？"
 date: 2025-12-08 08:50:26 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "RAG", "AIエージェント", "ROI分析"]

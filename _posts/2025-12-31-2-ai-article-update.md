@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "やあの可能性とは？"
+title: "Baidu「Kunlun 5」がAI半導体市場に投じる波紋：その真意と、私たちが備えるべき未来とは？"
 date: 2025-12-31 02:27:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]

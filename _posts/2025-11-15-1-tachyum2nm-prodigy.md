@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tachyumの2nm Prodigyの可能性とは"
+title: "Tachyumの2nm Prodigy、AI性能21倍向上は本当か？"
 date: 2025-11-15 16:36:28 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "推論最適化", "AI人材"]

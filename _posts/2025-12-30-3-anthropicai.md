@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AnthropicのAI倫理の可能性とは"
+title: "AnthropicのAI倫理、世界標準になるって本当？"
 date: 2025-12-30 20:38:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]

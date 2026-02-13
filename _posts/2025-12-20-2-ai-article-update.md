@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ねえの可能性とは？"
+title: "Amazon AWSのAIインフラ200億ドル投資、その真意とは？"
 date: 2025-12-20 12:59:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

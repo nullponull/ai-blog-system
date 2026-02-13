@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Googleの「Nano Banana Pro」：その"
+title: "Googleの「Nano Banana Pro」：日本語AI画像生成、その真意はどこにあるのか？"
 date: 2025-12-01 02:40:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "マルチモーダル", "画像生成", "推論最適化"]

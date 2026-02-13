@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMind AlphaEvolveが科学発見を"
+title: "DeepMind AlphaEvolveが科学発見をどう変えるのか？"
 date: 2025-10-19 20:34:36 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材", "AI倫理"]

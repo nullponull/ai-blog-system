@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kyndrylの「Agentic AI Framework」が"
+title: "Kyndrylの「Agentic AI Framework」が示す、企業AI導入の次なる真意とは？"
 date: 2025-10-01 08:41:33 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

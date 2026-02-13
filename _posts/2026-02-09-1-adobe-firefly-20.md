@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Adobe Firefly 2.0はの可能性と？"
+title: "Adobe Firefly 2.0はの可能性と？"
 date: 2026-02-09 17:13:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "LLM", "マルチモーダル", "画像生成", "AI規制", "AI人材"]

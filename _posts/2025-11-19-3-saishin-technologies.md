@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "タイトル: Saishin Technologiesの可"
+title: "Saishin Technologiesの可"
 date: 2025-11-19 08:43:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "音声AI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

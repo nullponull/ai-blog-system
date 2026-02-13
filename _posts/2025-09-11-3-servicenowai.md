@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ServiceNowのAI強化、その"
+title: "ServiceNowのAI強化、その真意は？"
 date: 2025-09-11 04:37:44 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "AIエージェント", "AI規制", "AI人材"]

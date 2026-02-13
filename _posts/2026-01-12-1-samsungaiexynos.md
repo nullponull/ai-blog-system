@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsungの次世代AIチップ「Exynos "
+title: "Samsungの次世代AIチップ「Exynos"
 date: 2026-01-12 13:11:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "画像生成"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "やあの可能性とは？"
+title: "Samsung Exynos 3000、モバイルAIチップの新たな波は来るのか？"
 date: 2025-12-16 16:48:31 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]

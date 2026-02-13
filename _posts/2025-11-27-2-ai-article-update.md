@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "タイトル：その真意は？"
+title: "サカナAI、200億円調達の真意とは？"
 date: 2025-11-27 08:46:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "AIエージェント"]

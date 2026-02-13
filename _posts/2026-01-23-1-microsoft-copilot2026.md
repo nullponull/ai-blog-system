@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Microsoft Copilotが描く2026年の"
+title: "Microsoft Copilotが描く2026年、売上100億ドルの真価を問う。"
 date: 2026-01-23 20:40:42 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

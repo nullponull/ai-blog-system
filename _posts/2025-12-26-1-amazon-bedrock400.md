@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの400モデル突破は"
+title: "Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？"
 date: 2025-12-26 20:35:23 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "AIエージェント"]

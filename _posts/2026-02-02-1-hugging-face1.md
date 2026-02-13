@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Hugging Faceの1億ドル調達の可"
+title: "Hugging Faceの1億ドル調達の可"
 date: 2026-02-02 17:01:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
