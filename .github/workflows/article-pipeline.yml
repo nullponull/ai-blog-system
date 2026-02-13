@@ -1,0 +1,89 @@
+name: AI Article Pipeline v2 (Orchestrated)
+
+on:
+  schedule:
+    - cron: '15 */4 * * *'  # Every 4 hours (same as existing)
+  workflow_dispatch:
+    inputs:
+      articles:
+        description: 'Number of articles to generate'
+        required: false
+        default: '3'
+      skip_enrich:
+        description: 'Skip enrich_article.py'
+        required: false
+        default: 'false'
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync with latest changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull origin main || echo "No remote changes to pull"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          npm install -g textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing @textlint-ja/textlint-rule-preset-ai-writing
+          pip install -r requirements.txt
+          mkdir -p _posts assets/images/posts
+
+      - name: Install Japanese fonts (for OGP images)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk 2>/dev/null || true
+
+      - name: Generate articles
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
+        run: |
+          ARTICLES="${{ github.event.inputs.articles || '3' }}"
+          SKIP_ENRICH=""
+          if [ "${{ github.event.inputs.skip_enrich }}" = "true" ]; then
+            SKIP_ENRICH="--skip-enrich"
+          fi
+
+          python3 scripts/article_pipeline.py \
+            --articles "$ARTICLES" \
+            $SKIP_ENRICH
+
+      - name: Commit and push new articles
+        run: |
+          git add _posts/ assets/images/posts/ _data/
+
+          NEW_FILES=$(git diff --cached --name-only | wc -l)
+          if [ "$NEW_FILES" -gt 0 ]; then
+            ARTICLE_COUNT=$(git diff --cached --name-only -- '_posts/*.md' | wc -l)
+            git commit -m "feat: AI記事${ARTICLE_COUNT}本を自動生成 (Pipeline v2)
+
+            - ナレッジベース活用による高品質記事生成
+            - 6ステージ品質管理パイプライン
+            - カテゴリ多様化・タグ最適化済み"
+
+            git push origin main
+            echo "Published ${ARTICLE_COUNT} articles"
+          else
+            echo "No new articles to publish"
+          fi
