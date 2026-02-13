@@ -57,6 +57,7 @@ jobs:
 
       - name: Generate articles
         env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEY2 }},${{ secrets.GEMINI_API_KEY3 }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           ARTICLES="${{ github.event.inputs.articles || '3' }}"
