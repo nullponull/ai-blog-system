@@ -2,11 +2,11 @@
 layout: post
 title: "AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？"
 date: 2025-09-27 12:53:28 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "ROI分析", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe/Google AI画像生成統合について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？

@@ -2,8 +2,8 @@
 layout: post
 title: "ねえの可能性とは？"
 date: 2025-12-20 12:59:06 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon AWS、AIインフラ投資200億ドル増強について詳細に分析します。"
 reading_time: 8

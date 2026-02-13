@@ -2,11 +2,11 @@
 layout: post
 title: "Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？"
 date: 2025-10-15 13:04:09 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle、16ZFLOPS AIスパコン発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？

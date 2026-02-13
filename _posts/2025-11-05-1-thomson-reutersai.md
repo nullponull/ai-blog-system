@@ -2,11 +2,11 @@
 layout: post
 title: "Thomson ReutersのAIエージェント�"
 date: 2025-11-05 20:37:11 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["xAI", "LLM", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Thomson Reuters、専門家向けAIエージェント発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Thomson ReutersのAIエージェント、専門家の働き方をどう変えるのか？

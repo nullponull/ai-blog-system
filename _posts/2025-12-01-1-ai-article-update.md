@@ -2,11 +2,11 @@
 layout: post
 title: "AIが企業生産性を変える：その真価と私たちが今すべきこととは？"
 date: 2025-12-01 16:47:44 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Microsoft", "投資", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AI企業生産性向上: OpenAI他が牽引について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIが企業生産性を変える：その真価と私たちが今すべきこととは？

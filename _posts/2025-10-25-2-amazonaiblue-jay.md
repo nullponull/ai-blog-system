@@ -2,11 +2,11 @@
 layout: post
 title: "Amazonの新型AIロボット「Blue Jay"
 date: 2025-10-25 02:05:02 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Amazon", "AIエージェント", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、新型AIロボット「Blue Jay」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と雇用への真意とは？

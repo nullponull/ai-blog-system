@@ -2,11 +2,11 @@
 layout: post
 title: "ソフトバンクの物理AI投資、その真意はどこにあるのか？"
 date: 2025-10-15 02:07:04 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "LLM", "AIエージェント", "マルチモーダル", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、物理AIに54億ドル投資について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ソフトバンクの物理AI投資、その真意はどこにあるのか？

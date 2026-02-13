@@ -2,11 +2,11 @@
 layout: post
 title: "ByteDanceのAI倫理指針、その真意は何なのか？"
 date: 2026-02-05 09:03:13 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["AI技術ガイド"]
+tags: ["ByteDance", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**ByteDance、AI生成コンテンツ倫理指針発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 ByteDanceのAI倫理指針、その真意は何なのか？

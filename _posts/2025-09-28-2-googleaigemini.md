@@ -2,11 +2,11 @@
 layout: post
 title: "GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？"
 date: 2025-09-28 02:19:06 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Google、ロボットAI「Gemini」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？

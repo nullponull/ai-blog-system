@@ -2,11 +2,11 @@
 layout: post
 title: "AI資産運用、その真意は？SBI AlpacaTechと第一生命の提携が示す未来"
 date: 2025-09-18 20:35:21 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "AIエージェント", "AI規制", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "SBI AlpacaTech、第一生命とAI資産運用提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AI資産運用、その真意は？SBI AlpacaTechと第一生命の提携が示す未来

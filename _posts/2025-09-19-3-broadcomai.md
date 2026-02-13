@@ -2,11 +2,11 @@
 layout: post
 title: "BroadcomのAI半導体、その大型受注が示す業界の真意とは？"
 date: 2025-09-19 08:39:46 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Broadcom", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Broadcom、AI半導体で大型受注について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 BroadcomのAI半導体、その大型受注が示す業界の真意とは？

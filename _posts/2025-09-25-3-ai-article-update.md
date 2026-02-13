@@ -2,11 +2,11 @@
 layout: post
 title: "電通とソフトバンクの日本語広告AI、その真意はどこにあるのか？"
 date: 2025-09-25 16:40:55 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "xAI", "LLM", "ファインチューニング", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "電通ら、日本語広告AI共同研究について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 電通とソフトバンクの日本語広告AI、その真意はどこにあるのか？

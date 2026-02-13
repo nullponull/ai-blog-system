@@ -2,11 +2,11 @@
 layout: post
 title: "ByteDanceのAI教育参入、何が変わるのか？"
 date: 2026-01-04 08:43:34 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "xAI", "ByteDance", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDance、AI学習ツールで教育市場開拓について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ByteDanceのAI教育参入、何が変わるのか？

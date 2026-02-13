@@ -2,11 +2,11 @@
 layout: post
 title: "AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？"
 date: 2026-02-12 05:42:41 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "NVIDIA", "Amazon", "推論最適化", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "**AWS SageMaker、創薬AIで30%高速化**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？

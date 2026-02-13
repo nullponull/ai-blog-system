@@ -2,11 +2,11 @@
 layout: post
 title: "# Amazon Bedrockが示すAIモデルの�"
 date: 2025-12-19 13:04:26 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["Microsoft", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新LLM10種追加**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## Amazon Bedrockが示すAIモデルの「百貨店化」、その戦略の深層に迫る

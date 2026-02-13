@@ -2,8 +2,8 @@
 layout: post
 title: "MicrosoftのAIチップ自社開発加�"
 date: 2026-02-08 03:36:18 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft、AIチップ自社開発を加速**について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "Google Gemini、AI検索で覇権狙い"
 date: 2025-08-30 12:01:36 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 12
 ---
 # GoogleのAI覇権戦略：Geminiの進化とAIモードのグローバル展開
 

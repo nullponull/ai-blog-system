@@ -2,11 +2,11 @@
 layout: post
 title: "L&T TechとMITのAGI探求、その真意はどこにあるのか？"
 date: 2025-09-19 12:59:42 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "xAI", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "L&T Tech、MITと提携しAGI探求について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 L&T TechとMITのAGI探求、その真意はどこにあるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "World Labsが仕掛ける「空間AI」�"
 date: 2025-11-20 20:37:56 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "World Labs、空間AIで$投資について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探る

@@ -2,11 +2,11 @@
 layout: post
 title: "EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？"
 date: 2025-10-10 02:05:27 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "EU、新AI戦略「Apply AI」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？

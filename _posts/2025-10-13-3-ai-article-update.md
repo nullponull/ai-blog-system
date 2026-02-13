@@ -2,11 +2,11 @@
 layout: post
 title: "AIオンコロジー市場の可能性�"
 date: 2025-10-13 20:35:47 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "AIオンコロジー市場、2035年91億ドルへについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIオンコロジー市場、2035年に91億ドルへ？その真意と、私たちが今考えるべきこと。

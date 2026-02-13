@@ -2,11 +2,11 @@
 layout: post
 title: "AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？"
 date: 2026-01-30 20:48:45 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "**AWS、AIチップ「Inferentia 3」でコスト削減50%**について詳細に分析します。"
-reading_time: 8
+reading_time: 19
 ---
 
 AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？

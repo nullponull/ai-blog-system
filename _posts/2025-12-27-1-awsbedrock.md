@@ -2,8 +2,8 @@
 layout: post
 title: "AWS新モデル、Bedrockのコスト半減は本当にすごいのか？"
 date: 2025-12-27 08:40:49 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["Meta", "NVIDIA", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、AWS新モデルでコスト半減**について詳細に分析します。"
 reading_time: 8

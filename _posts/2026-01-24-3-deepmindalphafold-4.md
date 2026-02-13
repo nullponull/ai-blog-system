@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindの「AlphaFold 4」の可能性"
 date: 2026-01-24 04:48:47 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["研究論文"]
+tags: ["Google", "LLM", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind、新タンパク質予測モデル「AlphaFold 4」開発について詳細に分析します。"
-reading_time: 8
+reading_time: 15
 ---
 
 DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？"
 date: 2025-10-23 13:07:16 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "NVIDIA", "LLM", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "NTT、国産LLM「tsuzumi 2」提供開始について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrock、次世代LLM連携強化で何が変わるのか？"
 date: 2026-02-01 16:48:38 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、次世代LLM連携強化**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrock、次世代LLM連携強化で何が変わるのか？

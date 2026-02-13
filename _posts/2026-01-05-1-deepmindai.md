@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindの創薬AIが予測する「承"
 date: 2026-01-05 05:06:29 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "LLM", "推論最適化", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、創薬AIで新物質発見、承認率80%予測**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 DeepMindの創薬AIが予測する「承認率80%」は、製薬業界に何をもたらすのか？

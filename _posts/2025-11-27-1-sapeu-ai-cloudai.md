@@ -2,11 +2,11 @@
 layout: post
 title: "SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？"
 date: 2025-11-27 08:45:59 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "SAP、EU AI Cloud発表：SAPが欧州デジタル主権向け「EU AI Cloud」を発表。地域のについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？

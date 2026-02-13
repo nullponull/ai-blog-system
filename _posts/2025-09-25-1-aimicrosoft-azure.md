@@ -2,11 +2,11 @@
 layout: post
 title: "韓国AI市場、Microsoft Azureが牽引する変革の真意とは？"
 date: 2025-09-25 13:02:27 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Microsoft", "AIエージェント", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Azure、韓国企業AI導入加速について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 韓国AI市場、Microsoft Azureが牽引する変革の真意とは？

@@ -2,11 +2,11 @@
 layout: post
 title: "Google ChromeにGemini AI搭載の可能"
 date: 2025-09-20 16:34:48 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "Google Chrome、Gemini AI機能搭載について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？

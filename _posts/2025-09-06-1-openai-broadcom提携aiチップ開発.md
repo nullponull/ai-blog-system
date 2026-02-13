@@ -2,11 +2,11 @@
 layout: post
 title: "OpenAI Broadcom提携、AIチップ開発"
 date: 2025-09-06 12:01:03 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI Broadcom提携、AIチップ開発について詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 # OpenAI Broadcom提携、AIチップ開発

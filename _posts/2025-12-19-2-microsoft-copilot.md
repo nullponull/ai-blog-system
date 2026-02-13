@@ -2,8 +2,8 @@
 layout: post
 title: "Microsoft Copilot、中小企業をどう変える？その真意は？"
 date: 2025-12-19 20:36:57 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot、中小企業向け新機能**について詳細に分析します。"
 reading_time: 8

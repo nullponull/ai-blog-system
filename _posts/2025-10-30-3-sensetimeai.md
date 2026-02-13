@@ -2,11 +2,11 @@
 layout: post
 title: "SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？"
 date: 2025-10-30 16:45:12 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["マルチモーダル", "音声AI", "AI規制", "セキュリティ", "自動運転", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "SenseTime、自動運転AIで新提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？

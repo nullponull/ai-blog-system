@@ -2,11 +2,11 @@
 layout: post
 title: "Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？"
 date: 2025-09-18 08:40:44 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Amazon", "LLM", "AIエージェント", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Ping Identity、AI信頼性新FW発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？

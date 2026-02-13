@@ -2,11 +2,11 @@
 layout: post
 title: "Oracleが年次イベントを「AI Worl"
 date: 2025-10-21 08:45:36 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle、年次イベントを「AI World」に改称について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。

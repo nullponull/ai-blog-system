@@ -2,11 +2,11 @@
 layout: post
 title: "GoogleとAnthropicのTPU契約、その真意はどこにあるのか？"
 date: 2025-10-26 16:38:33 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Google、AnthropicとTPU契約について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 GoogleとAnthropicのTPU契約、その真意はどこにあるのか？

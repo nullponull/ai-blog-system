@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockのコスト半減、何が変わるのか？"
 date: 2025-12-24 02:23:41 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデルでコスト半減について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrockのコスト半減、何が変わるのか？

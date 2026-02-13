@@ -2,11 +2,11 @@
 layout: post
 title: "Firefly V5、Adobeはどこへ向かうのか？"
 date: 2026-01-05 08:51:25 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Apple", "マルチモーダル", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "**AI画像生成、Adobe Firefly V5発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Firefly V5、Adobeはどこへ向かうのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "PwC Japanの「AI Factory」はの可能"
 date: 2025-11-01 02:19:58 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "PwC Japan、AI Factory設立について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 PwC Japanの「AI Factory」は、コンサルティングの未来をどう変えるのか？

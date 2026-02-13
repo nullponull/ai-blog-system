@@ -2,11 +2,11 @@
 layout: post
 title: "ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？"
 date: 2025-09-15 02:12:37 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "LLM", "RAG", "AIエージェント", "マルチモーダル", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "ELYZA Works、AIエージェント自動生成サービス開始について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？

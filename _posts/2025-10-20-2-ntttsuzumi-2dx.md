@@ -2,11 +2,11 @@
 layout: post
 title: "NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？"
 date: 2025-10-20 20:37:04 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "推論最適化", "ファインチューニング"]
 author: "ALLFORCES編集部"
 excerpt: "NTT、日本語特化LLM「tsuzumi 2」提供について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？

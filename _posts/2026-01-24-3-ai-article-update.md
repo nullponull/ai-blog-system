@@ -2,11 +2,11 @@
 layout: post
 title: "米国でAI規制の議論、何が変わるのでしょうか？"
 date: 2026-01-24 08:41:57 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "AI規制法案、米国で連邦レベルの議論開始について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 米国でAI規制の議論、何が変わるのでしょうか？

@@ -2,11 +2,11 @@
 layout: post
 title: "マレーシアのAI税優遇延長、その真意はどこにあるのか？"
 date: 2025-10-13 13:01:35 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "マレーシア、AI研修税優遇を2027年末まで延長について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 マレーシアのAI税優遇延長、その真意はどこにあるのか？

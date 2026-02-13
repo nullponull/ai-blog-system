@@ -2,8 +2,8 @@
 layout: post
 title: "DeepMindのAI創薬の可能性とは？"
 date: 2026-01-17 04:45:48 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "ファインチューニング", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、AI創薬で新分子設計成功**について詳細に分析します。"
 reading_time: 8

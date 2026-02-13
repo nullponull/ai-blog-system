@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon BedrockとClaude 3.5 Opus統合�"
 date: 2025-12-21 04:49:20 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、Anthropic Claude 3.5 Opus統合**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 Amazon BedrockとClaude 3.5 Opus統合、何が変わるのか？

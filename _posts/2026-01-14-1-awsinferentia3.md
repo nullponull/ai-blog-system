@@ -2,11 +2,11 @@
 layout: post
 title: "AWSのInferentia3の可能性とは？"
 date: 2026-01-14 16:51:02 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon、AWS AIチップ「Inferentia3」発表、性能2倍**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AWSのInferentia3、性能2倍の発表はAIチップ市場をどう変えるのか？ その真意と次なる一手

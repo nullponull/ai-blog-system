@@ -2,11 +2,11 @@
 layout: post
 title: "Microsoftの「MAI-Image-1」はの可�"
 date: 2025-10-25 08:36:32 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、自社製画像生成AI「MAI-Image-1」公開について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？

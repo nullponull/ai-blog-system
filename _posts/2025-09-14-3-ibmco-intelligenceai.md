@@ -2,11 +2,11 @@
 layout: post
 title: "IBMの「Co-intelligence」は、AIと人間の関係をどう変えるのか？"
 date: 2025-09-14 04:38:07 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Microsoft", "Amazon", "LLM", "RAG", "AIエージェント", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "IBM提唱「Co-intelligence」進展について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 IBMの「Co-intelligence」は、AIと人間の関係をどう変えるのか？

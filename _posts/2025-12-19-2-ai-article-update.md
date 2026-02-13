@@ -2,8 +2,8 @@
 layout: post
 title: "ソニーとインテルのAIチップ提携、真意は何だろうか？"
 date: 2025-12-19 08:46:37 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "Amazon", "マルチモーダル", "音声AI", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "Sony、AIチップ事業でIntelと提携について詳細に分析します。"
 reading_time: 8

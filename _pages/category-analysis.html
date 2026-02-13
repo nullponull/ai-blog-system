@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "業界分析 - AI市場動向・トレンド分析"
+title: "業界別AI活用 - AI市場動向・トレンド分析"
 permalink: /category/analysis/
 description: "AI業界の市場動向と将来展望について、データに基づいて分析します。"
 ---
 
 <div class="category-page">
     <div class="category-header">
-        <div class="category-icon">{% include icon.html category="業界分析" class="category-page-icon-svg" size="48" %}</div>
-        <h1>業界分析</h1>
+        <div class="category-icon">{% include icon.html category="業界別AI活用" class="category-page-icon-svg" size="48" %}</div>
+        <h1>業界別AI活用</h1>
         <p>AI業界の市場動向と将来展望について、データに基づいて分析します。</p>
         <div class="category-stats">
-            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '業界分析'" %}
+            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '業界別AI活用'" %}
             <span class="stat">{{ category_posts.size }}記事</span>
             {% if category_posts.size > 0 %}
             <span class="stat">最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>

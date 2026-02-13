@@ -2,11 +2,11 @@
 layout: post
 title: "Ant Internationalの「AI SHIELD」は�"
 date: 2025-09-26 20:33:28 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "LLM", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Ant International「AI SHIELD」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？

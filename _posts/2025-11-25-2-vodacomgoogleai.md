@@ -2,11 +2,11 @@
 layout: post
 title: "VodacomとGoogleがアフリカAI市場に投じる、その真意とは？"
 date: 2025-11-25 08:45:17 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["導入事例"]
+tags: ["Google", "マルチモーダル", "画像生成", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Vodacom/Google、アフリカAI推進について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 VodacomとGoogleがアフリカAI市場に投じる、その真意とは？

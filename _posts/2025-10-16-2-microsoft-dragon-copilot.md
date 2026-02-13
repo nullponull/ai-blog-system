@@ -2,11 +2,11 @@
 layout: post
 title: "「Microsoft Dragon Copilot」は医療�"
 date: 2025-10-16 16:42:50 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Amazon", "xAI", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "MS、医療AI「Dragon Copilot」強化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。

@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "最新動向 - AI業界ニュース"
+title: "AI最新ニュース - AI業界ニュース"
 permalink: /category/latest/
 description: "AI業界の最新ニュース、企業発表、業界動向を専門的な視点でお届けします。"
 ---
 
 <div class="category-page">
     <div class="category-header">
-        <div class="category-icon">{% include icon.html category="最新動向" class="category-page-icon-svg" size="48" %}</div>
-        <h1>最新動向</h1>
+        <div class="category-icon">{% include icon.html category="AI最新ニュース" class="category-page-icon-svg" size="48" %}</div>
+        <h1>AI最新ニュース</h1>
         <p>AI業界の最新ニュース、企業発表、業界動向を専門的な視点でお届けします。</p>
         <div class="category-stats">
-            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '最新動向'" %}
+            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains 'AI最新ニュース'" %}
             <span class="stat">{{ category_posts.size }}記事</span>
             {% if category_posts.size > 0 %}
             <span class="stat">最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>

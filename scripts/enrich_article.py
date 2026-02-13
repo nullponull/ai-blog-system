@@ -157,6 +157,18 @@ CONSULTING_CTA_MAP = {
         "cta_text": "サービス詳細を見る",
         "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=industry",
     },
+    "AI最新ニュース": {
+        "heading": "AI最新動向のレポートを配信中",
+        "text": "毎週のAI業界動向サマリーと、投資・導入判断に役立つインサイトをお届けしています。",
+        "cta_text": "サービス詳細を見る",
+        "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=news",
+    },
+    "研究論文": {
+        "heading": "最先端AI研究の実ビジネス応用",
+        "text": "論文の研究成果を実際のビジネスに活かすための技術コンサルティングを提供しています。",
+        "cta_text": "サービス詳細を見る",
+        "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=research",
+    },
 }
 
 
@@ -196,6 +208,102 @@ def build_consulting_cta_section(category: str) -> str:
     lines.append("")
 
     return "\n".join(lines)
+
+
+# ============================================================
+# 記事内中間広告の挿入
+# ============================================================
+def insert_mid_article_ad(content: str) -> str:
+    """2番目のH2見出しの前に中間広告を挿入"""
+    # frontmatterの終了位置を特定
+    fm_end = content.find("---", content.find("---") + 3)
+    if fm_end == -1:
+        return content
+
+    # frontmatter以降のH2見出しを全て検出
+    body = content[fm_end:]
+    h2_positions = [m.start() + fm_end for m in re.finditer(r'\n## ', body)]
+
+    # 2番目のH2がある場合、その前に広告を挿入
+    if len(h2_positions) >= 2:
+        insert_pos = h2_positions[1]
+        ad_html = '\n\n{% include ads-mid-article.html %}\n\n'
+        content = content[:insert_pos] + ad_html + content[insert_pos:]
+
+    return content
+
+
+# ============================================================
+# FAQスキーマ自動生成
+# ============================================================
+def generate_faq_schema(content: str) -> str:
+    """H2/H3見出しから疑問形のものをFAQスキーマとして抽出"""
+    # frontmatterの終了位置を特定
+    fm_end = content.find("---", content.find("---") + 3)
+    if fm_end == -1:
+        return ""
+
+    body = content[fm_end:]
+
+    # 疑問形の見出しを検出（？で終わるか、「とは」「なぜ」「どう」を含む）
+    faq_pattern = re.compile(r'^#{2,3}\s+(.+(?:\？|とは|なぜ|どう|どの|何が|いつ).*)$', re.MULTILINE)
+    headings = faq_pattern.findall(body)
+
+    if not headings:
+        return ""
+
+    # 各見出しの直後のパラグラフを回答として抽出
+    faq_items = []
+    for heading in headings[:5]:  # 最大5件
+        # 見出しの後の本文を取得
+        heading_escaped = re.escape(heading)
+        answer_match = re.search(
+            rf'^#{{{2,3}}}\s+{heading_escaped}\s*\n+(.+?)(?=\n#|\n---|\Z)',
+            body,
+            re.MULTILINE | re.DOTALL
+        )
+        if answer_match:
+            answer = answer_match.group(1).strip()
+            # 最初の段落のみ使用
+            first_para = answer.split('\n\n')[0].strip()
+            # Markdownの装飾を除去
+            first_para = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', first_para)
+            first_para = re.sub(r'[*_`]', '', first_para)
+            if len(first_para) > 30:  # 短すぎる回答は除外
+                faq_items.append({
+                    "question": heading.strip().replace('"', '\\"'),
+                    "answer": first_para[:500].replace('"', '\\"')
+                })
+
+    if not faq_items:
+        return ""
+
+    # JSON-LD構造化データを生成
+    faq_entries = []
+    for item in faq_items:
+        faq_entries.append(f'''    {{
+      "@type": "Question",
+      "name": "{item['question']}",
+      "acceptedAnswer": {{
+        "@type": "Answer",
+        "text": "{item['answer']}"
+      }}
+    }}''')
+
+    separator = ",\n"
+    entries_str = separator.join(faq_entries)
+    schema = f'''
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+{entries_str}
+  ]
+}}
+</script>
+'''
+    return schema
 
 
 # ============================================================
@@ -418,6 +526,9 @@ def enrich_article(filepath: str, posts_dir: str):
         print(f"  [SKIP] 既にエンリッチ済み: {os.path.basename(filepath)}")
         return False
 
+    # 中間広告の挿入
+    content = insert_mid_article_ad(content)
+
     # 比較表を本文中に挿入（最初のH2見出しの前に配置）
     comparison_tables = detect_comparison_context(content)
     comparison_count = 0
@@ -454,6 +565,12 @@ def enrich_article(filepath: str, posts_dir: str):
     content += internal_section
     content += consulting_section
     content += amazon_section
+
+    # FAQスキーマの生成と挿入
+    faq_schema = generate_faq_schema(content)
+    if faq_schema:
+        content += faq_schema
+
     content += "\n"
 
     with open(filepath, "w", encoding="utf-8") as f:

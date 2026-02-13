@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの「学習データ2倍�"
 date: 2026-01-14 04:56:34 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、学習データ2倍、コスト半減について詳細に分析します。"
-reading_time: 8
+reading_time: 11
 ---
 
 Amazon Bedrockの「学習データ2倍、コスト半減」がAI開発の未来を変えるのか？

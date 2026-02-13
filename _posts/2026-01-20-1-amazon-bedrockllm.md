@@ -2,8 +2,8 @@
 layout: post
 title: "Amazon Bedrock、企業LLM導入の「次」は何を意味するのか？"
 date: 2026-01-20 08:52:04 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、企業向けLLM採用加速について詳細に分析します。"
 reading_time: 8

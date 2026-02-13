@@ -2,11 +2,11 @@
 layout: post
 title: "君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋"
 date: 2025-12-30 13:07:09 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "LLM", "RAG", "推論最適化", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、AIチップ「Kunlun 5」発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋

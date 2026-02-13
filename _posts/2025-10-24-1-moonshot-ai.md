@@ -2,11 +2,11 @@
 layout: post
 title: "Moonshot AIの可能性とは？"
 date: 2025-10-24 04:36:48 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Meta", "LLM", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Moonshot AI、数億ドル調達へについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Moonshot AI、数億ドル調達の真意とは？中国AIの新たな波が世界を変えるのか？

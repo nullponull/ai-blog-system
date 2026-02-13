@@ -2,11 +2,11 @@
 layout: post
 title: "IntelとCiscoが描くエッジAIの未�"
 date: 2025-11-05 20:37:35 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["AIエージェント", "推論最適化", "ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "Intel/Cisco、エッジAI向け統合プラットフォームについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 IntelとCiscoが描くエッジAIの未来：その統合プラットフォームの真意とは？

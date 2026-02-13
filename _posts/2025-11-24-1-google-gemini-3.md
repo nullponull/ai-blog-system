@@ -2,11 +2,11 @@
 layout: post
 title: "Google Gemini 3の画像強化、その真価はどこにあるのか？"
 date: 2025-11-24 16:38:47 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "NVIDIA", "AIエージェント", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3発表、画像強化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google Gemini 3の画像強化、その真価はどこにあるのか？

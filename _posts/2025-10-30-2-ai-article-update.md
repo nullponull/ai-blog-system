@@ -2,11 +2,11 @@
 layout: post
 title: "シーメンスとキャップジェミニの産業AI提携、その真意はどこにあるのか？"
 date: 2025-10-30 20:35:56 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "Amazon", "AIエージェント", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Siemens/Capgemini、産業AIで提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 シーメンスとキャップジェミニの産業AI提携、その真意はどこにあるのか？

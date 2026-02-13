@@ -2,11 +2,11 @@
 layout: post
 title: "CopilotにAnthropicが加わること？"
 date: 2025-09-28 02:18:35 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "Google", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、CopilotにAnthropic追加について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 CopilotにAnthropicが加わることで、私たちのAI体験は何が変わるのか？

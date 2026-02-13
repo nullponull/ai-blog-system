@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrock、推論コスト25%削減は、何を変えるのか？"
 date: 2025-12-19 08:46:21 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "Meta", "Amazon", "Anthropic", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、推論コスト25%削減について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrock、推論コスト25%削減は、何を変えるのか？

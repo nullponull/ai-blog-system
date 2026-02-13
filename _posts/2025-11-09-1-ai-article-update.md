@@ -2,11 +2,11 @@
 layout: post
 title: "中国AIの「深化」が示す、次の産業革命の真意とは？"
 date: 2025-11-09 02:21:34 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "ByteDance", "LLM", "AIエージェント", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "中国AI、普及加速と産業統合深化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 中国AIの「深化」が示す、次の産業革命の真意とは？

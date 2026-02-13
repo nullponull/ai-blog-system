@@ -2,11 +2,11 @@
 layout: post
 title: "データセクションの豪州AIデ�"
 date: 2025-10-14 08:40:43 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Microsoft", "NVIDIA", "Amazon", "LLM", "画像生成", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "データセクション、豪でAIデータセンター100MW供給について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 データセクションの豪州AIデータセンター100MW供給、その真意はどこにあるのか？

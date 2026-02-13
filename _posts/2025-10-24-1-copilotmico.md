@@ -2,11 +2,11 @@
 layout: post
 title: "Copilot新アバター「Mico」登場、その真意はどこにあるのか？"
 date: 2025-10-24 13:03:40 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "Google", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "Copilot新アバター「Mico」登場について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Copilot新アバター「Mico」登場、その真意はどこにあるのか？

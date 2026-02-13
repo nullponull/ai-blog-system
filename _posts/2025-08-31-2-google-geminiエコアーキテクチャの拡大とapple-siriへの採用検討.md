@@ -2,11 +2,11 @@
 layout: post
 title: "Google Geminiエコアーキテクチャの拡大とApple Siriへの採用検討:"
 date: 2025-08-31 16:40:13 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 6
 ---
 # **Google Geminiエコアーキテクチャの拡大とApple Siriへの採用検討**:
 

@@ -2,11 +2,11 @@
 layout: post
 title: "Ant Groupの1兆パラメータAI「Ling"
 date: 2025-10-26 12:56:33 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "NVIDIA", "LLM", "マルチモーダル", "推論最適化", "ファインチューニング"]
 author: "ALLFORCES編集部"
 excerpt: "Ant Group、1兆パラメータAI公開について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Ant Groupの1兆パラメータAI「Ling-1T」が示す、オープンソースの新たな地平とは？

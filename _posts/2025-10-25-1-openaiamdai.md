@@ -2,11 +2,11 @@
 layout: post
 title: "OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面"
 date: 2025-10-25 02:04:30 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、AMDと巨額AIインフラ提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面

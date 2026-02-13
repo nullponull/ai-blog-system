@@ -2,11 +2,11 @@
 layout: post
 title: "Microsoftの「MAI Image 1」が示す�"
 date: 2025-11-08 02:06:20 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "OpenAI", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、独自画像生成AI「MAI Image 1」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？

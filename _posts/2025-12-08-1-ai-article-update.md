@@ -2,11 +2,11 @@
 layout: post
 title: "AIによる創薬加速：その真意�"
 date: 2025-12-08 08:49:49 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "AIエージェント", "マルチモーダル", "AI規制", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**MediNova AI: Drug Discovery 20% Faster**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIによる創薬加速：MediNova AIの「20%高速化」という話、どこまで信じる？

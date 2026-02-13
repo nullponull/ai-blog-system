@@ -2,11 +2,11 @@
 layout: post
 title: "# Amazon Bedrockの可能性とは？"
 date: 2025-12-25 04:50:38 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルで生成コスト半減**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 ## Amazon Bedrock、新モデルで生成コスト半減の真意とは？その影響と未来を読み解く。

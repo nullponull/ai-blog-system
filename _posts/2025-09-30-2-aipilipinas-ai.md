@@ -2,11 +2,11 @@
 layout: post
 title: "フィリピン国産AI「Pilipinas AI�"
 date: 2025-09-30 02:01:44 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "フィリピン国産AI「Pilipinas AI」について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 フィリピン国産AI「Pilipinas AI」の真意とは？ 新興市場のAI戦略を読み解く。

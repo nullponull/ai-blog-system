@@ -2,11 +2,11 @@
 layout: post
 title: "Anthropic Claude Skillsの真意はどこにあるのか？"
 date: 2025-10-18 16:36:04 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Microsoft", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Skills発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Anthropic Claude Skillsの真意はどこにあるのか？

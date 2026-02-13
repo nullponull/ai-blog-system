@@ -2,8 +2,8 @@
 layout: post
 title: "Amazon Bedrock、30超の生成AIモデル、何が変わるのか？"
 date: 2026-02-11 03:26:43 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、生成AIモデル30種超にについて詳細に分析します。"
 reading_time: 8

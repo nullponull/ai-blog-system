@@ -2,11 +2,11 @@
 layout: post
 title: "**中国Baiduの自動運転AI『Apollo "
 date: 2026-02-06 05:24:01 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["導入事例"]
+tags: ["Google", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、自動運転AI「Apollo 8.0」公開。実証実験都市拡大。**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 **中国Baiduの自動運転AI『Apollo 8.0』、その進化はどこまで本物か？ 20年の経験から語る**

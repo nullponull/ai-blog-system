@@ -2,11 +2,11 @@
 layout: post
 title: "東大のAI創薬、このニュース、あなたも気になってる？"
 date: 2026-01-20 08:52:29 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["導入事例"]
+tags: ["AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "東京大学、AI創薬で新薬候補発見について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 東大のAI創薬、このニュース、あなたも気になってる？

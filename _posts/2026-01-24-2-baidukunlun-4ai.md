@@ -2,11 +2,11 @@
 layout: post
 title: "Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？"
 date: 2026-01-24 08:41:46 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "中国Baidu、AIチップ「Kunlun 4」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？
