@@ -201,12 +201,11 @@ class ComplianceLoader:
 
 
 # Compliance check patterns (used by quality_scorer.py)
+# Each tuple: (pattern, description, penalty_per_match)
 COMPLIANCE_PATTERNS = [
     # Definitive income guarantees (景品表示法 violation risk)
     (r'(?:誰でも|誰もが|あなたも)(?:簡単に|必ず|確実に|絶対).{0,10}(?:稼げ|儲か|収入|収益)',
      "断定的収入保証（景品表示法違反リスク）", 3),
-    (r'(?:必ず|絶対に|確実に).{0,15}(?:月\d+万|稼げ|成功)',
-     "断定的成功保証（景品表示法違反リスク）", 3),
     (r'(?:誰でも|初心者でも)(?:簡単に|すぐに).{0,10}(?:稼|収入|収益)',
      "「誰でも簡単に」系の誇大表現", 2),
 
@@ -221,9 +220,19 @@ COMPLIANCE_PATTERNS = [
     # Investment advice risk
     (r'(?:この銘柄|この株|この投資).{0,10}(?:買う(?:べき|べし)|おすすめ)',
      "投資助言に該当する表現（金融商品取引法リスク）", 3),
+]
 
-    # False urgency / scarcity
+# Negation-aware patterns: matched per-line, skip if line contains negation context
+# Each tuple: (pattern, negation_context_patterns, description, penalty_per_match)
+NEGATION_AWARE_PATTERNS = [
+    # "必ず...成功" — but NOT when preceded/followed by negation
+    (r'(?:必ず|絶対に|確実に).{0,15}(?:月\d+万|稼げ|成功)',
+     [r'必ずしも', r'わけではあり', r'とは限', r'保証.*ない', r'ない.*保証'],
+     "断定的成功保証（景品表示法違反リスク）", 3),
+
+    # "期間限定...無料" — but NOT when describing another company's offering
     (r'(?:今だけ|期間限定|先着\d+名).{0,10}(?:無料|割引|特別価格)',
+     [r'提供して', r'提供し', r'と報じ', r'発表', r'利用できる', r'ユーザー'],
      "虚偽の緊急性・限定性（有利誤認リスク）", 2),
 ]
 
@@ -242,6 +251,10 @@ DISCLAIMER_PATTERNS = [
 def check_compliance(body: str):
     """Check article body for compliance violations.
 
+    Uses two pattern categories:
+    1. COMPLIANCE_PATTERNS: Simple regex match (always a violation)
+    2. NEGATION_AWARE_PATTERNS: Per-line check that skips negation context
+
     Args:
         body: Article body text.
 
@@ -253,6 +266,7 @@ def check_compliance(body: str):
     detected = []
     total_penalty = 0
 
+    # 1. Simple pattern matching (no negation awareness needed)
     for pattern, description, penalty_per_match in COMPLIANCE_PATTERNS:
         matches = re.findall(pattern, body, re.MULTILINE)
         if matches:
@@ -260,7 +274,20 @@ def check_compliance(body: str):
             detected.append(f"{description} ({count}件)")
             total_penalty += penalty_per_match * count
 
-    # Check for income claims without disclaimer
+    # 2. Negation-aware pattern matching (per-line, skip if negation context found)
+    for pattern, negation_patterns, description, penalty_per_match in NEGATION_AWARE_PATTERNS:
+        real_match_count = 0
+        for line in body.split('\n'):
+            if re.search(pattern, line):
+                # Check if the same line contains negation context
+                is_negated = any(re.search(neg, line) for neg in negation_patterns)
+                if not is_negated:
+                    real_match_count += 1
+        if real_match_count > 0:
+            detected.append(f"{description} ({real_match_count}件)")
+            total_penalty += penalty_per_match * real_match_count
+
+    # 3. Check for income claims without disclaimer
     has_income_claim = bool(re.search(r'月\d+[万千]円', body))
     if has_income_claim:
         has_disclaimer = any(re.search(p, body) for p in DISCLAIMER_PATTERNS)
