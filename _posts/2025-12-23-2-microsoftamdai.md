@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftとAMDのAIチップ提携が�"
+title: "MicrosoftとAMDのAIチップ提携が"
 date: 2025-12-23 20:36:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Microsoft Copilot Xが示す生産性2"
+title: "Microsoft Copilot Xが示す生産性25%向上は、本当に次の産業革命の狼煙なのか？"
 date: 2026-02-04 17:07:53 +0000
 categories: ["導入事例"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "推論最適化", "ファインチューニング"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Googleの「Antigravity」はAI開発の常識を覆すのか？**"
+title: "Googleの「Antigravity」はAI開発の常識を覆すのか？"
 date: 2025-11-27 13:04:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Anthropic", "AIエージェント", "マルチモーダル"]

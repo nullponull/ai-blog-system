@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**SAPのAI統合ERP戦略：企業DXの加速は夢か現実か、その深層を探る**"
+title: "SAPのAI統合ERP戦略：企業DXの加速は夢か現実か、その深層を探る"
 date: 2026-01-01 20:37:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI人材", "DX推進"]

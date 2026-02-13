@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Cohereの企業向けLLM強化、その真意とAI市場の次なる波を見極める"
+title: "Cohereの企業向けLLM強化、その真意とAI市場の次なる波を見極める"
 date: 2026-01-13 04:53:19 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

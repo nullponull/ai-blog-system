@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "パナソニックの「Reflect-Dit」�"
+title: "パナソニックの「Reflect-Dit」"
 date: 2025-10-20 20:37:32 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "LLM", "AIエージェント", "マルチモーダル", "画像生成", "ROI分析"]

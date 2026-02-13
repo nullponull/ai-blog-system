@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# マイクロソフト Copilot 2.0の�"
+title: "マイクロソフト Copilot 2.0の"
 date: 2026-01-10 16:39:58 +0000
 categories: ["導入事例"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

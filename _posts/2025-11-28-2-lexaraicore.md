@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lexarの「AIストレージCore」発�"
+title: "Lexarの「AIストレージCore」発"
 date: 2025-11-28 13:03:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "マルチモーダル", "画像生成", "推論最適化", "ROI分析"]

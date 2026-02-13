@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# マイクロソフトCopilot月間1億"
+title: "マイクロソフトCopilot月間1億人超え：この数字の裏に隠されたAIの本当の価値とは？"
 date: 2026-01-30 20:48:34 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "LLM"]

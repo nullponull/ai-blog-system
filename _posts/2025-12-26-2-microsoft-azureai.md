@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Microsoft Azureの量子AI基盤発表"
+title: "Microsoft Azureの量子AI基盤発表：その真意と、私たちの未来に何をもたらすのか？"
 date: 2025-12-26 02:25:22 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA"]

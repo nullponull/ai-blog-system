@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Samsung新ISPが示す未来：AIスマホ競争、その真意とは何か？**"
+title: "Samsung新ISPが示す未来：AIスマホ競争、その真意とは何か？"
 date: 2026-01-31 20:40:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Apple", "RAG", "マルチモーダル", "ROI分析", "AI人材"]

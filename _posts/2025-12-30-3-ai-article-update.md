@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI倫理の国際標準化の可能性�"
+title: "AI倫理の国際標準化の可能性"
 date: 2025-12-30 13:07:31 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Microsoft", "Amazon", "xAI", "AI規制", "AI人材"]

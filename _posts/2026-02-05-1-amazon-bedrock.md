@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの新モデルがコス"
+title: "Amazon Bedrockの新モデルがコスト30%削減？その裏に隠されたAI市場の真意とは"
 date: 2026-02-05 20:52:33 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

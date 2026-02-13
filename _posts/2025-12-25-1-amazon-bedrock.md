@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの可能性とは？"
+title: "Amazon Bedrock、新モデルで生成コスト半減の真意とは？その影響と未来を読み解く。"
 date: 2025-12-25 04:50:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Intel Gaudi 3bの可能性とは？"
+title: "Intel Gaudi 3b、推論性能2倍の発表は、AIアクセラレーター市場に何をもたらすのか？"
 date: 2026-01-15 04:53:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

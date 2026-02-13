@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの新モデルが提示"
+title: "Amazon Bedrockの新モデルが提示するコスト半減。AIビジネスの風景は、どう変わるのか。"
 date: 2025-12-18 02:21:20 +0000
 categories: ["導入事例"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

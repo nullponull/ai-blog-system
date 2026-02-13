@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Microsoft Copilotの企業導入率60%"
+title: "Microsoft Copilotの企業導入率60%超え：その数字が映し出す未来への問い。"
 date: 2026-01-20 16:53:40 +0000
 categories: ["導入事例"]
 tags: ["OpenAI", "Microsoft", "LLM", "RAG", "ROI分析", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilotの「生産性25%向�"
+title: "Microsoft Copilotの「生産性25%向"
 date: 2025-12-19 04:49:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "LLM", "ROI分析", "AI規制", "AI人材"]

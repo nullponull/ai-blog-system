@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsungの次世代AIスマホ向けSoC�"
+title: "Samsungの次世代AIスマホ向けSoC"
 date: 2025-12-23 04:50:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]

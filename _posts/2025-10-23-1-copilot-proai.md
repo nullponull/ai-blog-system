@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Copilot Proが拓く自律AIエージェントの真意とは？"
+title: "Copilot Proが拓く自律AIエージェントの真意とは？"
 date: 2025-10-23 16:40:51 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "推論最適化", "AI規制"]

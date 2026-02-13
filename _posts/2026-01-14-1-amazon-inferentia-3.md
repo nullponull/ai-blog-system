@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Inferentia 3の真価とは？�"
+title: "Amazon Inferentia 3の真価とは？"
 date: 2026-01-14 20:36:47 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "LLM", "マルチモーダル", "画像生成"]

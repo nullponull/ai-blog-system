@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "## シンガポールが描くAIの未�"
+title: "シンガポールが描くAIの未"
 date: 2026-01-29 17:01:42 +0000
 categories: ["AI導入戦略"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]

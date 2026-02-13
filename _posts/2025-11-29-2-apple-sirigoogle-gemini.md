@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apple SiriとGoogle Gemini統合が示�"
+title: "Apple SiriとGoogle Gemini統合が示"
 date: 2025-11-29 02:11:16 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "Apple"]

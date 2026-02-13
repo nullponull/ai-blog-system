@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "量子AIデータセンター開設の�"
+title: "量子AIデータセンター開設の"
 date: 2025-09-16 20:33:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ"]
