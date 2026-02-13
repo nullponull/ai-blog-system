@@ -47,4 +47,3 @@ Pepperの進化、Amazon参戦で何が変わる？
 
 私が特に注目しているのは、Amazonが「Pepper as a Service（PaaS）」のような形で、サブスクリプションモデルを本格的に
 
----END---
