@@ -1,0 +1,102 @@
+# AI API価格比較表
+# 更新: 2026-02-12
+# ソース: 各社公式価格ページ, pricepertoken.com, cloudidr.com
+
+providers:
+  - name: "OpenAI"
+    models:
+      - name: "GPT-4o"
+        input_per_1m_tokens: "2.50"
+        output_per_1m_tokens: "10.00"
+        context_window: "128K"
+      - name: "GPT-4o Mini"
+        input_per_1m_tokens: "0.15"
+        output_per_1m_tokens: "0.60"
+        context_window: "128K"
+      - name: "GPT-5.2 Pro"
+        input_per_1m_tokens: "21.00"
+        output_per_1m_tokens: "168.00"
+        context_window: "256K"
+        note: "最上位推論モデル"
+      - name: "o3"
+        input_per_1m_tokens: "10.00"
+        output_per_1m_tokens: "40.00"
+        note: "推論特化モデル"
+
+  - name: "Anthropic"
+    models:
+      - name: "Claude Opus 4.5"
+        input_per_1m_tokens: "5.00"
+        output_per_1m_tokens: "25.00"
+        context_window: "200K"
+      - name: "Claude Sonnet 4"
+        input_per_1m_tokens: "3.00"
+        output_per_1m_tokens: "15.00"
+        context_window: "200K"
+      - name: "Claude Haiku 3.5"
+        input_per_1m_tokens: "1.00"
+        output_per_1m_tokens: "5.00"
+        context_window: "200K"
+        note: "コスパ最強クラス"
+
+  - name: "Google"
+    models:
+      - name: "Gemini 2.5 Flash"
+        input_per_1m_tokens: "0.15"
+        output_per_1m_tokens: "0.60"
+        context_window: "1M"
+        note: "100万トークンのコンテキストウィンドウ"
+      - name: "Gemini 2.5 Flash Lite"
+        input_per_1m_tokens: "0.08"
+        output_per_1m_tokens: "0.30"
+        context_window: "1M"
+        note: "最安クラスの高品質モデル"
+      - name: "Gemini 2.0 Flash"
+        input_per_1m_tokens: "0.10"
+        output_per_1m_tokens: "0.40"
+        context_window: "1M"
+
+  - name: "DeepSeek"
+    models:
+      - name: "DeepSeek R1"
+        input_per_1m_tokens: "0.55"
+        output_per_1m_tokens: "2.19"
+        note: "GPT-4oクラスの性能を1/5の価格で"
+      - name: "DeepSeek V3"
+        input_per_1m_tokens: "0.27"
+        output_per_1m_tokens: "1.10"
+        note: "コスト効率最高クラス"
+
+  - name: "Meta (Llama)"
+    models:
+      - name: "Llama 3 405B"
+        input_per_1m_tokens: "0.00"
+        output_per_1m_tokens: "0.00"
+        note: "オープンソース - セルフホスト時はGPUコストのみ"
+      - name: "Llama 3 70B (API経由)"
+        input_per_1m_tokens: "0.50"
+        output_per_1m_tokens: "0.75"
+        note: "各種プロバイダ経由の概算"
+
+  - name: "Mistral"
+    models:
+      - name: "Mistral Large 3"
+        input_per_1m_tokens: "2.00"
+        output_per_1m_tokens: "6.00"
+      - name: "Ministral 3"
+        input_per_1m_tokens: "0.04"
+        output_per_1m_tokens: "0.10"
+        note: "エッジ向け超軽量モデル"
+
+pricing_notes:
+  general: "出力トークンは入力トークンの3-10倍の価格"
+  trend: "2024→2025で平均30-50%の価格低下、性能は向上"
+  cost_optimization:
+    - "軽量タスクにはFlash Lite/Mini系を使用"
+    - "バッチ処理で最大50%割引（OpenAI Batch API）"
+    - "プロンプトキャッシュで繰り返し入力を75%割引"
+  free_tiers:
+    - provider: "Google"
+      detail: "Gemini API無料枠あり（1日1500リクエスト）"
+    - provider: "DeepSeek"
+      detail: "新規登録で$5クレジット"

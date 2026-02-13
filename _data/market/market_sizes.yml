@@ -1,0 +1,88 @@
+# AI市場規模データ
+# 更新: 2026-02-12
+# ソース: Grand View Research, Statista, MarketsandMarkets, Fortune Business Insights, JETRO
+
+global_ai_market:
+  current:
+    year: 2025
+    size_usd: "244B"
+    source: "複数リサーチファーム平均"
+  forecast:
+    year: 2030
+    size_usd: "827B"
+    cagr: "28%"
+  growth_yoy: "33%"
+
+generative_ai_market:
+  current:
+    year: 2025
+    size_usd: "71B"
+    source: "MarketsandMarkets"
+  forecast_2026:
+    year: 2026
+    size_usd: "110B"
+    growth: "+55%"
+  forecast_2032:
+    year: 2032
+    size_usd: "891B"
+    cagr: "43.4%"
+    source: "MarketsandMarkets"
+  north_america_share: "40.8%"
+
+japan_ai_market:
+  current:
+    year: 2025
+    size_usd: "15.6B"
+    size_jpy: "2.3兆円"
+    source: "Fortune Business Insights"
+  forecast_2026:
+    year: 2026
+    size_usd: "20.9B"
+  forecast_2032:
+    year: 2032
+    size_usd: "123.9B"
+    cagr: "32%"
+  japan_it_market_total:
+    year: 2025
+    size_jpy: "26兆円"
+    source: "JETRO"
+
+ai_investment:
+  global_2025:
+    total_usd: "202.3B"
+    share_of_vc: "50%"
+    note: "VC投資全体の50%がAI、史上最高の集中度"
+    source: "State of AI 2026"
+  hyperscaler_capex_2025:
+    total_usd: "380B+"
+    companies: "Alphabet + Meta + Microsoft + Amazon合計"
+  hyperscaler_capex_2026:
+    total_usd: "690B予測"
+    source: "Futurum"
+
+segments:
+  - name: "生成AI"
+    size_usd: "71B"
+    growth: "+55% YoY"
+    year: 2025
+  - name: "AIエージェント"
+    size_usd: "7.8B"
+    forecast_2030: "52B"
+    growth: "CAGR 46%"
+    note: "2026年にGartner予測40%の企業アプリがAIエージェント搭載"
+  - name: "AIチップ・半導体"
+    size_usd: "115B+"
+    note: "NVIDIAデータセンター売上のみで$115B"
+    year: 2025
+  - name: "AI SaaS・クラウドAI"
+    size_usd: "80B+"
+    growth: "+35% YoY"
+    year: 2025
+  - name: "自動運転・ロボティクスAI"
+    size_usd: "25B"
+    growth: "+28% YoY"
+    year: 2025
+  - name: "AIヘルスケア"
+    size_usd: "20B"
+    growth: "+40% YoY"
+    year: 2025
