@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Google DeepMindの可能性とは？"
+title: "Google DeepMind、創薬AIで300件の新薬候補を発見：その真意と、"
 date: 2025-12-23 16:44:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "画像生成", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# AI倫理ガイドライン改定案発表：この複雑な波をどう乗りこなすのか？"
+title: "AI倫理ガイドライン改定案発表：この複雑な波をどう乗りこなすのか？"
 date: 2026-01-02 16:41:54 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "LLM", "AI規制"]

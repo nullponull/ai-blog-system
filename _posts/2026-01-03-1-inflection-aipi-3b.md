@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIのPi-3bの可能性とは�"
+title: "Inflection AIのPi-3bの可能性とは"
 date: 2026-01-03 08:41:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "LLM"]

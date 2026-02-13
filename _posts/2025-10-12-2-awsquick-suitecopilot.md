@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS「Quick Suite」がCopilotに挑む�"
+title: "AWS「Quick Suite」がCopilotに挑む"
 date: 2025-10-12 20:33:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

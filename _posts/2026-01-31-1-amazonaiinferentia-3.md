@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAIチップ「Inferentia 3」�"
+title: "AmazonのAIチップ「Inferentia 3」"
 date: 2026-01-31 05:09:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

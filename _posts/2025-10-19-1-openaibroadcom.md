@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとBroadcomの提携の可能性�"
+title: "OpenAIとBroadcomの提携の可能性"
 date: 2025-10-19 02:23:19 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Apple"]

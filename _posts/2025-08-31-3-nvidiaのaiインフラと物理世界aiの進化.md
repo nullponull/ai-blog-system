@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIAのAIインフラと物理世界AIの進化�"
+title: "NVIDIAのAIインフラと物理世界AIの進化"
 date: 2025-08-31 16:40:47 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AIエージェント", "AI人材", "ロボティクス"]

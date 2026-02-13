@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BananaImg AIとGoogle新技術統合：�"
+title: "BananaImg AIとGoogle新技術統合："
 date: 2025-09-13 01:56:29 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "ByteDance", "LLM", "マルチモーダル", "画像生成", "音声AI"]

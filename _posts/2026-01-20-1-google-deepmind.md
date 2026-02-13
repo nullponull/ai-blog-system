@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindのタンパク質構造�"
+title: "Google DeepMindのタンパク質構造"
 date: 2026-01-20 20:50:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "LLM", "AI人材", "AI倫理", "ロボティクス"]

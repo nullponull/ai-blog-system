@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの次世代AIチップ開�"
+title: "Inflection AIの次世代AIチップ開"
 date: 2026-01-18 20:36:44 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

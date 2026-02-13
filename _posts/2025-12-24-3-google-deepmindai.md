@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindの創薬AI新発見：�"
+title: "Google DeepMindの創薬AI新発見："
 date: 2025-12-24 04:50:31 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "AI規制", "AI人材", "AI倫理"]

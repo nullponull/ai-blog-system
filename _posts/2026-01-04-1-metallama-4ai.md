@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# MetaとLlama 4が描く脳波AIの未来図：私たちはどこへ向かうのか？"
+title: "MetaとLlama 4が描く脳波AIの未来図：私たちはどこへ向かうのか？"
 date: 2026-01-04 20:36:39 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "xAI", "LLM", "音声AI", "推論最適化", "ファインチューニング"]

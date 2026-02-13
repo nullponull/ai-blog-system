@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI業界を揺るがす二つの波：�"
+title: "AI業界を揺るがす二つの波："
 date: 2025-12-04 20:39:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

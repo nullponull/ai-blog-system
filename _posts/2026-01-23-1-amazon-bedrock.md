@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの可能性とは？"
+title: "Amazon Bedrock、新モデル20%高速化の真意とは？ AI開発の未来図をどう変えるのか"
 date: 2026-01-23 04:55:24 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

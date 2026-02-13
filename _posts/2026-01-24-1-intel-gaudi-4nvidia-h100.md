@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Intel Gaudi 4がNVIDIA H100を超え�"
+title: "「Intel Gaudi 4がNVIDIA H100を超え"
 date: 2026-01-24 20:35:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]

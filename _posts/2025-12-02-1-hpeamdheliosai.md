@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HPEとAMDの「Helios」AIラック発�"
+title: "HPEとAMDの「Helios」AIラック発"
 date: 2025-12-02 16:48:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]

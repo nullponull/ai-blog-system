@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "河南省のAI産業の可能性とは�"
+title: "河南省のAI産業の可能性とは"
 date: 2025-10-04 04:35:54 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "マルチモーダル", "音声AI", "AI規制", "AI人材", "セキュリティ"]

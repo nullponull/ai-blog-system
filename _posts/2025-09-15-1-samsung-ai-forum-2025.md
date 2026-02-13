@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsung AI Forum 2025：その真意は�"
+title: "Samsung AI Forum 2025：その真意は"
 date: 2025-09-15 20:32:49 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]

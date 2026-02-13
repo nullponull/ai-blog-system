@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oracle AI Database 26aiの真意は？�"
+title: "Oracle AI Database 26aiの真意は？"
 date: 2025-10-15 08:43:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "RAG", "AIエージェント"]

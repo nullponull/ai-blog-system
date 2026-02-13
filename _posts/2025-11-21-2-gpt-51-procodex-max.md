@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GPT-5.1 ProとCodex-Max公開：その�"
+title: "GPT-5.1 ProとCodex-Max公開：その"
 date: 2025-11-21 16:39:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "画像生成", "推論最適化"]

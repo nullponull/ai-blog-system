@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの「MAI-Image-1」はの可�"
+title: "Microsoftの「MAI-Image-1」はの可"
 date: 2025-10-25 08:36:32 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

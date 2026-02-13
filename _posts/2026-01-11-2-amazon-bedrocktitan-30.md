@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon BedrockとTitan 3.0の可能性"
+title: "Amazon BedrockとTitan 3.0、AIの「民主化」は本当に加速するのか？"
 date: 2026-01-11 04:58:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
