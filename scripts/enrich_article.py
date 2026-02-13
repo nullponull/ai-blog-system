@@ -476,7 +476,11 @@ def find_related_posts(current_file: str, posts_dir: str, max_links: int = 3) ->
             # YYYY-MM-DD-slug → /YYYY/MM/DD/slug/
             parts = basename.split("-", 3)
             if len(parts) >= 4:
-                url_path = f"/{parts[0]}/{parts[1]}/{parts[2]}/{parts[3]}/"
+                slug_part = parts[3]
+                # 日本語を含むslugはURLエンコード
+                import urllib.parse
+                slug_part = urllib.parse.quote(slug_part, safe='-_')
+                url_path = f"/{parts[0]}/{parts[1]}/{parts[2]}/{slug_part}/"
             else:
                 url_path = f"/{basename}/"
 
@@ -529,7 +533,7 @@ def enrich_article(filepath: str, posts_dir: str):
     # 中間広告の挿入
     content = insert_mid_article_ad(content)
 
-    # 比較表を本文中に挿入（最初のH2見出しの前に配置）
+    # 比較表を本文中に挿入（最初のH2セクション後、2番目のH2の前に配置）
     comparison_tables = detect_comparison_context(content)
     comparison_count = 0
     if comparison_tables:
@@ -538,13 +542,22 @@ def enrich_article(filepath: str, posts_dir: str):
             table_md += build_comparison_table(tpl)
         comparison_count = len(comparison_tables[:2])
 
-        # 本文中の最初の## 見出しの直前に挿入
-        # frontmatterの後の最初の## を探す
+        # frontmatterの後のH2見出しを全て検出し、2番目のH2前に挿入
         fm_end = content.find("---", content.find("---") + 3)
         if fm_end != -1:
-            first_h2 = content.find("\n## ", fm_end)
-            if first_h2 != -1:
-                content = content[:first_h2] + "\n" + table_md + content[first_h2:]
+            body_after_fm = content[fm_end:]
+            h2_positions = [m.start() + fm_end for m in re.finditer(r'\n## ', body_after_fm)]
+            if len(h2_positions) >= 2:
+                # 2番目のH2の前に挿入（最初のセクション後）
+                insert_pos = h2_positions[1]
+                content = content[:insert_pos] + "\n" + table_md + content[insert_pos:]
+            elif len(h2_positions) == 1:
+                # H2が1個のみ: その直後の次の空行の後に挿入
+                first_h2 = h2_positions[0]
+                # 最初のH2の後のセクション末尾を探す
+                next_section = content.find("\n\n", first_h2 + 4)
+                if next_section != -1:
+                    content = content[:next_section] + "\n" + table_md + content[next_section:]
 
     # Amazonアソシエイト推薦を選択
     recommendations = select_recommendations(content)

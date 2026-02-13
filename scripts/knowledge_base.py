@@ -8,7 +8,7 @@ for article generation prompts.
 import os
 import sys
 import yaml
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 class KnowledgeBase:
@@ -262,6 +262,43 @@ class KnowledgeBase:
                 lines.append(f"  - {reg.get('region', '')}: {reg.get('description', '')}")
 
         return "\n".join(lines)
+
+    def get_research_dir(self):
+        """Get the _data/research/ directory path."""
+        # base_dir is _data/market/, research is sibling
+        return os.path.join(os.path.dirname(self.base_dir), 'research')
+
+    def get_research_files(self, max_age_days=7):
+        """List recent research files.
+
+        Args:
+            max_age_days: Maximum age of research files to include
+
+        Returns:
+            List of (filename, filepath) tuples
+        """
+        research_dir = self.get_research_dir()
+        if not os.path.isdir(research_dir):
+            return []
+
+        import re
+        cutoff = datetime.now() - timedelta(days=max_age_days)
+        results = []
+
+        for filename in sorted(os.listdir(research_dir), reverse=True):
+            if not filename.endswith('.yml') or filename.startswith('.'):
+                continue
+            match = re.match(r'(\d{4}-\d{2}-\d{2})', filename)
+            if match:
+                try:
+                    file_date = datetime.strptime(match.group(1), '%Y-%m-%d')
+                    if file_date < cutoff:
+                        continue
+                except ValueError:
+                    continue
+            results.append((filename, os.path.join(research_dir, filename)))
+
+        return results
 
     def build_prompt_context(self, company_ids=None, include_market=True,
                             include_benchmarks=True, include_pricing=False,

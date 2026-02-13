@@ -1,17 +1,26 @@
 #!/usr/bin/env python3
 """
 Quality scorer for AI-generated blog articles.
-Scores articles on a 100-point scale across 4 dimensions:
-- Completeness (25 pts)
+Scores articles on a 100-point scale across 5 dimensions:
+- Completeness (20 pts)
 - Factual density (25 pts)
-- Readability (25 pts)
-- Engagement (25 pts)
+- Readability (20 pts)
+- Engagement (20 pts)
+- Compliance (15 pts)
 
 Pass threshold: 60 points
 """
 
 import re
 import sys
+
+# Import compliance check from compliance_loader
+try:
+    from compliance_loader import check_compliance
+except ImportError:
+    # Fallback: no compliance check if module not available
+    def check_compliance(body):
+        return 0, []
 
 
 class QualityScorer:
@@ -72,7 +81,7 @@ class QualityScorer:
         details = {}
         feedback = []
 
-        # 1. Completeness (25 pts)
+        # 1. Completeness (20 pts)
         comp_score, comp_feedback = cls._score_completeness(body)
         details['completeness'] = comp_score
         feedback.extend(comp_feedback)
@@ -82,15 +91,23 @@ class QualityScorer:
         details['factual_density'] = fact_score
         feedback.extend(fact_feedback)
 
-        # 3. Readability (25 pts)
+        # 3. Readability (20 pts)
         read_score, read_feedback = cls._score_readability(body)
         details['readability'] = read_score
         feedback.extend(read_feedback)
 
-        # 4. Engagement (25 pts)
+        # 4. Engagement (20 pts)
         eng_score, eng_feedback = cls._score_engagement(title, body)
         details['engagement'] = eng_score
         feedback.extend(eng_feedback)
+
+        # 5. Compliance (15 pts)
+        comp_penalty, comp_issues = check_compliance(body)
+        compliance_score = max(0, 15 - comp_penalty)
+        details['compliance'] = compliance_score
+        if comp_issues:
+            for issue in comp_issues:
+                feedback.append(f"[compliance] {issue}")
 
         total = sum(details.values())
         details['total'] = total
@@ -100,42 +117,42 @@ class QualityScorer:
 
     @classmethod
     def _score_completeness(cls, body):
-        """Score completeness (max 25 pts)."""
+        """Score completeness (max 20 pts)."""
         score = 0
         feedback = []
 
-        # Character count: 3000+ chars = 10 pts
+        # Character count: 3000+ chars = 8 pts
         char_count = len(body)
         if char_count >= 3000:
-            score += 10
+            score += 8
         elif char_count >= 2000:
-            score += 5
+            score += 4
             feedback.append(f"[completeness] Article is {char_count} chars, aim for 3000+")
         else:
             feedback.append(f"[completeness] Article too short: {char_count} chars (need 3000+)")
 
-        # Ends with proper punctuation: 5 pts
+        # Ends with proper punctuation: 4 pts
         stripped = body.rstrip()
         if stripped and stripped[-1] in '。！？.!?':
-            score += 5
+            score += 4
         else:
             feedback.append("[completeness] Article doesn't end with proper punctuation")
 
-        # Has 3+ headings (## or ###): 5 pts
+        # Has 3+ headings (## or ###): 4 pts
         headings = re.findall(r'^#{2,3}\s+.+', body, re.MULTILINE)
         if len(headings) >= 3:
-            score += 5
+            score += 4
         else:
             feedback.append(f"[completeness] Only {len(headings)} headings (need 3+)")
 
-        # Has conclusion section: 5 pts
+        # Has conclusion section: 4 pts
         conclusion_patterns = [
             r'##\s*(まとめ|結論|おわりに|今後の展望|結び)',
             r'##\s*(Conclusion|Summary|Final)',
         ]
         has_conclusion = any(re.search(p, body, re.IGNORECASE) for p in conclusion_patterns)
         if has_conclusion:
-            score += 5
+            score += 4
         else:
             feedback.append("[completeness] Missing conclusion/summary section")
 
@@ -148,7 +165,6 @@ class QualityScorer:
         feedback = []
 
         # Numbers/statistics: 5+ = 10 pts
-        # Match numbers with units, percentages, dollar amounts, etc.
         number_patterns = [
             r'\d+\.?\d*\s*[%％]',           # Percentages
             r'\$\d+[\d,.]*[BMK]?',           # Dollar amounts
@@ -205,42 +221,42 @@ class QualityScorer:
 
     @classmethod
     def _score_readability(cls, body):
-        """Score readability (max 25 pts)."""
+        """Score readability (max 20 pts)."""
         score = 0
         feedback = []
 
-        # Paragraphs: 5+ = 5 pts
+        # Paragraphs: 5+ = 4 pts
         paragraphs = [p.strip() for p in body.split('\n\n') if p.strip() and not p.strip().startswith('#')]
         if len(paragraphs) >= 5:
-            score += 5
+            score += 4
         else:
             feedback.append(f"[readability] Only {len(paragraphs)} paragraphs (need 5+)")
 
-        # Average paragraph length: 100-400 chars = 5 pts
+        # Average paragraph length: 100-400 chars = 4 pts
         if paragraphs:
             avg_len = sum(len(p) for p in paragraphs) / len(paragraphs)
             if 100 <= avg_len <= 400:
-                score += 5
+                score += 4
             elif avg_len < 100:
                 feedback.append(f"[readability] Paragraphs too short (avg {avg_len:.0f} chars)")
             else:
                 feedback.append(f"[readability] Paragraphs too long (avg {avg_len:.0f} chars, aim for 100-400)")
 
-        # Bullet points: not excessive (<=15 lines starting with - or *) = 5 pts
+        # Bullet points: not excessive (<=30%) = 4 pts
         bullet_lines = len(re.findall(r'^\s*[-*]\s', body, re.MULTILINE))
         total_lines = len([l for l in body.split('\n') if l.strip()])
         bullet_ratio = bullet_lines / max(total_lines, 1)
         if bullet_ratio <= 0.3:
-            score += 5
+            score += 4
         else:
             feedback.append(f"[readability] Too many bullet points ({bullet_ratio:.0%} of content)")
 
-        # No AI cliche phrases = 10 pts
+        # No AI cliche phrases = 8 pts
         cliche_found = [c for c in cls.AI_CLICHES if c in body]
         if not cliche_found:
-            score += 10
+            score += 8
         elif len(cliche_found) <= 2:
-            score += 5
+            score += 4
             feedback.append(f"[readability] AI cliches found: {', '.join(cliche_found[:3])}")
         else:
             feedback.append(f"[readability] Multiple AI cliches ({len(cliche_found)}): {', '.join(cliche_found[:5])}")
@@ -249,21 +265,21 @@ class QualityScorer:
 
     @classmethod
     def _score_engagement(cls, title, body):
-        """Score engagement potential (max 25 pts)."""
+        """Score engagement potential (max 20 pts)."""
         score = 0
         feedback = []
 
-        # Questions in body: 2+ = 10 pts
+        # Questions in body: 2+ = 8 pts
         questions = re.findall(r'[？?]', body)
         if len(questions) >= 2:
-            score += 10
+            score += 8
         elif len(questions) >= 1:
-            score += 5
+            score += 4
             feedback.append("[engagement] Add more rhetorical questions to engage readers")
         else:
             feedback.append("[engagement] No questions found - add rhetorical questions")
 
-        # Personal opinion/perspective: 5 pts
+        # Personal opinion/perspective: 4 pts
         opinion_markers = [
             r'と考え[るられ]',
             r'ではないだろうか',
@@ -278,11 +294,11 @@ class QualityScorer:
         ]
         has_opinion = any(re.search(p, body) for p in opinion_markers)
         if has_opinion:
-            score += 5
+            score += 4
         else:
             feedback.append("[engagement] Add editorial perspective or personal analysis")
 
-        # Intro paragraph <= 150 chars: 5 pts
+        # Intro paragraph <= 150 chars: 4 pts
         first_para = ""
         for line in body.split('\n'):
             stripped = line.strip()
@@ -290,11 +306,11 @@ class QualityScorer:
                 first_para = stripped
                 break
         if first_para and len(first_para) <= 150:
-            score += 5
+            score += 4
         elif first_para:
             feedback.append(f"[engagement] Intro too long ({len(first_para)} chars, aim for <=150)")
 
-        # Curiosity-inducing title: 5 pts
+        # Curiosity-inducing title: 4 pts
         curiosity_patterns = [
             r'[？?]',          # Question in title
             r'なぜ',           # "Why"
@@ -310,7 +326,7 @@ class QualityScorer:
         ]
         has_curiosity = any(re.search(p, title or '') for p in curiosity_patterns)
         if has_curiosity:
-            score += 5
+            score += 4
         else:
             feedback.append("[engagement] Title could be more curiosity-inducing")
 
@@ -321,10 +337,11 @@ class QualityScorer:
         """Format a human-readable quality report."""
         lines = [
             f"Quality Score: {total}/100 ({'PASS' if details['passed'] else 'FAIL'})",
-            f"  Completeness:    {details['completeness']}/25",
+            f"  Completeness:    {details['completeness']}/20",
             f"  Factual density: {details['factual_density']}/25",
-            f"  Readability:     {details['readability']}/25",
-            f"  Engagement:      {details['engagement']}/25",
+            f"  Readability:     {details['readability']}/20",
+            f"  Engagement:      {details['engagement']}/20",
+            f"  Compliance:      {details['compliance']}/15",
         ]
 
         if feedback:
@@ -352,6 +369,8 @@ class QualityScorer:
                 improvement_instructions.append("Add 2-3 rhetorical questions to engage readers")
             elif "[completeness]" in f and "short" in f:
                 improvement_instructions.append("Expand the article to at least 3000 characters with deeper analysis")
+            elif "[compliance]" in f:
+                improvement_instructions.append("Remove or rephrase compliance-violating expressions (no income guarantees, no unsubstantiated claims)")
 
         if not improvement_instructions:
             return ""

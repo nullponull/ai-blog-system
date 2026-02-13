@@ -36,16 +36,19 @@ import requests
 class GeminiClient:
     """Gemini API client with model rotation, JSON mode, and Web Search."""
 
-    # Model rotation list (same order as generate_content.py)
+    # Model rotation list
+    # Strategy: pro for quality-critical drafts, flash-lite for everything else
+    # Avoids flash (20 RPD free tier limit) to prevent 429 cascades
     MODELS = [
         "gemini-2.5-flash-lite",
-        "gemini-2.5-flash",
         "gemini-2.0-flash"
     ]
 
     # Model tiers for different tasks
-    LIGHT_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"]
-    HEAVY_MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash"]
+    # LIGHT: JSON/metadata tasks - flash-lite first (1,000 RPD free tier)
+    LIGHT_MODELS = ["gemini-2.5-flash-lite", "gemini-2.0-flash"]
+    # HEAVY: Article drafts - pro first (100 RPD free tier), then flash-lite fallback
+    HEAVY_MODELS = ["gemini-2.5-pro", "gemini-2.5-flash-lite"]
 
     BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
@@ -237,9 +240,9 @@ class GeminiClient:
         if response_schema:
             data["generationConfig"]["responseSchema"] = response_schema
 
-        # Add Google Search tool
+        # Add Google Search tool (use google_search for 2.5+ models)
         if enable_search:
-            data["tools"] = [{"googleSearchRetrieval": {"dynamicRetrievalConfig": {"mode": "MODE_DYNAMIC", "dynamicThreshold": 0.3}}}]
+            data["tools"] = [{"google_search": {}}]
 
         try:
             print(f"  [GeminiClient] Trying {model}...", file=sys.stderr)
