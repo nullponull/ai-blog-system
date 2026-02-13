@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# AIチップ市場の可能性とは？"
+title: "AIチップ市場、AMDはNVIDIAの牙城を本当に崩せるのか？ 2026年のシェア争奪戦の真意とは。"
 date: 2026-02-02 17:02:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AI人材"]

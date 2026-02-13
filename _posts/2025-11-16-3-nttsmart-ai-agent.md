@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTTデータの「Smart AI Agent」が�"
+title: "NTTデータの「Smart AI Agent」が"
 date: 2025-11-16 08:38:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "RAG", "AIエージェント"]

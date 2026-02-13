@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI医療の新たな波：その真意�"
+title: "AI医療の新たな波：その真意"
 date: 2026-01-10 20:35:58 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "xAI", "LLM", "RAG", "マルチモーダル"]

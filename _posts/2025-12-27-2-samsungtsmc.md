@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# SamsungとTSMCの提携の可能性？"
+title: "SamsungとTSMCの提携、その真意はどこにあるのか？AI時代の半導体市場に何が起きる？"
 date: 2025-12-27 04:46:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockが新LLMでコスト半�"
+title: "Amazon Bedrockが新LLMでコスト半"
 date: 2025-12-30 04:52:50 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

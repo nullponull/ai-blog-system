@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Adobe Firefly 2.0の可能性とは？"
+title: "Adobe Firefly 2.0、その真意とは？ クリエイティブの未来は本当に変わるのか？"
 date: 2026-01-25 20:38:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "画像生成", "AI人材", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**NVIDIAのSynopsysへの20億ドル投�"
+title: "**NVIDIAのSynopsysへの20億ドル投"
 date: 2025-12-02 08:48:09 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "xAI", "AIエージェント", "推論最適化", "AI人材", "セキュリティ"]

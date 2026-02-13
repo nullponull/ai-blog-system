@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Broadcomの800G AI NIC「Thor Ultra」�"
+title: "Broadcomの800G AI NIC「Thor Ultra」"
 date: 2025-10-17 08:42:08 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "マルチモーダル", "音声AI", "推論最適化", "ROI分析", "AI人材"]

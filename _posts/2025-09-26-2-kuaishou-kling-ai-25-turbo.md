@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kuaishou Kling AI 2.5 Turboの可能性�"
+title: "Kuaishou Kling AI 2.5 Turboの可能性"
 date: 2025-09-26 13:01:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "AI規制", "AI人材", "AI倫理"]

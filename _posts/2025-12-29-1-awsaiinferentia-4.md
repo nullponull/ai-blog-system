@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSのAIチップ「Inferentia 4」投�"
+title: "AWSのAIチップ「Inferentia 4」投"
 date: 2025-12-29 16:41:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]

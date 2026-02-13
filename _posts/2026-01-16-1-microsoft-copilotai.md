@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot+と法人AI戦略の�"
+title: "Microsoft Copilot+と法人AI戦略の"
 date: 2026-01-16 04:52:51 +0000
 categories: ["AI導入戦略"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "RAG", "AIエージェント"]

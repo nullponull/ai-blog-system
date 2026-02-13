@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon BedrockとClaude 4の連携の�"
+title: "Amazon BedrockとClaude 4の連携、その真の価値をどう見極めるべきか？"
 date: 2025-12-28 04:55:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]

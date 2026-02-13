@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日本が目指す「フィジカルAI�"
+title: "日本が目指す「フィジカルAI"
 date: 2025-11-01 20:33:00 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "マルチモーダル", "推論最適化", "AI規制", "AI人材"]

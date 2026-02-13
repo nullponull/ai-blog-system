@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「MIRAI Review」が製薬業界にも�"
+title: "「MIRAI Review」が製薬業界にも"
 date: 2025-10-27 08:43:52 +0000
 categories: ["業界別AI活用"]
 tags: ["RAG", "ファインチューニング", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

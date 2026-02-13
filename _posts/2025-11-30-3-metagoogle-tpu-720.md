@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaがGoogle TPUを検討？ 720億ド�"
+title: "MetaがGoogle TPUを検討？ 720億ド"
 date: 2025-11-30 16:40:23 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "Anthropic", "Apple", "xAI"]

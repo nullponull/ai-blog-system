@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sonyの「BraviaAI」がPS6にもたら�"
+title: "Sonyの「BraviaAI」がPS6にもたら"
 date: 2026-01-31 05:10:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "マルチモーダル"]

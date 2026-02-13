@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの「MAI Image 1」が示す�"
+title: "Microsoftの「MAI Image 1」が示す"
 date: 2025-11-08 02:06:20 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "マルチモーダル", "画像生成"]

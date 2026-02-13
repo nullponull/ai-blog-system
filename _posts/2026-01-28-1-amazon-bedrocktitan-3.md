@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon BedrockとTitan 3の発表が�"
+title: "Amazon BedrockとTitan 3の発表が、クラウドAIの未来に何を問いかけるのか？"
 date: 2026-01-28 20:50:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

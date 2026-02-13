@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの推論速度2倍の可�"
+title: "Amazon Bedrockの推論速度2倍の可"
 date: 2025-12-24 16:40:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

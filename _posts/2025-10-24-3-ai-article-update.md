@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ソフトバンクとサムスンの可�"
+title: "ソフトバンクとサムスンの可"
 date: 2025-10-24 16:44:25 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "ROI分析", "AI人材", "DX推進", "セキュリティ"]

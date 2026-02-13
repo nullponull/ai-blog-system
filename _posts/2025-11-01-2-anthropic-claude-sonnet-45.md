@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claude Sonnet 4.5の可能性�"
+title: "Anthropic Claude Sonnet 4.5の可能性"
 date: 2025-11-01 20:32:15 +0000
 categories: ["AI技術ガイド"]
 tags: ["Amazon", "Anthropic", "xAI", "AIエージェント", "推論最適化", "AI規制"]

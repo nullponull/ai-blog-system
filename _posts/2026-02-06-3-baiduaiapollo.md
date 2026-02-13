@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**中国Baiduの自動運転AI『Apollo "
+title: "**中国Baiduの自動運転AI『Apollo"
 date: 2026-02-06 05:24:01 +0000
 categories: ["導入事例"]
 tags: ["Google", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]

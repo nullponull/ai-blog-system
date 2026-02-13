@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Microsoft Dragon Copilot」は医療�"
+title: "「Microsoft Dragon Copilot」は医療"
 date: 2025-10-16 16:42:50 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "LLM", "RAG"]

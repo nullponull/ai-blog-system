@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの可能性とは？"
+title: "Amazon Bedrock、新モデル10種追加の真意とは？クラウド巨人が描く生成AIの未来。"
 date: 2025-12-30 02:27:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

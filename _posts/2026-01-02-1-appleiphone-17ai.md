@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**AppleのiPhone 17におけるAIチッ�"
+title: "**AppleのiPhone 17におけるAIチッ"
 date: 2026-01-02 04:54:00 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Apple", "LLM", "RAG"]

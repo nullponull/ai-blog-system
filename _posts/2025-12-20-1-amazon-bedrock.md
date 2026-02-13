@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの「コスト半減」�"
+title: "Amazon Bedrockの「コスト半減」"
 date: 2025-12-20 20:33:29 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

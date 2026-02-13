@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot Pro法人利用率30%�"
+title: "Microsoft Copilot Pro法人利用率30%"
 date: 2026-02-04 20:53:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

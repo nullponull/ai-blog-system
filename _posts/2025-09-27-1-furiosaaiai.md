@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FuriosaAIの省エネAI推論サーバ�"
+title: "FuriosaAIの省エネAI推論サーバ"
 date: 2025-09-27 08:35:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]

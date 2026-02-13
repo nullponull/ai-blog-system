@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの新モデル、本当にコスト半減は現実を変えるのか？"
+title: "Amazon Bedrockの新モデル、本当にコスト半減は現実を変えるのか？"
 date: 2025-12-11 04:49:51 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

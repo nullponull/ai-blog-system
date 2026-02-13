@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Perplexity AIの企業向け機能拡�"
+title: "**Perplexity AIの企業向け機能拡"
 date: 2025-11-20 13:05:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]

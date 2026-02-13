@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# IBM WatsonXが製薬DXで示す「成�"
+title: "IBM WatsonXが製薬DXで示す「成"
 date: 2026-01-06 04:53:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "xAI", "LLM", "ファインチューニング", "AI規制", "AI人材"]

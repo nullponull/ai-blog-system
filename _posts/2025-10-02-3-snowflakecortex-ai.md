@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snowflakeの金融向けCortex AIの可�"
+title: "Snowflakeの金融向けCortex AIの可"
 date: 2025-10-02 20:35:07 +0000
 categories: ["業界別AI活用"]
 tags: ["Anthropic", "xAI", "AIエージェント", "音声AI", "推論最適化", "ROI分析"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "最近のニュースの可能性とは�"
+title: "最近のニュースの可能性とは"
 date: 2026-02-10 21:01:35 +0000
 categories: ["研究論文"]
 tags: ["Google", "AI人材"]

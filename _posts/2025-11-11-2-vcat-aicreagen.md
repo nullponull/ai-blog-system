@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VCAT AIの「CREAGEN」発表の可能�"
+title: "VCAT AIの「CREAGEN」発表の可能"
 date: 2025-11-11 04:39:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "音声AI", "ファインチューニング"]

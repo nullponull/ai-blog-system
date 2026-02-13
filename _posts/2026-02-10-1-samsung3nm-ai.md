@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Samsungの3nm AIチップ、その真意と未来への影響とは？**"
+title: "Samsungの3nm AIチップ、その真意と未来への影響とは？"
 date: 2026-02-10 21:01:05 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "LLM", "マルチモーダル"]

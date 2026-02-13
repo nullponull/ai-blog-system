@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockの可能性とは？"
+title: "Amazon Bedrock、新LLMでコスト半減。その真意は、AI民主化の新たな幕開けか？"
 date: 2025-12-21 12:59:18 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]

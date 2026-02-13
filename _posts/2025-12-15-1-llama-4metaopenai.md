@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Llama 4の登場で、Metaが描くオープンAI戦略の深層とは何か？"
+title: "Llama 4の登場で、Metaが描くオープンAI戦略の深層とは何か？"
 date: 2025-12-15 20:38:57 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]

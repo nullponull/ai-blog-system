@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "次世代AIデータセンター共同�"
+title: "次世代AIデータセンター共同"
 date: 2025-11-12 08:44:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Meta", "NVIDIA", "推論最適化", "AI規制", "AI人材"]

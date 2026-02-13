@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの「学習データ2倍�"
+title: "Amazon Bedrockの「学習データ2倍"
 date: 2026-01-14 04:56:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

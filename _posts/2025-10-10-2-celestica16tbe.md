@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Celesticaの1.6TbEスイッチ発表の�"
+title: "Celesticaの1.6TbEスイッチ発表の"
 date: 2025-10-10 20:34:29 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]

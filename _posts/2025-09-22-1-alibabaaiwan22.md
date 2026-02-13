@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AlibabaのAI動画生成「Wan2.2」は�"
+title: "AlibabaのAI動画生成「Wan2.2」は"
 date: 2025-09-22 02:14:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "音声AI", "推論最適化"]

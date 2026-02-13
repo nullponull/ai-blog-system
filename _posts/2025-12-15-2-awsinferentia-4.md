@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSの「Inferentia 4」はの可能性�"
+title: "AWSの「Inferentia 4」はの可能性"
 date: 2025-12-15 20:39:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "フィリピン国産AI「Pilipinas AI�"
+title: "フィリピン国産AI「Pilipinas AI"
 date: 2025-09-30 02:01:44 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

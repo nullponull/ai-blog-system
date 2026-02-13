@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Veo 3.1と「AI SCREAM」が示�"
+title: "Google Veo 3.1と「AI SCREAM」が示"
 date: 2025-11-12 02:14:57 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AI規制", "AI人材", "AI倫理"]

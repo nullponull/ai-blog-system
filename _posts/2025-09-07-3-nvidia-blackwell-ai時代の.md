@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIA Blackwell: AI時代の�"
+title: "NVIDIA Blackwell: AI時代の覇権を握る新プラットフォーム"
 date: 2025-09-07 16:37:31 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

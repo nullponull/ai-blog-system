@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moonshot AIのKimi K2 Thinkingはの可�"
+title: "Moonshot AIのKimi K2 Thinkingはの可"
 date: 2025-11-15 02:09:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]

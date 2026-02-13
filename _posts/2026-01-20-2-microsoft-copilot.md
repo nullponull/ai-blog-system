@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Microsoft Copilotの個人有料プラ"
+title: "Microsoft Copilotの個人有料プラン3億人突破は、AIの「日常化」を告げるのか？"
 date: 2026-01-20 20:50:36 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon BedrockのTitan 3.0はの可能�"
+title: "Amazon BedrockのTitan 3.0はの可能"
 date: 2025-12-28 13:01:47 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]

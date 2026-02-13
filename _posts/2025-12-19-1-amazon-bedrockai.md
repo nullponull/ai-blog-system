@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Amazon Bedrockが示すAIモデルの�"
+title: "Amazon Bedrockが示すAIモデルの「百貨店化」、その戦略の深層に迫る"
 date: 2025-12-19 13:04:26 +0000
 categories: ["AI技術ガイド"]
 tags: ["Microsoft", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]

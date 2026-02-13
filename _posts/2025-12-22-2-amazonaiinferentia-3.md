@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# AmazonのAIチップ「Inferentia 3」"
+title: "AmazonのAIチップ「Inferentia 3」、クラウドAIの未来をどう塗り替えるのか？"
 date: 2025-12-22 13:05:04 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

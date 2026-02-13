@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ASML、Mistral AIに13億ユ�"
+title: "ASML、Mistral AIに13億ユ"
 date: 2025-09-08 08:42:20 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "AIエージェント", "AI規制"]

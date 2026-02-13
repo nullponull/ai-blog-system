@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Azure AIと量子コンピュ�"
+title: "Microsoft Azure AIと量子コンピュ"
 date: 2025-12-19 16:45:04 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "LLM", "AI人材", "DX推進"]

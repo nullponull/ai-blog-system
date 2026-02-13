@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazonの「Inferentia 3」の可能性�"
+title: "Amazonの「Inferentia 3」の可能性"
 date: 2026-02-11 05:46:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
