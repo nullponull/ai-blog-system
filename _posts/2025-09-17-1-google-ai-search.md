@@ -2,11 +2,11 @@
 layout: post
 title: "Google AI Searchの進化、その真意はどこにあるのか？"
 date: 2025-09-17 02:01:11 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "NVIDIA", "AIエージェント", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Google AI Search進化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google AI Searchの進化、その真意はどこにあるのか？

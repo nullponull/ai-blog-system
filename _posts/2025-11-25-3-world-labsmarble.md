@@ -2,11 +2,11 @@
 layout: post
 title: "World Labsの「Marble」が描くの可"
 date: 2025-11-25 08:45:41 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "World Labs、3D世界モデル「Marble」公開について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 World Labsの「Marble」が描く、3D世界生成の新たな可能性とその真意は？

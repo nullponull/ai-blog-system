@@ -2,11 +2,11 @@
 layout: post
 title: "Inflection AIの次世代AIチップ開�"
 date: 2026-01-18 20:36:44 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AI、次世代AIチップ開発に注力について詳細に分析します。"
-reading_time: 8
+reading_time: 10
 ---
 
 # Inflection AIの次世代AIチップ開発、その真の狙いはどこにあるのだろうか？

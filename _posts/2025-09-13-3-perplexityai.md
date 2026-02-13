@@ -2,11 +2,11 @@
 layout: post
 title: "ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？"
 date: 2025-09-13 20:31:06 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "ブリタニカ、Perplexityを提訴について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？

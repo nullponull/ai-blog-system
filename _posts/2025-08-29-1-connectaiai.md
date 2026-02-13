@@ -2,11 +2,11 @@
 layout: post
 title: "パナソニック コネクト「ConnectAI」など生成AIの企業導入事�"
 date: 2025-08-29 11:04:50 +0000
-categories: ["実装事例"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "エージェント"]
+categories: ["導入事例"]
+tags: ["OpenAI", "AIエージェント", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 6
 ---
 
 ## 概要と背景

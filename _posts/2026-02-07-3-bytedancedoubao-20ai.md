@@ -2,11 +2,11 @@
 layout: post
 title: "ByteDanceの「Doubao 2.0」がAI画像�"
 date: 2026-02-07 20:46:11 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Meta", "ByteDance", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDance、AI画像生成モデル「Doubao 2.0」投入について詳細に分析します。"
-reading_time: 8
+reading_time: 19
 ---
 
 ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？

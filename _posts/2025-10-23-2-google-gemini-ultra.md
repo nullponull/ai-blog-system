@@ -2,11 +2,11 @@
 layout: post
 title: "Google Gemini Ultraのリアルタイム"
 date: 2025-10-23 16:41:45 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "ByteDance", "AIエージェント", "マルチモーダル", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini Ultra、リアルタイム動画解析を実装について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google Gemini Ultraのリアルタイム動画解析、その真価はどこにあるのか？

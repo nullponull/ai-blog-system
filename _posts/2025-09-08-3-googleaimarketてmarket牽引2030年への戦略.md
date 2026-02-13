@@ -2,11 +2,11 @@
 layout: post
 title: "Google、AI投資で市場牽引：2030年への戦略"
 date: 2025-09-08 08:42:58 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Meta", "NVIDIA", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Meta", "NVIDIA", "Apple", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Google、AIで2030年5兆ドル価値予測について詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 # Google、AI投資で市場牽引：2030年への戦略

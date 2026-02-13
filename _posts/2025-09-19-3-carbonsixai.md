@@ -2,11 +2,11 @@
 layout: post
 title: "CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？"
 date: 2025-09-19 13:00:21 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "AIエージェント", "音声AI", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "CarbonSix、製造業向けAIロボットツール発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？

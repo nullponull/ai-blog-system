@@ -2,11 +2,11 @@
 layout: post
 title: "TempestAIの融資稟議AIシステム、その真価はどこにあるのか？"
 date: 2025-10-05 12:55:33 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["RAG", "AIエージェント", "マルチモーダル", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "TempestAI、融資稟議AIシステムについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 TempestAIの融資稟議AIシステム、その真価はどこにあるのか？

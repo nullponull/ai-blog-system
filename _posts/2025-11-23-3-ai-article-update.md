@@ -2,11 +2,11 @@
 layout: post
 title: "中国「AIプラス」戦略の真意�"
 date: 2025-11-23 08:39:23 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["LLM", "AIエージェント", "マルチモーダル", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "中国「AIプラス」産業統合加速について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 中国「AIプラス」戦略の真意とは？産業と社会に何をもたらすのか、その深層を読み解く。

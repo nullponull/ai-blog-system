@@ -2,11 +2,11 @@
 layout: post
 title: "リコージャパンの自治体向け生成AI、その真意はどこにあるのか？"
 date: 2025-09-20 01:59:55 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "LLM", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "リコージャパン、自治体向け生成AIについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 リコージャパンの自治体向け生成AI、その真意はどこにあるのか？

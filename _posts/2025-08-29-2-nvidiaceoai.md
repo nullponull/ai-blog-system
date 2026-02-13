@@ -2,11 +2,11 @@
 layout: post
 title: "NVIDIA CEOのAI市場予測"
 date: 2025-08-29 07:08:03 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "NVIDIA"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "最新のAI技術動向と市場分析をお届けします。"
-reading_time: 8
+reading_time: 7
 ---
 
 ## 概要と背景

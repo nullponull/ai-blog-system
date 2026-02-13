@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon BedrockのSaaS連携強化、何が変わるのか？"
 date: 2025-12-14 20:35:04 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["研究論文"]
+tags: ["Meta", "Amazon", "Anthropic", "LLM", "AIエージェント", "ファインチューニング"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、SaaS連携強化へ**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 Amazon BedrockのSaaS連携強化、何が変わるのか？

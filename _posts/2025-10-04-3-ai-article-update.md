@@ -2,11 +2,11 @@
 layout: post
 title: "河南省のAI産業の可能性とは�"
 date: 2025-10-04 04:35:54 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["LLM", "マルチモーダル", "音声AI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "**中国河南省、AI産業27年1600億元**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 河南省のAI産業、2027年に1600億元規模へ：その野心的な目標の裏に何があるのか？

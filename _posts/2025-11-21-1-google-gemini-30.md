@@ -2,11 +2,11 @@
 layout: post
 title: "Google Gemini 3.0、その真意はどこにあるのか？"
 date: 2025-11-21 16:39:20 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3.0を発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google Gemini 3.0、その真意はどこにあるのか？

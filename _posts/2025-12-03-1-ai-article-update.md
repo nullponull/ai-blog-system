@@ -2,11 +2,11 @@
 layout: post
 title: "米国AI規制、連邦議会で頓挫したその真意とは？"
 date: 2025-12-03 13:07:54 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "米国AI規制、連邦議会で頓挫について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 米国AI規制、連邦議会で頓挫したその真意とは？

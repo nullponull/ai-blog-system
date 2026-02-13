@@ -2,11 +2,11 @@
 layout: post
 title: "VCAT AIの「CREAGEN」発表の可能�"
 date: 2025-11-11 04:39:58 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "音声AI", "ファインチューニング"]
 author: "ALLFORCES編集部"
 excerpt: "VCAT AI、画像動画生成「CREAGEN」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 VCAT AIの「CREAGEN」発表、企業コンテンツ制作の未来をどう変えるのか？

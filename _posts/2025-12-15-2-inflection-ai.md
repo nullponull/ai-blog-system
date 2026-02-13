@@ -2,11 +2,11 @@
 layout: post
 title: "Inflection AIが心理ケアを刷新す"
 date: 2025-12-15 16:50:46 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "NVIDIA", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AI、感情認識AIで心理ケア刷新について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 Inflection AIが心理ケアを刷新する？その真意とAIに託される感情の未来は何を意味するのか。

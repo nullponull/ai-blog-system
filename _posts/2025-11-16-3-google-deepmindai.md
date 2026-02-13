@@ -2,11 +2,11 @@
 layout: post
 title: "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？"
 date: 2025-11-16 02:26:01 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "AIエージェント", "マルチモーダル", "ファインチューニング", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMind、科学研究AI発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google DeepMindの科学研究AI発表、その真意はどこにあるのか？

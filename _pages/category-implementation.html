@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "実装事例 - AI導入・活用事例"
+title: "導入事例 - AI導入・活用事例"
 permalink: /category/implementation/
 description: "企業のAI導入事例と実装方法について、具体的な成果を含めて解説します。"
 ---
 
 <div class="category-page">
     <div class="category-header">
-        <div class="category-icon">{% include icon.html category="実装事例" class="category-page-icon-svg" size="48" %}</div>
-        <h1>実装事例</h1>
+        <div class="category-icon">{% include icon.html category="導入事例" class="category-page-icon-svg" size="48" %}</div>
+        <h1>導入事例</h1>
         <p>企業のAI導入事例と実装方法について、具体的な成果を含めて解説します。</p>
         <div class="category-stats">
-            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '実装事例'" %}
+            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '導入事例'" %}
             <span class="stat">{{ category_posts.size }}記事</span>
             {% if category_posts.size > 0 %}
             <span class="stat">最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>

@@ -2,11 +2,11 @@
 layout: post
 title: "FigmaがAIデザインツール「Weave�"
 date: 2025-11-07 08:41:38 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Anthropic", "画像生成", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "Figma、AIデザインツール「Weave」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？

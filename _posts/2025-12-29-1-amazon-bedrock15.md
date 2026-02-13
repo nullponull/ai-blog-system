@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockに新モデル15種追加"
 date: 2025-12-29 02:36:17 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデル15種追加**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？

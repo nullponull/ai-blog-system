@@ -2,11 +2,11 @@
 layout: post
 title: "AIが行政サービスを変える？�"
 date: 2025-11-14 13:09:56 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Anthropic", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic partners with Marylandについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIが行政サービスを変える？メリーランド州とAnthropicの提携が示す未来とは。

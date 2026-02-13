@@ -2,11 +2,11 @@
 layout: post
 title: "Spring HealthのAI倫理評議会、その真意と業界への波紋とは？"
 date: 2025-10-01 20:35:40 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Spring Health、AI倫理評議会設立について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Spring HealthのAI倫理評議会、その真意と業界への波紋とは？

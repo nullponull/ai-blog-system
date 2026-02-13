@@ -2,11 +2,11 @@
 layout: post
 title: "AWS Strands Agentsの登場がAIエー�"
 date: 2025-09-15 20:33:28 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "AWS Strands Agents 100万DL突破について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AWS Strands Agentsの登場がAIエージェント開発に何をもたらすのか？

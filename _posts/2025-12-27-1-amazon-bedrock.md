@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの可能性とは？"
 date: 2025-12-27 04:46:22 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルAPI提供開始**について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略はどこへ向かうのだろうか？

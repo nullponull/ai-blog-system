@@ -2,11 +2,11 @@
 layout: post
 title: "AWS Bedrockの可能性とは？"
 date: 2025-12-24 04:49:57 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルで30%性能向上**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？

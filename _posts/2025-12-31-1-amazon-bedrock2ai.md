@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrock、推論速度2倍は、AIの未来をどう変える？"
 date: 2025-12-31 02:27:19 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["Meta", "Amazon", "Anthropic", "AIエージェント", "マルチモーダル", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデルで推論速度2倍について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrock、推論速度2倍は、AIの未来をどう変える？

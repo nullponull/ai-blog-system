@@ -2,11 +2,11 @@
 layout: post
 title: "Google Cloudが示す、AIと持続可能性の両立の真意とは？"
 date: 2025-10-22 20:37:07 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Google", "NVIDIA", "推論最適化", "AI規制", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Google Cloud、AIと持続可能性を両立について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google Cloudが示す、AIと持続可能性の両立の真意とは？

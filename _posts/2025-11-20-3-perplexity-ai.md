@@ -2,11 +2,11 @@
 layout: post
 title: "**Perplexity AIの企業向け機能拡�"
 date: 2025-11-20 13:05:28 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "新興Perplexity AI、企業向け機能拡充について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 **Perplexity AIの企業向け機能拡充、その真意とは？ AI検索が変える「知」の未来**

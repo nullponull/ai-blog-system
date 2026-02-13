@@ -2,11 +2,11 @@
 layout: post
 title: "MicrosoftのAI Agent Frameworkの可能�"
 date: 2025-10-07 02:02:48 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Microsoft", "Meta", "NVIDIA", "LLM", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft、AI Agent Framework発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 MicrosoftのAI Agent Framework、その真意はどこにあるのか？

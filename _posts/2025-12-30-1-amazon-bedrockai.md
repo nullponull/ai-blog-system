@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockが量子AIに対応する"
 date: 2025-12-30 13:06:38 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、量子AI対応へ**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？

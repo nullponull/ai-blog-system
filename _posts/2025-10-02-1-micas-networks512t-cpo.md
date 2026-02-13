@@ -2,11 +2,11 @@
 layout: post
 title: "Micas Networksの51.2T CPOスイッチ�"
 date: 2025-10-02 04:35:13 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["NVIDIA", "マルチモーダル", "推論最適化", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Micas Networks、51.2T CPOスイッチ発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Micas Networksの51.2T CPOスイッチ、AIインフラの未来をどう変えるのか？

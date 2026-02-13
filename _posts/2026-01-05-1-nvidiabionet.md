@@ -2,11 +2,11 @@
 layout: post
 title: "NVIDIAの「BioNet」、創薬の未来をどう変えるのか？"
 date: 2026-01-05 13:10:10 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "NVIDIA", "投資", "チップ"]
+categories: ["AI技術ガイド"]
+tags: ["NVIDIA", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIA、AI創薬スパコン「BioNet」稼働開始、新薬開発10倍高速化へについて詳細に分析します。"
-reading_time: 8
+reading_time: 6
 ---
 
 NVIDIAの「BioNet」、創薬の未来をどう変えるのか？

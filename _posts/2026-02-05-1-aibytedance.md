@@ -2,8 +2,8 @@
 layout: post
 title: "AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？"
 date: 2026-02-05 03:11:51 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "ByteDance", "LLM", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**ByteDance、AI動画生成で欧米進出加速**について詳細に分析します。"
 reading_time: 8

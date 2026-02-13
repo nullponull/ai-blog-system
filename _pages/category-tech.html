@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "技術解説 - AI技術の詳細解説"
+title: "AI技術ガイド - AI技術の詳細解説"
 permalink: /category/tech/
 description: "AI技術の仕組みやアルゴリズムについて、技術者向けに詳しく解説します。"
 ---
 
 <div class="category-page">
     <div class="category-header">
-        <div class="category-icon">{% include icon.html category="技術解説" class="category-page-icon-svg" size="48" %}</div>
-        <h1>技術解説</h1>
+        <div class="category-icon">{% include icon.html category="AI技術ガイド" class="category-page-icon-svg" size="48" %}</div>
+        <h1>AI技術ガイド</h1>
         <p>AI技術の仕組みやアルゴリズムについて、技術者向けに詳しく解説します。</p>
         <div class="category-stats">
-            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains '技術解説'" %}
+            {% assign category_posts = site.posts | where_exp: "post", "post.categories contains 'AI技術ガイド'" %}
             <span class="stat">{{ category_posts.size }}記事</span>
             {% if category_posts.size > 0 %}
             <span class="stat">最新更新: {{ category_posts.first.date | date: "%Y年%m月%d日" }}</span>

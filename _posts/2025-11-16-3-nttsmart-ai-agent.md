@@ -2,11 +2,11 @@
 layout: post
 title: "NTTデータの「Smart AI Agent」が�"
 date: 2025-11-16 08:38:49 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "NVIDIA", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NTTデータ、AI Agentで20億ドルについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？

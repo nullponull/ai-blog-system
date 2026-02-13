@@ -2,11 +2,11 @@
 layout: post
 title: "AIの巨大な電力消費、その真意はどこにあるのか？"
 date: 2025-10-03 20:35:04 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AI電力消費、持続可能性に警告について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIの巨大な電力消費、その真意はどこにあるのか？

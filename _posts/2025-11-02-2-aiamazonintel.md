@@ -2,11 +2,11 @@
 layout: post
 title: "AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？"
 date: 2025-11-02 12:55:41 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AIで10万超人員削減、Amazon/Intelについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？

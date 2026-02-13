@@ -2,11 +2,11 @@
 layout: post
 title: "Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？"
 date: 2025-11-26 08:43:13 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Google「Gemini 3」発表、AIチップ需要増について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？

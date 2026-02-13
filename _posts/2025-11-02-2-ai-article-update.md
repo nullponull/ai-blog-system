@@ -2,11 +2,11 @@
 layout: post
 title: "ちょっと待ってくださいね。W"
 date: 2025-11-02 02:22:51 +0000
-categories: ["実装事例"]
-tags: ["AI", "最新ニュース", "技術動向"]
+categories: ["導入事例"]
+tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "MS、AI活用で1.5万人再雇用へについて詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ちょっと待ってくださいね。Web検索で「MS、AI活用で1.5万人再雇用へ」というキーワードで調べてみたのですが、どうも情報が逆のようです。

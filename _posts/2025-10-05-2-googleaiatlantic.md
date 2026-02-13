@@ -2,11 +2,11 @@
 layout: post
 title: "Googleの量子AI、Atlantic統合の真意とは？"
 date: 2025-10-05 16:35:43 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Amazon", "マルチモーダル", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Google量子AI、Atlantic買収について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Googleの量子AI、Atlantic統合の真意とは？

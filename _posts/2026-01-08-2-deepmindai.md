@@ -2,11 +2,11 @@
 layout: post
 title: "DeepMindの創薬AI、その真価は何なのか？"
 date: 2026-01-08 04:52:25 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "**DeepMind、創薬AIで新発見**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 DeepMindの創薬AI、その真価は何なのか？

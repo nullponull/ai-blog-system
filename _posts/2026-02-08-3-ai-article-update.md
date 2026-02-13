@@ -2,11 +2,11 @@
 layout: post
 title: "AI倫理、国際標準化の新組織設立、何が変わるのか？"
 date: 2026-02-08 16:50:46 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "**AI倫理、国際標準化へ新組織設立**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AI倫理、国際標準化の新組織設立、何が変わるのか？

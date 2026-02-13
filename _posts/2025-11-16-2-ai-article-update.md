@@ -2,11 +2,11 @@
 layout: post
 title: "中国新メディア大会が示す、AIがメディアの未来をどう再構築するのか？"
 date: 2025-11-16 20:34:33 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "中国新メディア大会、AI活用議論について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 中国新メディア大会が示す、AIがメディアの未来をどう再構築するのか？

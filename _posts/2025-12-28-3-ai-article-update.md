@@ -2,11 +2,11 @@
 layout: post
 title: "AI倫理、国際標準化で何が変わるのか？"
 date: 2025-12-28 20:37:48 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "LLM", "マルチモーダル", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**AI倫理ガイドライン、国際標準化へ**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 AI倫理、国際標準化で何が変わるのか？

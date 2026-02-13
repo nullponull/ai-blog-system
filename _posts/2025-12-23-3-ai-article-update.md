@@ -2,11 +2,11 @@
 layout: post
 title: "AI倫理の国際標準化、その真意は何を変えるのか？"
 date: 2025-12-23 08:47:25 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "xAI", "マルチモーダル", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**AI倫理、国際標準化へ賛否両論**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 AI倫理の国際標準化、その真意は何を変えるのか？

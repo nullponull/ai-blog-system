@@ -2,11 +2,11 @@
 layout: post
 title: "**Googleの「Antigravity」はAI開発の常識を覆すのか？**"
 date: 2025-11-27 13:04:36 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "NVIDIA", "Anthropic", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini Agent, Antigravity発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 **Googleの「Antigravity」はAI開発の常識を覆すのか？**

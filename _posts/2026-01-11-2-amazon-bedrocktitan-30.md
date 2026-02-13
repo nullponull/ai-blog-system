@@ -2,11 +2,11 @@
 layout: post
 title: "# Amazon BedrockとTitan 3.0の可能性"
 date: 2026-01-11 04:58:29 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、独自LLM「Titan 3.0」を発表**について詳細に分析します。"
-reading_time: 8
+reading_time: 11
 ---
 
 ## Amazon BedrockとTitan 3.0、AIの「民主化」は本当に加速するのか？

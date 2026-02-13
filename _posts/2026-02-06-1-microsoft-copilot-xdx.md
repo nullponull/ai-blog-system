@@ -2,8 +2,8 @@
 layout: post
 title: "Microsoft Copilot X、医療DXはどこまで進む？"
 date: 2026-02-06 09:01:46 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Microsoft", "Google", "投資"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AI規制", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "**Microsoft Copilot X、医療DXを加速**について詳細に分析します。"
 reading_time: 8

@@ -2,11 +2,11 @@
 layout: post
 title: "# Amazon Bedrockの可能性とは？"
 date: 2025-12-21 12:59:18 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新LLMでコスト半減について詳細に分析します。"
-reading_time: 8
+reading_time: 9
 ---
 
 ## Amazon Bedrock、新LLMでコスト半減。その真意は、AI民主化の新たな幕開けか？

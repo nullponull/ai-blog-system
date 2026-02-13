@@ -2,11 +2,11 @@
 layout: post
 title: "QualcommとMediaTekの可能性とは？"
 date: 2025-09-26 04:36:33 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Qualcomm/MediaTek、雲AI ASIC注力について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？

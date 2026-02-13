@@ -2,11 +2,11 @@
 layout: post
 title: "**Inflection AIとAMDの提タッグの�"
 date: 2026-01-11 04:57:32 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "Microsoft", "NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "**Inflection AI、次世代AIチップ開発でAMDと提携**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 **Inflection AIとAMDの提タッグ、その真意は？AIチップ市場の地殻変動が始まるのか。**

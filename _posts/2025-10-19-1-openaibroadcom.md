@@ -2,11 +2,11 @@
 layout: post
 title: "OpenAIとBroadcomの提携の可能性�"
 date: 2025-10-19 02:23:19 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、Broadcomと1兆ドルAIチップ開発について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探る

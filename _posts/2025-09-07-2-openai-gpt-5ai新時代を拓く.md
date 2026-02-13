@@ -2,8 +2,8 @@
 layout: post
 title: "OpenAI GPT-5、AI新時代を拓く"
 date: 2025-09-07 10:19:58 +0000
-categories: ["技術解説"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "Microsoft"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI GPT-5 Releaseについて詳細に分析します。"
 reading_time: 8

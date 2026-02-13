@@ -2,11 +2,11 @@
 layout: post
 title: "AWSの「Inferentia 4」はの可能性�"
 date: 2025-12-15 20:39:25 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "Google", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "**AWS、AIチップ「Inferentia 4」でコスト削減提案**について詳細に分析します。"
-reading_time: 8
+reading_time: 10
 ---
 
 AWSの「Inferentia 4」は、本当にAIコストのゲームチェンジャーとなるのか？

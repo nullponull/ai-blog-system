@@ -2,11 +2,11 @@
 layout: post
 title: "米上院のAIチップ規制法案、その真意はどこにあるのか？"
 date: 2025-10-11 16:35:28 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "ByteDance"]
 author: "ALLFORCES編集部"
 excerpt: "**米上院、AIチップ輸出規制法案を可決**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 米上院のAIチップ規制法案、その真意はどこにあるのか？

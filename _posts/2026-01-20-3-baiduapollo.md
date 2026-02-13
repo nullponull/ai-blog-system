@@ -2,11 +2,11 @@
 layout: post
 title: "BaiduのApollo、上海で自動運転はどう変わる？"
 date: 2026-01-20 16:53:50 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["AI規制", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "**中国Baidu、自動運転AI「Apollo」で上海展開**について詳細に分析します。"
-reading_time: 8
+reading_time: 7
 ---
 
 BaiduのApollo、上海で自動運転はどう変わる？

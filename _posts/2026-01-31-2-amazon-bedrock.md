@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrockの進化、何が変わるのか？"
 date: 2026-01-31 08:48:47 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "**Amazon Bedrock、新モデルで推論速度30%改善**について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrockの進化、何が変わるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "米商務省のAI輸出プログラム始動、その真意はどこにあるのか？"
 date: 2025-10-26 20:35:02 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "米商務省、AI輸出プログラム始動について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 米商務省のAI輸出プログラム始動、その真意はどこにあるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "Google Gemini Enterpriseの可能性と�"
 date: 2025-10-20 02:21:09 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Google", "Microsoft", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Google、企業向け会話型AI「Gemini Enterprise」発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Google Gemini Enterprise、その真意は？企業AIの未来をどう変えるのか

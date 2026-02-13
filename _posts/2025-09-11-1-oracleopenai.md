@@ -2,11 +2,11 @@
 layout: post
 title: "OracleとOpenAI、その巨額契約の真意は？"
 date: 2025-09-11 04:36:17 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "投資", "チップ"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle/OpenAI、3000億ドル契約締結について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 OracleとOpenAI、その巨額契約の真意は？

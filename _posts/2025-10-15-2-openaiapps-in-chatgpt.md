@@ -2,11 +2,11 @@
 layout: post
 title: "OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？"
 date: 2025-10-15 04:37:06 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "OpenAI", "Google", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Apple", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI、アプリストア構想発表について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "Anthropic Claudeの「Skills」はの可"
 date: 2025-10-17 13:02:24 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["Microsoft", "Amazon", "Anthropic", "LLM", "AIエージェント", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude「Skills」発表、楽天で効率化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Anthropic Claudeの「Skills」は、楽天の業務をどう変革するのか？その真意を探る

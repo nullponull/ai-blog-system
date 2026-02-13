@@ -2,11 +2,11 @@
 layout: post
 title: "Oracle AI Data Platform、その真意はどこにあるのか？"
 date: 2025-10-15 20:37:13 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle AI Data Platform一般提供開始について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Oracle AI Data Platform、その真意はどこにあるのか？

@@ -2,11 +2,11 @@
 layout: post
 title: "Amazon Bedrock 20%高速化の真意と�"
 date: 2025-12-26 04:49:03 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "Amazon", "OpenAI", "Google", "Microsoft", "投資", "チップ", "エージェント"]
+categories: ["AI技術ガイド"]
+tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデルで20%高速化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 Amazon Bedrock 20%高速化の真意とは？ その数値が語るAI基盤の未来

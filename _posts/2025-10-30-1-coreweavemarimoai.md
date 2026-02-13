@@ -2,11 +2,11 @@
 layout: post
 title: "CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？"
 date: 2025-10-30 20:35:21 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "チップ"]
+categories: ["AI最新ニュース"]
+tags: ["Google", "NVIDIA", "Amazon", "xAI", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "CoreWeave、Marimo買収でAI開発強化について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？

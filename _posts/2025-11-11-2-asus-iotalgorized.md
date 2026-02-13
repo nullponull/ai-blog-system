@@ -2,11 +2,11 @@
 layout: post
 title: "ASUS IoTとAlgorizedの提携、その真意はどこにあるのか？"
 date: 2025-11-11 02:19:05 +0000
-categories: ["AI導入戦略"]
-tags: ["AI", "最新ニュース", "技術動向", "投資"]
+categories: ["AI最新ニュース"]
+tags: ["マルチモーダル", "推論最適化", "ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "ASUS IoT、AlgorizedとエッジAI提携について詳細に分析します。"
-reading_time: 8
+reading_time: 20
 ---
 
 ASUS IoTとAlgorizedの提携、その真意はどこにあるのか？

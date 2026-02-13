@@ -2,11 +2,11 @@
 layout: post
 title: "# ClipLine、サービス業AIエージェントで現場革新"
 date: 2025-09-09 04:37:39 +0000
-categories: ["業界分析"]
-tags: ["AI", "最新ニュース", "技術動向", "投資", "エージェント"]
+categories: ["業界別AI活用"]
+tags: ["AIエージェント", "音声AI", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "ClipLine、サービス業向けAIエージェントについて詳細に分析します。"
-reading_time: 8
+reading_time: 5
 ---
 
 ## ClipLine、サービス業AIエージェントで現場革新
