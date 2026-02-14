@@ -5,7 +5,7 @@ date: 2025-08-29 14:55:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["画像生成", "AI規制"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年6月11日、エンターテインメント業界の二大巨頭であるウォルト・ディズニー社とNBCユニバーサルは、画像生成AIサービス「Midjourney」に対し、著作権侵害を理由に提訴しました。"
 reading_time: 8
 ---
 

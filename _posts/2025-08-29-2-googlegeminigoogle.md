@@ -5,7 +5,7 @@ date: 2025-08-29 08:40:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "Googleが開発するマルチモーダルAIモデル「Gemini」は、その登場以来、人工知能分野における革新の象徴として注目を集めています。"
 reading_time: 16
 ---
 

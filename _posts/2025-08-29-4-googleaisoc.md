@@ -5,7 +5,7 @@ date: 2025-08-29 14:55:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI人材"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年8月29日、Google Cloudはセキュリティサミットにおいて、AIエージェント駆動の「エージェント型SOC（Security Operations Center）」構想を発表しました。この革新的なアプローチは、従来のセキュリティ運用における課題、特に脅威の検出から対応までの時間短縮に焦点を当てています。"
 reading_time: 17
 ---
 

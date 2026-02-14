@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "Apple", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが、基盤モデル（Foundation Models, FM）のラインナップに一挙に30種類ものAIモデルを追加したというニュースを聞いて、正直、最初は「またか」って思ったんだよね。"
 reading_time: 10
+canonical_url: "https://ai-media.co.jp/2026/01/26/1-amazon-bedrock/"
 ---
 
 **Amazon Bedrock、AIモデル30種追加：これは単なる数の勝負ではない、その深層を読み解こう**

@@ -5,7 +5,7 @@ date: 2025-08-31 16:40:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年8月、AI業界はGoogleのGeminiエコアーキテクチャの急速な拡大と、Appleが次世代Siriの基盤としてGoogle Geminiの採用を検討しているという報道で大きく揺れました。"
 reading_time: 6
 ---
 # **Google Geminiエコアーキテクチャの拡大とApple Siriへの採用検討**:
