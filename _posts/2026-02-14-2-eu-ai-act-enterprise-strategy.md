@@ -88,3 +88,115 @@ AI市場をリードするハイパースケーラーたちの動きも活発で
 
 *※ 上記リンクはAmazonアソシエイトリンクです*
 
+---
+**コード例：PythonによるAIリスク評価の簡易的なチェックリスト**
+
+さて、先ほどお話しした「Compliance by Design」を具体的にイメージしていただくために、非常に簡易的ではありますが、Pythonを使ったAIリスク評価のチェックリストの例を見てみましょう。これは、AIシステムがEU AI法における「高リスク」に該当するかどうかを判断するための一助となるものです。
+
+```python
+# 簡易的なAIリスク評価チェックリストの例
+def assess_ai_risk(ai_system_details):
+    risk_score = 0
+    risk_factors = []
+
+    # 1. 用途に基づくリスク評価
+    # EU AI法における高リスク分野を想定
+    high_risk_uses = [
+        "採用活動", "信用スコアリング", "重要なインフラ管理",
+        "法執行", "教育・職業訓練の評価", "医療診断",
+        "生体認証", "公共サービスへのアクセス"
+    ]
+    if any(hr_use in ai_system_details.get("purpose", []) for hr_use in high_risk_uses):
+        risk_score += 5
+        risk_factors.append("高リスク用途に該当")
+
+    # 2. データガバナンスの評価
+    # データセットの質、偏り、プライバシー保護の状況
+    if not ai_system_details.get("data_governance_in_place", False):
+        risk_score += 3
+        risk_factors.append("データガバナンス体制が不十分")
+    if ai_system_details.get("data_bias_potential", False):
+        risk_score += 4
+        risk_factors.append("データバイアスの可能性")
+    if not ai_system_details.get("data_privacy_measures", False):
+        risk_score += 3
+        risk_factors.append("データプライバシー対策が不十分")
+
+
+    # 3. 透明性・説明責任の評価
+    # AIの意思決定プロセスがどれだけ理解・説明可能か
+    if not ai_system_details.get("explainability_documented", False):
+        risk_score += 3
+        risk_factors.append("説明責任が不十分")
+    if not ai_system_details.get("human_oversight_mechanism", False):
+        risk_score += 4
+        risk_factors.append("人的監視メカニズムが不足")
+    if not ai_system_details.get("user_notification_required", False):
+        risk_score += 2
+        risk_factors.append("AI利用のユーザー通知が不足")
+
+    # 4. サイバーセキュリティの評価
+    # 外部からの攻撃や不正利用に対する耐性
+    if not ai_system_details.get("cybersecurity_measures", False):
+        risk_score += 3
+        risk_factors.append("サイバーセキュリティ対策が不十分")
+
+    # 総合的なリスクレベル判定
+    if risk_score >= 10: # スコア閾値は企業や業界で調整
+        risk_level = "高リスク (High Risk)"
+    elif risk_score >= 5:
+        risk_level = "中リスク (Medium Risk)"
+    else:
+        risk_level = "低リスク (Low Risk)"
+
+    return {
+        "risk_level": risk_level,
+        "risk_score": risk_score,
+        "risk_factors": risk_factors
+    }
+
+# 使用例1：高リスクAIの可能性が高いケース
+my_ai_system_hr = {
+    "name": "採用候補者スクリーニングAI",
+    "purpose": ["採用活動", "候補者評価"],
+    "data_governance_in_place": True,
+    "data_bias_potential": True, # 人種・性別などのバイアスリスク
+    "explainability_documented": False, # 採用判断の根拠が不明瞭
+    "human_oversight_mechanism": True, # 最終判断は人間が行う
+    "user_notification_required": True, # 候補者にはAI利用を通知
+    "cybersecurity_measures": True
+}
+
+assessment_result_hr = assess_ai_risk(my_ai_system_hr)
+print(f"AIシステム名: {my_ai_system_hr['name']}")
+print(f"リスクレベル: {assessment_result_hr['risk_level']}")
+print(f"リスクスコア: {assessment_result_hr['risk_score']}")
+print(f"検出されたリスク要因: {', '.join(assessment_result_hr['risk_factors'])}")
+
+# 使用例2：比較的低リスクなAIのケース
+marketing_ai_system = {
+    "name": "パーソナライズ広告レコメンデーションAI",
+    "purpose": ["マーケティング", "コンテンツ推薦"],
+    "data_governance_in_place": True,
+    "data_bias_potential": False, # 広範なデータで学習済みで偏りが少ないと仮定
+    "explainability_documented": True, # レコメンド理由を説明可能
+    "human_oversight_mechanism": False, # 人間の最終判断は不要と仮定
+    "user_notification_required": True, # ユーザーにパーソナライズの利用を通知
+    "cybersecurity_measures": True
+}
+assessment_result_marketing = assess_ai_risk(marketing_ai_system)
+print(f"\nAIシステム名: {marketing_ai_system['name']}")
+print(f"リスクレベル: {assessment_result_marketing['risk_level']}")
+print(f"リスクスコア: {assessment_result_marketing['risk_score']}")
+print(f"検出されたリスク要因: {', '.join(assessment_result_marketing['risk_factors'])}")
+```
+
+このコードはあくまで概念的なものですが、重要なのは、AIシステムの開発・導入プロセスにおいて、このようなチェックリストを自社の状況に合わせて作成し、常に評価を行う体制を構築することです。特に、`risk_factors`の部分は、具体的なリスク軽減策を検討する上での出発点となります。
+
+### 4. 高リスクAIだけではない、すべてのAI活用における注意点
+
+EU AI法は主に「高リスクAI」に焦点を当てていますが、正直なところ、それ以外のAIシステム、例えば生成AIを使ったコンテンツ作成や、顧客サポートのチャットボット、社内文書の要約ツールなどでも、考慮すべきリスクは山積しています。
+
+あなたも感じているかもしれませんが、生成AIのハルシネーション（事実と異なる情報を生成すること）や、著作権侵害の可能性、あるいは個人情報の不適切な利用などは、ビジネスに甚大な影響を与えかねません。たとえEU AI法の「高リスク」カテゴリに直接該当しなくても、企業としての
+
+---END---
