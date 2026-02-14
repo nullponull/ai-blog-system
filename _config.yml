@@ -10,7 +10,7 @@ tagline: "AI導入の羅針盤 -- 技術と経営をつなぐ"
 # SEO settings
 logo: "/assets/images/logo.png"
 og_image: "/assets/images/og-image.png"
-twitter_username: "allforces_ai"
+twitter_username: "nullpodesu"
 github_username: "allforces"
 
 # Build settings
@@ -131,7 +131,7 @@ ads:
 
 # Social links
 social:
-  twitter: "https://twitter.com/allforces_ai"
+  twitter: "https://x.com/nullpodesu"
   github: "https://github.com/allforces"
   linkedin: "https://linkedin.com/company/allforces"
   note: "https://note.com/allforces"
