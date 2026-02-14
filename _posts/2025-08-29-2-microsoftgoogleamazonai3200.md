@@ -5,7 +5,7 @@ date: 2025-08-29 03:43:08 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年、テクノロジー業界はAIインフラへの前例のない大規模投資サイクルに突入しています。Microsoft、Google（Alphabet）、Amazonといった主要企業は、Metaを含む各社と合わせて、合計で3,200億ドルを超える巨額をAI関連の設備投資に投じる見込みです。"
 reading_time: 7
 ---
 

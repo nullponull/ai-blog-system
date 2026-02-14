@@ -2,7 +2,7 @@ name: AI Article Pipeline v2 (Orchestrated)
 
 on:
   schedule:
-    - cron: '15 */4 * * *'  # Every 4 hours (same as existing)
+    - cron: '0 8 * * *'  # Daily at 8:00 UTC (17:00 JST)
   workflow_dispatch:
     inputs:
       articles:

@@ -7,6 +7,7 @@ tags: ["Meta", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最�
 author: "ALLFORCES編集部"
 excerpt: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
 reading_time: 20
+canonical_url: "https://ai-media.co.jp/2025/09/27/1-furiosaainxt-rngd/"
 ---
 
 FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？

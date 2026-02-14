@@ -5,7 +5,7 @@ date: 2025-08-30 08:39:30 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "AI技術の急速な進化は、その基盤となる半導体市場に未曾有の成長をもたらしています。"
 reading_time: 9
 ---
 

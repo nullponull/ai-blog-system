@@ -7,6 +7,7 @@ tags: ["AIエージェント", "マルチモーダル", "音声AI", "AI規制", 
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、ABBロボット事業買収の真意とは？AIと物理世界の融合が何を変えるのか？"
 reading_time: 20
+canonical_url: "https://ai-media.co.jp/2025/11/19/2-ai-article-update/"
 ---
 
 ソフトバンク、ABBロボット事業買収の真意とは？AIと物理世界の融合が何を変えるのか？

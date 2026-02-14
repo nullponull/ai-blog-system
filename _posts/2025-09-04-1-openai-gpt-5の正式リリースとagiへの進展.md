@@ -5,7 +5,7 @@ date: 2025-09-04 02:03:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年9月4日現在、人工知能分野はOpenAIによるGPT-5の正式リリースという大きな節目を迎えました。2025年8月7日に発表されたこの最新モデルは、従来のGPTシリーズを凌駕する性能を誇り、「より賢く、より速く、より便利」なAIとして、その能力を大きく向上させています。"
 reading_time: 5
 ---
 # OpenAI GPT-5の正式リリースとAGIへの進展

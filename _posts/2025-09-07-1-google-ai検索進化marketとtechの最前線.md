@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleのAI検索は、長年にわたるAI技術の統合と大規模な戦略的投資により、従来の検索体験から劇的に進化を遂げています。2025年には、より複雑なユーザーの問いに対応するための多数のAI機能が検索エンジンに導入される予定です。"
 reading_time: 8
+canonical_url: "https://ai-media.co.jp/2025/09/07/1-google-ai検索進化投資と技術の最前線/"
 ---
 
 # Google AI検索進化：投資と技術の最前線

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Inferentia 3、性能50%向上。その裏に潜むAWSの真意とは何だろうか？"
 reading_time: 8
+canonical_url: "https://ai-media.co.jp/2026/02/09/1-amazon-inferentia-3/"
 ---
 
 Amazon Inferentia 3、性能50%向上。その裏に潜むAWSの真意とは何だろうか？

@@ -5,7 +5,7 @@ date: 2025-08-29 07:10:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年8月29日現在、日本のAIエコアーキテクチャにおいて、日本語大規模言語モデル（LLM）開発の最前線を走るELYZAと通信大手KDDIの資本業務提携は、その戦略的意義を一層深めています。"
 reading_time: 7
 ---
 

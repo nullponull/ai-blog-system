@@ -7,6 +7,7 @@ tags: ["Amazon", "AIエージェント", "AI人材", "セキュリティ", "AI�
 author: "ALLFORCES編集部"
 excerpt: "Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と雇用への真意とは？"
 reading_time: 20
+canonical_url: "https://ai-media.co.jp/2025/10/25/3-amazonaiblue-jay/"
 ---
 
 Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と雇用への真意とは？

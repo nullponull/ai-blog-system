@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略はどこへ向かうのだろうか？"
 reading_time: 9
+canonical_url: "https://ai-media.co.jp/2026/01/26/1-amazon-bedrock/"
 ---
 
 Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略はどこへ向かうのだろうか？

@@ -5,7 +5,7 @@ date: 2025-08-29 08:41:24 +0000
 categories: ["AI最新ニュース"]
 tags: ["LLM", "AIエージェント", "ROI分析", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年6月、カンヌライオンズ国際クリエイティビティ・フェスティバルにおいて、Adobeは企業向けアプリケーション「LLM Optimizer」を発表しました。"
 reading_time: 10
 ---
 

@@ -5,7 +5,7 @@ date: 2025-08-30 08:38:07 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
-excerpt: "最新のAI技術動向と市場分析をお届けします。"
+excerpt: "2025年8月7日にOpenAIからリリースされた最新の大規模言語モデル「GPT-5」は、その登場とともに、ビジネスコミュニケーションとスケジュール管理のあり方を根本から変える可能性を秘めた新機能を発表しました。"
 reading_time: 10
 ---
 
