@@ -207,8 +207,39 @@ layout: default
     </footer>
 </article>
 
-<!-- Related Posts Section -->
-{% assign related_posts = site.related_posts | limit: 3 %}
+<!-- Related Posts Section (category + tag matching) -->
+{% assign related_posts = "" | split: "" %}
+{% assign current_category = page.categories.first %}
+{% assign current_tags = page.tags %}
+{% for post in site.posts %}
+  {% if post.url != page.url %}
+    {% assign score = 0 %}
+    {% if post.categories.first == current_category %}
+      {% assign score = score | plus: 2 %}
+    {% endif %}
+    {% for tag in current_tags %}
+      {% if post.tags contains tag %}
+        {% assign score = score | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if score >= 2 %}
+      {% assign related_posts = related_posts | push: post %}
+    {% endif %}
+  {% endif %}
+  {% if related_posts.size >= 6 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if related_posts.size < 3 %}
+  {% for post in site.posts limit: 5 %}
+    {% if post.url != page.url and related_posts.size < 3 %}
+      {% unless related_posts contains post %}
+        {% assign related_posts = related_posts | push: post %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign related_posts = related_posts | slice: 0, 3 %}
 {% if related_posts.size > 0 %}
 <section class="related-posts" aria-labelledby="related-heading">
     <header class="related-posts-header">
