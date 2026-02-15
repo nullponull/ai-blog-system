@@ -1,322 +1,339 @@
 # AI主要企業プロフィール
-# 更新: 2026-02-12
-# ソース: 各社IR, TechCrunch, CNBC, Reuters等
+# Updated: 2026-02-16 06:32 JST
 
 - id: openai
-  name: "OpenAI"
-  type: "AI研究企業"
-  valuation_usd: "830B"
-  revenue_annual_usd: "13B (2025), 20-26B予測(2026)"
-  employees: "3,500+"
+  name: OpenAI
+  type: AI研究企業
+  valuation_usd: 830B
+  revenue_annual_usd: 13B (2025), 20-26B予測(2026)
+  employees: 3,500+
   key_products:
-    - name: "GPT-5"
-      type: "LLM"
-      release: "2025-08"
-    - name: "GPT-4o"
-      type: "マルチモーダルLLM"
-      release: "2024-05"
-    - name: "o3"
-      type: "推論モデル"
-      release: "2025-01"
-    - name: "Sora"
-      type: "動画生成AI"
-      release: "2024-12"
-    - name: "ChatGPT"
-      type: "チャットボット"
-      users: "8億週間アクティブユーザー"
+  - name: GPT-5
+    type: LLM
+    release: 2025-08
+  - name: GPT-4o
+    type: マルチモーダルLLM
+    release: 2024-05
+  - name: o3
+    type: 推論モデル
+    release: 2025-01
+  - name: Sora
+    type: 動画生成AI
+    release: 2024-12
+  - name: ChatGPT
+    type: チャットボット
+    users: 8億週間アクティブユーザー
   recent_news:
-    - date: "2025-12"
-      headline: "$100B資金調達を$830B評価額で交渉中"
-    - date: "2025-08"
-      headline: "GPT-5をリリース、$500B評価額に到達"
-    - date: "2025-05"
-      headline: "年間売上ランレート$10Bを突破"
-  partnerships: ["Microsoft", "Apple", "SoftBank"]
-  hq: "サンフランシスコ"
-
+  - date: 2025-12
+    headline: $100B資金調達を$830B評価額で交渉中
+  - date: 2025-08
+    headline: GPT-5をリリース、$500B評価額に到達
+  - date: 2025-05
+    headline: 年間売上ランレート$10Bを突破
+  partnerships:
+  - Microsoft
+  - Apple
+  - SoftBank
+  hq: サンフランシスコ
 - id: google
-  name: "Google (Alphabet)"
-  type: "テクノロジー大手"
-  market_cap_usd: "2.4T+"
-  revenue_annual_usd: "350B+ (全体, 2025)"
-  ai_capex_usd: "91-93B (2025), 115B+予測(2026)"
+  name: Google (Alphabet)
+  type: テクノロジー大手
+  market_cap_usd: 2.4T+
+  revenue_annual_usd: 350B+ (全体, 2025)
+  ai_capex_usd: 91-93B (2025), 115B+予測(2026)
   key_products:
-    - name: "Gemini 3 Pro"
-      type: "LLM"
-      release: "2025-12"
-    - name: "Gemini 2.5 Flash"
-      type: "軽量LLM"
-    - name: "NotebookLM"
-      type: "AI学習ツール"
-    - name: "TPU v6"
-      type: "AIチップ"
+  - name: Gemini 3 Pro
+    type: LLM
+    release: 2025-12
+  - name: Gemini 2.5 Flash
+    type: 軽量LLM
+  - name: NotebookLM
+    type: AI学習ツール
+  - name: TPU v6
+    type: AIチップ
   recent_news:
-    - date: "2025-12"
-      headline: "Gemini 3 ProがArena総合1位を獲得(スコア1501)"
-    - date: "2025-10"
-      headline: "2025年AI設備投資を$91-93Bに上方修正"
-  partnerships: ["Samsung", "NVIDIA"]
-  hq: "マウンテンビュー"
-
+  - date: 2025-12
+    headline: Gemini 3 ProがArena総合1位を獲得(スコア1501)
+  - date: 2025-10
+    headline: 2025年AI設備投資を$91-93Bに上方修正
+  partnerships:
+  - Samsung
+  - NVIDIA
+  hq: マウンテンビュー
 - id: microsoft
-  name: "Microsoft"
-  type: "テクノロジー大手"
-  market_cap_usd: "3.3T+"
-  ai_revenue_usd: "13B (FY Q2 2025, YoY+175%)"
-  ai_capex_usd: "99B (FY2025予測)"
+  name: Microsoft
+  type: テクノロジー大手
+  market_cap_usd: 3.3T+
+  ai_revenue_usd: 13B (FY Q2 2025, YoY+175%)
+  ai_capex_usd: 99B (FY2025予測)
   key_products:
-    - name: "Copilot"
-      type: "AI アシスタント"
-    - name: "Azure AI"
-      type: "クラウドAIサービス"
-    - name: "GitHub Copilot"
-      type: "コーディングAI"
+  - name: Copilot
+    type: AI アシスタント
+  - name: Azure AI
+    type: クラウドAIサービス
+  - name: GitHub Copilot
+    type: コーディングAI
   recent_news:
-    - date: "2025-11"
-      headline: "AnthropicへNVIDIAと共同で数十億ドル投資"
-    - date: "2025-01"
-      headline: "AI収益$13B/四半期、前年比175%増"
-  partnerships: ["OpenAI", "Anthropic", "NVIDIA"]
-  hq: "レドモンド"
-
+  - date: 2025-11
+    headline: AnthropicへNVIDIAと共同で数十億ドル投資
+  - date: 2025-01
+    headline: AI収益$13B/四半期、前年比175%増
+  partnerships:
+  - OpenAI
+  - Anthropic
+  - NVIDIA
+  hq: レドモンド
 - id: nvidia
-  name: "NVIDIA"
-  type: "半導体メーカー"
-  market_cap_usd: "3.5T+"
-  revenue_annual_usd: "130.5B (FY2025, +114%)"
-  data_center_revenue_usd: "115.2B (FY2025)"
-  ai_chip_market_share: "90%"
+  name: NVIDIA
+  type: 半導体メーカー
+  market_cap_usd: 3.5T+
+  revenue_annual_usd: 130.5B (FY2025, +114%)
+  data_center_revenue_usd: 115.2B (FY2025)
+  ai_chip_market_share: 90%
   key_products:
-    - name: "H100"
-      type: "AIトレーニングGPU"
-    - name: "H200"
-      type: "推論GPU"
-    - name: "B200 (Blackwell)"
-      type: "次世代GPU"
-      status: "2025年量産開始"
-    - name: "CUDA"
-      type: "GPUコンピューティング基盤"
+  - name: H100
+    type: AIトレーニングGPU
+  - name: H200
+    type: 推論GPU
+  - name: B200 (Blackwell)
+    type: 次世代GPU
+    status: 2025年量産開始
+  - name: CUDA
+    type: GPUコンピューティング基盤
   recent_news:
-    - date: "2025-11"
-      headline: "Q3売上$57Bの過去最高、データセンター$51.2B(+66%)"
-    - date: "2025-11"
-      headline: "今後14ヶ月で$500B相当のチップ需要見通し"
-  partnerships: ["Microsoft", "Google", "Meta", "Amazon"]
-  hq: "サンタクララ"
-
+  - date: 2025-11
+    headline: Q3売上$57Bの過去最高、データセンター$51.2B(+66%)
+  - date: 2025-11
+    headline: 今後14ヶ月で$500B相当のチップ需要見通し
+  partnerships:
+  - Microsoft
+  - Google
+  - Meta
+  - Amazon
+  hq: サンタクララ
 - id: meta
-  name: "Meta Platforms"
-  type: "テクノロジー大手"
-  market_cap_usd: "1.8T+"
-  ai_capex_usd: "107.9B予測(2026)"
+  name: Meta Platforms
+  type: テクノロジー大手
+  market_cap_usd: 1.8T+
+  ai_capex_usd: 107.9B予測(2026)
   key_products:
-    - name: "Llama 3"
-      type: "オープンソースLLM"
-    - name: "Meta AI"
-      type: "AIアシスタント"
-    - name: "Llama 4"
-      type: "次世代オープンソースLLM"
-      status: "2025年リリース"
+  - name: Llama 3
+    type: オープンソースLLM
+  - name: Meta AI
+    type: AIアシスタント
+  - name: Llama 4
+    type: 次世代オープンソースLLM
+    status: 2025年リリース
   recent_news:
-    - date: "2026-01"
-      headline: "2026年AI設備投資$107.9B計画を発表"
-    - date: "2025-04"
-      headline: "Llama 3リリース、オープンソースAIの標準に"
-  partnerships: ["NVIDIA", "Microsoft"]
-  hq: "メンロパーク"
-
+  - date: 2026-01
+    headline: 2026年AI設備投資$107.9B計画を発表
+  - date: 2025-04
+    headline: Llama 3リリース、オープンソースAIの標準に
+  partnerships:
+  - NVIDIA
+  - Microsoft
+  hq: メンロパーク
 - id: amazon
-  name: "Amazon (AWS)"
-  type: "クラウド・テクノロジー大手"
-  market_cap_usd: "2.4T+"
+  name: Amazon (AWS)
+  type: クラウド・テクノロジー大手
+  market_cap_usd: 2.4T+
   key_products:
-    - name: "Amazon Bedrock"
-      type: "マネージドAIサービス"
-    - name: "Amazon Q"
-      type: "企業向けAIアシスタント"
-    - name: "Trainium2"
-      type: "自社AIチップ"
-    - name: "Nova"
-      type: "マルチモーダルAIモデル"
+  - name: Amazon Bedrock
+    type: マネージドAIサービス
+  - name: Amazon Q
+    type: 企業向けAIアシスタント
+  - name: Trainium2
+    type: 自社AIチップ
+  - name: Nova
+    type: マルチモーダルAIモデル
   recent_news:
-    - date: "2025-09"
-      headline: "Anthropicへの投資を$8Bに拡大"
-    - date: "2025-12"
-      headline: "AWS re:Invent 2025でNova基盤モデル発表"
-  partnerships: ["Anthropic", "NVIDIA"]
-  hq: "シアトル"
-
+  - date: 2025-09
+    headline: Anthropicへの投資を$8Bに拡大
+  - date: 2025-12
+    headline: AWS re:Invent 2025でNova基盤モデル発表
+  partnerships:
+  - Anthropic
+  - NVIDIA
+  hq: シアトル
 - id: anthropic
-  name: "Anthropic"
-  type: "AI安全研究企業"
-  valuation_usd: "350B (2025-11)"
-  revenue_annual_usd: "5B (2025年中頃ARR), 26B予測(2026)"
+  name: Anthropic
+  type: AI安全研究企業
+  valuation_usd: 350B (2025-11)
+  revenue_annual_usd: 5B (2025年中頃ARR), 26B予測(2026)
   key_products:
-    - name: "Claude Opus 4.5"
-      type: "最上位LLM"
-      release: "2025-12"
-    - name: "Claude Sonnet 4"
-      type: "バランス型LLM"
-    - name: "Claude Code"
-      type: "コーディングAI"
-    - name: "Claude for Enterprise"
-      type: "企業向けAI"
+  - name: Claude Opus 4.5
+    type: 最上位LLM
+    release: 2025-12
+  - name: Claude Sonnet 4
+    type: バランス型LLM
+  - name: Claude Code
+    type: コーディングAI
+  - name: Claude for Enterprise
+    type: 企業向けAI
   recent_news:
-    - date: "2025-11"
-      headline: "Series G $15B調達、評価額$350Bに"
-    - date: "2025-12"
-      headline: "Claude Opus 4.5リリース、SWE-bench 80.9%で首位"
-  partnerships: ["Amazon (AWS)", "Google Cloud", "Microsoft"]
-  hq: "サンフランシスコ"
-
+  - date: 2025-11
+    headline: Series G $15B調達、評価額$350Bに
+  - date: 2025-12
+    headline: Claude Opus 4.5リリース、SWE-bench 80.9%で首位
+  partnerships:
+  - Amazon (AWS)
+  - Google Cloud
+  - Microsoft
+  hq: サンフランシスコ
 - id: apple
-  name: "Apple"
-  type: "テクノロジー大手"
-  market_cap_usd: "3.7T+"
+  name: Apple
+  type: テクノロジー大手
+  market_cap_usd: 3.7T+
   key_products:
-    - name: "Apple Intelligence"
-      type: "端末内AI機能"
-      release: "2024-10"
-    - name: "Siri (AI強化版)"
-      type: "AIアシスタント"
+  - name: Apple Intelligence
+    type: 端末内AI機能
+    release: 2024-10
+  - name: Siri (AI強化版)
+    type: AIアシスタント
   recent_news:
-    - date: "2025-06"
-      headline: "WWDC 2025でApple Intelligence 2.0発表"
-    - date: "2025-03"
-      headline: "OpenAIとの提携でChatGPT統合を拡大"
-  partnerships: ["OpenAI"]
-  hq: "クパチーノ"
-
+  - date: 2025-06
+    headline: WWDC 2025でApple Intelligence 2.0発表
+  - date: 2025-03
+    headline: OpenAIとの提携でChatGPT統合を拡大
+  partnerships:
+  - OpenAI
+  hq: クパチーノ
 - id: samsung
-  name: "Samsung Electronics"
-  type: "半導体・電子機器大手"
+  name: Samsung Electronics
+  type: 半導体・電子機器大手
   key_products:
-    - name: "Galaxy AI"
-      type: "端末AI機能"
-    - name: "HBM3E"
-      type: "高帯域メモリ"
-    - name: "Exynos (AI NPU搭載)"
-      type: "モバイルSoC"
+  - name: Galaxy AI
+    type: 端末AI機能
+  - name: HBM3E
+    type: 高帯域メモリ
+  - name: Exynos (AI NPU搭載)
+    type: モバイルSoC
   recent_news:
-    - date: "2025-12"
-      headline: "2026年HBM出荷の60%をASIC顧客向けに配分"
-    - date: "2025-07"
-      headline: "テキサス州テイラー工場$37Bで2nm生産準備中"
-    - date: "2025-07"
-      headline: "TeslaのAI6チップ製造で$16.5B契約"
-  partnerships: ["Google", "Tesla", "NVIDIA"]
-  hq: "水原（韓国）"
-
+  - date: 2025-12
+    headline: 2026年HBM出荷の60%をASIC顧客向けに配分
+  - date: 2025-07
+    headline: テキサス州テイラー工場$37Bで2nm生産準備中
+  - date: 2025-07
+    headline: TeslaのAI6チップ製造で$16.5B契約
+  partnerships:
+  - Google
+  - Tesla
+  - NVIDIA
+  hq: 水原（韓国）
 - id: intel
-  name: "Intel"
-  type: "半導体メーカー"
+  name: Intel
+  type: 半導体メーカー
   key_products:
-    - name: "Gaudi 3"
-      type: "AI アクセラレータ"
-    - name: "Core Ultra (AI PC)"
-      type: "NPU搭載CPU"
-    - name: "Panther Lake"
-      type: "次世代CPU"
-      status: "2026年予定"
+  - name: Gaudi 3
+    type: AI アクセラレータ
+  - name: Core Ultra (AI PC)
+    type: NPU搭載CPU
+  - name: Panther Lake
+    type: 次世代CPU
+    status: 2026年予定
   recent_news:
-    - date: "2025-09"
-      headline: "SoftBankから$2B投資を受け推論チップに注力"
-    - date: "2025-03"
-      headline: "Gaudi 3でAIアクセラレータ市場参入"
-  partnerships: ["SoftBank"]
-  hq: "サンタクララ"
-
+  - date: 2025-09
+    headline: SoftBankから$2B投資を受け推論チップに注力
+  - date: 2025-03
+    headline: Gaudi 3でAIアクセラレータ市場参入
+  partnerships:
+  - SoftBank
+  hq: サンタクララ
 - id: amd
-  name: "AMD"
-  type: "半導体メーカー"
+  name: AMD
+  type: 半導体メーカー
   key_products:
-    - name: "MI300X"
-      type: "データセンターGPU"
-    - name: "MI350"
-      type: "次世代AI GPU"
-      status: "2025年後半"
-    - name: "Ryzen AI"
-      type: "NPU搭載CPU"
+  - name: MI300X
+    type: データセンターGPU
+  - name: MI350
+    type: 次世代AI GPU
+    status: 2025年後半
+  - name: Ryzen AI
+    type: NPU搭載CPU
   recent_news:
-    - date: "2025-10"
-      headline: "MI300XがNVIDIA H100の代替として採用拡大"
-    - date: "2025-06"
-      headline: "MI350発表、推論性能でH200に対抗"
-  partnerships: ["Microsoft", "Meta", "Oracle"]
-  hq: "サンタクララ"
-
+  - date: 2025-10
+    headline: MI300XがNVIDIA H100の代替として採用拡大
+  - date: 2025-06
+    headline: MI350発表、推論性能でH200に対抗
+  partnerships:
+  - Microsoft
+  - Meta
+  - Oracle
+  hq: サンタクララ
 - id: broadcom
-  name: "Broadcom"
-  type: "半導体・インフラソフトウェア"
-  revenue_annual_usd: "64B (FY2025)"
-  ai_revenue_usd: "20B (FY2025, +65%)"
-  ai_backlog_usd: "73B (今後18ヶ月)"
+  name: Broadcom
+  type: 半導体・インフラソフトウェア
+  revenue_annual_usd: 64B (FY2025)
+  ai_revenue_usd: 20B (FY2025, +65%)
+  ai_backlog_usd: 73B (今後18ヶ月)
   key_products:
-    - name: "カスタムXPU"
-      type: "ASIC AIチップ"
-    - name: "Jericho3-AI"
-      type: "AIネットワーキング"
-    - name: "VMware (AI最適化)"
-      type: "インフラソフトウェア"
+  - name: カスタムXPU
+    type: ASIC AIチップ
+  - name: Jericho3-AI
+    type: AIネットワーキング
+  - name: VMware (AI最適化)
+    type: インフラソフトウェア
   recent_news:
-    - date: "2025-12"
-      headline: "FY2025 AI売上$20B(+65%)、受注残$73B"
-    - date: "2025-12"
-      headline: "GoogleのGemini等ハイパースケーラー向けカスタムチップで急成長"
-  partnerships: ["Google", "Meta", "ByteDance"]
-  hq: "パロアルト"
-
+  - date: 2025-12
+    headline: FY2025 AI売上$20B(+65%)、受注残$73B
+  - date: 2025-12
+    headline: GoogleのGemini等ハイパースケーラー向けカスタムチップで急成長
+  partnerships:
+  - Google
+  - Meta
+  - ByteDance
+  hq: パロアルト
 - id: bytedance
-  name: "ByteDance"
-  type: "テクノロジー大手"
-  ai_capex_usd: "23B予測(2026, RMB160B)"
+  name: ByteDance
+  type: テクノロジー大手
+  ai_capex_usd: 23B予測(2026, RMB160B)
   key_products:
-    - name: "Doubao"
-      type: "中国向けAIチャットボット"
-    - name: "TikTok AI"
-      type: "レコメンデーションAI"
+  - name: Doubao
+    type: 中国向けAIチャットボット
+  - name: TikTok AI
+    type: レコメンデーションAI
   recent_news:
-    - date: "2025-12"
-      headline: "2026年AI設備投資RMB1600億(約$23B)を計画"
-  hq: "北京"
-
+  - date: 2025-12
+    headline: 2026年AI設備投資RMB1600億(約$23B)を計画
+  hq: 北京
 - id: baidu
-  name: "Baidu"
-  type: "中国テクノロジー大手"
+  name: Baidu
+  type: 中国テクノロジー大手
   key_products:
-    - name: "ERNIE Bot (文心一言)"
-      type: "LLM"
-    - name: "Apollo Go"
-      type: "自動運転AI"
-    - name: "PaddlePaddle"
-      type: "深層学習フレームワーク"
+  - name: ERNIE Bot (文心一言)
+    type: LLM
+  - name: Apollo Go
+    type: 自動運転AI
+  - name: PaddlePaddle
+    type: 深層学習フレームワーク
   recent_news:
-    - date: "2025-10"
-      headline: "ERNIE 4.5リリース、中国市場でトップクラスの性能"
-  hq: "北京"
-
+  - date: 2025-10
+    headline: ERNIE 4.5リリース、中国市場でトップクラスの性能
+  hq: 北京
 - id: mistral
-  name: "Mistral AI"
-  type: "AI研究企業（欧州）"
-  valuation_usd: "14B (2025-09)"
+  name: Mistral AI
+  type: AI研究企業（欧州）
+  valuation_usd: 14B (2025-09)
   key_products:
-    - name: "Mistral Large 3"
-      type: "フラッグシップLLM"
-      release: "2025-12"
-    - name: "Magistral Medium"
-      type: "推論モデル"
-      release: "2025-06"
-    - name: "Le Chat"
-      type: "AIチャットボット"
-    - name: "Ministral 3"
-      type: "軽量LLM"
-      release: "2025-12"
+  - name: Mistral Large 3
+    type: フラッグシップLLM
+    release: 2025-12
+  - name: Magistral Medium
+    type: 推論モデル
+    release: 2025-06
+  - name: Le Chat
+    type: AIチャットボット
+  - name: Ministral 3
+    type: 軽量LLM
+    release: 2025-12
   recent_news:
-    - date: "2025-12"
-      headline: "Mistral Large 3とMinistral 3をリリース"
-    - date: "2025-09"
-      headline: "Series Cで2B EUR調達、評価額12B EUR($14B)"
-    - date: "2025-06"
-      headline: "Mistral Compute発表、18,000 Blackwell GPUでインフラ構築(2026開始)"
-  partnerships: ["NVIDIA", "Microsoft Azure"]
-  hq: "パリ"
+  - date: 2025-12
+    headline: Mistral Large 3とMinistral 3をリリース
+  - date: 2025-09
+    headline: Series Cで2B EUR調達、評価額12B EUR($14B)
+  - date: 2025-06
+    headline: Mistral Compute発表、18,000 Blackwell GPUでインフラ構築(2026開始)
+  partnerships:
+  - NVIDIA
+  - Microsoft Azure
+  hq: パリ
