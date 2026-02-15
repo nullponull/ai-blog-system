@@ -1,27 +1,23 @@
 # ナレッジベース更新履歴
-# 各ファイルの最終更新日時
+# Updated: 2026-02-16 06:32 JST
 
 companies:
-  updated: "2026-02-12"
-  source: "Claude Code Web検索"
-  next_update: "2026-02-19"
-
+  updated: '2026-02-16'
+  source: Gemini API Web Search
+  next_update: '2026-02-19'
 market_sizes:
-  updated: "2026-02-12"
-  source: "Claude Code Web検索"
-  next_update: "2026-03-12"
-
+  updated: '2026-02-12'
+  source: Claude Code Web検索
+  next_update: '2026-03-12'
 benchmarks:
-  updated: "2026-02-12"
-  source: "Claude Code Web検索"
-  next_update: "2026-03-12"
-
+  updated: '2026-02-12'
+  source: Claude Code Web検索
+  next_update: '2026-03-12'
 pricing:
-  updated: "2026-02-12"
-  source: "Claude Code Web検索"
-  next_update: "2026-03-12"
-
+  updated: '2026-02-12'
+  source: Claude Code Web検索
+  next_update: '2026-03-12'
 trends:
-  updated: "2026-02-12"
-  source: "Claude Code Web検索"
-  next_update: "2026-04-12"
+  updated: '2026-02-12'
+  source: Claude Code Web検索
+  next_update: '2026-04-12'
