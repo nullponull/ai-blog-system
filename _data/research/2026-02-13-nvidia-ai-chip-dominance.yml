@@ -1,0 +1,337 @@
+topic: "NVIDIA AI半導体の市場支配とBlackwell世代の影響"
+date: "2026-02-13"
+category: "業界別AI活用"
+researcher: "blog-researcher"
+
+facts:
+  - claim: "NVIDIAのFY2026 Q3売上高は過去最高の570億ドルを記録し、前年同期比62%増を達成した"
+    source_url: "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
+    source_name: "NVIDIA Newsroom"
+    date: "2025-11"
+    confidence: high
+
+  - claim: "NVIDIAのFY2026 Q3データセンター売上高は512億ドルで、前年同期比66%増、前四半期比25%増を達成した"
+    source_url: "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
+    source_name: "NVIDIA Newsroom"
+    date: "2025-11"
+    confidence: high
+
+  - claim: "NVIDIAのFY2026 Q4ガイダンスは売上高650億ドル（±2%）で、通期売上高は約2000億ドルに達する見込み"
+    source_url: "https://beancount.io/blog/2026/02/09/nvidia-q3-fy2026-earnings-analysis"
+    source_name: "Beancount.io"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "Blackwell Ultra GB300は288GB HBM3eメモリ、15 PFLOPS FP4、8TB/s帯域幅、TDP 1,400Wのスペックを持つ"
+    source_url: "https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/"
+    source_name: "NVIDIA Developer Blog"
+    date: "2025-03"
+    confidence: high
+
+  - claim: "GB300 NVL72ラックシステムは72基のBlackwell Ultra GPUと36基のGrace CPUを統合し、1.1エクサFLOPS FP4演算性能を実現する"
+    source_url: "https://www.nvidia.com/en-us/data-center/gb300-nvl72/"
+    source_name: "NVIDIA"
+    date: "2025-03"
+    confidence: high
+
+  - claim: "次世代Rubinプラットフォームは6つの新チップで構成され、GPUあたり50 PFLOPS NVFP4の推論性能を提供し、Blackwellの5倍の推論性能を実現する"
+    source_url: "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
+    source_name: "NVIDIA Newsroom"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "Rubin GPUはTSMC 3nmプロセスで製造され、HBM4メモリを採用、336億トランジスタを搭載し、2026年後半からパートナーを通じて提供開始予定"
+    source_url: "https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure"
+    source_name: "Introl Blog"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "NVIDIAはAIアクセラレータ市場で約80〜92%のシェアを保持しており、データセンターGPU市場では圧倒的な支配力を維持している"
+    source_url: "https://carboncredits.com/nvidia-controls-92-of-the-gpu-market-in-2025-and-reveals-next-gen-ai-supercomputer/"
+    source_name: "Carbon Credits"
+    date: "2025-03"
+    confidence: high
+
+  - claim: "Blackwell Ultra GB300 AIサーバーの出荷量は2026年に倍増する見込みで、年間最大60,000ラックの出荷が予測されている"
+    source_url: "https://wccftech.com/nvidia-blackwell-ultra-ai-servers-to-lead-the-ai-infrastructure-race-moving-into-2026/"
+    source_name: "WCCFTech"
+    date: "2025-12"
+    confidence: medium
+
+  - claim: "AWS、Google Cloud、Microsoft、OCIが2026年にVera Rubinベースのインスタンスを最初に展開するクラウドプロバイダーとなる"
+    source_url: "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
+    source_name: "NVIDIA Newsroom"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "主要ハイパースケーラー5社のAIインフラ設備投資額は2026年に6000億ドル超に達し、前年比36%増となる見込み"
+    source_url: "https://www.cnbc.com/2026/02/12/top-hyperscalers-to-boost-ai-capex-to-600-billion-stocks-that-benefit.html"
+    source_name: "CNBC"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "NVIDIAはFY2026 Q1にH20在庫に関連する45億ドルの減損を計上した。米国の新輸出規制によるH20需要減少が原因"
+    source_url: "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2026"
+    source_name: "NVIDIA Newsroom"
+    date: "2025-05"
+    confidence: high
+
+  - claim: "Jensen Huangは CES 2026でRubinプラットフォームを発表し、推論トークンコストをBlackwellの約10分の1に削減できると述べた"
+    source_url: "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+    source_name: "NVIDIA Blog"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "AMDのInstinct MI400シリーズは2026年に登場予定で、432GB HBM4、19.6TB/s帯域幅、40 PFLOPS FP4の性能を持つ"
+    source_url: "https://www.tweaktown.com/news/105758/amds-next-gen-instinct-mi400-gpu-confirmed-rocks-432gb-of-hbm4-at-19-6tb-sec-ready-for-2026/index.html"
+    source_name: "TweakTown"
+    date: "2025-06"
+    confidence: medium
+
+  - claim: "カスタムASICの出荷量は2026年に44.6%増加が予測される一方、GPU出荷量は16.1%増にとどまり、AIハードウェア市場の多様化が進んでいる"
+    source_url: "https://www.kavout.com/market-lens/the-ai-chip-war-just-fractured-what-nvidia-s-4-4-trillion-dominance-faces-in-2026"
+    source_name: "Kavout"
+    date: "2026-01"
+    confidence: medium
+
+statistics:
+  - metric: "NVIDIA FY2026 Q3 総売上高"
+    value: "570億ドル（前年同期比+62%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-11"
+
+  - metric: "NVIDIA FY2026 Q3 データセンター売上高"
+    value: "512億ドル（前年同期比+66%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-11"
+
+  - metric: "NVIDIA FY2026 Q2 総売上高"
+    value: "467億ドル（前年同期比+56%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-08"
+
+  - metric: "NVIDIA FY2026 Q2 データセンター売上高"
+    value: "411億ドル（前年同期比+56%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-08"
+
+  - metric: "NVIDIA FY2026 Q1 総売上高"
+    value: "441億ドル（前年同期比+69%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-05"
+
+  - metric: "NVIDIA FY2026 Q1 データセンター売上高"
+    value: "391億ドル（前年同期比+73%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-05"
+
+  - metric: "NVIDIA FY2026 Q4 売上高ガイダンス"
+    value: "650億ドル（±2%）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-11"
+
+  - metric: "NVIDIA FY2026 通期売上高予測"
+    value: "約2000億ドル（前年比+53%）"
+    source: "Beancount.io分析"
+    date: "2026-02"
+
+  - metric: "NVIDIA 時価総額"
+    value: "約4.6兆ドル（世界最大）"
+    source: "Capital.com / public.com"
+    date: "2026-02"
+
+  - metric: "NVIDIA 株価"
+    value: "約185ドル"
+    source: "各金融情報サイト"
+    date: "2026-02"
+
+  - metric: "NVIDIA AI半導体市場シェア"
+    value: "80〜92%（データセンターGPU市場）"
+    source: "Carbon Credits / Motley Fool"
+    date: "2025-2026"
+
+  - metric: "NVIDIA 粗利益率（Q3 FY2026）"
+    value: "GAAP 73.4% / Non-GAAP 73.6%"
+    source: "NVIDIA公式決算発表"
+    date: "2025-11"
+
+  - metric: "NVIDIA 9ヶ月累計純利益（FY2026）"
+    value: "771億ドル（前年通期729億ドルを超過）"
+    source: "NVIDIA公式決算発表"
+    date: "2025-11"
+
+  - metric: "ハイパースケーラー5社 AI設備投資（2026年予測）"
+    value: "6000億ドル超（前年比+36%）"
+    source: "CNBC / IEEE ComSoc"
+    date: "2026-02"
+
+  - metric: "GB300 NVL72 演算性能"
+    value: "1.1エクサFLOPS FP4（Hopperの50倍のAIファクトリー出力）"
+    source: "NVIDIA"
+    date: "2025-03"
+
+  - metric: "Rubin GPU 演算性能"
+    value: "50 PFLOPS NVFP4（Blackwellの5倍の推論性能）"
+    source: "NVIDIA Newsroom"
+    date: "2026-01"
+
+companies:
+  - name: "NVIDIA"
+    latest_news: "CES 2026でVera Rubinプラットフォーム（6チップ構成のAIスーパーコンピュータ）を発表。Blackwell Ultraの量産出荷を拡大中。FY2026 Q3で過去最高の570億ドル売上を記録。時価総額は約4.6兆ドルで世界最大の企業。"
+    key_numbers: "FY2026通期売上約2000億ドル予測、データセンター売上Q3で512億ドル、市場シェア80-92%、時価総額4.6兆ドル"
+
+  - name: "AMD"
+    latest_news: "Instinct MI400シリーズ（MI455X/MI430X）を2026年投入予定。432GB HBM4、40 PFLOPS FP4で次世代NVIDIAに対抗。MI350は288GB HBM3Eで出荷中。MI500は2027年予定。"
+    key_numbers: "MI400: 432GB HBM4、19.6TB/s帯域幅、40 PFLOPS FP4。MI350: 288GB HBM3E、8TB/s帯域幅"
+
+  - name: "Intel"
+    latest_news: "Gaudi 3 AIアクセラレータをDell AI Factory経由で提供。CES 2026で18Aプロセス技術のブレークスルーを発表。Llama 3 80BでH100比70%高い推論スループットを主張。"
+    key_numbers: "Gaudi 3: H100比70%推論スループット向上（Intel主張）"
+
+  - name: "Microsoft"
+    latest_news: "NVIDIA Vera Rubin NVL72をFairwater AIスーパーファクトリーに導入予定。独自AI チップMaiaも開発中。2026年AI設備投資を大幅拡大。"
+    key_numbers: "2026年AI設備投資額は巨額（具体額は競合比で増加率はやや緩やか）"
+
+  - name: "Amazon (AWS)"
+    latest_news: "NVIDIA Rubinプラットフォームの最初の展開パートナー。独自チップTrainiumも並行展開。2026年設備投資は2000億ドル規模。"
+    key_numbers: "2026年設備投資予定: 2000億ドル"
+
+  - name: "Google (Alphabet)"
+    latest_news: "NVIDIA GPUの大規模導入を継続しつつ、独自TPU v6も展開。2026年設備投資は最大1850億ドル。"
+    key_numbers: "2026年設備投資予定: 最大1850億ドル"
+
+  - name: "Meta"
+    latest_news: "NVIDIA GPUを大量調達しAIインフラを構築。2026年設備投資は最大1350億ドル。"
+    key_numbers: "2026年設備投資予定: 最大1350億ドル"
+
+quotes:
+  - text: "Companies don't print money to buy our processors; they simply take the annual budget that was meant to replace conventional servers and redirect it toward building AI factories."
+    speaker: "Jensen Huang (NVIDIA CEO)"
+    source_url: "https://www.calcalistech.com/ctechnews/article/3g6b31j2p"
+
+  - text: "The ChatGPT moment for physical AI is here - when machines begin to understand, reason and act in the real world."
+    speaker: "Jensen Huang (NVIDIA CEO)"
+    source_url: "https://www.axios.com/2026/01/05/nvidia-ces-2026-jensen-huang-speech-ai"
+
+  - text: "The faster you train AI models, the faster you can get the next frontier out to the world. This is your time to market. This is technology leadership."
+    speaker: "Jensen Huang (NVIDIA CEO)"
+    source_url: "https://www.tomshardware.com/pc-components/gpus/jensen-huang-ces-2026-q-and-a"
+
+  - text: "Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intelligence."
+    speaker: "Jensen Huang (NVIDIA CEO)"
+    source_url: "https://visionarycios.com/jensen-huang-nvidia-ces-2026/"
+
+kb_updates:
+  companies:
+    - id: nvidia
+      recent_news:
+        - date: "2026-02"
+          headline: "FY2026 Q3で過去最高の570億ドル売上を記録、データセンター512億ドル"
+        - date: "2026-01"
+          headline: "CES 2026でVera Rubinプラットフォーム（6チップ構成）を発表、推論性能Blackwellの5倍"
+        - date: "2026-01"
+          headline: "Rubin GPUが量産開始、TSMC 3nm採用、HBM4搭載、336Bトランジスタ"
+        - date: "2025-12"
+          headline: "Blackwell Ultra GB300の出荷量が2026年に倍増見込み、最大6万ラック出荷予測"
+        - date: "2025-11"
+          headline: "FY2026 Q4ガイダンスは650億ドル±2%、通期2000億ドル到達見込み"
+        - date: "2025-05"
+          headline: "H20輸出規制に伴い45億ドルの在庫減損を計上"
+      valuation_usd: "4.6T"
+      revenue_annual_usd: "~200B (FY2026 projected)"
+
+    - id: amd
+      recent_news:
+        - date: "2026-01"
+          headline: "CES 2026でMI455/MI500シリーズの次世代AIチップを発表"
+        - date: "2025-06"
+          headline: "Instinct MI400確認: 432GB HBM4、19.6TB/s、40 PFLOPS FP4"
+      valuation_usd: "N/A"
+      revenue_annual_usd: "N/A"
+
+    - id: intel
+      recent_news:
+        - date: "2026-01"
+          headline: "CES 2026で18Aプロセス技術のブレークスルーを発表"
+        - date: "2025-12"
+          headline: "Gaudi 3をDell AI Factory経由で提供開始"
+      valuation_usd: "N/A"
+      revenue_annual_usd: "N/A"
+
+  benchmarks:
+    gpu_benchmarks:
+      - name: "NVIDIA Blackwell Ultra B300"
+        memory: "288GB HBM3e (12-high stacks)"
+        bandwidth: "8TB/s"
+        tflops_fp4: 15000
+        tdp: "1400W"
+        transistors: "208B"
+        process: "TSMC 4NP"
+        status: "出荷中 (2025 H2〜)"
+
+      - name: "NVIDIA GB300 NVL72"
+        memory: "288GB HBM3e x72 GPU"
+        bandwidth: "N/A (ラック単位)"
+        tflops_fp4: 1100000
+        tdp: "ラック単位 液冷"
+        transistors: "N/A"
+        process: "TSMC 4NP"
+        status: "出荷中"
+        note: "1.1 exaFLOPS FP4、72 GPU + 36 Grace CPU統合"
+
+      - name: "NVIDIA Rubin R100"
+        memory: "288GB HBM4"
+        bandwidth: "22TB/s"
+        tflops_fp4: 50000
+        tdp: "N/A"
+        transistors: "336B"
+        process: "TSMC N3 (3nm)"
+        status: "量産開始、2026 H2パートナー提供予定"
+
+      - name: "NVIDIA Vera Rubin NVL72"
+        memory: "288GB HBM4 x72 GPU"
+        bandwidth: "N/A (ラック単位)"
+        tflops_fp4: 3600000
+        tdp: "ラック単位 液冷"
+        transistors: "N/A"
+        process: "TSMC N3"
+        status: "2026 H2提供予定"
+        note: "3.6 exaFLOPS FP4推論、1.2 exaFLOPS FP8訓練"
+
+      - name: "AMD Instinct MI350X"
+        memory: "288GB HBM3E"
+        bandwidth: "8TB/s"
+        tflops_fp4: "N/A"
+        tdp: "N/A"
+        transistors: "N/A"
+        process: "CDNA 4"
+        status: "出荷中"
+
+      - name: "AMD Instinct MI400 (MI455X)"
+        memory: "432GB HBM4"
+        bandwidth: "19.6TB/s"
+        tflops_fp4: 40000
+        tdp: "N/A"
+        transistors: "N/A"
+        process: "N/A"
+        status: "2026年投入予定"
+
+market_analysis:
+  competitive_landscape: |
+    NVIDIAはAI半導体市場で80-92%のシェアを維持し、圧倒的な支配力を持つ。
+    しかし、市場は3つの方向で競争が激化している:
+    1. AMD: MI400/MI500シリーズで性能面での追従を試みる
+    2. Intel: Gaudi 3でコスト効率を武器に参入
+    3. カスタムASIC: Google TPU、Amazon Trainium、Microsoft Maiaなど
+       ハイパースケーラーの自社チップ開発が加速（2026年ASIC出荷量+44.6%予測）
+    NVIDIAの強みはCUDAエコシステムとソフトウェアスタックにあり、
+    ハードウェア性能だけでなくプラットフォーム全体の優位性が参入障壁となっている。
+
+  key_trends:
+    - "Rubinプラットフォームによる推論コストの劇的削減（Blackwellの1/10）"
+    - "ハイパースケーラー5社の2026年AI設備投資が6000億ドル超に急拡大"
+    - "カスタムASIC（TPU、Trainium等）の台頭がGPU市場シェアに影響"
+    - "HBM4メモリ採用による次世代GPUのメモリ帯域幅大幅向上"
+    - "液冷ラックスケールアーキテクチャの標準化"
+    - "FP4精度フォーマットの普及による推論効率向上"
+    - "米国輸出規制がNVIDIAの中国向け事業に影響（H20在庫減損45億ドル）"

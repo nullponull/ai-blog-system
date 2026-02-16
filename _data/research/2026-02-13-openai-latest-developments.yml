@@ -1,0 +1,255 @@
+topic: "OpenAIの最新動向と企業戦略2026"
+date: "2026-02-13"
+category: "AI最新ニュース"
+researcher: "blog-researcher"
+
+facts:
+  - claim: "OpenAIが最大1000億ドル規模の資金調達ラウンドを進行中。Nvidia（最大300億ドル）、Amazon（200億ドル超）、Microsoft（100億ドル未満）、SoftBank（追加300億ドル）が参加交渉中で、企業評価額は8300億ドルに達する可能性がある"
+    source_url: "https://www.cnbc.com/2026/02/09/sam-altman-touts-chatgpt-growth-as-openai-nears-100-billion-funding.html"
+    source_name: "CNBC"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "ChatGPTの週間アクティブユーザーが9億人を超え、月間成長率が再び10%を超えた。Sam Altmanが社内Slackで従業員に報告"
+    source_url: "https://www.cnbc.com/2026/02/09/sam-altman-touts-chatgpt-growth-as-openai-nears-100-billion-funding.html"
+    source_name: "CNBC"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIが2026年2月13日にGPT-4o、GPT-4.1、GPT-4.1 mini、o4-miniをChatGPTから退役。GPT-5（Instant、Thinking、Pro）も同時に退役し、GPT-5.2に統合"
+    source_url: "https://openai.com/index/retiring-gpt-4o-and-older-models/"
+    source_name: "OpenAI"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIがCerebrasチップを搭載した新モデル「GPT-5.3-Codex-Spark」を発表。Cerebras Wafer Scale Engine 3による毎秒1000トークン以上の高速推論を実現し、Nvidia以外のチップでの初のモデル展開"
+    source_url: "https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/"
+    source_name: "TechCrunch"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIが新しいエンタープライズプラットフォーム「Frontier」を発表。AIエージェントの構築・展開・管理が可能で、Uber、State Farm、Intuit、Thermo Fisher Scientificが初期導入企業"
+    source_url: "https://openai.com/index/introducing-openai-frontier/"
+    source_name: "OpenAI"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIがChatGPTの無料版とGoプラン（月額8ドル）で広告テストを2026年2月9日に開始。ログイン済みの米国成人ユーザーが対象で、Plus・Pro・Businessプランには広告なし"
+    source_url: "https://openai.com/index/our-approach-to-advertising-and-expanding-access/"
+    source_name: "OpenAI"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIの安全担当副社長Ryan Beiermeisterが解雇。ChatGPTの「アダルトモード」導入に反対し、未成年保護のガードレールが不十分だと警告していた"
+    source_url: "https://techcrunch.com/2026/02/10/openai-policy-exec-who-opposed-chatbots-adult-mode-reportedly-fired-on-discrimination-claim/"
+    source_name: "TechCrunch"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIが中国DeepSeekに対し、米国AIモデルの蒸留（distillation）による不正利用を米下院中国特別委員会に警告するメモを送付"
+    source_url: "https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge"
+    source_name: "Bloomberg"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIが初のハードウェアデバイス「Sweet Pea」（コードネーム）を2026年下半期に発表予定。イヤホン型デバイスの可能性が高い"
+    source_url: "https://techcrunch.com/2026/01/21/openai-aims-to-ship-its-first-device-in-2026-and-it-could-be-earbuds/"
+    source_name: "TechCrunch"
+    date: "2026-01"
+    confidence: medium
+
+  - claim: "OpenAIのCFO Sarah Friarが2026年は「実用的な導入（practical adoption）」に注力すると宣言。エンタープライズ顧客の収益比率を現在の40%から50%に引き上げる目標を設定"
+    source_url: "https://www.cnbc.com/2026/01/19/openai-to-focus-on-practical-adoption-in-2026-says-finance-chief-sarah-friar.html"
+    source_name: "CNBC"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "SoftBankがOpenAIへの投資で42億ドルの含み益を計上。Vision Fundの業績を大幅に押し上げた"
+    source_url: "https://www.cnbc.com/2026/02/12/softbank-vision-fund-openai.html"
+    source_name: "CNBC"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIがPostgreSQLを単一プライマリインスタンスで毎秒数百万クエリに拡張し、8億人のChatGPTユーザーをサポート。過去1年でPostgreSQL負荷が10倍以上に増加"
+    source_url: "https://www.infoq.com/news/2026/02/openai-runs-chatgpt-postgres/"
+    source_name: "InfoQ"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "OpenAIが2026年後半〜2027年のIPOを準備中。最大1兆ドルの評価額での上場を目指し、ウォール街の銀行と非公式な協議を開始"
+    source_url: "https://siliconangle.com/2025/10/29/openai-reportedly-planning-2026-2027-ipo-valuation-1t/"
+    source_name: "SiliconANGLE"
+    date: "2026-02"
+    confidence: medium
+
+  - claim: "GPT-5.2 ProがARC-AGI-1（Verified）で90%の閾値を初めて突破。o3-previewの87%から改善し、コストを390倍削減"
+    source_url: "https://openai.com/index/introducing-gpt-5-2/"
+    source_name: "OpenAI"
+    date: "2025-12"
+    confidence: high
+
+  - claim: "OpenAIのO3モデルのAPI価格が80%値下げ。入力100万トークンあたり10ドルから2ドル、出力は40ドルから8ドルに引き下げ"
+    source_url: "https://apidog.com/blog/o3-api-pricing/"
+    source_name: "APIDog"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "Cerebrasとの10億ドル超の複数年パートナーシップ契約を締結。推論インフラのNvidia依存からの多角化を示す初の大規模な動き"
+    source_url: "https://venturebeat.com/technology/openai-deploys-cerebras-chips-for-15x-faster-code-generation-in-first-major"
+    source_name: "VentureBeat"
+    date: "2026-02"
+    confidence: high
+
+statistics:
+  - metric: "ChatGPT週間アクティブユーザー数"
+    value: "9億人以上"
+    source: "DemandSage / OpenAI"
+    date: "2025-12"
+
+  - metric: "ChatGPT有料サブスクライバー数"
+    value: "3500万人"
+    source: "DemandSage"
+    date: "2025-12"
+
+  - metric: "法人顧客数"
+    value: "100万社以上"
+    source: "OpenAI公式発表"
+    date: "2025-11"
+
+  - metric: "企業評価額（交渉中）"
+    value: "8300億ドル"
+    source: "Bloomberg / CNBC"
+    date: "2026-02"
+
+  - metric: "2026年売上予測"
+    value: "254〜300億ドル"
+    source: "内部文書 / AI Insiders"
+    date: "2026-02"
+
+  - metric: "2026年損失予測"
+    value: "140億ドル"
+    source: "Yahoo Finance / The Information"
+    date: "2026-02"
+
+  - metric: "年間経常収益（ARR）"
+    value: "100億ドル（2025年6月時点）"
+    source: "DemandSage"
+    date: "2025-06"
+
+  - metric: "資金調達ラウンド規模"
+    value: "最大1000億ドル"
+    source: "CNBC / Bloomberg"
+    date: "2026-02"
+
+  - metric: "GPT-5のハルシネーション削減率（vs o3）"
+    value: "6倍削減"
+    source: "OpenAI公式"
+    date: "2025-08"
+
+  - metric: "GPT-5.2 Pro GPQA Diamondスコア"
+    value: "93.2%"
+    source: "OpenAI公式"
+    date: "2025-12"
+
+  - metric: "GPT-5.2 AIME 2025数学スコア"
+    value: "100%"
+    source: "OpenAI公式"
+    date: "2025-12"
+
+  - metric: "O3 API価格値下げ率"
+    value: "80%削減"
+    source: "OpenAI API"
+    date: "2026-01"
+
+  - metric: "ChatGPTのAI Webトラフィックシェア"
+    value: "59.47%"
+    source: "DemandSage"
+    date: "2025-12"
+
+  - metric: "GPT-4oの残存利用率"
+    value: "0.1%"
+    source: "OpenAI公式"
+    date: "2026-02"
+
+  - metric: "Codex-Sparkの推論速度"
+    value: "毎秒1000トークン以上"
+    source: "TechCrunch / Cerebras"
+    date: "2026-02"
+
+companies:
+  - name: "OpenAI"
+    latest_news: "2026年2月、Cerebrasチップ搭載の新コーディングモデルGPT-5.3-Codex-Sparkを発表。エンタープライズ向けAIエージェントプラットフォーム「Frontier」をローンチ。ChatGPTに広告導入テスト開始。GPT-4o等の旧モデルを退役しGPT-5.2に統合。最大1000億ドルの資金調達ラウンドを進行中で評価額8300億ドル。IPOを2026年後半〜2027年に計画"
+    key_numbers: "評価額8300億ドル、2026年売上予測254〜300億ドル、WAU9億人超、有料ユーザー3500万人、法人顧客100万社超"
+
+quotes:
+  - text: "ChatGPTは月間成長率が再び10%を超えている"
+    speaker: "Sam Altman（OpenAI CEO）"
+    source_url: "https://www.cnbc.com/2026/02/09/sam-altman-touts-chatgpt-growth-as-openai-nears-100-billion-funding.html"
+
+  - text: "NVIDIAとの協業を大切にしており、世界最高のAIチップを作っている。長期間にわたる巨大な顧客でありたい"
+    speaker: "Sam Altman（OpenAI CEO）"
+    source_url: "https://www.cnbc.com/2026/02/06/openai-altman-nvidia-musk-anthropic-super-bowl.html"
+
+  - text: "AIは社会における平等化の力であるべきだ"
+    speaker: "Sam Altman（OpenAI CEO）"
+    source_url: "https://fortune.com/2026/02/10/sam-altman-told-me-ai-should-be-an-equalizing-force-1-6-trillion-gender-gap/"
+
+  - text: "2026年は実用的な導入（practical adoption）に注力する年になる"
+    speaker: "Sarah Friar（OpenAI CFO）"
+    source_url: "https://www.cnbc.com/2026/01/19/openai-to-focus-on-practical-adoption-in-2026-says-finance-chief-sarah-friar.html"
+
+  - text: "世界は危機に瀕している"
+    speaker: "元Anthropic Safeguards Research責任者（退職時のコメント）"
+    source_url: "https://www.cnn.com/2026/02/11/business/openai-anthropic-departures-nightcap"
+
+kb_updates:
+  companies:
+    - id: openai
+      recent_news:
+        - date: "2026-02"
+          headline: "Cerebrasチップ搭載GPT-5.3-Codex-Sparkを発表、Nvidia以外での初のモデル展開"
+        - date: "2026-02"
+          headline: "エンタープライズAIエージェントプラットフォーム「Frontier」をローンチ"
+        - date: "2026-02"
+          headline: "ChatGPT無料版・Goプランで広告テスト開始"
+        - date: "2026-02"
+          headline: "GPT-4o、GPT-4.1、o4-mini等の旧モデルをChatGPTから退役"
+        - date: "2026-02"
+          headline: "DeepSeekの米国AIモデル蒸留を米議会に警告"
+        - date: "2026-02"
+          headline: "安全担当VP解雇、アダルトモード反対が背景か"
+        - date: "2026-02"
+          headline: "SoftBankがOpenAI投資で42億ドルの含み益を計上"
+        - date: "2026-02"
+          headline: "最大1000億ドルの資金調達ラウンド進行中、評価額8300億ドル"
+        - date: "2026-01"
+          headline: "CFO Sarah Friarが2026年は「実用的な導入」重視と宣言"
+        - date: "2026-01"
+          headline: "初のハードウェアデバイス「Sweet Pea」（イヤホン型）を2026年下半期発表予定"
+      valuation_usd: "830B"
+      revenue_annual_usd: "25-30B (2026 projected)"
+
+  benchmarks:
+    llm_benchmarks:
+      - model: "GPT-5.2 Pro"
+        provider: "OpenAI"
+        gpqa_diamond: 93.2
+        arc_agi_1_verified: 90.0
+        aime_2025: 100.0
+      - model: "GPT-5.2 Thinking"
+        provider: "OpenAI"
+        gpqa_diamond: 92.4
+      - model: "GPT-5"
+        provider: "OpenAI"
+        scale_multichallenge: 69.6
+        tau2_bench_telecom: 96.7
+        hallucination_reduction_vs_gpt4o: "45%"
+        hallucination_reduction_vs_o3_thinking: "80%"
+      - model: "GPT-5.3-Codex-Spark"
+        provider: "OpenAI"
+        inference_speed_tokens_per_sec: 1000
+        chip: "Cerebras WSE-3"
+      - model: "o3"
+        provider: "OpenAI"
+        api_price_input_per_million: "$2 (80% reduced)"
+        api_price_output_per_million: "$8 (80% reduced)"

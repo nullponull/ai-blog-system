@@ -40,6 +40,9 @@ Thumbs.db
 *.swo
 *~
 
+# Generated files
+*.pdf
+
 # Log files
 *.log
 
