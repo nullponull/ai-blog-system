@@ -533,8 +533,8 @@ def enrich_article(filepath: str, posts_dir: str):
     # 中間広告の挿入
     content = insert_mid_article_ad(content)
 
-    # 比較表を本文中に挿入（最初のH2セクション後、2番目のH2の前に配置）
-    comparison_tables = detect_comparison_context(content)
+    # 比較表の自動挿入は無効化（固定テンプレートのため記事との関連性が低い）
+    comparison_tables = []
     comparison_count = 0
     if comparison_tables:
         table_md = ""
