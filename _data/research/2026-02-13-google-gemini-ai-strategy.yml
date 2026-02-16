@@ -1,0 +1,291 @@
+topic: "Google Gemini 2.5/3.0とAI戦略の最新動向"
+date: "2026-02-13"
+category: "AI技術ガイド"
+researcher: "blog-researcher"
+
+facts:
+  - claim: "Gemini 3 Proは2025年11月18日にリリースされ、LMArena Eloで1501を記録し、初めて1500の壁を突破したモデルとなった"
+    source_url: "https://blog.google/products/gemini/gemini-3/"
+    source_name: "Google Blog"
+    date: "2025-11"
+    confidence: high
+
+  - claim: "Gemini 3 Flashは2026年2月初旬にリリースされ、Geminiアプリの新デフォルトモデルとなった。Gemini 3 Proの推論能力とFlashラインの低レイテンシ・効率性・コストを兼ね備える"
+    source_url: "https://blog.google/products/gemini/gemini-3-flash/"
+    source_name: "Google Blog"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "Gemini 2.5 Deep Thinkは、より長時間の思考と複数の並列思考ストリームを同時に生成できる最先端推論モードで、Google AI Ultraサブスクライバーに提供されている"
+    source_url: "https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/"
+    source_name: "Google Developers Blog"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "Gemini 3 Deep ThinkはIMO-ProofBench Advancedテストで推論時計算スケーリングにより最大90%を達成し、Bloomのエルデシュ予想データベースの700の未解決問題の包括的評価を完了した"
+    source_url: "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+    source_name: "Google DeepMind"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "Google DeepMindはAlphaGenomeをオープンソース化した。最大100万塩基対のDNA配列の分子特性をマッピングでき、以前のモデルのコンテキストウィンドウを大幅に超える"
+    source_url: "https://siliconangle.com/2026/01/28/google-deepmind-open-sources-alphagenome-medical-research-model/"
+    source_name: "SiliconANGLE"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "GoogleはBoston Dynamicsと提携し、Gemini Roboticsモデルを活用してAtlasロボットをより人間的に動作させる研究を進めている"
+    source_url: "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/"
+    source_name: "TechCrunch"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "ChatGPTのAIチャットボット市場シェアは1年前の87.2%から68%に低下し、Google Geminiは2025年1月の5.4%から18.2%に急増した"
+    source_url: "https://vertu.com/lifestyle/ai-chatbot-market-share-2026-chatgpt-drops-to-68-as-google-gemini-surges-to-18-2/"
+    source_name: "VERTU"
+    date: "2026-02"
+    confidence: medium
+
+  - claim: "Googleは2026年1月にPersonal Intelligence機能をGeminiアプリに実装。Gmail、Googleフォト、YouTube、検索などのGoogleアプリを安全に接続して個別最適化された支援を提供する"
+    source_url: "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/"
+    source_name: "Google Blog"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "Sundar PicaiCEOはUniversal Commerce Protocol（UCP）を発表。AIエージェントがAI Mode in SearchおよびGeminiアプリ内で直接チェックアウトを可能にするエージェンティックコマースの新オープン標準"
+    source_url: "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/"
+    source_name: "Google Blog"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "Googleは2025年を通じてGeminiのサービング単位コストを78%削減した。モデル最適化、効率改善、利用率向上によるもの"
+    source_url: "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html"
+    source_name: "CNBC"
+    date: "2026-02"
+    confidence: high
+
+  - claim: "Google DeepMindはProject Genie（Genie 3ワールドモデル使用）を発表。テキストと画像のプロンプトから多様で探索可能なインタラクティブ世界を生成する実験的研究プロトタイプ"
+    source_url: "https://www.pymnts.com/google/2026/google-deepmind-introduces-project-genie-for-interactive-ai-world-building/"
+    source_name: "PYMNTS"
+    date: "2026-01"
+    confidence: high
+
+  - claim: "AI Overviewsは米国検索の13.14%に表示され（2026年3月時点）、2026年1月の6.49%から倍増。グローバルではGoogle検索の18%にAI Overviewsが表示される"
+    source_url: "https://www.demandsage.com/ai-overviews-statistics/"
+    source_name: "DemandSage"
+    date: "2026-02"
+    confidence: medium
+
+  - claim: "Gemini 3 ProはMMMU-Proで81%、Video-MMMUで87.6%、SimpleQA Verifiedで72.1%を達成し、事実精度でも大きな進歩を示した"
+    source_url: "https://blog.google/products/gemini/gemini-3/"
+    source_name: "Google Blog"
+    date: "2025-11"
+    confidence: high
+
+statistics:
+  - metric: "Google Cloud Q4 2025売上高"
+    value: "177億ドル（前年比48%増）"
+    source: "CNBC / Alphabet Q4 2025決算"
+    date: "2026-02"
+
+  - metric: "Google Cloud年間ランレート"
+    value: "700億ドル超（2025年末時点）"
+    source: "Alphabet Q4 2025決算発表"
+    date: "2026-02"
+
+  - metric: "Google Cloudバックログ"
+    value: "2400億ドル（前四半期比55%増、前年比2倍超）"
+    source: "Alphabet Q4 2025決算発表"
+    date: "2026-02"
+
+  - metric: "Alphabet Q4 2025総売上高"
+    value: "1138.3億ドル（予想1114.3億ドルを上回る）"
+    source: "CNBC"
+    date: "2026-02"
+
+  - metric: "Alphabet 2025年度年間売上高"
+    value: "4000億ドル超（初の大台突破）"
+    source: "9to5Google"
+    date: "2026-02"
+
+  - metric: "Alphabet 2026年設備投資計画"
+    value: "1750億〜1850億ドル（2025年の914億ドルからほぼ倍増）"
+    source: "CNBC / Yahoo Finance"
+    date: "2026-02"
+
+  - metric: "Gemini月間アクティブユーザー数"
+    value: "7億5000万人（前四半期の6億5000万人から増加）"
+    source: "Alphabet Q4 2025決算コール"
+    date: "2026-02"
+
+  - metric: "GeminiモデルのAPI処理トークン数"
+    value: "毎分100億トークン以上"
+    source: "Alphabet Q4 2025決算コール"
+    date: "2026-02"
+
+  - metric: "Geminiサービングコスト削減率（2025年通年）"
+    value: "78%削減"
+    source: "Alphabet Q4 2025決算コール"
+    date: "2026-02"
+
+  - metric: "AIチャットボット市場シェア（Gemini）"
+    value: "18.2%（2025年1月の5.4%から急増）"
+    source: "VERTU / Similarweb分析"
+    date: "2026-02"
+
+  - metric: "AIチャットボット市場シェア（ChatGPT）"
+    value: "68%（1年前の87.2%から低下）"
+    source: "VERTU / Similarweb分析"
+    date: "2026-02"
+
+  - metric: "AI Overviews月間利用者数"
+    value: "20億人以上（グローバル、2025年Q2時点）"
+    source: "DemandSage"
+    date: "2025-06"
+
+  - metric: "Alphabet Q4 2025 EPS"
+    value: "2.82ドル（予想2.63ドルを上回る）"
+    source: "CNBC"
+    date: "2026-02"
+
+companies:
+  - name: "Google / Alphabet"
+    latest_news: "Gemini 3 Pro/Flashをリリースし、LMArena Eloで1501を初達成。Q4 2025でGoogle Cloud売上48%増の177億ドル。2026年CapExを1750-1850億ドルに倍増計画。Gemini MAUは7.5億人に到達。DeepMindはAlphaGenomeオープンソース化とProject Genie発表"
+    key_numbers: "Q4売上1138億ドル、Cloud売上177億ドル（+48%）、年間売上4000億ドル超、CapEx計画1750-1850億ドル、Gemini MAU 7.5億人"
+
+  - name: "OpenAI"
+    latest_news: "GPT-5.2をリリースしAIME 2025で100%達成。AIチャットボット市場シェアは68%に低下（1年前87.2%）。エンタープライズ市場ではシェア25%でAnthropicの33%に次ぐ2位"
+    key_numbers: "市場シェア68%（-19.2pp YoY）、エンタープライズ市場25%"
+
+  - name: "Anthropic"
+    latest_news: "Claude Opus 4.5/4.6をリリース。エンタープライズAI市場でシェア約33%を獲得しトップ。SWE-benchではClaude 4.5 Sonnetが77.2%でコーディングタスクをリード"
+    key_numbers: "エンタープライズ市場シェア約33%、SWE-bench 77.2%"
+
+quotes:
+  - text: "Gemini models now process over 10 billion tokens per minute via direct API use by customers"
+    speaker: "Sundar Pichai, Alphabet CEO"
+    source_url: "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html"
+
+  - text: "Our Gemini AI app now has more than 750 million monthly active users"
+    speaker: "Sundar Pichai, Alphabet CEO"
+    source_url: "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html"
+
+api_pricing:
+  - model: "Gemini 2.0 Flash"
+    input_per_1m_tokens: "$0.10"
+    output_per_1m_tokens: "$0.40"
+    source: "Google AI for Developers"
+
+  - model: "Gemini 2.5 Flash"
+    input_per_1m_tokens: "$0.30"
+    output_per_1m_tokens: "$2.50"
+    source: "Google AI for Developers"
+
+  - model: "Gemini 2.5 Pro"
+    input_per_1m_tokens: "$1.25"
+    output_per_1m_tokens: "$10.00"
+    note: "200Kトークン超は2倍料金"
+    source: "Google AI for Developers"
+
+  - model: "Gemini 3 Flash Preview"
+    input_per_1m_tokens: "$0.50"
+    output_per_1m_tokens: "$3.00"
+    source: "Google AI for Developers"
+
+  - model: "Gemini 3 Pro Preview"
+    input_per_1m_tokens: "$2.00"
+    output_per_1m_tokens: "$12.00"
+    note: "200Kトークン超は2倍料金"
+    source: "Google AI for Developers"
+
+  - model: "Flash-Lite"
+    input_per_1m_tokens: "$0.10"
+    output_per_1m_tokens: "$0.40"
+    source: "Google AI for Developers"
+
+kb_updates:
+  companies:
+    - id: google
+      recent_news:
+        - date: "2026-02"
+          headline: "Gemini 3 FlashをGeminiアプリの新デフォルトモデルとしてリリース"
+        - date: "2026-02"
+          headline: "Q4 2025決算発表：売上1138億ドル、Google Cloud 48%増の177億ドル"
+        - date: "2026-02"
+          headline: "2026年CapExを1750-1850億ドルに設定、2025年の914億ドルからほぼ倍増"
+        - date: "2026-01"
+          headline: "Personal Intelligence機能をGeminiアプリにベータ提供開始"
+        - date: "2026-01"
+          headline: "Universal Commerce Protocol（UCP）を発表、エージェンティックコマースの新標準"
+        - date: "2026-01"
+          headline: "AlphaGenomeをオープンソース化、DNA配列100万塩基対を解析可能"
+        - date: "2026-01"
+          headline: "Project Genie発表、Genie 3ワールドモデルでインタラクティブ世界生成"
+        - date: "2026-01"
+          headline: "Boston DynamicsとGemini Robotics連携を発表"
+        - date: "2025-11"
+          headline: "Gemini 3 ProおよびGemini 3 Deep Thinkをリリース"
+
+  benchmarks:
+    llm_benchmarks:
+      - model: "Gemini 3 Pro"
+        provider: "Google"
+        lmarena_elo: 1501
+        mmmu_pro: "81.0%"
+        video_mmmu: "87.6%"
+        simpleqa_verified: "72.1%"
+        swe_bench: "76.2%"
+        context_window: "1M tokens"
+        release_date: "2025-11"
+
+      - model: "Gemini 3 Deep Think"
+        provider: "Google"
+        gpqa_diamond: "93.8%"
+        imo_proofbench_advanced: "90%"
+        release_date: "2025-11"
+
+      - model: "Gemini 2.5 Pro"
+        provider: "Google"
+        input_per_1m_tokens: "$1.25"
+        output_per_1m_tokens: "$10.00"
+        status: "production-stable"
+        context_window: "1M tokens"
+
+      - model: "Gemini 2.5 Flash"
+        provider: "Google"
+        input_per_1m_tokens: "$0.30"
+        output_per_1m_tokens: "$2.50"
+        status: "generally-available"
+
+      - model: "GPT-5.2"
+        provider: "OpenAI"
+        aime_2025: "100%"
+        gpqa_diamond: "93.2%"
+        swe_bench: "80.0%"
+        arc_agi_2: "54.2%"
+
+      - model: "Claude 4.5 Sonnet"
+        provider: "Anthropic"
+        swe_bench: "77.2%"
+
+  market_share:
+    ai_chatbot:
+      - provider: "ChatGPT"
+        share: "68%"
+        yoy_change: "-19.2pp"
+        date: "2026-02"
+      - provider: "Google Gemini"
+        share: "18.2%"
+        yoy_change: "+12.8pp"
+        date: "2026-02"
+
+    enterprise_ai:
+      - provider: "Anthropic"
+        share: "33%"
+        date: "2026-02"
+      - provider: "OpenAI"
+        share: "25%"
+        date: "2026-02"
+      - provider: "Google"
+        share: "20%"
+        date: "2026-02"
