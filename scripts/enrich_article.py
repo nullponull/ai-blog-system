@@ -2,8 +2,9 @@
 """
 記事エンリッチメントスクリプト
 - 内部リンク自動生成（関連記事への参照を本文中に挿入）
-- Amazonアソシエイトリンク自動挿入（記事末尾）
-- 比較表テンプレート挿入（企業/技術比較がある記事）
+- Amazonアソシエイトリンク自動挿入（記事末尾、ASIN直リンク対応）
+- コンサルティングCTA自動挿入
+- FAQスキーマ自動生成
 
 使い方:
   python3 scripts/enrich_article.py _posts/2025-12-10-*.md
@@ -21,63 +22,86 @@ from datetime import datetime
 # ============================================================
 AMAZON_STORE_ID = "nullpodesu-22"
 
-# AI関連のおすすめ書籍/ツール（キーワードマッチで選択）
+# AI関連のおすすめ書籍（キーワードマッチで選択、ASIN直リンク対応）
 AMAZON_RECOMMENDATIONS = [
     {
-        "keywords": ["openai", "chatgpt", "gpt", "プロンプト"],
-        "title": "ChatGPT/LLMプログラミング実践入門",
-        "search": "ChatGPT+プログラミング+実践",
-        "description": "LLMを活用した開発の実践ガイド",
+        "keywords": ["openai", "chatgpt", "gpt", "プロンプト", "llm"],
+        "title": "生成AIプロンプトエンジニアリング入門",
+        "asin": "4798181986",
+        "search": "ChatGPT+プロンプトエンジニアリング+入門",
+        "description": "ChatGPTとMidjourneyで学ぶプロンプト設計の基本と実践テクニック",
     },
     {
-        "keywords": ["投資", "市場", "資金調達", "評価額", "roi"],
-        "title": "AI投資の最前線",
-        "search": "AI+投資+最前線",
-        "description": "AI企業への投資判断に役立つ分析手法",
+        "keywords": ["投資", "市場", "資金調達", "評価額", "roi", "株"],
+        "title": "生成AI活用の最前線",
+        "asin": "4492558454",
+        "search": "生成AI+ビジネス活用+企業事例",
+        "description": "世界の企業100社超のAI活用事例から投資・導入判断のヒントを得る",
     },
     {
-        "keywords": ["nvidia", "gpu", "チップ", "半導体", "blackwell"],
-        "title": "GPU・AIチップの技術動向",
-        "search": "GPU+AI+半導体+技術",
-        "description": "AI半導体の最新アーキテクチャ解説",
+        "keywords": ["nvidia", "gpu", "チップ", "半導体", "blackwell", "cuda"],
+        "title": "増補改訂 GPUを支える技術",
+        "asin": "4297119544",
+        "search": "GPU+技術+並列処理+NVIDIA",
+        "description": "超並列ハードウェアの仕組みからAI半導体の最新動向まで網羅的に解説",
     },
     {
         "keywords": ["google", "gemini", "deepmind"],
-        "title": "Googleの生成AI戦略",
-        "search": "Google+AI+戦略+生成AI",
-        "description": "Googleが目指すAIの未来像を読み解く",
+        "title": "Google Gemini 100%活用ガイド",
+        "asin": "4297142651",
+        "search": "Google+Gemini+活用+ガイド",
+        "description": "無料で使えるAIアシスタントGeminiの機能と実践的な活用法を完全網羅",
     },
     {
-        "keywords": ["エージェント", "agent", "自動化", "ワークフロー"],
-        "title": "AIエージェント開発入門",
-        "search": "AI+エージェント+開発+入門",
-        "description": "自律型AIエージェントの設計と実装",
+        "keywords": ["エージェント", "agent", "自動化", "ワークフロー", "自律"],
+        "title": "AIエージェント開発/運用入門",
+        "asin": "4815636605",
+        "search": "AIエージェント+開発+運用+入門",
+        "description": "自律型AIエージェントの設計・開発から本番運用までを体系的に解説",
     },
     {
-        "keywords": ["規制", "法律", "ガバナンス", "倫理", "eu"],
-        "title": "AI規制とガバナンスの実務",
-        "search": "AI+規制+ガバナンス+法律",
-        "description": "AI法規制の最新動向と企業対応",
+        "keywords": ["規制", "法律", "ガバナンス", "倫理", "eu", "法務"],
+        "title": "生成AI法務・ガバナンス",
+        "asin": "4785730706",
+        "search": "生成AI+法務+ガバナンス+規制",
+        "description": "AI法規制の最新動向と企業が取るべきガバナンス体制を実務視点で解説",
     },
     {
         "keywords": ["microsoft", "azure", "copilot"],
-        "title": "Microsoft AI活用ガイド",
-        "search": "Microsoft+Azure+AI+Copilot",
-        "description": "CopilotとAzure AIの実践活用",
+        "title": "Microsoft Copilot for Microsoft 365活用大全",
+        "asin": "4296080342",
+        "search": "Copilot+Microsoft+365+活用",
+        "description": "Copilot×Microsoft 365の全機能を活用して業務効率を劇的に改善する方法",
     },
     {
         "keywords": ["anthropic", "claude", "安全性", "アライメント"],
-        "title": "AI安全性とアライメント",
-        "search": "AI+安全性+アライメント+入門",
-        "description": "責任あるAI開発の基礎知識",
+        "title": "ゼロからわかる 生成AI法律入門",
+        "asin": "402251938X",
+        "search": "生成AI+法律+入門+著作権",
+        "description": "AI安全性・著作権・個人情報など、分野別の法的課題と対策を丁寧に解説",
+    },
+    {
+        "keywords": ["dx", "デジタル", "変革", "トランスフォーメーション", "製造"],
+        "title": "デジタルトランスフォーメーション・ジャーニー",
+        "asin": "4798172561",
+        "search": "DX+組織変革+ジャーニー",
+        "description": "組織のデジタル化から分断を乗り越えて変革にたどりつくまでの実践ガイド",
+    },
+    {
+        "keywords": ["ビジネス", "活用", "導入", "戦略", "経営"],
+        "title": "AI白書 2025 生成AIエディション",
+        "asin": "4049112388",
+        "search": "AI白書+2025+生成AI",
+        "description": "松尾研究室監修、国内外の生成AI動向を網羅した年次レポート決定版",
     },
 ]
 
 # デフォルト推薦（どのキーワードにもマッチしない場合）
 DEFAULT_RECOMMENDATION = {
-    "title": "AI白書 2025",
-    "search": "AI白書+2025+人工知能",
-    "description": "国内外のAI動向を網羅した年次レポート",
+    "title": "AI白書 2025 生成AIエディション",
+    "asin": "4049112388",
+    "search": "AI白書+2025+生成AI",
+    "description": "松尾研究室監修、国内外の生成AI動向を網羅した年次レポート決定版",
 }
 
 
@@ -88,7 +112,12 @@ def amazon_search_url(search_term: str) -> str:
     return f"https://www.amazon.co.jp/s?k={encoded}&tag={AMAZON_STORE_ID}"
 
 
-def select_recommendations(content: str, max_items: int = 2) -> list:
+def amazon_asin_url(asin: str) -> str:
+    """AmazonアソシエイトASIN直リンクURLを生成"""
+    return f"https://www.amazon.co.jp/dp/{asin}/?tag={AMAZON_STORE_ID}"
+
+
+def select_recommendations(content: str, max_items: int = 3) -> list:
     """記事内容に基づいて最適なAmazon推薦を選択"""
     content_lower = content.lower()
     scored = []
@@ -108,7 +137,7 @@ def select_recommendations(content: str, max_items: int = 2) -> list:
 
 
 def build_amazon_section(recommendations: list) -> str:
-    """Amazon推薦セクションのMarkdownを生成"""
+    """Amazon推薦セクションのMarkdownを生成（ASIN直リンク対応）"""
     lines = []
     lines.append("")
     lines.append("---")
@@ -117,12 +146,20 @@ def build_amazon_section(recommendations: list) -> str:
     lines.append("")
 
     for rec in recommendations:
-        url = amazon_search_url(rec["search"])
-        lines.append(f"**[{rec['title']}]({url})**")
-        lines.append(f"  {rec['description']}")
+        if rec.get("asin"):
+            url = amazon_asin_url(rec["asin"])
+        else:
+            url = amazon_search_url(rec["search"])
+        lines.append(f"### [{rec['title']}]({url})")
+        lines.append("")
+        lines.append(rec["description"])
+        lines.append("")
+        lines.append(f"[Amazonで詳しく見る →]({url})")
         lines.append("")
 
-    lines.append(f"*※ 上記リンクはAmazonアソシエイトリンクです*")
+    lines.append("---")
+    lines.append("")
+    lines.append("*※ 本ページのリンクにはアフィリエイトリンクが含まれます。購入によりサイト運営をサポートいただけます。*")
     lines.append("")
 
     return "\n".join(lines)
@@ -307,93 +344,6 @@ def generate_faq_schema(content: str) -> str:
 
 
 # ============================================================
-# 比較表テンプレート自動挿入
-# ============================================================
-# 企業/技術比較の文脈を検出するパターン
-COMPARISON_PATTERNS = [
-    # "A vs B", "A対B", "AとBの比較" パターン
-    re.compile(r'(\w+)\s*(?:vs\.?|VS\.?|対)\s*(\w+)', re.IGNORECASE),
-    re.compile(r'(\w+)\s*と\s*(\w+)\s*の(?:比較|違い|差)', re.IGNORECASE),
-]
-
-# 企業/技術の比較テンプレートデータ
-COMPARISON_TEMPLATES = {
-    frozenset({"openai", "google"}): {
-        "title": "OpenAI vs Google AI 比較",
-        "headers": ["項目", "OpenAI", "Google"],
-        "rows": [
-            ["主力モデル", "GPT-4o / o1", "Gemini 2.0"],
-            ["API価格帯", "中〜高", "低〜中"],
-            ["強み", "推論・コード生成", "マルチモーダル・検索統合"],
-            ["エコシステム", "ChatGPT / API", "Google Cloud / Android"],
-        ],
-    },
-    frozenset({"openai", "anthropic"}): {
-        "title": "OpenAI vs Anthropic 比較",
-        "headers": ["項目", "OpenAI", "Anthropic"],
-        "rows": [
-            ["主力モデル", "GPT-4o / o1", "Claude 4.5"],
-            ["重視する価値", "汎用性・スケール", "安全性・誠実性"],
-            ["API価格帯", "中〜高", "中"],
-            ["強み", "広範なエコシステム", "長文処理・コーディング"],
-        ],
-    },
-    frozenset({"nvidia", "amd"}): {
-        "title": "NVIDIA vs AMD AI半導体 比較",
-        "headers": ["項目", "NVIDIA", "AMD"],
-        "rows": [
-            ["主力AI GPU", "H100 / B200", "MI300X"],
-            ["市場シェア", "約80%", "約15%"],
-            ["ソフトウェア基盤", "CUDA（業界標準）", "ROCm"],
-            ["強み", "エコシステム支配力", "コスト競争力"],
-        ],
-    },
-    frozenset({"microsoft", "google"}): {
-        "title": "Microsoft vs Google AI戦略 比較",
-        "headers": ["項目", "Microsoft", "Google"],
-        "rows": [
-            ["AI投資先", "OpenAIパートナーシップ", "DeepMind自社開発"],
-            ["統合製品", "Copilot / Azure AI", "Gemini / Google Cloud"],
-            ["戦略", "企業向けAI統合", "消費者+クラウド両面"],
-            ["強み", "エンタープライズ基盤", "データ量・研究力"],
-        ],
-    },
-}
-
-
-def detect_comparison_context(content: str) -> list:
-    """記事内の企業/技術比較コンテキストを検出"""
-    content_lower = content.lower()
-    matches = []
-
-    for template_key, template_data in COMPARISON_TEMPLATES.items():
-        entities = list(template_key)
-        if all(e in content_lower for e in entities):
-            matches.append(template_data)
-
-    return matches
-
-
-def build_comparison_table(template: dict) -> str:
-    """Markdown形式の比較表を生成"""
-    lines = []
-    lines.append("")
-    lines.append(f"### {template['title']}")
-    lines.append("")
-
-    # ヘッダー
-    lines.append("| " + " | ".join(template["headers"]) + " |")
-    lines.append("|" + "|".join(["---"] * len(template["headers"])) + "|")
-
-    # データ行
-    for row in template["rows"]:
-        lines.append("| " + " | ".join(row) + " |")
-
-    lines.append("")
-    return "\n".join(lines)
-
-
-# ============================================================
 # 内部リンク自動生成
 # ============================================================
 def find_related_posts(current_file: str, posts_dir: str, max_links: int = 3) -> list:
@@ -521,7 +471,7 @@ def build_internal_links_section(related: list) -> str:
 # メイン処理
 # ============================================================
 def enrich_article(filepath: str, posts_dir: str):
-    """記事にAmazonリンク、内部リンク、比較表を追加"""
+    """記事にAmazonリンク、内部リンク、CTAを追加"""
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -532,32 +482,6 @@ def enrich_article(filepath: str, posts_dir: str):
 
     # 中間広告の挿入
     content = insert_mid_article_ad(content)
-
-    # 比較表の自動挿入は無効化（固定テンプレートのため記事との関連性が低い）
-    comparison_tables = []
-    comparison_count = 0
-    if comparison_tables:
-        table_md = ""
-        for tpl in comparison_tables[:2]:  # 最大2テーブル
-            table_md += build_comparison_table(tpl)
-        comparison_count = len(comparison_tables[:2])
-
-        # frontmatterの後のH2見出しを全て検出し、2番目のH2前に挿入
-        fm_end = content.find("---", content.find("---") + 3)
-        if fm_end != -1:
-            body_after_fm = content[fm_end:]
-            h2_positions = [m.start() + fm_end for m in re.finditer(r'\n## ', body_after_fm)]
-            if len(h2_positions) >= 2:
-                # 2番目のH2の前に挿入（最初のセクション後）
-                insert_pos = h2_positions[1]
-                content = content[:insert_pos] + "\n" + table_md + content[insert_pos:]
-            elif len(h2_positions) == 1:
-                # H2が1個のみ: その直後の次の空行の後に挿入
-                first_h2 = h2_positions[0]
-                # 最初のH2の後のセクション末尾を探す
-                next_section = content.find("\n\n", first_h2 + 4)
-                if next_section != -1:
-                    content = content[:next_section] + "\n" + table_md + content[next_section:]
 
     # Amazonアソシエイト推薦を選択
     recommendations = select_recommendations(content)
@@ -592,7 +516,6 @@ def enrich_article(filepath: str, posts_dir: str):
     rec_titles = [r["title"] for r in recommendations]
     related_count = len(related)
     print(f"  [OK] {os.path.basename(filepath)}")
-    print(f"       比較表: {comparison_count}件")
     print(f"       Amazon: {', '.join(rec_titles)}")
     print(f"       内部リンク: {related_count}件")
 

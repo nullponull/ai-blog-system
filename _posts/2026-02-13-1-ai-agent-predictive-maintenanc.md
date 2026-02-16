@@ -11,15 +11,6 @@ reading_time: 14
 
 ## 製造業DXの切り札！AIエージェントが予知保全をどう変えるか？実践ガイド
 
-### Microsoft vs Google AI戦略 比較
-
-| 項目 | Microsoft | Google |
-|---|---|---|
-| AI投資先 | OpenAIパートナーシップ | DeepMind自社開発 |
-| 統合製品 | Copilot / Azure AI | Gemini / Google Cloud |
-| 戦略 | 企業向けAI統合 | 消費者+クラウド両面 |
-| 強み | エンタープライズ基盤 | データ量・研究力 |
-
 
 製造現場の皆さん、日々お疲れ様です！
 
