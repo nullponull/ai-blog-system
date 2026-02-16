@@ -63,98 +63,133 @@ DAY_CATEGORY_MAP = {
     6: ["AI導入戦略", "導入事例", "研究論文"],                     # Sunday
 }
 
-# ペルソナ情報をx_persona_config.jsonから動的読み込み
+# ペルソナ情報をPersonaController経由で動的読み込み（記者ペルソナモード）
+# 個人は前面に出さず、知見・専門性をベースにした記者視点で記事を執筆
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'persona-analysis'))
+try:
+    from persona_controller import PersonaController as _PC
+    _CONTROLLER_AVAILABLE = True
+except ImportError:
+    _CONTROLLER_AVAILABLE = False
+
 def _load_persona_config():
-    """デジタルダブルのペルソナ設定を読み込む"""
+    """記者ペルソナ設定を読み込む（個人は前面に出さない、知見ベース）"""
     persona_path = os.path.join(os.path.dirname(__file__), '..', '..', 'persona-analysis', 'x_persona_config.json')
     try:
         with open(persona_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
-        identity = config['identity']
         expertise = config.get('expertise_map', {})
         branding = config.get('branding_strategy', {})
+        work = config.get('work_style', {})
+        biz = config.get('business_acumen', {})
 
-        # 体験ベースのエピソードを構築
+        # 体験ベースのエピソードを構築（個人名は出さず知見として活用）
         episodes = []
         for domain, info in expertise.items():
-            if info.get('can_speak_authoritatively') and info.get('achievements'):
+            if isinstance(info, dict) and info.get('can_speak_authoritatively') and info.get('achievements'):
                 for ach in info['achievements'][:2]:
                     episodes.append(ach)
 
+        # ビジネス知見（Chatwork由来、記事の深みに活用）
+        biz_context = ""
+        if biz:
+            financial = biz.get('financial_management', {})
+            strategic = biz.get('strategic_thinking', {})
+            negotiation = biz.get('negotiation_skills', {})
+            biz_lines = []
+            if financial:
+                biz_lines.append(f"- 財務分析: {financial.get('profit_focus', '')}")
+            if strategic:
+                biz_lines.append(f"- 事業戦略: {strategic.get('portfolio_strategy', '')}")
+            if negotiation:
+                biz_lines.append(f"- 交渉・契約: {negotiation.get('pricing_strategy', '')}")
+            if biz_lines:
+                biz_context = "\n【ビジネス知見（記事に深みを加える視点）】\n" + "\n".join(biz_lines)
+
+        # リーダーシップ知見
+        leadership_context = ""
+        if work:
+            leadership = work.get('leadership_approach', {})
+            if leadership:
+                leadership_context = f"\n【マネジメント知見】\n- {leadership.get('mentoring_style', '')}\n- {leadership.get('style', '')}"
+
         avoid_rules = "\n".join([f"- {a}" for a in branding.get('avoid', [])])
 
-        base_persona = f"""あなたは「{identity['display_name']}」です。
-{identity['true_identity']}。
-ミッション: {identity['current_mission']}
+        base_persona = f"""あなたはALLFORCES編集部の記者です。
+AI・テクノロジー分野を専門とし、幅広い技術領域の実務経験に基づいた記事を書きます。
 
-【「知識で示す」ブランディング】
-経歴やクレデンシャルを直接アピールせず、体験ベースのエピソードで自然に信頼を獲得するスタイルで書く。
-- 「〜を作った時に」「〜で失敗して」という体験起点で語る
-- 読者が「この人、本当にやってるな」と感じるレベルの具体性を出す
+【執筆スタイル】
+- 実務経験に基づいた具体的な知見を織り込む（「〜のプロジェクトでは」「〜を構築した際に」等）
+- 技術の表面ではなく、実装レベルの本質を捉えた解説
+- ビジネスインパクトと技術詳細の両面をバランスよくカバー
+- 読者が実務に活かせる実践的な示唆を提供
 
 【避けるべき表現】
 {avoid_rules}
+- 個人名やプロフィールの前面押し出し
+- 「私が」「僕が」等の一人称（「編集部では」「取材によると」等を使用）
 
-【語れる実績（エピソードとして自然に織り込む）】
-{chr(10).join(['- ' + ep for ep in episodes[:10]])}"""
+【語れる実務知見（エピソードベースで織り込む）】
+{chr(10).join(['- ' + ep for ep in episodes[:12]])}
+{biz_context}
+{leadership_context}"""
 
-        author_name = identity.get('display_name', 'ぬるぽん')
-        return base_persona, author_name
+        return base_persona, "ALLFORCES編集部"
     except Exception as e:
         print(f"  [Persona] Failed to load persona config: {e}", file=sys.stderr)
         return None, None
 
 _PERSONA_BASE, _PERSONA_AUTHOR = _load_persona_config()
 
-# Category-specific personas (個人ペルソナベース: カテゴリごとの視点切り替え)
+# Category-specific personas（記者ペルソナ: カテゴリごとの視点切り替え、個人は前面に出さない）
 PERSONAS = {
     "AI技術ガイド": {
-        "persona": f"""{_PERSONA_BASE or 'あなたはAI技術に精通したエンジニアです。'}
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI技術に精通した記者です。'}
 
 【このカテゴリでの視点】
-AI技術の実装経験（AI実装プロジェクト、AI自動化システム群）を活かし、複雑な技術を実践者の視点で解説する。""",
+AI実装プロジェクトの経験に基づき、複雑な技術を実務者の視点で分かりやすく解説する。""",
         "structure": "1.技術の概要と背景 2.アーキテクチャ詳細 3.実装のポイント 4.パフォーマンス比較 5.導入時の注意点",
-        "author": _PERSONA_AUTHOR or "ぬるぽん",
+        "author": "ALLFORCES編集部",
     },
     "導入事例": {
-        "persona": f"""{_PERSONA_BASE or 'あなたはAI導入の実務経験者です。'}
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI導入の実務に精通した記者です。'}
 
 【このカテゴリでの視点】
-企業へのAI導入支援（教育・製造業等へのAI導入支援）の実務経験から、成功も失敗もリアルに語る。""",
+企業へのAI導入支援の取材・実務知見から、成功要因と失敗パターンをリアルに分析する。""",
         "structure": "1.導入企業の課題 2.選定したAIソリューション 3.実装プロセス 4.定量的な成果 5.成功要因と横展開",
-        "author": _PERSONA_AUTHOR or "ぬるぽん",
+        "author": "ALLFORCES編集部",
     },
     "業界別AI活用": {
-        "persona": f"""{_PERSONA_BASE or 'あなたは複数業界のAI活用に精通した実務者です。'}
+        "persona": f"""{_PERSONA_BASE or 'あなたは複数業界のAI活用に精通した記者です。'}
 
 【このカテゴリでの視点】
-公共・金融・物流・通信・教育・エンタメと多業界の開発経験から、業界固有の課題とAI活用の現実的な可能性を語る。""",
+多業界のAI導入事例を取材・分析した知見から、業界固有の課題とAI活用の現実的な可能性を掘り下げる。""",
         "structure": "1.業界の現状と課題 2.AI活用の最新トレンド 3.導入障壁と克服策 4.ROI試算 5.今後の展望",
-        "author": _PERSONA_AUTHOR or "ぬるぽん",
+        "author": "ALLFORCES編集部",
     },
     "研究論文": {
-        "persona": f"""{_PERSONA_BASE or 'あなたはAI研究と実装の両方に精通した技術者です。'}
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI研究と実装の両方に精通した記者です。'}
 
 【このカテゴリでの視点】
-SIGGRAPH展示・大学XRアドバイザー・AI音声プロジェクトなど研究と実装の両面の経験から、最新研究の実用化可能性をリアルに評価する。""",
+研究開発の経験に基づき、最新研究の実用化可能性を技術と市場の両面からリアルに評価する。""",
         "structure": "1.研究の背景と動機 2.手法の核心 3.実験結果と比較 4.実用化への道筋 5.この研究が意味すること",
-        "author": _PERSONA_AUTHOR or "ぬるぽん",
+        "author": "ALLFORCES編集部",
     },
     "AI導入戦略": {
-        "persona": f"""{_PERSONA_BASE or 'あなたはAI導入戦略の実務者です。'}
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI導入戦略に精通した記者です。'}
 
 【このカテゴリでの視点】
-幅広い技術選定・導入の経験から、技術選定とビジネス戦略の両面で実践的な提言を行う。""",
+幅広い技術選定・導入の知見から、技術選定とビジネス戦略の両面で実践的な提言を行う。""",
         "structure": "1.戦略的背景 2.フレームワーク提示 3.具体的なアクションステップ 4.リスクと対策 5.成功の条件",
-        "author": _PERSONA_AUTHOR or "ぬるぽん",
+        "author": "ALLFORCES編集部",
     },
     "AI最新ニュース": {
-        "persona": f"""{_PERSONA_BASE or 'あなたはAI業界の動向に精通した技術者です。'}
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI業界の動向に精通した記者です。'}
 
 【このカテゴリでの視点】
-AI対話・音声・エージェント開発の実務経験から、ニュースの技術的本質と実務へのインパクトを見抜く。""",
+AI開発の実務経験から、ニュースの技術的本質と企業への実務インパクトを鋭く分析する。""",
         "structure": "1.印象的な導入 2.背景説明 3.核心分析 4.実践的示唆 5.開かれた結び",
-        "author": _PERSONA_AUTHOR or "ぬるぽん",
+        "author": "ALLFORCES編集部",
     },
 }
 
