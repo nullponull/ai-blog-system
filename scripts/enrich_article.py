@@ -141,19 +141,19 @@ CONSULTING_CTA_MAP = {
     },
     "AI導入戦略": {
         "heading": "AI導入戦略のご相談を承っています",
-        "text": "AI実装プロジェクト開発や多業界のAI導入支援の経験から、実践的な戦略策定をお手伝いしています。",
+        "text": "AI導入支援の経験から、実践的な戦略策定をお手伝いしています。",
         "cta_text": "お問い合わせはこちら",
         "cta_url": "/contact/?utm_source=article&utm_medium=cta&utm_campaign=strategy",
     },
     "AI技術ガイド": {
         "heading": "技術選定のご相談を承っています",
-        "text": "AI対話システムからMLOpsまで、実装経験に基づく技術選定のアドバイスをしています。PoC開発もお気軽にご相談ください。",
+        "text": "実装経験に基づく技術選定のアドバイスをしています。PoC開発もお気軽にご相談ください。",
         "cta_text": "お問い合わせはこちら",
         "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=tech_guide",
     },
     "業界別AI活用": {
         "heading": "業界に合わせたAI活用をご提案しています",
-        "text": "公共・金融・通信・教育・エンタメなど多業界での開発経験を活かし、業界特有の課題に合わせたAI活用戦略をご提案しています。",
+        "text": "多業界での開発経験を活かし、業界特有の課題に合わせたAI活用戦略をご提案しています。",
         "cta_text": "お問い合わせはこちら",
         "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=industry",
     },

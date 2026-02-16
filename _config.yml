@@ -140,7 +140,7 @@ social:
 consulting:
   enabled: true
   cta_text: "AI導入のご相談を承っています"
-  cta_description: "AI実装プロジェクト開発、多業界のAI導入支援の実務経験を活かし、お手伝いしています。お気軽にご相談ください。"
+  cta_description: "AI導入支援の実務経験を活かし、お手伝いしています。お気軽にご相談ください。"
   cta_url: "/contact/"
   contact_url: "https://allforces.wuaze.com/contact/"
 
