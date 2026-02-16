@@ -85,6 +85,7 @@ jobs:
             - 6ステージ品質管理パイプライン
             - カテゴリ多様化・タグ最適化済み"
 
+            git pull --rebase origin main || true
             git push origin main
             echo "Published ${ARTICLE_COUNT} articles"
             echo "ARTICLES_PUSHED=true" >> $GITHUB_ENV
