@@ -65,7 +65,15 @@ DAY_CATEGORY_MAP = {
 
 # ペルソナ情報をPersonaController経由で動的読み込み（記者ペルソナモード）
 # 個人は前面に出さず、知見・専門性をベースにした記者視点で記事を執筆
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'persona-analysis'))
+# ペルソナデータは xpost-community/config/ に格納
+_PERSONA_SEARCH_PATHS = [
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'xpost-community', 'config'),
+    os.path.join(os.path.expanduser('~'), 'xpost-community', 'config'),
+]
+for _p in _PERSONA_SEARCH_PATHS:
+    if os.path.isdir(_p):
+        sys.path.insert(0, _p)
+        break
 try:
     from persona_controller import PersonaController as _PC
     _CONTROLLER_AVAILABLE = True
@@ -74,7 +82,14 @@ except ImportError:
 
 def _load_persona_config():
     """記者ペルソナ設定を読み込む（個人は前面に出さない、知見ベース）"""
-    persona_path = os.path.join(os.path.dirname(__file__), '..', '..', 'persona-analysis', 'x_persona_config.json')
+    for search_dir in _PERSONA_SEARCH_PATHS:
+        candidate = os.path.join(search_dir, 'x_persona_config.json')
+        if os.path.exists(candidate):
+            persona_path = candidate
+            break
+    else:
+        return None, None
+    persona_path = persona_path  # noqa: use found path
     try:
         with open(persona_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
