@@ -1,7 +1,7 @@
 # Site settings
 title: "AIコンパス by ALLFORCES"
-description: "AI導入の羅針盤 -- 技術と経営をつなぐ。株式会社ALLFORCESが運営するAI専門メディア。最新のAI技術動向、導入戦略、実装事例、業界分析を実務の視点でお届けします。"
-author: "株式会社ALLFORCES"
+description: "AI導入の羅針盤 -- 技術と経営をつなぐ。AI開発の実務経験を基に、最新のAI技術動向、導入戦略、実装事例、業界分析を実践者の視点でお届けします。"
+author: "ALLFORCES編集部"
 email: "info@ai-media.co.jp"
 url: "https://ai-media.co.jp"
 baseurl: ""
@@ -49,7 +49,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "AIコンパス編集部"
+      author: "ALLFORCES編集部"
       comments: false
       share: true
       sitemap:
@@ -139,8 +139,8 @@ social:
 # Consulting settings
 consulting:
   enabled: true
-  cta_text: "AI導入でお悩みですか?"
-  cta_description: "ALLFORCESは多数のAI導入支援実績を持つ専門家チームです。まずは無料相談から。"
+  cta_text: "AI導入のご相談を承っています"
+  cta_description: "AI実装プロジェクト開発、多業界のAI導入支援の実務経験を活かし、お手伝いしています。お気軽にご相談ください。"
   cta_url: "/contact/"
   contact_url: "https://allforces.wuaze.com/contact/"
 

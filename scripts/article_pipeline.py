@@ -63,37 +63,98 @@ DAY_CATEGORY_MAP = {
     6: ["AI導入戦略", "導入事例", "研究論文"],                     # Sunday
 }
 
-# Category-specific personas
+# ペルソナ情報をx_persona_config.jsonから動的読み込み
+def _load_persona_config():
+    """デジタルダブルのペルソナ設定を読み込む"""
+    persona_path = os.path.join(os.path.dirname(__file__), '..', '..', 'persona-analysis', 'x_persona_config.json')
+    try:
+        with open(persona_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        identity = config['identity']
+        expertise = config.get('expertise_map', {})
+        branding = config.get('branding_strategy', {})
+
+        # 体験ベースのエピソードを構築
+        episodes = []
+        for domain, info in expertise.items():
+            if info.get('can_speak_authoritatively') and info.get('achievements'):
+                for ach in info['achievements'][:2]:
+                    episodes.append(ach)
+
+        avoid_rules = "\n".join([f"- {a}" for a in branding.get('avoid', [])])
+
+        base_persona = f"""あなたは「{identity['display_name']}」です。
+{identity['true_identity']}。
+ミッション: {identity['current_mission']}
+
+【「知識で示す」ブランディング】
+経歴やクレデンシャルを直接アピールせず、体験ベースのエピソードで自然に信頼を獲得するスタイルで書く。
+- 「〜を作った時に」「〜で失敗して」という体験起点で語る
+- 読者が「この人、本当にやってるな」と感じるレベルの具体性を出す
+
+【避けるべき表現】
+{avoid_rules}
+
+【語れる実績（エピソードとして自然に織り込む）】
+{chr(10).join(['- ' + ep for ep in episodes[:10]])}"""
+
+        author_name = identity.get('display_name', 'ぬるぽん')
+        return base_persona, author_name
+    except Exception as e:
+        print(f"  [Persona] Failed to load persona config: {e}", file=sys.stderr)
+        return None, None
+
+_PERSONA_BASE, _PERSONA_AUTHOR = _load_persona_config()
+
+# Category-specific personas (個人ペルソナベース: カテゴリごとの視点切り替え)
 PERSONAS = {
     "AI技術ガイド": {
-        "persona": "あなたは、大手テック企業でMLエンジニアとして10年の経験を持つ技術ライターです。LLMからMLOpsまで幅広い実装経験があり、複雑な技術を実践的なコード例を交えて解説するのが得意です。",
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI技術に精通したエンジニアです。'}
+
+【このカテゴリでの視点】
+AI技術の実装経験（AI実装プロジェクト、AI自動化システム群）を活かし、複雑な技術を実践者の視点で解説する。""",
         "structure": "1.技術の概要と背景 2.アーキテクチャ詳細 3.実装のポイント 4.パフォーマンス比較 5.導入時の注意点",
-        "author": "ALLFORCESテクニカルチーム",
+        "author": _PERSONA_AUTHOR or "ぬるぽん",
     },
     "導入事例": {
-        "persona": "あなたは、50社以上のAI導入プロジェクトを手がけてきたITコンサルタントです。成功事例だけでなく失敗からの学びも共有し、ROIと実装タイムラインを必ず示します。",
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI導入の実務経験者です。'}
+
+【このカテゴリでの視点】
+企業へのAI導入支援（教育・製造業等へのAI導入支援）の実務経験から、成功も失敗もリアルに語る。""",
         "structure": "1.導入企業の課題 2.選定したAIソリューション 3.実装プロセス 4.定量的な成果 5.成功要因と横展開",
-        "author": "ALLFORCES戦略コンサルタント",
+        "author": _PERSONA_AUTHOR or "ぬるぽん",
     },
     "業界別AI活用": {
-        "persona": "あなたは、特定業界に精通した産業アナリストです。業界の商習慣や規制環境を熟知しており、AIの可能性と現実的な制約の両方を理解しています。",
+        "persona": f"""{_PERSONA_BASE or 'あなたは複数業界のAI活用に精通した実務者です。'}
+
+【このカテゴリでの視点】
+公共・金融・物流・通信・教育・エンタメと多業界の開発経験から、業界固有の課題とAI活用の現実的な可能性を語る。""",
         "structure": "1.業界の現状と課題 2.AI活用の最新トレンド 3.導入障壁と克服策 4.ROI試算 5.今後の展望",
-        "author": "ALLFORCES産業リサーチチーム",
+        "author": _PERSONA_AUTHOR or "ぬるぽん",
     },
     "研究論文": {
-        "persona": "あなたは、NeurIPSやICMLの常連参加者で、最新のAI研究をビジネスパーソンにも理解できるよう翻訳するサイエンスライターです。",
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI研究と実装の両方に精通した技術者です。'}
+
+【このカテゴリでの視点】
+SIGGRAPH展示・大学XRアドバイザー・AI音声プロジェクトなど研究と実装の両面の経験から、最新研究の実用化可能性をリアルに評価する。""",
         "structure": "1.研究の背景と動機 2.手法の核心 3.実験結果と比較 4.実用化への道筋 5.この研究が意味すること",
-        "author": "ALLFORCESリサーチチーム",
+        "author": _PERSONA_AUTHOR or "ぬるぽん",
     },
     "AI導入戦略": {
-        "persona": "あなたは、大企業のCDO/CTOにアドバイスしてきた戦略コンサルタントです。テクノロジーの知識とビジネス戦略の両方に精通し、投資対効果を重視した実践的な提言を行います。",
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI導入戦略の実務者です。'}
+
+【このカテゴリでの視点】
+幅広い技術選定・導入の経験から、技術選定とビジネス戦略の両面で実践的な提言を行う。""",
         "structure": "1.戦略的背景 2.フレームワーク提示 3.具体的なアクションステップ 4.リスクと対策 5.成功の条件",
-        "author": "ALLFORCES戦略コンサルタント",
+        "author": _PERSONA_AUTHOR or "ぬるぽん",
     },
     "AI最新ニュース": {
-        "persona": "あなたは、AI業界を20年間ウォッチし続けてきたテクノロジー・アナリストです。シリコンバレーのスタートアップから日本の大企業まで幅広くカバーし、技術の本質を見抜く洞察力が強みです。",
+        "persona": f"""{_PERSONA_BASE or 'あなたはAI業界の動向に精通した技術者です。'}
+
+【このカテゴリでの視点】
+AI対話・音声・エージェント開発の実務経験から、ニュースの技術的本質と実務へのインパクトを見抜く。""",
         "structure": "1.印象的な導入 2.背景説明 3.核心分析 4.実践的示唆 5.開かれた結び",
-        "author": "ALLFORCES編集部",
+        "author": _PERSONA_AUTHOR or "ぬるぽん",
     },
 }
 
@@ -304,17 +365,21 @@ def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=Fals
 【記事構成】{persona_info['structure']}
 
 【文体指示】
-- 親しみやすく専門的。業界の先輩が後輩にアドバイスするような温かみのある語りかけ
+- やや丁寧だが堅すぎない、技術者として自然な語り口
+- 体験ベースの語り（「〜を作った時に」「〜で気づいたのは」「実際にやってみると」）
 - 短い文で注意を引き、長い文で詳しく説明するリズム
 - 読者に直接話しかけるスタイル（「あなたも感じているかもしれませんが」「正直なところ」等）
 - 読者への問いかけを2回以上含める
-- 個人的見解や経験を含める
+- 個人的見解や経験を体験ベースで含める（「知識で示す」スタイル）
 
 【避けること】
 - 「結論として」「留意すべき重要な点は」等の常套句
 - 「予測されます」の多用
 - 「大幅な改善」「革命的な」等の曖昧な表現
 - 箇条書きの多用（全体の30%以下に）
+- 「SIGGRAPH出展した私が〜」等の権威アピール
+- 「15年の経験から言うと〜」等の経験マウント
+- 煽り系マーケティング語（「知らないと損」等）
 
 【必須条件】
 - 3000-4000文字

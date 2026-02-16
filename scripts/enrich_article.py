@@ -131,42 +131,42 @@ def build_amazon_section(recommendations: list) -> str:
 # ============================================================
 # コンサルティングCTA自動挿入
 # ============================================================
-# カテゴリ別CTA設定（BOFU/MOFU/TOFU順）
+# カテゴリ別CTA設定（個人ブランド→ALLFORCES導線）
 CONSULTING_CTA_MAP = {
     "導入事例": {
-        "heading": "AI導入についてご相談ください",
-        "text": "本記事で紹介した事例のようなAI導入を検討されていますか？ALLFORCESでは、戦略策定からPoC開発、本番システム構築まで一貫してサポートしています。",
-        "cta_text": "無料相談を申し込む",
+        "heading": "AI導入のご相談を承っています",
+        "text": "本記事のようなAI導入プロジェクトの実務経験を活かし、戦略策定からPoC開発、本番システム構築までお手伝いしています。お気軽にご相談ください。",
+        "cta_text": "お問い合わせはこちら",
         "cta_url": "/contact/?utm_source=article&utm_medium=cta&utm_campaign=case_study",
     },
     "AI導入戦略": {
-        "heading": "AI導入戦略の策定を支援します",
-        "text": "AI投資のROI最大化や導入ロードマップの策定でお困りではありませんか？豊富な実績を持つコンサルタントがお手伝いします。",
-        "cta_text": "無料相談を申し込む",
+        "heading": "AI導入戦略のご相談を承っています",
+        "text": "AI実装プロジェクト開発や多業界のAI導入支援の経験から、実践的な戦略策定をお手伝いしています。",
+        "cta_text": "お問い合わせはこちら",
         "cta_url": "/contact/?utm_source=article&utm_medium=cta&utm_campaign=strategy",
     },
     "AI技術ガイド": {
-        "heading": "技術選定でお困りですか？",
-        "text": "自社に最適なAI技術の選定や、PoC開発のご相談を承っています。",
-        "cta_text": "サービス詳細を見る",
+        "heading": "技術選定のご相談を承っています",
+        "text": "AI対話システムからMLOpsまで、実装経験に基づく技術選定のアドバイスをしています。PoC開発もお気軽にご相談ください。",
+        "cta_text": "お問い合わせはこちら",
         "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=tech_guide",
     },
     "業界別AI活用": {
-        "heading": "業界特化のAI導入支援",
-        "text": "お客様の業界に特化したAI活用戦略をご提案します。まずはお気軽にご相談ください。",
-        "cta_text": "サービス詳細を見る",
+        "heading": "業界に合わせたAI活用をご提案しています",
+        "text": "公共・金融・通信・教育・エンタメなど多業界での開発経験を活かし、業界特有の課題に合わせたAI活用戦略をご提案しています。",
+        "cta_text": "お問い合わせはこちら",
         "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=industry",
     },
     "AI最新ニュース": {
-        "heading": "AI最新動向のレポートを配信中",
-        "text": "毎週のAI業界動向サマリーと、投資・導入判断に役立つインサイトをお届けしています。",
-        "cta_text": "サービス詳細を見る",
-        "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=news",
+        "heading": "AI活用の実践ノウハウを発信中",
+        "text": "AI技術の最新動向と実務へのインパクトを、実装経験を交えて解説しています。",
+        "cta_text": "他の記事も読む",
+        "cta_url": "/?utm_source=article&utm_medium=cta&utm_campaign=news",
     },
     "研究論文": {
-        "heading": "最先端AI研究の実ビジネス応用",
-        "text": "論文の研究成果を実際のビジネスに活かすための技術コンサルティングを提供しています。",
-        "cta_text": "サービス詳細を見る",
+        "heading": "研究成果のビジネス応用をお手伝いしています",
+        "text": "研究開発の経験を活かし、最新研究の実務応用についてアドバイスしています。",
+        "cta_text": "お問い合わせはこちら",
         "cta_url": "/services/?utm_source=article&utm_medium=cta&utm_campaign=research",
     },
 }
