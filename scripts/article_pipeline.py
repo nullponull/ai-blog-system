@@ -130,6 +130,11 @@ def _load_persona_config():
 
         avoid_rules = "\n".join([f"- {a}" for a in branding.get('avoid', [])])
 
+        # ai_media プラットフォーム固有の禁止事項
+        ai_media_config = config.get('platform_adaptations', {}).get('ai_media', {})
+        prohibited = ai_media_config.get('prohibited', [])
+        prohibited_rules = "\n".join([f"- {p}" for p in prohibited])
+
         base_persona = f"""あなたはALLFORCES編集部の記者です。
 AI・テクノロジー分野を専門とし、幅広い技術領域の実務経験に基づいた記事を書きます。
 
@@ -143,6 +148,9 @@ AI・テクノロジー分野を専門とし、幅広い技術領域の実務経
 {avoid_rules}
 - 個人名やプロフィールの前面押し出し
 - 「私が」「僕が」等の一人称（「編集部では」「取材によると」等を使用）
+
+【禁止事項（ai_media固有）】
+{prohibited_rules}
 
 【語れる実務知見（エピソードベースで織り込む）】
 {chr(10).join(['- ' + ep for ep in episodes[:12]])}
