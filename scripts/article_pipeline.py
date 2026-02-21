@@ -63,8 +63,8 @@ DAY_CATEGORY_MAP = {
     6: ["AI導入戦略", "導入事例", "研究論文"],                     # Sunday
 }
 
-# ペルソナ情報をDigitalDouble SDK経由で動的読み込み（記者ペルソナモード）
-# 個人は前面に出さず、知見・専門性をベースにした記者視点で記事を執筆
+# ペルソナ情報をDigitalDouble SDK経由で動的読み込み（Growth/Task, platform='ai_media'）
+# persona_id='default'のメモリ名前空間を使用
 _DD_AVAILABLE = False
 _SANITIZER = None
 try:
@@ -104,10 +104,10 @@ def _load_persona_config():
     1. DigitalDouble SDK (ai_media プラットフォーム)
     2. レガシー PersonaController (xpost-community/config/)
     """
-    # DigitalDouble SDK経由（推奨）
+    # DigitalDouble SDK経由 (Growth/Task mode)
     if _DD_AVAILABLE:
         try:
-            dd = DigitalDouble()
+            dd = DigitalDouble(mode='growth')
             base_persona = dd.build_prompt(
                 platform='ai_media',
                 content_type='technical',
