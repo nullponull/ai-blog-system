@@ -63,25 +63,72 @@ DAY_CATEGORY_MAP = {
     6: ["AI導入戦略", "導入事例", "研究論文"],                     # Sunday
 }
 
-# ペルソナ情報をPersonaController経由で動的読み込み（記者ペルソナモード）
+# ペルソナ情報をDigitalDouble SDK経由で動的読み込み（記者ペルソナモード）
 # 個人は前面に出さず、知見・専門性をベースにした記者視点で記事を執筆
-# ペルソナデータは xpost-community/config/ に格納
-_PERSONA_SEARCH_PATHS = [
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'xpost-community', 'config'),
-    os.path.join(os.path.expanduser('~'), 'xpost-community', 'config'),
-]
-for _p in _PERSONA_SEARCH_PATHS:
-    if os.path.isdir(_p):
-        sys.path.insert(0, _p)
-        break
+_DD_AVAILABLE = False
+_SANITIZER = None
 try:
-    from persona_controller import PersonaController as _PC
-    _CONTROLLER_AVAILABLE = True
+    sys.path.insert(0, os.path.join(os.path.expanduser('~'), 'digital-double'))
+    from digital_double import DigitalDouble
+    _DD_AVAILABLE = True
+    # OutputSanitizer で非公開情報を秘匿化
+    try:
+        from output_sanitizer import OutputSanitizer
+        _SANITIZER = OutputSanitizer()
+    except ImportError:
+        pass
 except ImportError:
-    _CONTROLLER_AVAILABLE = False
+    pass
+
+# レガシーフォールバック: PersonaController
+_CONTROLLER_AVAILABLE = False
+if not _DD_AVAILABLE:
+    _PERSONA_SEARCH_PATHS = [
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'xpost-community', 'config'),
+        os.path.join(os.path.expanduser('~'), 'xpost-community', 'config'),
+    ]
+    for _p in _PERSONA_SEARCH_PATHS:
+        if os.path.isdir(_p):
+            sys.path.insert(0, _p)
+            break
+    try:
+        from persona_controller import PersonaController as _PC
+        _CONTROLLER_AVAILABLE = True
+    except ImportError:
+        pass
 
 def _load_persona_config():
-    """記者ペルソナ設定を読み込む（個人は前面に出さない、知見ベース）"""
+    """記者ペルソナ設定を読み込む（個人は前面に出さない、知見ベース）
+
+    優先順位:
+    1. DigitalDouble SDK (ai_media プラットフォーム)
+    2. レガシー PersonaController (xpost-community/config/)
+    """
+    # DigitalDouble SDK経由（推奨）
+    if _DD_AVAILABLE:
+        try:
+            dd = DigitalDouble()
+            base_persona = dd.build_prompt(
+                platform='ai_media',
+                content_type='technical',
+                topic_keywords=['AI', 'テクノロジー'],
+                max_tokens=3000
+            )
+            if base_persona:
+                if _SANITIZER:
+                    base_persona = _SANITIZER.sanitize(base_persona, context='public')
+                return base_persona, "ALLFORCES編集部"
+        except Exception as e:
+            print(f"  [Persona] DigitalDouble SDK fallback: {e}", file=sys.stderr)
+
+    # レガシー: PersonaController から直接読み込み
+    if not _CONTROLLER_AVAILABLE:
+        return None, None
+
+    _PERSONA_SEARCH_PATHS = [
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'xpost-community', 'config'),
+        os.path.join(os.path.expanduser('~'), 'xpost-community', 'config'),
+    ]
     for search_dir in _PERSONA_SEARCH_PATHS:
         candidate = os.path.join(search_dir, 'x_persona_config.json')
         if os.path.exists(candidate):
@@ -89,7 +136,6 @@ def _load_persona_config():
             break
     else:
         return None, None
-    persona_path = persona_path  # noqa: use found path
     try:
         with open(persona_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
@@ -98,14 +144,14 @@ def _load_persona_config():
         work = config.get('work_style', {})
         biz = config.get('business_acumen', {})
 
-        # 体験ベースのエピソードを構築（個人名は出さず知見として活用）
         episodes = []
         for domain, info in expertise.items():
             if isinstance(info, dict) and info.get('can_speak_authoritatively') and info.get('achievements'):
                 for ach in info['achievements'][:2]:
+                    if _SANITIZER:
+                        ach = _SANITIZER.sanitize(ach, context='public')
                     episodes.append(ach)
 
-        # ビジネス知見（Chatwork由来、記事の深みに活用）
         biz_context = ""
         if biz:
             financial = biz.get('financial_management', {})
@@ -121,7 +167,6 @@ def _load_persona_config():
             if biz_lines:
                 biz_context = "\n【ビジネス知見（記事に深みを加える視点）】\n" + "\n".join(biz_lines)
 
-        # リーダーシップ知見
         leadership_context = ""
         if work:
             leadership = work.get('leadership_approach', {})
@@ -130,7 +175,6 @@ def _load_persona_config():
 
         avoid_rules = "\n".join([f"- {a}" for a in branding.get('avoid', [])])
 
-        # ai_media プラットフォーム固有の禁止事項
         ai_media_config = config.get('platform_adaptations', {}).get('ai_media', {})
         prohibited = ai_media_config.get('prohibited', [])
         prohibited_rules = "\n".join([f"- {p}" for p in prohibited])
