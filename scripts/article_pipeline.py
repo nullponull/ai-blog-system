@@ -35,6 +35,12 @@ from quality_scorer import QualityScorer
 from knowledge_base import KnowledgeBase
 from research_loader import ResearchLoader
 from persona_to_editorial_filter import load_persona_filter
+from internal_linking_strategy import get_internal_linking_engine
+try:
+    from sectional_article_pipeline import SectionalArticleGenerator
+    SECTIONAL_AVAILABLE = True
+except ImportError:
+    SECTIONAL_AVAILABLE = False
 try:
     from compliance_loader import ComplianceLoader
 except ImportError:
@@ -524,6 +530,75 @@ def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=Fals
     return result
 
 
+def stage2_article_draft_sectional(topic, dry_run=False):
+    """Stage 2 (Sectional): Generate article draft using 5-section pipeline with context.
+
+    Uses SectionalArticleGenerator (Gemma-3-27b-it) instead of standard Gemini pipeline.
+    Each section receives previous sections as context for coherence."""
+    print(f"\n=== Stage 2: Article Draft (Sectional 5-Section) ===", file=sys.stderr)
+
+    if dry_run:
+        print("  [DRY RUN] Would generate 5-section article", file=sys.stderr)
+        return "# テスト記事\n\n## セクション1\n\nセクション1の内容。\n\n## セクション2\n\nセクション2の内容。"
+
+    try:
+        generator = SectionalArticleGenerator()
+        print(f"  [Sectional] Initialized SectionalArticleGenerator (Gemma-3-27b-it)", file=sys.stderr)
+
+        # Generate all 5 sections
+        sections_to_generate = [
+            ('section_1', 'generate_section_1_introduction'),
+            ('section_2', 'generate_section_2_research'),
+            ('section_3', 'generate_section_3_applications'),
+            ('section_4', 'generate_section_4_market_analysis'),
+            ('section_5', 'generate_section_5_future'),
+        ]
+
+        for section_name, method_name in sections_to_generate:
+            method = getattr(generator, method_name, None)
+            if method and callable(method):
+                success = method()
+                if not success:
+                    print(f"  [Sectional] Failed to generate {section_name}", file=sys.stderr)
+                    return None
+            else:
+                print(f"  [Sectional] Method not found: {method_name}", file=sys.stderr)
+                return None
+
+        # Combine sections with markdown headers
+        sections_text = []
+        section_titles = [
+            "企業動向・市場の動き",
+            "研究開発の進展",
+            "新サービス・製品発表",
+            "市場動向・投資・規制",
+            "今後の展開と予測",
+        ]
+
+        for i, (section_name, _) in enumerate(sections_to_generate):
+            if section_name in generator.sections:
+                title = section_titles[i]
+                content = generator.sections[section_name]
+                sections_text.append(f"## {title}\n\n{content}")
+
+        combined_body = "\n\n".join(sections_text)
+        total_chars = len(combined_body)
+
+        # Log stats
+        stats = generator.stats
+        total_time = sum(stats['generation_times'].values())
+        print(f"  [Sectional] Generated {total_chars} chars in {total_time:.1f}s", file=sys.stderr)
+        print(f"    - Sections: {len(generator.sections)}/5 completed", file=sys.stderr)
+        timing_str = ', '.join([f"{k.replace('section_', 'S')}:{v:.1f}s" for k, v in stats['generation_times'].items()])
+        print(f"    - Timing: {timing_str}", file=sys.stderr)
+
+        return combined_body
+
+    except Exception as e:
+        print(f"  [Sectional] Error: {e}", file=sys.stderr)
+        return None
+
+
 def stage3_title_optimization(client, topic, body, dry_run=False):
     """Stage 3: Optimize article title."""
     print(f"\n=== Stage 3: Title Optimization ===", file=sys.stderr)
@@ -811,8 +886,18 @@ categories: [{metadata['category']}]
 tags: {tags_str}
 author: "{metadata['author']}"
 excerpt: "{metadata['excerpt']}"
-reading_time: {metadata['reading_time']}
----"""
+reading_time: {metadata['reading_time']}"""
+
+    # Add internal linking metadata for E-E-A-T
+    if 'related_articles' in metadata and metadata['related_articles']:
+        related_str = json.dumps(metadata['related_articles'], ensure_ascii=False)
+        fm += f"\nrelated_articles: {related_str}"
+
+    if 'pillar_article' in metadata and metadata['pillar_article']:
+        pillar_str = json.dumps(metadata['pillar_article'], ensure_ascii=False)
+        fm += f"\npillar_article: {pillar_str}"
+
+    fm += "\n---"
     return fm
 
 
@@ -830,22 +915,36 @@ def remove_body_title(body):
 
 
 def generate_article(client, kb, topic, article_num, posts_dir="_posts",
-                     dry_run=False, skip_enrich=False, compliance_loader=None, persona_filter=None):
-    """Generate a single article through the full pipeline."""
+                     dry_run=False, skip_enrich=False, compliance_loader=None,
+                     persona_filter=None, sectional=False, linking_engine=None):
+    """Generate a single article through the full pipeline.
+
+    If sectional=True, uses 5-section generation with context preservation (Gemma-3-27b-it).
+    Otherwise uses standard 6-stage pipeline (Gemini 2.5).
+
+    If linking_engine is provided, injects internal links to related articles for E-E-A-T."""
     now = datetime.now(JST)
 
     print(f"\n{'='*60}", file=sys.stderr)
     print(f"ARTICLE {article_num}: [{topic['category']}] {topic.get('title_seed', '')}", file=sys.stderr)
     print(f"{'='*60}", file=sys.stderr)
 
-    # Stage 2: Article Draft
-    body = stage2_article_draft(client, kb, topic, compliance_loader, dry_run, persona_filter)
+    # Stage 2: Article Draft (choose generation method)
+    if sectional and SECTIONAL_AVAILABLE:
+        print(f"  [Pipeline] Using sectional generation (5-section with context)", file=sys.stderr)
+        body = stage2_article_draft_sectional(topic, dry_run)
+    else:
+        if sectional and not SECTIONAL_AVAILABLE:
+            print(f"  [Warning] Sectional pipeline not available, falling back to standard", file=sys.stderr)
+        body = stage2_article_draft(client, kb, topic, compliance_loader, dry_run, persona_filter)
+
     if not body:
         print(f"  SKIP: Article generation failed", file=sys.stderr)
         return None
 
     # Apply persona masking to generated article (anonymize personal info)
-    if persona_filter and body:
+    # Note: Sectional pipeline doesn't need masking as it doesn't mention individuals
+    if persona_filter and body and not sectional:
         body = persona_filter.mask_personal_info(body)
         print(f"  [Persona Filter] Applied anonymization to article", file=sys.stderr)
 
@@ -854,6 +953,28 @@ def generate_article(client, kb, topic, article_num, posts_dir="_posts",
 
     # Stage 4: Metadata
     metadata = stage4_metadata(client, title, body, topic, dry_run)
+
+    # E-E-A-T Enhancement: Add internal links for SEO (Pillar + Cluster strategy)
+    if linking_engine and not dry_run:
+        try:
+            # Find related articles
+            related_articles = linking_engine.find_related_articles(
+                title, metadata['category'], body, max_links=3
+            )
+            if related_articles:
+                metadata['related_articles'] = [
+                    {'slug': slug, 'title': title, 'reason': reason}
+                    for slug, title, reason in related_articles
+                ]
+                print(f"  [E-E-A-T] Added {len(related_articles)} internal links", file=sys.stderr)
+
+            # Find pillar article (main reference)
+            pillar = linking_engine.find_pillar_article(metadata['category'])
+            if pillar:
+                metadata['pillar_article'] = {'slug': pillar[0], 'title': pillar[1]}
+                print(f"  [E-E-A-T] Linked to pillar: {pillar[1]}", file=sys.stderr)
+        except Exception as e:
+            print(f"  [E-E-A-T] Warning: {e}", file=sys.stderr)
 
     # Stage 5: Quality Gate (with retry callback)
     def retry_callback(improvement_prompt):
@@ -921,6 +1042,8 @@ def main():
                         help='Posts directory (default: _posts)')
     parser.add_argument('--kb-dir', default=None,
                         help='Knowledge base directory')
+    parser.add_argument('--sectional', action='store_true',
+                        help='Use sectional generation pipeline (5-section with context)')
     args = parser.parse_args()
 
     print(f"Article Pipeline v2.0 - {datetime.now(JST).strftime('%Y-%m-%d %H:%M JST')}", file=sys.stderr)
@@ -956,6 +1079,15 @@ def main():
     except Exception as e:
         print(f"Persona filter init failed (skipping): {e}", file=sys.stderr)
 
+    # Initialize internal linking engine (E-E-A-T enhancement)
+    le = None
+    try:
+        le = get_internal_linking_engine(args.posts_dir)
+        stats = le.get_linking_statistics()
+        print(f"Internal linking engine: {stats['total_articles']} articles indexed", file=sys.stderr)
+    except Exception as e:
+        print(f"Internal linking init failed (skipping): {e}", file=sys.stderr)
+
     # Stage 1: Topic Planning
     topics = stage1_topic_planning(client, kb, args.articles, args.dry_run)
 
@@ -972,7 +1104,9 @@ def main():
             dry_run=args.dry_run,
             skip_enrich=args.skip_enrich,
             compliance_loader=cl,
-            persona_filter=pf
+            persona_filter=pf,
+            sectional=args.sectional,
+            linking_engine=le
         )
         if filepath:
             results.append(filepath)
