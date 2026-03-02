@@ -77,24 +77,50 @@ class InternalLinkingStrategy:
 
     def _extract_frontmatter(self, fm: str, key: str) -> Optional[str]:
         """Extract a value from frontmatter"""
+        # Handle YAML list format: categories: [Category Name]
+        if key == "categories":
+            pattern = rf'{key}:\s*\[(.+?)\]'
+            match = re.search(pattern, fm)
+            if match:
+                result = match.group(1).strip().strip('"')
+                return result
+
+        # Handle quoted format: key: "value"
         pattern = rf'{key}:\s*"?([^"\n]+)"?'
         match = re.search(pattern, fm)
-        return match.group(1).strip() if match else None
+        if match:
+            result = match.group(1).strip().strip('"')
+            return result
+        return None
 
     def _extract_keywords(self, title: str, body: str, max_keywords: int = 5) -> List[str]:
         """Extract important keywords from title and body"""
-        # Simple keyword extraction: title words + section headers
         keywords = []
 
-        # Title keywords (high priority)
-        title_words = [w for w in title.split() if len(w) > 3 and w not in ["とは", "する", "なり"]]
-        keywords.extend(title_words[:3])
+        # Extract nouns/phrases from title (split by punctuation and particles)
+        # Remove common particles: が、は、を、に、へ、で、も、や、から、まで、など
+        particles = ["が", "は", "を", "に", "へ", "で", "も", "や", "から", "まで", "など", "とは", "する", "なり"]
 
-        # Section headers (medium priority)
+        # Split title by punctuation
+        title_parts = re.split(r'[？！、。「」『』・・・]', title)
+        for part in title_parts:
+            # Extract phrases (3+ chars, exclude particles)
+            for word in part.split():
+                if len(word) >= 3 and word not in particles:
+                    keywords.append(word)
+            # Limit to avoid too many
+            if len(keywords) >= max_keywords * 2:
+                break
+
+        # Section headers (medium priority) - extract 1-3 word phrases
         headers = re.findall(r"^#+\s+(.+)$", body, re.MULTILINE)
-        for header in headers[:3]:
-            header_words = [w for w in header.split() if len(w) > 3]
-            keywords.extend(header_words[:1])
+        for header in headers[:5]:
+            # Split header and extract meaningful phrases
+            for word in header.split():
+                if len(word) >= 3 and word not in particles and word not in keywords:
+                    keywords.append(word)
+            if len(keywords) >= max_keywords * 3:
+                break
 
         # Remove duplicates and limit
         seen = set()
@@ -133,21 +159,28 @@ class InternalLinkingStrategy:
                 related[slug]["title"] = self.articles[slug]["title"]
                 related[slug]["slug"] = slug
 
-        # Score articles by category proximity (same category = lower priority)
+        # Score articles by category proximity (same category = fallback)
+        # Get all same-category articles not already scored
         same_category_articles = [
-            s for s in self.category_map.get(category, []) if s not in related
+            s for s in self.category_map.get(category, [])
+            if s not in related and self.articles[s]["title"] != title
         ]
-        for slug in same_category_articles[:2]:
+        # Sort by date (newest first) to prefer recent articles
+        same_category_articles.sort(
+            key=lambda s: self.articles[s].get("date", ""), reverse=True
+        )
+        for slug in same_category_articles[:max_links]:
             related[slug]["score"] = 0.5
             related[slug]["title"] = self.articles[slug]["title"]
             related[slug]["slug"] = slug
 
-        # Sort by score and return top N
+        # Sort by score and return top N (exclude self)
         sorted_articles = sorted(related.items(), key=lambda x: x[1]["score"], reverse=True)
         result = [
             (item["slug"], item["title"], "関連記事")
-            for _, item in sorted_articles[:max_links]
-        ]
+            for _, item in sorted_articles
+            if item["title"] != title  # Exclude self
+        ][:max_links]
 
         return result
 
