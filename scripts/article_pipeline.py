@@ -34,6 +34,7 @@ from title_sanitizer import TitleSanitizer
 from quality_scorer import QualityScorer
 from knowledge_base import KnowledgeBase
 from research_loader import ResearchLoader
+from persona_to_editorial_filter import load_persona_filter
 try:
     from compliance_loader import ComplianceLoader
 except ImportError:
@@ -401,8 +402,10 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
     return result[:num_articles]
 
 
-def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=False):
-    """Stage 2: Generate article draft with knowledge base + research + compliance context."""
+def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=False, persona_filter=None):
+    """Stage 2: Generate article draft with knowledge base + research + compliance context.
+
+    If persona_filter is provided, applies Digital Twin SDK persona guidelines to generation."""
     print(f"\n=== Stage 2: Article Draft [{topic['category']}] ===", file=sys.stderr)
 
     category = topic['category']
@@ -456,7 +459,14 @@ def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=Fals
     if compliance_context:
         context_block = f"{context_block}\n\n{compliance_context}"
 
-    prompt = f"""{persona_info['persona']}
+    # Layer in persona filter guidelines from Digital Twin SDK (if available)
+    base_persona = persona_info['persona']
+    if persona_filter:
+        editorial_guidelines = persona_filter.generate_section_guidelines(section_num=0)
+        base_persona = f"{base_persona}\n\n{editorial_guidelines}"
+        print(f"  [Persona Filter] Applied Digital Twin guidelines", file=sys.stderr)
+
+    prompt = f"""{base_persona}
 
 {context_block}
 
@@ -820,7 +830,7 @@ def remove_body_title(body):
 
 
 def generate_article(client, kb, topic, article_num, posts_dir="_posts",
-                     dry_run=False, skip_enrich=False, compliance_loader=None):
+                     dry_run=False, skip_enrich=False, compliance_loader=None, persona_filter=None):
     """Generate a single article through the full pipeline."""
     now = datetime.now(JST)
 
@@ -829,10 +839,15 @@ def generate_article(client, kb, topic, article_num, posts_dir="_posts",
     print(f"{'='*60}", file=sys.stderr)
 
     # Stage 2: Article Draft
-    body = stage2_article_draft(client, kb, topic, compliance_loader, dry_run)
+    body = stage2_article_draft(client, kb, topic, compliance_loader, dry_run, persona_filter)
     if not body:
         print(f"  SKIP: Article generation failed", file=sys.stderr)
         return None
+
+    # Apply persona masking to generated article (anonymize personal info)
+    if persona_filter and body:
+        body = persona_filter.mask_personal_info(body)
+        print(f"  [Persona Filter] Applied anonymization to article", file=sys.stderr)
 
     # Stage 3: Title Optimization
     title = stage3_title_optimization(client, topic, body, dry_run)
@@ -933,6 +948,14 @@ def main():
         except Exception as e:
             print(f"Compliance loader init failed (skipping): {e}", file=sys.stderr)
 
+    # Initialize persona filter (optional, for Digital Twin SDK integration)
+    pf = None
+    try:
+        pf = load_persona_filter()
+        print(f"Persona filter: loaded from Digital Twin SDK", file=sys.stderr)
+    except Exception as e:
+        print(f"Persona filter init failed (skipping): {e}", file=sys.stderr)
+
     # Stage 1: Topic Planning
     topics = stage1_topic_planning(client, kb, args.articles, args.dry_run)
 
@@ -948,7 +971,8 @@ def main():
             posts_dir=args.posts_dir,
             dry_run=args.dry_run,
             skip_enrich=args.skip_enrich,
-            compliance_loader=cl
+            compliance_loader=cl,
+            persona_filter=pf
         )
         if filepath:
             results.append(filepath)

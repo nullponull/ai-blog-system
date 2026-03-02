@@ -2,14 +2,15 @@ name: AI Article Pipeline v2 (Orchestrated)
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Daily at 0:00 UTC (09:00 JST)
-    - cron: '0 12 * * *'  # Daily at 12:00 UTC (21:00 JST)
+    - cron: '0 21 * * *'  # Daily at 21:00 UTC (06:00 JST next day)
+    - cron: '0 3 * * *'   # Daily at 03:00 UTC (12:00 JST)
+    - cron: '0 9 * * *'   # Daily at 09:00 UTC (18:00 JST)
   workflow_dispatch:
     inputs:
       articles:
         description: 'Number of articles to generate'
         required: false
-        default: '3'
+        default: '6'
       skip_enrich:
         description: 'Skip enrich_article.py'
         required: false
@@ -59,7 +60,7 @@ jobs:
 
       - name: Generate articles
         env:
-          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEY }},${{ secrets.GEMINI_API_KEY2 }},${{ secrets.GEMINI_API_KEY3 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEY2 }},${{ secrets.GEMINI_API_KEY3 }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
         run: |
           ARTICLES="${{ github.event.inputs.articles || '3' }}"
