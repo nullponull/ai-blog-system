@@ -49,6 +49,8 @@ class GeminiClient:
     LIGHT_MODELS = ["gemini-2.5-flash-lite", "gemini-2.0-flash"]
     # HEAVY: Article drafts - pro first (100 RPD free tier), then flash-lite fallback
     HEAVY_MODELS = ["gemini-2.5-pro", "gemini-2.5-flash-lite"]
+    # NEWS: Web Search でリアルタイムニュース取得 — 3モデルをローテーション
+    NEWS_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"]
 
     BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
@@ -233,6 +235,95 @@ class GeminiClient:
                     print(f"Warning: Failed to parse JSON from {m}, trying next", file=sys.stderr)
                     continue
         return None
+
+    def fetch_news(self, query="AI 人工知能 最新ニュース", max_items=15, temperature=0.5):
+        """Fetch latest AI news headlines via Google Search grounding.
+
+        Uses NEWS_MODELS rotation to retrieve real-time news.
+
+        Args:
+            query: Search query for news (default: AI news)
+            max_items: Maximum number of news items to return (default: 15)
+            temperature: Low temperature for factual output (default: 0.5)
+
+        Returns:
+            List of dicts with keys: headline, source, date, summary, url
+            Returns empty list if all models fail.
+        """
+        from datetime import datetime, timezone, timedelta
+        today = datetime.now(timezone(timedelta(hours=9))).strftime('%Y年%m月%d日')
+
+        schema = {
+            "type": "ARRAY",
+            "items": {
+                "type": "OBJECT",
+                "properties": {
+                    "headline": {"type": "STRING"},
+                    "source": {"type": "STRING"},
+                    "date": {"type": "STRING"},
+                    "summary": {"type": "STRING"},
+                    "category": {"type": "STRING"},
+                },
+                "required": ["headline", "summary", "category"]
+            }
+        }
+
+        prompt = f"""あなたはAIニュース調査員です。本日（{today}）時点の最新AI関連ニュースを{max_items}件リストアップしてください。
+
+【検索対象】
+{query}
+
+【収集範囲】
+- 直近1週間以内のニュースを優先
+- グローバル（英語圏）と日本国内の両方を含む
+- 企業発表、製品リリース、研究成果、規制動向、資金調達など幅広く
+
+【カテゴリ分類】各ニュースに以下のいずれかを付与:
+- 企業動向（製品発表、提携、M&A）
+- 技術革新（新モデル、ベンチマーク更新、新手法）
+- 規制・政策（法規制、ガイドライン、国際協定）
+- 資金調達・市場（投資、IPO、市場規模）
+- 研究成果（論文、学会発表）
+- 社会影響（雇用、教育、倫理）
+
+【出力条件】
+- headline: ニュース見出し（日本語、40文字以内）
+- source: 情報源（メディア名やプレスリリース元）
+- date: 日付（YYYY-MM-DD形式、不明なら空文字）
+- summary: 要約（100文字以内、具体的な数値や企業名を含む）
+- category: 上記カテゴリから1つ
+
+重複や古いニュースは除外し、多様なカテゴリから選んでください。"""
+
+        for model in self.NEWS_MODELS:
+            result = self._request(
+                model, prompt, temperature, max_tokens=4096,
+                response_mime_type="application/json",
+                response_schema=schema,
+                enable_search=True
+            )
+            if result is not None:
+                try:
+                    news = json.loads(result)
+                    if isinstance(news, list) and len(news) > 0:
+                        print(f"  [GeminiClient] Fetched {len(news)} news items via {model}", file=sys.stderr)
+                        return news[:max_items]
+                except json.JSONDecodeError:
+                    cleaned = result.strip()
+                    if cleaned.startswith("```"):
+                        lines = cleaned.split("\n")
+                        json_str = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
+                        try:
+                            news = json.loads(json_str)
+                            if isinstance(news, list):
+                                return news[:max_items]
+                        except json.JSONDecodeError:
+                            pass
+                    print(f"  [GeminiClient] Failed to parse news JSON from {model}", file=sys.stderr)
+                    continue
+
+        print("  [GeminiClient] All NEWS_MODELS failed for fetch_news", file=sys.stderr)
+        return []
 
     def _request(self, model, prompt, temperature, max_tokens,
                  response_mime_type=None, response_schema=None, enable_search=False):

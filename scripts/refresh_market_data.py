@@ -194,6 +194,59 @@ YAML形式で出力してください。"""
     return False
 
 
+def refresh_trends(client, market_dir, dry_run=False):
+    """Refresh trends.yml with latest AI industry trends via Web Search."""
+    print("Refreshing trends...", file=sys.stderr)
+    filepath = os.path.join(market_dir, 'trends.yml')
+
+    prompt = f"""AI業界の最新トレンド情報を提供してください。{datetime.now().strftime('%Y年%m月')}時点。
+
+以下の構造で出力:
+
+hot_technologies:
+  - name: (技術名)
+    description: (50文字以内の説明)
+    momentum: high/medium/rising
+    key_players: (主要企業3-5社)
+
+emerging_themes:
+  - name: (テーマ名)
+    description: (50文字以内)
+
+industry_shifts:
+  - description: (業界動向100文字以内)
+
+条件:
+- hot_technologies: 10-15項目（AIエージェント、マルチモーダル、推論最適化等に加え、最新の話題も含む）
+- emerging_themes: 5-8項目（まだ主流ではないが注目されている分野）
+- industry_shifts: 3-5項目（直近の業界構造変化）
+- 各項目は具体的な企業名や数値を含む
+- YAML形式で出力"""
+
+    if dry_run:
+        print("  [DRY RUN] Would update trends", file=sys.stderr)
+        return True
+
+    result = client.call_with_search(prompt)
+    if result:
+        # Clean YAML from markdown code blocks
+        cleaned = result.strip()
+        if cleaned.startswith("```"):
+            lines = cleaned.split("\n")
+            cleaned = "\n".join(lines[1:-1] if lines[-1].strip().startswith("```") else lines[1:])
+        try:
+            data = yaml.safe_load(cleaned)
+            if data and isinstance(data, dict):
+                save_yaml(filepath, data, "AI業界トレンドデータ")
+                hot = data.get('hot_technologies', [])
+                print(f"  Trends updated: {len(hot)} hot technologies", file=sys.stderr)
+                return True
+        except yaml.YAMLError as e:
+            print(f"  Warning: Could not parse trends response as YAML: {e}", file=sys.stderr)
+
+    return False
+
+
 def update_last_updated(market_dir, sections):
     """Update the _last_updated.yml file."""
     filepath = os.path.join(market_dir, '_last_updated.yml')
@@ -214,7 +267,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='Refresh market data knowledge base'
     )
-    parser.add_argument('--section', choices=['companies', 'market_sizes', 'benchmarks', 'pricing', 'all'],
+    parser.add_argument('--section', choices=['companies', 'market_sizes', 'benchmarks', 'pricing', 'trends', 'all'],
                         default='all', help='Section to refresh')
     parser.add_argument('--dry-run', action='store_true', help='Preview only')
     args = parser.parse_args()
@@ -247,6 +300,10 @@ def main():
     if args.section in ('all', 'pricing'):
         if refresh_pricing(client, market_dir, args.dry_run):
             sections_updated.append('pricing')
+
+    if args.section in ('all', 'trends'):
+        if refresh_trends(client, market_dir, args.dry_run):
+            sections_updated.append('trends')
 
     if sections_updated and not args.dry_run:
         update_last_updated(market_dir, sections_updated)

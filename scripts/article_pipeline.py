@@ -268,21 +268,31 @@ AI開発の実務経験から、ニュースの技術的本質と企業への実
 }
 
 
-def get_recent_titles(posts_dir="_posts", days=7):
-    """Get recent article titles to avoid duplication."""
+def get_recent_articles_context(posts_dir="_posts", days=14):
+    """Get recent article titles and slugs for duplication avoidance.
+
+    Returns:
+        dict with 'titles' (list of str) and 'slugs' (list of str)
+    """
     titles = []
+    slugs = []
     cutoff = datetime.now() - timedelta(days=days)
 
     if not os.path.isdir(posts_dir):
-        return titles
+        return {"titles": titles, "slugs": slugs}
 
-    for f in sorted(os.listdir(posts_dir), reverse=True)[:30]:
+    for f in sorted(os.listdir(posts_dir), reverse=True)[:60]:
         if not f.endswith('.md'):
             continue
         match = re.match(r'(\d{4})-(\d{2})-(\d{2})', f)
         if match:
             file_date = datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)))
             if file_date >= cutoff:
+                # Extract slug from filename
+                slug_match = re.match(r'\d{4}-\d{2}-\d{2}-\d+-(.+)\.md', f)
+                if slug_match:
+                    slugs.append(slug_match.group(1))
+
                 filepath = os.path.join(posts_dir, f)
                 try:
                     with open(filepath, 'r', encoding='utf-8', errors='ignore') as fh:
@@ -298,12 +308,41 @@ def get_recent_titles(posts_dir="_posts", days=7):
                 except Exception:
                     pass
 
-    return titles[:15]
+    return {"titles": titles[:30], "slugs": slugs[:30]}
+
+
+def fetch_latest_ai_news(client):
+    """Fetch latest AI news using Gemini Web Search (NEWS_MODELS rotation).
+
+    Returns:
+        list of news dicts, or empty list on failure
+    """
+    print("\n--- Fetching latest AI news via Web Search ---", file=sys.stderr)
+    try:
+        news = client.fetch_news(
+            query="AI 人工知能 LLM GPT Claude Gemini 最新ニュース 2026",
+            max_items=15
+        )
+        if news:
+            print(f"  Fetched {len(news)} news items", file=sys.stderr)
+            for i, item in enumerate(news[:5]):
+                print(f"    {i+1}. [{item.get('category', '?')}] {item.get('headline', '?')}", file=sys.stderr)
+            return news
+        else:
+            print("  Warning: No news fetched, falling back to static trends", file=sys.stderr)
+            return []
+    except Exception as e:
+        print(f"  Warning: News fetch failed: {e}", file=sys.stderr)
+        return []
 
 
 def stage1_topic_planning(client, kb, num_articles, dry_run=False):
-    """Stage 1: Generate topic plans with category targets."""
-    print("\n=== Stage 1: Topic Planning ===", file=sys.stderr)
+    """Stage 1: Generate topic plans driven by real-time news.
+
+    Uses Gemini Web Search to fetch latest AI news, then plans articles
+    based on actual news items instead of static trends.
+    """
+    print("\n=== Stage 1: Topic Planning (News-Driven) ===", file=sys.stderr)
 
     now = datetime.now(JST)
     weekday = now.weekday()
@@ -317,11 +356,33 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
                 if len(target_cats) >= num_articles:
                     break
 
-    recent = get_recent_titles()
-    recent_str = "、".join(recent[:10]) if recent else "なし"
+    # Get recent articles for deduplication (14 days, 30 items)
+    recent_ctx = get_recent_articles_context()
+    recent_titles = recent_ctx["titles"]
+    recent_slugs = recent_ctx["slugs"]
+    recent_str = "、".join(recent_titles[:15]) if recent_titles else "なし"
 
-    # Get trends for topic inspiration
-    trends_ctx = kb.format_trends_context()
+    # Fetch real-time AI news via Web Search
+    news_items = []
+    if not dry_run and client:
+        news_items = fetch_latest_ai_news(client)
+
+    # Build news context for prompt
+    if news_items:
+        news_lines = []
+        for i, item in enumerate(news_items):
+            headline = item.get('headline', '')
+            summary = item.get('summary', '')
+            category = item.get('category', '')
+            source = item.get('source', '')
+            date = item.get('date', '')
+            news_lines.append(f"  {i+1}. [{category}] {headline} ({source}, {date})")
+            if summary:
+                news_lines.append(f"     → {summary}")
+        news_ctx = "\n".join(news_lines)
+    else:
+        # Fallback to static trends if news fetch failed
+        news_ctx = kb.format_trends_context()
 
     schema = {
         "type": "ARRAY",
@@ -331,6 +392,7 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
                 "title_seed": {"type": "STRING"},
                 "category": {"type": "STRING"},
                 "angle": {"type": "STRING"},
+                "news_source": {"type": "STRING"},
                 "target_companies": {
                     "type": "ARRAY",
                     "items": {"type": "STRING"}
@@ -340,46 +402,78 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
         }
     }
 
-    prompt = f"""AI業界の最新トピックを{num_articles}件企画してください。
+    prompt = f"""あなたはAIニュースメディアの編集長です。
+以下の最新ニュースから、読者にとって価値の高い記事トピックを{num_articles}件企画してください。
+
+【本日の最新AIニュース】
+{news_ctx}
 
 【カテゴリ指定】以下のカテゴリで1件ずつ:
 {chr(10).join(f'  {i+1}. {cat}' for i, cat in enumerate(target_cats))}
 
-【最近の記事（重複回避）】
+【最近14日間の既存記事（これらと重複しないこと）】
 {recent_str}
 
-【最新トレンド参考】
-{trends_ctx}
+【禁止スラグ（同一テーマ回避）】
+{', '.join(recent_slugs[:20]) if recent_slugs else 'なし'}
 
-【条件】
-- 各トピックは異なる企業・分野・角度から
-- 具体的な企業名・製品名・数値を含むこと
-- title_seedは30文字以内の仮タイトル
+【企画条件】
+- 上記ニュースから具体的なニュースを選び、それを起点に記事を企画する
+- 同じニュースを複数記事で使わない
+- 既存記事と同じテーマ・企業・切り口は避ける
+- title_seedは30文字以内の仮タイトル（具体的な企業名・製品名を含む）
 - angleは「何の視点から書くか」を50文字で
-- target_companiesは記事で言及予定の企業ID(openai, google, nvidia等)を2-4個
+- news_sourceは元にしたニュースの見出し（ニュースがない場合は空文字）
+- target_companiesは記事で言及予定の企業ID(openai, google, nvidia, anthropic, meta, microsoft, deepseek, mistral等)を2-4個
 
 日付: {now.strftime('%Y年%m月%d日')}"""
 
     if dry_run:
         print(f"  [DRY RUN] Would generate {num_articles} topics", file=sys.stderr)
+        if news_items:
+            # Use actual news for dry-run topics
+            topics = []
+            for i in range(min(num_articles, len(news_items))):
+                topics.append({
+                    "title_seed": news_items[i].get('headline', f'テストトピック{i+1}')[:30],
+                    "category": target_cats[i],
+                    "angle": news_items[i].get('summary', 'テスト')[:50],
+                    "news_source": news_items[i].get('headline', ''),
+                    "target_companies": ["openai"]
+                })
+            # Pad remaining
+            while len(topics) < num_articles:
+                idx = len(topics)
+                topics.append({
+                    "title_seed": f"テストトピック{idx+1}",
+                    "category": target_cats[idx % len(target_cats)],
+                    "angle": "テスト",
+                    "news_source": "",
+                    "target_companies": ["openai"]
+                })
+            return topics
         return [{"title_seed": f"テストトピック{i+1}", "category": target_cats[i],
-                 "angle": "テスト", "target_companies": ["openai"]}
+                 "angle": "テスト", "news_source": "", "target_companies": ["openai"]}
                 for i in range(num_articles)]
 
-    result = client.call_json(prompt, schema=schema)
+    # Use call_json_with_search for additional grounding
+    result = client.call_json_with_search(prompt, schema=schema)
 
     if not result or not isinstance(result, list):
-        print("  Warning: JSON topic generation failed, falling back to text", file=sys.stderr)
-        # Fallback: generate as text and parse
+        print("  Warning: JSON topic generation failed, trying call_json...", file=sys.stderr)
+        result = client.call_json(prompt, schema=schema)
+
+    if not result or not isinstance(result, list):
+        print("  Warning: All JSON modes failed, falling back to text", file=sys.stderr)
         text_result = client.call(prompt)
         if text_result:
-            # Create simple topics from text
             topics = []
             for i, cat in enumerate(target_cats):
                 topics.append({
                     "title_seed": f"AI{cat}の最新動向",
                     "category": cat,
                     "angle": "最新動向を分析",
+                    "news_source": "",
                     "target_companies": ["openai", "google"]
                 })
             result = topics
@@ -390,7 +484,6 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
     # Validate and fix categories
     for topic in result:
         if topic.get('category') not in VALID_CATEGORIES:
-            # Try to match
             cat = topic.get('category', '')
             matched = False
             for valid in VALID_CATEGORIES:
@@ -404,6 +497,8 @@ def stage1_topic_planning(client, kb, num_articles, dry_run=False):
     for i, topic in enumerate(result[:num_articles]):
         print(f"  Topic {i+1}: [{topic['category']}] {topic.get('title_seed', 'N/A')}", file=sys.stderr)
         print(f"    Angle: {topic.get('angle', 'N/A')}", file=sys.stderr)
+        if topic.get('news_source'):
+            print(f"    News: {topic['news_source']}", file=sys.stderr)
 
     return result[:num_articles]
 
