@@ -194,6 +194,32 @@ YAML形式で出力してください。"""
     return False
 
 
+def _validate_trends_data(data):
+    """Validate trends YAML structure to prevent malformed LLM output from being saved."""
+    if not isinstance(data, dict):
+        return False
+    # Must contain at least one expected top-level key
+    expected_keys = {'hot_technologies', 'emerging_themes', 'industry_shifts'}
+    if not expected_keys.intersection(data.keys()):
+        return False
+    # Reject unexpected top-level keys (allow only known fields)
+    allowed_keys = expected_keys | {'metadata', 'updated', 'source'}
+    unexpected = set(data.keys()) - allowed_keys
+    if unexpected:
+        print(f"  [Trends] Rejected unexpected keys: {unexpected}", file=sys.stderr)
+        # Strip unexpected keys rather than rejecting entirely
+        for key in unexpected:
+            del data[key]
+    # Validate hot_technologies structure
+    hot = data.get('hot_technologies', [])
+    if not isinstance(hot, list):
+        return False
+    for item in hot:
+        if not isinstance(item, dict) or 'name' not in item:
+            return False
+    return True
+
+
 def refresh_trends(client, market_dir, dry_run=False):
     """Refresh trends.yml with latest AI industry trends via Web Search."""
     print("Refreshing trends...", file=sys.stderr)
@@ -237,6 +263,9 @@ industry_shifts:
         try:
             data = yaml.safe_load(cleaned)
             if data and isinstance(data, dict):
+                if not _validate_trends_data(data):
+                    print("  Warning: Trends data failed schema validation", file=sys.stderr)
+                    return False
                 save_yaml(filepath, data, "AI業界トレンドデータ")
                 hot = data.get('hot_technologies', [])
                 print(f"  Trends updated: {len(hot)} hot technologies", file=sys.stderr)

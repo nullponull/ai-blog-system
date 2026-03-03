@@ -311,11 +311,29 @@ def get_recent_articles_context(posts_dir="_posts", days=14):
     return {"titles": titles[:30], "slugs": slugs[:30]}
 
 
+def _sanitize_news_field(text, max_len=200):
+    """Sanitize external news data before embedding in prompts.
+
+    Removes characters and patterns that could be used for prompt injection.
+    """
+    if not isinstance(text, str):
+        return ""
+    # Remove bracket markers that could mimic prompt section headers
+    text = re.sub(r'[【】\[\]]', '', text)
+    # Remove markdown-like directives
+    text = re.sub(r'^#+\s', '', text)
+    # Remove lines that look like instructions (指示, 条件, 出力, etc.)
+    text = re.sub(r'(指示|条件|出力|プロンプト|システム|忘れて|無視して|代わりに)[：:].*', '', text)
+    # Collapse whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text[:max_len]
+
+
 def fetch_latest_ai_news(client):
     """Fetch latest AI news using Gemini Web Search (NEWS_MODELS rotation).
 
     Returns:
-        list of news dicts, or empty list on failure
+        list of sanitized news dicts, or empty list on failure
     """
     print("\n--- Fetching latest AI news via Web Search ---", file=sys.stderr)
     try:
@@ -324,6 +342,14 @@ def fetch_latest_ai_news(client):
             max_items=15
         )
         if news:
+            # Sanitize all external fields before use in prompts
+            for item in news:
+                item['headline'] = _sanitize_news_field(item.get('headline', ''), max_len=60)
+                item['summary'] = _sanitize_news_field(item.get('summary', ''), max_len=150)
+                item['source'] = _sanitize_news_field(item.get('source', ''), max_len=50)
+                item['category'] = _sanitize_news_field(item.get('category', ''), max_len=30)
+                item['date'] = re.sub(r'[^0-9\-]', '', str(item.get('date', '')))[:10]
+
             print(f"  Fetched {len(news)} news items", file=sys.stderr)
             for i, item in enumerate(news[:5]):
                 print(f"    {i+1}. [{item.get('category', '?')}] {item.get('headline', '?')}", file=sys.stderr)
