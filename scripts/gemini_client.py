@@ -152,22 +152,11 @@ class GeminiClient:
                 response_schema=schema
             )
             if result is not None:
-                try:
-                    # Try to parse as JSON
-                    return json.loads(result)
-                except json.JSONDecodeError:
-                    # Try to extract JSON from markdown code blocks
-                    cleaned = result.strip()
-                    if cleaned.startswith("```"):
-                        lines = cleaned.split("\n")
-                        # Remove first and last lines (``` markers)
-                        json_str = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
-                        try:
-                            return json.loads(json_str)
-                        except json.JSONDecodeError:
-                            pass
-                    print(f"Warning: Failed to parse JSON from {m}, trying next model", file=sys.stderr)
-                    continue
+                parsed = self._extract_json(result)
+                if parsed is not None:
+                    return parsed
+                print(f"Warning: Failed to parse JSON from {m}, trying next model", file=sys.stderr)
+                continue
         return None
 
     def call_with_search(self, prompt, model=None, temperature=0.9, max_tokens=8192):
@@ -199,11 +188,14 @@ class GeminiClient:
     def call_json_with_search(self, prompt, schema=None, model=None, temperature=0.7, max_tokens=8192):
         """Generate structured JSON with Google Search grounding.
 
-        Combines JSON mode with web search for up-to-date structured data.
+        Note: Gemini API does not support responseMimeType with google_search tool,
+        so this method relies on prompt instructions for JSON output and parses
+        the text response. The schema parameter is kept for documentation purposes
+        but is NOT sent to the API when search is enabled.
 
         Args:
-            prompt: The prompt text
-            schema: Optional JSON schema dict for response validation
+            prompt: The prompt text (should include JSON output instructions)
+            schema: JSON schema dict (used as documentation; not sent with search)
             model: Specific model to use (or None for heavy model rotation)
             temperature: Lower default (0.7) for structured output
             max_tokens: Max output tokens
@@ -221,19 +213,11 @@ class GeminiClient:
                 enable_search=True
             )
             if result is not None:
-                try:
-                    return json.loads(result)
-                except json.JSONDecodeError:
-                    cleaned = result.strip()
-                    if cleaned.startswith("```"):
-                        lines = cleaned.split("\n")
-                        json_str = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
-                        try:
-                            return json.loads(json_str)
-                        except json.JSONDecodeError:
-                            pass
-                    print(f"Warning: Failed to parse JSON from {m}, trying next", file=sys.stderr)
-                    continue
+                parsed = self._extract_json(result)
+                if parsed is not None:
+                    return parsed
+                print(f"Warning: Failed to parse JSON from {m}, trying next", file=sys.stderr)
+                continue
         return None
 
     def fetch_news(self, query="AI 人工知能 最新ニュース", max_items=15, temperature=0.5):
@@ -325,6 +309,41 @@ class GeminiClient:
         print("  [GeminiClient] All NEWS_MODELS failed for fetch_news", file=sys.stderr)
         return []
 
+    @staticmethod
+    def _extract_json(text):
+        """Extract and parse JSON from text that may contain markdown code fences.
+
+        Handles these formats:
+          - Pure JSON string
+          - ```json ... ``` wrapped JSON
+          - ``` ... ``` wrapped JSON
+
+        Returns:
+            Parsed Python object (dict or list), or None if parsing fails.
+        """
+        if text is None:
+            return None
+
+        # 1) Try direct parse first
+        try:
+            return json.loads(text)
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+        # 2) Try stripping markdown code fences
+        cleaned = text.strip()
+        if cleaned.startswith("```"):
+            lines = cleaned.split("\n")
+            # Remove first line (```json or ```) and last line (```)
+            end = -1 if lines[-1].strip() == "```" else len(lines)
+            json_str = "\n".join(lines[1:end])
+            try:
+                return json.loads(json_str)
+            except (json.JSONDecodeError, TypeError):
+                pass
+
+        return None
+
     def _request(self, model, prompt, temperature, max_tokens,
                  response_mime_type=None, response_schema=None, enable_search=False):
         """Internal: Make API request with automatic key rotation on 429.
@@ -345,9 +364,12 @@ class GeminiClient:
             }
         }
 
-        if response_mime_type:
+        # Gemini API does not support responseMimeType with google_search tool.
+        # When search is enabled, skip JSON mode and rely on prompt-based JSON output
+        # with text-based parsing in the caller.
+        if response_mime_type and not enable_search:
             data["generationConfig"]["responseMimeType"] = response_mime_type
-        if response_schema:
+        if response_schema and not enable_search:
             data["generationConfig"]["responseSchema"] = response_schema
 
         if enable_search:
