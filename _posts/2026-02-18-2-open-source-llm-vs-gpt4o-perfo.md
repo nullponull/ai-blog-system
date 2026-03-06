@@ -335,3 +335,11 @@ AIの進化は、もはや一部の巨大テック企業だけのものではあ
 では、具体的なベンチマーク結果を見てみましょう。LLMの性能評価で広く用いられるMMLU（Massive Multitask Language Understanding）において、MetaのLlama 3はまだ公式な発表が待たれますが、その前
 
 ---END---
+
+---
+
+## 関連記事
+
+- [Amazon BedrockのSaaS連携強化、何が変わるのか？](/2025/12/14/1-amazon-bedrocksaas/)
+- [Amazon Bedrockが製薬研究にもた](/2026/02/08/2-amazon-bedrock/)
+- [オープンソースLLMの躍進、GPT-4o超えの可能性とその影響とは](/2026/02/15/3-open-source-llm-overtakes-gpt4/)

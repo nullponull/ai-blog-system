@@ -115,3 +115,10 @@ GoogleのTPU v6、本当にAIのゲームを変えるのか？
 
 正直なところ、新しいAIチップの発表は毎年のように聞いている。NVIDIAのGPU
 
+---
+
+## 関連記事
+
+- [Google Gemini Nano 2、その真意はどこにあるのか？](/2025/11/20/1-google-gemini-nano-2/)
+- [HPのAIシフト、6000人削減の裏側で何が起きているのか？](/2025/11/27/3-hpai6000/)
+- [AmazonのInferentia 3、AIの未来をどう変えるのか？](/2025/12/15/2-amazoninferentia-3ai/)

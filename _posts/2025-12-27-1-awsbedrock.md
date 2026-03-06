@@ -47,3 +47,10 @@ AWS新モデル、Bedrockのコスト半減は本当にすごいのか？
 
 皆さんは、このAmazon Bedrockの進化を、どのように見ていますか？ あなたの会社では、AI導入の計画に、どのような影響がありそうですか？ ぜひ、皆さんの率直なご意見も聞かせていただけると嬉しいです。
 
+---
+
+## 関連記事
+
+- [OpenAIの「GPT-5」リリースとマルチモーダル機能の強化](/2025/08/29/1-openaigpt-5/)
+- [OpenAI gpt-ossリリース](/2025/08/29/3-openaigpt-oss/)
+- [NVIDIA GPUやGoogle TPUなどAIチップの進化](/2025/08/29/4-nvidiagpugoogletpuai/)

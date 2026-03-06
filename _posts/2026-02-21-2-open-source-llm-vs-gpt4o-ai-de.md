@@ -393,3 +393,11 @@ AI業界の動向を日々追いかける中で、近年、特に目覚ましい
 ### 1. 激化するLLM開発競争：オープン
 
 ---END---
+
+---
+
+## 関連記事
+
+- [GPT-4o時代にオープンソースLLMが変えるAI開発の未来](/2026/02/24/2-gpt4o-vs-open-source-llm-futur/)
+- [Llama 3とDeepSeek R1、オープンソースLLMがAIの地平をどう変えるのか？](/2026/02/20/3-llama3-deepseekr1-open-source-/)
+- [Llama 3とDeepSeek R1、オープンソースLLMの性能がGPT-4oに迫る](/2026/02/21/2-open-source-llm-performance-gp/)

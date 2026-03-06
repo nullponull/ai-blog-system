@@ -186,3 +186,10 @@ Broadcomのカスタムチップと高速ネットワーク、そしてVMwareの
 
 BroadcomのAI半導体、その大型受注が示す業界の真意とは？ 皆さん、最近のBroadcomのニュース、もう耳にしましたか？OpenAIからの100億ドルを超えるカスタムAIチップ受注という話、正直なところ、個人的には、Broadcom
 
+---
+
+## 関連記事
+
+- [MS・Google・Amazon AI投資](/2025/08/29/2-microsoftgoogleamazonai3200/)
+- [GoogleとMeta、AI覇権争い激化](/2025/09/07/1-googleとmetaai覇権争い激化/)
+- [Google AI検索進化：投資と技術の最前線](/2025/09/07/1-google-ai検索進化marketとtechの最前線/)

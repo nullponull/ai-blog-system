@@ -65,3 +65,10 @@ AIが単にテキストを生成するだけでなく、外部ツールと連携
 
 これからも私たちは、この変化の波を乗りこなし、未来を共に作っていく必要があります。あなたなら、このTitan 3.0を、Amazon Bedrockを、どう活用しますか？ どんな新しい価値を生み出しますか？
 
+---
+
+## 関連記事
+
+- [Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？](/2025/12/20/1-amazon-bedrocktitan-20/)
+- [Amazon BedrockとClaude 4の連携、その真の価値をどう見極めるべきか？](/2025/12/28/1-amazon-bedrockclaude-4/)
+- [GoogleとJioの提携、Gemini AI無料提供の真意とは？](/2025/10/31/1-googlejio/)

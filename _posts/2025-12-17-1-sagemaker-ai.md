@@ -51,3 +51,10 @@ SageMaker と量子AI、この連携強化で何が変わる？
 
 あなたは、この Amazon SageMaker と量子AI の連携強化について、どう感じていますか？ そして、あなたのビジネスや研究に、どのような影響を与える可能性があると思いますか？ ぜひ、考えてみてください。未来は、私たちの想像以上に早く、そして大きく変わっていくのかもしれません。
 
+---
+
+## 関連記事
+
+- [MS・Google・Amazon AI投資](/2025/08/29/2-microsoftgoogleamazonai3200/)
+- [NVIDIA CEOのAI市場予測](/2025/08/29/2-nvidiaceoai/)
+- [AMD・Intel AI専用チップ参入](/2025/08/30/5-amdintelainvidia/)

@@ -156,3 +156,10 @@ OpenAIがハードウェアへ？ Luxshareとの提携が示すAIの次なるフ
 
 私自身も、この新しいフロンティアがどう展開していくのか、固唾を飲んで見守っていきたいと思っています。あなたも、この大きな変革の波に、ぜひ注目し続けてください。
 
+---
+
+## 関連記事
+
+- [OpenAIとBroadcomの提携の可能性](/2025/10/19/1-openaibroadcom/)
+- [MS・Google・Amazon AI投資](/2025/08/29/2-microsoftgoogleamazonai3200/)
+- [Broadcom、OpenAIから100億](/2025/09/06/1-broadcomopenaiから100億/)

@@ -190,3 +190,11 @@ AIエ
 まず、大切なのは、**
 
 ---END---
+
+---
+
+## 関連記事
+
+- [製造業DXの鍵！AIエージェントで予知保全はどこまで進化するのか](/2026/02/13/1-ai-agent-predictive-maintenanc/)
+- [AIエージェントが製造業DXをどう変える？自律実行能力の全貌](/2026/02/25/1-ai-agents-manufacturing-dx-rev/)
+- [AIエージェントが製造業の予知保全をどう変える？最新事例から紐解く](/2026/02/14/1-ai-agent-predictive-maintenanc/)

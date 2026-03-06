@@ -129,3 +129,11 @@ AIの未来は、確かにチップという「土台」にかかっています
 また、医療現場での応用も期待できます。医師が患者の画像診断を行う際、AI
 
 ---END---
+
+---
+
+## 関連記事
+
+- [NVIDIAとOracleが描くAIスパコンの未来、その真意とは？](/2025/11/12/1-nvidiaoracleai/)
+- [I am unable to perform the web search fo？](/2025/11/17/3-i-am-unable-to-perform-the-web-search-fo/)
+- [I apologize, but I am unable to perform ？](/2025/11/20/1-i-apologize-but-i-am-unable-to-perform/)

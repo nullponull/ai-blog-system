@@ -176,3 +176,10 @@ MRがより迅速に、正確な情報を医療現場に届けられるように
 
 …木村情報技術が描くのは、「MIRAI Review」単体での成功に留まらない、製薬業界全体のバリューチェーンをAIで最適化する広
 
+---
+
+## 関連記事
+
+- [ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？](/2025/09/13/3-perplexity/)
+- [TCSとCEA、Physical AI提携の真意は？](/2025/09/09/2-tcsceaphysical-ai/)
+- [LillyのTuneLab：創薬AIの真価はどこに？](/2025/09/09/2-lillytunelabai/)

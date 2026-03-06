@@ -191,3 +191,10 @@ AIチップ市場は、NVIDIAが圧倒的なシェアを握っていますが、
 
 技術者の皆さん、これは皆さんのキャリアにとって、非常にエキサイティングな時代です。AIハードウェアの選択肢が増えることは、特定のベンダーに縛られず、ワークロードに最適なソリューションを選べるようになることを意味します。Inferentia 4は、その有力な選択肢の一つとして、ぜひ注目していただきたい。
 
+---
+
+## 関連記事
+
+- [NVIDIAとOracleが描くAIスパコンの未来、その真意とは？](/2025/11/12/1-nvidiaoracleai/)
+- [I am unable to perform the web search fo？](/2025/11/17/3-i-am-unable-to-perform-the-web-search-fo/)
+- [I apologize, but I am unable to perform ？](/2025/11/20/1-i-apologize-but-i-am-unable-to-perform/)

@@ -310,3 +310,10 @@ NVIDIAとOracleの提携は、AIインフラの基盤を強化するものでし
 
 企業がAIを導入する際も、単に技術的な側面だけでなく、倫理的・法的側面を考慮したガバナンス体制の構築が求められます。AI倫理ガイドラインの策定、AIリスク評価の実施、モデルの継続的な監視、そして「ヒューマン・イン・ザ・ループ」（人間の介入を前提とした設計）の原則を取り入れることなどが、これ
 
+---
+
+## 関連記事
+
+- [I am unable to perform the web search fo？](/2025/11/17/3-i-am-unable-to-perform-the-web-search-fo/)
+- [I apologize, but I am unable to perform ？](/2025/11/20/1-i-apologize-but-i-am-unable-to-perform/)
+- [OpenAIとFoxconnが手を組む真意](/2025/11/23/1-openaifoxconn/)

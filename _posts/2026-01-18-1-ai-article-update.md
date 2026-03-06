@@ -39,3 +39,10 @@ reading_time: 7
 
 アクションゲームやFPSの分野でも、このAIチップは革命を起こ
 
+---
+
+## 関連記事
+
+- [SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？](/2025/10/30/3-sensetimeai/)
+- [DEEPXの「Physical AI」は、AIの未来をどう変えるのか？](/2025/11/05/1-deepxphysical-aiai/)
+- [YouTubeのAI肖像権検出技術の可](/2025/11/09/3-youtubeai/)

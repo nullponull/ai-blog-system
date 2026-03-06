@@ -121,3 +121,10 @@ reading_time: 20
 
 このAIというフロンティアは、まだまだ未知の可能性に満ちている。サムスンの挑戦が、
 
+---
+
+## 関連記事
+
+- [AmazonのInferentia 3、AIの未来をどう変えるのか？](/2025/12/15/2-amazoninferentia-3ai/)
+- [IBMとGroqの提携、企業AIの「速度の壁」をどう打ち破るのか？](/2025/10/31/3-ibmgroqai/)
+- [NVIDIAとOracleが描くAIスパコンの未来、その真意とは？](/2025/11/12/1-nvidiaoracleai/)

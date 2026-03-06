@@ -174,3 +174,10 @@ AIチップの輸出規制だけでなく、データ主権、プライバシー
 
 米上院のAIチップ規制法案、その真意はどこにあるのか？ 皆さん、先日のニュースには驚きましたよね？ 10月10日、米上院が「GAIN AI法」と呼ばれる
 
+---
+
+## 関連記事
+
+- [MS・Google・Amazon AI投資](/2025/08/29/2-microsoftgoogleamazonai3200/)
+- [Broadcom、OpenAIから100億](/2025/09/06/1-broadcomopenaiから100億/)
+- [GoogleとMeta、AI覇権争い激化](/2025/09/07/1-googleとmetaai覇権争い激化/)

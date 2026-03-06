@@ -339,3 +339,10 @@ AI市場は競争が激しく、常に新しい技術やプレイヤーが登場
 
 Oracle AI Database 26aiがもたらす変革は、
 
+---
+
+## 関連記事
+
+- [BabcockのAI軍事通信機：その真意はどこにあるのか？](/2025/09/09/2-babcockai/)
+- [Huawei CloudのEMS発表、その真意はどこにあるのか？](/2025/09/23/1-huawei-cloudems/)
+- [Alibaba Cloudの3800億元投資、その真意はどこにあるのでしょうか？](/2025/09/24/1-alibaba-cloud3800/)

@@ -110,3 +110,10 @@ Monolith AIの買収意向も、この「最適化された体験」の追求の
 
 君も知っているだろう、特定分野の専門家がAIを活用しようとした時、
 
+---
+
+## 関連記事
+
+- [AmazonのAIチップ「Inferentia3」発表、何が変わるのか？](/2025/12/23/1-amazonaiinferentia3/)
+- [GoogleのTPU v7発表、AIチップの未来をどう塗り替える？](/2025/12/24/1-googletpu-v7/)
+- [Microsoftの次世代HPC、AI性能2倍の真意は何？](/2025/12/26/1-microsofthpcai2/)

@@ -130,3 +130,10 @@ Qualcomm「Snapdragon X Elite 2」が問いかける、PCの未来とAIの可能
 
 もちろん、「PC性能2倍」という謳い文句には慎重になるべきです。これはどのベンチマークでの話なのか？ 実際のアプリケーション、特にAdobe Creative Suiteや
 
+---
+
+## 関連記事
+
+- [SalesforceのAI戦略：4000人削減の真意とは？](/2025/09/12/1-salesforceai4000/)
+- [Amazon SageMakerの可能性とは？](/2025/12/28/1-amazon-sagemaker/)
+- [AIチップ戦線、Qualcommの新世代に何が起きるのか？](/2026/01/31/1-aiqualcomm/)

@@ -31,3 +31,10 @@ Microsoftが、このBing 7.0で狙っているのは、単に検索結果を返
 
 MicrosoftのBing 7.0。これは、単なる検索エンジンの進化というだけでなく、私たちが情報を取得し、世界と関わる方法そのものを変える可能性を秘めているように思います。もちろん、まだ蓋を開けてみなければわからないこともたくさんあります。しかし、AI業界のベテランとして、私はこの大きな波を、しっかりと見据えていきたいと考えています。あなたはどう思われますか？このBing 7.0は、本当に「次」のスタンダードとなり得るのでしょうか？
 
+---
+
+## 関連記事
+
+- [NVIDIAとOracleが描くAIスパコンの未来、その真意とは？](/2025/11/12/1-nvidiaoracleai/)
+- [I am unable to perform the web search fo？](/2025/11/17/3-i-am-unable-to-perform-the-web-search-fo/)
+- [I apologize, but I am unable to perform ？](/2025/11/20/1-i-apologize-but-i-am-unable-to-perform/)

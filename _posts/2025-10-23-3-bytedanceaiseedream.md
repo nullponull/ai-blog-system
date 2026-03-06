@@ -191,3 +191,10 @@ ByteDanceのSeedreamは、その大きなうねりの一端を担う存在とし
 
 この注視は、単
 
+---
+
+## 関連記事
+
+- [AIモデル市場の寡占化が進行](/2025/09/05/3-aiモデル市場の寡占化が進行/)
+- [Broadcom、OpenAIから100億](/2025/09/06/1-broadcomopenaiから100億/)
+- [BananaImg AIとGoogle新技術統合：](/2025/09/13/3-bananaimg-aigoogle/)

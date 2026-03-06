@@ -43,3 +43,10 @@ SageMakerが提供するのは、これらの工程をAmazon Web Services (AWS) 
 
 皆さんは、このSageMakerによるコスト削減というニュースを、どのように受け止めていますか？個人的には、AI開発の裾野を広げる大きな一歩だと感じています。しかし、その一方で、技術の進化は常に新しい課題も生み出すものです。このSageMakerの進化が、AI業界にどのような変化をもたらし、私たち開発者や投資家が、これから何を準備すべきなのか。この問いについて、皆さんと一緒に考えていきたいと思っています。
 
+---
+
+## 関連記事
+
+- [NVIDIAとOracleが描くAIスパコンの未来、その真意とは？](/2025/11/12/1-nvidiaoracleai/)
+- [I am unable to perform the web search fo？](/2025/11/17/3-i-am-unable-to-perform-the-web-search-fo/)
+- [I apologize, but I am unable to perform ？](/2025/11/20/1-i-apologize-but-i-am-unable-to-perform/)

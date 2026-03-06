@@ -54,3 +54,10 @@ Inferentia 3は、AIインフラ市場におけるAWSの存在感をさらに高
 
 あなたはどう見る？ この動きが、これから私たちが目にするAIの未来をどう変えていくと思う？ 私もまだまだこの業界から目が離せないよ。
 
+---
+
+## 関連記事
+
+- [CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？](/2025/10/30/1-coreweavemarimoai/)
+- [AmazonのAIチップ「Inferentia3」発表、何が変わるのか？](/2025/12/23/1-amazonaiinferentia3/)
+- [GoogleのTPU v7発表、AIチップの未来をどう塗り替える？](/2025/12/24/1-googletpu-v7/)

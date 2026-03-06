@@ -324,3 +324,10 @@ Intel Gaudi 3は、IntelがAIの未来において、単なる傍観者ではな
 
 Gaudi 3が、単なるNVIDIAの対抗馬として終わるのか、それともAI開発の新たな選択肢として、市場に確固たる地位を築くのか。その答えは、今後のIntelの戦略、そして私たち開発者やユーザーの選択にかかっています。
 
+---
+
+## 関連記事
+
+- [NVIDIA GPUやGoogle TPUなどAIチップの進化](/2025/08/29/4-nvidiagpugoogletpuai/)
+- [GPU需要の高まりとAIモデルの高性能化](/2025/08/29/5-gpuai/)
+- [NVIDIA Blackwell: AI時代の覇権](/2025/09/07/3-nvidia-blackwell/)

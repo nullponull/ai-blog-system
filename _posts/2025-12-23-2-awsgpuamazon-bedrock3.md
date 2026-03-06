@@ -37,3 +37,10 @@ Amazon Bedrockは、AnthropicのClaude、MetaのLlama、Stability AIのStable Di
 
 皆さんは、このAmazon Bedrockのニュース、どう受け止めましたか？推論速度の向上は、皆さんのビジネスや、日々の業務に、どんな変化をもたらすと思いますか？ぜひ、皆さんの考えも聞かせてください。AIの未来は、私たち一人ひとりの視点と、行動によって、形作られていくのですから。
 
+---
+
+## 関連記事
+
+- [Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？](/2025/12/29/1-amazon-bedrockllama-4/)
+- [AnthropicのClaude次期版の可能](/2026/01/09/1-anthropicclaude/)
+- [OpenAIの「GPT-5」リリースとマルチモーダル機能の強化](/2025/08/29/1-openaigpt-5/)
