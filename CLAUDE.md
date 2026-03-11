@@ -57,6 +57,38 @@ Stage 5: Quality Gate (Python scorer)
 Stage 6: Post-Processing (textlint, enrich, OGP)
 ```
 
+## Testing & Verification Workflow
+
+用途別にツールを使い分ける：
+
+| 用途 | ツール | コマンド/使い方 |
+|------|--------|----------------|
+| **レイアウト・CSS構造** | `site_inspector.py` | `python3 scripts/site_inspector.py URL --mode all` |
+| **レンダリング後の構造** | PinchTab (Docker) | `curl localhost:9867/navigate + /snapshot` |
+| **DOM定量検証** | Scrapling | `from scrapling import Fetcher; page = Fetcher().get(url)` |
+| **機能テスト** | Playwright | ブラウザ操作・フォーム・認証・E2E |
+| **Webクロール・企業調査** | Scrapling | アンチbot対応、Spider API |
+
+### PinchTab (Docker)
+```bash
+# 起動済み: docker run -d --name pinchtab -p 127.0.0.1:9867:9867 -v pinchtab-data:/data --shm-size=2g pinchtab/pinchtab
+curl -X POST localhost:9867/navigate -H 'Content-Type: application/json' -d '{"url": "..."}'
+curl localhost:9867/snapshot  # アクセシビリティツリー（~800トークン/ページ）
+curl localhost:9867/text      # テキスト抽出
+```
+
+### site_inspector.py モード
+- `--mode structure`: HTML構造ツリー
+- `--mode table-check`: テーブルのwrapper有無・列数・内容
+- `--mode css-audit`: CSS class使用頻度・タグ統計
+- `--mode responsive`: レスポンシブ問題検出
+- `--mode all`: 全モード実行
+
+### 原則
+- レイアウト修正 → PinchTab/site_inspector/Scraplingで構造検証（スクリーンショット不要、トークン効率10倍）
+- 機能実装 → Playwrightで操作テスト
+- デプロイ後確認 → PinchTab snapshot + Scrapling DOM検証
+
 ## Date Reference (Known Corrections)
 
 - 東大XRセンターアドバイザー: **2019年**（2017年ではない）
