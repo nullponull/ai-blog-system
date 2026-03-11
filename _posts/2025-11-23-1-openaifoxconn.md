@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "あなたも感じているかもしれませんが、最近のAI業界の動きは本当に目まぐるしいですよね。特にOpenAIとFoxconnの提携というニュースは、私の長年のAI業界ウォッチャーとしての経験から見ても、ちょっとした驚きと同時に、"
 reading_time: 20
 image: "/assets/images/posts/2025-11-23-1-openaifoxconn-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 ## OpenAIとFoxconnが手を組む真意：AIハードウェアの地政学が変革するのか？

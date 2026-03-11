@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "タイトル: Saishin Technologies、AIエンタメ1.4億円調達の真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-19-3-saishin-technologies-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 タイトル: Saishin Technologies、AIエンタメ1.4億円調達の真意はどこにあるのか？

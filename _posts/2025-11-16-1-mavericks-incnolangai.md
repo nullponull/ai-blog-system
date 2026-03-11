@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "Mavericks Inc.の「NoLang」が示す、AI動画生成の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-1-mavericks-incnolangai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Mavericks Inc.の「NoLang」が示す、AI動画生成の真意とは？

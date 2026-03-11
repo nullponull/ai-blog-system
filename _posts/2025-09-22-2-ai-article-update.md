@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "日本郵船のAI配船最適化、その真意は？海運業界の未来をどう変えるのか"
 reading_time: 20
 image: "/assets/images/posts/2025-09-22-2-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 日本郵船のAI配船最適化、その真意は？海運業界の未来をどう変えるのか

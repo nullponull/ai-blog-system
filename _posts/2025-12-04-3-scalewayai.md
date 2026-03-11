@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？"
 reading_time: 18
 image: "/assets/images/posts/2025-12-04-3-scalewayai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？

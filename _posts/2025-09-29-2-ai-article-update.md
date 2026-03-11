@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "ソフトバンクと理研が仕掛ける「AI量子接続」、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-29-2-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 ソフトバンクと理研が仕掛ける「AI量子接続」、その真意はどこにあるのか？

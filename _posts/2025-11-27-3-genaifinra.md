@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "金融規制にGenAIが浸透？FINRAの動きから見えてくる未来とは"
 reading_time: 20
 image: "/assets/images/posts/2025-11-27-3-genaifinra-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 金融規制にGenAIが浸透？FINRAの動きから見えてくる未来とは

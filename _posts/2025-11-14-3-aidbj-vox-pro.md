@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "日俳連のAI音声DB「J-VOX-PRO」始動、その真意は何を語るのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-14-3-aidbj-vox-pro-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 日俳連のAI音声DB「J-VOX-PRO」始動、その真意は何を語るのか？

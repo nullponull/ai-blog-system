@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。今日の話題はSony AITVの「感性AI」で映像制作を革新する、というニュースだね。率直に言って、この見出しを見たとき、「またAIか…」というのが正直な第一印象だったかな。"
 reading_time: 20
 image: "/assets/images/posts/2026-02-08-1-sony-aitvai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Sony AITVの感性AI、映像制作はどう変わる？

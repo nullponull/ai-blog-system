@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini Ultraのリアルタイム動画解析、その真価はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-23-2-google-gemini-ultra-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Google Gemini Ultraのリアルタイム動画解析、その真価はどこにあるのか？

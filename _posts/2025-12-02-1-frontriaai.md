@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "富士通「Frontria」が問うAIの信頼性、その真意とは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-02-1-frontriaai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 富士通「Frontria」が問うAIの信頼性、その真意とは何か？

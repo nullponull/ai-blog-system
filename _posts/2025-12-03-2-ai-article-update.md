@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "ファナックが「フィジカルAI」に注力していると聞いて、あなたはどう感じましたか？ 正直なところ、AI業界を20年間見てきた私でも、最初は「また新しいバズワードか？」と少し懐疑的でした。"
 reading_time: 20
 image: "/assets/images/posts/2025-12-03-2-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 ## ファナックが描く「フィジカルAI」の真意とは？ 産業の未来は何が変わるのか？

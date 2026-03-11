@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "AIエージェントが産業を変革する？IFS新プラットフォーム「Loops」の真意とは"
 reading_time: 20
 image: "/assets/images/posts/2025-10-19-2-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 AIエージェントが産業を変革する？IFS新プラットフォーム「Loops」の真意とは

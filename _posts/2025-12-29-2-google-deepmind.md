@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-29-2-google-deepmind-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？

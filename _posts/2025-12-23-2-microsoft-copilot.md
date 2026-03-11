@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、中小企業に何をもたらすのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-23-2-microsoft-copilot-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Microsoft Copilot、中小企業に何をもたらすのか？

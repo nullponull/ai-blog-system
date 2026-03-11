@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。AI業界を20年近く見続けてきたオジサンだよ。シリコンバレーのピカピカのスタートアップから、日本のどっしりした大企業まで、数えきれないほどのAI導入の現場を見てきた。正直、今回のトヨタの発表には、ちょっとドキッとしたね。"
 reading_time: 6
 image: "/assets/images/posts/2026-01-15-2-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 トヨタのAI新拠点、東京で何が始まるのだろうか？

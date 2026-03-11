@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "Broadcomの800G AI NIC「Thor Ultra」が示す、AIインフラの次なる進化とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-17-3-broadcom800g-ai-nicthor-ultra-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Broadcomの800G AI NIC「Thor Ultra」が示す、AIインフラの次なる進化とは？

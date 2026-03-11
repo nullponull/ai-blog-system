@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "「また新しいAIのバズワードか？」正直なところ、TCSとCEAがPhysical AIの研究で提携したというニュースを聞いた時、私の最初の反応はそんな感じでした。あなたも、AI業界のニュースに触れるたびに、"
 reading_time: 20
 image: "/assets/images/posts/2025-09-09-2-tcsceaphysical-ai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 TCSとCEA、Physical AI提携の真意は？

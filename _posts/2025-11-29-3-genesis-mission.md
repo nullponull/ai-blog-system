@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "正直なところ、最初に「Genesis Mission」という言葉を聞いたとき、私の中にはわずかながら懐疑の念がよぎったんですよ。また壮大な国家プロジェクトか、と。AI業界を20年近く見てきて、"
 reading_time: 20
 image: "/assets/images/posts/2025-11-29-3-genesis-mission-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 **米国「Genesis Mission」：AIが科学発見を変革する真意とは？**

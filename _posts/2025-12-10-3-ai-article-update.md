@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "日本のAI新法、その真意とは？研究開発支援強化で何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-10-3-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 日本のAI新法、その真意とは？研究開発支援強化で何が変わるのか？

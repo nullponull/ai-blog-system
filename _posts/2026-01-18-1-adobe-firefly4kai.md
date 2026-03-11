@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-18-1-adobe-firefly4kai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？

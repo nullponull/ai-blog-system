@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "「機械大手とフィジカルAI、その協業が示す産業の未来とは何か？」"
 reading_time: 20
 image: "/assets/images/posts/2025-12-02-3-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 「機械大手とフィジカルAI、その協業が示す産業の未来とは何か？」

@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "「米国でAI規制、また頓挫か…」このニュースを聞いて、あなたもきっと「やっぱりね」と小さく頷いたのではないでしょうか？正直なところ、個人的にはそれほど驚きはありませんでした。"
 reading_time: 20
 image: "/assets/images/posts/2025-12-03-1-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 米国AI規制、連邦議会で頓挫したその真意とは？

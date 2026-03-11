@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "やあ、皆さん。AI業界を20年近くウォッチし続けてきた私から見ても、最近のMicrosoft Copilotが医療画像診断支援の分野で成果を出し始めているというニュースは、単なるヘッドライン以上の意味を持っていると感じています。"
 reading_time: 9
 image: "/assets/images/posts/2026-01-10-1-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 # AI医療の新たな波：Microsoft Copilot、画像診断支援で何を変えるのか？

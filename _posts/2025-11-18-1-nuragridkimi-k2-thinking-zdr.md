@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "NuraGridとKimi K2 Thinking ZDR、その真意は？AIの信頼性が問われる新時代への一歩"
 reading_time: 20
 image: "/assets/images/posts/2025-11-18-1-nuragridkimi-k2-thinking-zdr-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 NuraGridとKimi K2 Thinking ZDR、その真意は？AIの信頼性が問われる新時代への一歩

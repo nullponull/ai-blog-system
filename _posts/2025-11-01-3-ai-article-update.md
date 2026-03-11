@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "日本が目指す「フィジカルAIと身体知の融合」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-3-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 日本が目指す「フィジカルAIと身体知の融合」は、本当にゲームチェンジャーとなるのか？

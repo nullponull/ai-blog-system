@@ -61,13 +61,13 @@ VALID_CATEGORIES = [
 
 # Day-of-week category rotation for diversity
 DAY_CATEGORY_MAP = {
-    0: ["AI技術ガイド", "業界別AI活用", "AI最新ニュース"],      # Monday
-    1: ["導入事例", "AI最新ニュース", "AI導入戦略"],              # Tuesday
-    2: ["AI技術ガイド", "研究論文", "業界別AI活用"],              # Wednesday
-    3: ["AI最新ニュース", "導入事例", "AI技術ガイド"],            # Thursday
-    4: ["業界別AI活用", "AI導入戦略", "AI最新ニュース"],          # Friday
-    5: ["AI技術ガイド", "AI最新ニュース", "業界別AI活用"],        # Saturday
-    6: ["AI導入戦略", "導入事例", "研究論文"],                     # Sunday
+    0: ["AI導入戦略", "AI技術ガイド", "業界別AI活用"],      # Monday - strategy focus
+    1: ["導入事例", "AI最新ニュース", "AI技術ガイド"],       # Tuesday - case studies
+    2: ["AI技術ガイド", "AI導入戦略", "研究論文"],           # Wednesday - tech + strategy
+    3: ["導入事例", "業界別AI活用", "AI最新ニュース"],       # Thursday - case studies
+    4: ["AI最新ニュース", "AI導入戦略", "導入事例"],         # Friday - strategy + cases
+    5: ["AI技術ガイド", "業界別AI活用", "AI最新ニュース"],   # Saturday
+    6: ["導入事例", "AI導入戦略", "研究論文"],               # Sunday - strategy + cases
 }
 
 # ペルソナ情報をDigitalDouble SDK経由で動的読み込み（Growth/Task, platform='ai_media'）

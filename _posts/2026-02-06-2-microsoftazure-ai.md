@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "正直なところ、このニュースを聞いた時、僕の脳裏に最初に浮かんだのはそんな言葉だったね。あなたも同じような感覚、持ったんじゃないかな？ MicrosoftがAzure AIを使って気候変動予測の精度を向上させる、と。うん、そりゃあすごい話だ。"
 reading_time: 20
 image: "/assets/images/posts/2026-02-06-2-microsoftazure-ai-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 ### MicrosoftとAzure AIが示す、気候変動予測の新たな地平とその真意とは？

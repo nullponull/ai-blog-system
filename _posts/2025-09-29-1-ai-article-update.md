@@ -8,6 +8,8 @@ author: "ALLFORCES編集部"
 excerpt: "ソフトバンクと理研の量子AI連携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-29-1-ai-article-update-ogp.png"
+robots: noindex
+sitemap: false
 ---
 
 ソフトバンクと理研の量子AI連携、その真意はどこにあるのか？
