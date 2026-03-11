@@ -121,13 +121,13 @@ compress_html:
 # Google Analytics設定
 google_analytics: "G-B86T05DQQ7"
 
-# Google AdSense設定
-google_adsense_id: "ca-pub-2749909945906194"
-ads:
-  header_slot: "6340486834"
-  article_slot: "5027405161"
-  sidebar_slot: "6404066018"
-  in_article: "1607034907"
+# Google AdSense設定（無効化: カンパニーページとしてのブランディング優先）
+# google_adsense_id: "ca-pub-2749909945906194"
+# ads:
+#   header_slot: "6340486834"
+#   article_slot: "5027405161"
+#   sidebar_slot: "6404066018"
+#   in_article: "1607034907"
 
 # Social links
 social:
