@@ -687,7 +687,7 @@ input, button, textarea, select {
   box-shadow: var(--shadow-sm);
 }
 
-.post-content table {
+.post-content table:not(.rouge-table) {
   width: 100%;
   border-collapse: collapse;
   background: var(--white);
@@ -695,7 +695,7 @@ input, button, textarea, select {
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   margin: 2rem 0;
-  min-width: 480px;
+  table-layout: auto;
 }
 
 .table-wrapper table {
@@ -708,7 +708,6 @@ input, button, textarea, select {
   padding: 0.75rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--gray-200);
-  white-space: nowrap;
 }
 
 .post-content td {
@@ -720,7 +719,8 @@ input, button, textarea, select {
   background: var(--gray-50);
   font-weight: 600;
   color: var(--gray-900);
-  white-space: nowrap;
+  white-space: normal;
+  word-break: keep-all;
 }
 
 .post-content tr:hover {
@@ -729,6 +729,21 @@ input, button, textarea, select {
 
 .post-content tr:last-child td {
   border-bottom: none;
+}
+
+/* rouge-table (code blocks) はテーブルスタイルを上書きしない */
+.post-content .rouge-table {
+  box-shadow: none;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.post-content .rouge-table td {
+  border-bottom: none;
+  padding: 0;
+}
+.post-content .rouge-table tr:hover {
+  background: transparent;
 }
 
 /* ===== Modern Sidebar System ===== */
@@ -1025,12 +1040,15 @@ input, button, textarea, select {
   .post-content h3 { font-size: var(--font-size-xl); }
   .post-content h4 { font-size: var(--font-size-lg); }
 
-  /* Mobile table scrolling */
-  .post-content table {
-    display: block;
+  /* Mobile table scrolling — wrapper handles overflow, table keeps layout */
+  .post-content table:not(.rouge-table) {
+    min-width: 400px;
+  }
+
+  .table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    min-width: 0;
+    margin: 1.5rem 0;
   }
 
   .post-content th,

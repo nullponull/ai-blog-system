@@ -137,9 +137,11 @@ layout: default
       html += '</ol></details>';
       toc.innerHTML = html;
 
-      // Wrap tables for mobile scroll
+      // Wrap tables for mobile scroll (skip rouge-tables inside code blocks)
       content.querySelectorAll('table').forEach(function(table) {
+        if (table.classList.contains('rouge-table')) return;
         if (table.parentElement.classList.contains('table-wrapper')) return;
+        if (table.closest('pre') || table.closest('code')) return;
         var wrapper = document.createElement('div');
         wrapper.className = 'table-wrapper';
         table.parentNode.insertBefore(wrapper, table);
