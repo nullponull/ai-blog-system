@@ -48,6 +48,18 @@ class QualityScorer:
         "注目を集めています",
         "期待されています",
         "ますます重要になって",
+        "エポックメイキング",
+        "次世代型",
+        "驚異的な",
+        "目を見張る",
+        "加速度的に",
+        "急速に進化",
+        "大きな注目",
+        "非常に重要",
+        "極めて重要",
+        "今後ますます",
+        "目が離せません",
+        "見逃せません",
     ]
 
     # Known company names for factual density check
@@ -138,16 +150,20 @@ class QualityScorer:
         else:
             feedback.append("[completeness] Article doesn't end with proper punctuation")
 
-        # Has 3+ headings (## or ###): 4 pts
+        # Has 5+ headings (## or ###): 4 pts (3+ = 2pts)
         headings = re.findall(r'^#{2,3}\s+.+', body, re.MULTILINE)
-        if len(headings) >= 3:
+        h2_count = len(re.findall(r'^##\s+[^#].+', body, re.MULTILINE))
+        if len(headings) >= 5 and h2_count >= 3:
             score += 4
+        elif len(headings) >= 3:
+            score += 2
+            feedback.append(f"[completeness] {len(headings)} headings (5+ with 3+ H2 for full score)")
         else:
-            feedback.append(f"[completeness] Only {len(headings)} headings (need 3+)")
+            feedback.append(f"[completeness] Only {len(headings)} headings (need 5+, currently {h2_count} H2)")
 
         # Has conclusion section: 4 pts
         conclusion_patterns = [
-            r'##\s*(まとめ|結論|おわりに|今後の展望|結び)',
+            r'##\s*(まとめ|結論|おわりに|今後の展望|結び|最後に|考察|総括)',
             r'##\s*(Conclusion|Summary|Final)',
         ]
         has_conclusion = any(re.search(p, body, re.IGNORECASE) for p in conclusion_patterns)

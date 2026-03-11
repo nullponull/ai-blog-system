@@ -217,7 +217,7 @@ ai_generation:
 
 # Content guidelines for AI generation
 content_guidelines:
-  min_words: 2000
+  min_words: 3000
   max_words: 5000
   include_code_examples: true
   include_references: true
