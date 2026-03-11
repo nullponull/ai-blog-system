@@ -114,9 +114,39 @@ layout: default
     
     {% include ads-header.html %}
 
+    <!-- Table of Contents (auto-generated for long articles) -->
+    <nav class="toc-container" id="toc" aria-label="目次"></nav>
+
     <div class="post-content" itemprop="articleBody">
         {{ content | replace: '<img loading="lazy" ', '<img ' | replace: '<img ', '<img loading="lazy" ' }}
     </div>
+
+    <script>
+    (function() {
+      var content = document.querySelector('.post-content');
+      var toc = document.getElementById('toc');
+      if (!content || !toc) return;
+      var headings = content.querySelectorAll('h2');
+      if (headings.length < 4) { toc.style.display = 'none'; return; }
+      var html = '<details class="toc-details" open><summary class="toc-summary">目次</summary><ol class="toc-list">';
+      headings.forEach(function(h, i) {
+        var id = 'section-' + i;
+        h.id = id;
+        html += '<li><a href="#' + id + '">' + h.textContent.trim() + '</a></li>';
+      });
+      html += '</ol></details>';
+      toc.innerHTML = html;
+
+      // Wrap tables for mobile scroll
+      content.querySelectorAll('table').forEach(function(table) {
+        if (table.parentElement.classList.contains('table-wrapper')) return;
+        var wrapper = document.createElement('div');
+        wrapper.className = 'table-wrapper';
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      });
+    })();
+    </script>
 
     {% include ads-article.html %}
 
