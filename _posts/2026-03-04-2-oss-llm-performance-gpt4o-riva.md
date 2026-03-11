@@ -10,6 +10,7 @@ reading_time: 11
 related_articles: [{"slug": "2026-02-23-3-open-source-llm-vs-gpt4o-impac", "title": "オープンソースLLM、GPT-4oに迫る性能でAI開発現場はどう変わる？", "reason": "関連記事"}, {"slug": "2026-02-26-1-open-source-llm-rivals-gpt4o", "title": "オープンソースLLM、GPT-4oに匹敵する性能へ", "reason": "関連記事"}, {"slug": "2026-02-17-3-open-source-llm-enterprise-str", "title": "オープンソースLLM、GPT-4o超えの性能で企業導入はどう変わるのか", "reason": "関連記事"}]
 pillar_article: {"slug": "2025-12-20-3-euai10", "title": "EUのAI人材育成、10億ユーロ投資は何を変えるのか？"}
 image: "/assets/images/posts/2026-03-04-2-oss-llm-performance-gpt4o-riva-ogp.png"
+description: "AI、特に大規模言語モデル（LLM）の世界は、日々目覚ましい進化を遂げています。かつては一部の巨大テック企業が独占していた高性能LLMの開発競争ですが、近年、オープンソースコミュニティの力で状況は大きく変わってきました。"
 ---
 
 ## オープンソースLLMの躍進：GPT-4oに迫る性能は、研究開発に何をもたらすか

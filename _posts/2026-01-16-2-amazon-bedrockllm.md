@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新LLMモデル追加で何が変わる？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-16-2-amazon-bedrockllm-ogp.png"
+description: "Amazon Bedrock、新LLMモデル追加で何が変わる？いやー、Amazon Bedrockに新しいLLMモデルが追加されたっていうニュース、あなたも耳にした？正直、私も最初は「またか」って思ったんだ。"
 ---
 
 Amazon Bedrock、新LLMモデル追加で何が変わる？

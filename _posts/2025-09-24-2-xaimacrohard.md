@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "xAIの「Macrohard」構想、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-24-2-xaimacrohard-ogp.png"
+description: "xAIの「Macrohard」構想、その真意はどこにあるのか？いやはや、皆さん、最近のAI業界のニュースには本当に驚かされますね。特に、イーロン・マスク氏率いるxAIが「Macrohard」なるものを立ち上げるという話を聞いたとき、正直なところ、私の最初の反応は「またか！」でした。"
 ---
 
 xAIの「Macrohard」構想、その真意はどこにあるのか？

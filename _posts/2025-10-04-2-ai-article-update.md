@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側"
 reading_time: 20
 image: "/assets/images/posts/2025-10-04-2-ai-article-update-ogp.png"
+description: "「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側「AI産業インフラ化」という言葉、最近よく耳にするようになりましたね。正直なところ、私も最初は「また新しいバズワードか？」と少し懐疑的でした。"
 ---
 
 「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側

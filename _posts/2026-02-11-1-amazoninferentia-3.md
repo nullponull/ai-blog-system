@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazonの「Inferentia 3」、本当にAIのゲームチェンジャーになるのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-02-11-1-amazoninferentia-3-ogp.png"
+description: "Amazonの「Inferentia 3」、本当にAIのゲームチェンジャーになるのか？「へぇ、AmazonがまたAIチップの話を？しかも性能3倍だって。」正直、このニュースを目にした時の私の第一声はそんな感じでした。20年間、このAI業界の荒波を乗り越えてきた身としては、新しいチップの発表は日常茶飯事。"
 ---
 
 Amazonの「Inferentia 3」、本当にAIのゲームチェンジャーになるのか？

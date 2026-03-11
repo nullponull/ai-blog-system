@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Cloudの企業向けAI戦略：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-2-google-cloudai-ogp.png"
+description: "Google Cloudの企業向けAI戦略：その真意はどこにあるのか？皆さん、こんにちは。AI業界を20年近く見続けてきた私から見ても、最近のGoogle Cloudの動きは本当に興味深いものがありますね。正直なところ、彼らがこれほどまでに企業向けAIに本腰を入れるとは、数年前には想像もしていませんでした。"
 ---
 
 Google Cloudの企業向けAI戦略：その真意はどこにあるのか？

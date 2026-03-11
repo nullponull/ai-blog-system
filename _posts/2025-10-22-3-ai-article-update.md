@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI動画生成、アニメを数秒で？その真意とクリエイティブの未来"
 reading_time: 20
 image: "/assets/images/posts/2025-10-22-3-ai-article-update-ogp.png"
+description: "AI動画生成、アニメを数秒で？その真意とクリエイティブの未来あなたも感じているかもしれませんが、最近「AI動画生成ツールがアニメ映像を数秒で作り出す」という話を聞くたびに、正直なところ、私は少し懐疑的になっていました。"
 ---
 
 AI動画生成、アニメを数秒で？その真意とクリエイティブの未来

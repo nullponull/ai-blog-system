@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-10-1-metallama-4llm-ogp.png"
+description: "MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？いやはや、MetaがLlama 4の話題を引っ張ってきましたね。大規模言語モデル（LLM）の世界では、まさに息つく暇もないほどの進化が続いていますが、今回のMetaの動きには、ちょっとした「おっ」という感覚を覚えています。"
 ---
 
 MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？

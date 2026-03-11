@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Samsungの「Exynos AI」発表、何が本当に変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-08-1-samsungexynos-ai-ogp.png"
+description: "Samsungの「Exynos AI」発表、何が本当に変わるのか？いやー、Samsungから次世代AIチップ「Exynos AI」の発表があったらしいね。正直、第一報を聞いたときは「またか」って思っちゃったんだ。"
 ---
 
 Samsungの「Exynos AI」発表、何が本当に変わるのか？

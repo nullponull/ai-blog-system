@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "皆さん、こんにちは。AI業界を20年近く見続けてきた私ですが、最近のBioNTechの動きには、正直なところ、ちょっと驚きと同時に、ある種の既視感を覚えています。彼らが「AIデー」と称して、その戦略と応用を公開しているのをご存知でしょうか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-01-1-biontechai-ogp.png"
+description: "BioNTechのAI戦略、その真意はどこにあるのか？皆さん、こんにちは。AI業界を20年近く見続けてきた私ですが、最近のBioNTechの動きには、正直なところ、ちょっと驚きと同時に、ある種の既視感を覚えています。"
 ---
 
 BioNTechのAI戦略、その真意はどこにあるのか？

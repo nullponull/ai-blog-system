@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIのPi-3b、応答速度15%短縮は、次なるAI進化の兆しか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-03-1-inflection-aipi-3b-ogp.png"
+description: "Inflection AIのPi-3b、応答速度15%短縮は、次なるAI進化の兆しか？いやー、Inflection AIの新しいモデル「Pi-3b」が、対話応答速度を15%も短縮したっていうニュース、あなたも耳にしました？正直、僕も最初は「ふーん、また新しいモデルか」くらいにしか思ってなかったんです。"
 ---
 
 Inflection AIのPi-3b、応答速度15%短縮は、次なるAI進化の兆しか？

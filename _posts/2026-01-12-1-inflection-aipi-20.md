@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIのPi 2.0、対話性能1.5倍とは、何が本当に変わるのだろうか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-12-1-inflection-aipi-20-ogp.png"
+description: "Inflection AIのPi 2.0、対話性能1.5倍とは、何が本当に変わるのだろうか？やあ、みんな。また新しいAIのニュースが飛び込んできたね。Inflection AIが新しいモデル「Pi 2.0」を発表したらしい。しかも、「対話性能が1.5倍になった」と。"
 ---
 
 Inflection AIのPi 2.0、対話性能1.5倍とは、何が本当に変わるのだろうか？

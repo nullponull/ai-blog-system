@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？"
 reading_time: 12
 image: "/assets/images/posts/2025-12-05-3-microsoftai-foundry-ogp.png"
+description: "Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？正直なところ、最初にMicrosoftが「AI Foundry」を打ち出したと聞いた時、「また新しいAIプラットフォームか」と、少し懐疑的になったのを覚えている。"
 ---
 
 Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilotがエンタープライズを変えるのか？ その深層にある技術とビジネスの真意とは"
 reading_time: 20
 image: "/assets/images/posts/2026-02-07-2-microsoft-copilot-ogp.png"
+description: "Microsoft Copilotがエンタープライズを変えるのか？ その深層にある技術とビジネスの真意とは「Microsoft Copilot、エンタープライズ向けに高度なLLM統合で効率化」――このニュースを聞いて、あなたもきっと「また新しいAIツールか」と、一瞬、冷めた目を向けたかもしれませんね。"
 ---
 
 Microsoft Copilotがエンタープライズを変えるのか？ その深層にある技術とビジネスの真意とは

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AiHUBの「oboro:base」：国産AIが描く、創造現場の新たな風景とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-21-1-aihuboborobaseai-ogp.png"
+description: "AiHUBの「oboro:base」：国産AIが描く、創造現場の新たな風景とは？いやはや、最近のAI業界は本当に目まぐるしいですね。あなたもきっと感じていると思いますが、新しい発表があるたびに「今度は何が来るんだ？」とワクワクさせられます。"
 ---
 
 AiHUBの「oboro:base」：国産AIが描く、創造現場の新たな風景とは？

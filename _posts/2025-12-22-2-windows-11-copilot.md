@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Windows 11 Copilot、3000万人の「顔」が見えたとき、何が起きる？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-22-2-windows-11-copilot-ogp.png"
+description: "Windows 11 Copilot、3000万人の「顔」が見えたとき、何が起きる？いやー、このニュース、あなたももう耳にされているかもしれませんね。MicrosoftがWindows 11に搭載したAI Copilotが、早くも3000万人ものユーザーを獲得したという話。"
 ---
 
 Windows 11 Copilot、3000万人の「顔」が見えたとき、何が起きる？

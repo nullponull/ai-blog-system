@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "量子AIデータセンター開設の真意とは？OQCとNVIDIAの提携が示す未来への布石"
 reading_time: 20
 image: "/assets/images/posts/2025-09-16-1-ai-article-update-ogp.png"
+description: "量子AIデータセンター開設の真意とは？OQCとNVIDIAの提携が示す未来への布石皆さん、最近OQCとNVIDIAがニューヨーク市に量子AIデータセンターを開設したというニュース、耳にしましたか？正直なところ、最初にこの話を聞いた時、「また新しいデータセンターか」と、少しばかり懐疑的な気持ちがよぎったんですよ。"
 ---
 
 量子AIデータセンター開設の真意とは？OQCとNVIDIAの提携が示す未来への布石

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DEEPXの「Physical AI」は、AIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-05-1-deepxphysical-aiai-ogp.png"
+description: "DEEPXの「Physical AI」は、AIの未来をどう変えるのか？正直なところ、DEEPXが世界経済フォーラム（WEF）で「Physical AI」を発表したと聞いた時、私の最初の反応は「また新しいバズワードか？」というものだったんですよ。あなたもそう感じたかもしれませんね。"
 ---
 
 DEEPXの「Physical AI」は、AIの未来をどう変えるのか？

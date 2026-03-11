@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。"
 reading_time: 20
 image: "/assets/images/posts/2025-12-02-3-frontriaai-ogp.png"
+description: "富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。正直なところ、富士通が「Frontria」という国際コンソーシアムを立ち上げてAI偽情報対策に乗り出すと聞いた時、私は「また新しいイニシアチブか」と、少しばかり眉をひそめたんですよ。"
 ---
 
 富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。

@@ -9,6 +9,7 @@ excerpt: "Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略は
 reading_time: 9
 canonical_url: "https://ai-media.co.jp/2026/01/26/1-amazon-bedrock/"
 image: "/assets/images/posts/2025-12-27-1-amazon-bedrock-ogp.png"
+description: "Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略はどこへ向かうのだろうか？おいおい、また来たかAWSが。Amazon Bedrockが新しいモデルAPIを提供開始したって聞いて、正直、最初は「またか」と思ったんだ。君もきっと同じように感じたかもしれないね。"
 ---
 
 Amazon Bedrock、新モデルAPI提供開始：AWSの生成AI戦略はどこへ向かうのだろうか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI時代の著作権、Anthropicの巨額和解が示す「フェアユース」の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-1-aianthropic-ogp.png"
+description: "AI時代の著作権、Anthropicの巨額和解が示す「フェアユース」の真意とは？Anthropicが著作権訴訟で15億ドルという巨額の和解に応じたというニュース、あなたも驚かれたかもしれませんね。正直なところ、私も最初に聞いた時は「ついに来たか」という思いと、「まさかここまでとは」という2つの感情が入り混じりました。"
 ---
 
 AI時代の著作権、Anthropicの巨額和解が示す「フェアユース」の真意とは？

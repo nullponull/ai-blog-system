@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Applied Digitalの50億ドル調達、AIインフラの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-07-2-applied-digital50-ogp.png"
+description: "Applied Digitalの50億ドル調達、AIインフラの未来をどう変えるのか？Applied Digitalが50億ドルもの資金を調達したって聞いて、正直、最初は「またか」って思ったんですよ。でもね、この数字、ただの金額じゃない。"
 ---
 
 Applied Digitalの50億ドル調達、AIインフラの未来をどう変えるのか？

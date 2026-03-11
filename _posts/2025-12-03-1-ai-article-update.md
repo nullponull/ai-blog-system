@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-12-03-1-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "米国AI規制、連邦議会で頓挫したその真意とは？「米国でAI規制、また頓挫か…」このニュースを聞いて、あなたもきっと「やっぱりね」と小さく頷いたのではないでしょうか？正直なところ、個人的にはそれほど驚きはありませんでした。"
 ---
 
 米国AI規制、連邦議会で頓挫したその真意とは？

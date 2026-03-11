@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-07-2-tataagenticai-ogp.png"
+description: "TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？正直なところ、最初に「Tata CommunicationsがAgentic音声AIプラットフォームを発表」というニュースを見た時、私の頭の中には「また新しいAIプラットフォームか」という、ちょっとした懐疑がよぎりました。"
 ---
 
 TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？

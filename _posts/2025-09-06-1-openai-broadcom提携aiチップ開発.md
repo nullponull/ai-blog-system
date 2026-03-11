@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIは、AIモデル推論処理に特化した独自AIチップ開発でBroadcom、TSMCと戦略的提携を締結した。これは、NVIDIA製チップへの過度な依存を軽減し、高騰するAIインフラコストを抑制、供給安定化を図るための重要な一歩である。"
 reading_time: 6
 image: "/assets/images/posts/2025-09-06-1-openai-broadcom提携aiチップ開発-ogp.png"
+description: "OpenAIは、AIモデル推論処理に特化した独自AIチップ開発でBroadcom、TSMCと戦略的提携を締結した。これは、NVIDIA製チップへの過度な依存を軽減し、高騰するAIインフラコストを抑制、供給安定化を図るための重要な一歩である。"
 ---
 
 # OpenAI Broadcom提携、AIチップ開発

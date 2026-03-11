@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NECが営業支援にAgentic AI導入：その真意は、単なる効率化を超えた未来か？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-27-1-necagentic-ai-ogp.png"
+description: "NECが営業支援にAgentic AI導入：その真意は、単なる効率化を超えた未来か？正直なところ、最初にNECが営業支援にAgentic AIを導入するというニュースを聞いた時、「また来たか」というのが私の率直な感想だったよ。AI業界を20年も見てきていると、こういう「業務効率化」系の話は山ほど耳にするからね。"
 ---
 
 NECが営業支援にAgentic AI導入：その真意は、単なる効率化を超えた未来か？

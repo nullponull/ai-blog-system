@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GoogleのTPU v6、本当にAIのゲームを変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-04-1-googletpu-v6ai-ogp.png"
+description: "GoogleのTPU v6、本当にAIのゲームを変えるのか？やあ、みんな。AI業界を長年見てきたベテランアナリストとして、今回のGoogleからのTPU v6発表には、正直、ちょっとばかり興奮しているんだ。なにせ、前世代から性能が2倍になったというからね。"
 ---
 
 GoogleのTPU v6、本当にAIのゲームを変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Llama 3やDeepSeek R1といったオープンソースLLMがGPT-4oに迫る性能を示し、AI開発の常識を覆しています。本記事では、その進化の背景と企業ROIへの影響を考察します。"
 reading_time: 11
 image: "/assets/images/posts/2026-02-21-2-open-source-llm-performance-gp-ogp.png"
+description: "AI業界の動向を日々追う中で、近年、特に目覚ましい進化を遂げているのがオープンソースの大規模言語モデル（LLM）です。かつては商用モデルの後塵を拝する存在と見なされがちでしたが、Llama 3やDeepSeek R1といったモデルの登場により、その状況は一変しました。"
 ---
 
 ## オープンソースLLMの進化が拓く、AI開発の新時代：Llama 3、DeepSeek R1の衝撃と企業ROIへの影響

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-22-3-mitcognify-aiux-ogp.png"
+description: "MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？いやはや、また新しいAIの波が来ましたね。MITから「Cognify AI」というスタートアップが飛び出してきたと聞いて、正直なところ、最初は「またか」と思ったんですよ。"
 ---
 
 MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？

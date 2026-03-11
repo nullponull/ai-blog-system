@@ -10,6 +10,7 @@ reading_time: 11
 related_articles: [{"slug": "2026-03-06-2-ai-coding-productivity-roi", "title": "開発者の生産性を劇変させるAIコーディング、その導入実践とROIとは", "reason": "関連記事"}, {"slug": "2026-03-03-1-openai-100b-funding-ai-future", "title": "OpenAIの1000億ドル調達交渉、AI業界の未来をどう変えるのか", "reason": "関連記事"}, {"slug": "2026-03-02-4-ai", "title": "AI導入の成功要因とリスク管理", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-13-2-eu-ai-law-enterprise-strategy-", "title": "EU AI法完全施行、大企業のAI戦略はどう変わるのか"}
 image: "/assets/images/posts/2026-03-06-2-ai-coding-developer-productivi-ogp.png"
+description: "皆さん、開発現場でのAI活用、進んでいますか？ 私自身、AIコーディングツールを導入して、日々の開発フローがどう変わるのか、肌で感じてきました。今回は、AIコーディングツールの最新動向を踏まえつつ、皆さんのチームが開発者生産性をどう向上させていくか、実践的な視点でお話しできればと思います。"
 ---
 
 ## AIコーディングの新時代：開発者生産性向上のための実践戦略

@@ -10,6 +10,7 @@ reading_time: 7
 related_articles: [{"slug": "2026-03-06-3-xai10gpu", "title": "xAI、10万GPUデータセンター建設", "reason": "関連記事"}, {"slug": "2025-08-30-2-xaigrok4", "title": "xAI Grok 4無料提供開始", "reason": "関連記事"}, {"slug": "2025-09-23-1-xai-grok-4-fast", "title": "xAI Grok 4 Fastの可能性とは？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-09-2-xai-100k-gpu-data-center-memph-ogp.png"
+description: "近年、AI技術の進化は目覚ましいものがありますが、その裏側では膨大な計算能力を支えるインフラへの投資が激化しています。特に、Elon Musk氏率いるxAIがメンフィスに建設を計画している10万GPU規模のデータセンターは、AIインフラの未来、ひいては様々な産業にどのような影響を与えるのでしょうか。"
 ---
 
 ## xAIの巨大データセンター計画：AIインフラの未来と産業への影響

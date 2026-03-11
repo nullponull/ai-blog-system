@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？"
 reading_time: 6
 image: "/assets/images/posts/2025-12-10-2-intel-gaudi-3ai-ogp.png"
+description: "Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？いやはや、AIチップの世界も本当に目まぐるしいですよね。ここ数年、NVIDIAの一強状態が続いていましたが、Intelが「Gaudi 3」でAMDの「MI300X」に対抗し、さらに性能を向上させてきたというニュース、あなたも耳にしましたか？私自身、こ..."
 ---
 
 Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやあ、このニュース、あなたも耳にしましたか？「Adobe、画像生成AIでAdobe Stock刷新」。率直に言って、最初は「またAIか…」という気持ちでした。だって、この20年、AIの波は何度も来ましたからね。"
 reading_time: 16
 image: "/assets/images/posts/2025-12-14-1-adobe-stockai-ogp.png"
+description: "Adobe StockのAI刷新、何が変わるのか？いやあ、このニュース、あなたも耳にしましたか？「Adobe、画像生成AIでAdobe Stock刷新」。率直に言って、最初は「またAIか…」という気持ちでした。だって、この20年、AIの波は何度も来ましたからね。"
 ---
 
 Adobe StockのAI刷新、何が変わるのか？

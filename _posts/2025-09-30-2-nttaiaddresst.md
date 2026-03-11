@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTデータの国際送金AI「Addresstune」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-30-2-nttaiaddresst-ogp.png"
+description: "NTTデータの国際送金AI「Addresstune」は、本当にゲームチェンジャーとなるのか？「またAIが金融を変えるって話か…」正直、NTTデータが国際送金向けに「Addresstune」を展開すると聞いた時、私の頭にはそんな思いがよぎりました。"
 ---
 
 NTTデータの国際送金AI「Addresstune」は、本当にゲームチェンジャーとなるのか？

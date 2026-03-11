@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「MIRAI Review」が製薬業界にもたらす変革の真意とは？木村情報技術のAI戦略を読み解く"
 reading_time: 20
 image: "/assets/images/posts/2025-10-27-3-mirai-review-ogp.png"
+description: "「MIRAI Review」が製薬業界にもたらす変革の真意とは？木村情報技術のAI戦略を読み解くあなたも感じているかもしれませんが、AI業界を20年も見続けていると、新しいサービスが発表されるたびに「また来たか」という感覚と、「今度は何が違うんだろう？」という好奇心が同時に湧き上がってくるものです。"
 ---
 
 「MIRAI Review」が製薬業界にもたらす変革の真意とは？木村情報技術のAI戦略を読み解く

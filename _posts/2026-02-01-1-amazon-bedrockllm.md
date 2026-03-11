@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、次世代LLM連携強化で何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-01-1-amazon-bedrockllm-ogp.png"
+description: "Amazon Bedrock、次世代LLM連携強化で何が変わるのか？ねえ、最近Amazon Bedrockの動き、気になってる？「次世代LLM連携強化」なんてニュースが飛び交って、AI業界を長年見てきた身としては、正直「またか」という思いと、「これは、ちょっと違うかもしれない」という期待感が入り混じってるんだ。"
 ---
 
 Amazon Bedrock、次世代LLM連携強化で何が変わるのか？

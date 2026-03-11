@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIは2025年8月7日（米国時間）に次世代AIモデル「GPT-5」を正式発表し、無料ユーザーを含む全てのChatGPTユーザーへの段階的な提供を開始しました。"
 reading_time: 7
 image: "/assets/images/posts/2025-09-06-2-openai-gpt-5agiへ前進投資技術の未来-ogp.png"
+description: "OpenAIは2025年8月7日（米国時間）に次世代AIモデル「GPT-5」を正式発表し、無料ユーザーを含む全てのChatGPTユーザーへの段階的な提供を開始しました。サム・アルトマンCEOは本モデルを「博士号レベルの能力を備えたモデル」と評価し、汎用人工知能（AGI）への重要な一歩と位置付けています。"
 ---
 
 # OpenAI GPT-5、AGIへ前進：投資・技術の未来

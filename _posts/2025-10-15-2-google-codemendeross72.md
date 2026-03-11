@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google CodeMenderがOSSに72件の修正をもたらした真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-15-2-google-codemendeross72-ogp.png"
+description: "Google CodeMenderがOSSに72件の修正をもたらした真意とは？おや、これはまた興味深いニュースが飛び込んできましたね。Google DeepMindのAIエージェント「CodeMender」が、わずか6ヶ月でオープンソースソフトウェア（OSS）に72件ものセキュリティ修正を貢献したという話です。"
 ---
 
 Google CodeMenderがOSSに72件の修正をもたらした真意とは？

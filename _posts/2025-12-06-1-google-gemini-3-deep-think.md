@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3 Deep Thinkの真意はどこにあるのか？"
 reading_time: 5
 image: "/assets/images/posts/2025-12-06-1-google-gemini-3-deep-think-ogp.png"
+description: "Google Gemini 3 Deep Thinkの真意はどこにあるのか？いやはや、Googleがまたやってくれましたね。2025年11月18日、Gemini 3ファミリーの発表、特に「Gemini 3 Deep Think」モードと聞いた時、あなたも「今度は何を見せてくれるんだ？」と、少しばかり身構えたのでは..."
 ---
 
 Google Gemini 3 Deep Thinkの真意はどこにあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "UiPathのTIME誌選出、エージェント自動化が拓く未来の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-2-uipathtime-ogp.png"
+description: "UiPathのTIME誌選出、エージェント自動化が拓く未来の真意とは？UiPathがTIME誌の「2025年のベスト発明品」に選ばれたと聞いて、正直、最初は驚いたよ。RPAの雄として知られる彼らが、今度は「エージェント自動化」で脚光を浴びる。"
 ---
 
 UiPathのTIME誌選出、エージェント自動化が拓く未来の真意とは？

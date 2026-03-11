@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやはや、皆さん、このニュースには本当に驚きましたよね？ OracleとOpenAIが3000億ドル規模のクラウドコンピューティング契約を結んだって聞いて、正直なところ「え、マジか？」って声が出ちゃいましたよ。"
 reading_time: 20
 image: "/assets/images/posts/2025-09-11-1-oracleopenai-ogp.png"
+description: "OracleとOpenAI、その巨額契約の真意は？いやはや、皆さん、このニュースには本当に驚きましたよね？ OracleとOpenAIが3000億ドル規模のクラウドコンピューティング契約を結んだって聞いて、正直なところ「え、マジか？」って声が出ちゃいましたよ。あなたも同じように感じたかもしれませんね。"
 ---
 
 OracleとOpenAI、その巨額契約の真意は？

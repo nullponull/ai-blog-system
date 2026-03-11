@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "TempestAIの融資稟議AIシステム、その真価はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-05-3-tempestaiai-ogp.png"
+description: "TempestAIの融資稟議AIシステム、その真価はどこにあるのか？最近、また新しいAIスタートアップのニュースが飛び込んできましたね。TempestAI、東京大学発の金融特化型AIスタートアップが「融資稟議AIシステム」で注目を集めていると聞きました。"
 ---
 
 TempestAIの融資稟議AIシステム、その真価はどこにあるのか？

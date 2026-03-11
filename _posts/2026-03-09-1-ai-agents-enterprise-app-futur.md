@@ -10,6 +10,7 @@ reading_time: 8
 related_articles: [{"slug": "2025-12-03-1-2026ai", "title": "2026年、AIエージェントがビジネスをどう変えるのか？その真意を探る", "reason": "関連記事"}, {"slug": "2026-03-05-1-ai-agents-enterprise-apps-2026", "title": "2026年、企業アプリの4割にAIエージェント搭載で何が変わるのか？", "reason": "関連記事"}, {"slug": "2026-01-06-3-2026naverai", "title": "2026年、NAVERがAI検索を再定義する？その戦略の深層を読み解く。", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-09-1-ai-agents-enterprise-app-futur-ogp.png"
+description: "「AIエージェント」という言葉を耳にする機会が増えてきました。これは、単に指示を待つのではなく、自らの意思でタスクを実行し、目標達成に向けて行動するAIのことです。"
 ---
 
 ## AIエージェント：企業アプリの未来を切り拓く自律型アシスタント

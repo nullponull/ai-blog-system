@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Hon PrecisionのAIチップ生産40%増、その真意は？半導体業界の深層を読む"
 reading_time: 20
 image: "/assets/images/posts/2025-10-28-2-hon-precisionai40-ogp.png"
+description: "Hon PrecisionのAIチップ生産40%増、その真意は？半導体業界の深層を読むHon PrecisionがAIチップ関連生産を40%増強するってニュース、君も見たかい？正直なところ、この数字の裏に何が隠されているのか、気にならないかい？私がこの業界を20年近く見てきた中で、こんなに明確な増産計画はそう多くない。"
 ---
 
 Hon PrecisionのAIチップ生産40%増、その真意は？半導体業界の深層を読む

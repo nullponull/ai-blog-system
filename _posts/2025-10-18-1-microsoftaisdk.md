@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIエージェントSDK、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-18-1-microsoftaisdk-ogp.png"
+description: "MicrosoftのAIエージェントSDK、その真意はどこにあるのか？皆さん、最近のMicrosoftの動き、どう感じていますか？10月1日に発表された「Microsoft Agent Framework」のパブリックプレビュー版、正直なところ、私は最初「また新しいフレームワークか」と少し斜に構えて見ていました。"
 ---
 
 MicrosoftのAIエージェントSDK、その真意はどこにあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、推論速度2倍は、AIの未来をどう変える？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-31-1-amazon-bedrock2ai-ogp.png"
+description: "Amazon Bedrock、推論速度2倍は、AIの未来をどう変える？いやー、まいったね。Amazon Bedrockが新しいモデルで推論速度を2倍にしたってニュース、見た？正直、最初は「またか」なんて思っちゃったんだ。"
 ---
 
 Amazon Bedrock、推論速度2倍は、AIの未来をどう変える？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「MSとNimbleEdge、AndroidオンデバイスAI連携の真意はどこにあるのか？」"
 reading_time: 20
 image: "/assets/images/posts/2025-11-25-2-msnimbleedge-ogp.png"
+description: "「MSとNimbleEdge、AndroidオンデバイスAI連携の真意はどこにあるのか？」正直なところ、このニュースを聞いたとき、私自身も「ついに来たか」という感覚と、同時に「いや、本当にこれが本流になるのか？」という少しの懐疑心が入り混じったんだ。"
 ---
 
 「MSとNimbleEdge、AndroidオンデバイスAI連携の真意はどこにあるのか？」

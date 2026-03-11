@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "マイクロソフトのAI Copilot for Finance、金融業務の未来を本当に変えるのか？"
 reading_time: 10
 image: "/assets/images/posts/2025-12-26-1-microsoftai-copilot-for-f-ogp.png"
+description: "マイクロソフトのAI Copilot for Finance、金融業務の未来を本当に変えるのか？正直なところ、最初にこのニュースを見たとき、「またか」と思った人も少なくないんじゃないかな？ Microsoftが「Copilot」と銘打つAIツールを発表するのは、もう何度目だろう。"
 ---
 
 マイクロソフトのAI Copilot for Finance、金融業務の未来を本当に変えるのか？

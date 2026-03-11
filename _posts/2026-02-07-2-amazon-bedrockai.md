@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、産業AI導入、何が変わるのか？"
 reading_time: 6
 image: "/assets/images/posts/2026-02-07-2-amazon-bedrockai-ogp.png"
+description: "Amazon Bedrock、産業AI導入、何が変わるのか？いやー、Amazon Bedrockの話、耳にしてる？正直、最初は「また新しいAIサービスか」って、ちょっと懐疑的だったんだ。だって、この業界、毎日のように新しい技術が出てくるから、何が本当に「ゲームチェンジャー」なのか見極めるのが大変でさ。"
 ---
 
 Amazon Bedrock、産業AI導入、何が変わるのか？

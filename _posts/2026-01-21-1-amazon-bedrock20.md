@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデル20種追加。何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-21-1-amazon-bedrock20-ogp.png"
+description: "Amazon Bedrock、新モデル20種追加。何が変わるのか？いやあ、先日Amazon Bedrockのニュース、見ました？新モデルが20種類も追加されたって話。正直、第一印象は「またか」でしたね。AI業界を20年近く見てきていると、こうした大型アップデートは珍しくない。でも、今回はちょっと違う匂いがするんですよ。"
 ---
 
 Amazon Bedrock、新モデル20種追加。何が変わるのか？

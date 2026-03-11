@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google MapsとGemini AIの融合が示す、私たちの日常とビジネスの未来は何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-17-2-google-mapsgemini-ai-ogp.png"
+description: "Google MapsとGemini AIの融合が示す、私たちの日常とビジネスの未来は何が変わるのか？正直なところ、最初に「Google MapsにGemini AIが統合される」というニュースを聞いた時、私は少し懐疑的でした。また新しいAI機能が追加されるのか、と。あなたもそう感じたかもしれませんね。"
 ---
 
 Google MapsとGemini AIの融合が示す、私たちの日常とビジネスの未来は何が変わるのか？

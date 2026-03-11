@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？"
 reading_time: 10
 image: "/assets/images/posts/2026-02-10-1-amazon-astro2ai-ogp.png"
+description: "Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？ねえ、あなたもこのニュースを聞いて、ちょっと立ち止まりませんでしたか？ AmazonがAIロボット「Amazon Astro」に2億ドルも投資するっていう話。"
 ---
 
 Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？

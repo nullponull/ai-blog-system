@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-26-1-gemini-3metaai-ogp.png"
+description: "「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？「ついに来たか！」──Googleが「Gemini 3」を発表したと聞いて、正直なところ、僕は思わず声を上げてしまいました。あなたも同じような高揚感を覚えているかもしれませんね。"
 ---
 
 「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？

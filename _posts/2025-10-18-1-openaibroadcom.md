@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-18-1-openaibroadcom-ogp.png"
+description: "OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？正直なところ、このニュースを聞いた時、私は思わず「また来たか」と呟いてしまいました。"
 ---
 
 OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindのAI創薬、新分子設計成功の衝撃：私たちはその本質をどこまで理解しているか？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-17-1-deepmindai-ogp.png"
+description: "DeepMindのAI創薬、新分子設計成功の衝撃：私たちはその本質をどこまで理解しているか？「またDeepMindか！」――あなたもそう思いましたよね？正直なところ、私もそのニュースを見たとき、思わずPC画面に向かって独りごちてしまいました。"
 ---
 
 DeepMindのAI創薬、新分子設計成功の衝撃：私たちはその本質をどこまで理解しているか？

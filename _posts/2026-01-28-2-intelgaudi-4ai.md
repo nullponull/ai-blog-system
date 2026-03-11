@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IntelのGaudi 4、AIのゲームチェンジャーとなるのか？"
 reading_time: 6
 image: "/assets/images/posts/2026-01-28-2-intelgaudi-4ai-ogp.png"
+description: "IntelのGaudi 4、AIのゲームチェンジャーとなるのか？やあ、みんな。AI業界を長年見続けてきたベテランアナリストとして、今回のIntelの動きには正直、ちょっとドキッとしたよ。"
 ---
 
 IntelのGaudi 4、AIのゲームチェンジャーとなるのか？

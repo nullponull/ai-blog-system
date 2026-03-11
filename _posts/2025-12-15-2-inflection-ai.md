@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIが心理ケアを刷新する？その真意とAIに託される感情の未来は何を意味するのか。"
 reading_time: 7
 image: "/assets/images/posts/2025-12-15-2-inflection-ai-ogp.png"
+description: "Inflection AIが心理ケアを刷新する？その真意とAIに託される感情の未来は何を意味するのか。おい、君。最近、「Inflection AIが感情認識AIで心理ケアを刷新する」というニュースが業界を賑わせているのを知っているかい？正直なところ、この話を聞いたとき、私のようなオールドスクールなアナリストは、ま..."
 ---
 
 Inflection AIが心理ケアを刷新する？その真意とAIに託される感情の未来は何を意味するのか。

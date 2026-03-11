@@ -10,6 +10,7 @@ reading_time: 7
 image: "/assets/images/posts/2026-01-21-2-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "トヨタは深層学習で自動運転AIをどう変える？いやー、トヨタが自動運転AIに深層学習を本格導入、なんてニュースを聞くと、なんだか感慨深いものがありますね。AI業界を20年も見てきた身としては、この動き、正直「ついに来たか」という気持ちと、「でも、これからが本番だな」という両方の思いが湧いてきます。"
 ---
 
 トヨタは深層学習で自動運転AIをどう変える？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot Pro、個人向け料金改定、何が変わるのだろうか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-24-2-microsoft-copilot-pro-ogp.png"
+description: "Microsoft Copilot Pro、個人向け料金改定、何が変わるのだろうか？いやー、ついに来ましたね、Microsoft Copilot Proの個人向け料金改定。あなたもきっと、ニュースで目にして「おや？」と思ったんじゃないでしょうか。私も第一时间にこの情報をキャッチして、正直、ちょっと驚いています。"
 ---
 
 Microsoft Copilot Pro、個人向け料金改定、何が変わるのだろうか？

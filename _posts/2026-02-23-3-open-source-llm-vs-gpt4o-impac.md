@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "オープンソースLLMがGPT-4oに迫る性能でAI開発現場にコスト削減やDX推進といった実務的インパクトをもたらす変化について解説。Llama 3などの進化と今後の展望を深掘りします。"
 reading_time: 6
 image: "/assets/images/posts/2026-02-23-3-open-source-llm-vs-gpt4o-impac-ogp.png"
+description: "「最近、オープンソースのLLMの進化が目覚ましいですよね。実際、私が以前担当していたプロジェクトで、Llama 3を試したときは、その性能の高さに驚きました。正直なところ、GPT-4oのような最先端モデルにどこまで迫れるのか、開発現場としては気になるところです。"
 ---
 
 ## オープンソースLLMがGPT-4oに肉薄！AI開発現場はどう変わる？

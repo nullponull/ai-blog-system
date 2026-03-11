@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIエージェントが製造業DXを加速させる実践的導入戦略を解説。Gartner予測を基に、具体的なアクション、リスク、成功条件までを技術・ビジネス両面から網羅します。"
 reading_time: 12
 image: "/assets/images/posts/2026-03-01-1-ai-agents-manufacturing-dx-str-ogp.png"
+description: "「AIエージェント」という言葉を耳にする機会が増えたのではないでしょうか。自律的にタスクを実行するこの技術は、製造業におけるデジタルトランスフォーメーション（DX）を加速させる potentな力となり得ます。"
 ---
 
 ## AIエージェントが製造業DXを加速させる：Gartner予測を基にした実践的導入戦略

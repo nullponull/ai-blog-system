@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-02-3-getty-imagesperplexity-ogp.png"
 robots: noindex
 sitemap: false
+description: "Getty ImagesとPerplexityの提携：AI時代のコンテンツ利用に何が変わるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。毎日新しい発表があって、正直なところ、私も「またか！」と思うこともしばしばです。"
 ---
 
 Getty ImagesとPerplexityの提携：AI時代のコンテンツ利用に何が変わるのか？

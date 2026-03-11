@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-14-2-cliplineai-ogp.png"
+description: "ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？正直なところ、ClipLineがサービス業向けにAIエージェント「ABILI Pal」と「ABILI Buddy」を提供開始すると聞いた時、私の最初の反応は「またAIか」という、少しばかりの懐疑でした。"
 ---
 
 ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？

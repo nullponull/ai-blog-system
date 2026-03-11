@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI業界を揺るがす2つの波：Anthropic IPOとAWS Nova AIの真意は何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-04-2-ai-article-update-ogp.png"
+description: "AI業界を揺るがす2つの波：Anthropic IPOとAWS Nova AIの真意は何か？あなたも感じているかもしれませんが、今年の終わりにかけて、AIの世界は本当に目が離せない状況になってきましたね。"
 ---
 
 AI業界を揺るがす2つの波：Anthropic IPOとAWS Nova AIの真意は何か？

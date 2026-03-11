@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIチップ自社開発加速、その真の狙いと業界の未来はどう動くのか？"
 reading_time: 8
 image: "/assets/images/posts/2026-02-08-3-microsoftai-ogp.png"
+description: "MicrosoftのAIチップ自社開発加速、その真の狙いと業界の未来はどう動くのか？あなたもきっと、最近の「MicrosoftがAIチップの自社開発を加速している」というニュースを目にしたんじゃないかな？正直なところ、この手の話を聞くと、「またか！」と思う気持ちと、「ついに来たか！」という興奮が入り混じるんだよね。"
 ---
 
 MicrosoftのAIチップ自社開発加速、その真の狙いと業界の未来はどう動くのか？

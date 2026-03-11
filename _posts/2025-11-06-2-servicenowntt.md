@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ServiceNowとNTTデータ、AI変革の真意とは？グローバル企業の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-06-2-servicenowntt-ogp.png"
+description: "ServiceNowとNTTデータ、AI変革の真意とは？グローバル企業の未来をどう変えるのか？「またAIパートナーシップか」――正直なところ、最初にこのニュースを見た時、そう感じた人もいるんじゃないでしょうか。"
 ---
 
 ServiceNowとNTTデータ、AI変革の真意とは？グローバル企業の未来をどう変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Micas Networksの51.2T CPOスイッチ、AIインフラの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-02-1-micas-networks512t-cpo-ogp.png"
+description: "Micas Networksの51.2T CPOスイッチ、AIインフラの未来をどう変えるのか？おや、また新しい動きか、と正直最初は思ったんですよ。Micas Networksが51.2Tのコパッケージドオプティクス（CPO）スイッチシステムを量産開始したというニュースを聞いてね。"
 ---
 
 Micas Networksの51.2T CPOスイッチ、AIインフラの未来をどう変えるのか？

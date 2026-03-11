@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-31-2-adobe-firefly-5-ogp.png"
+description: "Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？「Adobe Firefly 5、生成AIでデザイン自動化」、このニュース、あなたも目にしましたよね？正直なところ、最初は「また新しいAIツールか」と、少しばかり懐疑的に見てしまいました。"
 ---
 
 Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？

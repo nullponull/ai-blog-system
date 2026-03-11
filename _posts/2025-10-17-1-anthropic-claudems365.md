@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic ClaudeとMS365連携の真意：AI市場の新たな潮流は何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-17-1-anthropic-claudems365-ogp.png"
+description: "Anthropic ClaudeとMS365連携の真意：AI市場の新たな潮流は何をもたらすのか？あなたも最近、「Anthropic ClaudeがMicrosoft 365と連携し、収益が2.9倍増！」なんていう見出しを目にしたかもしれませんね。"
 ---
 
 Anthropic ClaudeとMS365連携の真意：AI市場の新たな潮流は何をもたらすのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AlibabaのAI動画生成「Wan2.2」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-22-1-alibabaaiwan22-ogp.png"
+description: "AlibabaのAI動画生成「Wan2.2」は、本当にゲームチェンジャーとなるのか？また新しいAI動画生成モデルの発表か、正直なところ、私の最初の反応は「ふむ、また1つ増えたな」という、やや冷めたものでした。この20年間、AI業界の最前線で数えきれないほどの「画期的な」技術を見てきましたからね。"
 ---
 
 AlibabaのAI動画生成「Wan2.2」は、本当にゲームチェンジャーとなるのか？

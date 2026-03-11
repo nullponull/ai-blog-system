@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Inferentia 3、AIの舞台裏で何が起こるのか？"
 reading_time: 14
 image: "/assets/images/posts/2026-01-29-3-amazon-inferentia-3ai-ogp.png"
+description: "Amazon Inferentia 3、AIの舞台裏で何が起こるのか？いやはや、AmazonがAWS向けに「Inferentia 3」を発表したというニュース、皆さんはどう受け止めましたか？ 私も長年この業界を見てきましたが、正直「またか」という思いと、「これは、ちょっと違うかもしれない」という期待感が入り混じっ..."
 ---
 
 Amazon Inferentia 3、AIの舞台裏で何が起こるのか？

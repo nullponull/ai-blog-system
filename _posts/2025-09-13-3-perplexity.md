@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-13-3-perplexity-ogp.png"
+description: "ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？いやはや、また来ましたね、この手の話。正直なところ、私のような20年間AI業界の浮き沈みを見てきた人間からすると、「またか」という気持ちと、「今回は少し違うぞ」という期待が入り混じっています。"
 ---
 
 ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？

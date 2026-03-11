@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの創薬AI、新薬候補1000件発見の衝撃、何が変わるのだろうか？"
 reading_time: 17
 image: "/assets/images/posts/2026-02-07-1-google-deepmindai-ogp.png"
+description: "Google DeepMindの創薬AI、新薬候補1000件発見の衝撃、何が変わるのだろうか？いやはや、このニュースを目にした時、思わずコーヒーを吹きそうになりましたよ。Google DeepMindが創薬AIで新薬候補を1000件も発見した、なんて話ですからね。"
 ---
 
 Google DeepMindの創薬AI、新薬候補1000件発見の衝撃、何が変わるのだろうか？

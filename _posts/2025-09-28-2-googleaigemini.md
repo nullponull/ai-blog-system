@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-28-2-googleaigemini-ogp.png"
+description: "GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？正直なところ、GoogleがロボットAI「Gemini Robotics」を発表したと聞いた時、私の最初の反応は「またか」というものでした。"
 ---
 
 GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？

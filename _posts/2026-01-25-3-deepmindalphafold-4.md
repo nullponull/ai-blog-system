@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindのAlphaFold 4、精度90%超えは創薬の聖杯に手が届く合図か？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-25-3-deepmindalphafold-4-ogp.png"
+description: "DeepMindのAlphaFold 4、精度90%超えは創薬の聖杯に手が届く合図か？正直なところ、このニュースを聞いたとき、私のようなAI業界の古参アナリストは、まず「またか！」と少しばかり皮肉っぽく反応してしまったんだ。"
 ---
 
 DeepMindのAlphaFold 4、精度90%超えは創薬の聖杯に手が届く合図か？

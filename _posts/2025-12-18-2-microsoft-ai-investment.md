@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIインフラ投資、その真意は何でしょうか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-18-2-microsoft-ai-investment-ogp.png"
+description: "MicrosoftのAIインフラ投資、その真意は何でしょうか？いやー、またMicrosoftがやってくれましたね。AIインフラへの巨額投資、Azureデータセンターの増設。このニュース、あなたも目にしたんじゃないでしょうか。正直、AI業界を20年近く見てきた私でも、「これはすごいな」と、思わず唸ってしまいました。"
 ---
 
 MicrosoftのAIインフラ投資、その真意は何でしょうか？

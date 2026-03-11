@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Ant InternationalのAIセキュリティ強化、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-29-2-ant-internationalai-ogp.png"
+description: "Ant InternationalのAIセキュリティ強化、その真意はどこにあるのか？Ant Internationalが「AI SHIELD」というプロアクティブなツールキットを発表したと聞いて、正直なところ、また新しいAIセキュリティソリューションか、というのが私の最初の反応でした。"
 ---
 
 Ant InternationalのAIセキュリティ強化、その真意はどこにあるのか？

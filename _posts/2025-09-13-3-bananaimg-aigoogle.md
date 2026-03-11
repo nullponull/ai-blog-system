@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BananaImg AIとGoogle新技術統合：コンテンツ創造の未来は何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-13-3-bananaimg-aigoogle-ogp.png"
+description: "BananaImg AIとGoogle新技術統合：コンテンツ創造の未来は何が変わるのか？正直なところ、最初に「BananaImg AI」という名前を聞いた時、ちょっと戸惑ったんですよ。バナナ？と。"
 ---
 
 BananaImg AIとGoogle新技術統合：コンテンツ創造の未来は何が変わるのか？

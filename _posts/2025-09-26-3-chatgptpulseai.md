@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-26-3-chatgptpulseai-ogp.png"
+description: "ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？また新しい機能か、と最初は思ったんだ。OpenAIが「Pulse」を発表したと聞いた時、正直なところ、個人的には「また1つ、既存の機能を少し良くしただけだろう」と、少し懐疑的な気持ちでいたんだよね。"
 ---
 
 ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？

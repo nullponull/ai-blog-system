@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Copilot for Finance」の85%予測精度、本当にそこまで信じていいの？"
 reading_time: 7
 image: "/assets/images/posts/2026-01-26-1-copilot-for-finance85-ogp.png"
+description: "「Copilot for Finance」の85%予測精度、本当にそこまで信じていいの？ねえ、ちょっとこのニュース、あなたも気になってるんじゃない？「Microsoft Copilot for Finance」が、なんと予測精度85%を達成したっていう話。"
 ---
 
 「Copilot for Finance」の85%予測精度、本当にそこまで信じていいの？

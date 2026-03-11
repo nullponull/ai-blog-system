@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NVIDIAの「BioNet」、創薬の未来をどう変えるのか？"
 reading_time: 6
 image: "/assets/images/posts/2026-01-05-1-nvidiabionet-ogp.png"
+description: "NVIDIAの「BioNet」、創薬の未来をどう変えるのか？やあ、みんな。AI業界を長年見続けていると、本当に驚くようなニュースに定期的に出くわすんだ。今回のNVIDIAの「BioNet」稼働開始のニュースも、まさにそんな1つだよ。"
 ---
 
 NVIDIAの「BioNet」、創薬の未来をどう変えるのか？

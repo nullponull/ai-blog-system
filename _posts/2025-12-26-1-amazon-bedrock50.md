@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの50モデル突破が示す、生成AIプラットフォーム競争の深層は何か？"
 reading_time: 7
 image: "/assets/images/posts/2025-12-26-1-amazon-bedrock50-ogp.png"
+description: "Amazon Bedrockの50モデル突破が示す、生成AIプラットフォーム競争の深層は何か？あなたもきっと、Amazon Bedrockが生成AIモデル数50を突破したというニュースを聞いて、「またAWSが仕掛けてきたな」と感じたかもしれませんね。"
 ---
 
 Amazon Bedrockの50モデル突破が示す、生成AIプラットフォーム競争の深層は何か？

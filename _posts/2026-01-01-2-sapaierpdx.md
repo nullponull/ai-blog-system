@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "あなたも、「SAP、AI統合ERPで企業DX加速」という見出しを見て、正直なところ「またか」と感じたかもしれませんね。AIがバズワードになって久しいですが、ERPという企業の心臓部にまでその波が押し寄せている。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-01-2-sapaierpdx-ogp.png"
+description: "SAPのAI統合ERP戦略：企業DXの加速は夢か現実か、その深層を探るあなたも、「SAP、AI統合ERPで企業DX加速」という見出しを見て、正直なところ「またか」と感じたかもしれませんね。AIがバズワードになって久しいですが、ERPという企業の心臓部にまでその波が押し寄せている。"
 ---
 
 **SAPのAI統合ERP戦略：企業DXの加速は夢か現実か、その深層を探る**

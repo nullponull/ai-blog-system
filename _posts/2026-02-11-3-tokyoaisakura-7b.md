@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "TokyoAIの「Sakura-7B」公開、何が変わるのか？"
 reading_time: 12
 image: "/assets/images/posts/2026-02-11-3-tokyoaisakura-7b-ogp.png"
+description: "TokyoAIの「Sakura-7B」公開、何が変わるのか？いやー、つい先日、TokyoAIが新しい言語モデル「Sakura-7B」を公開したってニュース、あなたも耳にしました？正直、最初は「また新しいモデルか」と、ちょっと斜に構えて見ていたんですよ。"
 ---
 
 TokyoAIの「Sakura-7B」公開、何が変わるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-21-1-amazon-bedrockllm-ogp.png"
+description: "Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？いやー、またAmazonが動きましたね。「Amazon Bedrock」の企業向けLLM（大規模言語モデル）構築支援強化。これ、第一報を聞いた時、正直「またか」って思いましたよ。だって、AI業界って、もう目まぐるしいじゃないですか。"
 ---
 
 Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？

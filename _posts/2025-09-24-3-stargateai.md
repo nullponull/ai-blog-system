@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Stargate」が拓くAIインフラの新時代、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-24-3-stargateai-ogp.png"
+description: "「Stargate」が拓くAIインフラの新時代、その真意とは？OpenAI、Oracle、そしてソフトバンクグループが発表した「Stargate」プロジェクト。このニュースを聞いた時、正直なところ、私も最初は「また大規模なデータセンターの話か」と、少し斜に構えていました。"
 ---
 
 「Stargate」が拓くAIインフラの新時代、その真意とは？

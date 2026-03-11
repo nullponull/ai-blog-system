@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "オプトの「Soulful AI」は、CXの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-30-1-soulful-aicx-ogp.png"
+description: "オプトの「Soulful AI」は、CXの未来をどう変えるのか？「Soulful AI」――この言葉を聞いて、あなたも少し立ち止まったのではないでしょうか？正直なところ、私も最初は「また新しいバズワードか」と、少し懐疑的な目を向けました。"
 ---
 
 オプトの「Soulful AI」は、CXの未来をどう変えるのか？

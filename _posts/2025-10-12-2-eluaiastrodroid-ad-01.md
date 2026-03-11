@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ELU.AIの「AstroDroid AD-01」は、人型ロボット市場に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-12-2-eluaiastrodroid-ad-01-ogp.png"
+description: "ELU.AIの「AstroDroid AD-01」は、人型ロボット市場に何をもたらすのか？また人型ロボットか、正直なところ、そう感じた人も少なくないのではないでしょうか。ELU.AIが発表した「AstroDroid AD-01」のニュースを聞いた時、私自身も一瞬、過去のデジャヴュに囚われたような感覚に陥りました。"
 ---
 
 ELU.AIの「AstroDroid AD-01」は、人型ロボット市場に何をもたらすのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 description: "教育IT企業および大手教育出版社へのAI導入コンサルティング事例。EdTech×AIの実践的な取り組みと成果を解説"
 reading_time: 12
 image: "/assets/images/posts/2026-03-12-3-education-ai-consulting-case-ogp.png"
+excerpt: "教育業界は、デジタルトランスフォーメーション（DX）の波が最も大きく押し寄せている業界の一つである。文部科学省のGIGAスクール構想により、全国の小中学校で1人1台端末環境が整備され、教育現場でのテクノロジー活用の土壌は整った。"
 ---
 
 ## はじめに：教育業界におけるAI導入の現状と課題

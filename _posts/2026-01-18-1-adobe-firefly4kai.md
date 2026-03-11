@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2026-01-18-1-adobe-firefly4kai-ogp.png"
 robots: noindex
 sitemap: false
+description: "Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？いやー、Adobe Fireflyが画像生成AIで4K出力に対応したっていうニュース、みんなも耳にしたかな？正直、最初は「ふーん、また1つ機能が追加されたか」くらいにしか思ってなかったんだ。"
 ---
 
 Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？

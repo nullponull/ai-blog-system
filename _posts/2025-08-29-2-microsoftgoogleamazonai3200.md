@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "2025年、テクノロジー業界はAIインフラへの前例のない大規模投資サイクルに突入しています。Microsoft、Google（Alphabet）、Amazonといった主要企業は、Metaを含む各社と合わせて、合計で3,200億ドルを超える巨額をAI関連の設備投資に投じる見込みです。"
 reading_time: 7
 image: "/assets/images/posts/2025-08-29-2-microsoftgoogleamazonai3200-ogp.png"
+description: "2025年、テクノロジー業界はAIインフラへの前例のない大規模投資サイクルに突入しています。Microsoft、Google（Alphabet）、Amazonといった主要企業は、Metaを含む各社と合わせて、合計で3,200億ドルを超える巨額をAI関連の設備投資に投じる見込みです。"
 ---
 
 ## 概要と背景

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "中国「AI+」政策の真意とは？ 全産業を巻き込む巨大戦略の裏側"
 reading_time: 20
 image: "/assets/images/posts/2025-10-24-2-ai-article-update-ogp.png"
+description: "中国「AI+」政策の真意とは？ 全産業を巻き込む巨大戦略の裏側あなたも感じているかもしれませんが、最近の中国の動き、特に「AI+」政策には、正直なところ、最初は少し懐疑的な目を向けていました。また新しいスローガンか、と。"
 ---
 
 中国「AI+」政策の真意とは？ 全産業を巻き込む巨大戦略の裏側

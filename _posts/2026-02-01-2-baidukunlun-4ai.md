@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-01-2-baidukunlun-4ai-ogp.png"
+description: "Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？いやはや、BaiduがAIチップ「Kunlun 4」を発表したというニュース、皆さんはどう受け止めましたか？率直に言って、私も「またか」というのが第一印象でした。"
 ---
 
 Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？

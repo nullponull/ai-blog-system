@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropicの提携が示す、開発現場の未来図とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-2-ibmanthropic-ogp.png"
+description: "IBMとAnthropicの提携が示す、開発現場の未来図とは？「生産性45%向上」――この数字を初めて目にした時、正直なところ、私の長年のアナリストとしての経験が「またか」と囁きました。あなたも感じているかもしれませんが、AIがもたらす「劇的な効率化」という謳い文句は、これまで何度も耳にしてきましたからね。"
 ---
 
 IBMとAnthropicの提携が示す、開発現場の未来図とは？

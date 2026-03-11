@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-01-05-3-microsoftai-ogp.png"
+description: "MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？いやはや、またですか、と正直なところ、このニュースを見た時に私は最初にそう感じましたよ。"
 ---
 
 MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？

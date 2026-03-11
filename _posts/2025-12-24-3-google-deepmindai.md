@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの創薬AI新発見：その真価と、私たちが本当に見るべき未来とは？"
 reading_time: 7
 image: "/assets/images/posts/2025-12-24-3-google-deepmindai-ogp.png"
+description: "Google DeepMindの創薬AI新発見：その真価と、私たちが本当に見るべき未来とは？やあ、みんな。また1つ、興味深いニュースが飛び込んできたね。「Google DeepMind、創薬AIで新発見」。"
 ---
 
 Google DeepMindの創薬AI新発見：その真価と、私たちが本当に見るべき未来とは？

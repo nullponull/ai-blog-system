@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "自動運転トラックのKodiak AI、Nasdaq上場が示す未来の物流とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-25-1-kodiak-ainasdaq-ogp.png"
+description: "自動運転トラックのKodiak AI、Nasdaq上場が示す未来の物流とは？いやはや、また1つ大きなニュースが飛び込んできましたね。Kodiak AIがNasdaqに上場したと聞いて、正直なところ「ついに来たか」という思いと、「本当にここからが本番だな」という、ちょっとした緊張感が入り混じったのが私の最初の印象でした。"
 ---
 
 自動運転トラックのKodiak AI、Nasdaq上場が示す未来の物流とは？

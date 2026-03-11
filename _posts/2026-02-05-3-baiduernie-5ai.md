@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-05-3-baiduernie-5ai-ogp.png"
+description: "Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？いや〜、先日Baiduが「Ernie 5」を発表したってニュース、あなたも耳にしました？ 私なんて、AI業界をもう20年も見てきているけど、こういうニュースを聞くと、やっぱり胸が躍るというか、「お、これは何か来るぞ」って、まずそう思っちゃうんだよね。"
 ---
 
 Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？

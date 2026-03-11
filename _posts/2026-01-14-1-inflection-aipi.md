@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？"
 reading_time: 19
 image: "/assets/images/posts/2026-01-14-1-inflection-aipi-ogp.png"
+description: "Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？いやぁ、正直に言うと、Inflection AIが新しい対話AI「Pi」を発表したというニュースを目にしたとき、まず最初に思ったのは「またか…」という気持ちでした。"
 ---
 
 Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？

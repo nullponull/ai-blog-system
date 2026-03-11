@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "富士通のZynq UltraScale+性能向上、AIエッジに何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-07-1-zynq-ultrascaleai-ogp.png"
+description: "富士通のZynq UltraScale+性能向上、AIエッジに何をもたらすのか？正直なところ、最初このニュースを見た時、「おや？」と思ったんだ。富士通がAIチップ「Zynq UltraScale+」で10%の性能向上を果たした、という話。たった10%？と思う人もいるかもしれないね。"
 ---
 
 富士通のZynq UltraScale+性能向上、AIエッジに何をもたらすのか？

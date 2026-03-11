@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTデータの「LITRON® CORE」は、本当にAIエージェントの未来を切り開くのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-03-3-nttlitron-core-ogp.png"
+description: "NTTデータの「LITRON® CORE」は、本当にAIエージェントの未来を切り開くのか？またエージェント型AIか、正直なところ、個人的には少し懐疑的だったんだ。AI業界を20年も見てきた僕からすると、この手の話は何度も耳にしてきたからね。"
 ---
 
 NTTデータの「LITRON® CORE」は、本当にAIエージェントの未来を切り開くのか？

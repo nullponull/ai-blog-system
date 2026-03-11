@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "皆さん、最近AI業界で「Chain-of-Thought Hijacking（思考の連鎖ハイジャック）」という新たな攻撃手法が話題になっているのをご存知ですか？正直なところ、私も最初にこの話を聞いた時は、「また新しいジェイルブレイクか」と、"
 reading_time: 20
 image: "/assets/images/posts/2025-11-29-2-ai-article-update-ogp.png"
+description: "AIの「思考の連鎖ハイジャック」は、単なる脆弱性なのか？皆さん、最近AI業界で「Chain-of-Thought Hijacking（思考の連鎖ハイジャック）」という新たな攻撃手法が話題になっているのをご存知ですか？正直なところ、私も最初にこの話を聞いた時は、「また新しいジェイルブレイクか」と、少し懐疑的でした。"
 ---
 
 AIの「思考の連鎖ハイジャック」は、単なる脆弱性なのか？

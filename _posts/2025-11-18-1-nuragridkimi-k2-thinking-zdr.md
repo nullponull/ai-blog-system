@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-18-1-nuragridkimi-k2-thinking-zdr-ogp.png"
 robots: noindex
 sitemap: false
+description: "NuraGridとKimi K2 Thinking ZDR、その真意は？AIの信頼性が問われる新時代への一歩いやはや、また新しい波が来ましたね。NuraGridがKimi K2 Thinking ZDRの提供を開始したというニュース、あなたも耳にしましたか？正直なところ、この手の発表は毎週のようにあるから、最初は..."
 ---
 
 NuraGridとKimi K2 Thinking ZDR、その真意は？AIの信頼性が問われる新時代への一歩

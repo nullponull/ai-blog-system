@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ファーウェイが目指すAIクラスターの真意とは？ 米国制裁下の技術革新が市場に与える影響を読み解く"
 reading_time: 20
 image: "/assets/images/posts/2025-09-18-2-ai-article-update-ogp.png"
+description: "ファーウェイが目指すAIクラスターの真意とは？ 米国制裁下の技術革新が市場に与える影響を読み解くいやはや、最近のファーウェイ（Huawei）の動きには、正直言って驚きを隠せないね。"
 ---
 
 ファーウェイが目指すAIクラスターの真意とは？ 米国制裁下の技術革新が市場に与える影響を読み解く

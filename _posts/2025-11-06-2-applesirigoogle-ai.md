@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-06-2-applesirigoogle-ai-ogp.png"
+description: "Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？正直なところ、このニュースを聞いた時、私は「ついに来たか」と、どこか納得したような気持ちになりました。"
 ---
 
 Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？

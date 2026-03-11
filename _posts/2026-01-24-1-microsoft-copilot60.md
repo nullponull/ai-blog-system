@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、企業導入60%超え、何が変わるのか？"
 reading_time: 13
 image: "/assets/images/posts/2026-01-24-1-microsoft-copilot60-ogp.png"
+description: "Microsoft Copilot、企業導入60%超え、何が変わるのか？いやはや、衝撃的なニュースが飛び込んできましたね。Microsoft Copilotの企業向け導入率が60%を超えた、と。"
 ---
 
 Microsoft Copilot、企業導入60%超え、何が変わるのか？

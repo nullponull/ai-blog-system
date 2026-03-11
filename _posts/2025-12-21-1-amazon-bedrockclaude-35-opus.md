@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとClaude 3.5 Opus統合、何が変わるのか？"
 reading_time: 9
 image: "/assets/images/posts/2025-12-21-1-amazon-bedrockclaude-35-opus-ogp.png"
+description: "Amazon BedrockとClaude 3.5 Opus統合、何が変わるのか？いやはや、このニュースには正直、ちょっと度肝を抜かれましたね。Amazon BedrockとAnthropicのClaude 3.5 Opusの統合。"
 ---
 
 Amazon BedrockとClaude 3.5 Opus統合、何が変わるのか？

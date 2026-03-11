@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-15-3-openaichatgpt-go-ogp.png"
+description: "OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？いやはや、また来ましたね。OpenAIがインドでChatGPT Goを1年間無料提供する、というニュースを聞いて、あなたも「おや？」と思ったんじゃないでしょうか。"
 ---
 
 OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？

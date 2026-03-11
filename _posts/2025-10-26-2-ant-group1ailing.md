@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Ant Groupの1兆パラメータAI「Ling-1T」が示す、オープンソースの新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-26-2-ant-group1ailing-ogp.png"
+description: "Ant Groupの1兆パラメータAI「Ling-1T」が示す、オープンソースの新たな地平とは？いやはや、またしても驚かされましたね。Ant Groupが1兆パラメータのAIモデル「Ling-1T」をオープンソースで公開したというニュース、あなたも耳にしたかもしれません。"
 ---
 
 Ant Groupの1兆パラメータAI「Ling-1T」が示す、オープンソースの新たな地平とは？

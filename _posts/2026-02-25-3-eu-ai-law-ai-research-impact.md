@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EU AI法がAI研究論文の公開と開発に与える影響について考察します。オープン化と規制の狭間で、AI研究の今後の方向性を探ります。"
 reading_time: 9
 image: "/assets/images/posts/2026-02-25-3-eu-ai-law-ai-research-impact-ogp.png"
+description: "EU AI法がAI研究論文の公開と開発に与える影響と、今後の研究開発の方向性を考察するAI研究開発の最前線に立つ者として、日々技術の進化を肌で感じているあなたも、きっと私と同じように、AIが社会に与える影響の大きさを実感していることでしょう。"
 ---
 
 EU AI法がAI研究論文の公開と開発に与える影響と、今後の研究開発の方向性を考察する

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-2-alibabaquarkai-ogp.png"
+description: "Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？皆さん、最近のAIスマートグラスの話題、どう感じていますか？正直なところ、私自身はAI業界を20年間見てきて、この手のウェアラブルデバイスには少々懐疑的なんです。"
 ---
 
 Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？

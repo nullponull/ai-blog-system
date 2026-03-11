@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-07-1-figmaaiweave-ogp.png"
+description: "FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？いやはや、Figmaがまたやってくれましたね。AIデザインツール「Weave」の発表、皆さんも驚いたんじゃないでしょうか？正直なところ、私も最初にこのニュースを聞いた時は、「またAIツールか」と少し斜に構えてしまったんですよ。"
 ---
 
 FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？

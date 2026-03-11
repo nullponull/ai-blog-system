@@ -10,6 +10,7 @@ reading_time: 6
 related_articles: [{"slug": "2026-03-02-3-eu-ai-law-oss-ai-future", "title": "EU AI法、OSS AIの未来はどうなる？開発者が語る影響と実務", "reason": "関連記事"}, {"slug": "2026-03-02-3-eu-ai-act-open-source-ai-futur", "title": "EU AI法、オープンソースAIの未来をどう変える？技術者が解説", "reason": "関連記事"}, {"slug": "2026-02-28-2-eu-ai-act-open-source-ai-futur", "title": "EU AI法はオープンソースAIの未来をどう変えるのか？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-10-1-adobeai", "title": "AdobeのAI画像生成、商用利用強化で何が変わる？"}
 image: "/assets/images/posts/2026-03-03-2-xai-memphis-data-center-ai-fut-ogp.png"
+description: "イーロン・マスク氏率いるxAIが、テネシー州メンフィスに10万GPU規模のデータセンターを建設するというニュースは、AI業界に衝撃を与えました。この規模のインフラ投資は、単なる事業拡大にとどまらず、AI開発の地理的、そして技術的なフロンティアを大きく塗り替える可能性を秘めています。"
 ---
 
 ## xAI、メンフィスに10万GPUデータセンター建設：AI開発の新たな地平を拓くか？

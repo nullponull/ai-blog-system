@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-31-3-glance-aisoftbank-ogp.png"
+description: "「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？あなたも感じているかもしれませんが、最近「Glance AI」という言葉を耳にする機会が増えましたよね。"
 ---
 
 「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？

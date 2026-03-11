@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-15-1-tachyum-prodigy1000pfai-ogp.png"
+description: "Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？皆さん、最近Tachyumの「Prodigy Universal Processor」が2nmプロセスで1000PetaFLOPSを超えるAI性能を謳っているというニュース、耳にしましたか？正直なところ、私自身も最初にこの数字を見た時は「..."
 ---
 
 Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？

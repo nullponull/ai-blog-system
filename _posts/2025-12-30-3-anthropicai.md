@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AnthropicのAI倫理、世界標準になるって本当？何が変わるのか、一緒に考えてみませんか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-30-3-anthropicai-ogp.png"
+description: "AnthropicのAI倫理、世界標準になるって本当？何が変わるのか、一緒に考えてみませんか？いやー、このニュースを見たとき、正直「またか」と思ったんですよ。AIの倫理ガイドラインって、これまでも色々な団体が発表してきたじゃないですか。"
 ---
 
 AnthropicのAI倫理、世界標準になるって本当？何が変わるのか、一緒に考えてみませんか？

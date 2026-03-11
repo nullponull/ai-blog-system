@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3の画像強化、その真価はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-24-1-google-gemini-3-ogp.png"
+description: "Google Gemini 3の画像強化、その真価はどこにあるのか？いやはや、皆さん、また来ましたね、Googleが。先日のGemini 3発表、皆さんもニュースでご覧になったんじゃないでしょうか？正直なところ、私も「また新しいバージョンか」と最初は少しばかり構えていました。"
 ---
 
 Google Gemini 3の画像強化、その真価はどこにあるのか？

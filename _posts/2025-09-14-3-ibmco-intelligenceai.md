@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBMの「Co-intelligence」は、AIと人間の関係をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-14-3-ibmco-intelligenceai-ogp.png"
+description: "IBMの「Co-intelligence」は、AIと人間の関係をどう変えるのか？正直なところ、最初に「Co-intelligence」という言葉を聞いた時、また新しいバズワードか、と少し身構えました。AI業界を20年近く見てきた私にとって、新しい概念が次々と生まれては消えていくのは日常茶飯事ですからね。"
 ---
 
 IBMの「Co-intelligence」は、AIと人間の関係をどう変えるのか？

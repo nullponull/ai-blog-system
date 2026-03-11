@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-26-1-amazon-bedrock-ogp.png"
+description: "Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？いやはや、このニュースを聞いた時、思わず「ほう？」と声が出てしまいましたよ。Amazon Bedrockが新しいモデルで学習コストを30%も削減した、という話。"
 ---
 
 Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？

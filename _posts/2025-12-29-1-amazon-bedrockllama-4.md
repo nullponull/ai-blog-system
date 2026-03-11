@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-29-1-amazon-bedrockllama-4-ogp.png"
+description: "Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？「また来たか！」というのが、正直なところ、最初にこのニュースを聞いた時の私の反応だったね。Amazon Bedrockが、Metaの次世代LLM、LLaMA 4（仮称）をサポートする、という話。"
 ---
 
 Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？

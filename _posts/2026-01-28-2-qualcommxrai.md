@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "QualcommのXR向けAIチップ上市：これはXRの夜明け、それともまだ長い道のりなのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-01-28-2-qualcommxrai-ogp.png"
+description: "QualcommのXR向けAIチップ上市：これはXRの夜明け、それともまだ長い道のりなのか？君もきっと、QualcommがXR向けAIチップを市場に投入する、というニュースを見て色めき立ったんじゃないかな？ 私は正直、最初にこのニュースを見たとき、「また来たか」というのが率直な感想だったよ。"
 ---
 
 QualcommのXR向けAIチップ上市：これはXRの夜明け、それともまだ長い道のりなのか？

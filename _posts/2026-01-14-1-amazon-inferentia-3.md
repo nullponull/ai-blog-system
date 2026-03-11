@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやはや、また来たか、と正直思ったよ。AmazonがAIチップ「Inferentia 3」を発表したというニュースを聞いて、長年この業界の移り変わりを見てきた私としては、その意図を読み解くのが面白くてね。Inferentia 3。"
 reading_time: 8
 image: "/assets/images/posts/2026-01-14-1-amazon-inferentia-3-ogp.png"
+description: "いやはや、また来たか、と正直思ったよ。AmazonがAIチップ「Inferentia 3」を発表したというニュースを聞いて、長年この業界の移り変わりを見てきた私としては、その意図を読み解くのが面白くてね。Inferentia 3。"
 ---
 
 ## Amazon Inferentia 3の真価とは？クラウドAIインフラの地殻変動が始まるのか

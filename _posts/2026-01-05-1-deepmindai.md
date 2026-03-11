@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindの創薬AIが予測する「承認率80%」は、製薬業界に何をもたらすのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-01-05-1-deepmindai-ogp.png"
+description: "DeepMindの創薬AIが予測する「承認率80%」は、製薬業界に何をもたらすのか？「DeepMindが創薬AIで新物質を発見し、しかも承認率80%を予測している」――このニュースを聞いて、あなたはどう感じましたか？正直なところ、私も最初に目にした時は、少し身構えてしまいました。またか、と。"
 ---
 
 DeepMindの創薬AIが予測する「承認率80%」は、製薬業界に何をもたらすのか？

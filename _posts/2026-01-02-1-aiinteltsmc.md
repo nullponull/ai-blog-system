@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIチップ特許戦争、IntelがTSMCに挑む。この闘いが業界をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-02-1-aiinteltsmc-ogp.png"
+description: "AIチップ特許戦争、IntelがTSMCに挑む。この闘いが業界をどう変えるのか？ねえ、君もあのニュースを見て、きっと私と同じような「また来たか」という感覚を覚えたんじゃないかな？「IntelがTSMCを提訴」——この一報を聞いた時、正直なところ、私は20年間この業界を見てきた経験から、これは単なる特許侵害を巡る局..."
 ---
 
 AIチップ特許戦争、IntelがTSMCに挑む。この闘いが業界をどう変えるのか？

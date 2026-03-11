@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "皆さん、最近のニュースでNvidiaとTSMCが米国アリゾナ州で次世代AIチップ「Blackwell」の最初のウェハーを製造したという話、耳にしましたか？正直なところ、最初にこのニュースを聞いた時、「おや、ついに来たか」という感覚と同時に、"
 reading_time: 20
 image: "/assets/images/posts/2025-10-20-1-nvidiatsmcai-ogp.png"
+description: "NvidiaとTSMC、米国でのAIチップ製造の真意とは？皆さん、最近のニュースでNvidiaとTSMCが米国アリゾナ州で次世代AIチップ「Blackwell」の最初のウェハーを製造したという話、耳にしましたか？正直なところ、最初にこのニュースを聞いた時、「おや、ついに来たか」という感覚と同時に、「でも、本当にそ..."
 ---
 
 NvidiaとTSMC、米国でのAIチップ製造の真意とは？

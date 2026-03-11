@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AmazonのAIチップ「Inferentia3」発表、何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-23-1-amazonaiinferentia3-ogp.png"
+description: "AmazonのAIチップ「Inferentia3」発表、何が変わるのか？いやー、まいりましたね。AmazonがAWSで新しいAIチップ「Inferentia3」を発表したってニュース、皆さんもうチェックしました？正直、私も最初は「またか」って思っちゃったんですよ。"
 ---
 
 AmazonのAIチップ「Inferentia3」発表、何が変わるのか？

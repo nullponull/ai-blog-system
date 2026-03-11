@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "SageMakerとLambdaの連携強化、何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-10-1-sagemakerlambda-ogp.png"
+description: "SageMakerとLambdaの連携強化、何が変わるのか？いやはや、AWSの動きにはいつも驚かされますね。今回の「Amazon SageMakerとAWS Lambdaの連携強化」のニュース、あなたも耳にしましたか？ 私もAI業界を20年近く見てきて、数えきれないほどの技術進化やサービス統合を見てきましたが、こ..."
 ---
 
 SageMakerとLambdaの連携強化、何が変わるのか？

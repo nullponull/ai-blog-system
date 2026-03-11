@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude、2028年黒字化の真意とは？AI業界のベテランが読み解くその戦略"
 reading_time: 20
 image: "/assets/images/posts/2025-11-11-1-anthropic-claude-ogp.png"
+description: "Anthropic Claude、2028年黒字化の真意とは？AI業界のベテランが読み解くその戦略「AnthropicのClaudeが2028年には黒字化するって？しかもOpenAIより2年も早いって話じゃないか！」正直なところ、最初にこのニュースを聞いた時、私は少し眉をひそめました。"
 ---
 
 Anthropic Claude、2028年黒字化の真意とは？AI業界のベテランが読み解くその戦略

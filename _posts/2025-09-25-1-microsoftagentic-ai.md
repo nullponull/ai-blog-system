@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoftが韓国でAgentic AIを加速させる真意とは？その戦略の深層を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-09-25-1-microsoftagentic-ai-ogp.png"
+description: "Microsoftが韓国でAgentic AIを加速させる真意とは？その戦略の深層を探る最近、Microsoftが韓国でAgentic AIの導入を加速させているというニュース、あなたも耳にしましたか？正直なところ、最初にこの話を聞いた時、「また新しいバズワードか」と少し懐疑的になったんですよ。"
 ---
 
 Microsoftが韓国でAgentic AIを加速させる真意とは？その戦略の深層を探る

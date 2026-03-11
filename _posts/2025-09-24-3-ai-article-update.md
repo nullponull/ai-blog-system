@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIスキル、ICT職種の78%で必須化：この数字が示す未来と、私たちが今すべきこととは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-24-3-ai-article-update-ogp.png"
+description: "AIスキル、ICT職種の78%で必須化：この数字が示す未来と、私たちが今すべきこととは？あなたもこの数字を聞いて、少し驚いたんじゃないでしょうか？「G7各国のICT職種のうち78%でAIスキルが求められる」というAI Workforce Consortiumの2025年版レポート。"
 ---
 
 AIスキル、ICT職種の78%で必須化：この数字が示す未来と、私たちが今すべきこととは？

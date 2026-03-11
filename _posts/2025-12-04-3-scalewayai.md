@@ -10,6 +10,7 @@ reading_time: 18
 image: "/assets/images/posts/2025-12-04-3-scalewayai-ogp.png"
 robots: noindex
 sitemap: false
+description: "富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？皆さん、こんにちは。AI業界の潮目の変化を20年も見てきた私からすると、日々のニュースで「〇〇社と△△社がAIで提携」なんていう見出しを見ても、「またか」と感じる人もいるかもしれませんね。正直なところ、私も最初はそうでした。"
 ---
 
 富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？

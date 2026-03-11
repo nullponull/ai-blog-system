@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindのAIエージェント進化、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-24-1-google-deepmindai-ogp.png"
+description: "Google DeepMindのAIエージェント進化、その真意はどこにあるのか？最近、Google DeepMindから次々と発表されるAIエージェントのニュースに、あなたも驚いているかもしれませんね。正直なところ、私も最初は「また新しいAIか」と、少し懐疑的な目で見ていました。"
 ---
 
 Google DeepMindのAIエージェント進化、その真意はどこにあるのか？

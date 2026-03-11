@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ"
 reading_time: 20
 image: "/assets/images/posts/2025-11-29-2-anthropic-claude-opus-45-ogp.png"
+description: "Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ正直なところ、最初に「AnthropicがClaude Opus 4.5を発表した」というニュースを見たとき、「またか」と少しばかり斜に構えてしまったのは、あなたも感じているかもしれませんね。"
 ---
 
 Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ

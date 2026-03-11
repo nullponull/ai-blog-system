@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AmazonのInferentia3、AIの未来をどう変えるのか？"
 reading_time: 10
 image: "/assets/images/posts/2026-01-16-1-amazoninferentia3ai-ogp.png"
+description: "AmazonのInferentia3、AIの未来をどう変えるのか？いやー、Amazonが「Inferentia3」を発表したってニュース、正直、私も最初は「またか」って思っちゃったんですよね。だって、AIチップの競争って、もう熾烈を極めているじゃないですか。"
 ---
 
 AmazonのInferentia3、AIの未来をどう変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Qualcomm「Snapdragon X Elite 2」が問いかける、PCの未来とAIの可能性とは？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-29-1-qualcommsnapdragon-x-elite-2-ogp.png"
+description: "Qualcomm「Snapdragon X Elite 2」が問いかける、PCの未来とAIの可能性とは？いやはや、QualcommがまたPC市場に切り込んできましたね。「Snapdragon X Elite 2」の発表、あなたもきっと「おっ？」と目を引かれたんじゃないでしょうか。"
 ---
 
 Qualcomm「Snapdragon X Elite 2」が問いかける、PCの未来とAIの可能性とは？

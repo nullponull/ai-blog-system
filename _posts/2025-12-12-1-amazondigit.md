@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？"
 reading_time: 9
 image: "/assets/images/posts/2025-12-12-1-amazondigit-ogp.png"
+description: "Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？「AmazonがAIロボット「Digit」の製造ラインを倍増させた」というニュース、あなたも耳にしましたか？正直なところ、私自身も最初は「またか」という思いと、それでもやっぱり無視できないインパクトを感じています。"
 ---
 
 Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？

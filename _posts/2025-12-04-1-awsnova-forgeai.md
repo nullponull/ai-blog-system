@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは"
 reading_time: 15
 image: "/assets/images/posts/2025-12-04-1-awsnova-forgeai-ogp.png"
+description: "AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは皆さん、こんにちは！ 長年この業界を渡り歩いてきた私から見ても、今回のAWSの「Nova Forge」発表は、ちょっと目を引くものでしたね。"
 ---
 
 AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは

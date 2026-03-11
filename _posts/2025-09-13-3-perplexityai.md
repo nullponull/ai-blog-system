@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-13-3-perplexityai-ogp.png"
+description: "ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？またか、という感じですね。あなたも、このニュースを聞いて、少し既視感を覚えたのではないでしょうか？長年この業界を見ていると、新しい技術が登場するたびに、既存のビジネスモデルとの間で摩擦が起きるのは避けられない宿命のように感じます。"
 ---
 
 ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？

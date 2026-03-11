@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-20-1-google-deepmind-ogp.png"
+description: "Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？おい、聞いたか？ Google DeepMindがまた、とんでもない数字を出してきたよ。タンパク質構造予測の精度が95%に達したって話だ。君もきっと、この数字を見て「おお！」と思ったんじゃないかな。"
 ---
 
 Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？

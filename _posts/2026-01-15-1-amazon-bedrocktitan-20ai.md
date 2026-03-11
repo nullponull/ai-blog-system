@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、Titan 2.0発表：生成AIの次なる一手は何？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-15-1-amazon-bedrocktitan-20ai-ogp.png"
+description: "Amazon Bedrock、Titan 2.0発表：生成AIの次なる一手は何？いやー、ついにAmazonも動きましたね。Bedrockで新LLM「Titan 2.0」を発表したというニュース、あなたも耳にしたことでしょう。"
 ---
 
 Amazon Bedrock、Titan 2.0発表：生成AIの次なる一手は何？

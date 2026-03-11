@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？"
 reading_time: 13
 image: "/assets/images/posts/2025-12-25-2-anthropicai-ogp.png"
+description: "Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？Anthropic、この名前を聞いて、あなたは何を連想するだろうか？ 正直なところ、私が最初に彼らが「倫理AI」を掲げて世に出てきた時、少なからず懐疑的な目を向けていたのは事実だ。"
 ---
 
 Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？

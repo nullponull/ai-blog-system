@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2026-03-09-2-multimodal-ai-industry-standar", "title": "マルチモーダルAI、産業標準化の鍵は？現場が語る可能性と課題", "reason": "関連記事"}, {"slug": "2026-03-09-2-xai-100k-gpu-data-center-memph", "title": "xAI、メンフィスに10万GPUデータセンター建設", "reason": "関連記事"}, {"slug": "2026-03-07-3-ai-agent-manufacturing-site-re", "title": "AIエージェントで製造現場はどう変わる？現場の課題解決への道筋", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-11-3-eu-ai-act-japan-compliance-202-ogp.png"
+description: "EU AI Act、日本企業はどう向き合う？コンプライアンス戦略とビジネス機会を探るEU AI Actが2026年8月に完全施行されるのを前に、日本企業はどのような戦略を立てるべきでしょうか。この法律は、AIのリスクに応じた規制を導入するもので、特に「高リスクAI」に対する要求事項が厳格化されます。"
 ---
 
 EU AI Act、日本企業はどう向き合う？コンプライアンス戦略とビジネス機会を探る

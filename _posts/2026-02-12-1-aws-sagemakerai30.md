@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-02-12-1-aws-sagemakerai30-ogp.png"
+description: "AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？どうも、AI業界を長年見守ってきたアナリストです。君もこのニュース、気になっているんじゃないかな？「AWS SageMakerが創薬AIを30%高速化」だって。正直、初めてこの見出しを見た時、「またか」と思ったのが本音なんだ。"
 ---
 
 AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？

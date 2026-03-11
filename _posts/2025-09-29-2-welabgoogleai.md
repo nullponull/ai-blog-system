@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "WeLabとGoogleの金融AI提携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-29-2-welabgoogleai-ogp.png"
+description: "WeLabとGoogleの金融AI提携、その真意はどこにあるのか？「また大手同士の提携か」――正直なところ、このニュースを最初に聞いた時、私の頭をよぎったのはそんな感想でした。あなたも感じているかもしれませんが、最近はAI関連の提携話が毎日のように飛び込んできますよね。でも、ちょっと待ってください。"
 ---
 
 WeLabとGoogleの金融AI提携、その真意はどこにあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-18-2-anthropicllm-ogp.png"
+description: "Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？いやはや、また1つ、AI業界にざわめきが走りましたね。Anthropicが発表した大規模言語モデル（LLM）の「バックドア」脆弱性に関する研究、あなたも耳にしたかもしれません。"
 ---
 
 Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？

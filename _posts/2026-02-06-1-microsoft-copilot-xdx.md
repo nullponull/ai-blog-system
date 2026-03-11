@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot X、医療DXはどこまで進む？"
 reading_time: 8
 image: "/assets/images/posts/2026-02-06-1-microsoft-copilot-xdx-ogp.png"
+description: "Microsoft Copilot X、医療DXはどこまで進む？いやー、Microsoft Copilot Xが医療DXを加速させる、なんてニュースが出てきましたね。正直、第一報を聞いたときは「またAIか」と、ちょっと冷静になってしまったんです。だって、この20年、AIの波は何度も押し寄せてきましたから。"
 ---
 
 Microsoft Copilot X、医療DXはどこまで進む？

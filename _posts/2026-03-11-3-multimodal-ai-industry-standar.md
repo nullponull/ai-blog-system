@@ -10,6 +10,7 @@ reading_time: 8
 related_articles: [{"slug": "2026-03-01-2-multimodal-ai-retail-customer-", "title": "マルチモーダルAI、小売顧客体験をどう変える？成功事例から紐解く未来", "reason": "関連記事"}, {"slug": "2026-02-22-2-multimodal-ai-roi3x-efficiency", "title": "マルチモーダルAI、ROI3倍の真実：断片情報からの脱却と業務効率化", "reason": "関連記事"}, {"slug": "2026-03-06-1-multimodal-ai-industry-standar", "title": "マルチモーダルAI、産業標準化で何が変わる？その未来を徹底解説", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-11-3-multimodal-ai-industry-standar-ogp.png"
+description: "皆さん、こんにちは。AI技術の進化を日々追っていると、まるでSFの世界が現実になったかのような感覚を覚えることがあります。特に、テキスト、画像、音声、動画といった複数の情報を統合的に扱える「マルチモーダルAI」の進化は目覚ましく、これが近い将来、様々な産業で「当たり前」になっていく未来が見えてきました。"
 ---
 
 皆さん、こんにちは。AI技術の進化を日々追っていると、まるでSFの世界が現実になったかのような感覚を覚えることがあります。特に、テキスト、画像、音声、動画といった複数の情報を統合的に扱える「マルチモーダルAI」の進化は目覚ましく、これが近い将来、様々な産業で「当たり前」になっていく未来が見えてきました。私自身、いくつかのプロジェクトでマルチモーダルAIを実際に触ってみて、その可能性と同時に、現実的な導入における課題も肌で感じています。

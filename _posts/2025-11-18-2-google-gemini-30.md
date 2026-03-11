@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3.0、その静かなる登場がAIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-18-2-google-gemini-30-ogp.png"
+description: "Google Gemini 3.0、その静かなる登場がAIの未来をどう変えるのか？正直なところ、今回のGoogle Gemini 3.0 Proの「静かなる」ロールアウトには、私も少し驚きましたね。年末に向けてのリリースが囁かれていましたが、まさかこんな形で、しかも今日（11月18日）にもという話まで出ているとは。"
 ---
 
 Google Gemini 3.0、その静かなる登場がAIの未来をどう変えるのか？

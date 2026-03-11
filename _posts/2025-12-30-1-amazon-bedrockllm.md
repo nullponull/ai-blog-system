@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが新LLMでコスト半減、その真価と変革の波をどう読み解く？"
 reading_time: 7
 image: "/assets/images/posts/2025-12-30-1-amazon-bedrockllm-ogp.png"
+description: "Amazon Bedrockが新LLMでコスト半減、その真価と変革の波をどう読み解く？「Amazon Bedrock、新LLMでコスト半減。」この見出しを見た時、あなたも「え、マジで？」って一瞬思ったんじゃないかな。正直なところ、私もね。"
 ---
 
 Amazon Bedrockが新LLMでコスト半減、その真価と変革の波をどう読み解く？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini Enterprise、その真意は？企業AIの未来をどう変えるのか"
 reading_time: 20
 image: "/assets/images/posts/2025-10-20-2-google-gemini-enterprise-ogp.png"
+description: "Google Gemini Enterprise、その真意は？企業AIの未来をどう変えるのかいやはや、また1つ大きな発表がありましたね。Googleが「Gemini Enterprise」を発表したと聞いて、正直なところ、最初は「またエンタープライズ向けAIか」と、少し斜に構えてしまった自分がいました。"
 ---
 
 Google Gemini Enterprise、その真意は？企業AIの未来をどう変えるのか

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-03-1-awstrainium3ai-ogp.png"
+description: "AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？いやはや、皆さん、昨年のAWS re:Invent 2025での「Trainium3」発表、正直なところ、私も最初は「またか」と思ってしまいましたよ。NVIDIAの牙城はそう簡単に崩れない、という長年の経験則が頭をよぎったんです。"
 ---
 
 AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？

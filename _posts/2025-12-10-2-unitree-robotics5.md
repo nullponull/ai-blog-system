@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Unitree Roboticsの5万台突破、何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-10-2-unitree-robotics5-ogp.png"
+description: "Unitree Roboticsの5万台突破、何が変わるのか？やあ、みんな。今日のニュース、中国のUnitree Roboticsが産業用AIロボの出荷台数で5万台を突破したって、すごいニュースだよね。率直に言って、この数字を聞いたとき、まず「へえ、もうそんなに？」というのが正直な感想だった。"
 ---
 
 Unitree Roboticsの5万台突破、何が変わるのか？

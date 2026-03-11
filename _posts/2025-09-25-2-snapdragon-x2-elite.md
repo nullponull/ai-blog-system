@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Snapdragon X2 Elite、その真意は？Qualcommが描くAI PCの未来を読み解く"
 reading_time: 20
 image: "/assets/images/posts/2025-09-25-2-snapdragon-x2-elite-ogp.png"
+description: "Snapdragon X2 Elite、その真意は？Qualcommが描くAI PCの未来を読み解くQualcommが「Snapdragon X2 Elite」を発表したと聞いて、正直なところ、私の最初の反応は「また来たか」というものでした。"
 ---
 
 Snapdragon X2 Elite、その真意は？Qualcommが描くAI PCの未来を読み解く

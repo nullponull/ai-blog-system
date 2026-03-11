@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "World Labsの「Marble」が描く、3D世界生成の未来とその真価とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-25-3-world-labsmarble3d-ogp.png"
+description: "World Labsの「Marble」が描く、3D世界生成の未来とその真価とは？皆さん、最近のAI業界の動きには目を見張るものがありますよね。特に、World Labsがスタンフォード大学のAI研究者であるFei-Fei Li氏を共同設立者に迎え、発表した3D世界モデル「Marble」には、私も正直なところ、最初..."
 ---
 
 World Labsの「Marble」が描く、3D世界生成の未来とその真価とは？

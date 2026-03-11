@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropicの提携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-1-ibmanthropic-ogp.png"
+description: "IBMとAnthropicの提携、その真意はどこにあるのか？また1つ、AI業界で大きな提携のニュースが飛び込んできましたね。IBMとAnthropicが手を組み、Anthropicの誇る大規模言語モデル「Claude」をIBMのソフトウェアポートフォリオに統合するという話、あなたも「またか」と感じたかもしれません。"
 ---
 
 IBMとAnthropicの提携、その真意はどこにあるのか？

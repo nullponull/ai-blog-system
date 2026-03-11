@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-11-1-the-article-has-been-generated-according-ogp.png"
 robots: noindex
 sitemap: false
+description: "The article has been generated according to the instructions. I will now check the character count to ensure it falls within the 3000-4000 character range.さて..."
 ---
 
 The article has been generated according to the instructions. I will now check the character count to ensure it falls within the 3000-4000 character range.

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意とは"
 reading_time: 20
 image: "/assets/images/posts/2025-11-08-3-aifangzhou-ogp.png"
+description: "AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意とはいやはや、また1つ、AIが医療の現場で大きな一歩を踏み出したというニュースが飛び込んできましたね。Fangzhou Inc.が「社会責任金牛賞」を受賞したと聞いて、正直なところ、最初は「またか」と思ったんですよ。"
 ---
 
 AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意とは

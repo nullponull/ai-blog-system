@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやはや、また大きなニュースが飛び込んできましたね。NiCEがCognigyの買収を完了したと聞いて、正直なところ「ついに来たか」という感覚と、「なるほど、そう来たか」という2つの思いが交錯しました。"
 reading_time: 20
 image: "/assets/images/posts/2025-09-11-3-nicecognigycx-ogp.png"
+description: "NiCE、Cognigy買収の真意は？CXの未来を読み解くいやはや、また大きなニュースが飛び込んできましたね。NiCEがCognigyの買収を完了したと聞いて、正直なところ「ついに来たか」という感覚と、「なるほど、そう来たか」という2つの思いが交錯しました。"
 ---
 
 NiCE、Cognigy買収の真意は？CXの未来を読み解く

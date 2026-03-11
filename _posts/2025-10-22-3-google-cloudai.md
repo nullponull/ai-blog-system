@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Cloudが示す、AIと持続可能性の両立の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-22-3-google-cloudai-ogp.png"
+description: "Google Cloudが示す、AIと持続可能性の両立の真意とは？あなたも感じているかもしれませんが、最近のAI業界は「持続可能性」というキーワードで持ちきりですよね。正直なところ、私自身、20年間この業界を見てきて、最初は「また新しいバズワードか？」と懐疑的でした。"
 ---
 
 Google Cloudが示す、AIと持続可能性の両立の真意とは？

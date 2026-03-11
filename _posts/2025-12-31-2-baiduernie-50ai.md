@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？"
 reading_time: 6
 image: "/assets/images/posts/2025-12-31-2-baiduernie-50ai-ogp.png"
+description: "BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？やあ、みんな。AI業界を長年見続けてきたアナリストの〇〇です。シリコンバレーのピカピカのスタートアップから、日本の老舗企業まで、数えきれないほどのAI導入プロジェクトに立ち会ってきたよ。"
 ---
 
 BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？

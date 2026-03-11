@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-29-3-metaaillama-4-ogp.png"
+description: "メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？いやはや、ついに来ましたね、Meta AIの日本本格展開。あなたも感じているかもしれませんが、正直なところ、個人的には「ついに来たか」というより「やっと来たか」という印象が強いです。"
 ---
 
 メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？

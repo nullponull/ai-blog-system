@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、中小企業をどう変える？その真意は？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-19-2-microsoft-copilot-ogp.png"
+description: "Microsoft Copilot、中小企業をどう変える？その真意は？いや〜、またMicrosoftがやってくれましたね。「Microsoft Copilot」の中小企業向け新機能、発表されました。率直に言って、私は最初「またAIか…」と少し斜に構えて見ていました。"
 ---
 
 Microsoft Copilot、中小企業をどう変える？その真意は？

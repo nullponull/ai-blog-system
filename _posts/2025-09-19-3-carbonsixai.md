@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-3-carbonsixai-ogp.png"
+description: "CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？「またAIロボットか」――正直なところ、CarbonSixが製造業向けAIロボットツール「SigmaKit」を発表したというニュースを聞いた時、私の最初の反応はそんなものだった。"
 ---
 
 CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？

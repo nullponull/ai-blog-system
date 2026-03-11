@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-16-2-nvidiaopenaiai-ogp.png"
+description: "NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？いやぁ、最近のAI業界、本当にすごいことになってるよね！正直なところ、あなたもこの変化のスピードに少し戸惑っているんじゃないかな？私なんて、この業界に20年いるけれど、こんなにワクワクしながらも、同時にちょっとした不安を感じるのは久しぶりだよ。"
 ---
 
 NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？

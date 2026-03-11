@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？"
 reading_time: 6
 image: "/assets/images/posts/2025-12-12-1-llama-4metaai-ogp.png"
+description: "Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？MetaがLlama 4で多言語LLMを刷新するというニュースを聞いて、正直なところ、最初に私の頭に浮かんだのは「またMetaか」という、ある種の慣れ親しんだ感情でした。でもね、今回ばかりはちょっと待てよ、という直感が強く働いたんです。"
 ---
 
 Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？

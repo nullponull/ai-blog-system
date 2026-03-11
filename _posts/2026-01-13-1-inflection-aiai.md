@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの野望、AIチップの未来はどう変わる？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-13-1-inflection-aiai-ogp.png"
+description: "Inflection AIの野望、AIチップの未来はどう変わる？いやー、Inflection AIが次世代AIチップ開発に巨額の投資をするってニュース、 ${{皆さんも}^{{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}{}^{}..."
 ---
 
 Inflection AIの野望、AIチップの未来はどう変わる？

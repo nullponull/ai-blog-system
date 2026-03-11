@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ClipLine株式会社は、サービス業の人手不足と業務複雑化に対応するため、「サービス業の現場にAIを」を掲げ、AIエージェント「ABILI Pal」と「ABILI Buddy」を開発・提供しています。"
 reading_time: 5
 image: "/assets/images/posts/2025-09-09-3-cliplineai-ogp.png"
+description: "ClipLine株式会社は、サービス業の人手不足と業務複雑化に対応するため、「サービス業の現場にAIを」を掲げ、AIエージェント「ABILI Pal」と「ABILI Buddy」を開発・提供しています。"
 ---
 
 ## ClipLine、サービス業AIエージェントで現場革新

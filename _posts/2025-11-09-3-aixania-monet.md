@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-09-3-aixania-monet-ogp.png"
 robots: noindex
 sitemap: false
+description: "AI歌手Xania Monet、Billboard初ランクイン：音楽業界に何が起きているのか？正直なところ、このニュースを聞いた時、私の最初の反応は「またか」という、どこか冷めたものでした。AIが音楽を作るという話は、この20年間、何度も耳にしてきましたからね。"
 ---
 
 AI歌手Xania Monet、Billboard初ランクイン：音楽業界に何が起きているのか？

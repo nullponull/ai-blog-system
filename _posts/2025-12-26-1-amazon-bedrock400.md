@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-26-1-amazon-bedrock400-ogp.png"
+description: "Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？正直なところ、Amazon Bedrockが生成AIモデル400種突破というニュースを聞いたとき、私の最初の反応はこれでした。君も同じように感じたかもしれないね。"
 ---
 
 Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ねえ、最近のGoogleの動き、あなたも気になっていますか？「Google AI検索でGemini搭載の広告テストが始まった」というニュース、一見すると小さな変化に見えるかもしれません。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-24-1-google-aigemini-ogp.png"
+description: "Google AI検索にGemini広告がテスト開始？その真意とAI時代の広告戦略は何処へ向かうのか？ねえ、最近のGoogleの動き、あなたも気になっていますか？「Google AI検索でGemini搭載の広告テストが始まった」というニュース、一見すると小さな変化に見えるかもしれません。"
 ---
 
 **Google AI検索にGemini広告がテスト開始？その真意とAI時代の広告戦略は何処へ向かうのか？**

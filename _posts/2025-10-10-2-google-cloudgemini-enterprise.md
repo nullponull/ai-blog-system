@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google CloudのGemini Enterprise、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-2-google-cloudgemini-enterprise-ogp.png"
+description: "Google CloudのGemini Enterprise、その真意はどこにあるのか？おや、また新しいAIプラットフォームか、と正直思ったよ。君もそう感じたかもしれないね？この業界に20年もいると、新しい「革命的な」発表には、つい身構えてしまうものだ。"
 ---
 
 Google CloudのGemini Enterprise、その真意はどこにあるのか？

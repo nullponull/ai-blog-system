@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-26-2-qualcommmediatek-ogp.png"
+description: "QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？正直なところ、最初にこのニュースを聞いた時、あなたも「またか」と感じたかもしれませんね。"
 ---
 
 QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？

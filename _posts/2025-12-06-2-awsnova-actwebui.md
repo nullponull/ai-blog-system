@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？"
 reading_time: 5
 image: "/assets/images/posts/2025-12-06-2-awsnova-actwebui-ogp.png"
+description: "AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？AWSが「Amazon Nova Act」を発表したと聞いて、正直なところ「また新しいUI自動化ツールか…」と、最初はちょっと斜に構えてしまったんですよね。あなたもそう感じたかもしれません。"
 ---
 
 AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？

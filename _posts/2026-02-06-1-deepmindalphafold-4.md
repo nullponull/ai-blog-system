@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMind『AlphaFold 4』発表：95%超の精度が創薬にもたらす本当の地平とは？"
 reading_time: 8
 image: "/assets/images/posts/2026-02-06-1-deepmindalphafold-4-ogp.png"
+description: "DeepMind『AlphaFold 4』発表：95%超の精度が創薬にもたらす本当の地平とは？やあ、君もDeepMindの「AlphaFold 4」発表のニュース、きっと目にしたよね？「タンパク質構造予測精度95%超」。"
 ---
 
 DeepMind『AlphaFold 4』発表：95%超の精度が創薬にもたらす本当の地平とは？

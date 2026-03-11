@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？"
 reading_time: 8
 image: "/assets/images/posts/2026-02-05-1-aibytedance-ogp.png"
+description: "AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？「またByteDanceか！」──正直、このニュースを聞いた時、あなたも私も、そう感じた人は少なくないんじゃないかな。中国の巨大テック企業、ByteDanceがAI動画生成の分野で欧米市場への進出を加速させているという話。"
 ---
 
 AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？

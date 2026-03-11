@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-27-2-qualcommai-ogp.png"
+description: "Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？「QualcommがサウジにAIインフラを大規模展開」――このニュースを聞いて、あなたはどう感じましたか？正直なところ、私自身、最初にこの見出しを見たとき、少しばかり驚きを隠せませんでした。"
 ---
 
 Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？

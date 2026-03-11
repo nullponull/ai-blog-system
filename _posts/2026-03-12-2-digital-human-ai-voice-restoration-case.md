@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 description: "著名俳優のデジタルヒューマン制作とAI音声復元プロジェクトの技術的詳細、PyTorch日本語音声合成の開発過程、倫理的配慮について解説する導入事例"
 reading_time: 14
 image: "/assets/images/posts/2026-03-12-2-digital-human-ai-voice-restoration-case-ogp.png"
+excerpt: "デジタルヒューマン技術は、3DCGとAI技術の融合により、実在する人物の外見・声・動きを高精度に再現する技術である。近年では、故人のデジタル復元や、歴史的人物の再現など、エンターテインメントを超えた活用が進んでいる。"
 ---
 
 ## はじめに：デジタルヒューマン技術が拓く新しい可能性

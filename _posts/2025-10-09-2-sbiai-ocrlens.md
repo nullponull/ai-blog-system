@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "SBIの生成AI-OCR「Lens」が示す、バックオフィス変革の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-09-2-sbiai-ocrlens-ogp.png"
+description: "SBIの生成AI-OCR「Lens」が示す、バックオフィス変革の真意とは？「またOCRか」――正直なところ、SBIビジネス・ソリューションズが生成AI-OCR「Lens」の提供を開始したというニュースを聞いた時、私の最初の反応はそんな感じでした。"
 ---
 
 SBIの生成AI-OCR「Lens」が示す、バックオフィス変革の真意とは？

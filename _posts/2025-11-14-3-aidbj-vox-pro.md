@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-14-3-aidbj-vox-pro-ogp.png"
 robots: noindex
 sitemap: false
+description: "日俳連のAI音声DB「J-VOX-PRO」始動、その真意は何を語るのか？皆さん、こんにちは。AI業界を20年近く見続けてきた私ですが、最近の日俳連（協同組合日本俳優連合）が伊藤忠商事、そして伊藤忠テクノソリューションズ（CTC）と組んで立ち上げたAI音声データベース「J-VOX-PRO（仮称）」のニュースには、正..."
 ---
 
 日俳連のAI音声DB「J-VOX-PRO」始動、その真意は何を語るのか？

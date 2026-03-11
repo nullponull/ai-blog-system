@@ -10,6 +10,7 @@ reading_time: 16
 image: "/assets/images/posts/2025-12-02-3-aifrontria-ogp.png"
 robots: noindex
 sitemap: false
+description: "富士通が仕掛けるAIリスク対応「Frontria」、その真意はどこにあるのか？いやはや、皆さん、最近のAI業界の動きは本当に目まぐるしいですよね。次々と新しい技術が出てきて、私たちアナリストも追いかけるのが大変です。正直なところ、私も「また新しい動きか」と最初は少し懐疑的に見ていたんです。"
 ---
 
 富士通が仕掛けるAIリスク対応「Frontria」、その真意はどこにあるのか？

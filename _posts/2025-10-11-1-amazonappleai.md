@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-11-1-amazonappleai-ogp.png"
+description: "AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？いやはや、またしても大きな動きがありましたね。AmazonとAppleがAIスマートデバイスの強化に本腰を入れているというニュース、あなたも感じているかもしれませんが、正直なところ、個人的には「ついに来たか」という印象です。"
 ---
 
 AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？

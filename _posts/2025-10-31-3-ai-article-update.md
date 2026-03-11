@@ -10,6 +10,7 @@ reading_time: 20
 canonical_url: "https://ai-media.co.jp/2025/10/08/3-ai-article-update/"
 sitemap: false
 image: "/assets/images/posts/2025-10-31-3-ai-article-update-ogp.png"
+description: "申し訳ありませんが、「TIS、AI中心開発で生産性50%向上」に関する具体的な情報を見つけることができませんでした。ウェブ検索を試みましたが、関連する記事や発表が見当たらず、詳細な分析を行うためのデータが不足しています。"
 ---
 
 申し訳ありませんが、「TIS、AI中心開発で生産性50%向上」に関する具体的な情報を見つけることができませんでした。ウェブ検索を試みましたが、関連する記事や発表が見当たらず、詳細な分析を行うためのデータが不足しています。

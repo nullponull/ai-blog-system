@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Samsungの次世代FoldableにAI搭載：スマホの未来は、本当に変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-15-3-samsungfoldableai-ogp.png"
+description: "Samsungの次世代FoldableにAI搭載：スマホの未来は、本当に変わるのか？「Samsungが次世代FoldableスマホにAIを搭載する」――このニュースを聞いて、あなたも感じているかもしれませんが、正直なところ、私の最初の反応は「またか」というものだったんだ。"
 ---
 
 Samsungの次世代FoldableにAI搭載：スマホの未来は、本当に変わるのか？

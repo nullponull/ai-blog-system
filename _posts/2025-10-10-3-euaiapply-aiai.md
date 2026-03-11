@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-3-euaiapply-aiai-ogp.png"
+description: "EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？先日、EUが新たなAI戦略「Apply AI」を発表したと聞いて、正直なところ、最初は「また新しい戦略か」と少し斜に構えてしまったんだ。2025年10月8日の発表だったね。"
 ---
 
 EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？

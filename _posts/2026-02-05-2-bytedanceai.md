@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、ByteDanceがAI生成コンテンツの倫理指針を発表したってニュース、みんなももうチェックしたかな？私自身、このAI業界をもう20年も見てきて、シリコンバレーのピカピカのスタートアップから、日本の老舗企業まで、"
 reading_time: 6
 image: "/assets/images/posts/2026-02-05-2-bytedanceai-ogp.png"
+description: "ByteDanceのAI倫理指針、その真意は何なのか？いやー、ByteDanceがAI生成コンテンツの倫理指針を発表したってニュース、みんなももうチェックしたかな？私自身、このAI業界をもう20年も見てきて、シリコンバレーのピカピカのスタートアップから、日本の老舗企業まで、本当にたくさんのAI導入の現場に立ち会っ..."
 ---
 
 ByteDanceのAI倫理指針、その真意は何なのか？

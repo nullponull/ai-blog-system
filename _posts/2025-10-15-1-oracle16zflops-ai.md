@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-15-1-oracle16zflops-ai-ogp.png"
+description: "Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？正直なところ、最初に「Oracleが16 ZFLOPSのAIスパコンを発表」というニュースを見た時、私の頭の中には「え、Oracleが？」という疑問符が浮かびました。あなたも同じように感じたかもしれませんね。"
 ---
 
 Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？

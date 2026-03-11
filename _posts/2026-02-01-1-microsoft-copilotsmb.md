@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、SMBの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-01-1-microsoft-copilotsmb-ogp.png"
+description: "Microsoft Copilot、SMBの未来をどう変えるのか？いやはや、Microsoft CopilotのSMB（中小企業）向け機能強化のニュース、あなたも耳にしましたか？正直、最初は「また新しいAIツールか」と、いつものように少し懐疑的な目で見てしまったんです。"
 ---
 
 Microsoft Copilot、SMBの未来をどう変えるのか？

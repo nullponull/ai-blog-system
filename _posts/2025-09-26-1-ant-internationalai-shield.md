@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-26-1-ant-internationalai-shield-ogp.png"
+description: "Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？正直なところ、Ant Internationalが「AI SHIELD」を発表したと聞いた時、私の最初の反応は「また新しいAIセキュリティソリューションか」という、やや懐疑的なものでした。"
 ---
 
 Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？

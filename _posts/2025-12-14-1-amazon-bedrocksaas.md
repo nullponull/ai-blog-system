@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockのSaaS連携強化、何が変わるのか？"
 reading_time: 9
 image: "/assets/images/posts/2025-12-14-1-amazon-bedrocksaas-ogp.png"
+description: "Amazon BedrockのSaaS連携強化、何が変わるのか？ねえ、君もこのニュース、もうチェックしたかな？ Amazon BedrockがSaaS連携を強化するって話。正直、最初にこの見出しを見たとき、「またAWSが何か仕掛けてきたか」というのが第一印象だったんだ。"
 ---
 
 Amazon BedrockのSaaS連携強化、何が変わるのか？

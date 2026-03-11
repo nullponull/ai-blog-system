@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "東大・SB・LINEヤフーの「Beyond AI」始動、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-2-sblinebeyond-ogp.png"
+description: "東大・SB・LINEヤフーの「Beyond AI」始動、その真意はどこにあるのか？「東大・SB・LINEヤフーがBeyond AIを始動」――このニュースを聞いて、正直なところ、また大手が組んだか、と一瞬思った人もいるかもしれませんね。"
 ---
 
 東大・SB・LINEヤフーの「Beyond AI」始動、その真意はどこにあるのか？

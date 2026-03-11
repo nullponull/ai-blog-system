@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-27-2-adobesemrush19-ogp.png"
+description: "AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？やあ、みんな。最近、業界のニュースでAdobeがSemrushを19億ドルで買収するという話、耳にした人も多いんじゃないかな。正直なところ、最初にこのニュースを聞いた時、私は「おや、来たか」と独りごちたんだ。"
 ---
 
 AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？

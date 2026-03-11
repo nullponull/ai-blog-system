@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3 Proが掲げる「高情報処理」の真意とは？AIの未来をどう変えるのか、ベテランアナリストが読み解く。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-23-1-google-gemini-3-pro-ogp.png"
+description: "Google Gemini 3 Proが掲げる「高情報処理」の真意とは？AIの未来をどう変えるのか、ベテランアナリストが読み解く。最近、Google Gemini 3 Proの「高情報処理」という言葉を耳にするたびに、正直なところ、最初に感じたのは「また新しいバズワードか？」という懐疑的な気持ちだったんですよ。"
 ---
 
 Google Gemini 3 Proが掲げる「高情報処理」の真意とは？AIの未来をどう変えるのか、ベテランアナリストが読み解く。

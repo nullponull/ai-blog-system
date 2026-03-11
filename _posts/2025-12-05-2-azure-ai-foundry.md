@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "おい、君も感じているかもしれないが、最近のAI業界は本当に目まぐるしいよな。新しいモデルやフレームワークが毎週のように出てきて、正直、全部を追いかけるのは至難の業だ。"
 reading_time: 13
 image: "/assets/images/posts/2025-12-05-2-azure-ai-foundry-ogp.png"
+description: "Azure AI Foundryのセキュリティ強化、その真意はどこにあるのか？おい、君も感じているかもしれないが、最近のAI業界は本当に目まぐるしいよな。新しいモデルやフレームワークが毎週のように出てきて、正直、全部を追いかけるのは至難の業だ。"
 ---
 
 **Azure AI Foundryのセキュリティ強化、その真意はどこにあるのか？**

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "QualcommのAIデータセンター参入、その真意は何処にあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-27-1-qualcommai-ogp.png"
+description: "QualcommのAIデータセンター参入、その真意は何処にあるのか？正直なところ、QualcommがAIデータセンター市場に本格参入するというニュースを聞いた時、私の最初の反応は「またか」というものでした。"
 ---
 
 QualcommのAIデータセンター参入、その真意は何処にあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Intel Gaudi 4がNVIDIA H100を超える」という話、AIチップ業界の景色はどう変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-24-1-intel-gaudi-4nvidia-h100-ogp.png"
+description: "「Intel Gaudi 4がNVIDIA H100を超える」という話、AIチップ業界の景色はどう変わるのか？正直なところ、最初にこの話を聞いた時、あなたも「またIntelか」と少しばかり懐疑的になったんじゃないでしょうか？ 私もね、20年以上この業界を見てきて、数えきれないほどの「NVIDIAキラー」の登場を見..."
 ---
 
 「Intel Gaudi 4がNVIDIA H100を超える」という話、AIチップ業界の景色はどう変わるのか？

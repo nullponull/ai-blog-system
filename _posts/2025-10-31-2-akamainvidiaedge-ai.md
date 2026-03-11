@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-31-2-akamainvidiaedge-ai-ogp.png"
+description: "AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？正直なところ、このニュースを聞いた時、私の最初の反応は「またエッジAIか」というものでした。"
 ---
 
 AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？

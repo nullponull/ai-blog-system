@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "このニュース、あなたはどう感じたかな？「Amazon Bedrock、新モデルでコスト30%削減」。正直なところ、僕も最初は「お、またAWS（Amazon Web Services）がやってくれたか」と、"
 reading_time: 8
 image: "/assets/images/posts/2026-02-05-1-amazon-bedrock-ogp.png"
+description: "このニュース、あなたはどう感じたかな？「Amazon Bedrock、新モデルでコスト30%削減」。正直なところ、僕も最初は「お、またAWS（Amazon Web Services）がやってくれたか」と、いつものコスト最適化の一環かなと思ったんだ。"
 ---
 
 ## Amazon Bedrockの新モデルがコスト30%削減？その裏に隠されたAI市場の真意とは

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-24-1-aws-bedrock-ogp.png"
+description: "AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？「Amazon Bedrock、新モデルで30%性能向上」というニュース、あなたも目にしましたか？正直なところ、私がこの知らせを聞いた時、最初は「また数字のゲームか？」なんて少し懐疑的に構えてしまったんですよね。"
 ---
 
 AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？

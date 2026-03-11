@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AmazonのAIチップ「Inferentia 3」投入、その真意と未来への影響は？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-31-1-amazonaiinferentia-3-ogp.png"
+description: "AmazonのAIチップ「Inferentia 3」投入、その真意と未来への影響は？「AmazonがAWSで新しいAIチップ、「Inferentia 3」を投入した」というニュース、あなたも耳にしましたか？正直なところ、このニュースを聞いた時、私の脳裏に真っ先に浮かんだのは、「またか」という気持ちと、「でも、今回..."
 ---
 
 AmazonのAIチップ「Inferentia 3」投入、その真意と未来への影響は？

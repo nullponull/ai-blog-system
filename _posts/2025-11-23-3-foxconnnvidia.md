@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「おや、これはまた興味深いニュースが飛び込んできましたね」――正直なところ、最初にFoxconnがNVIDIAとOpenAIとの提携を強化するという話を聞いたとき、私は思わずそう呟いてしまいました。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-23-3-foxconnnvidia-ogp.png"
+description: "FoxconnとNVIDIA、OpenAIが手を組む真意とは？ AIインフラの未来に何が変わるのか「おや、これはまた興味深いニュースが飛び込んできましたね」――正直なところ、最初にFoxconnがNVIDIAとOpenAIとの提携を強化するという話を聞いたとき、私は思わずそう呟いてしまいました。"
 ---
 
 **FoxconnとNVIDIA、OpenAIが手を組む真意とは？ AIインフラの未来に何が変わるのか**

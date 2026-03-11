@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-3-helsingaica-1-europa-ogp.png"
+description: "独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？正直なところ、最初に「HelsingがAI戦闘機CA-1 Europaを発表」というニュースを見た時、私は少し眉をひそめました。また新しい「AIが全てを変える」系の話か、と。"
 ---
 
 独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？

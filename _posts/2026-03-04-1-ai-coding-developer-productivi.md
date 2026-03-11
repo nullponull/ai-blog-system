@@ -10,6 +10,7 @@ reading_time: 8
 related_articles: [{"slug": "2026-03-02-1-multimodal-ai-retail-customer-", "title": "マルチモーダルAIで顧客体験はどう変わる？小売業界の未来を覗く", "reason": "関連記事"}, {"slug": "2026-03-02-1-ai-agent-manufacturing-dx-evol", "title": "AIエージェントで製造業DXはどこまで進化するのか、その全貌とは", "reason": "関連記事"}, {"slug": "2026-02-28-1-ai-agent-manufacturing-dx-guid", "title": "AIエージェントが製造業DXをどう変える？2026年までに40%の企業アプリに", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-04-1-ai-coding-developer-productivi-ogp.png"
+description: "AI技術が目覚ましい進化を遂げる中、ソフトウェア開発の現場でもその影響は無視できません。特に、AIコーディングアシスタントの登場は、開発者の生産性向上に大きく貢献すると期待されています。私自身も、AI実装プロジェクトに携わる中で、これらのツールの進化を肌で感じてきました。"
 ---
 
 ## AIコーディングが開発者体験をどう変えるか：GitHub CopilotとClaude Codeの現場から

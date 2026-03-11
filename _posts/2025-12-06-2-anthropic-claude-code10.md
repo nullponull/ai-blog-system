@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Codeが10億ドル収益を達成、その真意とは？"
 reading_time: 5
 image: "/assets/images/posts/2025-12-06-2-anthropic-claude-code10-ogp.png"
+description: "Anthropic Claude Codeが10億ドル収益を達成、その真意とは？「ついに来たか」——アンソロピックのClaude Codeが半年で10億ドルのランレート収益を達成したというニュースを聞いて、正直なところ、私はそう感じました。"
 ---
 
 Anthropic Claude Codeが10億ドル収益を達成、その真意とは？

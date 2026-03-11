@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EU AI法がオープンソースAIに与える影響を技術者視点で解説。規制の目的、オープンソースとの兼ね合い、基盤モデルへの影響、そして今後の展望を考察します。"
 reading_time: 10
 image: "/assets/images/posts/2026-03-02-3-eu-ai-act-open-source-ai-futur-ogp.png"
+description: "EU AI法、オープンソースAIの未来にどう影響する？ 技術者目線で徹底解説「EU AI法がオープンソースAIの開発にブレーキをかけるのでは？」そんな懸念が、AI開発者の間で静かに、しかし確実に広がりつつあります。"
 ---
 
 EU AI法、オープンソースAIの未来にどう影響する？ 技術者目線で徹底解説

@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-12-20-1-google-deepmindai-ogp.png"
 robots: noindex
 sitemap: false
+description: "Google DeepMindの創薬AI、本当に未来を変えるのか？いやあ、このニュース、皆さんどう感じました？Google DeepMindが新しいAIモデルで創薬期間を半分にするって、正直、最初は「またか」って思っちゃったんですよ。"
 ---
 
 Google DeepMindの創薬AI、本当に未来を変えるのか？

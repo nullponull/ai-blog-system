@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来"
 reading_time: 20
 image: "/assets/images/posts/2025-11-06-1-aisamsungnvidia-ogp.png"
+description: "AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来「AI工場」という言葉を聞いて、あなたはどう感じましたか？正直なところ、私も最初は「また新しいバズワードか？」と少し懐疑的でした。"
 ---
 
 AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来

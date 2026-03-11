@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIのPi 3.0、応答速度2倍の真意とは？ AI会話の未来を解き明かす"
 reading_time: 9
 image: "/assets/images/posts/2026-01-30-1-inflection-aipi-30-ogp.png"
+description: "Inflection AIのPi 3.0、応答速度2倍の真意とは？ AI会話の未来を解き明かすInflection AIがPi 3.0で会話応答速度を2倍にしたというニュース、正直、最初に聞いたとき、あなたはどう感じましたか？ 「たかが2倍か」と思った人もいれば、「やっぱり来たか」と興奮した人もいるかもしれませんね。"
 ---
 
 Inflection AIのPi 3.0、応答速度2倍の真意とは？ AI会話の未来を解き明かす

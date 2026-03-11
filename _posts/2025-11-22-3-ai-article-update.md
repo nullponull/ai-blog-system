@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-22-3-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "AI著作権、日本で初の摘発事例が示す「創造」の未来とは？おや、ついに来たか、というのが正直な感想ですね。あなたも感じているかもしれませんが、この日をどれだけ多くの人が固唾を飲んで見守ってきたことか。AI生成物に対する著作権侵害で、まさか日本で書類送検のニュースが出るとは。"
 ---
 
 AI著作権、日本で初の摘発事例が示す「創造」の未来とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。"
 reading_time: 17
 image: "/assets/images/posts/2026-01-27-1-deepmind-alphafold-499-ogp.png"
+description: "DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。「DeepMind AlphaFold 4が発表され、タンパク質構造予測精度が99%に達した」――こんなニュースが飛び込んできた時、正直なところ、あなたも「またか」と一瞬思ったかもしれませんね。"
 ---
 
 DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。

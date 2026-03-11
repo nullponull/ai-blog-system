@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解く"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-2-amazonaiaws-ogp.png"
+description: "AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解くあなたも感じているかもしれませんが、最近のAmazonの動きには、正直なところ、私も最初は少し懐疑的な目を向けていました。"
 ---
 
 AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解く

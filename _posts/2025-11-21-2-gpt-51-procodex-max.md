@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GPT-5.1 ProとCodex-Max公開：AI進化の「真意」はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-21-2-gpt-51-procodex-max-ogp.png"
+description: "GPT-5.1 ProとCodex-Max公開：AI進化の「真意」はどこにあるのか？いやぁ、あなたも感じているかもしれませんが、最近のAI業界の動きは本当に目まぐるしいですね。20年間この業界をウォッチし続けてきた私でも、情報洪水に溺れそうになることがあります。"
 ---
 
 GPT-5.1 ProとCodex-Max公開：AI進化の「真意」はどこにあるのか？

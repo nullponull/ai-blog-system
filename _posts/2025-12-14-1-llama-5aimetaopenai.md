@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-14-1-llama-5aimetaopenai-ogp.png"
+description: "LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？MetaがLLaMA 5で生成AIのコストを半減させると言った時、正直、最初に何を思いましたか？「またか」と、少し斜に構えた人もいるかもしれませんね。"
 ---
 
 LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？

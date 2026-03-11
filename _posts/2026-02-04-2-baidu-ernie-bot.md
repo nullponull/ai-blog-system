@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE Bot、医療診断95%達成の衝撃：その数字の裏に何が隠されているのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-04-2-baidu-ernie-bot-ogp.png"
+description: "Baidu ERNIE Bot、医療診断95%達成の衝撃：その数字の裏に何が隠されているのか？最近、こんなニュースが飛び込んできて、あなたも少なからず驚いたんじゃないかな？「中国AI、Baidu ERNIE Botが医療診断で95%の精度を達成」って。正直、この話を聞いた時、僕も目を疑ったんだ。"
 ---
 
 Baidu ERNIE Bot、医療診断95%達成の衝撃：その数字の裏に何が隠されているのか？

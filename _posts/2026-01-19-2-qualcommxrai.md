@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "QualcommのXR向けAIチップ、その真意は何だろうか？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-19-2-qualcommxrai-ogp.png"
+description: "QualcommのXR向けAIチップ、その真意は何だろうか？いやー、QualcommがXR（Extended Reality）向けの新しいAIチップを発表したってニュース、あなたも耳にしたかな？「XRの未来を切り拓く！」なんて見出しが踊っているけど、正直なところ、第一印象は「またか」というのが本音なんだ。"
 ---
 
 QualcommのXR向けAIチップ、その真意は何だろうか？

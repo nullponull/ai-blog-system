@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのBing 7.0、検索の未来は本当に変わるのか？"
 reading_time: 6
 image: "/assets/images/posts/2025-12-22-1-microsoftbing-70-ogp.png"
+description: "MicrosoftのBing 7.0、検索の未来は本当に変わるのか？いやはや、驚きましたね。2025年12月22日にMicrosoftが発表した「Bing 7.0」。"
 ---
 
 MicrosoftのBing 7.0、検索の未来は本当に変わるのか？

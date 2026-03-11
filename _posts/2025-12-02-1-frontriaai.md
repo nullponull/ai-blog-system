@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-12-02-1-frontriaai-ogp.png"
 robots: noindex
 sitemap: false
+description: "富士通「Frontria」が問うAIの信頼性、その真意とは何か？あなたもきっと、このニュースを目にして「なるほど、やはり来たか」と感じたのではないでしょうか。まさに今日、2025年12月2日、富士通が立ち上げた国際コンソーシアム「Frontria（フロントリア）」の発表。"
 ---
 
 富士通「Frontria」が問うAIの信頼性、その真意とは何か？

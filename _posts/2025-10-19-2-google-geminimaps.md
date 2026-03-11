@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google GeminiとMaps連携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-19-2-google-geminimaps-ogp.png"
+description: "Google GeminiとMaps連携、その真意はどこにあるのか？「Google Gemini APIとMaps連携」――このニュースを聞いた時、正直なところ、私は少しばかり懐疑的でした。また新しいAIの「お祭り騒ぎ」か、と。"
 ---
 
 Google GeminiとMaps連携、その真意はどこにあるのか？

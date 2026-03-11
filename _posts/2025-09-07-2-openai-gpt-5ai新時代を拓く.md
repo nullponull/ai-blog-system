@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIは2025年8月7日、次世代AIモデル「GPT-5」を正式発表し、ChatGPTのデフォルトモデルとして提供を開始しました。GPT-5は処理速度、精度、実用性において飛躍的な向上を遂げ、特にプログラミング、数学的推論、"
 reading_time: 8
 image: "/assets/images/posts/2025-09-07-2-openai-gpt-5ai新時代を拓く-ogp.png"
+description: "OpenAIは2025年8月7日、次世代AIモデル「GPT-5」を正式発表し、ChatGPTのデフォルトモデルとして提供を開始しました。GPT-5は処理速度、精度、実用性において飛躍的な向上を遂げ、特にプログラミング、数学的推論、文章生成で顕著な性能を発揮します。"
 ---
 
 # OpenAI GPT-5、AI新時代を拓く

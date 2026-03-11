@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "VodacomとGoogleがアフリカAI市場に投じる、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-25-2-vodacomgoogleai-ogp.png"
+description: "VodacomとGoogleがアフリカAI市場に投じる、その真意とは？あなたも感じているかもしれませんが、最近、アフリカ大陸でのAI投資の話を耳にする機会が増えましたね。正直なところ、私自身、AI業界を20年間見てきて、新興市場での大規模なテクノロジー投資には、最初は少し懐疑的になることもあります。"
 ---
 
 VodacomとGoogleがアフリカAI市場に投じる、その真意とは？

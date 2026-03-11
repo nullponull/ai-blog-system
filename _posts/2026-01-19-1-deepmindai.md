@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？"
 reading_time: 7
 image: "/assets/images/posts/2026-01-19-1-deepmindai-ogp.png"
+description: "DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？皆さん、DeepMindの汎用AI研究における新たなブレークスルー、というニュースを聞いて、あなたも感じているかもしれませんが、正直なところ、個人的には最初「またか」と、少し懐疑的に受け止めてしまいましたよ。"
 ---
 
 DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？

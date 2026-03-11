@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデル追加は、何を変えるのだろうか？"
 reading_time: 8
 image: "/assets/images/posts/2026-02-12-2-amazon-bedrock-ogp.png"
+description: "Amazon Bedrock、新モデル追加は、何を変えるのだろうか？いやはや、Amazon Bedrockに新しいモデルが3つも追加されたというニュース、あなたも耳にしましたか？ 私も正直、この業界を20年も見てくると、最初は「またか」なんて思ってしまうこともあるんです。"
 ---
 
 Amazon Bedrock、新モデル追加は、何を変えるのだろうか？

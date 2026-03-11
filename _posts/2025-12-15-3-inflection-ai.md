@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AI、次世代モデル公開の真意は何だろうか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-15-3-inflection-ai-ogp.png"
+description: "Inflection AI、次世代モデル公開の真意は何だろうか？いやはや、Inflection AIが新しいAIモデルを発表したってニュース、みんなも耳にしたかな？ 私もAI業界をもう20年も見てきていると、新しいモデルの発表なんて毎日のように聞く話なんだけど、今回のInflection AIの動きには、正直ちょ..."
 ---
 
 Inflection AI、次世代モデル公開の真意は何だろうか？

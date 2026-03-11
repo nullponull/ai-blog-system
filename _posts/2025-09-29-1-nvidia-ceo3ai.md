@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来"
 reading_time: 20
 image: "/assets/images/posts/2025-09-29-1-nvidia-ceo3ai-ogp.png"
+description: "Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来Nvidiaのジェンスン・フアンCEOが、今後数年間でAIインフラへの投資が3兆ドルから4兆ドルに達するという予測を発表しましたね。正直、私も最初は耳を疑いましたよ。"
 ---
 
 Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来

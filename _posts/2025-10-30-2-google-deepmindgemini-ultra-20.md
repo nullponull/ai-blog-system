@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindのGemini Ultra 2.0、その真意とAIの未来に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-30-2-google-deepmindgemini-ultra-20-ogp.png"
+description: "Google DeepMindのGemini Ultra 2.0、その真意とAIの未来に何をもたらすのか？皆さん、また大きな発表がありましたね。Google DeepMindが「Gemini Ultra 2.0」を発表したと聞いて、正直なところ、私の最初の反応は「またか」というものでした。"
 ---
 
 Google DeepMindのGemini Ultra 2.0、その真意とAIの未来に何をもたらすのか？

@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2026-03-05-3-llmgpt-4o", "title": "オープンソースLLM、GPT-4o性能超えの衝撃とその理由とは", "reason": "関連記事"}, {"slug": "2026-03-05-3-eu-ai-act-high-risk-regulation", "title": "2026年8月EU AI Act施行、企業が知るべき高リスクAI規制の全貌", "reason": "関連記事"}, {"slug": "2026-03-04-1-ai-agents-enterprise-app-adopt", "title": "AIエージェント：2026年、企業アプリの40%に搭載", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-07-1-ai-coding-developer-productivi-ogp.png"
+description: "AI技術の進化は目覚ましいものがありますが、特に開発現場では「AIコーディング」が大きな話題となっています。GitHub CopilotやClaude Codeのようなツールが登場し、コード生成やデバッグをAIが支援してくれるようになりました。"
 ---
 
 ## AIコーディングは開発者の生産性を本当に変えるのか？ 実践者が語る進化と現場のリアル

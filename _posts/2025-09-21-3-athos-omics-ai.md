@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Athos Omics AI、新薬ターゲット発見の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-21-3-athos-omics-ai-ogp.png"
+description: "Athos Omics AI、新薬ターゲット発見の真意とは？正直なところ、Athos Omics AIという名前を聞いた時、また新しいAI創薬のスタートアップか、と一瞬身構えました。あなたも感じているかもしれませんが、この20年間、AIが「次の特効薬」を見つけると謳われたプロジェクトをどれだけ見てきたことか。"
 ---
 
 Athos Omics AI、新薬ターゲット発見の真意とは？

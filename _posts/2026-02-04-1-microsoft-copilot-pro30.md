@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "おい、君もこのニュースを見た時、思わず「おっ、マジか！」って声が出たんじゃないかな？ Microsoft Copilot Proの法人向け利用率が、あっという間に30%を突破したという話だ。"
 reading_time: 10
 image: "/assets/images/posts/2026-02-04-1-microsoft-copilot-pro30-ogp.png"
+description: "おい、君もこのニュースを見た時、思わず「おっ、マジか！」って声が出たんじゃないかな？ Microsoft Copilot Proの法人向け利用率が、あっという間に30%を突破したという話だ。正直なところ、私もこの数字には少し驚きを隠せないでいるんだ。"
 ---
 
 # Microsoft Copilot Pro法人利用率30%突破、この数字は一体何を意味しているのだろうか？

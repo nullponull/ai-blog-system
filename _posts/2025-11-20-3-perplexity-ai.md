@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "最近、Perplexity AIが企業向け機能の拡充に力を入れているというニュースを耳にして、あなたも少し驚いたのではないでしょうか。正直なところ、私自身も最初は「また新しいAIスタートアップがB2B市場に参入か」と、"
 reading_time: 20
 image: "/assets/images/posts/2025-11-20-3-perplexity-ai-ogp.png"
+description: "Perplexity AIの企業向け機能拡充、その真意とは？ AI検索が変える「知」の未来最近、Perplexity AIが企業向け機能の拡充に力を入れているというニュースを耳にして、あなたも少し驚いたのではないでしょうか。"
 ---
 
 **Perplexity AIの企業向け機能拡充、その真意とは？ AI検索が変える「知」の未来**

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「またAdobeか！」正直、初めてこのニュースに触れた時、私の口からこぼれたのはそんな言葉だったね。君も同じように感じたかもしれない。Adobeが生成AI「Firefly」を動画編集に本格的に持ち込み、"
 reading_time: 20
 image: "/assets/images/posts/2026-01-14-2-adobe-firefly-ogp.png"
+description: "Adobe Fireflyが動画編集市場に投じる波紋：月額$20が拓くクリエイティブの新時代とは？「またAdobeか！」正直、初めてこのニュースに触れた時、私の口からこぼれたのはそんな言葉だったね。君も同じように感じたかもしれない。"
 ---
 
 **Adobe Fireflyが動画編集市場に投じる波紋：月額$20が拓くクリエイティブの新時代とは？**

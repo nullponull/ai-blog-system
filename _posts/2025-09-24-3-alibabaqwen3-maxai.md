@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Alibabaの「Qwen3-Max」はAIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-24-3-alibabaqwen3-maxai-ogp.png"
+description: "Alibabaの「Qwen3-Max」はAIの未来をどう変えるのか？いやはや、またしても驚かされましたね。Alibabaが1兆を超えるパラメータを持つ「Qwen3-Max-Preview」を発表したと聞いて、正直なところ、私も最初は「またか」と少し斜に構えてしまいました。"
 ---
 
 Alibabaの「Qwen3-Max」はAIの未来をどう変えるのか？

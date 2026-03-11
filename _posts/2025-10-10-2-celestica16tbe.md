@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Celesticaの1.6TbEスイッチ発表、その真意は？AIインフラの未来に何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-2-celestica16tbe-ogp.png"
+description: "Celesticaの1.6TbEスイッチ発表、その真意は？AIインフラの未来に何が変わるのか？「また新しい世代のイーサネットスイッチか」――正直なところ、CelesticaがAI/ML向けに1.6TbEスイッチを発表したというニュースを聞いた時、私の最初の反応はそんな感じでした。"
 ---
 
 Celesticaの1.6TbEスイッチ発表、その真意は？AIインフラの未来に何が変わるのか？

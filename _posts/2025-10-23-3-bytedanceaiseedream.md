@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ByteDanceの画像生成AI「Seedream」が描く未来：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-23-3-bytedanceaiseedream-ogp.png"
+description: "ByteDanceの画像生成AI「Seedream」が描く未来：その真意はどこにあるのか？最近、「Maison AI」という名前とByteDanceの画像生成技術を結びつける話を聞くことが増えましたね。あなたもどこかで耳にしたかもしれません。"
 ---
 
 ByteDanceの画像生成AI「Seedream」が描く未来：その真意はどこにあるのか？

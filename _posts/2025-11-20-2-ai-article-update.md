@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "米国のAI半導体輸出承認、中東の野望とグローバル市場に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-20-2-ai-article-update-ogp.png"
+description: "米国のAI半導体輸出承認、中東の野望とグローバル市場に何をもたらすのか？おや、ついにこの時が来たか、とね。米国がUAEやサウジアラビアへのAI半導体の輸出を承認したというニュースを聞いて、真っ先にそう感じたんだ。"
 ---
 
 米国のAI半導体輸出承認、中東の野望とグローバル市場に何をもたらすのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Llama 3とDeepSeek R1といったオープンソースLLMがGPT-4oにどこまで迫れるのか、その実力とAIの民主化における重要性を技術・市場の両面から考察します。"
 reading_time: 8
 image: "/assets/images/posts/2026-02-18-2-llama3-deepseek-r1-vs-gpt4o-ogp.png"
+description: "AI研究者・実装者としての私の視点から、最新のオープンソース大規模言語モデル（LLM）の進化と、それがもたらす可能性について、技術と市場の両面からリアルに評価していきたいと思います。"
 ---
 
 ## オープンソースLLMの躍進：Llama 3、DeepSeek R1はGPT-4oにどこまで迫れるのか？

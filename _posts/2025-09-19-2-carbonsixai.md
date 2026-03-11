@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "CarbonSixのAIロボット、製造業の「常識」をどう塗り替えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-2-carbonsixai-ogp.png"
+description: "CarbonSixのAIロボット、製造業の「常識」をどう塗り替えるのか？また新しいAIロボットの発表か、と正直なところ、私も最初はそう思いました。この20年間、AI業界の浮き沈みを間近で見てきた人間としては、華々しい発表の裏に隠された現場の苦労を嫌というほど知っていますからね。"
 ---
 
 CarbonSixのAIロボット、製造業の「常識」をどう塗り替えるのか？

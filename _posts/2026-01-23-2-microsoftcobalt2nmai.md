@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-23-2-microsoftcobalt2nmai-ogp.png"
+description: "Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？いやー、また面白いニュースが出てきましたね。Microsoftが「Cobalt」というAIチップを開発していて、しかもそれを最先端の2nmプロセスで製造するっていう話。"
 ---
 
 Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？

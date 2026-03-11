@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-18-3-applesiriai-ogp.png"
+description: "Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？いやはや、ついにこの時が来たか、というのが正直な感想ですよ。AppleがSiriの独占を終え、他社製AIアシスタントへの道を開くというニュース、あなたも耳にしましたか？個人的には、これは単なる「規制対応」という言葉では片付けられない、もっ..."
 ---
 
 Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？

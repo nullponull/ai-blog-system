@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-01-3-microsoft-ai-investment-ogp.png"
+description: "MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？最近、マイクロソフトがAI教育に1000万ドルを追加投資するというニュースを耳にして、正直なところ「またか」と、ちょっと斜に構えてしまった自分がいました。というのも、AIを巡る教育投資の話は、この20年、それこそ星の数ほど見てきたからです。"
 ---
 
 MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？

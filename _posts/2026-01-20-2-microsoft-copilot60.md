@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "皆さん、どう思いますか？「Microsoft Copilot、企業向け導入率60%超え」というニュースを目にした時、正直なところ、私自身も最初は「また来たか」という少し懐疑的な気持ちがありました。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-20-2-microsoft-copilot60-ogp.png"
+description: "皆さん、どう思いますか？「Microsoft Copilot、企業向け導入率60%超え」というニュースを目にした時、正直なところ、私自身も最初は「また来たか」という少し懐疑的な気持ちがありました。"
 ---
 
 ## Microsoft Copilotの企業導入率60%超え：その数字が映し出す未来への問い。

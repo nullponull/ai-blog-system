@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Snowflakeの金融向けCortex AI、その真意はデータとAIの融合にあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-02-3-snowflakecortex-ai-ogp.png"
+description: "Snowflakeの金融向けCortex AI、その真意はデータとAIの融合にあるのか？最近、Snowflakeが「金融向けCortex AI」を発表したのを聞いて、あなたも「また新しいAIソリューションか」と感じたかもしれませんね。正直なところ、私も最初はそう思いました。"
 ---
 
 Snowflakeの金融向けCortex AI、その真意はデータとAIの融合にあるのか？

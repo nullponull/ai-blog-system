@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-19-3-saishin-technologies-ogp.png"
 robots: noindex
 sitemap: false
+description: "タイトル: Saishin Technologies、AIエンタメ1.4億円調達の真意はどこにあるのか？いやぁ、最近のAIエンタメ業界の動き、あなたも肌で感じているんじゃないでしょうか？今日も飛び込んできたニュースは「Saishin TechnologiesがAIエンタメで1.4億円調達」。"
 ---
 
 タイトル: Saishin Technologies、AIエンタメ1.4億円調達の真意はどこにあるのか？

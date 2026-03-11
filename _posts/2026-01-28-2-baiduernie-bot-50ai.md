@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BaiduのERNIE Bot 5.0、中国AIの次なる一手は多言語対応強化か？"
 reading_time: 13
 image: "/assets/images/posts/2026-01-28-2-baiduernie-bot-50ai-ogp.png"
+description: "BaiduのERNIE Bot 5.0、中国AIの次なる一手は多言語対応強化か？いやー、皆さん、最近のAI界隈の動向、どう見ていますか？特に中国のBaiduがERNIE Botの最新バージョン、5.0を発表したというニュース、私も耳にして、正直「ほう、これはまた新しい動きだな」というのが第一印象です。"
 ---
 
 BaiduのERNIE Bot 5.0、中国AIの次なる一手は多言語対応強化か？

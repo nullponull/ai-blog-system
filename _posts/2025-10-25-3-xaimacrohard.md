@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-3-xaimacrohard-ogp.png"
+description: "xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？いやはや、最近のAI業界は本当に目まぐるしいね。特にイーロン・マスク氏率いるxAIが打ち出した「Macrohard」構想には、正直、私も最初は耳を疑ったよ。"
 ---
 
 xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？

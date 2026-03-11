@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "VCAT AIの「CREAGEN」発表、企業コンテンツ制作の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-11-2-vcat-aicreagen-ogp.png"
+description: "VCAT AIの「CREAGEN」発表、企業コンテンツ制作の未来をどう変えるのか？「また新しいAIツールか」――正直なところ、VCAT AIが画像・動画生成ソリューション「CREAGEN」を正式リリースしたと聞いた時、私の最初の感想はそんなものでした。"
 ---
 
 VCAT AIの「CREAGEN」発表、企業コンテンツ制作の未来をどう変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "過去の教訓を活かせるか？ IBM WatsonXが製薬研究に挑む真意とは。"
 reading_time: 15
 image: "/assets/images/posts/2025-12-15-2-ibm-watsonx-ogp.png"
+description: "過去の教訓を活かせるか？ IBM WatsonXが製薬研究に挑む真意とは。正直なところ、「IBM WatsonXが製薬研究を加速する」というニュースを聞いた時、私の頭の中にはまず、ある苦い記憶がよぎったんですよ。あなたも同じように感じたかもしれませんね？ そう、かつての「Watson Health」です。"
 ---
 
 過去の教訓を活かせるか？ IBM WatsonXが製薬研究に挑む真意とは。

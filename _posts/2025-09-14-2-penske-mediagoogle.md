@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Penske MediaがGoogleを提訴：AI著作権侵害の波紋はどこまで広がるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-14-2-penske-mediagoogle-ogp.png"
+description: "Penske MediaがGoogleを提訴：AI著作権侵害の波紋はどこまで広がるのか？また来たか、という感じだね。Penske Media Corporation (PMC) がGoogleをAI著作権侵害で提訴したというニュースを聞いて、正直なところ、私がこのAI業界を20年間ウォッチし続けてきた中で、こんな..."
 ---
 
 Penske MediaがGoogleを提訴：AI著作権侵害の波紋はどこまで広がるのか？

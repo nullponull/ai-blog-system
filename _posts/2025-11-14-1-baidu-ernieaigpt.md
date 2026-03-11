@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-14-1-baidu-ernieaigpt-ogp.png"
+description: "Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？皆さん、最近「Baidu ERNIEが視覚AIでGPTを超えた」というニュース、耳にしましたか？正直なところ、私も最初は「またか」と少し懐疑的でした。"
 ---
 
 Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？

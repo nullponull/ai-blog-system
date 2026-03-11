@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "HPEとAMDの「Helios」AIラック発表、その真意は？AIインフラ競争の新たな地平を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-12-02-1-hpeamdheliosai-ogp.png"
+description: "HPEとAMDの「Helios」AIラック発表、その真意は？AIインフラ競争の新たな地平を探るまた新しいAIラックか、そう思うかもしれませんね。正直なところ、私も最初にニュースを聞いた時は「ふむ、いつものことかな」と軽く受け流しそうになりました。でも、ちょっと待ってください。"
 ---
 
 HPEとAMDの「Helios」AIラック発表、その真意は？AIインフラ競争の新たな地平を探る

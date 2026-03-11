@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemma、偽情報生成で一時撤回：AIの「幻覚」はどこまで許容されるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-04-2-google-gemma-ogp.png"
+description: "Google Gemma、偽情報生成で一時撤回：AIの「幻覚」はどこまで許容されるのか？いやはや、またしてもAIの「幻覚」が話題の中心に躍り出てきましたね。Googleが開発した軽量オープンモデル「Gemma」が、米上院議員マーシャ・ブラックバーン氏に関する虚偽の情報を生成し、一時的にAI Studioから削除さ..."
 ---
 
 Google Gemma、偽情報生成で一時撤回：AIの「幻覚」はどこまで許容されるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Blacksmithの1000万ドル調達、AI開発のCIに何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-3-blacksmith1000aici-ogp.png"
+description: "Blacksmithの1000万ドル調達、AI開発のCIに何をもたらすのか？「BlacksmithがAI開発ツールで1000万ドルを調達したって？また新しいCIツールか…」正直なところ、このニュースを最初に聞いた時、私の頭にはそんな思いがよぎりました。"
 ---
 
 Blacksmithの1000万ドル調達、AI開発のCIに何をもたらすのか？

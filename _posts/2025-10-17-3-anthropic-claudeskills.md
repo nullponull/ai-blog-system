@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claudeの「Skills」は、楽天の業務をどう変革するのか？その真意を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-10-17-3-anthropic-claudeskills-ogp.png"
+description: "Anthropic Claudeの「Skills」は、楽天の業務をどう変革するのか？その真意を探るいやはや、また新しいAIの機能が発表されたと聞いて、正直なところ、皆さんも「またか」と感じたかもしれませんね。私もこの業界で20年もAIの進化を見てきましたが、新しい技術が登場するたびに、その真価を見極めるのは一苦労です。"
 ---
 
 Anthropic Claudeの「Skills」は、楽天の業務をどう変革するのか？その真意を探る

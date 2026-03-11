@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2025-10-04-3-aideepseek-r1", "title": "中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？", "reason": "関連記事"}, {"slug": "2026-03-04-2-deepseek-r1-next-gen-inference", "title": "DeepSeek R1、AIのブラックボックスを解き明かす新世代推論モデルの全貌", "reason": "関連記事"}, {"slug": "2026-03-10-2-ai-industry-future-100b-fundin", "title": "1000億ドル調達交渉の舞台裏、AI業界の未来をどう変えるのか？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-10-1-adobeai", "title": "AdobeのAI画像生成、商用利用強化で何が変わる？"}
 image: "/assets/images/posts/2026-03-10-2-llm-evolution-gpt4o-competitor-ogp.png"
+description: "AI開発の現場に身を置いていると、日々進化のスピードに驚かされるばかりです。特に、大規模言語モデル（LLM）の世界では、数ヶ月前には想像もできなかったような性能向上が当たり前のように報告されています。そんな中、近年目覚ましい進歩を遂げているのが、オープンソースLLMの分野です。"
 ---
 
 ## オープンソースLLM、GPT-4oに迫る進化の最前線――Llama、DeepSeek、Qwenの挑戦

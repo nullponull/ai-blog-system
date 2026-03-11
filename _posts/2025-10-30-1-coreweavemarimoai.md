@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-30-1-coreweavemarimoai-ogp.png"
+description: "CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？「おや、また買収か」――正直なところ、CoreWeaveがMarimoを手に入れたというニュースを聞いた時、私の最初の感想はそんなものだったね。AI業界を20年も見ていると、こういう動きは日常茶飯事。"
 ---
 
 CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？

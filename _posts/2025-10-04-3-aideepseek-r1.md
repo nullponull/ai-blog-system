@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-04-3-aideepseek-r1-ogp.png"
+description: "中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？いやはや、また中国から面白いニュースが飛び込んできましたね。DeepSeekという企業が「DeepSeek R1」という大規模言語モデル（LLM）を公開したという話、あなたも耳にしましたか？正直なところ、最初にこの話を聞いた時、「また新し..."
 ---
 
 中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？

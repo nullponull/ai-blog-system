@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Antigravity」という言葉を聞いて、あなたは何を想像しましたか？ 私も最初は「ついにGoogleが反重力技術でも発表したのか？」と、SF映画のような興奮を覚えたものです。正直なところ、一瞬は本当にそう思いましたよ。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-27-1-googleantigravityai-ogp.png"
+description: "Googleの「Antigravity」はAI開発の常識を覆すのか？「Antigravity」という言葉を聞いて、あなたは何を想像しましたか？ 私も最初は「ついにGoogleが反重力技術でも発表したのか？」と、SF映画のような興奮を覚えたものです。正直なところ、一瞬は本当にそう思いましたよ。"
 ---
 
 **Googleの「Antigravity」はAI開発の常識を覆すのか？**

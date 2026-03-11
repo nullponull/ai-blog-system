@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意とは"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-2-lightricksltx-2ai-ogp.png"
+description: "LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意とは皆さん、こんにちは。AI業界を20年間見続けてきた私ですが、また1つ、興味深い発表がありましたね。LightricksがAI動画生成モデル「LTX-2」を公開したというニュース、あなたも耳にしたかもしれません。"
 ---
 
 LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意とは

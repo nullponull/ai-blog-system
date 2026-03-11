@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-10-02-3-laboroaiai-ogp.png"
 robots: noindex
 sitemap: false
+description: "Laboro.AIが描く産業AIの未来、その真価とは？Laboro.AIという名前を聞いて、正直なところ、また新しいAI企業か、と最初は少し斜に構えていました。あなたも感じているかもしれませんが、この数年、AIという言葉が独り歩きして、実態が伴わないソリューションが市場に溢れかえっているでしょう？でもね、彼らが東..."
 ---
 
 Laboro.AIが描く産業AIの未来、その真価とは？

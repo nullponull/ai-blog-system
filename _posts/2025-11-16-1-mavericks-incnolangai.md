@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-16-1-mavericks-incnolangai-ogp.png"
 robots: noindex
 sitemap: false
+description: "Mavericks Inc.の「NoLang」が示す、AI動画生成の真意とは？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。新しい技術が次々と登場し、正直なところ、私も20年間この業界を見てきていますが、そのスピードには驚かされるばかりです。"
 ---
 
 Mavericks Inc.の「NoLang」が示す、AI動画生成の真意とは？

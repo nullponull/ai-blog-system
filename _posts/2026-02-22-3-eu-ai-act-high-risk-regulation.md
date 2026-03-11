@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EU AI法は、高リスクAIを中心に、AIの安全かつ信頼性の高い開発・利用を促進する包括的な規制です。2026年8月の完全施行に向け、AI研究者や実装者はその動向を注視する必要があります。"
 reading_time: 11
 image: "/assets/images/posts/2026-02-22-3-eu-ai-act-high-risk-regulation-ogp.png"
+description: "EU AI法、高リスクAIの定義と2026年施行に向けた規制動向AI技術が急速に進化し、私たちの生活やビジネスに深く浸透していく中で、その倫理的・社会的な影響に対する懸念も高まっています。特に、AIの誤用や意図しない結果がもたらすリスクは無視できません。"
 ---
 
 EU AI法、高リスクAIの定義と2026年施行に向けた規制動向

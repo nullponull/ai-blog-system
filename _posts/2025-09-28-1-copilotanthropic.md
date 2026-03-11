@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "CopilotにAnthropicが加わることで、私たちのAI体験は何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-28-1-copilotanthropic-ogp.png"
+description: "CopilotにAnthropicが加わることで、私たちのAI体験は何が変わるのか？おや、これはまた興味深い動きだね。MicrosoftがCopilotにAnthropicのAIモデルを統合する、というニュースを聞いて、あなたも感じているかもしれないけれど、正直なところ、個人的には少し驚いたよ。"
 ---
 
 CopilotにAnthropicが加わることで、私たちのAI体験は何が変わるのか？

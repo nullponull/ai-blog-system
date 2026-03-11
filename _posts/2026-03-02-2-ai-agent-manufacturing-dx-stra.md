@@ -10,6 +10,7 @@ reading_time: 11
 related_articles: [{"slug": "2026-02-22-1-ai-agents-manufacturing-dx-str", "title": "AIエージェントが製造業DXをどう変える？自律実行能力の真価とは", "reason": "関連記事"}, {"slug": "2026-02-14-1-ai-agents-manufacturing-dx", "title": "AIエージェントが製造業DXをどう変える？予知保全と品質管理の最前線", "reason": "関連記事"}, {"slug": "2026-02-28-1-ai-agent-manufacturing-dx-guid", "title": "AIエージェントが製造業DXをどう変える？2026年までに40%の企業アプリに", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-02-2-ai-agent-manufacturing-dx-stra-ogp.png"
+description: "製造業の現場では、熟練技術者の高齢化や慢性的な人手不足、そしてグローバルな競争激化といった課題に直面しています。こうした状況下で、デジタルトランスフォーメーション（DX）は喫緊の経営課題となっていますが、その実現に向けた具体的なアプローチに悩んでいる経営者やエンジニアの方も多いのではないでしょうか。"
 ---
 
 ## AIエージェントは製造業DXの「次の一手」となるか？実践的導入戦略を掘り下げる

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "製造業DXの鍵はAIエージェントにあり。Gartner予測では2026年までに40%のアプリに搭載。本記事ではAIエージェントの戦略的背景と実践的導入戦略を解説します。"
 reading_time: 10
 image: "/assets/images/posts/2026-03-01-1-ai-agent-manufacturing-dx-gart-ogp.png"
+description: "製造業の現場で、あなたは日々変化する市場の要求に応え、生産性向上やコスト削減のプレッシャーに直面していることでしょう。そんな中、AI、特に「AIエージェント」の台頭は、これまでのDX（デジタルトランスフォーメーション）のあり方を大きく変えようとしています。"
 ---
 
 ## AIエージェントで製造DXを加速：Gartner予測に学ぶ実践的導入戦略

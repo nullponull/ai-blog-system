@@ -753,12 +753,15 @@ def stage3_title_optimization(client, topic, body, dry_run=False):
 【記事冒頭】{intro}
 
 【タイトル条件】
-- 25-40文字
+- 45-58文字（Google検索結果で全文表示される最適長）
+- 主要キーワードを前方（最初の20文字以内）に配置
+- 数字を含める（「○選」「月○万円」「○つの理由」等）
 - 好奇心を刺激する（「その真意は？」「何が変わるのか？」型）
 - 煽り文句禁止（【衝撃】【速報】等）
 - Markdown記号禁止（**, ##, []() 等）
 - 必ず完全な文として終わる（途中で切れない）
 - 具体的な企業名や数値を含むと良い
+- 例: 「ChatGPT企業導入の成功率を3倍にする5つの実践ステップとは」(30文字)
 
 3案をtitles配列で返し、best_indexで最も良いもののインデックス(0始まり)を指定。"""
 
@@ -774,7 +777,7 @@ def stage3_title_optimization(client, topic, body, dry_run=False):
         if idx >= len(result['titles']):
             idx = 0
         raw_title = result['titles'][idx]
-        title = TitleSanitizer.sanitize(raw_title, max_len=45)
+        title = TitleSanitizer.sanitize(raw_title, max_len=60)
 
         print(f"  Candidates:", file=sys.stderr)
         for i, t in enumerate(result['titles']):
@@ -785,7 +788,7 @@ def stage3_title_optimization(client, topic, body, dry_run=False):
 
     # Fallback: use seed title or body title
     fallback = body_title or seed_title or "AI最新動向の分析"
-    title = TitleSanitizer.sanitize(fallback, max_len=45)
+    title = TitleSanitizer.sanitize(fallback, max_len=60)
     print(f"  Fallback title: {title}", file=sys.stderr)
     return title
 
@@ -805,8 +808,9 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
             },
             "slug": {"type": "STRING"},
             "excerpt": {"type": "STRING"},
+            "description": {"type": "STRING"},
         },
-        "required": ["tags", "slug", "excerpt"]
+        "required": ["tags", "slug", "excerpt", "description"]
     }
 
     prompt = f"""以下の記事のメタデータを生成してください。
@@ -822,7 +826,9 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
 
 【slug条件】英語のURL用スラグ、30文字以内、ハイフン区切り（例: openai-gpt5-enterprise-impact）
 
-【excerpt条件】記事の要約、80-120文字の日本語"""
+【excerpt条件】記事の要約、80-120文字の日本語
+
+【description条件】Google検索結果に表示されるメタディスクリプション。120-155文字の日本語。検索意図に直接応える内容で、記事を読むメリットが伝わる文。"""
 
     if dry_run:
         return {
@@ -830,6 +836,7 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
             "tags": ["AI", "LLM"],
             "slug": "test-article",
             "excerpt": "テスト記事の要約です。",
+            "description": "テスト記事のメタディスクリプションです。",
             "author": PERSONAS.get(category, {}).get('author', 'ALLFORCES編集部'),
             "reading_time": 8,
         }
@@ -878,11 +885,16 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
                     excerpt = stripped[:120]
                     break
 
+        description = result.get('description', '')
+        if not description:
+            description = excerpt  # Fallback to excerpt
+
         metadata = {
             "category": category,
             "tags": tags,
             "slug": slug[:30],
             "excerpt": excerpt[:150],
+            "description": description[:160],
             "author": author,
             "reading_time": reading_time,
         }
@@ -890,11 +902,13 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
         # Fallback metadata
         slug = re.sub(r'[^a-z0-9-]', '',
                       TitleSanitizer.to_slug(title)).strip('-')[:30] or "ai-article"
+        fallback_excerpt = body[:120].replace('\n', ' ') if body else ""
         metadata = {
             "category": category,
             "tags": ["AI", category],
             "slug": slug,
-            "excerpt": body[:120].replace('\n', ' ') if body else "",
+            "excerpt": fallback_excerpt,
+            "description": fallback_excerpt,
             "author": author,
             "reading_time": reading_time,
         }
@@ -999,6 +1013,7 @@ def build_frontmatter(title, metadata, now=None):
     date_str = now.strftime('%Y-%m-%d %H:%M:%S +0900')
     tags_str = json.dumps(metadata['tags'], ensure_ascii=False)
 
+    description = metadata.get('description', metadata.get('excerpt', ''))
     fm = f"""---
 layout: post
 title: "{title}"
@@ -1006,6 +1021,7 @@ date: {date_str}
 categories: [{metadata['category']}]
 tags: {tags_str}
 author: "{metadata['author']}"
+description: "{description}"
 excerpt: "{metadata['excerpt']}"
 reading_time: {metadata['reading_time']}"""
 

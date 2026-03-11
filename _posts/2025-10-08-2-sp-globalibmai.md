@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "S&P GlobalとIBMのAIエージェント提携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-08-2-sp-globalibmai-ogp.png"
+description: "S&P GlobalとIBMのAIエージェント提携、その真意はどこにあるのか？おや、これはまた興味深いニュースが飛び込んできましたね。S&P GlobalとIBMがAIエージェントで戦略的提携を発表したという話。"
 ---
 
 S&P GlobalとIBMのAIエージェント提携、その真意はどこにあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIエージェントが製造業のDXをどう変えるか、その自律実行能力に焦点を当てて解説。人手不足、生産性向上、品質管理などの課題解決策と、AI導入によるROI向上への道筋を探ります。"
 reading_time: 11
 image: "/assets/images/posts/2026-02-25-1-ai-agents-manufacturing-dx-rev-ogp.png"
+description: "製造業の現場で、「もっと効率化できれば」「人手不足を解消できれば」と感じている方は少なくないでしょう。あなたも、日々の業務の中で、こうした課題に直面しているのではないでしょうか。"
 ---
 
 ## AIエージェントが製造業DXを革新する：自律実行能力が切り拓く未来

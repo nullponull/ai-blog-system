@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "中国矩僑工業の触覚繊維センサー、ロボットの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-17-3-ai-article-update-ogp.png"
+description: "中国矩僑工業の触覚繊維センサー、ロボットの未来をどう変えるのか？正直なところ、中国の矩僑工業（JQ Industries）が「第四世代の触覚繊維センサー」を開発したというニュースを聞いた時、私の最初の反応は「またか」というものでした。"
 ---
 
 中国矩僑工業の触覚繊維センサー、ロボットの未来をどう変えるのか？

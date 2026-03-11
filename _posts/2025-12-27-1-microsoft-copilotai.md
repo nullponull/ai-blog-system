@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "やあ、元気にしてるかい？また1つ、大きなニュースが飛び込んできたね。Microsoft Copilotが産業AIとのAPI連携を強化する、と。正直なところ、最初にこの報道に触れた時、私は少しばかり懐疑的だったんだ。"
 reading_time: 20
 image: "/assets/images/posts/2025-12-27-1-microsoft-copilotai-ogp.png"
+description: "やあ、元気にしてるかい？また1つ、大きなニュースが飛び込んできたね。Microsoft Copilotが産業AIとのAPI連携を強化する、と。正直なところ、最初にこの報道に触れた時、私は少しばかり懐疑的だったんだ。"
 ---
 
 ## Microsoft Copilotが産業AIと連携強化、その戦略の深層に迫る。

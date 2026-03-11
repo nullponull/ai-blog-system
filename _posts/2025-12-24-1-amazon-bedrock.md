@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「え、Amazon Bedrockが新モデルでコストを半減させるって、本当？」"
 reading_time: 20
 image: "/assets/images/posts/2025-12-24-1-amazon-bedrock-ogp.png"
+description: "Amazon Bedrockのコスト半減、何が変わるのか？「え、Amazon Bedrockが新モデルでコストを半減させるって、本当？」そう聞くと、正直、私も最初は「またか…」と思ってしまったんです。AI業界を20年近く見てきていると、こうしたニュースは次から次へと飛び込んできますからね。"
 ---
 
 Amazon Bedrockのコスト半減、何が変わるのか？

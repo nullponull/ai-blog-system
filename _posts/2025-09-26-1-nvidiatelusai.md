@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-26-1-nvidiatelusai-ogp.png"
+description: "NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？Nvidiaとカナダの通信大手Telusが手を組み、カナダ初の「主権AIハブ」を設立するというニュース、あなたも耳にしましたか？正直なところ、最初にこの話を聞いた時、「また新しいAIデータセンターか」と、少しばかり懐疑的な気持ちがよぎったんですよ。"
 ---
 
 NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？

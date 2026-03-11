@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-13-2-appleaiappleai-ogp.png"
+description: "AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？正直なところ、このニュースを聞いた時、私は少し驚きました。AppleのAI担当幹部が相次いで退社しているという話、あなたも耳にしましたか？特に、AIモデル開発のトップであるRuoming Pang氏がMetaのSuperintelli..."
 ---
 
 AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？

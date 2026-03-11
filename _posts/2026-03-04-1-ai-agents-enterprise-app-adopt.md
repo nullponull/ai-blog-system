@@ -10,6 +10,7 @@ reading_time: 8
 related_articles: [{"slug": "2026-03-04-1-ai202640", "title": "AIエージェント、2026年に企業アプリの40%に搭載", "reason": "関連記事"}, {"slug": "2026-02-18-1-ai-agents-business-transformat", "title": "AIエージェントがビジネスをどう変える？現場目線の徹底解説", "reason": "関連記事"}, {"slug": "2026-03-02-1-ai-agent-manufacturing-dx-evol", "title": "AIエージェントで製造業DXはどこまで進化するのか、その全貌とは", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-04-1-ai-agents-enterprise-app-adopt-ogp.png"
+description: "AI技術の進化は日々加速しており、特に「AIエージェント」という言葉を耳にする機会が増えてきました。Gartnerによると、2026年までに企業アプリケーションの40%にAIエージェントが搭載されると予測されています。"
 ---
 
 ## AIエージェント：2026年、企業アプリの40%に搭載される自律型アシスタントの現在地

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「さくらのAI Engine」が示す、日本のAIインフラの真価とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-24-2-ai-engineai-ogp.png"
+description: "「さくらのAI Engine」が示す、日本のAIインフラの真価とは？さくらインターネットが「さくらのAI Engine」の一般提供を開始したと聞いて、正直なところ、あなたも感じているかもしれませんが、私はまず「また来たか」と少しばかり懐疑的な気持ちになりました。"
 ---
 
 「さくらのAI Engine」が示す、日本のAIインフラの真価とは？

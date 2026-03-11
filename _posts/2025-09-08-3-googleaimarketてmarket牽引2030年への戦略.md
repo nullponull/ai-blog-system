@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI市場は2030年までに世界経済に19.9兆ドルの経済効果をもたらすと予測され、Googleの親会社Alphabetは2025年に750億ドル（約11兆5000億円）をAIインフラに投じる計画です。"
 reading_time: 6
 image: "/assets/images/posts/2025-09-08-3-googleaimarketてmarket牽引2030年への戦略-ogp.png"
+description: "AI市場は2030年までに世界経済に19.9兆ドルの経済効果をもたらすと予測され、Googleの親会社Alphabetは2025年に750億ドル（約11兆5000億円）をAIインフラに投じる計画です。"
 ---
 
 # Google、AI投資で市場牽引：2030年への戦略

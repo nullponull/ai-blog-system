@@ -10,6 +10,7 @@ reading_time: 7
 related_articles: [{"slug": "2026-03-04-2-oss-llm-performance-gpt4o-riva", "title": "オープンソースLLM、GPT-4o超えの性能", "reason": "関連記事"}, {"slug": "2026-03-04-2-deepseek-r1-next-gen-inference", "title": "DeepSeek R1、AIのブラックボックスを解き明かす新世代推論モデルの全貌", "reason": "関連記事"}, {"slug": "2026-03-01-3-eu-ai-law-open-source-future", "title": "EU AI法、オープンソースAI研究の未来はどうなるのか？", "reason": "関連記事"}]
 pillar_article: {"slug": "2025-12-20-3-euai10", "title": "EUのAI人材育成、10億ユーロ投資は何を変えるのか？"}
 image: "/assets/images/posts/2026-03-11-2-cot-inference-model-trends-ogp.png"
+description: "開発現場で、あるいはAIを活用するビジネスの最前線で、そんな疑問を抱いたことはありませんか？ブラックボックス化されたAIの意思決定プロセスは、時に私たちを不安にさせ、その能力への信頼を揺るがしかねません。"
 ---
 
 ## AIの「思考」を覗く：CoT推論モデルが拓く、次世代AIの可能性

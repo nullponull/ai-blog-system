@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "2025年6月、カンヌライオンズ国際クリエイティビティ・フェスティバルにおいて、Adobeは企業向けアプリケーション「LLM Optimizer」を発表しました。"
 reading_time: 10
 image: "/assets/images/posts/2025-08-29-4-adobellmoptimizerai-ogp.png"
+description: "2025年6月、カンヌライオンズ国際クリエイティビティ・フェスティバルにおいて、Adobeは企業向けアプリケーション「LLM Optimizer」を発表しました。これは、生成AIインターフェースが消費者の情報発見や購買決定における主要なチャネルへと移行する中で、ブランドがその存在感を最適化するための画期的なソリュ..."
 ---
 
 ## 概要と背景

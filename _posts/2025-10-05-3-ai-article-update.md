@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「科学AI」は本当に次のフロンティアなのか？Periodic Labsの挑戦とその真意"
 reading_time: 20
 image: "/assets/images/posts/2025-10-05-3-ai-article-update-ogp.png"
+description: "「科学AI」は本当に次のフロンティアなのか？Periodic Labsの挑戦とその真意最近、シリコンバレーのAI界隈で、また1つ大きなニュースが飛び込んできましたね。Periodic Labsというスタートアップが、なんとシードラウンドで3億ドル（約444億円）という破格の資金を調達したという話です。"
 ---
 
 「科学AI」は本当に次のフロンティアなのか？Periodic Labsの挑戦とその真意

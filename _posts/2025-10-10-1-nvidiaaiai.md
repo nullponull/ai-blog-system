@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "富士通とNVIDIA、AI協業拡大の真意とは？日本のAI戦略に何をもたらすのか"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-1-nvidiaaiai-ogp.png"
+description: "富士通とNVIDIA、AI協業拡大の真意とは？日本のAI戦略に何をもたらすのか正直なところ、このニュースを聞いた時、私は「またか」と一瞬思ってしまいました。富士通とNVIDIAの協業拡大。あなたも感じているかもしれませんが、AI業界では日々、様々な企業が提携を発表していますよね。"
 ---
 
 富士通とNVIDIA、AI協業拡大の真意とは？日本のAI戦略に何をもたらすのか

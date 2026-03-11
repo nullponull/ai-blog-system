@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探る"
 reading_time: 20
 image: "/assets/images/posts/2025-11-20-2-world-labsai-ogp.png"
+description: "World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探るいやはや、皆さん、最近のAI業界の動きには目を見張るものがありますね。特にWorld Labsというスタートアップが「空間AI」という概念で、あっという間に$2億3,000万もの投資を集め、設立からわずか数ヶ月でユニコーン企業にな..."
 ---
 
 World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探る

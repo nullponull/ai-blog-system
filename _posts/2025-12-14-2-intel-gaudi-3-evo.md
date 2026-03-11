@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Intel Gaudi 3 Evo、AI推論市場に新たな波を起こすか？その真価を問う。"
 reading_time: 12
 image: "/assets/images/posts/2025-12-14-2-intel-gaudi-3-evo-ogp.png"
+description: "Intel Gaudi 3 Evo、AI推論市場に新たな波を起こすか？その真価を問う。IntelがGaudi 3 EvoでAI推論を加速する、というニュースを目にしたとき、正直なところ、あなたも私も同じような反応をしたんじゃないかな。「また来たか、IntelのAIアクセラレータ…」と。"
 ---
 
 Intel Gaudi 3 Evo、AI推論市場に新たな波を起こすか？その真価を問う。

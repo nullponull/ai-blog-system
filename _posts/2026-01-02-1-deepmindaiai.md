@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？"
 reading_time: 7
 image: "/assets/images/posts/2026-01-02-1-deepmindaiai-ogp.png"
+description: "DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？あなたもきっと、このニュースを目にしたんじゃないでしょうか。「DeepMindがAGI模倣AIで新境地」。正直なところ、私も最初にこの見出しを見たときは、またか、と少し冷めた目で見てしまったんです。"
 ---
 
 DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？

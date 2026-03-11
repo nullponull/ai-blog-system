@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot+と法人AI戦略の真意：私たちの働き方はどう変わるのか？"
 reading_time: 12
 image: "/assets/images/posts/2026-01-16-1-microsoft-copilotai-ogp.png"
+description: "Microsoft Copilot+と法人AI戦略の真意：私たちの働き方はどう変わるのか？最近のMicrosoftの動き、あなたも注目していましたか？ 僕はね、正直言って、Copilot+ PCの発表は、AI業界を20年近く見てきた中でも特に印象深い出来事の1つだったんですよ。"
 ---
 
 Microsoft Copilot+と法人AI戦略の真意：私たちの働き方はどう変わるのか？

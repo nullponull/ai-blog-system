@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAI DevDayが示す、AIアプリエコシステムの未来とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-11-3-openai-devdayai-ogp.png"
+description: "OpenAI DevDayが示す、AIアプリエコシステムの未来とは？いやはや、今回のOpenAI DevDay、正直なところ、最初は「また新しいモデルか、APIのアップデートか」と、いつものように少し斜に構えて見ていたんですよ。だって、この20年間、シリコンバレーの熱狂と幻滅を何度も見てきましたからね。"
 ---
 
 OpenAI DevDayが示す、AIアプリエコシステムの未来とは？

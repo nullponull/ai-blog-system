@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-09-2-adobegoogleai-ogp.png"
+description: "AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？皆さん、最近のAdobeとGoogleの生成AI連携強化のニュース、どう感じましたか？正直なところ、私のような古参のアナリストからすると、「また来たか」というのが最初の印象でしたね。"
 ---
 
 AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？

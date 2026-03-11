@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、30超の生成AIモデル、何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2026-02-11-1-amazon-bedrock30ai-ogp.png"
+description: "Amazon Bedrock、30超の生成AIモデル、何が変わるのか？いやー、ついに出ましたね、Amazon Bedrock。生成AIモデルが30種以上も利用可能になったというニュース、あなたも耳にしましたよね？正直、私自身もこの業界を20年近く見てきましたが、これほど短期間でこれほどの選択肢が提供されるとは、想..."
 ---
 
 Amazon Bedrock、30超の生成AIモデル、何が変わるのか？

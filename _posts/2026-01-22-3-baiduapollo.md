@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baidu「Apollo」の都市展開、中国が描く自動運転社会の青写真は本当に実現するのか？"
 reading_time: 14
 image: "/assets/images/posts/2026-01-22-3-baiduapollo-ogp.png"
+description: "Baidu「Apollo」の都市展開、中国が描く自動運転社会の青写真は本当に実現するのか？中国Baiduが自動運転AIを一部都市で展開、というニュース、君も耳にしたかな？正直なところ、僕もね、AI業界に20年もいると「また来たか」というのが最初の印象だったんだ。この手のニュースは枚挙にいとまがないからね。"
 ---
 
 Baidu「Apollo」の都市展開、中国が描く自動運転社会の青写真は本当に実現するのか？

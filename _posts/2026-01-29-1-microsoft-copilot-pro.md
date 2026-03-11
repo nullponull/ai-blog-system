@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot Pro、医療分野で精度95%って、本当？何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-29-1-microsoft-copilot-pro-ogp.png"
+description: "Microsoft Copilot Pro、医療分野で精度95%って、本当？何が変わるのか？いやー、このニュース、飛び込んできたときは正直「またAIか」って思っちゃったんだ。Microsoft Copilot Proが医療分野で「精度95%」なんて、ちょっと出来すぎじゃない？ってね。"
 ---
 
 Microsoft Copilot Pro、医療分野で精度95%って、本当？何が変わるのか？

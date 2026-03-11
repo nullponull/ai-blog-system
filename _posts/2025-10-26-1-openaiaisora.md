@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-26-1-openaiaisora-ogp.png"
+description: "OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？正直なところ、OpenAIが音楽生成AIに本格的に乗り出すというニュースを聞いた時、そして同時にSoraの規制強化が進んでいると知った時、あなたも感じているかもしれませんが、私は「また来たか」と、少しばかり複雑な気持ちになりました。"
 ---
 
 OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？

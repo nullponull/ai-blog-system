@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-07-2-vast-dataai-ogp.png"
+description: "Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？あなたも感じているかもしれませんが、最近のAI業界のニュースは、まるでジェットコースターのようですよね。毎日、新しいモデル、新しい投資、そして驚くような提携の発表が飛び交っています。"
 ---
 
 Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？

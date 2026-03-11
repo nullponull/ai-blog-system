@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-12-29-2-google-deepmind-ogp.png"
 robots: noindex
 sitemap: false
+description: "Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？ねぇ、最近Google DeepMindがAI創薬で新薬候補を見つけたってニュース、耳にした？正直なところ、私のようにAI業界の波乱を20年も見てきた人間からすると、最初は「またか」と構えてしまったんだ。"
 ---
 
 Google DeepMindが創薬に挑む、その真意と私たちが見るべき未来とは？

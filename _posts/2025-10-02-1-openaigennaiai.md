@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-02-1-openaigennaiai-ogp.png"
+description: "OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？いやはや、皆さん、最近のAI業界の動きには本当に目を見張るものがありますね。特に、OpenAIが日本のデジタル庁と手を組み、「Gennai（源内）」というAIツールを提供し始めたというニュース、あなたも耳にしましたか？正直なところ、私..."
 ---
 
 OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？

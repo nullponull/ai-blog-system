@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BedrockにClaude 4登場、これはAI市場の競争をどう変えるのだろうか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-22-1-bedrockclaude-4-ogp.png"
+description: "BedrockにClaude 4登場、これはAI市場の競争をどう変えるのだろうか？おいおい、また来たか！というのが、Amazon BedrockにAnthropicの最新モデル、Claude 4が投入されたというニュースを聞いたときの私の正直な感想だよ。"
 ---
 
 BedrockにClaude 4登場、これはAI市場の競争をどう変えるのだろうか？

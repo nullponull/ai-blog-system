@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-18-1-microsoftai-ogp.png"
+description: "MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？最近、MicrosoftがAIエージェントとセキュリティ強化に力を入れているというニュースを耳にして、あなたも「また新しいAIの話か」と感じたかもしれませんね。正直なところ、私も最初はそうでした。"
 ---
 
 MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？

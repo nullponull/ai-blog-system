@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？"
 reading_time: 14
 image: "/assets/images/posts/2025-12-06-2-awsaitrainium-3-ogp.png"
+description: "AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？AWSがre:Invent 2025で発表したAIエージェントの本格展開と、自社AI半導体「Trainium 3」の投入。"
 ---
 
 AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？

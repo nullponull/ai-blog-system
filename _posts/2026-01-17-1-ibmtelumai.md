@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-17-1-ibmtelumai-ogp.png"
+description: "IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。正直なところ、IBMが新しいAIチップ「Telum（テルム）」を発表したと聞いた時、あなたも私と同じように「またか」と感じたかもしれませんね。"
 ---
 
 IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OracleとOpenAIの提携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-13-3-oracleopenai-ogp.png"
+description: "OracleとOpenAIの提携、その真意はどこにあるのか？正直なところ、このニュースを聞いた時、最初は少し驚いたんだ。君もそう感じたかもしれないね。長年、AI業界の動向を追い続けてきた私にとっても、OracleとOpenAIという組み合わせは、一見すると意外に映った。"
 ---
 
 OracleとOpenAIの提携、その真意はどこにあるのか？

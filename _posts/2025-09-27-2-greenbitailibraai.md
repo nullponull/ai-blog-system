@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-2-greenbitailibraai-ogp.png"
+description: "GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？また新しいAIの発表か、と思った人もいるかもしれませんね。正直なところ、私も最初はそう感じました。この業界に20年もいると、鳴り物入りで登場しては消えていく技術を山ほど見てきましたから。"
 ---
 
 GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？

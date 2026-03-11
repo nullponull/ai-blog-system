@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "L&T TechとMITのAGI探求、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-2-lt-techmitai-ogp.png"
+description: "L&T TechとMITのAGI探求、その真意はどこにあるのか？おや、L&T Technology Services（LTTS）がMIT Media Labと組んでAGI（汎用人工知能）の探求ですか。これはちょっと面白い動きですね。あなたもこのニュースを見て、「またAGIか」と少し身構えたかもしれません。"
 ---
 
 L&T TechとMITのAGI探求、その真意はどこにあるのか？

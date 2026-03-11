@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "2025年8月7日にOpenAIからリリースされた最新の大規模言語モデル「GPT-5」は、その登場とともに、ビジネスコミュニケーションとスケジュール管理のあり方を根本から変える可能性を秘めた新機能を発表しました。"
 reading_time: 10
 image: "/assets/images/posts/2025-08-30-3-chatgptgpt-5gmailgoogle-ogp.png"
+description: "2025年8月7日にOpenAIからリリースされた最新の大規模言語モデル「GPT-5」は、その登場とともに、ビジネスコミュニケーションとスケジュール管理のあり方を根本から変える可能性を秘めた新機能を発表しました。"
 ---
 
 ## 概要と背景

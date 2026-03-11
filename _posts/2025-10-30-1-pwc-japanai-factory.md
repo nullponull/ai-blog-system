@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "PwC Japanの「AI Factory」発足、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-30-1-pwc-japanai-factory-ogp.png"
+description: "PwC Japanの「AI Factory」発足、その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。新しい発表があるたびに、「今度は何が来るんだ？」とワクワクする一方で、正直なところ、「また新しいバズワードか？」と少し懐疑的になる自分もいます。"
 ---
 
 PwC Japanの「AI Factory」発足、その真意はどこにあるのか？

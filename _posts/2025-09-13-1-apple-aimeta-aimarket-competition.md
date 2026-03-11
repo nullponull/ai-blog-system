@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Apple AI幹部、Metaへ流出の真意は？ AI覇権争いの新たな局面を読む"
 reading_time: 20
 image: "/assets/images/posts/2025-09-13-1-apple-aimeta-aimarket-competition-ogp.png"
+description: "Apple AI幹部、Metaへ流出の真意は？ AI覇権争いの新たな局面を読むいやはや、最近のAI業界の動きには本当に驚かされますね。特に、AppleのAI部門を牽引してきた幹部たちが次々とMetaへ移籍しているというニュース、あなたも耳にしましたか？正直なところ、私もこの話を聞いた時、思わず「またか！」と声が出..."
 ---
 
 Apple AI幹部、Metaへ流出の真意は？ AI覇権争いの新たな局面を読む

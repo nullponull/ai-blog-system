@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-10-23-2-google-gemini-ultra-ogp.png"
 robots: noindex
 sitemap: false
+description: "Google Gemini Ultraのリアルタイム動画解析、その真価はどこにあるのか？正直なところ、初めてGoogle Gemini Ultraがリアルタイム動画解析を実装したというニュースを聞いた時、私は少し懐疑的でした。また「すごいAI」が来たのか、と。"
 ---
 
 Google Gemini Ultraのリアルタイム動画解析、その真価はどこにあるのか？

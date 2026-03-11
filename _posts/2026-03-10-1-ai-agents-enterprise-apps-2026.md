@@ -10,6 +10,7 @@ reading_time: 7
 related_articles: [{"slug": "2026-03-05-2-openai-funding-ai-industry-res", "title": "OpenAI巨額調達交渉、AI業界地図をどう塗り替えるか", "reason": "関連記事"}, {"slug": "2026-03-05-2-anthropic-15b-funding-ai-reorg", "title": "Anthropicの150億ドル調達、AI業界再編の真意とは何か", "reason": "関連記事"}, {"slug": "2026-03-03-3-eu-ai-act-corporate-impact", "title": "EU AI Act施行、高リスクAI規制で企業はどう変わるのか？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-22-2-multimodal-ai-roi3x-efficiency", "title": "マルチモーダルAI、ROI3倍の真実：断片情報からの脱却と業務効率化"}
 image: "/assets/images/posts/2026-03-10-1-ai-agents-enterprise-apps-2026-ogp.png"
+description: "AIエージェントの導入で、あなたのチームはどう変わる？ 実体験から語る、成功と失敗の分かれ道「AIエージェントが2026年までに企業アプリケーションの40%に搭載される」――Gartnerのこの予測、あなたも耳にしているかもしれませんね。"
 ---
 
 AIエージェントの導入で、あなたのチームはどう変わる？ 実体験から語る、成功と失敗の分かれ道

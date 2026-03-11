@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-20-2-ntttsuzumi-2dx-ogp.png"
+description: "NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？いやはや、ついにこの日が来ましたね。NTTが日本語特化LLMの次世代モデル「tsuzumi 2（つづみツー）」を本日、2025年10月20日に提供開始したというニュース。"
 ---
 
 NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？

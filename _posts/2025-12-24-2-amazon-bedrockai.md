@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockと量子AI、その連携強化で何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-24-2-amazon-bedrockai-ogp.png"
+description: "Amazon Bedrockと量子AI、その連携強化で何が変わるのか？やあ、みんな。今日はちょっと刺激的なニュースについて、みんなとじっくり話したいんだ。Amazon Bedrockと量子AIの連携強化、ね。正直、このニュースを聞いたとき、「ほう、ついに来たか」というのが第一声だったよ。"
 ---
 
 Amazon Bedrockと量子AI、その連携強化で何が変わるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-1-furiosaaiai-ogp.png"
+description: "FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？正直なところ、このニュースを聞いた時、私は少し懐疑的でした。また新しいAIチップ企業か、と。この20年間、シリコンバレーのガレージから日本の大企業の研究所まで、数えきれないほどのAIスタートアップを見てきましたからね。"
 ---
 
 FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？

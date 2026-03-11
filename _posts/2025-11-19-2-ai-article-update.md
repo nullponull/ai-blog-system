@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-19-2-ai-article-update-ogp.png"
+description: "ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？正直なところ、このニュースを聞いた時、「またソフトバンクがやってくれたな」と、私の中に長年染み付いた驚きと、どこか懐かしさのような感情が湧き上がってきたのを、あなたも感じていただけたのではないでしょうか。"
 ---
 
 ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？

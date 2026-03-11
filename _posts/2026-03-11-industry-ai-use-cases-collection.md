@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 description: "2026年最新の業界別AI活用事例50選。製造・金融・小売/EC・医療・物流の5業界における具体的な導入事例と成果を、導入規模・効果とともに網羅的に紹介します。"
 pillar: true
 image: "/assets/images/posts/2026-03-11-industry-ai-use-cases-collection-ogp.png"
+excerpt: "2026年、AIの企業導入は「先進企業の取り組み」から「業界標準」へと変化しつつある。経済産業省の最新レポートによれば、AI導入による経済効果は国内だけで年間約15兆円規模に達すると試算されている。"
 ---
 
 ## はじめに：2026年、業界を問わず広がるAI活用

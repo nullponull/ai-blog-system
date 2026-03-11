@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "QualcommのPC向けAIチップ、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-25-2-qualcommpcai-ogp.png"
+description: "QualcommのPC向けAIチップ、その真意はどこにあるのか？またQualcommがPC向けAIチップを発表したと聞いて、正直なところ、最初は「またか」と思ったんですよ。あなたもそう感じたかもしれませんね。"
 ---
 
 QualcommのPC向けAIチップ、その真意はどこにあるのか？

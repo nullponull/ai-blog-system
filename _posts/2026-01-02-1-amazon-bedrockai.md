@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル、エンタープライズAIの未来をどう変える？"
 reading_time: 18
 image: "/assets/images/posts/2026-01-02-1-amazon-bedrockai-ogp.png"
+description: "Amazon Bedrockの新モデル、エンタープライズAIの未来をどう変える？いやー、Amazon Bedrockの新しいモデルの話、耳にしてますか？正直、第一報を聞いたとき、「またか」って思っちゃったんですよ。だって、ここ数年、AI、特に生成AIの進化って、もう目まぐるしいじゃないですか。"
 ---
 
 Amazon Bedrockの新モデル、エンタープライズAIの未来をどう変える？

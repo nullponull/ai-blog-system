@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "次期Snapdragon、AI性能3倍は本当？何が変わるのか？"
 reading_time: 7
 image: "/assets/images/posts/2026-01-25-2-snapdragonai3-ogp.png"
+description: "次期Snapdragon、AI性能3倍は本当？何が変わるのか？いやー、Qualcommが次世代SnapdragonチップでAI処理能力を3倍に向上させる、というニュース。正直、第一報を聞いたときは「またか」というのが率直な感想でした。だって、もう何年も前から、各社が「AI性能を〇倍に！」って発表してますからね。"
 ---
 
 次期Snapdragon、AI性能3倍は本当？何が変わるのか？

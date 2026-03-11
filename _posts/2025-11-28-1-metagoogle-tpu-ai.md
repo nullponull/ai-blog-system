@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "メタがGoogle TPUを採用？ AIインフラの未来に何が変わるのか、その真意は"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-1-metagoogle-tpu-ai-ogp.png"
+description: "メタがGoogle TPUを採用？ AIインフラの未来に何が変わるのか、その真意はマジか、これは本当に面白い動きだと思わないかい？ メタ・プラットフォームズがGoogleのAIチップ、TPU（Tensor Processing Unit）をデータセンターに導入する検討を始めたというニュースを聞いて、正直、私は最初..."
 ---
 
 メタがGoogle TPUを採用？ AIインフラの未来に何が変わるのか、その真意は

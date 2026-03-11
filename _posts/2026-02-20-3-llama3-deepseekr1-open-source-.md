@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Llama 3やDeepSeek R1といったオープンソースLLMの進化が、AIの地平を大きく変えようとしています。本記事では、これらのモデルの技術的本質と、企業の実務へのインパクトを分析し、AIの未来像を描きます。"
 reading_time: 9
 image: "/assets/images/posts/2026-02-20-3-llama3-deepseekr1-open-source--ogp.png"
+description: "AI業界の激しい開発競争の中で、オープンソースLLM（大規模言語モデル）が驚異的な進化を遂げていることを、あなたはご存知でしょうか？特にMeta PlatformsのLlama 3や、DeepSeek AIのR1モデルなどは、もはや商用モデルに匹敵する、あるいは凌駕する性能を示し始めています。"
 ---
 
 ## オープンソースLLMの躍進：Llama 3とDeepSeek R1が切り拓くAIの新たな地平

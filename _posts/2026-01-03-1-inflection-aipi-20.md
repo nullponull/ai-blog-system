@@ -9,6 +9,7 @@ excerpt: "「Inflection AI、新モデル『Pi 2.0』発表、対話精度85%」
 reading_time: 8
 canonical_url: "https://ai-media.co.jp/2026/01/02/1-inflection-aipi-20/"
 image: "/assets/images/posts/2026-01-03-1-inflection-aipi-20-ogp.png"
+description: "「Inflection AI、新モデル『Pi 2.0』発表、対話精度85%」――この見出しを目にしたとき、正直なところ、あなたも「またか」と少しだけ疲れたんじゃないかな？ 僕もね、20年以上この業界を見てきたけれど、毎日のように新しいAIモデルの発表があって、もう驚くこと自体が難しくなっている。"
 ---
 
 ### Inflection AIのPi 2.0、対話精度85%の真意は？ AIパーソナルモデルの未来を読み解く

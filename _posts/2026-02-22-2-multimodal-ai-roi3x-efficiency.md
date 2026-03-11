@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "マルチモーダルAIがROI3倍を達成した製造業A社の事例を紹介。断片的な情報共有、非効率な品質管理、顧客対応の遅延といった課題を、GPT-4oとClaude 3 Opusの連携で解決し、業務効率化とビジネス加速を実現しました。"
 reading_time: 9
 image: "/assets/images/posts/2026-02-22-2-multimodal-ai-roi3x-efficiency-ogp.png"
+description: "「AIって、結局何がすごいの？」そう感じている方も多いのではないでしょうか。特に、画像や音声、テキストといった複数の情報を同時に理解する「マルチモーダルAI」の登場は、ビジネスの世界に大きな変革をもたらし始めています。"
 ---
 
 ## マルチモーダルAIでROI3倍達成：画像・音声・テキスト統合処理がビジネスを加速する

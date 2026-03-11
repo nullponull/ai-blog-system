@@ -10,6 +10,7 @@ reading_time: 10
 related_articles: [{"slug": "2025-11-18-2-google-gemini-30", "title": "Google Gemini 3.0の可能性とは？", "reason": "関連記事"}, {"slug": "2025-11-16-3-google-deepmindai", "title": "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？", "reason": "関連記事"}, {"slug": "2025-08-30-2-google-geminiai検索で覇権狙い", "title": "Google Gemini、AI検索で覇権狙い", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-04-3-ai-investment-2026-industry-sh-ogp.png"
+description: "皆さんも感じているかもしれませんが、AIの世界は本当に目まぐるしいスピードで進化していますね。特に、Google、Meta、Microsoftといったハイパースケーラーたちが打ち出すAI設備投資の規模には、度肝を抜かれるばかりです。"
 ---
 
 ## ハイパースケーラーの巨額投資が描く、2026年のAI業界地図：インフラとサービス提供者はどう動くべきか

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "YouTube MusicのAIホストは、音楽体験をどう変えるのか？その真意を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-3-youtube-musicai-ogp.png"
+description: "YouTube MusicのAIホストは、音楽体験をどう変えるのか？その真意を探るおや、また来たか、というのが正直なところ、私の最初の印象でしたね。YouTube MusicがAIホストを導入し、トリビアテストまで提供するというニュースを聞いて、あなたも感じているかもしれませんが、正直なところ、個人的には「また新..."
 ---
 
 YouTube MusicのAIホストは、音楽体験をどう変えるのか？その真意を探る

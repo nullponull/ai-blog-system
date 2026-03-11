@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EU AI法がオープンなAI研究に与える影響を技術者視点で解説。規制とオープン化のジレンマ、LLMの進化への影響、そして今後の展望を考察します。"
 reading_time: 9
 image: "/assets/images/posts/2026-02-27-3-eu-ai-act-open-ai-research-fut-ogp.png"
+description: "EU AI法、オープンなAI研究の未来にどう影響するのか？技術者目線で深掘りする皆さん、AI業界の目まぐるしい進化についていけていますか？私自身、AI開発の現場で日々奮闘していますが、ここ数年でAIを取り巻く環境は文字通り「激変」しました。"
 ---
 
 EU AI法、オープンなAI研究の未来にどう影響するのか？技術者目線で深掘りする

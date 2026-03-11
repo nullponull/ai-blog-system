@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropicの「Interviewer」AI、その真意とは何か？"
 reading_time: 13
 image: "/assets/images/posts/2025-12-05-1-anthropicinterviewerai-ogp.png"
+description: "Anthropicの「Interviewer」AI、その真意とは何か？正直なところ、最初に「Anthropicが調査AI『Interviewer』を公開」というニュースを見た時、私は少し懐疑的でしたね。また新しいツールか、と。"
 ---
 
 Anthropicの「Interviewer」AI、その真意とは何か？

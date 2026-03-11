@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Copilot Pro、企業はどう変わる？：AI先輩アナリストが深掘り"
 reading_time: 20
 image: "/assets/images/posts/2025-12-21-2-copilot-proai-ogp.png"
+description: "Copilot Pro、企業はどう変わる？：AI先輩アナリストが深掘り「Microsoft Copilot Pro、企業向け機能強化」のニュース、あなたも気になってるんじゃないかな？正直、AI業界を20年も見てきた身としては、こういうニュースが出ると「またか」と思いつつも、つい目が離せなくなるんだ。"
 ---
 
 Copilot Pro、企業はどう変わる？：AI先輩アナリストが深掘り

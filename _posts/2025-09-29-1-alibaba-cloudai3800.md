@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Alibaba CloudのAI投資3800億元、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-29-1-alibaba-cloudai3800-ogp.png"
+description: "Alibaba CloudのAI投資3800億元、その真意はどこにあるのか？「Alibaba CloudがAIに3800億元（約530億米ドル）を今後3年間で投資する」――このニュースを聞いた時、正直なところ、私自身も一瞬立ち止まってしまいました。あなたも感じているかもしれませんが、この数字は尋常ではありませんよね。"
 ---
 
 Alibaba CloudのAI投資3800億元、その真意はどこにあるのか？

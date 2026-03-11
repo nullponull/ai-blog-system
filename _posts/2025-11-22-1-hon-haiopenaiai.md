@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-22-1-hon-haiopenaiai-ogp.png"
+description: "Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？ホンハイとOpenAIが手を組む――このニュースを聞いて、あなたも「おや？」と思ったんじゃないでしょうか。正直なところ、私も20年この業界を見てきて、ここまでサプライチェーンの再編が叫ばれるのは久しぶりです。"
 ---
 
 Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？

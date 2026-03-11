@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-23-1-awsgpubedrock2-ogp.png"
+description: "AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？いやー、このニュース、目にして「おや？」と思った方も多いんじゃないでしょうか。Amazon Bedrockが、AWSの新しいGPU、具体的には「Trainium2」と「Inferentia3」を搭載することで、性能が最大2倍になるという話。"
 ---
 
 AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？

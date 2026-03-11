@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIエージェントフレームワーク、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-16-3-microsoftai-ogp.png"
+description: "MicrosoftのAIエージェントフレームワーク、その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のAI業界は目まぐるしいですよね。特にMicrosoftが10月1日にAIエージェントフレームワークのプレビューを公開したというニュースを聞いて、正直なところ、私は「また来たか」という気持ちと、「..."
 ---
 
 MicrosoftのAIエージェントフレームワーク、その真意はどこにあるのか？

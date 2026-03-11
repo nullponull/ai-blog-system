@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Lexarの「AIストレージCore」発表、その真意とは？エッジAIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-2-lexaraicore-ogp.png"
+description: "Lexarの「AIストレージCore」発表、その真意とは？エッジAIの未来をどう変えるのか？正直なところ、最初にLexarが「AIストレージCore」を発表したというニュースを聞いた時、私は少し懐疑的でした。「また新しいマーケティング用語か？」と。"
 ---
 
 Lexarの「AIストレージCore」発表、その真意とは？エッジAIの未来をどう変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Penske対Google AI訴訟：著作権の嵐は、AIの未来をどう変えるのか？」"
 reading_time: 20
 image: "/assets/images/posts/2025-09-18-1-penskegoogle-ai-ogp.png"
+description: "「Penske対Google AI訴訟：著作権の嵐は、AIの未来をどう変えるのか？」皆さん、こんにちは。AI業界を20年近く見続けてきた私ですが、最近のニュースには正直、驚きと同時に「またか」という複雑な感情を抱いています。"
 ---
 
 「Penske対Google AI訴訟：著作権の嵐は、AIの未来をどう変えるのか？」

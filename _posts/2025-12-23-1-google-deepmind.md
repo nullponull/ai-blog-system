@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Google DeepMindが創薬AIで300件もの新薬候補を発見したって、あなたもニュースで見たんじゃないかな？」"
 reading_time: 10
 image: "/assets/images/posts/2025-12-23-1-google-deepmind-ogp.png"
+description: "「Google DeepMindが創薬AIで300件もの新薬候補を発見したって、あなたもニュースで見たんじゃないかな？」正直なところ、僕も最初にそのヘッドラインを見た時は、思わず「またか」と呟いてしまったんだ。20年間このAI業界をウォッチし続けていると、創薬AIに関する華々しい発表は幾度となく耳にしてきたからね。"
 ---
 
 ## Google DeepMind、創薬AIで300件の新薬候補を発見：その真意と、医療の未来をどう変えるのか？

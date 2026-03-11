@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "米国「Genesis Mission」が描くAI国家基盤の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-26-2-genesis-missionai-ogp.png"
+description: "米国「Genesis Mission」が描くAI国家基盤の真意とは？「米国が『Genesis Mission』でAI国家基盤を構築する」というニュースを目にした時、正直なところ、私は少し眉をひそめてしまいました。「また壮大な計画か」と。"
 ---
 
 米国「Genesis Mission」が描くAI国家基盤の真意とは？

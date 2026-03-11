@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AdobeがFirefly 2.0を発表したね。正直、私のような古い人間からすると、また新しいバージョンか、と一瞬構えてしまうものだよ。だって、この20年、AI業界の浮き沈みをずっと見てきたからね。"
 reading_time: 8
 image: "/assets/images/posts/2026-01-25-1-adobe-firefly-20-ogp.png"
+description: "AdobeがFirefly 2.0を発表したね。正直、私のような古い人間からすると、また新しいバージョンか、と一瞬構えてしまうものだよ。だって、この20年、AI業界の浮き沈みをずっと見てきたからね。鳴り物入りで登場しては消えていった技術も数知れず。"
 ---
 
 ## Adobe Firefly 2.0、その真意とは？ クリエイティブの未来は本当に変わるのか？

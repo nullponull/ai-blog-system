@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Oracle AI Database 26aiの真意は？データとAIの融合がもたらす未来とは。"
 reading_time: 20
 image: "/assets/images/posts/2025-10-15-2-oracle-ai-database-26ai-ogp.png"
+description: "Oracle AI Database 26aiの真意は？データとAIの融合がもたらす未来とは。Oracleがまた何か仕掛けてきたな、というのが正直な第一印象でした。ラスベガスで開催された「Oracle AI World 2025」で発表された「Oracle AI Database 26ai」。"
 ---
 
 Oracle AI Database 26aiの真意は？データとAIの融合がもたらす未来とは。

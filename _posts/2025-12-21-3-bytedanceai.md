@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、ByteDanceがAI生成コンテンツの収益化戦略を発表したというニュース、あなたも耳にしましたか？正直、この手のニュースは日々飛び交っているので、最初は「またか」という気持ちも少しありました。"
 reading_time: 20
 image: "/assets/images/posts/2025-12-21-3-bytedanceai-ogp.png"
+description: "ByteDanceのAI収益化戦略、その真意は？いやー、ByteDanceがAI生成コンテンツの収益化戦略を発表したというニュース、あなたも耳にしましたか？正直、この手のニュースは日々飛び交っているので、最初は「またか」という気持ちも少しありました。だって、AIの進化って本当に目まぐるしいですからね。"
 ---
 
 ByteDanceのAI収益化戦略、その真意は？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-10-2-ibmanthropicai-ogp.png"
+description: "IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？正直なところ、このニュースを聞いた時、私は「またか」と少しばかり懐疑的になりました。IBMとAnthropicの提携、そしてClaude導入による生産性45%向上という数字。"
 ---
 
 IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？

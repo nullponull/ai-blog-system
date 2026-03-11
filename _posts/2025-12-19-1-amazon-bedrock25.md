@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、推論コスト25%削減は、何を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-19-1-amazon-bedrock25-ogp.png"
+description: "Amazon Bedrock、推論コスト25%削減は、何を変えるのか？いやー、このニュース、あなたも耳にしましたか？Amazon Bedrockが推論コストを25%削減したって話。正直、第一報を聞いた時は「またか」って思いましたよ。AI業界を20年も見てると、似たような謳い文句は数えきれないほど聞いてきましたからね。"
 ---
 
 Amazon Bedrock、推論コスト25%削減は、何を変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBM Quantum、AI計算能力倍増の真意とは？ その戦略が示す未来への一手。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-15-1-ibm-quantum-ogp.png"
+description: "IBM Quantum、AI計算能力倍増の真意とは？ その戦略が示す未来への一手。ニュースリリースを見た時、正直なところ「またIBMが何か仕掛けてきたな」というのが最初の印象だったんだ。"
 ---
 
 IBM Quantum、AI計算能力倍増の真意とは？ その戦略が示す未来への一手。

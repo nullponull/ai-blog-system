@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ねぇ、君もあのニュース見た？MicrosoftがCopilotに1000億ドルも突っ込むって話。正直、最初は「またか」って思ったんだ。だって、ここ数年、AI、特に生成AIへの投資合戦は熾烈を極めているからね。"
 reading_time: 6
 image: "/assets/images/posts/2026-02-05-1-microsoftai-ogp.png"
+description: "Microsoftの巨額投資、欧州AIはどう変わるのか？ねぇ、君もあのニュース見た？MicrosoftがCopilotに1000億ドルも突っ込むって話。正直、最初は「またか」って思ったんだ。だって、ここ数年、AI、特に生成AIへの投資合戦は熾烈を極めているからね。OpenAIへの先行投資だって、相当な額だったわけで。"
 ---
 
 Microsoftの巨額投資、欧州AIはどう変わるのか？

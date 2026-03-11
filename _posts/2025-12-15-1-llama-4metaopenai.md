@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Metaが次世代LLM『Llama 4』を発表、性能30%向上」――このニュースを聞いて、あなたはどう感じましたか？正直なところ、私も最初にこの見出しを目にした時、「また一段とギアを上げてきたな」と、思わず膝を打ったんですよ。"
 reading_time: 9
 image: "/assets/images/posts/2025-12-15-1-llama-4metaopenai-ogp.png"
+description: "「Metaが次世代LLM『Llama 4』を発表、性能30%向上」――このニュースを聞いて、あなたはどう感じましたか？正直なところ、私も最初にこの見出しを目にした時、「また一段とギアを上げてきたな」と、思わず膝を打ったんですよ。"
 ---
 
 ## Llama 4の登場で、Metaが描くオープンAI戦略の深層とは何か？

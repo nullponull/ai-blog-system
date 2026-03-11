@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Samsungが「Exynos Neo」で狙うAI半導体市場の深層：処理能力2倍はゲームチェンジャーとなるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-05-2-samsungexynos-neoai-ogp.png"
+description: "Samsungが「Exynos Neo」で狙うAI半導体市場の深層：処理能力2倍はゲームチェンジャーとなるのか？「SamsungがAIチップ『Exynos Neo』を発表、処理能力2倍だってさ！」このニュースを最初に耳にした時、正直なところ、私の中のベテランアナリストが少し斜に構えたのを隠せませんでした。"
 ---
 
 Samsungが「Exynos Neo」で狙うAI半導体市場の深層：処理能力2倍はゲームチェンジャーとなるのか？

@@ -10,6 +10,7 @@ reading_time: 7
 related_articles: [{"slug": "2025-12-03-1-2026ai", "title": "2026年、AIエージェントがビジネスをどう変えるのか？その真意を探る", "reason": "関連記事"}, {"slug": "2026-01-06-3-2026naverai", "title": "2026年、NAVERがAI検索を再定義する？その戦略の深層を読み解く。", "reason": "関連記事"}, {"slug": "2026-03-03-2-xai-memphis-data-center-ai-fut", "title": "xAIのメンフィス巨大データセンター、AI開発の未来に何をもたらすのか", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-10-1-adobeai", "title": "AdobeのAI画像生成、商用利用強化で何が変わる？"}
 image: "/assets/images/posts/2026-03-05-1-ai-agents-enterprise-apps-2026-ogp.png"
+description: "AIエージェント、ビジネスを変革する新時代へ：2026年、企業アプリの4割が搭載へAI開発の現場で日々、進化のスピードに驚かされています。特に、AIエージェントの進化は目覚ましく、私自身、あるプロジェクトでAIエージェントのプロトタイプを開発していた際、その自律性と学習能力に目を見張るものがありました。"
 ---
 
 AIエージェント、ビジネスを変革する新時代へ：2026年、企業アプリの4割が搭載へ

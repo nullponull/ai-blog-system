@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-3-nttsmart-ai-agent-ogp.png"
+description: "NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？NTTデータが「Smart AI Agent」で2027年までに20億ドルの収益を目指す、というニュースを聞いて、正直なところ、最初は「また大きな数字が出てきたな」と感じた人もいるかもしれませんね。"
 ---
 
 NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？

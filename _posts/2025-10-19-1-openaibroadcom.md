@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-10-19-1-openaibroadcom-ogp.png"
+description: "OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探るあなたも感じているかもしれませんが、OpenAIとBroadcomがAIチップ開発で戦略的提携を結び、その規模が「1兆ドル」に達する可能性があるというニュースを聞いた時、正直なところ、私も最初は目を疑いました。"
 ---
 
 OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探る

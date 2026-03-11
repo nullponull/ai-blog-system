@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-27-1-nttugoaipf-ogp.png"
+description: "NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。特に「AIロボティクスプラットフォーム」なんて聞くと、また新しいバズワードか、と正直なところ、個人的には最初は少し懐疑的になるんです。"
 ---
 
 NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？

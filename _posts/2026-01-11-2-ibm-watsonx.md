@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、このニュース、あなたも気になってるんじゃないかな？「IBM WatsonX、製薬企業向けAI解析強化」。私みたいなAI業界を長年見てきた人間からすると、正直、最初は「またWatsonか…」というのが本音。"
 reading_time: 6
 image: "/assets/images/posts/2026-01-11-2-ibm-watsonx-ogp.png"
+description: "IBM WatsonX、製薬業界で何を変えようとしている？いやー、このニュース、あなたも気になってるんじゃないかな？「IBM WatsonX、製薬企業向けAI解析強化」。私みたいなAI業界を長年見てきた人間からすると、正直、最初は「またWatsonか…」というのが本音。"
 ---
 
 IBM WatsonX、製薬業界で何を変えようとしている？

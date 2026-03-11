@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、ついにAdobe Firefly V5の発表ですよ。AI画像生成の界隈、本当に目まぐるしいですよね。私もこの業界を20年近く見てきましたが、ここまで技術の進化が加速するとは、正直20年前には想像もできませんでした。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-05-2-firefly-v5adobe-ogp.png"
+description: "Firefly V5、Adobeはどこへ向かうのか？いやー、ついにAdobe Firefly V5の発表ですよ。AI画像生成の界隈、本当に目まぐるしいですよね。私もこの業界を20年近く見てきましたが、ここまで技術の進化が加速するとは、正直20年前には想像もできませんでした。"
 ---
 
 Firefly V5、Adobeはどこへ向かうのか？

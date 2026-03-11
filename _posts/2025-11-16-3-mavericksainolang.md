@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Mavericksの動画生成AI「NoLang」機能拡充、その真意と市場への波紋とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-3-mavericksainolang-ogp.png"
+description: "Mavericksの動画生成AI「NoLang」機能拡充、その真意と市場への波紋とは？いやはや、最近のAI業界の動きは本当に目まぐるしいね。あなたも感じているかもしれませんが、特に動画生成AIの分野は、ちょっと前までは「まだ実験段階かな」なんて思っていたのが、あっという間に実用レベルに達してきている。"
 ---
 
 Mavericksの動画生成AI「NoLang」機能拡充、その真意と市場への波紋とは？

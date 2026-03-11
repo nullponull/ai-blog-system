@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NvidiaとAnthropicの巨額提携：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-1-nvidiaanthropic-ogp.png"
+description: "NvidiaとAnthropicの巨額提携：その真意はどこにあるのか？いやはや、最近のAI業界、本当に動きが激しいですね。NvidiaがAnthropicに最大100億ドルもの巨額投資をするというニュース、あなたも耳にしたんじゃないでしょうか。"
 ---
 
 NvidiaとAnthropicの巨額提携：その真意はどこにあるのか？

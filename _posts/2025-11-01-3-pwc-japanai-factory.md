@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "PwC Japanの「AI Factory」は、コンサルティングの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-3-pwc-japanai-factory-ogp.png"
+description: "PwC Japanの「AI Factory」は、コンサルティングの未来をどう変えるのか？正直なところ、PwC Japanが「AI Factory」を設立すると聞いた時、私の最初の反応は「またか」というものでした。"
 ---
 
 PwC Japanの「AI Factory」は、コンサルティングの未来をどう変えるのか？

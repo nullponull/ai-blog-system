@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-15-2-openaiapps-in-chatgpt-ogp.png"
+description: "OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？皆さん、OpenAIが「Apps in ChatGPT」という、いわゆる「アプリストア構想」を発表したのを聞いて、どう感じましたか？正直なところ、私自身、最初にこのニュースに触れた時、「また新しいプラットフォームか」と、少しばかり懐疑..."
 ---
 
 OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-01-19-2-microsoftazure-ai-ogp.png"
+description: "MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？君もこのニュース、目にしたんじゃないかな？ 「Microsoft、Azure AIで中小企業向けDX支援強化、月額1万円～」。"
 ---
 
 MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？

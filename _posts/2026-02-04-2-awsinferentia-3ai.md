@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWSの「Inferentia 3」発表、AIの未来はどう変わる？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-04-2-awsinferentia-3ai-ogp.png"
+description: "AWSの「Inferentia 3」発表、AIの未来はどう変わる？やあ、みんな。AI業界を長年見ていると、色々なことがあったけど、今回のAmazon Web Services (AWS) の「Inferentia 3」の発表は、ちょっと注目せずにはいられないな。"
 ---
 
 AWSの「Inferentia 3」発表、AIの未来はどう変わる？

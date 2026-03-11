@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、また新しいAIモデルの話が出てきましたね。中国のBaiduが「ERNIE 5」を発表した、というニュース。正直、最初は「またか」と思ったのが本音です。だって、この20年、AIの進化のスピードには目を見張るものがありましたが、"
 reading_time: 7
 image: "/assets/images/posts/2026-01-04-2-ernie-5baiduai-ogp.png"
+description: "ERNIE 5登場！BaiduのAI戦略、何がすごいのか？いやー、また新しいAIモデルの話が出てきましたね。中国のBaiduが「ERNIE 5」を発表した、というニュース。正直、最初は「またか」と思ったのが本音です。"
 ---
 
 ERNIE 5登場！BaiduのAI戦略、何がすごいのか？

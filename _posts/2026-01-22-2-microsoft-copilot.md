@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、Microsoft Copilotの中小企業向け料金体系の拡充、これ、結構なニュースですよね。正直、私も最初聞いたときは「またか」という思いと、「でも、これはちょっと違うかもしれない」という期待が入り混じった感じでした。"
 reading_time: 7
 image: "/assets/images/posts/2026-01-22-2-microsoft-copilot-ogp.png"
+description: "Microsoft Copilot、中小企業はどう変わる？いやー、Microsoft Copilotの中小企業向け料金体系の拡充、これ、結構なニュースですよね。正直、私も最初聞いたときは「またか」という思いと、「でも、これはちょっと違うかもしれない」という期待が入り混じった感じでした。"
 ---
 
 Microsoft Copilot、中小企業はどう変わる？

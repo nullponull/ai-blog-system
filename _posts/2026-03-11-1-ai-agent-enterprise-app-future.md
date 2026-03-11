@@ -10,6 +10,7 @@ reading_time: 10
 related_articles: [{"slug": "2025-10-09-3-nedoai", "title": "NEDOが生成AIの安全技術開発を推進する、その真意とは？", "reason": "関連記事"}, {"slug": "2025-11-08-2-ymobileai", "title": "ソフトバンクとY!mobileが描く自律AIの未来、その真意とは？", "reason": "関連記事"}, {"slug": "2025-10-07-2-saas2028argon-co", "title": "「SaaSは2028年に消滅する」Argon & Coの予測、その真意とは？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-11-1-ai-agent-enterprise-app-future-ogp.png"
+description: "AIエージェントは、企業アプリケーションの未来をどう変えるのか？実装の現場から見えたこと皆さん、AIエージェントという言葉を耳にする機会が増えたのではないでしょうか。私自身、AI実装プロジェクトに携わる中で、この技術がビジネスアプリケーションに与えるインパクトの大きさを日々実感しています。"
 ---
 
 AIエージェントは、企業アプリケーションの未来をどう変えるのか？実装の現場から見えたこと

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデル50種搭載。何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-20-1-amazon-bedrock50-ogp.png"
+description: "Amazon Bedrock、新モデル50種搭載。何が変わるのか？正直、このニュースを聞いたとき、思わず声が出ちゃいました。Amazon Bedrockが、新しいAIモデルを50種類も搭載したっていうんですから。AI業界を20年近く見てきた僕からしても、これはさすがにインパクトがあります。"
 ---
 
 Amazon Bedrock、新モデル50種搭載。何が変わるのか？

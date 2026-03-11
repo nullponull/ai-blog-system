@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMind AlphaFold3、タンパク質予測精度95%の衝撃は、本当に創薬の未来を変えるのか？"
 reading_time: 14
 image: "/assets/images/posts/2026-01-20-1-deepmind-alphafold3-ogp.png"
+description: "DeepMind AlphaFold3、タンパク質予測精度95%の衝撃は、本当に創薬の未来を変えるのか？おいおい、また出たぞ、DeepMindが！ 君もきっと、そう思ったんじゃないかな。AlphaFold3、タンパク質構造予測精度95%――この数字を見た時、正直なところ、個人的には最初はちょっと眉唾だったんだ。"
 ---
 
 DeepMind AlphaFold3、タンパク質予測精度95%の衝撃は、本当に創薬の未来を変えるのか？

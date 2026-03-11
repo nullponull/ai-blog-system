@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-22-3-openaistripeai-ogp.png"
+description: "OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？いやはや、またしても大きなニュースが飛び込んできましたね。OpenAIとStripeが手を組み、AI決済を小売業界に本格的に持ち込むという話。"
 ---
 
 OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？

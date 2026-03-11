@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意とは"
 reading_time: 20
 image: "/assets/images/posts/2025-10-28-1-qualcommai200nvidia-ogp.png"
+description: "QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意とは「また新しいAIチップか」――正直なところ、QualcommがAI200を発表したと聞いた時、私の最初の反応はそんな感じでした。"
 ---
 
 QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意とは

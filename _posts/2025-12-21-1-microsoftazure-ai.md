@@ -9,6 +9,7 @@ excerpt: "MicrosoftはAzure AIで何を発表したのだろうか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-21-1-microsoftazure-ai-ogp.png"
 image: "/assets/images/posts/2025-12-21-1-microsoftazure-ai-ogp.png"
+description: "MicrosoftはAzure AIで何を発表したのだろうか？いやー、またMicrosoftが動きましたね！ Azure AIで新しい生成モデルを発表したというニュース、あなたも耳にしましたか？ 私なんかはAI業界をもう20年も見てきているので、こういうニュースが出ると、ついつい「これは一体どういうことなんだろう..."
 ---
 
 MicrosoftはAzure AIで何を発表したのだろうか？

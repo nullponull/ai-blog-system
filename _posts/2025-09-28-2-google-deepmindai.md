@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindのロボットAI新モデル、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-28-2-google-deepmindai-ogp.png"
+description: "Google DeepMindのロボットAI新モデル、その真意はどこにあるのか？「またロボットAIのニュースか」――正直なところ、最初にGoogle DeepMindの「Gemini Robotics 1.5」と、その「頭脳」として機能する「Gemini Robotics-ER 1.5」の発表を見た時、私の頭をよ..."
 ---
 
 Google DeepMindのロボットAI新モデル、その真意はどこにあるのか？

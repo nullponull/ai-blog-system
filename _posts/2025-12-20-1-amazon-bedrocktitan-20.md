@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-20-1-amazon-bedrocktitan-20-ogp.png"
+description: "Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？やあ、みんな。20年近くこのAI業界を渡り歩いてきた身として、今回のAmazon Bedrockからの「Titan 2.0」発表には、正直、ちょっとばかり「おっ？」と思わされたよ。"
 ---
 
 Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？

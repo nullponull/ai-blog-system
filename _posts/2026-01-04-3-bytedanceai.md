@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。AI業界を20年近く見続けてきたベテランアナリストとして、最近のByteDanceの動きには、正直言って「おっ」と思わされたよ。AI学習ツールで教育市場を開拓するというニュース、君たちも耳にしたかな？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-04-3-bytedanceai-ogp.png"
+description: "ByteDanceのAI教育参入、何が変わるのか？やあ、みんな。AI業界を20年近く見続けてきたベテランアナリストとして、最近のByteDanceの動きには、正直言って「おっ」と思わされたよ。"
 ---
 
 ByteDanceのAI教育参入、何が変わるのか？

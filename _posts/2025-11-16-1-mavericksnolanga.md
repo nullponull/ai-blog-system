@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Mavericksの「NoLang」が動画生成AIを強化、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-1-mavericksnolanga-ogp.png"
+description: "Mavericksの「NoLang」が動画生成AIを強化、その真意はどこにあるのか？いやはや、また新しい動きが出てきましたね。Mavericksという日本のスタートアップが開発している「NoLang」という動画生成AIが、さらに機能を強化したという話を聞いて、正直なところ「またか」というのが最初の印象でした。"
 ---
 
 Mavericksの「NoLang」が動画生成AIを強化、その真意はどこにあるのか？

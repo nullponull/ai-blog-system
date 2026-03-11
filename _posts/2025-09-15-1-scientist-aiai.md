@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Scientist AI」が示す、サムスンAI戦略の「真意」とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-15-1-scientist-aiai-ogp.png"
+description: "「Scientist AI」が示す、サムスンAI戦略の「真意」とは？サムスンAIフォーラム2025、あなたもこのニュースを聞いて、少し立ち止まったんじゃないでしょうか？正直なところ、私も最初は「また新しいAIモデルか」と、少し斜に構えていました。"
 ---
 
 「Scientist AI」が示す、サムスンAI戦略の「真意」とは？

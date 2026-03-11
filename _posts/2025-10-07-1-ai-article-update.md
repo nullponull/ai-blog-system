@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIチップ製造の舞台裏：Applied Materialsの静かなる革新が未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-07-1-ai-article-update-ogp.png"
+description: "AIチップ製造の舞台裏：Applied Materialsの静かなる革新が未来をどう変えるのか？Applied Materials、この名前を聞いて、皆さんは何を思い浮かべるでしょうか？正直なところ、私自身も20年間この業界を見てきて、彼らの存在の重要性は理解しつつも、華やかなAIスタートアップやGPUメーカーの..."
 ---
 
 AIチップ製造の舞台裏：Applied Materialsの静かなる革新が未来をどう変えるのか？

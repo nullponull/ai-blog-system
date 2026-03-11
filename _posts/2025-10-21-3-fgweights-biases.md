@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-21-3-fgweights-biases-ogp.png"
+description: "みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？「おや、みずほFGがWeights & Biases（W&B）を導入したって？」。このニュースを聞いた時、正直なところ、私は少し驚きました。大手金融機関が、これほどまでに具体的なMLOpsプラットフォームを、しかも国内で初めて採用するとは。"
 ---
 
 みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？

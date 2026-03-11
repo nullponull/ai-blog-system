@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MetaのAIチップ、TSMCとの連携強化で何が変わるのか？"
 reading_time: 9
 image: "/assets/images/posts/2025-12-12-1-metaaitsmc-ogp.png"
+description: "MetaのAIチップ、TSMCとの連携強化で何が変わるのか？いやー、このニュース、皆さんもうチェックしましたか？ MetaがAIチップの設計でTSMCとの連携をさらに強化する、という話。正直、最初見たときは「またか」という思いと、「これはただ事じゃないぞ」という2つの感情が同時に湧き上がってきました。"
 ---
 
 MetaのAIチップ、TSMCとの連携強化で何が変わるのか？

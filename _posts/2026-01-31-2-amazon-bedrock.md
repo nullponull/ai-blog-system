@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、ついに来ましたね！Amazon Bedrockが新しいモデルで推論速度を30%も改善したっていうニュース、あなたも耳にしましたか？正直、この業界で20年近くもAIの進化を追いかけていると、毎日のように新しい技術やサービスが登場して、"
 reading_time: 20
 image: "/assets/images/posts/2026-01-31-2-amazon-bedrock-ogp.png"
+description: "Amazon Bedrockの進化、何が変わるのか？いやー、ついに来ましたね！Amazon Bedrockが新しいモデルで推論速度を30%も改善したっていうニュース、あなたも耳にしましたか？正直、この業界で20年近くもAIの進化を追いかけていると、毎日のように新しい技術やサービスが登場して、正直「またか」と思って..."
 ---
 
 Amazon Bedrockの進化、何が変わるのか？

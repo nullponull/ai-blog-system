@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Skillsの真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-18-1-anthropic-claude-skills-ogp.png"
+description: "Anthropic Claude Skillsの真意はどこにあるのか？Anthropicが「Claude Skills」を発表したと聞いて、正直なところ、最初は「また新しい機能か」と少し懐疑的な気持ちになりました。"
 ---
 
 Anthropic Claude Skillsの真意はどこにあるのか？

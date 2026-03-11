@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-01-1-googletpuv7ironwood-ogp.png"
+description: "GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？最近、Googleが発表したTPUv7、コードネーム「Ironwood」がAI業界で大きな話題になっているのをあなたも感じているかもしれませんね。"
 ---
 
 GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？

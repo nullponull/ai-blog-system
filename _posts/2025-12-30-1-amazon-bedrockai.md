@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-30-1-amazon-bedrockai-ogp.png"
+description: "Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？おいおい、ちょっと待てよ、と思ったのは私だけでしょうか？ あなたも同じような違和感を感じませんでしたか？ 「Amazon Bedrockが量子AIに対応へ」というニュースを耳にした時、私の頭の中にはいくつもの疑問符が浮..."
 ---
 
 Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？

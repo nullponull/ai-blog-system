@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AppleのAR/VR向けAIチップ、その真意は何でしょうか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-09-3-applearvrai-ogp.png"
+description: "AppleのAR/VR向けAIチップ、その真意は何でしょうか？いやはや、AI業界を20年近く見続けていると、本当に色々なニュースが飛び込んできます。今回、AppleがAR/VR向けに新しいAIチップを投入するという情報、あなたも耳にしましたか？正直、このニュースを聞いた時、「またAppleか」というのが第一印象でした。"
 ---
 
 AppleのAR/VR向けAIチップ、その真意は何でしょうか？

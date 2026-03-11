@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-30-3-sensetimeai-ogp.png"
+description: "SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？あなたも感じているかもしれませんが、AI業界の動きは本当に目まぐるしいですよね。特に自動運転の分野は、一歩間違えれば命に関わるだけに、技術の進化だけでなく、ビジネス戦略も非常に重要になってきます。"
 ---
 
 SenseTime、自動運転AIの新提携が示す未来のモビリティ戦略とは？

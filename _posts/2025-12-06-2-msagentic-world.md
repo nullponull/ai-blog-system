@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MSが描く「Agentic World」の真意とは？ 人材管理を変革するAIの進化とその課題に迫る"
 reading_time: 20
 image: "/assets/images/posts/2025-12-06-2-msagentic-world-ogp.png"
+description: "MSが描く「Agentic World」の真意とは？ 人材管理を変革するAIの進化とその課題に迫るおい、君も感じているかもしれないけれど、最近のAIの進化って、まるでSFが現実になったみたいだよね。特にマイクロソフトが提唱する「Agentic World」ってやつ、最初は「また新しいバズワードか？」って正直思ったんだ。"
 ---
 
 MSが描く「Agentic World」の真意とは？ 人材管理を変革するAIの進化とその課題に迫る

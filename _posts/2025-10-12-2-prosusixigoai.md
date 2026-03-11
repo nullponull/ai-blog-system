@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ProsusのIxigo投資、その裏に潜むAI戦略の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-12-2-prosusixigoai-ogp.png"
+description: "ProsusのIxigo投資、その裏に潜むAI戦略の真意とは？また1つ、大きな投資のニュースが飛び込んできましたね。Prosusがインドのオンライン旅行プラットフォームIxigo（Le Travenues Technology）に1.46億ドル。"
 ---
 
 ProsusのIxigo投資、その裏に潜むAI戦略の真意とは？

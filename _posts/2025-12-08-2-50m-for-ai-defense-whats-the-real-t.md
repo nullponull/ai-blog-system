@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "You know, after two decades watching the AI circus from the front row, from the quiet labs of academia to the bustling b"
 reading_time: 20
 image: "/assets/images/posts/2025-12-08-2-50m-for-ai-defense-whats-the-real-t-ogp.png"
+description: "$50M for AI Defense: What's the Real Threat?You know, after two decades watching the AI circus from the front row, from the quiet labs of academia to the bus..."
 ---
 
 **$50M for AI Defense: What's the Real Threat?**

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と私たちの働き方の変化とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-3-amazonaiblue-jay-ogp.png"
+description: "Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と私たちの働き方の変化とは？いやはや、Amazonがまたやってくれましたね。「Blue Jay」という新型AIロボットを発表したと聞いて、正直なところ、また新しい倉庫ロボットか、と最初は少し懐疑的でした。"
 ---
 
 Amazonの新型AIロボット「Blue Jay」が示す、物流の未来と私たちの働き方の変化とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？"
 reading_time: 19
 image: "/assets/images/posts/2026-01-30-2-awsinferentia-3ai-ogp.png"
+description: "AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？いやー、このニュース、あなたももうチェックしました？AWSが新しいAIチップ「Inferentia 3」を発表して、なんとコストを50%削減できるって言うんだから、正直、最初は「またか」って思っちゃったんですよ。"
 ---
 
 AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Huawei CloudのEMS発表、その真意はどこにあるのか？AI時代のメモリ戦略を読み解く"
 reading_time: 20
 image: "/assets/images/posts/2025-09-23-1-huawei-cloudems-ogp.png"
+description: "Huawei CloudのEMS発表、その真意はどこにあるのか？AI時代のメモリ戦略を読み解くHUAWEI CONNECT 2025でのHuawei Cloudの発表、あなたも注目していましたか？正直なところ、私自身は「また新しいサービスか」と、最初は少し斜に構えて見ていました。"
 ---
 
 Huawei CloudのEMS発表、その真意はどこにあるのか？AI時代のメモリ戦略を読み解く

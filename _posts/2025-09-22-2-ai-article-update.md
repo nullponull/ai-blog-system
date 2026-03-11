@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-09-22-2-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "日本郵船のAI配船最適化、その真意は？海運業界の未来をどう変えるのかおや、日本郵船がAIで配船最適化ですか。正直、最初にこのニュースを聞いた時、「またAIか」と、少しばかり懐疑的な気持ちになったんですよ。あなたもそう感じたかもしれませんね。"
 ---
 
 日本郵船のAI配船最適化、その真意は？海運業界の未来をどう変えるのか

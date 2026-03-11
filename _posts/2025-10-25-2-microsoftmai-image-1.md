@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-2-microsoftmai-image-1-ogp.png"
+description: "Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？いやはや、皆さん、また1つ大きなニュースが飛び込んできましたね。Microsoftが自社開発の画像生成AI「MAI-Image-1」を公開したと聞いて、正直なところ、私も最初は「またか」と少し斜に構えてしまいました。"
 ---
 
 Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？

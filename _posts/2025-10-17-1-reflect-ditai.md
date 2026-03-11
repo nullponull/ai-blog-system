@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "パナソニックの「Reflect-Dit」は画像生成AIの常識をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-17-1-reflect-ditai-ogp.png"
+description: "パナソニックの「Reflect-Dit」は画像生成AIの常識をどう変えるのか？いやはや、また面白い技術が出てきましたね。パナソニックがUCLAとの共同研究で開発したという画像生成AI「Reflect-Dit」。"
 ---
 
 パナソニックの「Reflect-Dit」は画像生成AIの常識をどう変えるのか？

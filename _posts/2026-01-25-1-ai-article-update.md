@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIの地殻変動：この嵐の真ん中で、私たちは何を見るべきなのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-25-1-ai-article-update-ogp.png"
+description: "AIの地殻変動：この嵐の真ん中で、私たちは何を見るべきなのか？おいおい、またか？正直なところ、今回のAIブームが本格的に火を噴き始めたとき、僕の最初の感想はそんなものだったんだ。"
 ---
 
 AIの地殻変動：この嵐の真ん中で、私たちは何を見るべきなのか？

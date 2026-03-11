@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-20-3-google-chromegemini-ai-ogp.png"
+description: "Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？「おいおい、またAIか？」正直なところ、最初にこのニュースを聞いた時、私の頭に浮かんだのはそんな言葉でした。あなたも同じように感じたかもしれませんね。"
 ---
 
 Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？

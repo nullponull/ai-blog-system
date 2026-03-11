@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Googleの「Audio Overview」は、情報消費の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-13-3-googleaudio-overview-ogp.png"
+description: "Googleの「Audio Overview」は、情報消費の未来をどう変えるのか？正直なところ、Googleが「Audio Overview」を発表したと聞いた時、私の最初の反応は「また新しいAI機能か」という、どこか冷めたものでした。"
 ---
 
 Googleの「Audio Overview」は、情報消費の未来をどう変えるのか？

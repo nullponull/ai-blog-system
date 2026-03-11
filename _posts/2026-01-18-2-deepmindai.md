@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？"
 reading_time: 15
 image: "/assets/images/posts/2026-01-18-2-deepmindai-ogp.png"
+description: "DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？いやぁ、またまたDeepMindがやってくれましたね。Google DeepMindがAI創薬の分野で新たなパートナーシップを発表したと聞いて、正直なところ、僕も思わず「お、ついに本気を出してきたか」と唸ってしまいましたよ。"
 ---
 
 DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？

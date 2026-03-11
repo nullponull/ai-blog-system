@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GoogleがCipher Miningに5.4%出資、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-26-1-googlecipher-mining54-ogp.png"
+description: "GoogleがCipher Miningに5.4%出資、その真意はどこにあるのか？正直なところ、このニュースを最初に聞いた時、私も少しばかり驚いたよ。Googleがビットコインマイニング企業であるCipher Miningに5.4%も出資するなんて、一体どういうことだろう？あなたも同じように感じたかもしれないね。"
 ---
 
 GoogleがCipher Miningに5.4%出資、その真意はどこにあるのか？

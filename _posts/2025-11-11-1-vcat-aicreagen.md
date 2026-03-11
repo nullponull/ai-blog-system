@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "VCAT AIのCREAGEN、GPT-5搭載で何が変わるのか？ベテランアナリストの視点。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-11-1-vcat-aicreagen-ogp.png"
+description: "VCAT AIのCREAGEN、GPT-5搭載で何が変わるのか？ベテランアナリストの視点。「また新しい生成AIツールか」――正直なところ、VCAT AIが「CREAGEN（クリージェン）」を発表したと聞いた時、私の最初の反応はそんな感じでした。"
 ---
 
 VCAT AIのCREAGEN、GPT-5搭載で何が変わるのか？ベテランアナリストの視点。

@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2026-03-11-3-eu-ai-act-japan-compliance-202", "title": "EU AI Act施行迫る、日本企業は2026年までにコンプライアンスとビジネス機会を", "reason": "関連記事"}, {"slug": "2026-03-09-2-multimodal-ai-industry-standar", "title": "マルチモーダルAI、産業標準化の鍵は？現場が語る可能性と課題", "reason": "関連記事"}, {"slug": "2026-03-09-2-xai-100k-gpu-data-center-memph", "title": "xAI、メンフィスに10万GPUデータセンター建設", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-11-3-manufacturing-ai-future-produc-ogp.png"
+description: "製造業におけるAI活用の最前線：AIエージェントとマルチモーダルAIが切り拓く未来製造業の現場では、人手不足や熟練技術者の高齢化、そしてグローバルな競争の激化といった課題に直面しています。"
 ---
 
 製造業におけるAI活用の最前線：AIエージェントとマルチモーダルAIが切り拓く未来

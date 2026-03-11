@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-10-13-2-aieiscoregentic-ogp.png"
 robots: noindex
 sitemap: false
+description: "保険業界のAI革命、EIS「CoreGentic」が変える業務自動化の真意とは？皆さん、最近「AIが業務を自動化する」という話、よく耳にしますよね。正直なところ、私自身も20年間この業界を見てきて、その言葉がどれだけ本質を捉えているのか、常に懐疑的な目で見てきました。"
 ---
 
 保険業界のAI革命、EIS「CoreGentic」が変える業務自動化の真意とは？

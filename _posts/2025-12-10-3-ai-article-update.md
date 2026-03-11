@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-12-10-3-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "日本のAI新法、その真意とは？研究開発支援強化で何が変わるのか？いやー、ついに日本でもAIに関する新しい法律が動き出す、というニュースを聞いて、正直、私の20年間のAI業界ウォッチャー人生の中でも、ちょっとドキッとしたんだよね。"
 ---
 
 日本のAI新法、その真意とは？研究開発支援強化で何が変わるのか？

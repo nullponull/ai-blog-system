@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "地図アプリ開発の未来はAIエージェントが握るのか？その真意を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-11-15-3-ai-article-update-ogp.png"
+description: "地図アプリ開発の未来はAIエージェントが握るのか？その真意を探る皆さん、こんにちは。AI業界を20年間見続けてきた私から、今日はちょっと面白い話、いや、もしかしたら少し戸惑う話かもしれませんね。"
 ---
 
 地図アプリ開発の未来はAIエージェントが握るのか？その真意を探る

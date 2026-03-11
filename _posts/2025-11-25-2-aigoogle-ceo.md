@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIバブルの真意はどこに？Google CEOの警鐘が問うもの"
 reading_time: 20
 image: "/assets/images/posts/2025-11-25-2-aigoogle-ceo-ogp.png"
+description: "AIバブルの真意はどこに？Google CEOの警鐘が問うものあなたも感じているかもしれませんが、最近のAI業界、まるで昔のインターネット黎明期を思い出させますよね。毎日どこかで新しいスタートアップが生まれ、巨額の資金が流れ込み、まるで魔法のように進化が語られる。"
 ---
 
 AIバブルの真意はどこに？Google CEOの警鐘が問うもの

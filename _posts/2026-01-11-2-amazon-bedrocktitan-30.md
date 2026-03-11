@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "正直なところ、最初に「Amazon Bedrockが進化して、独自LLMのTitan 3.0を発表した」というニュースを聞いた時、あなたも「また来たか」と感じたかもしれませんね。"
 reading_time: 11
 image: "/assets/images/posts/2026-01-11-2-amazon-bedrocktitan-30-ogp.png"
+description: "正直なところ、最初に「Amazon Bedrockが進化して、独自LLMのTitan 3.0を発表した」というニュースを聞いた時、あなたも「また来たか」と感じたかもしれませんね。この数年、毎週のように生成AI関連の発表が飛び交う中、僕のような業界の古株でも、正直なところ、情報の洪水に溺れそうになることがあります。"
 ---
 
 ## Amazon BedrockとTitan 3.0、AIの「民主化」は本当に加速するのか？

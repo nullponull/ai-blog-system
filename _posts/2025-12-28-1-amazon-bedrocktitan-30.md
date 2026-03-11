@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockのTitan 3.0は、エンタープライズAIのゲームチェンジャーとなりうるのか？"
 reading_time: 10
 image: "/assets/images/posts/2025-12-28-1-amazon-bedrocktitan-30-ogp.png"
+description: "Amazon BedrockのTitan 3.0は、エンタープライズAIのゲームチェンジャーとなりうるのか？また、新しいモデルの発表か――。正直なところ、私も最初に「Amazon Bedrock、新モデル『Titan 3.0』発表」というニュースを見た時、こんな感想が頭をよぎりました。"
 ---
 
 Amazon BedrockのTitan 3.0は、エンタープライズAIのゲームチェンジャーとなりうるのか？

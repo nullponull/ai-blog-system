@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 description: "企業のAI導入を成功に導くための完全ロードマップ。課題分析からツール選定、PoC実施、本番導入、運用改善までの全工程を体系的に解説します。"
 pillar: true
 image: "/assets/images/posts/2026-03-11-complete-guide-ai-implementation-ogp.png"
+excerpt: "2026年現在、生成AIの急速な進化により、企業のAI導入は「検討段階」から「実行段階」へと大きくシフトしている。総務省の調査によれば、国内企業の約65%がなんらかの形でAIを業務に活用しており、導入を検討中の企業を含めると80%を超える。"
 ---
 
 ## はじめに：なぜ今、AI導入の「全体像」を把握すべきなのか

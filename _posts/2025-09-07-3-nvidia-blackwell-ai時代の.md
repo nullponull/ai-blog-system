@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NVIDIAは、2024年3月18日に開催された「NVIDIA GTC 2024」において、次世代AIプラットフォーム「NVIDIA Blackwell」を発表しました。"
 reading_time: 8
 image: "/assets/images/posts/2025-09-07-3-nvidia-blackwell-ai時代の-ogp.png"
+description: "NVIDIAは、2024年3月18日に開催された「NVIDIA GTC 2024」において、次世代AIプラットフォーム「NVIDIA Blackwell」を発表しました。"
 ---
 
 # NVIDIA Blackwell: AI時代の覇権を握る新プラットフォーム

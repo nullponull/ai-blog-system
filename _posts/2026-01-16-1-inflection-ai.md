@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの「人間レベル」の共感性、本当に実現できるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-16-1-inflection-ai-ogp.png"
+description: "Inflection AIの「人間レベル」の共感性、本当に実現できるのか？いやー、このInflection AIのニュース、正直なところ、最初は「またか」って思っちゃったんだよね。だって、「人間レベルの共感性」なんて言葉、AI業界にいると毎年のようにどこかの企業が掲げている気がするんだ。"
 ---
 
 Inflection AIの「人間レベル」の共感性、本当に実現できるのか？

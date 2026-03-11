@@ -10,6 +10,7 @@ reading_time: 6
 related_articles: [{"slug": "2026-03-03-1-aidx", "title": "AIエージェントが製造業DXを加速", "reason": "関連記事"}, {"slug": "2026-03-01-2-multimodal-ai-retail-customer-", "title": "マルチモーダルAI、小売顧客体験をどう変える？成功事例から紐解く未来", "reason": "関連記事"}, {"slug": "2026-02-26-2-ai-agents-manufacturing-dx-cas", "title": "AIエージェントで製造業DXはこう変わる：現場の課題解決事例とは", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-22-2-multimodal-ai-roi3x-efficiency", "title": "マルチモーダルAI、ROI3倍の真実：断片情報からの脱却と業務効率化"}
 image: "/assets/images/posts/2026-03-03-3-eu-ai-act-corporate-impact-ogp.png"
+description: "EU AI Act施行を前に、企業が直面するコンプライアンス課題とAI開発・導入への影響について、実務経験に基づき考察します。2026年8月にEU AI Actが完全施行されるというニュースは、AI開発・導入に携わる私たちにとって無視できない動きです。"
 ---
 
 EU AI Act施行を前に、企業が直面するコンプライアンス課題とAI開発・導入への影響について、実務経験に基づき考察します。

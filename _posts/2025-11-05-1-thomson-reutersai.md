@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Thomson ReutersのAIエージェント、専門家の働き方をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-05-1-thomson-reutersai-ogp.png"
+description: "Thomson ReutersのAIエージェント、専門家の働き方をどう変えるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。毎日新しい発表があって、正直なところ、私も「またか」と思うことも少なくありません。"
 ---
 
 Thomson ReutersのAIエージェント、専門家の働き方をどう変えるのか？

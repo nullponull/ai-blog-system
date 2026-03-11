@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-1-furiosaainxt-rngd-ogp.png"
+description: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？いやはや、また新しいAIハードウェアのニュースが飛び込んできましたね。FuriosaAIが「NXT RNGDサーバー」を発表したと聞いて、正直なところ、私の最初の反応は「またか」というものでした。"
 ---
 
 FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？

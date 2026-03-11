@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EU AI法施行が迫る中、製造業DXを加速するAIエージェント導入の戦略的アプローチを解説。目的、プロセス、人材育成など「5つのP」フレームワークに基づき、実践的な導入秘訣を掘り下げます。"
 reading_time: 10
 image: "/assets/images/posts/2026-02-22-1-eu-ai-act-manufacturing-dx-ai--ogp.png"
+description: "あなたも感じているかもしれませんが、AIの進化は目覚ましいものがあります。特に、自律的にタスクを実行する「AIエージェント」は、製造業におけるデジタルトランスフォーメーション（DX）を加速させる potent な鍵となり得ます。"
 ---
 
 ## EU AI法時代に製造業DXを加速するAIエージェント導入の秘訣

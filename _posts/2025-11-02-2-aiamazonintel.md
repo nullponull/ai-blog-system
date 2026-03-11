@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-02-2-aiamazonintel-ogp.png"
+description: "AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？「AIが10万人以上の雇用を奪う」という見出しに、あなたも驚いたかもしれませんね。正直なところ、私も最初は「またか」と思いました。技術革新のたびに、こうした話は繰り返されてきましたから。"
 ---
 
 AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？

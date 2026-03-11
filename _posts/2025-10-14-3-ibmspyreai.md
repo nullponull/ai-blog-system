@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-14-3-ibmspyreai-ogp.png"
+description: "IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？いやはや、また新しいAIアクセラレーターの登場ですよ。IBMが「Spyre」を発表したと聞いて、正直なところ、皆さんも「またか」と感じたかもしれませんね。"
 ---
 
 IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？

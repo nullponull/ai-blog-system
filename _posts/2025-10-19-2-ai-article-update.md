@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-10-19-2-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "AIエージェントが産業を変革する？IFS新プラットフォーム「Loops」の真意とはいやはや、また新しい波が来ましたね。IFSが「IFS Loops」というAIエージェントプラットフォームを正式に提供開始したと聞いて、正直なところ「またAIか」と最初は思ったんですよ。"
 ---
 
 AIエージェントが産業を変革する？IFS新プラットフォーム「Loops」の真意とは

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "おや、Googleがまた動いたね。量子AI部門がマサチューセッツ工科大学（MIT）発のスタートアップ、Atlantic Quantumのチームを迎え入れたというニュース、君も耳にしたかな？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-05-2-googleaiatlantic-ogp.png"
+description: "Googleの量子AI、Atlantic統合の真意とは？おや、Googleがまた動いたね。量子AI部門がマサチューセッツ工科大学（MIT）発のスタートアップ、Atlantic Quantumのチームを迎え入れたというニュース、君も耳にしたかな？正直なところ、私自身、この手の「統合」や「買収」の報を聞くたびに、最初..."
 ---
 
 Googleの量子AI、Atlantic統合の真意とは？

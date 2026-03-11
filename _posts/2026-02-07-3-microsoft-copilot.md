@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、金融界で何が変わるのか？"
 reading_time: 7
 image: "/assets/images/posts/2026-02-07-3-microsoft-copilot-ogp.png"
+description: "Microsoft Copilot、金融界で何が変わるのか？いやー、Microsoft Copilotが金融分野でさらに進化するっていうニュース、あなたも耳にしましたか？正直、最初にこの話を聞いた時、「またAIか…」というのが第一声でした。"
 ---
 
 Microsoft Copilot、金融界で何が変わるのか？

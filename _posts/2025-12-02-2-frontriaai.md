@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-02-2-frontriaai-ogp.png"
+description: "富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？おや、富士通が動いたか。正直なところ、このニュースを最初に見た時、そう思いましたね。あなたも感じているかもしれませんが、最近のAIの進化は目覚ましいと同時に、一抹の不安を覚えることもありますよね？特に生成AIがもたらす情報の洪水の中で、..."
 ---
 
 富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？

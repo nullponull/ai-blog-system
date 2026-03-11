@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ソフトバンクとサムスン、AI-RAN協業の真意とは？通信業界の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-24-3-ai-article-update-ogp.png"
+description: "ソフトバンクとサムスン、AI-RAN協業の真意とは？通信業界の未来をどう変えるのか？あなたも感じているかもしれませんが、最近のAI業界の動きは本当に目まぐるしいですよね。"
 ---
 
 ソフトバンクとサムスン、AI-RAN協業の真意とは？通信業界の未来をどう変えるのか？

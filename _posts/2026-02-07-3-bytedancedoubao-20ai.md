@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？"
 reading_time: 19
 image: "/assets/images/posts/2026-02-07-3-bytedancedoubao-20ai-ogp.png"
+description: "ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？いやー、ByteDanceが「Doubao 2.0」を発表したっていうニュース、あなたも耳にしました？ 私もAI業界を20年近く見てきて、色々なモデルの登場に立ち会ってきましたが、今回のByteDanceの動きには、正直、..."
 ---
 
 ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？

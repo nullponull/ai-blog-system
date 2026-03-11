@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？"
 reading_time: 15
 image: "/assets/images/posts/2026-01-24-3-deepmindalphafold-4-ogp.png"
+description: "DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？またDeepMindか、と正直なところ、あなたも感じているかもしれませんが、私も「またか！」とパソコンの前で思わず声に出してしまいましたよ。"
 ---
 
 DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？

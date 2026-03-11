@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの新モデル、人間らしさとは何を目指すのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-06-1-inflection-ai-ogp.png"
+description: "Inflection AIの新モデル、人間らしさとは何を目指すのか？いや〜、Inflection AIが新しいモデルを発表したってニュース、あなたも耳にしました？正直、最初は「またか」って思ったんですよ。"
 ---
 
 Inflection AIの新モデル、人間らしさとは何を目指すのか？

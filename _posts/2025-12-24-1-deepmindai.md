@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、Google DeepMindが創薬AIで「新記録」だってニュース、あなたも耳にしました？正直、最初は「またか」って思っちゃったんですよ。だって、AIと創薬の組み合わせって、もう何年も前から期待されてて、"
 reading_time: 20
 image: "/assets/images/posts/2025-12-24-1-deepmindai-ogp.png"
+description: "DeepMindの創薬AI、本当に「新記録」なのか？いやー、Google DeepMindが創薬AIで「新記録」だってニュース、あなたも耳にしました？正直、最初は「またか」って思っちゃったんですよ。"
 ---
 
 DeepMindの創薬AI、本当に「新記録」なのか？

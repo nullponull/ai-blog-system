@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "音楽生成AI「Suno Studio」の登場は、音楽業界に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-3-aisuno-studio-ogp.png"
+description: "音楽生成AI「Suno Studio」の登場は、音楽業界に何をもたらすのか？正直なところ、Sunoが「Suno Studio」を発表したと聞いた時、私の最初の反応は「またか」という、少しばかり懐疑的なものでした。あなたも感じているかもしれませんが、この20年間、AI業界の最前線で様々な「革命」を見てきましたからね。"
 ---
 
 音楽生成AI「Suno Studio」の登場は、音楽業界に何をもたらすのか？

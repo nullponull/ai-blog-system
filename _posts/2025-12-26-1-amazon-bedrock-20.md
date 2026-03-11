@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock 20%高速化の真意とは？ その数値が語るAI基盤の未来"
 reading_time: 20
 image: "/assets/images/posts/2025-12-26-1-amazon-bedrock-20-ogp.png"
+description: "Amazon Bedrock 20%高速化の真意とは？ その数値が語るAI基盤の未来「お、Bedrockが20%高速化か。どう思う、このニュース？」正直なところ、最初にこの見出しを見た時、僕の脳裏をよぎったのは「ふーん、また数字が上がったね」という、ちょっとばかり斜に構えた感想だったんだ。"
 ---
 
 Amazon Bedrock 20%高速化の真意とは？ その数値が語るAI基盤の未来

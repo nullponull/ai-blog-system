@@ -10,6 +10,7 @@ reading_time: 6
 related_articles: [{"slug": "2026-03-07-1-ai-coding-developer-productivi", "title": "AIコーディングは開発者の生産性を本当に変えるのか？進化と現場のリアル", "reason": "関連記事"}, {"slug": "2026-03-10-1-ai-agents-enterprise-apps-2026", "title": "AIエージェントは2026年までに企業アプリの40%へ、その影響とは？", "reason": "関連記事"}, {"slug": "2026-03-05-2-openai-funding-ai-industry-res", "title": "OpenAI巨額調達交渉、AI業界地図をどう塗り替えるか", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-22-2-multimodal-ai-roi3x-efficiency", "title": "マルチモーダルAI、ROI3倍の真実：断片情報からの脱却と業務効率化"}
 image: "/assets/images/posts/2026-03-10-1-ai-coding-developer-productivi-ogp.png"
+description: "AIの進化は目覚ましいものがあります。特にAIコーディング支援ツールは、開発者の生産性を劇的に向上させる可能性を秘めていると話題ですね。GitHub CopilotやClaude Codeといったツールの登場により、「もうコードを書く手間がなくなるのでは？」と期待する声も聞かれます。"
 ---
 
 ## AIコーディングは開発者の生産性を本当に変えるのか？ 実体験から紐解く成功と落とし穴

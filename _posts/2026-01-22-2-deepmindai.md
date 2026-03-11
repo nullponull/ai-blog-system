@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2026-01-22-2-deepmindai-ogp.png"
 robots: noindex
 sitemap: false
+description: "DeepMindの創薬AI、本当に未来を変えるのか？いやー、DeepMindが新しいAIモデルで創薬の効率化を進めているっていうニュース、あなたも耳にしましたか？率直に言って、最初は「またか」って思ったんですよ。だって、AIと創薬の組み合わせなんて、もう何年も前から言われ続けているテーマじゃないですか。"
 ---
 
 DeepMindの創薬AI、本当に未来を変えるのか？

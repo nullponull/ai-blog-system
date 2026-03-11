@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？"
 reading_time: 9
 image: "/assets/images/posts/2025-12-31-2-baiduernie-bot-50-ogp.png"
+description: "BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？やあ、みんな。AI業界を20年近く見続けているベテランアナリストとして、最近のBaiduのERNIE Bot 5.0に関するニュースには、正直、ちょっとした興奮と同時に、いつもの慎重な分析モードに入っているんだ。"
 ---
 
 BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？

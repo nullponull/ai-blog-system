@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIアニメの未来は、本当にAIが描くのか？KaKa Creationの4.5億円調達が示す真意とは"
 reading_time: 20
 image: "/assets/images/posts/2025-10-09-2-ai-article-update-ogp.png"
+description: "AIアニメの未来は、本当にAIが描くのか？KaKa Creationの4.5億円調達が示す真意とはいやはや、また大きなニュースが飛び込んできましたね。KaKa CreationがAIアニメで4.5億円もの資金を調達したという話、あなたも耳にしたかもしれません。"
 ---
 
 AIアニメの未来は、本当にAIが描くのか？KaKa Creationの4.5億円調達が示す真意とは

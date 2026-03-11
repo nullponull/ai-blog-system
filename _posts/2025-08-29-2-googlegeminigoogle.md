@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Googleが開発するマルチモーダルAIモデル「Gemini」は、その登場以来、人工知能分野における革新の象徴として注目を集めています。"
 reading_time: 16
 image: "/assets/images/posts/2025-08-29-2-googlegeminigoogle-ogp.png"
+description: "Googleが開発するマルチモーダルAIモデル「Gemini」は、その登場以来、人工知能分野における革新の象徴として注目を集めています。Google DeepMindとGoogle Brainの緊密な連携によって生み出されたGeminiは、従来のAIモデルの枠を超え、テキスト、画像、音声、コード、動画といった多様..."
 ---
 
 

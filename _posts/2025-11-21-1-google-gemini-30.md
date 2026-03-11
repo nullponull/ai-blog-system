@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3.0、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-21-1-google-gemini-30-ogp.png"
+description: "Google Gemini 3.0、その真意はどこにあるのか？また来たか、という感じですね。正直なところ、この業界に20年もいると、毎日のように「衝撃の発表！」とか「ゲームチェンジャー！」といったニュースに触れるわけですよ。"
 ---
 
 Google Gemini 3.0、その真意はどこにあるのか？

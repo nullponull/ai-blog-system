@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "富士通が描く「マルチAIエージェント」の真意とは？供給網最適化のその先"
 reading_time: 20
 image: "/assets/images/posts/2025-12-01-2-ai-article-update-ogp.png"
+description: "富士通が描く「マルチAIエージェント」の真意とは？供給網最適化のその先「また新しいAIの波が来ているな」――正直なところ、初めて「マルチAIエージェントによる供給網最適化」という言葉を聞いたとき、私はそう感じました。"
 ---
 
 富士通が描く「マルチAIエージェント」の真意とは？供給網最適化のその先

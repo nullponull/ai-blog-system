@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-10-17-3-broadcom800g-ai-nicthor-ultra-ogp.png"
 robots: noindex
 sitemap: false
+description: "Broadcomの800G AI NIC「Thor Ultra」が示す、AIインフラの次なる進化とは？あなたも感じているかもしれませんが、最近のAI業界のニュースは、まるでジェットコースターのようですよね。毎日新しい発表があり、そのたびに「今度は何が来るんだ？」とワクワクさせられます。"
 ---
 
 Broadcomの800G AI NIC「Thor Ultra」が示す、AIインフラの次なる進化とは？

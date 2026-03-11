@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Spring HealthのAI倫理評議会、その真意と業界への波紋とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-01-2-spring-healthai-ogp.png"
+description: "Spring HealthのAI倫理評議会、その真意と業界への波紋とは？Spring HealthがAI倫理評議会を設立したと聞いて、正直なところ、あなたはどう感じましたか？ 私がこの業界に入った20年前、AI倫理なんて言葉はSFの世界の話でしたよ。"
 ---
 
 Spring HealthのAI倫理評議会、その真意と業界への波紋とは？

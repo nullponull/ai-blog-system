@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "リコージャパンの自治体向け生成AI、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-20-3-ai-article-update-ogp.png"
+description: "リコージャパンの自治体向け生成AI、その真意はどこにあるのか？おや、リコージャパンが自治体向けに生成AIサービスを投入してきたか。正直なところ、このニュースを最初に聞いた時、私は少し意外に感じたんだ。"
 ---
 
 リコージャパンの自治体向け生成AI、その真意はどこにあるのか？

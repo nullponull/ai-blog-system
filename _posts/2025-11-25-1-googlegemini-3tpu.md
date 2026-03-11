@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google、Gemini 3とTPUの発表、その真意は何処にあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-25-1-googlegemini-3tpu-ogp.png"
+description: "Google、Gemini 3とTPUの発表、その真意は何処にあるのか？いやはや、最近のGoogleの動きには、皆さんと同じように私も正直、驚きを隠せませんね。特に今回のGemini 3と、それを支えるTPUに関する発表は、AI業界を20年近く見てきた私にとっても、ある種のターニングポイントを感じさせるものでした。"
 ---
 
 Google、Gemini 3とTPUの発表、その真意は何処にあるのか？

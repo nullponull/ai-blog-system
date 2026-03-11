@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-08-3-microsoftmai-image-1-ogp.png"
+description: "Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？正直なところ、マイクロソフトが自社開発の画像生成AI「MAI Image 1」を発表したと聞いた時、私の最初の反応は「また新しいモデルか」という、少しばかり懐疑的なものでした。"
 ---
 
 Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？

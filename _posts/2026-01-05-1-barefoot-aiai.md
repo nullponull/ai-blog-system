@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Barefoot AIの量子AIチップ、その真意は何でしょうか？"
 reading_time: 7
 image: "/assets/images/posts/2026-01-05-1-barefoot-aiai-ogp.png"
+description: "Barefoot AIの量子AIチップ、その真意は何でしょうか？いやはや、Barefoot AIが量子AIチップの開発を加速させているというニュース、ちょっと耳を疑いましたよ。AI業界を20年も見てきましたが、正直、量子コンピューティングとAIの融合って、どうしてもSFの世界の話に聞こえがちだったんです。"
 ---
 
 Barefoot AIの量子AIチップ、その真意は何でしょうか？

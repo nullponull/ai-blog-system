@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot for Finance、その実力は本物なのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-26-3-microsoft-copilot-for-finance-ogp.png"
+description: "Microsoft Copilot for Finance、その実力は本物なのか？いやあ、Microsoftが「Copilot for Finance」の提供を開始したというニュース、あなたも耳にしたでしょう？私自身、AI業界を20年も見てきて、シリコンバレーのピカピカのスタートアップから、日本の老舗企業まで、文..."
 ---
 
 Microsoft Copilot for Finance、その実力は本物なのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「遍在型AGI」を目指すThird Intelligence、80億円調達の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-12-1-aithird-inte-ogp.png"
+description: "「遍在型AGI」を目指すThird Intelligence、80億円調達の真意とは？いやはや、また大きなニュースが飛び込んできましたね。Third Intelligenceが80億円もの資金を調達したという話、あなたも耳にしたんじゃないでしょうか？正直なところ、この手のニュースは毎日のように飛び込んでくるから、..."
 ---
 
 「遍在型AGI」を目指すThird Intelligence、80億円調達の真意とは？

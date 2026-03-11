@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-02-2-bytedanceai-ogp.png"
+description: "アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？いやはや、最近のAIの進化には本当に目を見張るものがありますね。特に動画生成AIの領域は、正直なところ、私がこの業界を20年間ウォッチし続けてきた中でも、最も劇的な変化の1つだと感じています。"
 ---
 
 アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？

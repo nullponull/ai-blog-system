@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、MicrosoftがCopilot Proを製造業向けに強化するってニュース、あなたも耳にしたかな？正直、最初は「またか」って思ったんだ。だって、AIの波はもう何年も前から押し寄せてきてるし、"
 reading_time: 20
 image: "/assets/images/posts/2026-01-05-1-copilot-proai-ogp.png"
+description: "Copilot Pro、製造業のAI導入、どこまで本気？いやー、MicrosoftがCopilot Proを製造業向けに強化するってニュース、あなたも耳にしたかな？正直、最初は「またか」って思ったんだ。"
 ---
 
 Copilot Pro、製造業のAI導入、どこまで本気？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、医療分野で「95%の精度」って、本当なの？"
 reading_time: 20
 image: "/assets/images/posts/2026-02-08-1-microsoft-copilot95-ogp.png"
+description: "Microsoft Copilot、医療分野で「95%の精度」って、本当なの？ねえ、あなたもこのニュース、目にしましたか？「Microsoft Copilot、医療分野で精度95%」。正直、最初は「またAIのすごい話か」って、ちょっと斜に構えて見てしまったんです。"
 ---
 
 Microsoft Copilot、医療分野で「95%の精度」って、本当なの？

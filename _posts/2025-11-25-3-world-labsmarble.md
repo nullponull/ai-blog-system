@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-25-3-world-labsmarble-ogp.png"
 robots: noindex
 sitemap: false
+description: "World Labsの「Marble」が描く、3D世界生成の新たな可能性とその真意は？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。毎日新しい発表があり、どれが本物で、どれが単なるバズワードなのかを見極めるのは、私たちベテランアナリストにとっても一苦労です。"
 ---
 
 World Labsの「Marble」が描く、3D世界生成の新たな可能性とその真意は？

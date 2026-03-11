@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ServiceNowのAI強化、その真意は？ワークフロー変革の次なる一手"
 reading_time: 20
 image: "/assets/images/posts/2025-09-11-3-servicenowai-ogp.png"
+description: "ServiceNowのAI強化、その真意は？ワークフロー変革の次なる一手ServiceNowがAIプラットフォームを強化しているというニュース、あなたも耳にしましたか？正直なところ、私自身、最初は「またAIか」と少し斜に構えていました。"
 ---
 
 ServiceNowのAI強化、その真意は？ワークフロー変革の次なる一手

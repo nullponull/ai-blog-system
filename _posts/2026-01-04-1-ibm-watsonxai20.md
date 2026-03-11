@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBM WatsonX、製薬AIで臨床試験期間20%短縮。何が変わるのか？"
 reading_time: 15
 image: "/assets/images/posts/2026-01-04-1-ibm-watsonxai20-ogp.png"
+description: "IBM WatsonX、製薬AIで臨床試験期間20%短縮。何が変わるのか？「IBM WatsonXが製薬業界の臨床試験期間を20%短縮する？」。このニュースを見たとき、正直、私の20年間のAI業界ウォッチャー人生の中でも、これはなかなかインパクトのある数字だと感じました。"
 ---
 
 IBM WatsonX、製薬AIで臨床試験期間20%短縮。何が変わるのか？

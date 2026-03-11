@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-15-2-elyza-worksai-ogp.png"
+description: "ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？いやはや、また1つ、興味深いニュースが飛び込んできましたね。ELYZA WorksがAIエージェントの自動生成サービスを開始したと聞いて、正直なところ、最初は「また新しいAIツールか」と、少し斜に構えてしまったんです。"
 ---
 
 ELYZA Worksが示す、AIエージェント自動生成の「真意」とは？

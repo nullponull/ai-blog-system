@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-04-2-google-gemini-3tpunvidia-ogp.png"
+description: "Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？AI業界に20年も身を置いていると、新しい波が来るたびに「またか」と思う気持ちと、「今度こそは本物か？」という期待がない混ぜになりますよね。"
 ---
 
 Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？

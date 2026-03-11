@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとLuxshareの提携が示す、AIデバイス市場の「真意」とは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-22-2-openailuxshareai-ogp.png"
+description: "OpenAIとLuxshareの提携が示す、AIデバイス市場の「真意」とは何か？正直なところ、このニュースを聞いた時、私自身も「またか」と少しばかり懐疑的になりました。OpenAIがLuxshareと組んでAIデバイスを開発する、と。"
 ---
 
 OpenAIとLuxshareの提携が示す、AIデバイス市場の「真意」とは何か？

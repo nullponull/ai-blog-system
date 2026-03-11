@@ -9,6 +9,7 @@ excerpt: "EU AI法が2026年8月に施行される中、OSS AI、特にLLMへの
 reading_time: 9
 related_articles: [{"slug": "2025-11-15-3-eu-ai", "title": "EU AI法、監査ガイドライン最終化：その真意と企業が今すべきこととは？", "reason": "関連記事"}, {"slug": "2026-03-01-3-eu-ai-law-open-source-future", "title": "EU AI法、オープンソースAI研究の未来はどうなるのか？", "reason": "関連記事"}, {"slug": "2025-10-20-1-eu-ai2025", "title": "EU AI法、2025年終盤施行で何が変わるのか？その真意とは？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-10-1-adobeai", "title": "AdobeのAI画像生成、商用利用強化で何が変わる？"}
+description: "EU AI法が2026年8月に施行されるのを前に、AI開発の現場ではオープンソース（OSS）AI、特に大規模言語モデル（LLM）にどのような影響があるのか、静かな、しかし熱い議論が交わされています。"
 ---
 
 ## EU AI法、OSS AIの未来をどう変えるか？ – 開発者の視点から

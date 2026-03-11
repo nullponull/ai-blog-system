@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3が示す、AIの「自律」への真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-30-2-google-gemini-3ai-ogp.png"
+description: "Google Gemini 3が示す、AIの「自律」への真意とは？あなたも感じているかもしれませんが、今年のAI業界は本当に目まぐるしいですね。特に先日、Googleが発表したGemini 3、そして彼らが「自律AI」とまで言い切ったその中身には、正直、私も最初に聞いた時は「また大げさなことを…」と半信半疑でした。"
 ---
 
 Google Gemini 3が示す、AIの「自律」への真意とは？

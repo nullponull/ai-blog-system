@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon AWSの「Inferentia 4」発表、何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-31-1-amazon-awsinferentia-4-ogp.png"
+description: "Amazon AWSの「Inferentia 4」発表、何が変わるのか？いやー、ちょっと驚きましたね。AmazonがAWSで新しいAIチップ、「Inferentia 4」を発表したというニュース。正直、AIチップの世界は日進月歩すぎて、毎回新しい発表があるたびに「またか」と思ってしまう自分がいるんです。"
 ---
 
 Amazon AWSの「Inferentia 4」発表、何が変わるのか？

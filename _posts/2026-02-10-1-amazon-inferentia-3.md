@@ -9,6 +9,7 @@ excerpt: "Amazon Inferentia 3、性能50%向上。その裏に潜むAWSの真意
 reading_time: 8
 canonical_url: "https://ai-media.co.jp/2026/02/09/1-amazon-inferentia-3/"
 image: "/assets/images/posts/2026-02-10-1-amazon-inferentia-3-ogp.png"
+description: "Amazon Inferentia 3、性能50%向上。その裏に潜むAWSの真意とは何だろうか？「Inferentia 3、性能50%向上。」このニュースを聞いたとき、正直なところ、あなたも「また来たか」と感じたかもしれませんね。"
 ---
 
 Amazon Inferentia 3、性能50%向上。その裏に潜むAWSの真意とは何だろうか？

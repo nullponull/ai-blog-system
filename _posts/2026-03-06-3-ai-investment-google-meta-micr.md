@@ -10,6 +10,7 @@ reading_time: 8
 related_articles: [{"slug": "2026-03-06-3-eu-ai-act", "title": "EU AI Act施行、日本企業への影響と対応策", "reason": "関連記事"}, {"slug": "2026-03-06-3-xai10gpu", "title": "xAI、10万GPUデータセンター建設", "reason": "関連記事"}, {"slug": "2026-03-05-1-ai202640", "title": "AIエージェント、2026年企業アプリの40%搭載へ", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-10-1-adobeai", "title": "AdobeのAI画像生成、商用利用強化で何が変わる？"}
 image: "/assets/images/posts/2026-03-06-3-ai-investment-google-meta-micr-ogp.png"
+description: "ここ数年、AI業界の進化は目覚ましいものがあります。特に、GPUを大量に必要とする大規模言語モデル（LLM）の開発競争は激化の一途をたどっています。私自身、AI開発の現場で日々試行錯誤していますが、各社が打ち出すAIへの設備投資計画の規模には、正直なところ驚かされるばかりです。"
 ---
 
 ## AI設備投資、ハイパースケーラーはどこへ向かうのか？ Google, Meta, Microsoftの巨額投資から読み解く未来

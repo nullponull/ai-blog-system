@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "韓国AI市場、Microsoft Azureが牽引する変革の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-25-1-aimicrosoft-azure-ogp.png"
+description: "韓国AI市場、Microsoft Azureが牽引する変革の真意とは？あなたも、最近のニュースでMicrosoft Azureと韓国企業のAI導入加速という見出しを目にしたかもしれませんね？正直なところ、20年間この業界を見てきた私としては、最初は「また大型提携か」と少し懐疑的でした。"
 ---
 
 韓国AI市場、Microsoft Azureが牽引する変革の真意とは？

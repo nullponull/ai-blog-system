@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの会話AI、本当に「新境地」と言えるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-19-2-inflection-aiai-ogp.png"
+description: "Inflection AIの会話AI、本当に「新境地」と言えるのか？やあ、みんな。AI業界を長年見てきたベテラン・アナリストとして、Inflection AIの「会話AIで新境地」というニュースには、正直、最初は「またか」という気持ちも少しあったんだ。"
 ---
 
 Inflection AIの会話AI、本当に「新境地」と言えるのか？

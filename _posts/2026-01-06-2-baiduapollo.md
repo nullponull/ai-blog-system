@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BaiduのApollo、欧州で本当に成功するのか？その真意を探る"
 reading_time: 20
 image: "/assets/images/posts/2026-01-06-2-baiduapollo-ogp.png"
+description: "BaiduのApollo、欧州で本当に成功するのか？その真意を探るいやー、Baiduの自動運転AI「Apollo」が欧州で本格展開、なんてニュースを聞くと、正直「ほう、ついに来たか」というのが第一声かな。AI業界を20年も見ていると、こういうニュースには慣れているようで、やっぱり心が躍るものがある。"
 ---
 
 BaiduのApollo、欧州で本当に成功するのか？その真意を探る

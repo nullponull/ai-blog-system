@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "皆さん、最近「AnthropicのMCP」という言葉を耳にしましたか？正直なところ、私も最初は「また新しいバズワードか」と少し懐疑的でした。AI業界を20年近く見てきた経験から言うと、"
 reading_time: 20
 image: "/assets/images/posts/2025-11-14-2-anthropicmcpai-ogp.png"
+description: "AnthropicのMCPが金融AIを変革する真意とは？皆さん、最近「AnthropicのMCP」という言葉を耳にしましたか？正直なところ、私も最初は「また新しいバズワードか」と少し懐疑的でした。"
 ---
 
 AnthropicのMCPが金融AIを変革する真意とは？

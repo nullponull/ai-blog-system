@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-09-29-1-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "ソフトバンクと理研の量子AI連携、その真意はどこにあるのか？ソフトバンクと理研が量子AI連携を10月から開始するってニュース、あなたも耳にしましたか？正直なところ、最初にこの話を聞いた時、私の頭の中には「また来たか」という思いがよぎったんです。"
 ---
 
 ソフトバンクと理研の量子AI連携、その真意はどこにあるのか？

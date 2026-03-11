@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-09-2-anthropic-claudeagent-skills-ogp.png"
+description: "Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？いやはや、また1つ、AI業界に大きな波が来ましたね。AnthropicがClaudeに「Agent Skills」を導入したというニュース、あなたも耳にしたかもしれません。"
 ---
 
 Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？

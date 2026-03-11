@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ANAが「neoAI Chat」を導入、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-21-2-ananeoai-chat-ogp.png"
+description: "ANAが「neoAI Chat」を導入、その真意はどこにあるのか？ANAが生成AI「neoAI Chat」を本格導入したというニュース、あなたも耳にしましたか？正直なところ、最初にこの話を聞いた時、「またAIか」と少し斜に構えてしまったんですよ。"
 ---
 
 ANAが「neoAI Chat」を導入、その真意はどこにあるのか？

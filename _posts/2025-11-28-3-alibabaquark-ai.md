@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-3-alibabaquark-ai-ogp.png"
+description: "AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る正直なところ、アリババが「Quark AI眼鏡」を投入すると聞いた時、私の中にはある種のデジャヴュがありました。「またスマートグラスか…」と。あなたも同じような気持ちになったかもしれませんね。"
 ---
 
 AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る

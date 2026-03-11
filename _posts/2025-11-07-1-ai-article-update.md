@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやはや、また大きなニュースが飛び込んできましたね。ドイツテレコムとNVIDIAが手を組んで、ドイツ向けに「Industrial AI Cloud」を発表したという話。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-07-1-ai-article-update-ogp.png"
+description: "ドイツの産業AIクラウド、その真意はどこにあるのか？いやはや、また大きなニュースが飛び込んできましたね。ドイツテレコムとNVIDIAが手を組んで、ドイツ向けに「Industrial AI Cloud」を発表したという話。"
 ---
 
 ドイツの産業AIクラウド、その真意はどこにあるのか？

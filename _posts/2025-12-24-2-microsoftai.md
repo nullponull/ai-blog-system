@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoftの新AIツール、開発者の現場はどう変わる？"
 reading_time: 13
 image: "/assets/images/posts/2025-12-24-2-microsoftai-ogp.png"
+description: "Microsoftの新AIツール、開発者の現場はどう変わる？「MicrosoftがAI開発者向けの新ツールを提供開始した」――。このニュースを聞いて、あなたも「ほう、またか」と思ったかもしれませんね。私も正直、最初はそんな感じでした。だって、ここ数年、AI関連の発表は枚挙にいとまがないんですから。"
 ---
 
 Microsoftの新AIツール、開発者の現場はどう変わる？

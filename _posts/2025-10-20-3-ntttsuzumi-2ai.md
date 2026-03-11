@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-20-3-ntttsuzumi-2ai-ogp.png"
+description: "NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？皆さん、こんにちは。AI業界を20年近く見続けてきた私から見ても、最近のNTTの動きはなかなか興味深いものがありますね。特に、軽量LLM「tsuzumi 2」の発表は、正直なところ、最初は「また国産LLMか」と少し斜に構えて見ていました。"
 ---
 
 NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIがハードウェアへ？ Luxshareとの提携が示すAIの次なるフロンティアとは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-21-1-openai-luxsha-ogp.png"
+description: "OpenAIがハードウェアへ？ Luxshareとの提携が示すAIの次なるフロンティアとは何か？え、OpenAIがハードウェア？ あなたも正直、このニュースを聞いて驚いたんじゃないでしょうか。"
 ---
 
 OpenAIがハードウェアへ？ Luxshareとの提携が示すAIの次なるフロンティアとは何か？

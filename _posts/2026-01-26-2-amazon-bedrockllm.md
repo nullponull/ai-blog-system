@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。"
 reading_time: 7
 image: "/assets/images/posts/2026-01-26-2-amazon-bedrockllm-ogp.png"
+description: "Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。ねえ、あなたもこのニュースを見て「あー、やっぱり来たか」って思ったんじゃないかな？ Amazon Bedrockが新たなLLM（大規模言語モデル）の対応を一気に拡充するっていう話。"
 ---
 
 Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとClaude 4、このタッグがAIの未来をどう塗り替えるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-22-1-amazon-bedrockclaude-4-ogp.png"
+description: "Amazon BedrockとClaude 4、このタッグがAIの未来をどう塗り替えるのか？おや、また来たか、とあなたは思いましたか？ Amazon BedrockとAnthropic Claude 4の発表、正直なところ、私も最初にそのニュースに触れた時、そんな独り言が漏れてしまいましたよ。"
 ---
 
 Amazon BedrockとClaude 4、このタッグがAIの未来をどう塗り替えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、驚きましたね。AmazonがAIロボット「Pepper」の改良版を発表したというニュース、あなたも耳にしましたか？正直、最初は「え、Pepperってまだ現役だったんだ」なんて思っちゃいましたよ。"
 reading_time: 7
 image: "/assets/images/posts/2026-02-09-1-pepperamazon-ogp.png"
+description: "Pepperの進化、Amazon参戦で何が変わる？いやー、驚きましたね。AmazonがAIロボット「Pepper」の改良版を発表したというニュース、あなたも耳にしましたか？正直、最初は「え、Pepperってまだ現役だったんだ」なんて思っちゃいましたよ。"
 ---
 
 Pepperの進化、Amazon参戦で何が変わる？

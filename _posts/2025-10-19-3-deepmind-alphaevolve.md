@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMind AlphaEvolveが科学発見をどう変えるのか？その真意と未来への示唆"
 reading_time: 20
 image: "/assets/images/posts/2025-10-19-3-deepmind-alphaevolve-ogp.png"
+description: "DeepMind AlphaEvolveが科学発見をどう変えるのか？その真意と未来への示唆皆さん、最近DeepMindの「AlphaEvolve」という名前を耳にしましたか？正直なところ、私も最初は「また新しいAIツールか」と、少し斜に構えて見ていました。"
 ---
 
 DeepMind AlphaEvolveが科学発見をどう変えるのか？その真意と未来への示唆

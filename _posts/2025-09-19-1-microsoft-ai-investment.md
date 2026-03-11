@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのノルウェーAI投資、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-1-microsoft-ai-investment-ogp.png"
+description: "MicrosoftのノルウェーAI投資、その真意はどこにあるのか？「え、62億ドル？ しかもノルウェーのAIに？」正直なところ、このニュースを最初に聞いた時、私の頭の中にはそんな疑問符が浮かびました。あなたも同じように感じたかもしれませんね。"
 ---
 
 MicrosoftのノルウェーAI投資、その真意はどこにあるのか？

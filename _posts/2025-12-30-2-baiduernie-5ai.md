@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BaiduのErnie 5、中国AIの次なる一手は何を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-30-2-baiduernie-5ai-ogp.png"
+description: "BaiduのErnie 5、中国AIの次なる一手は何を変えるのか？いやー、きましたね、BaiduのErnie 5。正直、このニュースを聞いた時、私の20年間のAI業界ウォッチング人生の中でも、ちょっとドキッとしたというか、「なるほど、そういうことか」と膝を打つような感覚がありました。"
 ---
 
 BaiduのErnie 5、中国AIの次なる一手は何を変えるのか？

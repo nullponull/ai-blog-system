@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？"
 reading_time: 13
 image: "/assets/images/posts/2025-12-19-3-baidukunlun-5ai-ogp.png"
+description: "Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？いや〜、また新しいAIチップのニュースが出てきましたね。Baiduが「Kunlun 5」を発表したとか。正直、最初は「またか」という気持ちもありました。だって、この20年、何百というAIチップや関連技術の発表を見てきましたから。"
 ---
 
 Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？

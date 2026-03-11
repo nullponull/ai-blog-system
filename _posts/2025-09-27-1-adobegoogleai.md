@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-27-1-adobegoogleai-ogp.png"
+description: "AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？正直なところ、このニュースを聞いた時、私は「またか」と少しばかり懐疑的になりました。AI業界を20年近く見てきた人間として、大手企業間の提携は枚挙にいとまがありません。"
 ---
 
 AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？

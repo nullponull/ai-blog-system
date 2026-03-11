@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude 4.5がもたらす「防御力」の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-2-anthropic-claude-45-ogp.png"
+description: "Anthropic Claude 4.5がもたらす「防御力」の真意とは？皆さん、最近のAI業界の動き、特にAnthropicのClaude 4.5の話題には注目していますか？ 私も長年この業界を見てきましたが、正直なところ、最初に「防御力向上」というキーワードを目にした時、少し眉唾ものだと感じたものです。"
 ---
 
 Anthropic Claude 4.5がもたらす「防御力」の真意とは？

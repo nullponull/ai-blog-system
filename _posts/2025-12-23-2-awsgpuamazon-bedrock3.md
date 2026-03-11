@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？"
 reading_time: 6
 image: "/assets/images/posts/2025-12-23-2-awsgpuamazon-bedrock3-ogp.png"
+description: "AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？いやー、このニュース、皆さんもうチェックしましたか？Amazon BedrockがAWSの新しいGPUを搭載して、AIの推論速度がなんと3倍になったっていう話。正直、初めてこの見出しを見たとき、「え、マジで？」って声に出ちゃいましたよ。"
 ---
 
 AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？

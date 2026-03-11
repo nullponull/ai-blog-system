@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Intel Gaudi 3がAIの未来をどう塗り替えるのか？HBM3e搭載の真意を読み解く。"
 reading_time: 20
 image: "/assets/images/posts/2025-12-22-2-intel-gaudi-3ai-ogp.png"
+description: "Intel Gaudi 3がAIの未来をどう塗り替えるのか？HBM3e搭載の真意を読み解く。正直なところ、最初に「Intel Gaudi 3、HBM3e搭載で性能向上」というニュースを見たとき、私の中にふとよぎったのは「またか」という、少し懐疑的な感情でした。"
 ---
 
 Intel Gaudi 3がAIの未来をどう塗り替えるのか？HBM3e搭載の真意を読み解く。

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "サムスンの「Scientist AI」構想、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-15-1-scientist-ai-ogp.png"
+description: "サムスンの「Scientist AI」構想、その真意はどこにあるのか？「Samsung AI Forum 2025」でモントリオール大学のヨシュア・ベンジオ教授が提唱した「Scientist AI」という概念、あなたも耳にしましたか？正直なところ、最初に聞いた時、私は少し懐疑的でした。また新しいバズワードか、と。"
 ---
 
 サムスンの「Scientist AI」構想、その真意はどこにあるのか？

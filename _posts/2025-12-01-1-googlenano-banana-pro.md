@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Googleの「Nano Banana Pro」：日本語AI画像生成、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-01-1-googlenano-banana-pro-ogp.png"
+description: "Googleの「Nano Banana Pro」：日本語AI画像生成、その真意はどこにあるのか？正直なところ、最初に「Nano Banana Pro」という名前を聞いた時、皆さんも感じたかもしれませんが、「また新しいAIモデルか」と、一瞬身構えてしまったんですよね。"
 ---
 
 Googleの「Nano Banana Pro」：日本語AI画像生成、その真意はどこにあるのか？

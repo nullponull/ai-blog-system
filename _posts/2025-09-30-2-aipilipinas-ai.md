@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "フィリピン国産AI「Pilipinas AI」の真意とは？ 新興市場のAI戦略を読み解く。"
 reading_time: 20
 image: "/assets/images/posts/2025-09-30-2-aipilipinas-ai-ogp.png"
+description: "フィリピン国産AI「Pilipinas AI」の真意とは？ 新興市場のAI戦略を読み解く。正直なところ、フィリピンから「Pilipinas AI」という話を聞いた時、私の最初の反応は「おや、また新しいAIプラットフォームか」という、少しばかり懐疑的なものでした。"
 ---
 
 フィリピン国産AI「Pilipinas AI」の真意とは？ 新興市場のAI戦略を読み解く。

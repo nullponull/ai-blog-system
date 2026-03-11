@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが示唆するAIコスト革命の真意とは？ 新LLMが切り開く未来への道筋"
 reading_time: 8
 image: "/assets/images/posts/2025-12-18-1-amazon-bedrockai-ogp.png"
+description: "Amazon Bedrockが示唆するAIコスト革命の真意とは？ 新LLMが切り開く未来への道筋「Amazon Bedrock、新LLMでコスト半減」— このニュースを耳にした時、あなたも私と同じように、まず「またか！」と少しばかり興奮し、そしてすぐに「でも、本当に？」と、どこか懐疑的な目を向けたんじゃないかな。"
 ---
 
 Amazon Bedrockが示唆するAIコスト革命の真意とは？ 新LLMが切り開く未来への道筋

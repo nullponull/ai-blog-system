@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "香港、AIスパコンで何が変わるのか？アジアのハブを目指す真意とは"
 reading_time: 20
 image: "/assets/images/posts/2025-11-10-2-ai-article-update-ogp.png"
+description: "香港、AIスパコンで何が変わるのか？アジアのハブを目指す真意とはいやぁ、香港がまた面白い動きを見せてきましたね。AIスーパーコンピューターセンターの設立、そして巨額の投資。"
 ---
 
 香港、AIスパコンで何が変わるのか？アジアのハブを目指す真意とは

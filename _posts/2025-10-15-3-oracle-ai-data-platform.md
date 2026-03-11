@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Oracle AI Data Platform、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-15-3-oracle-ai-data-platform-ogp.png"
+description: "Oracle AI Data Platform、その真意はどこにあるのか？またOracleか、と正直思った人もいるかもしれませんね。長年この業界を見ていると、新しいバズワードが出るたびに、既存の巨大ベンダーが「うちもやってます！」とばかりに新サービスを発表する光景を何度も見てきましたから。"
 ---
 
 Oracle AI Data Platform、その真意はどこにあるのか？

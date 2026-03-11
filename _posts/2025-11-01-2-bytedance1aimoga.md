@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-2-bytedance1aimoga-ogp.png"
+description: "ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？また新しい動画生成AIのニュースか、と正直、私も最初はそう思いましたよ。ByteDanceが「MoGA」を発表したと聞いて、あなたも「またか」と感じたかもしれませんね。"
 ---
 
 ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？

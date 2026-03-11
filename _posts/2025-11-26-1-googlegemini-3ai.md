@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-26-1-googlegemini-3ai-ogp.png"
+description: "Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？正直なところ、Googleが「Gemini 3」を正式発表したというニュースを聞いた時、私は「また新しいモデルか」と、少しばかり懐疑的な気持ちで受け止めました。"
 ---
 
 Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？

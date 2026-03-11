@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-3-kodiak-aizf-ogp.png"
+description: "Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？正直なところ、Kodiak AIとZFが手を組んで無人トラック開発を加速させるというニュースを聞いた時、またか、というのが最初の印象でした。あなたも感じているかもしれませんが、この業界、提携話は枚挙にいとまがありませんからね。"
 ---
 
 Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？

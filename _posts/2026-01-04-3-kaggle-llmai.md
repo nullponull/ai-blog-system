@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-04-3-kaggle-llmai-ogp.png"
+description: "最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？またKaggleか、と思う人もいるかもしれませんね。正直なところ、僕も最初のニュースを見たとき、正直言って「またか」と感じました。AI業界を20年間見続けていると、新記録なんて日常茶飯事に見えてくるものですから。"
 ---
 
 最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？

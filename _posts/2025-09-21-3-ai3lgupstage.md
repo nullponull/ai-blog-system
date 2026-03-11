@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来"
 reading_time: 20
 image: "/assets/images/posts/2025-09-21-3-ai3lgupstage-ogp.png"
+description: "韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来正直なところ、このニュースを聞いた時、私も最初は「え、本当に？」と眉をひそめました。米国と中国がAIの二強として君臨する中で、韓国が世界第3位に浮上したという英フィナンシャル・タイムズの報道。あなたも同じように感じたかもしれませんね。"
 ---
 
 韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来

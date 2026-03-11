@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "韓国AI規制、その真意は？ 開発と信頼の狭間で何が変わるのか"
 reading_time: 20
 image: "/assets/images/posts/2025-09-15-3-ai-article-update-ogp.png"
+description: "韓国AI規制、その真意は？ 開発と信頼の狭間で何が変わるのかいやはや、韓国政府がAI規制を大幅に見直すというニュース、あなたも耳にしましたか？ 正直なところ、最初にこの話を聞いた時、「またか」と少し懐疑的になったんです。"
 ---
 
 韓国AI規制、その真意は？ 開発と信頼の狭間で何が変わるのか

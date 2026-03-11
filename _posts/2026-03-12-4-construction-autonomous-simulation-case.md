@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 description: "大手精密機器メーカーとの5年間にわたる建機自動操縦シミュレーション開発、ミドルウェア化、XR技術活用の事例を詳細に解説"
 reading_time: 13
 image: "/assets/images/posts/2026-03-12-4-construction-autonomous-simulation-case-ogp.png"
+excerpt: "建設業界は、深刻な人手不足と高齢化に直面している。国土交通省の統計によれば、建設技能労働者の約35%が55歳以上であり、若年入職者の減少により、2030年には約90万人の人材不足が見込まれている。"
 ---
 
 ## はじめに：建設業界の自動化を支えるシミュレーション技術

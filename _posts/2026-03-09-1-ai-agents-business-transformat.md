@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2026-03-09-1-ai-agents-enterprise-app-futur", "title": "2026年、企業アプリの40%にAIエージェント搭載、その真意とは何か", "reason": "関連記事"}, {"slug": "2025-12-03-1-2026ai", "title": "2026年、AIエージェントがビジネスをどう変えるのか？その真意を探る", "reason": "関連記事"}, {"slug": "2026-03-05-1-ai-agents-enterprise-apps-2026", "title": "2026年、企業アプリの4割にAIエージェント搭載で何が変わるのか？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-09-1-ai-agents-business-transformat-ogp.png"
+description: "「AIエージェント」という言葉を耳にする機会が増えているのではないでしょうか。単に指示されたタスクをこなすだけでなく、自律的に考え、行動し、目標を達成していくAI。この革新的な技術は、私たちの働き方を根本から変えようとしています。"
 ---
 
 ## AIエージェント：ビジネスを変革する自律型AIの現在地と未来

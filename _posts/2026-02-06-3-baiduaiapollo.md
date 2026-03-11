@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "やあ、君もBaiduの自動運転AI「Apollo 8.0」のニュースを見たかい？ 中国の巨人がまた1つ、新しいバージョンを発表して、実証実験の都市も拡大すると聞けば、AI業界に身を置く者としては、無視できない話題だよね。"
 reading_time: 20
 image: "/assets/images/posts/2026-02-06-3-baiduaiapollo-ogp.png"
+description: "中国Baiduの自動運転AI『Apollo 8.0』、その進化はどこまで本物か？ 20年の経験から語るやあ、君もBaiduの自動運転AI「Apollo 8.0」のニュースを見たかい？ 中国の巨人がまた1つ、新しいバージョンを発表して、実証実験の都市も拡大すると聞けば、AI業界に身を置く者としては、無視できない話題..."
 ---
 
 **中国Baiduの自動運転AI『Apollo 8.0』、その進化はどこまで本物か？ 20年の経験から語る**

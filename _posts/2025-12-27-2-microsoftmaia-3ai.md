@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのMaia 3、AI業界の潮目を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-27-2-microsoftmaia-3ai-ogp.png"
+description: "MicrosoftのMaia 3、AI業界の潮目を変えるのか？いやはや、最近のMicrosoftの動きには目を見張るものがありますね。特に、AIチップ「Maia 3」の発表ときたら、これは無視できないニュースだと感じています。"
 ---
 
 MicrosoftのMaia 3、AI業界の潮目を変えるのか？

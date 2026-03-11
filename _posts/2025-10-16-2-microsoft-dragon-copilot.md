@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。"
 reading_time: 20
 image: "/assets/images/posts/2025-10-16-2-microsoft-dragon-copilot-ogp.png"
+description: "「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。Microsoftが医療AI「Dragon Copilot」を強化する、というニュースを聞いて、正直なところ、「またAIか」と思った人もいるかもしれませんね。"
 ---
 
 「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。

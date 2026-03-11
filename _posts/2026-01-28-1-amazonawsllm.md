@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-28-1-amazonawsllm-ogp.png"
+description: "Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？いやー、このニュース、皆さんもうチェックされましたか？ Amazon、AWSがLLM（大規模言語モデル）の推論コストを最大20%削減した、という話。正直、最初にこの見出しを見たとき、「へえ、またか」というのが正直な感想でした。"
 ---
 
 Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？

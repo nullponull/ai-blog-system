@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Stargate Project」の真意とは？AIインフラ投資の巨大な波が示す未来"
 reading_time: 20
 image: "/assets/images/posts/2025-09-24-1-stargate-project-ogp.png"
+description: "「Stargate Project」の真意とは？AIインフラ投資の巨大な波が示す未来正直なところ、この「Stargate Project」という話を聞いた時、私の最初の反応は「またか」でした。AI業界を20年も見ていると、壮大な計画が発表されては、その多くが絵に描いた餅で終わるのを何度も経験してきましたからね。"
 ---
 
 「Stargate Project」の真意とは？AIインフラ投資の巨大な波が示す未来

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepSeekがNVIDIAの牙城を崩せるか？ AIの未来に問われる「効率」の真価とは。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-29-3-deepseeknvidia-ogp.png"
+description: "DeepSeekがNVIDIAの牙城を崩せるか？ AIの未来に問われる「効率」の真価とは。やあ、みんな。AI業界で四半世紀近く飯を食ってきた先輩として、今日はちょっと気になる話があるんだ。DeepSeekっていう中国のスタートアップがね、あのNVIDIAの牙城に挑もうとしているらしい。"
 ---
 
 DeepSeekがNVIDIAの牙城を崩せるか？ AIの未来に問われる「効率」の真価とは。

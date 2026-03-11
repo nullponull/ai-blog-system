@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Bell CanadaのAIサイバー防衛：その真意は？カナダが描くAI時代のセキュリティ戦略"
 reading_time: 20
 image: "/assets/images/posts/2025-09-09-3-bell-canadaai-ogp.png"
+description: "Bell CanadaのAIサイバー防衛：その真意は？カナダが描くAI時代のセキュリティ戦略いやはや、最近のAI業界の動きは本当に目まぐるしいね。君もそう感じているんじゃないかな？特に、Bell Canadaが「Bell Cyber」を立ち上げて、AIを活用したサイバー防衛を本格化させるというニュースを聞いた時、..."
 ---
 
 Bell CanadaのAIサイバー防衛：その真意は？カナダが描くAI時代のセキュリティ戦略

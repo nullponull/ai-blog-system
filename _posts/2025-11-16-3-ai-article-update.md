@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "中国新メディア大会が示すAI活用の真意とは？その波紋はどこまで広がるのか。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-3-ai-article-update-ogp.png"
+description: "中国新メディア大会が示すAI活用の真意とは？その波紋はどこまで広がるのか。「またAIか」――正直なところ、中国新メディア大会でAI活用推進が主要テーマだと聞いた時、私の最初の反応はそんな感じでした。"
 ---
 
 中国新メディア大会が示すAI活用の真意とは？その波紋はどこまで広がるのか。

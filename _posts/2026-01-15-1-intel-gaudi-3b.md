@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "あなたもこのニュースを見たとき、どう感じましたか？ 「Intel Gaudi 3b、推論性能2倍に」──正直なところ、私の最初の反応は「おや、またIntelが動いたな」というものだったんですよ。"
 reading_time: 8
 image: "/assets/images/posts/2026-01-15-1-intel-gaudi-3b-ogp.png"
+description: "あなたもこのニュースを見たとき、どう感じましたか？ 「Intel Gaudi 3b、推論性能2倍に」──正直なところ、私の最初の反応は「おや、またIntelが動いたな」というものだったんですよ。"
 ---
 
 ## Intel Gaudi 3b、推論性能2倍の発表は、AIアクセラレーター市場に何をもたらすのか？

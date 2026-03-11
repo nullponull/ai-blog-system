@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ANAの「neoAI Chat」導入、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-18-3-ananeoai-chat-ogp.png"
+description: "ANAの「neoAI Chat」導入、その真意はどこにあるのか？ANAがneoAI株式会社と共同開発した「neoAI Chat」を航空機オペレーション部門に本格導入し、規程やマニュアルの検索時間を90%も削減したというニュース、あなたも耳にしましたか？正直なところ、最初にこの数字を見た時、「また大げさな話が出てき..."
 ---
 
 ANAの「neoAI Chat」導入、その真意はどこにあるのか？

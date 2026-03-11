@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ZoomのAI Companion 3.0、その真意は「エージェントAI」への静かなる変革か？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-30-3-zoomai-companion-30-ogp.png"
+description: "ZoomのAI Companion 3.0、その真意は「エージェントAI」への静かなる変革か？先日、Zoomtopia 2025で発表された「AI Companion 3.0」、あなたもそのニュースに触れて、正直なところ「またAI機能のアップデートか」と感じたかもしれませんね。私も最初はそうでした。"
 ---
 
 ZoomのAI Companion 3.0、その真意は「エージェントAI」への静かなる変革か？

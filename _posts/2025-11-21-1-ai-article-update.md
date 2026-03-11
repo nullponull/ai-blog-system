@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIハードウェアの内製化、その真意は？OpenAIとFoxconn提携が拓く新たな局面"
 reading_time: 20
 image: "/assets/images/posts/2025-11-21-1-ai-article-update-ogp.png"
+description: "AIハードウェアの内製化、その真意は？OpenAIとFoxconn提携が拓く新たな局面いやあ、皆さん、OpenAIとFoxconnの提携には驚きましたね。正直なところ、最初にニュースを耳にした時は、「ついに来たか！」と膝を打つような感覚と、「まさか、ここまで踏み込むとは」という2つの思いが交錯しました。"
 ---
 
 AIハードウェアの内製化、その真意は？OpenAIとFoxconn提携が拓く新たな局面

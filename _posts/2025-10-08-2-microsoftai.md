@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-08-2-microsoftai-ogp.png"
+description: "MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。特に「AIエージェント」という言葉が飛び交うようになってから、そのスピードはさらに加速しているように思います。"
 ---
 
 MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？

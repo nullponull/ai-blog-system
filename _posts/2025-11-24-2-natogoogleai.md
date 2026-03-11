@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-24-2-natogoogleai-ogp.png"
+description: "NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？正直なところ、NATOとGoogle Cloudのソブリンクラウド提携のニュースを聞いた時、私は「また新しい提携か」と、一瞬、懐疑的に受け止めましたよ。"
 ---
 
 NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？

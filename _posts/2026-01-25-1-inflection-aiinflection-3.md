@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-25-1-inflection-aiinflection-3-ogp.png"
+description: "Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？いやはや、最近のAI業界は本当に目まぐるしいですね。また新しい大規模言語モデル「Inflection-3」の発表、しかも今度は企業向けAPIの提供開始ですか。"
 ---
 
 Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？

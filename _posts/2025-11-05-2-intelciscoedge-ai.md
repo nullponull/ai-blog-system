@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-05-2-intelciscoedge-ai-ogp.png"
 robots: noindex
 sitemap: false
+description: "IntelとCiscoが描くエッジAIの未来：その統合プラットフォームの真意とは？いやはや、またしても興味深いニュースが飛び込んできましたね。IntelとCiscoがエッジAI向けの統合プラットフォームで協業する、と。"
 ---
 
 IntelとCiscoが描くエッジAIの未来：その統合プラットフォームの真意とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIは、AIモデル運用コスト削減、NVIDIAへの依存度低減、そして供給安定化を目指し、自社開発AIチップへの大規模投資を加速しています。米半導体大手Broadcom、"
 reading_time: 5
 image: "/assets/images/posts/2025-09-07-2-openai-custom-chip-ogp.png"
+description: "OpenAIは、AIモデル運用コスト削減、NVIDIAへの依存度低減、そして供給安定化を目指し、自社開発AIチップへの大規模投資を加速しています。米半導体大手Broadcom、世界最大の半導体受託生産企業である台湾積体電路製造（TSMC）と連携し、カスタムAIチップの開発を進めています。"
 ---
 
 # OpenAI、自社AIチップ投資で新時代を拓く

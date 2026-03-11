@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの推論速度2倍、その真価を問うのは、生成AIの新たな進化点か？"
 reading_time: 7
 image: "/assets/images/posts/2025-12-24-1-amazon-bedrock2-ogp.png"
+description: "Amazon Bedrockの推論速度2倍、その真価を問うのは、生成AIの新たな進化点か？「Amazon Bedrockで推論速度が2倍に！」──このニュースを目にしたとき、正直なところ、私は一瞬「またか」と思ってしまいました。あなたも同じように感じたかもしれませんね。"
 ---
 
 Amazon Bedrockの推論速度2倍、その真価を問うのは、生成AIの新たな進化点か？

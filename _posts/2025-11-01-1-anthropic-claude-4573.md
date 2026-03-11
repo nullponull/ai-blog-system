@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude 4.5のコード能力73%向上、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-1-anthropic-claude-4573-ogp.png"
+description: "Anthropic Claude 4.5のコード能力73%向上、その真意とは？正直なところ、このニュースを聞いた時、私の最初の反応は「またか」というものでした。AI業界を20年間見続けていると、こうした「〇〇%向上」という数字には、どうしても懐疑的になってしまうものです。"
 ---
 
 Anthropic Claude 4.5のコード能力73%向上、その真意とは？

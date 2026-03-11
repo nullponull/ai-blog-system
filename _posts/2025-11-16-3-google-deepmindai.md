@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-16-3-google-deepmindai-ogp.png"
+description: "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。特にGoogle DeepMindが次々と発表する科学研究AIのニュースには、正直なところ、私も最初は「また何かすごいのが出たな」くらいの印象でした。"
 ---
 
 Google DeepMindの科学研究AI発表、その真意はどこにあるのか？

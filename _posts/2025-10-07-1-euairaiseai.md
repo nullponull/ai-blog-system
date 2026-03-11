@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EUの科学AI戦略「Raise」が目指す、欧州AIの真の自立とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-07-1-euairaiseai-ogp.png"
+description: "EUの科学AI戦略「Raise」が目指す、欧州AIの真の自立とは？いやはや、EUがまた大きな一歩を踏み出しましたね。「Raise」という科学AI戦略を採択し、「AIのためのCERN」を創設する、と。正直なところ、最初にこのニュースを聞いた時、私は少しばかり懐疑的でした。"
 ---
 
 EUの科学AI戦略「Raise」が目指す、欧州AIの真の自立とは？

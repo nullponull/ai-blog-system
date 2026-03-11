@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "最近、「Cohere、企業向けLLMでAPI強化」というニュースが飛び込んできたね。あなたもこの見出しを見て、「またLLMか」「どこも同じようなことを言っているな」と感じたかもしれない。正直なところ、私も最初はそう思ったんだ。"
 reading_time: 8
 image: "/assets/images/posts/2026-01-13-1-coherellmai-ogp.png"
+description: "最近、「Cohere、企業向けLLMでAPI強化」というニュースが飛び込んできたね。あなたもこの見出しを見て、「またLLMか」「どこも同じようなことを言っているな」と感じたかもしれない。正直なところ、私も最初はそう思ったんだ。"
 ---
 
 ## Cohereの企業向けLLM強化、その真意とAI市場の次なる波を見極める

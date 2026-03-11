@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ASUS IoTとAlgorizedの提携、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-11-2-asus-iotalgorized-ogp.png"
+description: "ASUS IoTとAlgorizedの提携、その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に動きが速いですよね。毎日新しい発表があって、正直なところ、全部を追いかけるのは至難の業です。"
 ---
 
 ASUS IoTとAlgorizedの提携、その真意はどこにあるのか？

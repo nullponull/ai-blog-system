@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-23-2-baidu-ernie-botai-ogp.png"
+description: "Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？やあ、元気にしてるかい？最近、中国のBaiduがAIチャットボット「Ernie Bot（文心一言）」の最新版を発表したっていうニュースが飛び込んできたよね。正直なところ、私も最初は「またか」と、少し懐疑的な気持ちでこの報に接したんだ。"
 ---
 
 Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？

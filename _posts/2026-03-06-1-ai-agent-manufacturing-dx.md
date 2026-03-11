@@ -10,6 +10,7 @@ reading_time: 10
 related_articles: [{"slug": "2026-02-13-1-ai-agent-predictive-maintenanc", "title": "製造業DXの鍵！AIエージェントで予知保全はどこまで進化するのか", "reason": "関連記事"}, {"slug": "2026-03-06-1-multimodal-ai-industry-standar", "title": "マルチモーダルAI、産業標準化で何が変わる？その未来を徹底解説", "reason": "関連記事"}, {"slug": "2026-03-06-1-mistral-ai-european-ai-market-", "title": "Mistral AIの急成長、欧州AI市場の未来はどう変わるのか", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-06-1-ai-agent-manufacturing-dx-ogp.png"
+description: "製造業DXを加速するAIエージェント：現場の課題を解決し、未来を拓く製造現場の皆さん、日々、生産性向上や品質改善のために様々な取り組みをされていることと思います。私自身も、いくつかの製造現場でAI導入の支援をしてきましたが、現場の皆さんが抱える課題の根深さと、それに対するAI活用の可能性に、日々刺激を受けています。"
 ---
 
 製造業DXを加速するAIエージェント：現場の課題を解決し、未来を拓く

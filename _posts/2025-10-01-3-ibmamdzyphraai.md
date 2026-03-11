@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-01-3-ibmamdzyphraai-ogp.png"
+description: "IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？いやはや、またしてもAIインフラの話題ですよ。正直なところ、この手のニュースを聞くたびに「またか」と思う人もいるんじゃないでしょうか？ 私も20年間この業界を見てきて、数えきれないほどの「次世代」を見てきましたから、最初は「ふむ、今度はどんな組み合わ..."
 ---
 
 IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？

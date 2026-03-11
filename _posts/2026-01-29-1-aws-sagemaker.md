@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、またAWS SageMakerのニュースが出ましたね。「推論コストを30%削減」なんて聞くと、正直「またか」と思う反面、これは無視できない動きだと感じています。AI業界を20年近く見ていると、こういうニュースは波紋を広げるんですよね。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-29-1-aws-sagemaker-ogp.png"
+description: "AWS SageMakerの推論コスト削減、その真意は何？いやー、またAWS SageMakerのニュースが出ましたね。「推論コストを30%削減」なんて聞くと、正直「またか」と思う反面、これは無視できない動きだと感じています。AI業界を20年近く見ていると、こういうニュースは波紋を広げるんですよね。"
 ---
 
 AWS SageMakerの推論コスト削減、その真意は何？

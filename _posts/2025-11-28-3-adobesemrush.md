@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AdobeがSemrushを19億ドルで買収すると聞いた時、正直なところ「ほう、来たか」というのが最初の感想だったね。君も同じように感じたかもしれないけれど、このディールは単なる企業買収以上の、"
 reading_time: 20
 image: "/assets/images/posts/2025-11-28-3-adobesemrush-ogp.png"
+description: "AdobeのSemrush買収、その真意はどこにあるのか？AdobeがSemrushを19億ドルで買収すると聞いた時、正直なところ「ほう、来たか」というのが最初の感想だったね。君も同じように感じたかもしれないけれど、このディールは単なる企業買収以上の、もっと深い意味があるんじゃないかと私は見ているんだ。"
 ---
 
 **AdobeのSemrush買収、その真意はどこにあるのか？**

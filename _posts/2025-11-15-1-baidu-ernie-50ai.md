@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-15-1-baidu-ernie-50ai-ogp.png"
+description: "Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。特に中国のテックジャイアント、Baiduが年次イベント「Baidu World 2025」で発表した次世代基盤AIモデル「ERNIE 5.0」には、正直な..."
 ---
 
 Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？

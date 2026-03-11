@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実"
 reading_time: 5
 image: "/assets/images/posts/2025-12-07-3-ai-article-update-ogp.png"
+description: "AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実いやはや、最近のAI企業に対する安全対策の評価、みなさんも気になっていますよね？「Future of Life Institute（FLI）」が発表した「AI安全性指数」のレポート、正直、私も最初は「またか」とため息が出たのが本音です。"
 ---
 
 AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実

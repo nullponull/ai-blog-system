@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google AI Searchの進化、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-17-1-google-ai-search-ogp.png"
+description: "Google AI Searchの進化、その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のGoogle検索の変化には目を見張るものがありますよね。正直なところ、私自身も20年間この業界を見てきて、これほど急速で根本的な変化はそう多くありませんでした。"
 ---
 
 Google AI Searchの進化、その真意はどこにあるのか？

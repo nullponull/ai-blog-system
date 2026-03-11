@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AnthropicのClaude Haiku 4.5、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-2-anthropicclaude-haiku-45-ogp.png"
+description: "AnthropicのClaude Haiku 4.5、その真意はどこにあるのか？いやはや、また来ましたね、Anthropicからの新発表。正直なところ、最初に「Claude Haiku 4.5」という名前を聞いた時、「また新しいバージョンか、どこまで細分化するんだ？」って、ちょっと斜に構えてしまったんですよ。"
 ---
 
 AnthropicのClaude Haiku 4.5、その真意はどこにあるのか？

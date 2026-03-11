@@ -10,6 +10,7 @@ reading_time: 8
 image: "/assets/images/posts/2025-12-23-2-microsoft-copilot-ogp.png"
 robots: noindex
 sitemap: false
+description: "Microsoft Copilot、中小企業に何をもたらすのか？いやはや、Microsoft Copilotの中小企業向け機能強化の話、耳にしてるかな？ 私もね、この業界を20年近く見てきて、数えきれないほどの技術の波を見てきたんだけど、今回のCopilotの話は、ちょっとだけ、いや、かなり気になってるんだ。"
 ---
 
 Microsoft Copilot、中小企業に何をもたらすのか？

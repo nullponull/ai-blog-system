@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "正直なところ、Amazon Bedrockの発表を聞いた時、私の最初の反応はそうだったんだ。新モデルが10種類も追加されたというニュースを見て、あなたも「またか、とんでもない勢いだな」と感じたかもしれませんね。"
 reading_time: 10
 image: "/assets/images/posts/2025-12-30-1-amazon-bedrock-ogp.png"
+description: "正直なところ、Amazon Bedrockの発表を聞いた時、私の最初の反応はそうだったんだ。新モデルが10種類も追加されたというニュースを見て、あなたも「またか、とんでもない勢いだな」と感じたかもしれませんね。"
 ---
 
 ## Amazon Bedrock、新モデル10種追加の真意とは？クラウド巨人が描く生成AIの未来。

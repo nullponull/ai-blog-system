@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "TDKのアナログAIチップ、その真意は？電力問題に挑む日本の技術革新の行方。"
 reading_time: 20
 image: "/assets/images/posts/2025-10-02-2-tdkaitechnology-analysis-ogp.png"
+description: "TDKのアナログAIチップ、その真意は？電力問題に挑む日本の技術革新の行方。TDKがアナログAIチップを開発しているって聞いて、正直、最初は「また新しい話か」って思った人もいるんじゃないかな？あなたも感じているかもしれませんが、AI業界を20年も見ていると、本当に色々な技術の波を見てきたからね。"
 ---
 
 TDKのアナログAIチップ、その真意は？電力問題に挑む日本の技術革新の行方。

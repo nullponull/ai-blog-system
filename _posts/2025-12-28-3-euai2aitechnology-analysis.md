@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-28-3-euai2aitechnology-analysis-ogp.png"
+description: "EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？やあ、久しぶりだね。またAIの世界で面白い動きが出てきたよ。EUがAI規制の第2弾、特に倫理基準の強化に踏み出すというニュースを耳にして、君も「また規制か…」と感じた人も多いんじゃないかな。"
 ---
 
 EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？

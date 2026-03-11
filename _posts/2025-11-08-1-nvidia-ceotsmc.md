@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Nvidia CEOのTSMC増産要請、その真意とAI半導体市場の未来は何を語るのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-08-1-nvidia-ceotsmc-ogp.png"
+description: "Nvidia CEOのTSMC増産要請、その真意とAI半導体市場の未来は何を語るのか？Nvidiaのジェンスン・フアンCEOがTSMCに増産を要請したというニュース、あなたも感じているかもしれませんが、正直なところ、これは単なる需給逼迫の話で終わると思いますか？ 私がこの業界を20年間見てきた経験からすると、これ..."
 ---
 
 Nvidia CEOのTSMC増産要請、その真意とAI半導体市場の未来は何を語るのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindの創薬AI、その真意と未来はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-25-3-deepmindai-ogp.png"
+description: "DeepMindの創薬AI、その真意と未来はどこにあるのか？「DeepMindが新しいAIモデルで、創薬速度を3倍に！」あなたもこのニュースを聞いて、きっと目を引かれたんじゃないかな？正直なところ、僕もね、最初にこの見出しを見たときは「またか」って思ったんだ。"
 ---
 
 DeepMindの創薬AI、その真意と未来はどこにあるのか？

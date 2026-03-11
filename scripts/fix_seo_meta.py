@@ -3,10 +3,11 @@
 fix_seo_meta.py - SEO meta description自動修正スクリプト
 
 機能:
-1. front matterにdescriptionがない記事にexcerptから自動生成
-2. excerptが短すぎる場合、本文冒頭150字を使用
-3. titleが重複している記事を検出
-4. image(OGP画像)が未設定の記事を検出
+1. front matterにdescriptionがない記事に本文から自動生成
+2. excerptがない記事に本文から自動生成
+3. titleが短い記事を検出（50文字未満）
+4. titleが重複している記事を検出
+5. image(OGP画像)が未設定の記事を検出
 """
 
 from __future__ import annotations
@@ -20,6 +21,8 @@ from collections import Counter
 POSTS_DIR = Path("/home/sol/ai-blog-system/_posts")
 MAX_DESCRIPTION_LENGTH = 160
 MIN_DESCRIPTION_LENGTH = 50
+IDEAL_TITLE_MIN = 40
+IDEAL_TITLE_MAX = 60
 
 
 def parse_front_matter(content: str) -> tuple[dict, str, int]:
@@ -56,18 +59,38 @@ def extract_first_text(body: str, length: int = 160) -> str:
             continue
         if line.startswith('---'):
             continue
+        if line.startswith('{%'):
+            continue
+        if line.startswith('- ') or line.startswith('* '):
+            continue
         # マークダウン記法を除去
         clean = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', line)
         clean = re.sub(r'[*_`~]', '', clean)
         clean = clean.strip()
-        if clean:
+        if clean and len(clean) > 20:
             text_parts.append(clean)
         if len(''.join(text_parts)) >= length:
             break
     result = ''.join(text_parts)
     if len(result) > length:
-        result = result[:length-3] + '...'
+        # 文末で切る（句読点の後）
+        cut = result[:length]
+        last_period = max(cut.rfind('。'), cut.rfind('。'), cut.rfind('．'))
+        if last_period > length // 2:
+            result = cut[:last_period + 1]
+        else:
+            result = cut[:length - 3] + '...'
     return result
+
+
+def add_field_to_front_matter(content: str, field: str, value: str) -> str:
+    """front matterにフィールドを追加"""
+    parts = content.split('---', 2)
+    if len(parts) < 3:
+        return content
+    escaped = value.replace('"', '\\"')
+    parts[1] = parts[1].rstrip('\n') + f'\n{field}: "{escaped}"\n'
+    return '---'.join(parts)
 
 
 def check_and_fix_posts(dry_run: bool = True):
@@ -75,47 +98,66 @@ def check_and_fix_posts(dry_run: bool = True):
     posts = sorted(POSTS_DIR.glob("*.md"))
     print(f"総記事数: {len(posts)}")
 
-    # 統計カウンタ
     stats = {
         'total': len(posts),
+        'no_description': 0,
         'no_excerpt': 0,
         'short_excerpt': 0,
-        'no_description': 0,
         'no_image': 0,
-        'fixed': 0,
+        'short_title': 0,
+        'fixed_description': 0,
+        'fixed_excerpt': 0,
     }
 
     titles = []
+    short_title_posts = []
     no_image_posts = []
-    short_excerpt_posts = []
 
     for post_path in posts:
         content = post_path.read_text(encoding='utf-8')
         fm, body, _ = parse_front_matter(content)
+        modified = False
 
         title = fm.get('title', '').strip('"').strip("'")
         titles.append(title)
+
+        # タイトル文字数チェック
+        if title and len(title) < IDEAL_TITLE_MIN:
+            stats['short_title'] += 1
+            if len(short_title_posts) < 20:
+                short_title_posts.append((post_path.name, title, len(title)))
+
+        # description チェック
+        description = fm.get('description', '').strip('"').strip("'")
+        if not description:
+            stats['no_description'] += 1
+            new_desc = extract_first_text(body, MAX_DESCRIPTION_LENGTH)
+            if new_desc and not dry_run:
+                content = add_field_to_front_matter(content, 'description', new_desc)
+                modified = True
+                stats['fixed_description'] += 1
 
         # excerpt チェック
         excerpt = fm.get('excerpt', '').strip('"').strip("'")
         if not excerpt:
             stats['no_excerpt'] += 1
-            # 本文からexcerptを生成
-            new_excerpt = extract_first_text(body, MAX_DESCRIPTION_LENGTH)
+            new_excerpt = extract_first_text(body, 120)
             if new_excerpt and not dry_run:
-                # front matterにexcerptを追加
-                content = add_excerpt_to_front_matter(content, new_excerpt)
-                post_path.write_text(content, encoding='utf-8')
-                stats['fixed'] += 1
-                print(f"  [FIXED] {post_path.name}: excerpt追加")
+                content = add_field_to_front_matter(content, 'excerpt', new_excerpt)
+                modified = True
+                stats['fixed_excerpt'] += 1
         elif len(excerpt) < MIN_DESCRIPTION_LENGTH:
             stats['short_excerpt'] += 1
-            short_excerpt_posts.append((post_path.name, excerpt))
 
         # image チェック
         if 'image' not in fm:
             stats['no_image'] += 1
-            no_image_posts.append(post_path.name)
+            if len(no_image_posts) < 10:
+                no_image_posts.append(post_path.name)
+
+        # 書き込み
+        if modified:
+            post_path.write_text(content, encoding='utf-8')
 
     # 重複タイトル検出
     title_counts = Counter(titles)
@@ -126,37 +168,38 @@ def check_and_fix_posts(dry_run: bool = True):
     print("SEO診断レポート")
     print("=" * 60)
     print(f"\n総記事数: {stats['total']}")
-    print(f"excerpt未設定: {stats['no_excerpt']}件")
+    print(f"\n--- メタデータ ---")
+    print(f"description未設定: {stats['no_description']}件 ({stats['no_description']/stats['total']*100:.1f}%)")
+    print(f"excerpt未設定: {stats['no_excerpt']}件 ({stats['no_excerpt']/stats['total']*100:.1f}%)")
     print(f"excerpt短すぎ(<{MIN_DESCRIPTION_LENGTH}文字): {stats['short_excerpt']}件")
     print(f"OGP画像未設定: {stats['no_image']}件 ({stats['no_image']/stats['total']*100:.1f}%)")
 
+    print(f"\n--- タイトル ---")
+    print(f"短いタイトル(<{IDEAL_TITLE_MIN}文字): {stats['short_title']}件 ({stats['short_title']/stats['total']*100:.1f}%)")
+
+    if short_title_posts[:10]:
+        print(f"\n短いタイトルの記事(先頭10件):")
+        for name, title, length in short_title_posts[:10]:
+            print(f"  [{length}文字] {name}: \"{title}\"")
+
     if duplicates:
         print(f"\n重複タイトル: {len(duplicates)}件")
-        for title, count in sorted(duplicates.items(), key=lambda x: -x[1]):
+        for title, count in sorted(duplicates.items(), key=lambda x: -x[1])[:10]:
             print(f"  [{count}回] {title}")
 
-    if short_excerpt_posts[:10]:
-        print(f"\nexcerpt短すぎの記事(先頭10件):")
-        for name, excerpt in short_excerpt_posts[:10]:
-            print(f"  {name}: \"{excerpt[:50]}...\"")
+    if no_image_posts:
+        print(f"\nOGP画像未設定(先頭10件):")
+        for name in no_image_posts[:10]:
+            print(f"  {name}")
 
     if not dry_run:
-        print(f"\n修正件数: {stats['fixed']}件")
+        print(f"\n--- 修正結果 ---")
+        print(f"description追加: {stats['fixed_description']}件")
+        print(f"excerpt追加: {stats['fixed_excerpt']}件")
     else:
         print(f"\n[DRY RUN] 実際の修正は行われていません。--fix オプションで修正を実行します。")
 
     return stats, duplicates
-
-
-def add_excerpt_to_front_matter(content: str, excerpt: str) -> str:
-    """front matterにexcerptフィールドを追加"""
-    # 最初の---と2番目の---の間に追加
-    parts = content.split('---', 2)
-    if len(parts) < 3:
-        return content
-    escaped = excerpt.replace('"', '\\"')
-    parts[1] = parts[1].rstrip('\n') + f'\nexcerpt: "{escaped}"\n'
-    return '---'.join(parts)
 
 
 if __name__ == '__main__':

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-18-2-ping-identityai-ogp.png"
+description: "Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？Ping IdentityがAI信頼性フレームワークを発表したと聞いて、正直なところ、最初は「また新しいバズワードか？」と思ったんですよ。"
 ---
 
 Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？

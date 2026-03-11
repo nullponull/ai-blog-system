@@ -10,6 +10,7 @@ reading_time: 7
 related_articles: [{"slug": "2025-10-04-3-aideepseek-r1", "title": "中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？", "reason": "関連記事"}, {"slug": "2026-03-01-3-eu-ai-law-open-source-future", "title": "EU AI法、オープンソースAI研究の未来はどうなるのか？", "reason": "関連記事"}, {"slug": "2026-03-01-3-eu-ai-act-open-source-future", "title": "EU AI法、オープンソースAI研究の未来はどうなるのか？", "reason": "関連記事"}]
 pillar_article: {"slug": "2025-12-20-3-euai10", "title": "EUのAI人材育成、10億ユーロ投資は何を変えるのか？"}
 image: "/assets/images/posts/2026-03-04-2-deepseek-r1-next-gen-inference-ogp.png"
+description: "AIの進化は目覚ましいものがありますが、その「思考プロセス」が見えない、いわゆるブラックボックス問題は、多くの現場で信頼性の壁となってきました。特に、重要な意思決定をAIに委ねる場面では、なぜその結論に至ったのか、その根拠が不明確であることに不安を感じる方も少なくないでしょう。"
 ---
 
 ## DeepSeek R1：思考プロセスを解き明かす新世代推論モデルがAIの信頼性をどう変えるか

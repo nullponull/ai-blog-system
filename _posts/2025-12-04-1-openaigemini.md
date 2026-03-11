@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路"
 reading_time: 20
 image: "/assets/images/posts/2025-12-04-1-openaigemini-ogp.png"
+description: "「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路いやはや、AI業界も本当にドラマチックになってきましたね。Sam Altman氏が「コードレッド」を宣言したと聞いたとき、正直なところ「またか」とニヤリとしてしまいました。"
 ---
 
 「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路

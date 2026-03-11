@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2026-01-17-2-deepmindalphafold-3-ogp.png"
 robots: noindex
 sitemap: false
+description: "DeepMind「AlphaFold 3」が拓く創薬革命、その本質と我々が問われる未来とは。いやー、正直、またか、と思った人もいるんじゃないかな？ DeepMindが「AlphaFold 3」を発表したと聞いたとき、私の最初の反応も「ほう、今度はどこまで来たか」って感じだったんだ。"
 ---
 
 DeepMind「AlphaFold 3」が拓く創薬革命、その本質と我々が問われる未来とは。

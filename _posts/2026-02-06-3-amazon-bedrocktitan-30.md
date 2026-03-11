@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-02-06-3-amazon-bedrocktitan-30-ogp.png"
+description: "Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？ねえ、あなたも感じたんじゃないかな？ 「またAmazonか」って。正直なところ、個人的には今回のAmazon Bedrockと独自LLM「Titan 3.0」の発表を聞いた時、まず脳裏をよぎったのは、そんな率直な感想でした。"
 ---
 
 Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？

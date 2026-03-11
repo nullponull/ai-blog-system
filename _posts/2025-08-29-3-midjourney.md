@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "2025年6月11日、エンターテインメント業界の二大巨頭であるウォルト・ディズニー社とNBCユニバーサルは、画像生成AIサービス「Midjourney」に対し、著作権侵害を理由に提訴しました。"
 reading_time: 8
 image: "/assets/images/posts/2025-08-29-3-midjourney-ogp.png"
+description: "2025年6月11日、エンターテインメント業界の二大巨頭であるウォルト・ディズニー社とNBCユニバーサルは、画像生成AIサービス「Midjourney」に対し、著作権侵害を理由に提訴しました。"
 ---
 
 ## 概要と背景

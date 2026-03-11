@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、IntelのGaudi 3の話、耳にしてます？正直、最初は「またIntelか」って思ったんですよ。だって、AIチップの世界って、NVIDIA一強みたいな空気がずっと続いてたじゃないですか。"
 reading_time: 7
 image: "/assets/images/posts/2025-12-18-2-intel-gaudi-3ai-ogp.png"
+description: "Intel Gaudi 3、AIチップ市場で何が変わる？いやー、IntelのGaudi 3の話、耳にしてます？正直、最初は「またIntelか」って思ったんですよ。だって、AIチップの世界って、NVIDIA一強みたいな空気がずっと続いてたじゃないですか。"
 ---
 
 Intel Gaudi 3、AIチップ市場で何が変わる？

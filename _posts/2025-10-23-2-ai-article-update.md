@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけ"
 reading_time: 20
 image: "/assets/images/posts/2025-10-23-2-ai-article-update-ogp.png"
+description: "カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけあなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。特にカリフォルニア州が「SB243」、通称「Companion Chatbot Act」を制定したというニュースには、正直なところ、私も最初は少し驚きました。"
 ---
 
 カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけ

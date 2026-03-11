@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの「コスト半減」発表、AI投資の潮目を本当に変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-20-1-amazon-bedrock-ogp.png"
+description: "Amazon Bedrockの「コスト半減」発表、AI投資の潮目を本当に変えるのか？Amazon Bedrockが発表した新モデルによるコスト半減のニュース、あなたもきっと耳にしたんじゃないかな。正直なところ、私もこの業界で20年近くも技術の進化と価格競争を見てきたから、「またコモディティ化の話か」と一瞬思ったんだ。"
 ---
 
 Amazon Bedrockの「コスト半減」発表、AI投資の潮目を本当に変えるのか？

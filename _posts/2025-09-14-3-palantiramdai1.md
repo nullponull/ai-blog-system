@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」"
 reading_time: 20
 image: "/assets/images/posts/2025-09-14-3-palantiramdai1-ogp.png"
+description: "「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」「PalantirとAMDがAIで1兆ドル企業になる」――こんな見出しを目にした時、あなたも「またか」と感じませんでしたか？正直なところ、20年間この業界の浮き沈みを見てきた私としては、まず眉唾で見てしまうんです。"
 ---
 
 「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」

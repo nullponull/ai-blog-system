@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-1-nvidiaskai5gpu-ogp.png"
+description: "NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？あなたも感じているかもしれませんが、最近のAI業界のニュースは、まるでジェットコースターのようですよね。毎日新しい発表があり、そのたびに「今度は何が来るんだ？」とワクワクさせられます。"
 ---
 
 NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？

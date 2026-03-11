@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AmazonのAI小売分析「Veridian」、その本当の実力とは？"
 reading_time: 7
 image: "/assets/images/posts/2026-02-03-2-amazonaiveridian-ogp.png"
+description: "AmazonのAI小売分析「Veridian」、その本当の実力とは？いやー、またすごいニュースが飛び込んできましたね。Amazonが「Veridian」というAI小売分析SaaSを発表した、と。しかも、売上予測精度が95%だとか。"
 ---
 
 AmazonのAI小売分析「Veridian」、その本当の実力とは？

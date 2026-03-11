@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2026-03-06-3-eu-ai-act", "title": "EU AI Act施行、日本企業への影響と対応策", "reason": "関連記事"}, {"slug": "2026-03-03-3-eu-ai-act-corporate-impact", "title": "EU AI Act施行、高リスクAI規制で企業はどう変わるのか？", "reason": "関連記事"}, {"slug": "2026-03-05-3-eu-ai-act-high-risk-regulation", "title": "2026年8月EU AI Act施行、企業が知るべき高リスクAI規制の全貌", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-13-2-eu-ai-law-enterprise-strategy-", "title": "EU AI法完全施行、大企業のAI戦略はどう変わるのか"}
 image: "/assets/images/posts/2026-03-10-3-eu-ai-act-impact-for-japanese--ogp.png"
+description: "2026年8月、EU AI Actが完全施行されます。この法律は、AIの利用と開発におけるリスクを管理し、倫理的かつ安全なAIの普及を目指す世界初の包括的なAI規制です。"
 ---
 
 ## EU AI Act施行、日本企業が取るべき実践的対応策

@@ -10,6 +10,7 @@ reading_time: 5
 image: "/assets/images/posts/2025-09-06-3-google-deepmind重力波検出aiで安定性革新-ogp.png"
 robots: noindex
 sitemap: false
+description: "Google DeepMindは、重力波検出技術の安定性向上に大きく貢献するAI技術を推進しています。マックス・プランク光科学研究所（MPL）とLIGOの研究者らが開発したAI「Urania」は、従来の人間による設計を凌駕する新型検出器の設計案を多数考案し、宇宙の激しい現象が引き起こす時空のさざ波を捉える能力を飛..."
 ---
 
 # Google DeepMind、重力波検出AIで安定性革新

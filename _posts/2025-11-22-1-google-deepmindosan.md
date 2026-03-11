@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google DeepMindがロボットOSの「Android」を目指す真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-22-1-google-deepmindosan-ogp.png"
+description: "Google DeepMindがロボットOSの「Android」を目指す真意とは？「また来たか」というのが正直なところ、Google DeepMindがGeminiをロボットの「ユニバーサルOS」にするというニュースを聞いた時の私の最初の反応でした。あなたもそう感じたかもしれませんね。"
 ---
 
 Google DeepMindがロボットOSの「Android」を目指す真意とは？

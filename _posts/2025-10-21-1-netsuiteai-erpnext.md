@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NetSuiteのAI ERP「Next」発表、その真意とビジネス変革の可能性とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-21-1-netsuiteai-erpnext-ogp.png"
+description: "NetSuiteのAI ERP「Next」発表、その真意とビジネス変革の可能性とは？いやはや、またしてもAIの波が基幹業務システム、それもERPに押し寄せるとはね。NetSuiteが「NetSuite Next」を発表したと聞いて、正直なところ「またか」というのが最初の印象でしたよ。"
 ---
 
 NetSuiteのAI ERP「Next」発表、その真意とビジネス変革の可能性とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-1-openaiamdai-ogp.png"
+description: "OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面あなたも感じているかもしれませんが、最近のAI業界の動きは本当に目まぐるしいですよね。特に、OpenAIとAMDが巨額のAIインフラ提携を結んだというニュースは、正直なところ、私のような古参アナリストにとっても驚きでした。"
 ---
 
 OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面

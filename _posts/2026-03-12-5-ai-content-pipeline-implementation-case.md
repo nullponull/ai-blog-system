@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 description: "AIを活用したコンテンツ運用システムの構築事例。品質評価システムの設計、コンテンツ配信パイプラインの最適化により配信効率を3倍に改善した取り組みを解説"
 reading_time: 12
 image: "/assets/images/posts/2026-03-12-5-ai-content-pipeline-implementation-case-ogp.png"
+excerpt: "AI技術の進歩により、コンテンツ制作の効率は飛躍的に向上した。LLM（大規模言語モデル）を活用すれば、記事の下書きやリサーチの効率化は容易に実現できる。しかし、多くの企業がAIをコンテンツ制作に活用するなかで、新たな課題が浮上している。"
 ---
 
 ## はじめに：AIメディア運用が直面する品質の壁

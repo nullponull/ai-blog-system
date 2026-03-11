@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-23-3-blackrockai-ogp.png"
+description: "韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？おや、これは面白い動きだね。韓国政府が世界最大の資産運用会社であるBlackRockと手を組み、「アジアのAI首都」を目指すというニュース、君はどう感じたかな？正直なところ、私のような古参のアナリストから見ると、最初は「また『ハブ』か」と少..."
 ---
 
 韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？

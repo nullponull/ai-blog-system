@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ねえ、最近のAmazon Bedrockのニュース、あなたも目にしましたか？「商用AIモデル200種超に対応」なんて聞くと、正直言って、私の最初の反応は「またAWSが来たか」という、少しばかり皮肉めいたものだったんですよ。"
 reading_time: 8
 image: "/assets/images/posts/2026-01-22-1-amazon-bedrock200ai-ogp.png"
+description: "ねえ、最近のAmazon Bedrockのニュース、あなたも目にしましたか？「商用AIモデル200種超に対応」なんて聞くと、正直言って、私の最初の反応は「またAWSが来たか」という、少しばかり皮肉めいたものだったんですよ。"
 ---
 
 ## Amazon Bedrockと200種の商用AIモデル、その真価をどう見極めるべきか？

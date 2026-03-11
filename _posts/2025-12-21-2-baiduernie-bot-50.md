@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BaiduのERNIE Bot 5.0は、中国語LLM市場を本当に掌握できるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-21-2-baiduernie-bot-50-ogp.png"
+description: "BaiduのERNIE Bot 5.0は、中国語LLM市場を本当に掌握できるのか？おいおい、またしても中国から大きなニュースが飛び込んできたね。BaiduがERNIE Bot 5.0を発表したって？あなたもニュースを見たとき、正直「またか」って思ったんじゃないかな？私がこの業界に入って20年、シリコンバレーのガレ..."
 ---
 
 BaiduのERNIE Bot 5.0は、中国語LLM市場を本当に掌握できるのか？

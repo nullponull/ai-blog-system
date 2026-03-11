@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Sonnet 4.5、そのコード生成能力の真価とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-2-anthropic-claude-sonnet-45-ogp.png"
+description: "Anthropic Claude Sonnet 4.5、そのコード生成能力の真価とは？あなたも最近、AIのコード生成能力に関するニュースをよく目にしているのではないでしょうか。"
 ---
 
 Anthropic Claude Sonnet 4.5、そのコード生成能力の真価とは？

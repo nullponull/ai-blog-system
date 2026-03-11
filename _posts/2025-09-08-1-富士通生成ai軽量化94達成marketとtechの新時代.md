@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "富士通は、生成AIモデルのメモリ消費量を94%削減する「生成AI再構成技術」を開発しました。この革新的な技術は、同社のAIサービス「Fujitsu Kozuchi」の中核を成し、大規模言語モデル「Takane」を強化します。"
 reading_time: 5
 image: "/assets/images/posts/2025-09-08-1-富士通生成ai軽量化94達成marketとtechの新時代-ogp.png"
+description: "富士通、生成AI軽量化94%達成：投資と技術の新時代富士通は、生成AIモデルのメモリ消費量を94%削減する「生成AI再構成技術」を開発しました。この革新的な技術は、同社のAIサービス「Fujitsu Kozuchi」の中核を成し、大規模言語モデル「Takane」を強化します。"
 ---
 
 富士通、生成AI軽量化94%達成：投資と技術の新時代

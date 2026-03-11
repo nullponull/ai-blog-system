@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-24-2-baidukunlun-4ai-ogp.png"
+description: "Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？いやー、ついに来ましたね、Baiduの「Kunlun 4」。AIチップのニュースを聞くと、つい20年前のまだ黎明期だった頃を思い出してしまいます。あの頃は、AIなんてSFの世界の話だと思っていた人も多かった。"
 ---
 
 Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？

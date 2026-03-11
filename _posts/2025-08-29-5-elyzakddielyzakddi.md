@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "2025年8月29日現在、日本のAIエコアーキテクチャにおいて、日本語大規模言語モデル（LLM）開発の最前線を走るELYZAと通信大手KDDIの資本業務提携は、その戦略的意義を一層深めています。"
 reading_time: 7
 image: "/assets/images/posts/2025-08-29-5-elyzakddielyzakddi-ogp.png"
+description: "2025年8月29日現在、日本のAIエコアーキテクチャにおいて、日本語大規模言語モデル（LLM）開発の最前線を走るELYZAと通信大手KDDIの資本業務提携は、その戦略的意義を一層深めています。"
 ---
 
 ## 概要と背景

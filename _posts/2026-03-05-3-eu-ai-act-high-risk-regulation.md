@@ -10,6 +10,7 @@ reading_time: 9
 related_articles: [{"slug": "2026-03-03-3-eu-ai-act-corporate-impact", "title": "EU AI Act施行、高リスクAI規制で企業はどう変わるのか？", "reason": "関連記事"}, {"slug": "2026-03-04-1-ai-agents-enterprise-app-adopt", "title": "AIエージェント：2026年、企業アプリの40%に搭載", "reason": "関連記事"}, {"slug": "2026-03-04-1-ai202640", "title": "AIエージェント、2026年に企業アプリの40%に搭載", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "サムスンNeo AIの可能性とは？"}
 image: "/assets/images/posts/2026-03-05-3-eu-ai-act-high-risk-regulation-ogp.png"
+description: "EU AI Act、2026年8月施行へ。高リスクAI規制の全貌と実務者が取るべき対応策AI技術の急速な発展とともに、その倫理的・社会的な影響への懸念も高まっています。特に、AIの利用が広がるにつれて、どのようなAIが「高リスク」とみなされ、どのような規制が課されるのか、多くの企業が関心を寄せています。"
 ---
 
 EU AI Act、2026年8月施行へ。高リスクAI規制の全貌と実務者が取るべき対応策

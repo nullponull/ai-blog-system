@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ドバイとPalantir、AI合弁「Aither」の真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-04-3-palantiraiaither-ogp.png"
+description: "ドバイとPalantir、AI合弁「Aither」の真意はどこにあるのか？正直なところ、ドバイとPalantirがAIで手を組むと聞いた時、私の最初の反応は「またか」というものでした。AI業界を20年近く見てきた人間としては、華々しい発表の裏に実体が伴わないケースも少なくありませんからね。"
 ---
 
 ドバイとPalantir、AI合弁「Aither」の真意はどこにあるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "チューリッヒが描くAI保険の未来：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-17-3-ai-article-update-ogp.png"
+description: "チューリッヒが描くAI保険の未来：その真意はどこにあるのか？最近、チューリッヒ保険がAI、特に生成AIの活用にかなり力を入れているというニュースを耳にして、正直なところ、最初は「またか」と思いましたね。"
 ---
 
 チューリッヒが描くAI保険の未来：その真意はどこにあるのか？

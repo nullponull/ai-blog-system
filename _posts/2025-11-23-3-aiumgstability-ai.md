@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "音楽AIの倫理、UMGとStability AIの提携が示す業界の未来とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-23-3-aiumgstability-ai-ogp.png"
+description: "音楽AIの倫理、UMGとStability AIの提携が示す業界の未来とは？正直なところ、最初にこのニュースを聞いた時、「また大手レコード会社がAIと組むのか」と、少しばかり懐疑的に耳を傾けましたよ。"
 ---
 
 音楽AIの倫理、UMGとStability AIの提携が示す業界の未来とは？

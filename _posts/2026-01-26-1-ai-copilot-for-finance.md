@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AI Copilot for Finance、Microsoftの次の一手は何を狙うのか？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-26-1-ai-copilot-for-finance-ogp.png"
+description: "AI Copilot for Finance、Microsoftの次の一手は何を狙うのか？いやー、Microsoftが「AI Copilot for Finance」を発表したってニュース、あなたも気になってるんじゃないかな？正直、この業界を20年も見ていると、毎日のように新しいAI関連の発表があって、正直「また..."
 ---
 
 AI Copilot for Finance、Microsoftの次の一手は何を狙うのか？

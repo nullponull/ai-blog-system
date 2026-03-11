@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋"
 reading_time: 20
 image: "/assets/images/posts/2025-12-30-2-baiduaikunlun-5-ogp.png"
+description: "君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋やあ、元気かい？ AI業界も本当にめまぐるしいね。ここ数日、中国のBaiduが新しいAIチップ「Kunlun 5」を発表したっていうニュースが飛び込んできて、君もきっと「また来たか！」って思ったんじゃないかな。"
 ---
 
 君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋

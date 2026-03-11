@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-25-1-metarelianceai-ogp.png"
+description: "MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。毎日どこかで新しい発表があり、正直なところ、私も「またか」と思うことも少なくありません。"
 ---
 
 MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？

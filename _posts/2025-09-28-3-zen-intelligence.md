@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-28-3-zen-intelligence-ogp.png"
+description: "Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？皆さん、建設現場と聞いて何を思い浮かべますか？正直なところ、私なんかは昔ながらの、汗と土にまみれた職人さんの姿がまず目に浮かびます。重機は進化しても、現場の「核」はやはり人の手と経験に支えられてきた。"
 ---
 
 Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？

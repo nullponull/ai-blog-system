@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-22-1-amazon-bedrock-ogp.png"
+description: "Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？正直なところ、Amazon Bedrockが新たに4つの基盤モデル（FM）を追加したというニュースを聞いた時、私の最初の感想はこれでした。"
 ---
 
 Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？

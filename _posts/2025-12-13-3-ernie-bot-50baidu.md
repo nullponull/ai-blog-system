@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？"
 reading_time: 7
 image: "/assets/images/posts/2025-12-13-3-ernie-bot-50baidu-ogp.png"
+description: "ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？いやー、正直言って、ERNIE Bot 5.0の発表には、ちょっとドキッとしましたね。Baiduがまたやってくれたか、と。"
 ---
 
 ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？

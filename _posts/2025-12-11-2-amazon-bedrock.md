@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Amazon Bedrock、新モデルでコスト半減」――このニュースを見た時、正直なところ、あなたも「おお、またか！」と驚きつつも、どこか既視感を覚えたのではないでしょうか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-11-2-amazon-bedrock-ogp.png"
+description: "「Amazon Bedrock、新モデルでコスト半減」――このニュースを見た時、正直なところ、あなたも「おお、またか！」と驚きつつも、どこか既視感を覚えたのではないでしょうか？ 私もAI業界を20年近く見てきて、このような「劇的なコスト削減」という見出しには幾度となく遭遇してきました。"
 ---
 
 ## Amazon Bedrockの新モデル、本当にコスト半減は現実を変えるのか？

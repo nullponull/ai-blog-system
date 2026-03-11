@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-24-3-bytedanceai-ogp.png"
+description: "ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？いやー、ByteDanceがAI生成コンテンツの新しいプラットフォームを立ち上げるっていうニュース、みんなも耳にしたかな？ 正直、最初は「またか」って思ったんだ。だって、このAIの波、ここ数年、本当に目まぐるしいじゃない。"
 ---
 
 ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？

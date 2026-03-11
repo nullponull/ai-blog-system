@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-17-1-intel-vs-amdai-ogp.png"
+description: "Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？いやー、AI業界もついにこんなところまで来たか、というのが正直な第一印象です。IntelがAMDを相手取って特許侵害で訴訟を起こしたというニュース、あなたも耳にしたかもしれませんね。"
 ---
 
 Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？

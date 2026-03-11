@@ -10,6 +10,7 @@ reading_time: 10
 related_articles: [{"slug": "2026-01-07-3-mistral-8ai", "title": "Mistral 8の登場、AI業界の次なる波はどこへ向かうのか？", "reason": "関連記事"}, {"slug": "2025-09-08-2-asmlmistral-aiに13億ユ", "title": "ASML、Mistral AIに13億ユ", "reason": "関連記事"}, {"slug": "2025-10-26-1-mistral-aiai", "title": "Mistral AIの企業向けAI戦略の可", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-06-1-mistral-ai-european-ai-market--ogp.png"
+description: "欧州のAIシーンに、急速に存在感を高めるスタートアップがあります。それが、2023年に設立されたばかりのMistral AIです。わずか数年で評価額140億ドル（約2兆円）を達成し、NVIDIAやMicrosoftといったテックジャイアントとの提携も進んでいます。"
 ---
 
 ## 欧州AIエコシステムの新星、Mistral AI：その野望と現実

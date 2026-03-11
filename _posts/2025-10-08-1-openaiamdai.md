@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるのか"
 reading_time: 20
 image: "/assets/images/posts/2025-10-08-1-openaiamdai-ogp.png"
+description: "OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるのかいやはや、最近のAI業界の動きは本当に目まぐるしいですね。皆さんもそう感じているんじゃないでしょうか？特に、OpenAIとAMDがGPU供給で大規模な戦略的提携を結んだというニュースには、私も思わず「おや？」と声を上げてしまいましたよ。"
 ---
 
 OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるのか

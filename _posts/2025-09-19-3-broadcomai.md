@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "BroadcomのAI半導体、その大型受注が示す業界の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-3-broadcomai-ogp.png"
+description: "BroadcomのAI半導体、その大型受注が示す業界の真意とは？皆さん、最近のBroadcomのニュース、もう耳にしましたか？OpenAIからの100億ドルを超えるカスタムAIチップ受注という話、正直なところ、個人的には、BroadcomがここまでAI半導体の主役になるとは、数年前までは想像していませんでしたね。"
 ---
 
 BroadcomのAI半導体、その大型受注が示す業界の真意とは？

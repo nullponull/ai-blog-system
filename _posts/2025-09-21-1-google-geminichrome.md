@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini、Chromeに統合開始：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-21-1-google-geminichrome-ogp.png"
+description: "Google Gemini、Chromeに統合開始：その真意はどこにあるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。毎日新しい発表があって、正直なところ、私も「またか」と思うことも少なくありません。"
 ---
 
 Google Gemini、Chromeに統合開始：その真意はどこにあるのか？

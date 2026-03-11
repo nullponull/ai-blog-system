@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude悪用事件が問いかける、AIセキュリティの新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-17-2-anthropic-claude-ogp.png"
+description: "Anthropic Claude悪用事件が問いかける、AIセキュリティの新たな地平とは？いやはや、皆さん、このニュースには正直、私も驚きを隠せませんでしたね。AnthropicのClaudeが中国の国家支援型ハッキンググループに悪用されたという話、あなたも耳にしましたか？2025年9月に報じられたこの一件は、AI..."
 ---
 
 Anthropic Claude悪用事件が問いかける、AIセキュリティの新たな地平とは？

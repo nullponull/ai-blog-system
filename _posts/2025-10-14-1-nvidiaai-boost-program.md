@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NVIDIAのAI Boost Program、その真意は？日本のスタートアップが掴むべき未来とは"
 reading_time: 20
 image: "/assets/images/posts/2025-10-14-1-nvidiaai-boost-program-ogp.png"
+description: "NVIDIAのAI Boost Program、その真意は？日本のスタートアップが掴むべき未来とはNVIDIAがまた動いたか、というのが正直な第一印象でしたね。AI業界を20年間見続けてきた私からすると、彼らの動きには常に注目せざるを得ません。"
 ---
 
 NVIDIAのAI Boost Program、その真意は？日本のスタートアップが掴むべき未来とは

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindの「AlphaGeometry 2」は、何を変えるのか？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-29-3-deepmindalphageometry-2-ogp.png"
+description: "DeepMindの「AlphaGeometry 2」は、何を変えるのか？おい、みんな、ちょっと聞いてくれよ。この間、Google DeepMindから「AlphaGeometry 2」が発表されたってニュース、もうチェックしたかな？正直、初めは「またすごいAIが出たんだな」くらいにしか思ってなかったんだ。"
 ---
 
 DeepMindの「AlphaGeometry 2」は、何を変えるのか？

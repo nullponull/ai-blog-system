@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。2D画像や動画生成の進化には目を見張るものがありましたが、いよいよ「空間知能」という次のフロンティアが見えてきました。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-25-1-world-labsmarble3d-ogp.png"
+description: "World Labsの「Marble」が描く3D世界の未来、その真意とは？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。2D画像や動画生成の進化には目を見張るものがありましたが、いよいよ「空間知能」という次のフロンティアが見えてきました。"
 ---
 
 **World Labsの「Marble」が描く3D世界の未来、その真意とは？**

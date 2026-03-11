@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Qualcomm、AIチップ市場への挑戦：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-28-1-qualcommai-ogp.png"
+description: "Qualcomm、AIチップ市場への挑戦：その真意はどこにあるのか？正直なところ、Qualcommがデータセンター向けAIアクセラレータ市場に本格参入すると聞いた時、私の最初の反応は「またか」というものでした。"
 ---
 
 Qualcomm、AIチップ市場への挑戦：その真意はどこにあるのか？

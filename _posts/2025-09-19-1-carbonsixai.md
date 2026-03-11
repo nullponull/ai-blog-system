@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-09-19-1-carbonsixai-ogp.png"
 robots: noindex
 sitemap: false
+description: "CarbonSixの製造AIロボット、その真価はどこにあるのか？「CarbonSixが製造AIロボットを発表した」というニュース、あなたも耳にしましたか？正直なところ、私自身、この手の発表にはもう慣れっこで、最初は「またか」と少し斜に構えてしまったんですよ。"
 ---
 
 CarbonSixの製造AIロボット、その真価はどこにあるのか？

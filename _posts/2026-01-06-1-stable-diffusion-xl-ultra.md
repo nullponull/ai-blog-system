@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Stable Diffusion XL Ultraが掲げる「実写95%」、私たちのクリエイティブはどこへ向かうのだろう？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-06-1-stable-diffusion-xl-ultra-ogp.png"
+description: "Stable Diffusion XL Ultraが掲げる「実写95%」、私たちのクリエイティブはどこへ向かうのだろう？いやはや、最近のAIの進化には本当に驚かされるばかりだね。また1つ、業界をざわつかせるニュースが飛び込んできた。「Stable Diffusion XL Ultra、実写画像生成率95%」。"
 ---
 
 Stable Diffusion XL Ultraが掲げる「実写95%」、私たちのクリエイティブはどこへ向かうのだろう？

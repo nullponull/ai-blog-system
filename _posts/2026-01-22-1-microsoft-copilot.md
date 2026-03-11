@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、法人導入加速で何が変わる？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-22-1-microsoft-copilot-ogp.png"
+description: "Microsoft Copilot、法人導入加速で何が変わる？いやー、Microsoft Copilotの法人向け導入が加速しているってニュース、あなたも耳にしました？正直、AI業界を20年近く見ていると、新しい技術やサービスが次々と登場しては消えていくのを何度も目の当たりにしてきました。"
 ---
 
 Microsoft Copilot、法人導入加速で何が変わる？

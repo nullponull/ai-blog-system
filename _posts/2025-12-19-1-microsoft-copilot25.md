@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilotの「生産性25%向上」がもたらす企業変革、その真意とは何か？"
 reading_time: 9
 image: "/assets/images/posts/2025-12-19-1-microsoft-copilot25-ogp.png"
+description: "Microsoft Copilotの「生産性25%向上」がもたらす企業変革、その真意とは何か？ねえ、最近Microsoft Copilotの法人向け新機能が「生産性25%向上」をもたらすっていうニュース、あなたも目にしたんじゃないかな？正直なところ、僕もこの数字を見たとき、最初はちょっと眉唾だなって思ったんだ。"
 ---
 
 Microsoft Copilotの「生産性25%向上」がもたらす企業変革、その真意とは何か？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAI Agent Framework、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-07-1-microsoftai-agent-framework-ogp.png"
+description: "MicrosoftのAI Agent Framework、その真意はどこにあるのか？おや、また新しいフレームワークか、と正直最初は思ったんですよ。Microsoftが「AI Agent Framework」を発表したと聞いて、あなたもそう感じたかもしれませんね。"
 ---
 
 MicrosoftのAI Agent Framework、その真意はどこにあるのか？

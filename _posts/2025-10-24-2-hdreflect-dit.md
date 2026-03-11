@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "パナソニックHDの「Reflect-Dit」：AIが自ら画像を改善する、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-24-2-hdreflect-dit-ogp.png"
+description: "パナソニックHDの「Reflect-Dit」：AIが自ら画像を改善する、その真意とは？正直なところ、最初に「パナソニックHDがAI画像生成技術を改善」というニュースを見た時、あなたも感じたかもしれませんが、私は少し懐疑的でした。"
 ---
 
 パナソニックHDの「Reflect-Dit」：AIが自ら画像を改善する、その真意とは？

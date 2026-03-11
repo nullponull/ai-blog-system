@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "InspirenのAI介護プラットフォーム、その真価はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-25-3-inspirenai-ogp.png"
+description: "InspirenのAI介護プラットフォーム、その真価はどこにあるのか？「Inspirenが1億ドル調達」という見出しを最初に目にした時、正直なところ、私の長年の経験が「おや、またAI介護のニュースか」と、少しばかり眉をひそめさせました。しかし、詳細を読み進めると、どうやらシリーズAで3500万ドルとのこと。"
 ---
 
 InspirenのAI介護プラットフォーム、その真価はどこにあるのか？

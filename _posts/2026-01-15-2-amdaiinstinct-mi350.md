@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AMDのAIチップ「Instinct MI350」でNVIDIAを追撃？ 何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-15-2-amdaiinstinct-mi350-ogp.png"
+description: "AMDのAIチップ「Instinct MI350」でNVIDIAを追撃？ 何が変わるのか？いやー、AMDの「Instinct MI350」の話、耳に入ってきましたか？ 私もAI業界をもう20年近く見てきましたけど、こういったニュースが出ると、ついつい過去の記憶が蘇ってくるんですよね。"
 ---
 
 AMDのAIチップ「Instinct MI350」でNVIDIAを追撃？ 何が変わるのか？

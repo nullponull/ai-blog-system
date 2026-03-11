@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「IndustrialMind.aiの挑戦：製造業AIの未来をどう変えるのか？」"
 reading_time: 20
 image: "/assets/images/posts/2025-11-10-1-industrialmindaiai-ogp.png"
+description: "「IndustrialMind.aiの挑戦：製造業AIの未来をどう変えるのか？」いやぁ、最近のAI業界、本当に目まぐるしいですよね。特に製造業の現場にAIがどう浸透していくのか、あなたも気になっているんじゃないでしょうか。"
 ---
 
 「IndustrialMind.aiの挑戦：製造業AIの未来をどう変えるのか？」

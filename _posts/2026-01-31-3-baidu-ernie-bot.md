@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE Botの多言語強化、何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-31-3-baidu-ernie-bot-ogp.png"
+description: "Baidu ERNIE Botの多言語強化、何が変わるのか？いやー、このニュース、皆さんどう受け止めましたか？ BaiduのERNIE Botが多言語対応を強化したっていう話。正直、最初見たとき、「またか」って思っちゃったんですよ。"
 ---
 
 Baidu ERNIE Botの多言語強化、何が変わるのか？

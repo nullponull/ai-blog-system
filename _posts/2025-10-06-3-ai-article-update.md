@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-06-3-ai-article-update-ogp.png"
+description: "ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？ソニー銀行が勘定系システムに生成AIを導入する、というニュースを聞いて、正直なところ、あなたも「ついに来たか」と感じたのではないでしょうか。"
 ---
 
 ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？

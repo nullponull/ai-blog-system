@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Kyndrylの「Agentic AI Framework」が示す、企業AI導入の次なる真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-01-3-kyndrylagentic-ai-framework-ogp.png"
+description: "Kyndrylの「Agentic AI Framework」が示す、企業AI導入の次なる真意とは？皆さん、最近「Agentic AI」という言葉を耳にする機会が増えていませんか？正直なところ、私自身も最初は「また新しいバズワードか？」と少し懐疑的でした。"
 ---
 
 Kyndrylの「Agentic AI Framework」が示す、企業AI導入の次なる真意とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GoogleとAnthropicのTPU契約、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-26-2-googleanthropictpu-ogp.png"
+description: "GoogleとAnthropicのTPU契約、その真意はどこにあるのか？おや、また大きなニュースが飛び込んできましたね。GoogleがAnthropicとの間で、Tensor Processing Unit（TPU）に関する大規模な契約を締結し、さらに巨額の投資を行っているという話。"
 ---
 
 GoogleとAnthropicのTPU契約、その真意はどこにあるのか？

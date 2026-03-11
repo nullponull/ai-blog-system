@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-29-1-amazon-bedrock15-ogp.png"
+description: "Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？正直、このニュースを見た時、あなたはどう感じましたか？「またか、すごい勢いだ」「Bedrock、ついに本気を出してきたな」—そんな声が聞こえてくるようです。"
 ---
 
 Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？

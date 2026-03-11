@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解く"
 reading_time: 20
 image: "/assets/images/posts/2025-09-19-1-huaweiaiact-ogp.png"
+description: "Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解くおや、Huaweiがまた何か仕掛けてきたな、と正直なところ思いましたよ。産業AI向けに「ACT」という新しいパスウェイを発表したというニュースを聞いてね。"
 ---
 
 Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解く

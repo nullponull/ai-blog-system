@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-19-3-llama-4metallm-ogp.png"
+description: "Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？正直なところ、最初にMetaから「Llama 4」という話を聞いた時、私はまたか、と思いましたよ。AI業界を20年近く見てきていると、こういう「次の世代のモデル」という発表は数えきれないほど耳にしてきましたからね。"
 ---
 
 Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？

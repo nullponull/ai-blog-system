@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Tempus AIの心臓AI、FDA承認の真意は？株価高騰の裏側と医療AIの未来"
 reading_time: 20
 image: "/assets/images/posts/2025-09-12-1-tempus-aiaifda-ogp.png"
+description: "Tempus AIの心臓AI、FDA承認の真意は？株価高騰の裏側と医療AIの未来いやはや、またしてもAIが医療分野で大きなニュースを引っ張ってきましたね。Tempus AIが心臓AIでFDA承認、そして株価が急騰したという話、あなたも耳にしたかもしれません。"
 ---
 
 Tempus AIの心臓AI、FDA承認の真意は？株価高騰の裏側と医療AIの未来

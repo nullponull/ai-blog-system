@@ -8,6 +8,7 @@ author: "ALLFORCESテクニカルチーム"
 excerpt: "EU AI法完全施行を控え、大企業のAI戦略とリスク管理について解説。LLM、AIエージェント等の最新技術動向と、実践的な導入・規制対応策を専門家の視点から具体的に掘り下げます。"
 reading_time: 6
 image: "/assets/images/posts/2026-02-14-2-eu-ai-act-enterprise-strategy-ogp.png"
+description: "EU AI法完全施行へ、大企業のAI戦略とリスク管理：専門家が語る実践的アプローチ皆さん、こんにちは！大手テック企業で10年間MLエンジニアとして、LLMからMLOpsまで様々な最先端技術の実装に携わってきた経験を基に、今日は皆さんと一緒に、AI、特にEU AI法完全施行を目前に控えた今、企業が取るべきAI導入戦..."
 ---
 
 EU AI法完全施行へ、大企業のAI戦略とリスク管理：専門家が語る実践的アプローチ

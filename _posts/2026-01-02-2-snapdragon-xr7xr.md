@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Snapdragon XR7、XRの未来を本当に変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-02-2-snapdragon-xr7xr-ogp.png"
+description: "Snapdragon XR7、XRの未来を本当に変えるのか？いやはや、QualcommからXR向けの新しいAIチップ「Snapdragon XR7」の発表があったと聞いて、思わずコーヒーを吹き出しそうになりましたよ。"
 ---
 
 Snapdragon XR7、XRの未来を本当に変えるのか？

@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2026-02-08-3-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "AI倫理、国際標準化の新組織設立、何が変わるのか？やあ、みんな。AI業界を長年見てきたベテランアナリストとして、今回の「AI倫理、国際標準化へ新組織設立」というニュースは、正直、ちょっとばかり感慨深いものがあるよ。"
 ---
 
 AI倫理、国際標準化の新組織設立、何が変わるのか？

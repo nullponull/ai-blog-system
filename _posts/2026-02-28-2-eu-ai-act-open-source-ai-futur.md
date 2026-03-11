@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "EU AI法がオープンソースAIの未来に与える影響を、実務家の視点から解説。LLMの進化と規制の交差点を探り、AI開発の新たな局面を分析します。"
 reading_time: 10
 image: "/assets/images/posts/2026-02-28-2-eu-ai-act-open-source-ai-futur-ogp.png"
+description: "あなたも感じているかもしれませんが、AIの世界は日々猛烈なスピードで進化しています。特に、オープンソースLLM（大規模言語モデル）の進化は目覚ましく、LlamaシリーズやDeepSeek、Qwenといったモデルが、かつてはGPT-4oクラスの性能に到達するなんて想像もできなかった領域にまで到達しています。"
 ---
 
 ## EU AI法、オープンソースAIの未来をどう変えるか？ 実務家が語る、静かなる技術革新の波紋

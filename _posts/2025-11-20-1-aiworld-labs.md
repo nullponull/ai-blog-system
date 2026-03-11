@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "シスコの空間AI「World Labs」投資、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-20-1-aiworld-labs-ogp.png"
+description: "シスコの空間AI「World Labs」投資、その真意はどこにあるのか？いやはや、最近のAI業界の動きは本当に目まぐるしいですね。皆さんも感じているかもしれませんが、ちょっと目を離すと新しい波が次々と押し寄せてくる。"
 ---
 
 シスコの空間AI「World Labs」投資、その真意はどこにあるのか？

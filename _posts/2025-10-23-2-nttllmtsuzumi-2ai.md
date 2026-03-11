@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-23-2-nttllmtsuzumi-2ai-ogp.png"
+description: "NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？皆さん、NTTが「tsuzumi 2」を発表したのをご存知ですか？正直なところ、最初にこのニュースを聞いた時、「また国産LLMか」と、少しばかり懐疑的な気持ちがよぎったのは事実です。"
 ---
 
 NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？

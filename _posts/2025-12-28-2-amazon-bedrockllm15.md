@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、LLM15種追加：何が変わるのか？"
 reading_time: 8
 image: "/assets/images/posts/2025-12-28-2-amazon-bedrockllm15-ogp.png"
+description: "Amazon Bedrock、LLM15種追加：何が変わるのか？ねえ、君もこのニュース、もうチェックしたかな？Amazon Bedrockが、なんと15種類もの新しいLLM（大規模言語モデル）を追加したっていう話。"
 ---
 
 Amazon Bedrock、LLM15種追加：何が変わるのか？

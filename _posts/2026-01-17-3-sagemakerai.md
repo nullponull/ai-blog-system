@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "SageMakerのコスト削減、本当にAI開発を変えるのか？"
 reading_time: 9
 image: "/assets/images/posts/2026-01-17-3-sagemakerai-ogp.png"
+description: "SageMakerのコスト削減、本当にAI開発を変えるのか？いやー、このニュース、目にしてちょっとドキッとしましたよ。Amazon SageMakerがAI開発コストを30%削減する、ですか。"
 ---
 
 SageMakerのコスト削減、本当にAI開発を変えるのか？

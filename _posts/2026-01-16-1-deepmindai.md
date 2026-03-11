@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindの量子AI、創薬の未来をどう変えるのだろうか？"
 reading_time: 20
 image: "/assets/images/posts/2026-01-16-1-deepmindai-ogp.png"
+description: "DeepMindの量子AI、創薬の未来をどう変えるのだろうか？ねえ、君もあのニュース見た？「DeepMind、量子AIで創薬加速」だって。正直、最初の見出しを見たとき、「またか」と少し斜に構えてしまったんだ。"
 ---
 
 DeepMindの量子AI、創薬の未来をどう変えるのだろうか？

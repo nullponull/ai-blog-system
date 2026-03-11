@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Tachyumの2nm Prodigy、AI性能21倍向上は本当か？その真意を探る"
 reading_time: 20
 image: "/assets/images/posts/2025-11-15-1-tachyum2nm-prodigy-ogp.png"
+description: "Tachyumの2nm Prodigy、AI性能21倍向上は本当か？その真意を探る皆さん、最近Tachyumという名前を耳にしましたか？「2nm Prodigy Universal Processor」でAI性能が最大21倍向上、なんて聞くと、正直なところ、私の20年間のAI業界ウォッチングの経験からすると、「ま..."
 ---
 
 Tachyumの2nm Prodigy、AI性能21倍向上は本当か？その真意を探る

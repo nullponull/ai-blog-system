@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "サムスン、画像生成AIチップ開発着手。その真意は何でしょうか？"
 reading_time: 13
 image: "/assets/images/posts/2025-12-29-2-ai-article-update-ogp.png"
+description: "サムスン、画像生成AIチップ開発着手。その真意は何でしょうか？いやあ、このニュースには正直、ちょっと驚きましたね。サムスンが画像生成AIチップの開発に着手した、という話。"
 ---
 
 サムスン、画像生成AIチップ開発着手。その真意は何でしょうか？

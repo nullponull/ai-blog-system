@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-19-1-adobe-firefly-208k-ogp.png"
+description: "Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？いやぁ、ついに来ましたね、Adobe Firefly 2.0 の8K画像生成対応。正直、このニュースを聞いた時、私の20年間のAI業界ウォッチャー人生の中でも、かなり「おっ」と思わされた部類に入ります。"
 ---
 
 Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIによる創薬加速：MediNova AIの「20%高速化」という話、どこまで信じる？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-08-1-ai-article-update-ogp.png"
+description: "AIによる創薬加速：MediNova AIの「20%高速化」という話、どこまで信じる？皆さん、AI業界の動向を追っていると、日々驚くようなニュースが飛び込んできますよね。特に創薬分野でのAI活用は、もはやSFの世界の話ではなく、現実のビジネスとして急速に花開き始めています。"
 ---
 
 AIによる創薬加速：MediNova AIの「20%高速化」という話、どこまで信じる？

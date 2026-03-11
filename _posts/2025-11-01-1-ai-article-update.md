@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "魔珐科技の「魔珐星雲」が示す、3Dデジタルヒューマンの新たな地平とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-01-1-ai-article-update-ogp.png"
+description: "魔珐科技の「魔珐星雲」が示す、3Dデジタルヒューマンの新たな地平とは？「おや、またデジタルヒューマンか」――正直なところ、魔珐科技（MoFa Technology）が「魔珐星雲（MoFa Xingyun）」という3Dデジタルヒューマンのオープンプラットフォームを発表したと聞いた時、私の最初の感想はそんなものでした。"
 ---
 
 魔珐科技の「魔珐星雲」が示す、3Dデジタルヒューマンの新たな地平とは？

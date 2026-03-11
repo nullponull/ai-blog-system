@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-26-3-chatgptpulse-ogp.png"
+description: "ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？正直なところ、OpenAIがChatGPTに「Pulse」という新機能を発表したと聞いた時、私の最初の反応は「また新しい機能か」という、少しばかり懐疑的なものでした。あなたもそう感じたかもしれませんね。"
 ---
 
 ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？

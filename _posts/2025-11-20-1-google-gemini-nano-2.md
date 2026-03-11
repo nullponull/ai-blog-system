@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini Nano 2、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-20-1-google-gemini-nano-2-ogp.png"
+description: "Google Gemini Nano 2、その真意はどこにあるのか？正直なところ、Googleが今回発表した「Gemini Nano 2」のニュースを聞いて、あなたも感じているかもしれませんが、私は最初、少し懐疑的でしたね。「また新しいAIモデルか」と。"
 ---
 
 Google Gemini Nano 2、その真意はどこにあるのか？

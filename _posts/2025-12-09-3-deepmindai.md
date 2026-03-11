@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindの創薬AI、その新発見は何を意味するのだろうか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-09-3-deepmindai-ogp.png"
+description: "DeepMindの創薬AI、その新発見は何を意味するのだろうか？いやはや、DeepMindのニュースにはいつもドキッとするよ。特に今回の「創薬AIで新発見」って見出しを見たときはね。AI業界を20年近く見てきたけれど、こんなにワクワクするような、でも同時に「またか」とも思わせるような、複雑な感情が湧き上がるんだ。"
 ---
 
 DeepMindの創薬AI、その新発見は何を意味するのだろうか？

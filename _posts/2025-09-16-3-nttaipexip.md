@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NTTドコモの「AIPEX」はIP監修の未来を本当に変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-16-3-nttaipexip-ogp.png"
+description: "NTTドコモの「AIPEX」はIP監修の未来を本当に変えるのか？「NTTドコモがAI監修プラットフォーム『AIPEX』を立ち上げた」というニュースを聞いて、正直なところ、最初は「また新しいAIプラットフォームか」と、少し斜に構えてしまったんだ。君もそう感じたかもしれないね。"
 ---
 
 NTTドコモの「AIPEX」はIP監修の未来を本当に変えるのか？

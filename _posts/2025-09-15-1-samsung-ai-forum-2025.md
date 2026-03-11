@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-15-1-samsung-ai-forum-2025-ogp.png"
+description: "Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？皆さん、今年のSamsung AI Forum、注目していましたか？正直なところ、私自身、AI業界を20年近く見てきて、また新しい「バズワード」が出てきたな、というのが最初の印象でした。"
 ---
 
 Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？

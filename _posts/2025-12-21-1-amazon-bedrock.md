@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "「Amazon Bedrockが新しいLLMでコストを半減した」というニュース、君も耳にしたんじゃないかな。正直なところ、私も最初にこの見出しを見たときは、「また来たか」と少し斜に構えてしまったんだ。"
 reading_time: 9
 image: "/assets/images/posts/2025-12-21-1-amazon-bedrock-ogp.png"
+description: "「Amazon Bedrockが新しいLLMでコストを半減した」というニュース、君も耳にしたんじゃないかな。正直なところ、私も最初にこの見出しを見たときは、「また来たか」と少し斜に構えてしまったんだ。"
 ---
 
 ## Amazon Bedrock、新LLMでコスト半減。その真意は、AI民主化の新たな幕開けか？

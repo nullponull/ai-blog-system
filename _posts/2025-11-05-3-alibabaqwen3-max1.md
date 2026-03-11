@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AlibabaのQwen3-Max、1兆パラメータ超えの真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-05-3-alibabaqwen3-max1-ogp.png"
+description: "AlibabaのQwen3-Max、1兆パラメータ超えの真意とは？いやはや、またしても大きなニュースが飛び込んできましたね。Alibaba Cloudが「Qwen3-Max」を発表し、そのパラメータ数がついに1兆を超えたという話、あなたも耳にしましたか？正直なところ、この手の「史上最大」「最高性能」といった発表に..."
 ---
 
 AlibabaのQwen3-Max、1兆パラメータ超えの真意とは？

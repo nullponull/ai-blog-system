@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-12-2-google-veo-31ai-scream-ogp.png"
 robots: noindex
 sitemap: false
+description: "Google Veo 3.1と「AI SCREAM」が示す、動画生成AIの新たな地平とは？正直なところ、私たちがこのAI業界に20年も身を置いていると、そうそう驚くことなんてない、なんて思ってしまいがちですよね。"
 ---
 
 Google Veo 3.1と「AI SCREAM」が示す、動画生成AIの新たな地平とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini、旅行AI機能を拡張：予約代行が拓く「旅の未来」の真意は？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-20-2-google-gemini-ogp.png"
+description: "Google Gemini、旅行AI機能を拡張：予約代行が拓く「旅の未来」の真意は？やあ、皆さん。また新しい週が始まりましたね。AI業界を20年近く見てきた私としては、正直なところ、最近のGoogle Geminiの動きには「おや？」と思わされることが少なくありません。"
 ---
 
 Google Gemini、旅行AI機能を拡張：予約代行が拓く「旅の未来」の真意は？

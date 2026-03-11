@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-20-2-ai-article-update-ogp.png"
+description: "AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？また来たか、という感じですね。MicrosoftがNVIDIA GB200を搭載した「Fairwater」という名のAIデータセンターの建設計画を発表したというニュース。"
 ---
 
 AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？

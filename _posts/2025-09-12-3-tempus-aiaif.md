@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Tempus AI、心臓AI診断のFDA承認：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-12-3-tempus-aiaif-ogp.png"
+description: "Tempus AI、心臓AI診断のFDA承認：その真意はどこにあるのか？またAIがFDA承認か、正直なところ、最初は「またか」と思ったんですよ。あなたも感じているかもしれませんが、最近はAI関連のニュースが多すぎて、どれが本当に重要なのか見極めるのが難しいですよね。"
 ---
 
 Tempus AI、心臓AI診断のFDA承認：その真意はどこにあるのか？

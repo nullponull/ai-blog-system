@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Copilot新アバター「Mico」登場、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-24-1-copilotmico-ogp.png"
+description: "Copilot新アバター「Mico」登場、その真意はどこにあるのか？正直なところ、最初に「Copilotに新しいアバター『Mico』が登場」というニュースを聞いた時、私は少しばかり懐疑的でしたね。またキャラクターか、と。"
 ---
 
 Copilot新アバター「Mico」登場、その真意はどこにあるのか？

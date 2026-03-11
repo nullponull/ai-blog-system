@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Samsungの次世代AIスマホ向けSoC投入が問いかける、AI時代の進化の岐路とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-23-2-samsungaisoc-ogp.png"
+description: "Samsungの次世代AIスマホ向けSoC投入が問いかける、AI時代の進化の岐路とは？ねえ、あなたもこのニュースを見た時、どう感じた？「Samsung、次世代AIスマホ向けSoC投入」――またか、と正直思った人もいるんじゃないかな。"
 ---
 
 Samsungの次世代AIスマホ向けSoC投入が問いかける、AI時代の進化の岐路とは？

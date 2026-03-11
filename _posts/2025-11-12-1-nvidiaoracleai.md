@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NVIDIAとOracleが描くAIスパコンの未来、その真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-12-1-nvidiaoracleai-ogp.png"
+description: "NVIDIAとOracleが描くAIスパコンの未来、その真意とは？正直なところ、NVIDIAとOracleがAIスーパーコンピューターの構築で手を組むというニュースを聞いた時、私の最初の反応は「またか」というものでした。この20年間、AI業界の浮き沈みを間近で見てきた人間としては、新しい技術提携の発表は日常茶飯事。"
 ---
 
 NVIDIAとOracleが描くAIスパコンの未来、その真意とは？

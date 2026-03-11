@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Inflection AIの感情分析95%達成、何が変わるのか？"
 reading_time: 6
 image: "/assets/images/posts/2026-01-05-1-inflection-ai95-ogp.png"
+description: "Inflection AIの感情分析95%達成、何が変わるのか？やあ、みんな。ちょっと耳を傾けてほしいんだ。最近、Inflection AIの「Pi」っていう対話型AIが、感情分析で95%っていう、まあ、正直言って驚異的な精度を達成したってニュース、君たちも気になってるんじゃないかな？AI業界を20年近く見続けて..."
 ---
 
 Inflection AIの感情分析95%達成、何が変わるのか？

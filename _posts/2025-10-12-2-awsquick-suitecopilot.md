@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AWS「Quick Suite」がCopilotに挑む：企業AIの未来は何処へ向かうのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-12-2-awsquick-suitecopilot-ogp.png"
+description: "AWS「Quick Suite」がCopilotに挑む：企業AIの未来は何処へ向かうのか？皆さん、こんにちは。AI業界を20年近く見続けてきた私ですが、先日発表されたAWSの「Quick Suite」には、正直なところ、最初は「また来たか」という印象を受けました。"
 ---
 
 AWS「Quick Suite」がCopilotに挑む：企業AIの未来は何処へ向かうのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-29-2-samsung-galaxy-ai-ogp.png"
+description: "Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？いや〜、Samsungの新しいGalaxy AIの話、耳にしました？新チップを搭載して、さらに小型化が進むらしいんですよ。正直、このニュースを聞いた時、ちょっと「またか」とも思ったんです。"
 ---
 
 Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？

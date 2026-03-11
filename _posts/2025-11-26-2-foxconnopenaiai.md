@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-26-2-foxconnopenaiai-ogp.png"
+description: "FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？「おや、FoxconnがOpenAIと手を組むのかい？」このニュースを聞いた時、正直なところ、私は少しばかり驚いたね。あなたもそう感じたかもしれないけれど、これは単なる異業種間の提携というには、あまりにも大きな意味を持つ。"
 ---
 
 FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？

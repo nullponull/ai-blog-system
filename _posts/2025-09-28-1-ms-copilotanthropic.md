@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-28-1-ms-copilotanthropic-ogp.png"
+description: "MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？いやはや、また面白い動きが出てきましたね。Microsoft CopilotがAnthropicのClaude Sonnet 4とClaude Opus 4.1モデルを採用したというニュース、あなたも耳にしましたか？正直なところ、最初..."
 ---
 
 MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？

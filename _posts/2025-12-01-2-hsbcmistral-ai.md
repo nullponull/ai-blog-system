@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "金融の巨人が選んだ道：HSBCとMistral AI提携の真意とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-01-2-hsbcmistral-ai-ogp.png"
+description: "金融の巨人が選んだ道：HSBCとMistral AI提携の真意とは？最近、HSBCがMistral AIとの複数年にわたる戦略的提携を発表したニュース、あなたも耳にしたんじゃないでしょうか。"
 ---
 
 金融の巨人が選んだ道：HSBCとMistral AI提携の真意とは？

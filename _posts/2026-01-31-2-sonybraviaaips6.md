@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Sonyの「BraviaAI」がPS6にもたらす真の価値とは？ 業界のベテランが読み解くその可能性と課題"
 reading_time: 11
 image: "/assets/images/posts/2026-01-31-2-sonybraviaaips6-ogp.png"
+description: "Sonyの「BraviaAI」がPS6にもたらす真の価値とは？ 業界のベテランが読み解くその可能性と課題おや、Sonyがまた面白いことを仕掛けてきたな。「PS6向けAIチップ『BraviaAI』発表」だって？ 最初聞いた時はね、正直「またブランディングか？ Braviaの技術を名前だけ持ってきたのか？」って思った..."
 ---
 
 Sonyの「BraviaAI」がPS6にもたらす真の価値とは？ 業界のベテランが読み解くその可能性と課題

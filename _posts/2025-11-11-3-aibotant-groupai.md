@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-11-3-aibotant-groupai-ogp.png"
+description: "AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？あなたも感じているかもしれませんが、最近「AgiBotとAnt GroupがAIロボットで合弁を組むらしい」という噂を耳にすることが増えましたよね。正直なところ、私自身も最初は「お、ついに来たか！」と身構えたものです。"
 ---
 
 AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？

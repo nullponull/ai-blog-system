@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "AIが行政サービスを変える？メリーランド州とAnthropicの提携が示す未来とは。"
 reading_time: 20
 image: "/assets/images/posts/2025-11-14-3-ai-article-update-ogp.png"
+description: "AIが行政サービスを変える？メリーランド州とAnthropicの提携が示す未来とは。あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。"
 ---
 
 AIが行政サービスを変える？メリーランド州とAnthropicの提携が示す未来とは。

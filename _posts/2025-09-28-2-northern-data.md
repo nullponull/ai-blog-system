@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Northern Dataの施設捜索、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-09-28-2-northern-data-ogp.png"
+description: "Northern Dataの施設捜索、その真意はどこにあるのか？いやはや、驚きましたね。ドイツのデータセンター企業、Northern Data AGの施設に当局の捜索が入ったというニュース、あなたも耳にしましたか？正直なところ、私もこの手の話には慣れているつもりでしたが、AIインフラの最前線を走る企業で、しかもこ..."
 ---
 
 Northern Dataの施設捜索、その真意はどこにあるのか？

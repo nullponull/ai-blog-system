@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。"
 reading_time: 20
 image: "/assets/images/posts/2025-10-21-3-oracleai-worl-ogp.png"
+description: "Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。Oracleが年次イベントを「AI World」に改称したって聞いて、正直、最初は「またか」って思ったんですよ。あなたも感じているかもしれませんが、最近はどの企業も「AI」を冠したがりますよね。"
 ---
 
 Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。

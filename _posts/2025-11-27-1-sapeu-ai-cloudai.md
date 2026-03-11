@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-27-1-sapeu-ai-cloudai-ogp.png"
+description: "SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？皆さん、こんにちは。AI業界を20年以上見続けてきた古参アナリストの私としては、今回のSAPの「EU AI Cloud」発表、正直なところ「また来たか」というのが最初の印象でしたね。"
 ---
 
 SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？

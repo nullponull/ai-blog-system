@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-01-3-ai-article-update-ogp.png"
 robots: noindex
 sitemap: false
+description: "日本が目指す「フィジカルAIと身体知の融合」は、本当にゲームチェンジャーとなるのか？皆さん、こんにちは。AI業界を20年近く見てきた私ですが、最近「日本がフィジカルAIと身体知の融合を進める」という話を聞いて、正直なところ、最初は「また新しいバズワードか？」と少し懐疑的になりました。"
 ---
 
 日本が目指す「フィジカルAIと身体知の融合」は、本当にゲームチェンジャーとなるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-15-2-pwcgoogle-cloudai-ogp.png"
+description: "PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？最近、PwCとGoogle CloudがAIエージェントのエコシステム拡大で戦略的提携を強化したというニュース、あなたも目にしましたか？正直なところ、最初に聞いた時は「また大手同士の提携か」と、少し斜に構えてしまったんですよ。"
 ---
 
 PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？

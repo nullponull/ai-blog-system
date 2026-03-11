@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "いやー、JPCERT/CCがAI倫理に関する新しいガイドラインを発表したってニュース、あなたも耳にしましたか？率直に言って、正直「やっとか」というのが第一印象なんですよね。AIの進化って、もう目まぐるしいじゃないですか。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-08-3-jpcertccai-ogp.png"
+description: "JPCERT/CCのAI倫理ガイドライン、何が変わるのか？いやー、JPCERT/CCがAI倫理に関する新しいガイドラインを発表したってニュース、あなたも耳にしましたか？率直に言って、正直「やっとか」というのが第一印象なんですよね。AIの進化って、もう目まぐるしいじゃないですか。"
 ---
 
 JPCERT/CCのAI倫理ガイドライン、何が変わるのか？

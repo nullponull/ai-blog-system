@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの推論速度2倍、何が変わるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-12-28-1-amazon-bedrock2-ogp.png"
+description: "Amazon Bedrockの推論速度2倍、何が変わるのか？いやー、このニュース、あなたも気になってるんじゃないかな？ Amazon Bedrockが推論速度を2倍にしたっていう話。正直、最初の見出しを見たとき、「またか」って思ったんだ。"
 ---
 
 Amazon Bedrockの推論速度2倍、何が変わるのか？

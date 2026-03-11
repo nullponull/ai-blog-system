@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "NaverのWebtoon向けAI強化は、私たちのコンテンツ体験をどう変えるのだろうか。"
 reading_time: 20
 image: "/assets/images/posts/2026-01-01-3-naverwebtoonai-ogp.png"
+description: "NaverのWebtoon向けAI強化は、私たちのコンテンツ体験をどう変えるのだろうか。最近、韓国NaverがWebtoon向けのAI強化を進めているというニュースを耳にして、正直なところ「ああ、やっぱり来たか」と、まずはそう思ったんだ。"
 ---
 
 NaverのWebtoon向けAI強化は、私たちのコンテンツ体験をどう変えるのだろうか。

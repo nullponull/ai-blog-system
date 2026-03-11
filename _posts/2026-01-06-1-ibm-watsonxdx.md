@@ -10,6 +10,7 @@ reading_time: 9
 image: "/assets/images/posts/2026-01-06-1-ibm-watsonxdx-ogp.png"
 robots: noindex
 sitemap: false
+description: "「IBM WatsonX、製薬DXで成果」——このニュースを耳にして、あなたはどう感じたかな？ 正直なところ、僕なんかは「お、またか？」と、ちょっと身構えてしまうんだ。AI業界を20年間ウォッチし続けてきた人間として、IBMのWatsonと製薬分野の組み合わせには、特別な思いがある。"
 ---
 
 ## IBM WatsonXが製薬DXで示す「成果」の真意とは？ AIの長い旅路が今、新たな局面を迎える。

@@ -10,6 +10,7 @@ reading_time: 8
 related_articles: [{"slug": "2026-03-06-1-ai-agent-manufacturing-dx", "title": "製造業DXの鍵、AIエージェントが現場の課題をどう解決するのか", "reason": "関連記事"}, {"slug": "2026-03-06-1-multimodal-ai-industry-standar", "title": "マルチモーダルAI、産業標準化で何が変わる？その未来を徹底解説", "reason": "関連記事"}, {"slug": "2026-03-06-1-mistral-ai-european-ai-market-", "title": "Mistral AIの急成長、欧州AI市場の未来はどう変わるのか", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-20-1-eu-ai-law-ai-agent-manufacturi", "title": "EU AI法対応とAIエージェントで製造業DXはどう変わるのか"}
 image: "/assets/images/posts/2026-03-07-3-ai-agent-manufacturing-site-re-ogp.png"
+description: "製造業DXの鍵、AIエージェントが現場の課題をどう解決するか製造現場で働く皆さん、日々の業務で「もっと効率化できたら」「こんな単純作業に時間を取られたくない」と感じることはありませんか？ 私自身、以前のプロジェクトで、熟練の技術者が持つ暗黙知の継承に苦労した経験があります。"
 ---
 
 製造業DXの鍵、AIエージェントが現場の課題をどう解決するか

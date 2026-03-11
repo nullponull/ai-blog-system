@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OpenAI Soraのクレジット制導入、その真意はどこにあるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-03-1-openai-sora-ogp.png"
+description: "OpenAI Soraのクレジット制導入、その真意はどこにあるのか？いやはや、また1つ、AI業界に大きな波が来ましたね。OpenAIのSoraがクレジット制を導入し、いよいよ本格的な収益化に舵を切ったというニュース、あなたも感じているかもしれませんが、正直なところ、個人的には「ついに来たか」という思いと、「これで..."
 ---
 
 OpenAI Soraのクレジット制導入、その真意はどこにあるのか？

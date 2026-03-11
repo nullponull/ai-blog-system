@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "I am unable to perform the web search for 'OpenAI Oracle提携 詳細情報 企業 投資 技術' because I have exhausted my daily quota for th"
 reading_time: 20
 image: "/assets/images/posts/2025-11-17-3-i-am-unable-to-perform-the-web-search-fo-ogp.png"
+description: "I am unable to perform the web search for \"OpenAI Oracle提携 詳細情報 企業 投資 技術\" because I have exhausted my daily quota for the gemini-2.5-flash model, which is us..."
 ---
 
 I am unable to perform the web search for "OpenAI Oracle提携 詳細情報 企業 投資 技術" because I have exhausted my daily quota for the `gemini-2.5-flash` model, which is used for web searches. Therefore, I cannot gather the necessary information to write the article.

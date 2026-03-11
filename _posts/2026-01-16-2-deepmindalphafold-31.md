@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？"
 reading_time: 8
 image: "/assets/images/posts/2026-01-16-2-deepmindalphafold-31-ogp.png"
+description: "DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？「AlphaFold 3.1」の発表、まさにAI業界のベテランとして、いや、この業界を長年見守ってきた一人の人間として、正直なところ、最初は何が来るんだろう、という期待と、ちょっとした「またか」という思いが入り混じっていました。"
 ---
 
 DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？

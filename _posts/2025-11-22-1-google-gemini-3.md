@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3、その「推論強化」の真意は何だろうか？"
 reading_time: 20
 image: "/assets/images/posts/2025-11-22-1-google-gemini-3-ogp.png"
+description: "Google Gemini 3、その「推論強化」の真意は何だろうか？いやはや、また新しい波が来ましたね。Googleが「Gemini 3」を発表したと聞いて、正直なところ「またか」と思った方もいるかもしれません。"
 ---
 
 Google Gemini 3、その「推論強化」の真意は何だろうか？

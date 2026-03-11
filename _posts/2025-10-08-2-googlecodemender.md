@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-08-2-googlecodemender-ogp.png"
+description: "GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？あなたも感じているかもしれませんが、最近のAI業界は本当に目まぐるしいですよね。新しい技術が次々と発表され、正直なところ、私も「また新しいバズワードか？」と眉をひそめることも少なくありません。"
 ---
 
 GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？

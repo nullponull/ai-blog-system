@@ -10,6 +10,7 @@ reading_time: 20
 image: "/assets/images/posts/2025-11-27-3-genaifinra-ogp.png"
 robots: noindex
 sitemap: false
+description: "金融規制にGenAIが浸透？FINRAの動きから見えてくる未来とは「おいおい、FINRAがまた生成AIに言及したって？」。正直なところ、私も最初にそのニュースを見た時、そう呟かずにはいられませんでした。"
 ---
 
 金融規制にGenAIが浸透？FINRAの動きから見えてくる未来とは

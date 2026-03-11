@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Moonshot AI、数億ドル調達の真意とは？中国AIの新たな波が世界を変えるのか？"
 reading_time: 20
 image: "/assets/images/posts/2025-10-24-1-moonshot-ai-ogp.png"
+description: "Moonshot AI、数億ドル調達の真意とは？中国AIの新たな波が世界を変えるのか？あなたも感じているかもしれませんが、最近のAI業界の資金調達ニュースは、まるでジェットコースターのようですよね。"
 ---
 
 Moonshot AI、数億ドル調達の真意とは？中国AIの新たな波が世界を変えるのか？
