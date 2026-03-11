@@ -118,7 +118,7 @@ layout: default
     <nav class="toc-container" id="toc" aria-label="目次"></nav>
 
     <div class="post-content" itemprop="articleBody">
-        {{ content | replace: '<img loading="lazy" ', '<img ' | replace: '<img ', '<img loading="lazy" ' }}
+        {{ content | replace: '<img loading="lazy" ', '<img ' | replace: '<img ', '<img loading="lazy" ' | wrap_tables }}
     </div>
 
     <script>
