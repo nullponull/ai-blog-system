@@ -20,7 +20,7 @@
 
     // Consulting CTA clicks
     if (link.closest('.consulting-cta') || link.closest('.consulting-cta-link') ||
-        href.indexOf('/contact/') !== -1 || href.indexOf('allforces.wuaze.com') !== -1) {
+        href.indexOf('/contact/') !== -1) {
       var ctaLocation = 'other';
       if (link.closest('.consulting-cta--sidebar')) ctaLocation = 'sidebar';
       else if (link.closest('.consulting-cta--post')) ctaLocation = 'post_footer';

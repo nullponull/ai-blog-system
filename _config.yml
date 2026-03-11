@@ -73,10 +73,10 @@ plugins:
   - jekyll-redirect-from
 
 # Sitemap settings for better Google Search Console compatibility
+# Note: jekyll-sitemap uses each page's date for lastmod automatically
 sitemap:
   priority: 0.7
   changefreq: daily
-  lastmod: site.time
 
 # Exclude files
 exclude:
@@ -142,7 +142,7 @@ consulting:
   cta_text: "AI導入のご相談を承っています"
   cta_description: "AI導入支援の実務経験を活かし、お手伝いしています。お気軽にご相談ください。"
   cta_url: "/contact/"
-  contact_url: "https://allforces.wuaze.com/contact/"
+  contact_url: "/contact/"
 
 # Newsletter settings
 newsletter:

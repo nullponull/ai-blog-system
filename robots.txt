@@ -22,10 +22,3 @@ Allow: /20*/
 
 # Sitemap location
 Sitemap: https://ai-media.co.jp/sitemap.xml
-Sitemap: https://ai-media.co.jp/sitemap_index.xml
-
-# Crawl rate (optional, for major search engines)
-# Crawl-delay: 1
-
-# Host (for Google)
-Host: https://ai-media.co.jp

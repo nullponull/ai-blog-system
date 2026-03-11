@@ -138,7 +138,7 @@ else:
 
 システム復旧まで今しばらくお待ちください。
 
-ご質問やご要望は[こちらのお問い合わせフォーム](https://allforces.wuaze.com/contact)からお知らせください。
+ご質問やご要望は[こちらのお問い合わせフォーム](https://ai-media.co.jp/contact/)からお知らせください。
 """
     
     with open('_temp/new-article.md', 'w', encoding='utf-8') as f:
