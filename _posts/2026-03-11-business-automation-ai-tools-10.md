@@ -5,6 +5,7 @@ date: 2026-03-11 10:30:00 +0900
 categories: [AI導入戦略]
 tags: ["業務自動化", "AI", "RPA", "ワークフロー", "比較"]
 author: "ALLFORCES編集部"
+comparison: true
 excerpt: "業務自動化AIツール10選をノーコード・ローコード・開発者向けに分類して徹底比較。RPA+AI融合の最新トレンドから導入ROIの算出方法まで解説します。"
 reading_time: 11
 image: "/assets/images/posts/2026-03-11-business-automation-ai-tools-10-ogp.png"

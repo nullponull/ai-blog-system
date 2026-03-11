@@ -5,6 +5,7 @@ date: 2026-03-11 10:10:00 +0900
 categories: [AI技術ガイド]
 tags: ["RAG", "ベクトルDB", "検索拡張生成", "AI導入"]
 author: "ALLFORCES編集部"
+comparison: true
 excerpt: "RAG（検索拡張生成）構築サービス10選を精度・コスト・運用性の観点で徹底比較。ベクトルDBの選定からチャンキング戦略まで、導入コンサルの現場知見をもとに解説します。"
 reading_time: 11
 image: "/assets/images/posts/2026-03-11-rag-service-comparison-10-ogp.png"

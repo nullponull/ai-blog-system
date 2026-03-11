@@ -123,6 +123,15 @@
                             <li><a href="/contact/">お問い合わせ</a></li>
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">特集</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/#guides">特集ガイド一覧</a></li>
+                            <li><a href="/2026/03/11/complete-guide-ai-implementation/">AI導入完全ガイド</a></li>
+                            <li><a href="/2026/03/11/ai-agent-implementation-manual/">AIエージェント実装マニュアル</a></li>
+                            <li><a href="/2026/03/11/industry-ai-use-cases-collection/">業界別AI活用事例集</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/search/">検索</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle">その他</a>
@@ -157,6 +166,21 @@
 
             <!-- Consulting CTA (Sidebar) -->
             {% include consulting-cta.html variant="sidebar" %}
+
+            <!-- Featured Guides Widget -->
+            {% assign sidebar_pillars = site.posts | where: "pillar", true %}
+            {% if sidebar_pillars.size > 0 %}
+            <section class="widget" aria-labelledby="guides-widget-title">
+                <h3 id="guides-widget-title" class="widget-title">特集ガイド</h3>
+                <ul class="recent-posts" role="list">
+                    {% for post in sidebar_pillars limit:3 %}
+                    <li role="listitem">
+                        <a href="{{ post.url | relative_url }}" aria-label="ガイド: {{ post.title }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
 
             <!-- Recent Posts Widget -->
             <section class="widget" aria-labelledby="recent-posts-title">
@@ -205,6 +229,7 @@
                     <h3 id="footer-links-title">メディア</h3>
                     <ul role="list">
                         <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+                        <li><a href="/#guides">特集ガイド</a></li>
                         <li><a href="/search/">検索</a></li>
                         <li><a href="/archive/">アーカイブ</a></li>
                         <li><a href="/about/">メディアについて</a></li>

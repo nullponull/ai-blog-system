@@ -150,6 +150,63 @@ hide_breadcrumbs: true
     </div>
 </section>
 
+<!-- Featured Guides Section (Pillar & Comparison Articles) -->
+{% assign pillar_posts = site.posts | where: "pillar", true %}
+{% assign comparison_posts = site.posts | where: "comparison", true %}
+{% assign guide_count = pillar_posts.size | plus: comparison_posts.size %}
+{% if guide_count > 0 %}
+<section class="guides-section" id="guides">
+    <div class="section-header">
+        <h2 class="section-title">
+            特集ガイド
+        </h2>
+        <p class="section-subtitle">AI導入の実践知識を体系的にまとめた完全ガイド・比較記事</p>
+    </div>
+
+    {% if pillar_posts.size > 0 %}
+    <div class="guides-pillar-grid">
+        {% for post in pillar_posts limit:3 %}
+        <article class="guide-pillar-card">
+            <div class="guide-pillar-badge">完全ガイド</div>
+            <div class="guide-pillar-icon">
+                {%- if post.categories and post.categories.size > 0 -%}
+                    {% include icon.html category=post.categories.first class="guide-icon-svg" %}
+                {%- else -%}
+                    {% include icon.html category="" class="guide-icon-svg" %}
+                {%- endif -%}
+            </div>
+            <h3 class="guide-pillar-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <p class="guide-pillar-description">{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p>
+            <div class="guide-pillar-meta">
+                {% if post.reading_time %}<span>{{ post.reading_time }}分で読める</span>{% endif %}
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if comparison_posts.size > 0 %}
+    <h3 class="guides-sub-title">比較・選定ガイド</h3>
+    <div class="guides-comparison-grid">
+        {% for post in comparison_posts limit:5 %}
+        <article class="guide-comparison-card">
+            <div class="guide-comparison-badge">比較</div>
+            <div class="guide-comparison-content">
+                <h4 class="guide-comparison-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h4>
+                <p class="guide-comparison-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% endif %}
+</section>
+{% endif %}
+
 <!-- Latest Articles Section with Pagination -->
 <section class="articles-section">
     <div class="section-header">
