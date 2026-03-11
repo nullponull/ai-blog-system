@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Tachyumの2nm Prodigy、AI性能21倍向上は本当か？その真意を探る"
 reading_time: 20
+image: "/assets/images/posts/2025-11-15-1-tachyum2nm-prodigy-ogp.png"
 ---
 
 Tachyumの2nm Prodigy、AI性能21倍向上は本当か？その真意を探る

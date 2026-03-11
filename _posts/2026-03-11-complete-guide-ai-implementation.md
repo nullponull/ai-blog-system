@@ -7,6 +7,7 @@ tags: [AI導入, DX推進, AI戦略, PoC, 業務効率化, ROI, AI運用]
 author: "ALLFORCES編集部"
 description: "企業のAI導入を成功に導くための完全ロードマップ。課題分析からツール選定、PoC実施、本番導入、運用改善までの全工程を体系的に解説します。"
 pillar: true
+image: "/assets/images/posts/2026-03-11-complete-guide-ai-implementation-ogp.png"
 ---
 
 ## はじめに：なぜ今、AI導入の「全体像」を把握すべきなのか

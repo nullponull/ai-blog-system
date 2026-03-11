@@ -7,6 +7,7 @@ tags: ["xAI", "マルチモーダル", "音声AI", "ROI分析", "AI人材", "セ
 author: "ALLFORCES編集部"
 excerpt: "ツクリンクのAIマッチング機能、建設業界に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-01-2-ai-article-update-ogp.png"
 ---
 
 ツクリンクのAIマッチング機能、建設業界に何をもたらすのか？

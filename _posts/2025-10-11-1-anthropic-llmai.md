@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic LLMの深層に潜む影：AIの信頼性はどこへ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-1-anthropic-llmai-ogp.png"
 ---
 
 Anthropic LLMの深層に潜む影：AIの信頼性はどこへ向かうのか？

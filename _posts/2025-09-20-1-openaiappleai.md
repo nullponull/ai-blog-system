@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Apple", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIがAppleサプライヤーと組む真意は？AIデバイスの未来を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-09-20-1-openaiappleai-ogp.png"
 ---
 
 OpenAIがAppleサプライヤーと組む真意は？AIデバイスの未来を読み解く

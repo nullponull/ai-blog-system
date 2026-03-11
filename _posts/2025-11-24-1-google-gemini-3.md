@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "AIエージェント", "マルチモーダ
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3の画像強化、その真価はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-24-1-google-gemini-3-ogp.png"
 ---
 
 Google Gemini 3の画像強化、その真価はどこにあるのか？

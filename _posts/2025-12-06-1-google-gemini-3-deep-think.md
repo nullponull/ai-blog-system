@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3 Deep Thinkの真意はどこにあるのか？"
 reading_time: 5
+image: "/assets/images/posts/2025-12-06-1-google-gemini-3-deep-think-ogp.png"
 ---
 
 Google Gemini 3 Deep Thinkの真意はどこにあるのか？

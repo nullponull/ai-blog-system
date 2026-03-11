@@ -7,6 +7,7 @@ tags: ["OpenAI", "Anthropic", "画像生成", "AI規制", "AI人材", "セキュ
 author: "ALLFORCES編集部"
 excerpt: "パナソニックのAI画像生成、自己改善の真意とは？その技術が業界をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-21-3-ai-article-update-ogp.png"
 ---
 
 パナソニックのAI画像生成、自己改善の真意とは？その技術が業界をどう変えるのか？

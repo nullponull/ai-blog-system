@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "VultrとAMDのGPU大増設は、クラウドAIの風景をどう塗り替えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-06-3-vultramdgpuai-ogp.png"
 ---
 
 VultrとAMDのGPU大増設は、クラウドAIの風景をどう塗り替えるのか？

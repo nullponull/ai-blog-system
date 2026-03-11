@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "Apple", "RAG", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "QualcommのXR向けAIチップ上市：これはXRの夜明け、それともまだ長い道のりなのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-28-2-qualcommxrai-ogp.png"
 ---
 
 QualcommのXR向けAIチップ上市：これはXRの夜明け、それともまだ長い道のりなのか？

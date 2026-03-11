@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "Amazon", "Apple", "xAI", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-31-3-glance-aisoftbank-ogp.png"
 ---
 
 「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？

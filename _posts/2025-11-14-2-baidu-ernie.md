@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE、視覚AIでGPT超えの真意は？中国AIの戦略的進化を読み解く。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-14-2-baidu-ernie-ogp.png"
 ---
 
 Baidu ERNIE、視覚AIでGPT超えの真意は？中国AIの戦略的進化を読み解く。

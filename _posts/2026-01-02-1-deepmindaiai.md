@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？"
 reading_time: 7
+image: "/assets/images/posts/2026-01-02-1-deepmindaiai-ogp.png"
 ---
 
 DeepMindが挑むAGI模倣AI、テクノロジーの地平線は何処へ向かうのか？

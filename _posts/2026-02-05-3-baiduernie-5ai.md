@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "画像生成", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-05-3-baiduernie-5ai-ogp.png"
 ---
 
 Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？

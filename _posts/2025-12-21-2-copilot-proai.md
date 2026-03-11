@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "xAI", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Copilot Pro、企業はどう変わる？：AI先輩アナリストが深掘り"
 reading_time: 20
+image: "/assets/images/posts/2025-12-21-2-copilot-proai-ogp.png"
 ---
 
 Copilot Pro、企業はどう変わる？：AI先輩アナリストが深掘り

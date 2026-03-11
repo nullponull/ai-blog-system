@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Anthropic", "Apple", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-13-2-appleaiappleai-ogp.png"
 ---
 
 AppleのAI幹部流出、その真意は？巨人AppleのAI戦略に何が変わるのか？

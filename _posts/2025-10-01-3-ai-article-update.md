@@ -7,6 +7,8 @@ tags: ["xAI", "推論最適化", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "滋賀大の「先端因果推論AI」チーム発足、その真意は何だろうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-01-3-ai-article-update-ogp.png"
+image: "/assets/images/posts/2025-10-01-3-ai-article-update-ogp.png"
 ---
 
 滋賀大の「先端因果推論AI」チーム発足、その真意は何だろうか？

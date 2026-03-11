@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "xAI", "LLM", "ファインチューニン
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが製薬研究にもたらす変革の兆し、その本質はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-08-2-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrockが製薬研究にもたらす変革の兆し、その本質はどこにあるのか？

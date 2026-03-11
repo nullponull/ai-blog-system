@@ -7,6 +7,7 @@ tags: ["OpenAI", "LLM", "AIエージェント", "マルチモーダル", "画像
 author: "ALLFORCES編集部"
 excerpt: "パナソニックの「Reflect-Dit」：画像生成AIの常識を覆す、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-20-3-reflect-dit-ogp.png"
 ---
 
 パナソニックの「Reflect-Dit」：画像生成AIの常識を覆す、その真意とは？

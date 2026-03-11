@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIAとOracleが描くAIスパコンの未来、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-12-1-nvidiaoracleai-ogp.png"
 ---
 
 NVIDIAとOracleが描くAIスパコンの未来、その真意とは？

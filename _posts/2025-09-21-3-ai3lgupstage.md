@@ -7,6 +7,7 @@ tags: ["LLM", "推論最適化", "AI規制", "AI人材", "セキュリティ", "
 author: "ALLFORCES編集部"
 excerpt: "韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来"
 reading_time: 20
+image: "/assets/images/posts/2025-09-21-3-ai3lgupstage-ogp.png"
 ---
 
 韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来

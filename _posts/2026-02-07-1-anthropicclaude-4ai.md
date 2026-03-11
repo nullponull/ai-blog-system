@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "AnthropicのClaude 4は医療AIのゲームチェンジャーとなるのか、その真意とは？"
 reading_time: 7
+image: "/assets/images/posts/2026-02-07-1-anthropicclaude-4ai-ogp.png"
 ---
 
 AnthropicのClaude 4は医療AIのゲームチェンジャーとなるのか、その真意とは？

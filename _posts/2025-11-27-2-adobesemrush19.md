@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "LLM", "AIエージェント", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-27-2-adobesemrush19-ogp.png"
 ---
 
 AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？

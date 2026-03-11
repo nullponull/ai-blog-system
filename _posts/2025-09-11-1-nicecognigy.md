@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、また大きなニュースが飛び込んできましたね。NICEが会話型およびエージェント型AIのプロバイダーであるCognigyの買収を完了したと聞いて、正直なところ、最初に思ったのは「またか」でした。あなたもそう感じたかもしれませんね。"
 reading_time: 20
+image: "/assets/images/posts/2025-09-11-1-nicecognigy-ogp.png"
 ---
 
 **タイトル: NiCEとCognigy、その買収の真意は？CX AIの未来を読み解く**

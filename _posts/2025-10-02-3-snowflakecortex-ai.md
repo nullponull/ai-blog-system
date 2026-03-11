@@ -7,6 +7,7 @@ tags: ["Anthropic", "xAI", "AIエージェント", "音声AI", "推論最適化"
 author: "ALLFORCES編集部"
 excerpt: "Snowflakeの金融向けCortex AI、その真意はデータとAIの融合にあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-02-3-snowflakecortex-ai-ogp.png"
 ---
 
 Snowflakeの金融向けCortex AI、その真意はデータとAIの融合にあるのか？

@@ -7,6 +7,8 @@ tags: ["OpenAI", "Microsoft", "マルチモーダル", "画像生成", "AI人材
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftはAzure AIで何を発表したのだろうか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-21-1-microsoftazure-ai-ogp.png"
+image: "/assets/images/posts/2025-12-21-1-microsoftazure-ai-ogp.png"
 ---
 
 MicrosoftはAzure AIで何を発表したのだろうか？

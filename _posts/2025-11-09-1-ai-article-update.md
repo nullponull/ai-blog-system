@@ -7,6 +7,7 @@ tags: ["OpenAI", "ByteDance", "LLM", "AIエージェント", "マルチモーダ
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、中国のAI動向にはいつも驚かされますね。私がこの業界に足を踏み入れて20年、シリコンバレーのスタートアップから日本の大企業まで、数えきれないほどのAI導入プロジェクトを見てきましたが、中国のスピード感と規模感は、"
 reading_time: 20
+image: "/assets/images/posts/2025-11-09-1-ai-article-update-ogp.png"
 ---
 
 中国AIの「深化」が示す、次の産業革命の真意とは？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-24-2-natogoogleai-ogp.png"
 ---
 
 NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？

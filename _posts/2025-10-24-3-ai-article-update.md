@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "ROI分析", "AI人材", "DX推進", "セキュリティ
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンクとサムスン、AI-RAN協業の真意とは？通信業界の未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-24-3-ai-article-update-ogp.png"
 ---
 
 ソフトバンクとサムスン、AI-RAN協業の真意とは？通信業界の未来をどう変えるのか？

@@ -7,6 +7,7 @@ tags: ["Google", "Apple", "LLM", "RAG", "音声AI", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る"
 reading_time: 20
+image: "/assets/images/posts/2025-11-28-3-alibabaquark-ai-ogp.png"
 ---
 
 AlibabaのQuark AI眼鏡、その真意は？ウェアラブルAI市場の新たな一手を探る

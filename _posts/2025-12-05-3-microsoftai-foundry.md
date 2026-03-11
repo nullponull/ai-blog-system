@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？"
 reading_time: 12
+image: "/assets/images/posts/2025-12-05-3-microsoftai-foundry-ogp.png"
 ---
 
 Microsoft「AI Foundry」の脅威検知、その真意はどこにあるのか？

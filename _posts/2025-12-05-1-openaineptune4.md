@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Apple", "AI人材", "セキュリティ", "AI倫理"
 author: "ALLFORCES編集部"
 excerpt: "OpenAIがNeptuneを4億ドルで買収、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-05-1-openaineptune4-ogp.png"
 ---
 
 OpenAIがNeptuneを4億ドルで買収、その真意はどこにあるのか？

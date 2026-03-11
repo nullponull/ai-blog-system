@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "シンガポールのAI人材戦略、その先にあるのは単なる技術大国か、それとも…？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-08-3-ai-article-update-ogp.png"
 ---
 
 シンガポールのAI人材戦略、その先にあるのは単なる技術大国か、それとも…？

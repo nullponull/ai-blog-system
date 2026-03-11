@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockのTitan 3.0は、エンタープライズAIのゲームチェンジャーとなりうるのか？"
 reading_time: 10
+image: "/assets/images/posts/2025-12-28-1-amazon-bedrocktitan-30-ogp.png"
 ---
 
 Amazon BedrockのTitan 3.0は、エンタープライズAIのゲームチェンジャーとなりうるのか？

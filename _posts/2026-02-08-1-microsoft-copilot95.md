@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "xAI", "LLM", "ファインチューニング", "A
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、医療分野で「95%の精度」って、本当なの？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-08-1-microsoft-copilot95-ogp.png"
 ---
 
 Microsoft Copilot、医療分野で「95%の精度」って、本当なの？

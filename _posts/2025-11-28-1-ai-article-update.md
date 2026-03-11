@@ -7,6 +7,7 @@ tags: ["NVIDIA", "マルチモーダル", "AI規制", "AI人材", "自動運転"
 author: "ALLFORCES編集部"
 excerpt: "バイドゥの『崑崙芯』、中国AIチップ市場の覇権を握るのか？その真意とは"
 reading_time: 20
+image: "/assets/images/posts/2025-11-28-1-ai-article-update-ogp.png"
 ---
 
 バイドゥの『崑崙芯』、中国AIチップ市場の覇権を握るのか？その真意とは

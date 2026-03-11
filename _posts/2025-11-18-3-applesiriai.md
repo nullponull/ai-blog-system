@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "Apple", "xAI", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-18-3-applesiriai-ogp.png"
 ---
 
 Apple、Siri独占終了の真意は？AIアシスタント市場に何が起きるのか？

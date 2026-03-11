@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Anthropic", "xAI", "ファインチューニング",
 author: "ALLFORCES編集部"
 excerpt: "日本がAI信頼性評価システムを開発する真意とは？その影響を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-11-16-1-ai-article-update-ogp.png"
 ---
 
 日本がAI信頼性評価システムを開発する真意とは？その影響を読み解く

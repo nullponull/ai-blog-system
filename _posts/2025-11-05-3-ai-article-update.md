@@ -7,6 +7,7 @@ tags: ["xAI", "LLM", "RAG", "AIエージェント", "推論最適化", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "トムソン・ロイターの「エージェントAI」戦略、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-05-3-ai-article-update-ogp.png"
 ---
 
 トムソン・ロイターの「エージェントAI」戦略、その真意はどこにあるのか？

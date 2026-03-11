@@ -7,6 +7,7 @@ tags: ["xAI", "LLM", "マルチモーダル", "AI規制", "セキュリティ", 
 author: "ALLFORCES編集部"
 excerpt: "NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-27-1-nttugoaipf-ogp.png"
 ---
 
 NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？

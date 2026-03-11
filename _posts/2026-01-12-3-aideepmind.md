@@ -7,6 +7,7 @@ tags: ["Google", "マルチモーダル", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、またしてもDeepMindのニュースですよ。AI創薬プラットフォームで新薬候補を発見した、と。彼らがAlphaFoldでタンパク質構造予測という、まさに「科学の壁」を打ち破った実績を考えると、この「創薬」という、"
 reading_time: 6
+image: "/assets/images/posts/2026-01-12-3-aideepmind-ogp.png"
 ---
 
 AI創薬、DeepMindはどこまで真実味を帯びてきた？

@@ -7,6 +7,7 @@ tags: ["xAI", "マルチモーダル", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "「新興AI、医療画像診断を高度化」。このニュース、あなたも目にしたかもしれませんね。AIが医療画像診断の精度を劇的に向上させる、そんな未来がいよいよ現実味を帯びてきた、というわけです。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-05-3-ai-article-update-ogp.png"
 ---
 
 医療AI、その真価はどこにある？

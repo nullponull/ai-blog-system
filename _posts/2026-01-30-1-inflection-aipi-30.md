@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIのPi 3.0、応答速度2倍の真意とは？ AI会話の未来を解き明かす"
 reading_time: 9
+image: "/assets/images/posts/2026-01-30-1-inflection-aipi-30-ogp.png"
 ---
 
 Inflection AIのPi 3.0、応答速度2倍の真意とは？ AI会話の未来を解き明かす

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "AWSの「Inferentia 4」は、本当にAIコストのゲームチェンジャーとなるのか？"
 reading_time: 10
+image: "/assets/images/posts/2025-12-15-2-awsinferentia-4-ogp.png"
 ---
 
 AWSの「Inferentia 4」は、本当にAIコストのゲームチェンジャーとなるのか？

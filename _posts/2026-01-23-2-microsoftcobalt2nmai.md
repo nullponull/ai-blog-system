@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-23-2-microsoftcobalt2nmai-ogp.png"
 ---
 
 Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？

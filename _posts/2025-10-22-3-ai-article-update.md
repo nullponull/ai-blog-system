@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "AIエージェント", "画像生成", "AI規制", "
 author: "ALLFORCES編集部"
 excerpt: "AI動画生成、アニメを数秒で？その真意とクリエイティブの未来"
 reading_time: 20
+image: "/assets/images/posts/2025-10-22-3-ai-article-update-ogp.png"
 ---
 
 AI動画生成、アニメを数秒で？その真意とクリエイティブの未来

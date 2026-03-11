@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "OracleとOpenAI、380億ドル投資の真意とは？AIインフラ競争の新たな局面"
 reading_time: 20
+image: "/assets/images/posts/2025-10-24-1-oracleopenai-ogp.png"
 ---
 
 OracleとOpenAI、380億ドル投資の真意とは？AIインフラ競争の新たな局面

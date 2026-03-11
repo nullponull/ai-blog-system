@@ -7,6 +7,7 @@ tags: ["LLM", "マルチモーダル", "音声AI", "推論最適化", "AI人材"
 author: "ALLFORCES編集部"
 excerpt: "中国、人型ロボット「小衆」進化の真意とは？その技術と市場の未来を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-11-11-2-ai-article-update-ogp.png"
 ---
 
 中国、人型ロボット「小衆」進化の真意とは？その技術と市場の未来を読み解く

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "SamsungとOpenAIの提携、その真意は？AIインフラの未来を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-10-01-1-samsungopenaiai-ogp.png"
 ---
 
 SamsungとOpenAIの提携、その真意は？AIインフラの未来を読み解く

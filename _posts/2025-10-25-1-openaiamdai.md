@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面"
 reading_time: 20
+image: "/assets/images/posts/2025-10-25-1-openaiamdai-ogp.png"
 ---
 
 OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面

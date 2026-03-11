@@ -7,6 +7,7 @@ tags: ["Google", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-16-2-deepmindalphafold-31-ogp.png"
 ---
 
 DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？

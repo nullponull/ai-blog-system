@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "AWS「Quick Suite」がCopilotに挑む：企業AIの未来は何処へ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-12-2-awsquick-suitecopilot-ogp.png"
 ---
 
 AWS「Quick Suite」がCopilotに挑む：企業AIの未来は何処へ向かうのか？

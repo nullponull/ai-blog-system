@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "推論最適化", "AI規制", "セキュリティ", 
 author: "ALLFORCES編集部"
 excerpt: "Google Cloudが示す、AIと持続可能性の両立の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-22-3-google-cloudai-ogp.png"
 ---
 
 Google Cloudが示す、AIと持続可能性の両立の真意とは？

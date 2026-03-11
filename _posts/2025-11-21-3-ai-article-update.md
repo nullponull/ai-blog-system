@@ -7,6 +7,7 @@ tags: ["AI規制", "AI人材", "DX推進", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "アフリカAI教育投資の真意とは？そして、その変革がもたらす未来は何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-21-3-ai-article-update-ogp.png"
 ---
 
 アフリカAI教育投資の真意とは？そして、その変革がもたらす未来は何か？

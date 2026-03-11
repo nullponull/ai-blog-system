@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "LLM", "ファインチューニング", "AI人材
 author: "ALLFORCES編集部"
 excerpt: "TokyoAIの「Sakura-7B」公開、何が変わるのか？"
 reading_time: 12
+image: "/assets/images/posts/2026-02-11-3-tokyoaisakura-7b-ogp.png"
 ---
 
 TokyoAIの「Sakura-7B」公開、何が変わるのか？

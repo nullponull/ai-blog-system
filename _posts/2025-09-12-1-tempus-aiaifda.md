@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Tempus AIの心臓AI、FDA承認の真意は？株価高騰の裏側と医療AIの未来"
 reading_time: 20
+image: "/assets/images/posts/2025-09-12-1-tempus-aiaifda-ogp.png"
 ---
 
 Tempus AIの心臓AI、FDA承認の真意は？株価高騰の裏側と医療AIの未来

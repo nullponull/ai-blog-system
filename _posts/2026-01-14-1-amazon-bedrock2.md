@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの「学習データ2倍、コスト半減」がAI開発の未来を変えるのか？"
 reading_time: 11
+image: "/assets/images/posts/2026-01-14-1-amazon-bedrock2-ogp.png"
 ---
 
 Amazon Bedrockの「学習データ2倍、コスト半減」がAI開発の未来を変えるのか？

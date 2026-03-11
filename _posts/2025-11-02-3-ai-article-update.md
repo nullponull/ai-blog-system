@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "AIの未来は「土」にあり？希土類元素が握るインフラの真意とは"
 reading_time: 20
+image: "/assets/images/posts/2025-11-02-3-ai-article-update-ogp.png"
 ---
 
 AIの未来は「土」にあり？希土類元素が握るインフラの真意とは

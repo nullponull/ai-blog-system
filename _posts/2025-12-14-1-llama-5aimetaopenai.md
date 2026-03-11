@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-14-1-llama-5aimetaopenai-ogp.png"
 ---
 
 LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？

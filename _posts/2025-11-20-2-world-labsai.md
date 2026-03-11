@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探る"
 reading_time: 20
+image: "/assets/images/posts/2025-11-20-2-world-labsai-ogp.png"
 ---
 
 World Labsが仕掛ける「空間AI」の真価とは？ AIの次のフロンティアを探る

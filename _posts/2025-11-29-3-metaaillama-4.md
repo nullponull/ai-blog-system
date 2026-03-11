@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-29-3-metaaillama-4-ogp.png"
 ---
 
 メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？

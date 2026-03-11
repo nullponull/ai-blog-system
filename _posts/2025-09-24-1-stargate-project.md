@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "「Stargate Project」の真意とは？AIインフラ投資の巨大な波が示す未来"
 reading_time: 20
+image: "/assets/images/posts/2025-09-24-1-stargate-project-ogp.png"
 ---
 
 「Stargate Project」の真意とは？AIインフラ投資の巨大な波が示す未来

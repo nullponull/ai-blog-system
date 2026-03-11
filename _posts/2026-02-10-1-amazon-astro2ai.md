@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Amazon", "LLM", "AIエージェント", "音声AI", "AI規制"
 author: "ALLFORCES編集部"
 excerpt: "Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？"
 reading_time: 10
+image: "/assets/images/posts/2026-02-10-1-amazon-astro2ai-ogp.png"
 ---
 
 Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？

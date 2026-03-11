@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新LLMモデル追加で何が変わる？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-16-2-amazon-bedrockllm-ogp.png"
 ---
 
 Amazon Bedrock、新LLMモデル追加で何が変わる？

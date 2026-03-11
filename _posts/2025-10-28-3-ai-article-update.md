@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "AIエージェント", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "「日立とドコモがAIエージェントで運用効率化」。このニュース、あなたも耳にしましたか？正直なところ、私は最初、「またAIか」と少し斜に構えてしまったんですよ。AIがバズワードになって久しいですが、本当に現場で使えるのか、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-28-3-ai-article-update-ogp.png"
 ---
 
 日立とドコモのAIエージェント、運用効率化の真意とは？

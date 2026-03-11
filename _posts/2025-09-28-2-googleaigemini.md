@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-28-2-googleaigemini-ogp.png"
 ---
 
 GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？

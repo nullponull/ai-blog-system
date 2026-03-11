@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "AI規制", "AI人材", "セキュリテ
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-05-3-microsoftai-ogp.png"
 ---
 
 MicrosoftがAI倫理ガイドラインを刷新：その真の狙いはどこにあるのか？

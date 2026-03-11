@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "日本政府のAI倫理ガイドライン改定、その真意と私たちへの影響とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-27-3-ai-article-update-ogp.png"
 ---
 
 日本政府のAI倫理ガイドライン改定、その真意と私たちへの影響とは？

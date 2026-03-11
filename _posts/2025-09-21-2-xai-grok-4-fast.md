@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "xAI Grok 4 Fast、コスト98%減の真意とは？AI業界に何をもたらすのか。"
 reading_time: 20
 canonical_url: "https://ai-media.co.jp/2025/09/23/1-xai-grok-4-fast/"
+image: "/assets/images/posts/2025-09-21-2-xai-grok-4-fast-ogp.png"
 ---
 
 xAI Grok 4 Fast、コスト98%減の真意とは？AI業界に何をもたらすのか。

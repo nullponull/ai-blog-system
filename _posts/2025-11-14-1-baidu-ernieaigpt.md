@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Apple", "AIエージェント", "マルチ
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-14-1-baidu-ernieaigpt-ogp.png"
 ---
 
 Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？

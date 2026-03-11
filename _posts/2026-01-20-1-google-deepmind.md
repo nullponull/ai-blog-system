@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "AI人材", "AI倫理", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-20-1-google-deepmind-ogp.png"
 ---
 
 Google DeepMindのタンパク質構造予測、95%達成が創薬にもたらす本当のインパクトとは？

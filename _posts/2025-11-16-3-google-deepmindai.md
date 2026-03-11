@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "AIエージェント", "マルチモーダル", "フ
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-16-3-google-deepmindai-ogp.png"
 ---
 
 Google DeepMindの科学研究AI発表、その真意はどこにあるのか？

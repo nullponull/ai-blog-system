@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "「え、Amazon Bedrockが新モデルでコストを半減させるって、本当？」"
 reading_time: 20
+image: "/assets/images/posts/2025-12-24-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrockのコスト半減、何が変わるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "ファインチューニ
 author: "ALLFORCES編集部"
 excerpt: "SageMakerでLLM開発は本当に加速するのか？その真意を探る"
 reading_time: 8
+image: "/assets/images/posts/2026-01-17-1-sagemakerllm-ogp.png"
 ---
 
 SageMakerでLLM開発は本当に加速するのか？その真意を探る

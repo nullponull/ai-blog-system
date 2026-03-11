@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "マルチモーダル", "画像
 author: "ALLFORCES編集部"
 excerpt: "Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-08-3-microsoftmai-image-1-ogp.png"
 ---
 
 Microsoftの「MAI Image 1」が示す、AI画像生成の新たな地平とは？

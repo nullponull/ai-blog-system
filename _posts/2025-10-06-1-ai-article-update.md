@@ -7,6 +7,7 @@ tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "「ついに来たか」――イタリアがEU加盟国として初めて、EU AI法に整合する形で国内法案を可決したというニュースを聞いて、私の最初の感想はそんなところでした。あなたも感じているかもしれませんが、AI規制の話はもう何年も前から議論されていて、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-06-1-ai-article-update-ogp.png"
 ---
 
 イタリアAI法案可決、その真意はどこにあるのか？

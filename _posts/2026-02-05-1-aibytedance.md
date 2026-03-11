@@ -7,6 +7,7 @@ tags: ["OpenAI", "ByteDance", "LLM", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？"
 reading_time: 8
+image: "/assets/images/posts/2026-02-05-1-aibytedance-ogp.png"
 ---
 
 AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？

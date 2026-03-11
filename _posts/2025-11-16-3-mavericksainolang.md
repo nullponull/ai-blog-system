@@ -7,6 +7,7 @@ tags: ["ByteDance", "AIエージェント", "マルチモーダル", "音声AI",
 author: "ALLFORCES編集部"
 excerpt: "Mavericksの動画生成AI「NoLang」機能拡充、その真意と市場への波紋とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-16-3-mavericksainolang-ogp.png"
 ---
 
 Mavericksの動画生成AI「NoLang」機能拡充、その真意と市場への波紋とは？

@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockと量子AI、その連携強化で何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-24-2-amazon-bedrockai-ogp.png"
 ---
 
 Amazon Bedrockと量子AI、その連携強化で何が変わるのか？

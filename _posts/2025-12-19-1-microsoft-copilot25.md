@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "LLM", "ROI分析", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilotの「生産性25%向上」がもたらす企業変革、その真意とは何か？"
 reading_time: 9
+image: "/assets/images/posts/2025-12-19-1-microsoft-copilot25-ogp.png"
 ---
 
 Microsoft Copilotの「生産性25%向上」がもたらす企業変革、その真意とは何か？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "シンガポールが金融AI支援を強化する真意とは？その戦略と未来を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-10-13-2-ai-article-update-ogp.png"
 ---
 
 シンガポールが金融AI支援を強化する真意とは？その戦略と未来を読み解く

@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "LLM", "画像生成", "セキュリティ
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、LLM15種追加：何が変わるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-28-2-amazon-bedrockllm15-ogp.png"
 ---
 
 Amazon Bedrock、LLM15種追加：何が変わるのか？

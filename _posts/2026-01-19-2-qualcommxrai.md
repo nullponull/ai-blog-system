@@ -7,6 +7,7 @@ tags: ["Meta", "NVIDIA", "Apple", "RAG", "推論最適化", "セキュリティ"
 author: "ALLFORCES編集部"
 excerpt: "QualcommのXR向けAIチップ、その真意は何だろうか？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-19-2-qualcommxrai-ogp.png"
 ---
 
 QualcommのXR向けAIチップ、その真意は何だろうか？

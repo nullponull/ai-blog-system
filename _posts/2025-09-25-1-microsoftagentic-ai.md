@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "AIエージェント", "マルチモーダル", "
 author: "ALLFORCES編集部"
 excerpt: "Microsoftが韓国でAgentic AIを加速させる真意とは？その戦略の深層を探る"
 reading_time: 20
+image: "/assets/images/posts/2025-09-25-1-microsoftagentic-ai-ogp.png"
 ---
 
 Microsoftが韓国でAgentic AIを加速させる真意とは？その戦略の深層を探る

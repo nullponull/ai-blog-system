@@ -7,6 +7,7 @@ tags: ["NVIDIA", "RAG", "マルチモーダル", "推論最適化", "AI規制", 
 author: "ALLFORCES編集部"
 excerpt: "ソニーのAIカメラが映像解析性能を50%向上させたというニュース、その真意は何だろう？"
 reading_time: 8
+image: "/assets/images/posts/2026-02-11-1-ai-article-update-ogp.png"
 ---
 
 ソニーのAIカメラが映像解析性能を50%向上させたというニュース、その真意は何だろう？

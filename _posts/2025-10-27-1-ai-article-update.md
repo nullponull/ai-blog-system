@@ -7,6 +7,7 @@ tags: ["Amazon", "xAI", "LLM", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、このニュースを聞いた時、私は少しばかり眉をひそめました。オーストラリア政府がAI学習のための著作権法改正、特に「フェアディーリング」例外の導入を拒否したという話、あなたも感じているかもしれませんが、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-27-1-ai-article-update-ogp.png"
 ---
 
 ## オーストラリア、AI著作権法改正拒否の真意はどこにあるのか？

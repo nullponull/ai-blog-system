@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "AIエージェント", "ROI分析", "AI規制", "
 author: "ALLFORCES編集部"
 excerpt: "AI Copilot for Finance、Microsoftの次の一手は何を狙うのか？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-26-1-ai-copilot-for-finance-ogp.png"
 ---
 
 AI Copilot for Finance、Microsoftの次の一手は何を狙うのか？

@@ -7,6 +7,7 @@ tags: ["音声AI", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。今日はソニーが発表した新しいAIチップの話をしよう。正直、最初は「またか」と思ったんだ。AI、AIって、もうどこもかしこもAIだもんね。でも、今回はちょっと違うかもしれない。ソニーがゲーム体験を「革新する」って言ってるんだ。"
 reading_time: 7
+image: "/assets/images/posts/2026-01-18-1-ai-article-update-ogp.png"
 ---
 
 ソニーのAIチップ、ゲームの未来をどう変えるのか？

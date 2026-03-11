@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "Anthropic", "Apple", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "MetaがGoogle TPUを検討？ 720億ドル投資の裏に隠されたAI戦略の真意とは"
 reading_time: 20
+image: "/assets/images/posts/2025-11-30-3-metagoogle-tpu-720-ogp.png"
 ---
 
 MetaがGoogle TPUを検討？ 720億ドル投資の裏に隠されたAI戦略の真意とは

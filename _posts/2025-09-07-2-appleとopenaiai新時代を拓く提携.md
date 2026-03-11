@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Apple", "xAI", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "2024年6月のApple Worldwide Developers Conference (WWDC) で発表されたAppleとOpenAIの戦略的提携は、モバイルおよびデスクトップOSにおけるAI機能の新たな標準を確立します。"
 reading_time: 10
+image: "/assets/images/posts/2025-09-07-2-appleとopenaiai新時代を拓く提携-ogp.png"
 ---
 
 # AppleとOpenAI、AI新時代を拓く提携

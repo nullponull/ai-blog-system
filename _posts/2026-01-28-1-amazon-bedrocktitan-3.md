@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "お疲れ様。また新しいニュースが飛び込んできたね。Amazon Bedrockで新モデル「Titan 3」シリーズの発表だ。正直なところ、私もこの発表を聞いた時、「来たか」という感覚と同時に、「本当にゲームチェンジャーになるのか、"
 reading_time: 9
+image: "/assets/images/posts/2026-01-28-1-amazon-bedrocktitan-3-ogp.png"
 ---
 
 ## Amazon BedrockとTitan 3の発表が、クラウドAIの未来に何を問いかけるのか？

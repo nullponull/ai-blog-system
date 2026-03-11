@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "AIエージェント", "画像生成", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、ソニーAIの「脳波AIで音楽生成を進化させる」というニュース、あなたも耳にしたかもしれませんね。正直、最初にこの見出しを見たとき、少しばかり眉をひそめたんです。だって、20年もこのAI業界を見てきて、数えきれないほどの「次世代技術！"
 reading_time: 20
+image: "/assets/images/posts/2026-01-08-1-ai-article-update-ogp.png"
 ---
 
 ソニーAIの脳波音楽、未来はもう始まっているのか？

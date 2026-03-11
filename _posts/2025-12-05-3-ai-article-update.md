@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "LLM", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "インドネシアと中国、AIで深まる絆の真意とは？アジアのテック地図に変化の予兆"
 reading_time: 20
+image: "/assets/images/posts/2025-12-05-3-ai-article-update-ogp.png"
 ---
 
 インドネシアと中国、AIで深まる絆の真意とは？アジアのテック地図に変化の予兆

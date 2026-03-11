@@ -7,6 +7,7 @@ tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", 
 author: "ALLFORCES編集部"
 excerpt: "World Labsの「Marble」が描く、3D世界生成の新たな可能性とその真意は？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-25-3-world-labsmarble-ogp.png"
 ---
 
 World Labsの「Marble」が描く、3D世界生成の新たな可能性とその真意は？

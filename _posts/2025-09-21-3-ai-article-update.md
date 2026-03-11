@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AI独禁法監視強化の真意とは？シリコンバレーのベテランが語る、その裏側"
 reading_time: 20
+image: "/assets/images/posts/2025-09-21-3-ai-article-update-ogp.png"
 ---
 
 AI独禁法監視強化の真意とは？シリコンバレーのベテランが語る、その裏側

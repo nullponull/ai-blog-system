@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "ROI分析", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "あなたも感じているかもしれませんが、最近のAI業界は、まるで沸騰しているやかんのようです。特に「AIチップ競争激化：AMD対NVIDIA、液冷47%へ」というニュースを見たとき、正直なところ、私の最初の印象は「ああ、"
 reading_time: 20
+image: "/assets/images/posts/2025-11-26-1-ai-article-update-ogp.png"
 ---
 
 AIチップの熱き戦い、液冷が未来を左右するのか？

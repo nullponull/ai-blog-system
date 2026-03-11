@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-22-1-hon-haiopenaiai-ogp.png"
 ---
 
 Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-14-3-ibmspyreai-ogp.png"
 ---
 
 IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？

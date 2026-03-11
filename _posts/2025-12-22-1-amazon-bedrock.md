@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-22-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrockの新モデル、その戦略的追加が示すクラウドAI競争の新たな局面とは？

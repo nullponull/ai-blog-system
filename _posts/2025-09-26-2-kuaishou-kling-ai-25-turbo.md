@@ -7,6 +7,7 @@ tags: ["OpenAI", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Kuaishou Kling AI 2.5 Turbo、その真価はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-26-2-kuaishou-kling-ai-25-turbo-ogp.png"
 ---
 
 Kuaishou Kling AI 2.5 Turbo、その真価はどこにあるのか？

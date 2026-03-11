@@ -7,6 +7,7 @@ tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", 
 author: "ALLFORCES編集部"
 excerpt: "東大・SB・LINEヤフー「Beyond AI」始動、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-3-sblinebeyond-ai-ogp.png"
 ---
 
 東大・SB・LINEヤフー「Beyond AI」始動、その真意はどこにあるのか？

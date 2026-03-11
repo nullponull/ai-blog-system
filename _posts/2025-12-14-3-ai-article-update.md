@@ -7,6 +7,7 @@ tags: ["OpenAI", "xAI", "LLM", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。今日はちょっと面白いニュースをシェアしたいんだ。カナダ政府がAIの研究開発に5億ドルを投資するって話。正直、第一報を聞いたときは「へえ、カナダも本気出してきたな」って思ったのが本音かな。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-14-3-ai-article-update-ogp.png"
 ---
 
 カナダのAI投資、その真意は何でしょうか？

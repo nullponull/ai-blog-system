@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "画像生成", 
 author: "ALLFORCES編集部"
 excerpt: "GPT-5.1 ProとCodex-Max公開：AI進化の「真意」はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-21-2-gpt-51-procodex-max-ogp.png"
 ---
 
 GPT-5.1 ProとCodex-Max公開：AI進化の「真意」はどこにあるのか？

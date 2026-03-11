@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "NvidiaとAnthropicの巨額提携：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-28-1-nvidiaanthropic-ogp.png"
 ---
 
 NvidiaとAnthropicの巨額提携：その真意はどこにあるのか？

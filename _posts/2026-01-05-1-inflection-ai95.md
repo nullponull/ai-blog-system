@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの感情分析95%達成、何が変わるのか？"
 reading_time: 6
+image: "/assets/images/posts/2026-01-05-1-inflection-ai95-ogp.png"
 ---
 
 Inflection AIの感情分析95%達成、何が変わるのか？

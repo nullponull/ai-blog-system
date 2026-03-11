@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini Nano 2、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-20-1-google-gemini-nano-2-ogp.png"
 ---
 
 Google Gemini Nano 2、その真意はどこにあるのか？

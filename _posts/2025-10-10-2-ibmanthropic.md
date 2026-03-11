@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropicの提携が示す、開発現場の未来図とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-2-ibmanthropic-ogp.png"
 ---
 
 IBMとAnthropicの提携が示す、開発現場の未来図とは？

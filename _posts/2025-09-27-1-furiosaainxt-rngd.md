@@ -7,6 +7,7 @@ tags: ["Microsoft", "Meta", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-1-furiosaainxt-rngd-ogp.png"
 ---
 
 FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？

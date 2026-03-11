@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-20-1-amazon-bedrocktitan-20-ogp.png"
 ---
 
 Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？

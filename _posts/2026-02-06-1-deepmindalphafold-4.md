@@ -7,6 +7,7 @@ tags: ["Google", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind『AlphaFold 4』発表：95%超の精度が創薬にもたらす本当の地平とは？"
 reading_time: 8
+image: "/assets/images/posts/2026-02-06-1-deepmindalphafold-4-ogp.png"
 ---
 
 DeepMind『AlphaFold 4』発表：95%超の精度が創薬にもたらす本当の地平とは？

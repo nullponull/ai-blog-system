@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-26-1-googlegemini-3ai-ogp.png"
 ---
 
 Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？

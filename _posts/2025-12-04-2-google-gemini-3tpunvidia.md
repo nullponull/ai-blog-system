@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-04-2-google-gemini-3tpunvidia-ogp.png"
 ---
 
 Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？

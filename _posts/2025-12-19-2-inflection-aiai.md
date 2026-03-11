@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの会話AI、本当に「新境地」と言えるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-19-2-inflection-aiai-ogp.png"
 ---
 
 Inflection AIの会話AI、本当に「新境地」と言えるのか？

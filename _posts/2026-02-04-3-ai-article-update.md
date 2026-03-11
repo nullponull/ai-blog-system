@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "画像生成", "AI規制", "セキュリティ", "AI
 author: "ALLFORCES編集部"
 excerpt: "いやー、ついにこの話題が公になったか、という感じですね。日本のAI規制、そして著作権保護の強化に向けた法改正の検討。このニュースを聞いて、あなたも「ついにきたか」「これでどうなるんだろう」と、色々な思いが巡っているのではないでしょうか。"
 reading_time: 7
+image: "/assets/images/posts/2026-02-04-3-ai-article-update-ogp.png"
 ---
 
 日本のAI規制、著作権保護強化で何が変わる？

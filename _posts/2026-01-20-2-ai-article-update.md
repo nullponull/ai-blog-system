@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "いやあ、ソニーがAIチップでゲーム体験を刷新するっていうニュース、あなたも耳にしました？率直に言って、第一報を聞いたときは「またか」という思いと、「でも、ソニーだからな」という期待が入り混じった複雑な心境でしたね。"
 reading_time: 7
+image: "/assets/images/posts/2026-01-20-2-ai-article-update-ogp.png"
 ---
 
 ソニーのAIチップ、ゲームの未来をどう変えるのだろうか？

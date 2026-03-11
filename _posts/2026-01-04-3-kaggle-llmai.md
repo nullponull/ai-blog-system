@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-04-3-kaggle-llmai-ogp.png"
 ---
 
 最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？

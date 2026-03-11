@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "LLM", "RAG", "推論最適化", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋"
 reading_time: 20
+image: "/assets/images/posts/2025-12-30-2-baiduaikunlun-5-ogp.png"
 ---
 
 君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋

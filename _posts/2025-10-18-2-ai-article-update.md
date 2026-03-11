@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "AIインフラ融資拡大、ゴールドマン・サックスは何を見ているのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-18-2-ai-article-update-ogp.png"
 ---
 
 AIインフラ融資拡大、ゴールドマン・サックスは何を見ているのか？

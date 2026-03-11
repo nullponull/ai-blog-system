@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "ROI分析",
 author: "ALLFORCES編集部"
 excerpt: "AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-1-adobegoogleai-ogp.png"
 ---
 
 AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？

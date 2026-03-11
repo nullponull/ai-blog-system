@@ -7,6 +7,7 @@ tags: ["NVIDIA", "推論最適化", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "MicronのHBM3e生産3倍増、その真意とAI時代の半導体戦略とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-21-3-micronhbm3e3ai-ogp.png"
 ---
 
 MicronのHBM3e生産3倍増、その真意とAI時代の半導体戦略とは？

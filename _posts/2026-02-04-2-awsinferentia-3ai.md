@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AWSの「Inferentia 3」発表、AIの未来はどう変わる？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-04-2-awsinferentia-3ai-ogp.png"
 ---
 
 AWSの「Inferentia 3」発表、AIの未来はどう変わる？

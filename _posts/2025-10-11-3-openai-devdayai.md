@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Apple", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI DevDayが示す、AIアプリエコシステムの未来とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-3-openai-devdayai-ogp.png"
 ---
 
 OpenAI DevDayが示す、AIアプリエコシステムの未来とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Anthropic", "xAI", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "「AI倫理諮問委、AI開発ガイドライン改定案発表」――このニュースを目にした時、正直なところ、あなたも「またか」と思ったんじゃないでしょうか？ 私もね、この業界に20年もいると、"
 reading_time: 10
+image: "/assets/images/posts/2026-01-02-2-ai-article-update-ogp.png"
 ---
 
 ## AI倫理ガイドライン改定案発表：この複雑な波をどう乗りこなすのか？

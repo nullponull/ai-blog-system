@@ -7,6 +7,7 @@ tags: ["AIエージェント", "AI規制", "AI人材", "DX推進", "セキュリ
 author: "ALLFORCES編集部"
 excerpt: "ServiceNowとNTTデータ、AI変革の真意とは？グローバル企業の未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-06-2-servicenowntt-ogp.png"
 ---
 
 ServiceNowとNTTデータ、AI変革の真意とは？グローバル企業の未来をどう変えるのか？

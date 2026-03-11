@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "日立製作所が「2030年度までにフィジカルAIのユースケースを2万件創出する」という目標を掲げた、というニュースを聞いて、正直なところ、最初は「また大きな数字が出てきたな」と感じた人もいるかもしれませんね。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-14-1-ai-article-update-ogp.png"
 ---
 
 日立の「フィジカルAI」戦略、その真意はどこにあるのか？

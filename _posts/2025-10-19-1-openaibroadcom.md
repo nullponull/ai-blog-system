@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探る"
 reading_time: 20
+image: "/assets/images/posts/2025-10-19-1-openaibroadcom-ogp.png"
 ---
 
 OpenAIとBroadcomの提携、AIチップ市場に何をもたらすのか？その真意を探る

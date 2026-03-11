@@ -7,6 +7,7 @@ tags: ["Google", "Apple", "RAG", "マルチモーダル", "ROI分析", "AI人材
 author: "ALLFORCES編集部"
 excerpt: "皆さん、こんにちは！ AI業界を20年近く見続けてきたベテランアナリストの私です。先日、「Samsungが次世代AIスマホ向けに新ISPを発表した」というニュースが飛び込んできましたね。"
 reading_time: 11
+image: "/assets/images/posts/2026-01-31-2-samsungispai-ogp.png"
 ---
 
 **Samsung新ISPが示す未来：AIスマホ競争、その真意とは何か？**

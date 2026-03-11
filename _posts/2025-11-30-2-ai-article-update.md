@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AIインフラ投資狂騒曲：大手クラウドが次に目指すものは何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-30-2-ai-article-update-ogp.png"
 ---
 
 AIインフラ投資狂騒曲：大手クラウドが次に目指すものは何か？

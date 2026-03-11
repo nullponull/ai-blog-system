@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "「SiriにGeminiが載るかもしれない」──最初にそのニュースを聞いた時、正直なところ、私は耳を疑いました。皆さんの中にも、「まさか、あのAppleがGoogleの技術を？」と感じた方も少なくないのではないでしょうか。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-29-2-apple-sirigoogle-gemini-ogp.png"
 ---
 
 # Apple SiriとGoogle Gemini統合が示唆するもの: 巨大テックのプライドが揺らぐ時か？

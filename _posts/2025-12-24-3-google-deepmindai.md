@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの創薬AI新発見：その真価と、私たちが本当に見るべき未来とは？"
 reading_time: 7
+image: "/assets/images/posts/2025-12-24-3-google-deepmindai-ogp.png"
 ---
 
 Google DeepMindの創薬AI新発見：その真価と、私たちが本当に見るべき未来とは？

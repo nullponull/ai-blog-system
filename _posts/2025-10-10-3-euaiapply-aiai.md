@@ -7,6 +7,7 @@ tags: ["AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI
 author: "ALLFORCES編集部"
 excerpt: "EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-3-euaiapply-aiai-ogp.png"
 ---
 
 EUの新AI戦略「Apply AI」は、欧州のAIエコシステムをどう変えるのか？

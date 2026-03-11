@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、ABBロボット事業買収の真意とは？AIと物理世界の融合が何を変えるのか？"
 reading_time: 20
 canonical_url: "https://ai-media.co.jp/2025/11/19/2-ai-article-update/"
+image: "/assets/images/posts/2025-10-18-3-ai-article-update-ogp.png"
 ---
 
 ソフトバンク、ABBロボット事業買収の真意とは？AIと物理世界の融合が何を変えるのか？

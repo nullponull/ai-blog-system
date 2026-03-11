@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "AWS Strands Agentsの登場がAIエージェント開発に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-15-2-aws-strands-agentsai-ogp.png"
 ---
 
 AWS Strands Agentsの登場がAIエージェント開発に何をもたらすのか？

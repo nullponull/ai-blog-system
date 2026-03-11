@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "米国AI独禁法強化の真意は？イノベーションと競争の未来を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-09-19-3-ai-article-update-ogp.png"
 ---
 
 米国AI独禁法強化の真意は？イノベーションと競争の未来を読み解く

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "AmazonのAIチップ「Inferentia 3」投入、その真意と未来への影響は？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-31-1-amazonaiinferentia-3-ogp.png"
 ---
 
 AmazonのAIチップ「Inferentia 3」投入、その真意と未来への影響は？

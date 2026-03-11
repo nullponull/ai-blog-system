@@ -7,6 +7,7 @@ tags: ["Microsoft", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "おい、君もこのニュース、気になっていたんじゃないか？ Amazon Bedrockに新たに10種類ものLLMが追加されたって話。正直、僕らの期待を裏切らない、というか、ある意味「来たか！」って感じだよね。"
 reading_time: 9
+image: "/assets/images/posts/2025-12-19-1-amazon-bedrockai-ogp.png"
 ---
 
 ## Amazon Bedrockが示すAIモデルの「百貨店化」、その戦略の深層に迫る

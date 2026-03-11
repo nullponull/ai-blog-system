@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "「Microsoft Copilot 2.0、法人向け導入進む」――このニュースを目にした時、正直なところ、私の脳裏にはいくつかの感情が交錯しました。あなたも、この見出しを見て、同じように感じたのではないでしょうか？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-10-1-microsoft-copilot-20-ogp.png"
 ---
 
 ## マイクロソフト Copilot 2.0、法人導入の波：AIが組織にもたらす「静かなる変革」をどう捉えるか？

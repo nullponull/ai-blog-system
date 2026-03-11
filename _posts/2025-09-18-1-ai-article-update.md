@@ -7,6 +7,7 @@ tags: ["Google", "Amazon", "Apple", "LLM", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "日本、国産AIに本腰を入れる？ その真意と、私たちが注視すべきポイントとは"
 reading_time: 20
+image: "/assets/images/posts/2025-09-18-1-ai-article-update-ogp.png"
 ---
 
 日本、国産AIに本腰を入れる？ その真意と、私たちが注視すべきポイントとは

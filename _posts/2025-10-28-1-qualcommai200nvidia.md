@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意とは"
 reading_time: 20
+image: "/assets/images/posts/2025-10-28-1-qualcommai200nvidia-ogp.png"
 ---
 
 QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意とは

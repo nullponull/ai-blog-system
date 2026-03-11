@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル
 author: "ALLFORCES編集部"
 excerpt: "「また新しいAIモデルか」――正直なところ、Googleが「Gemini 3 Deep Think」を発表したと聞いた時、最初に私の脳裏をよぎったのはそんな思いでした。あなたもそう感じたかもしれませんね。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-06-1-googlegemini-3-deep-think-ogp.png"
 ---
 
 **Google「Gemini 3 Deep Think」発表、AIの思考はどう深まるのか？**

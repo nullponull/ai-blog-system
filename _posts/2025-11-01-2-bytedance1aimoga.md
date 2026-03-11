@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "ByteDance", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-01-2-bytedance1aimoga-ogp.png"
 ---
 
 ByteDanceの1分動画生成AI「MoGA」は、動画制作の未来をどう変えるのか？

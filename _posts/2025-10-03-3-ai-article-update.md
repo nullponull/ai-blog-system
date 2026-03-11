@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、最近のAIの進化には目を見張るものがありますよね。まるでSFの世界が現実になったかのようです。しかし、あなたも感じているかもしれませんが、この華々しい進歩の裏で、ある「影」が忍び寄っているという話が、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-03-3-ai-article-update-ogp.png"
 ---
 
 AIの巨大な電力消費、その真意はどこにあるのか？

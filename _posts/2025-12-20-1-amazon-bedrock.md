@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの「コスト半減」発表、AI投資の潮目を本当に変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-20-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrockの「コスト半減」発表、AI投資の潮目を本当に変えるのか？

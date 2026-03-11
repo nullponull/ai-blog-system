@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIインフラ投資、その真意は何でしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-18-2-microsoft-ai-investment-ogp.png"
 ---
 
 MicrosoftのAIインフラ投資、その真意は何でしょうか？

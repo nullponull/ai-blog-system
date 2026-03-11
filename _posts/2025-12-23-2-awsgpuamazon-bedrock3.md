@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "NVIDIA", "Amazon", "Anthropic", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？"
 reading_time: 6
+image: "/assets/images/posts/2025-12-23-2-awsgpuamazon-bedrock3-ogp.png"
 ---
 
 AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Googleが開発するマルチモーダルAIモデル「Gemini」は、その登場以来、人工知能分野における革新の象徴として注目を集めています。"
 reading_time: 16
+image: "/assets/images/posts/2025-08-29-2-googlegeminigoogle-ogp.png"
 ---
 
 

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "BaiduのERNIE Bot 5.0、中国AIの次なる一手は多言語対応強化か？"
 reading_time: 13
+image: "/assets/images/posts/2026-01-28-2-baiduernie-bot-50ai-ogp.png"
 ---
 
 BaiduのERNIE Bot 5.0、中国AIの次なる一手は多言語対応強化か？

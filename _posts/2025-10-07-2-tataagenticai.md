@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声
 author: "ALLFORCES編集部"
 excerpt: "TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-07-2-tataagenticai-ogp.png"
 ---
 
 TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？

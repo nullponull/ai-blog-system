@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "やあ、久しぶりだね。元気にしてたかな？最近のAI業界、本当に目まぐるしい変化の連続で、あなたもきっとついていくのが大変だと感じているんじゃないかな。私もね、もう20年以上この業界のアップダウンを見てきたけど、最近のスピード感には正直、"
 reading_time: 20
+image: "/assets/images/posts/2026-01-24-1-inflection-aipi-20-ogp.png"
 ---
 
 **Inflection AIのPi 2.0発表が、パーソナルAI市場に投げかける波紋とその真意とは。**

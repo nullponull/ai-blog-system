@@ -7,6 +7,7 @@ tags: ["Google", "LLM", "推論最適化", "AI規制", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindのAlphaFold 4、精度90%超えは創薬の聖杯に手が届く合図か？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-25-3-deepmindalphafold-4-ogp.png"
 ---
 
 DeepMindのAlphaFold 4、精度90%超えは創薬の聖杯に手が届く合図か？

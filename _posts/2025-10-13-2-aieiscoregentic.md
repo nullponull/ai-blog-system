@@ -7,6 +7,7 @@ tags: ["xAI", "AIエージェント", "音声AI", "推論最適化", "ROI分析"
 author: "ALLFORCES編集部"
 excerpt: "保険業界のAI革命、EIS「CoreGentic」が変える業務自動化の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-13-2-aieiscoregentic-ogp.png"
 ---
 
 保険業界のAI革命、EIS「CoreGentic」が変える業務自動化の真意とは？

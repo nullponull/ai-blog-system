@@ -7,6 +7,7 @@ tags: ["OpenAI", "Amazon", "Anthropic", "xAI", "AIエージェント", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude悪用事件が問いかける、AIセキュリティの新たな地平とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-17-2-anthropic-claude-ogp.png"
 ---
 
 Anthropic Claude悪用事件が問いかける、AIセキュリティの新たな地平とは？

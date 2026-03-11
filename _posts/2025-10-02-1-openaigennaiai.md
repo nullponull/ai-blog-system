@@ -7,6 +7,7 @@ tags: ["OpenAI", "Amazon", "Anthropic", "xAI", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-02-1-openaigennaiai-ogp.png"
 ---
 
 OpenAIとデジタル庁の提携、「Gennai」が示す日本のAI戦略の真意とは？

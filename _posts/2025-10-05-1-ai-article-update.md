@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AIが半導体市場を牽引する未来、その数字の裏に何があるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-05-1-ai-article-update-ogp.png"
 ---
 
 AIが半導体市場を牽引する未来、その数字の裏に何があるのか？

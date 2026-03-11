@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、このニュースを聞いたとき、私は思わず「またか」とつぶやいてしまいました。あなたも同じような感覚を覚えたかもしれませんが、米国でAI関連法案が急増し、規制が複雑化しているという話、これはただのトレンドじゃない。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-20-1-ai-article-update-ogp.png"
 ---
 
 米国AI規制の嵐、その真意と業界に何をもたらすのか？

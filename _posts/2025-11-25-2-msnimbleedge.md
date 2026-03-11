@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Apple", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "「MSとNimbleEdge、AndroidオンデバイスAI連携の真意はどこにあるのか？」"
 reading_time: 20
+image: "/assets/images/posts/2025-11-25-2-msnimbleedge-ogp.png"
 ---
 
 「MSとNimbleEdge、AndroidオンデバイスAI連携の真意はどこにあるのか？」

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "音声AI", 
 author: "ALLFORCES編集部"
 excerpt: "2025年8月26日、Googleは、その最先端のマルチモーダルAIモデルであるGeminiに、新たな画像生成および編集モデル「Gemini 2.5 Flash Image」（コードネーム「nano-banana」）の統合を発表しました。"
 reading_time: 11
+image: "/assets/images/posts/2025-08-29-4-googlegemini25flashimage-ogp.png"
 ---
 
 

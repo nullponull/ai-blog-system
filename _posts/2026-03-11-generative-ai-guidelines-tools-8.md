@@ -7,6 +7,7 @@ tags: ["生成AI", "ガイドライン", "コンプライアンス", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "生成AI社内ガイドラインの策定を支援するツール・サービス8選を徹底比較。テンプレート構成例や策定プロセス、EU AI Act対応まで、実務に直結する情報を網羅的に解説します。"
 reading_time: 12
+image: "/assets/images/posts/2026-03-11-generative-ai-guidelines-tools-8-ogp.png"
 ---
 
 ## 生成AIガイドライン未策定の企業が直面するリスク

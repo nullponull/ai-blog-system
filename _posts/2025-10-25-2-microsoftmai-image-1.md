@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-25-2-microsoftmai-image-1-ogp.png"
 ---
 
 Microsoftの「MAI-Image-1」は、画像生成AIの未来をどう変えるのか？

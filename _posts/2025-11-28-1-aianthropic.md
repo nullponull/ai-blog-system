@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AI時代の著作権、Anthropicの巨額和解が示す「フェアユース」の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-28-1-aianthropic-ogp.png"
 ---
 
 AI時代の著作権、Anthropicの巨額和解が示す「フェアユース」の真意とは？

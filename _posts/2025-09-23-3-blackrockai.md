@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "推論最適化", "AI規制", "AI人材", "セキュリ
 author: "ALLFORCES編集部"
 excerpt: "韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-23-3-blackrockai-ogp.png"
 ---
 
 韓国とBlackRockのAIハブ構想、その真意とアジア市場への影響とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "xAIの「Macrohard」構想、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-24-2-xaimacrohard-ogp.png"
 ---
 
 xAIの「Macrohard」構想、その真意はどこにあるのか？

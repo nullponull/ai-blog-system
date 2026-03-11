@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "「Copilot for Finance」の85%予測精度、本当にそこまで信じていいの？"
 reading_time: 7
+image: "/assets/images/posts/2026-01-26-1-copilot-for-finance85-ogp.png"
 ---
 
 「Copilot for Finance」の85%予測精度、本当にそこまで信じていいの？

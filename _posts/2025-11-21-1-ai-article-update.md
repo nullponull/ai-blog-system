@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "推論最適化", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "AIハードウェアの内製化、その真意は？OpenAIとFoxconn提携が拓く新たな局面"
 reading_time: 20
+image: "/assets/images/posts/2025-11-21-1-ai-article-update-ogp.png"
 ---
 
 AIハードウェアの内製化、その真意は？OpenAIとFoxconn提携が拓く新たな局面

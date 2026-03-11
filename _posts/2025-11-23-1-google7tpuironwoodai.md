@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "Googleの第7世代TPU「Ironwood」はAIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-23-1-google7tpuironwoodai-ogp.png"
 ---
 
 Googleの第7世代TPU「Ironwood」はAIの未来をどう変えるのか？

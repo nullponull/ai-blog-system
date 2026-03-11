@@ -7,6 +7,7 @@ tags: ["Google", "画像生成", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind「AlphaFold 3」が拓く創薬革命、その本質と我々が問われる未来とは。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-17-2-deepmindalphafold-3-ogp.png"
 ---
 
 DeepMind「AlphaFold 3」が拓く創薬革命、その本質と我々が問われる未来とは。

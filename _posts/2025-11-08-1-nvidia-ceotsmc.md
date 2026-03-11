@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Nvidia CEOのTSMC増産要請、その真意とAI半導体市場の未来は何を語るのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-08-1-nvidia-ceotsmc-ogp.png"
 ---
 
 Nvidia CEOのTSMC増産要請、その真意とAI半導体市場の未来は何を語るのか？

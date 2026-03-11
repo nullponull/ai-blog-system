@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの野望、AIチップの未来はどう変わる？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-13-1-inflection-aiai-ogp.png"
 ---
 
 Inflection AIの野望、AIチップの未来はどう変わる？

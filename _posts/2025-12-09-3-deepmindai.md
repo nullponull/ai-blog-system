@@ -7,6 +7,7 @@ tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindの創薬AI、その新発見は何を意味するのだろうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-09-3-deepmindai-ogp.png"
 ---
 
 DeepMindの創薬AI、その新発見は何を意味するのだろうか？

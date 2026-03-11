@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのMaia 3、AI業界の潮目を変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-27-2-microsoftmaia-3ai-ogp.png"
 ---
 
 MicrosoftのMaia 3、AI業界の潮目を変えるのか？

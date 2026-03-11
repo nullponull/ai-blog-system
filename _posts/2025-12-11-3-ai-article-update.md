@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "最近、「シンギュラリティAI」とか「倫理的AI研究」への巨額投資っていうニュースが立て続けに流れてくるけれど、あなたも感じているかもしれませんが、正直なところ、私も最初は「またか」って思ったんだ。でもね、今回ばかりはちょっと違う。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-11-3-ai-article-update-ogp.png"
 ---
 
 やあ、元気かい？

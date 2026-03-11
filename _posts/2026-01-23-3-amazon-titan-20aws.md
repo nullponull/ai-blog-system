@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Titan 2.0、AWSのゲームチェンジャーとなるか？"
 reading_time: 16
+image: "/assets/images/posts/2026-01-23-3-amazon-titan-20aws-ogp.png"
 ---
 
 Amazon Titan 2.0、AWSのゲームチェンジャーとなるか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "アイルランドAI雇用市場の急成長、その真意と未来への示唆とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-06-1-ai-article-update-ogp.png"
 ---
 
 アイルランドAI雇用市場の急成長、その真意と未来への示唆とは？

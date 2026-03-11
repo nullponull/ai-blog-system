@@ -7,6 +7,7 @@ tags: ["OpenAI", "マルチモーダル", "音声AI", "推論最適化", "ROI分
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの新モデル、人間らしさとは何を目指すのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-06-1-inflection-ai-ogp.png"
 ---
 
 Inflection AIの新モデル、人間らしさとは何を目指すのか？

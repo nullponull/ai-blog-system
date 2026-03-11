@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "LLM", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "シンガポール、公務員AI研修義務化の真意とは？国家戦略が示す未来への布石"
 reading_time: 20
+image: "/assets/images/posts/2025-09-25-2-ai-article-update-ogp.png"
 ---
 
 シンガポール、公務員AI研修義務化の真意とは？国家戦略が示す未来への布石

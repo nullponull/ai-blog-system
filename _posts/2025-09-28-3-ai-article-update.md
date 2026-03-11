@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Apple", "xAI", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "「モバイルAIスマホ、2025年に4億台出荷」その数字が語る、AIの真の進化とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-28-3-ai-article-update-ogp.png"
 ---
 
 「モバイルAIスマホ、2025年に4億台出荷」その数字が語る、AIの真の進化とは？

@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、次世代LLM連携強化で何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-01-1-amazon-bedrockllm-ogp.png"
 ---
 
 Amazon Bedrock、次世代LLM連携強化で何が変わるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、50モデル超対応の衝撃：AWSが描くAIプラットフォームの未来図とは？"
 reading_time: 20
 canonical_url: "https://ai-media.co.jp/2026/01/26/1-amazon-bedrock/"
+image: "/assets/images/posts/2026-01-15-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrock、50モデル超対応の衝撃：AWSが描くAIプラットフォームの未来図とは？

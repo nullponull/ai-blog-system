@@ -7,6 +7,7 @@ tags: ["Google", "Apple", "xAI", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Samsungの次世代FoldableにAI搭載：スマホの未来は、本当に変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-15-3-samsungfoldableai-ogp.png"
 ---
 
 Samsungの次世代FoldableにAI搭載：スマホの未来は、本当に変わるのか？

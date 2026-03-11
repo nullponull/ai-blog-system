@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3 Proが掲げる「高情報処理」の真意とは？AIの未来をどう変えるのか、ベテランアナリストが読み解く。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-23-1-google-gemini-3-pro-ogp.png"
 ---
 
 Google Gemini 3 Proが掲げる「高情報処理」の真意とは？AIの未来をどう変えるのか、ベテランアナリストが読み解く。

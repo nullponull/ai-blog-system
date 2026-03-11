@@ -7,6 +7,7 @@ tags: ["xAI", "画像生成", "ファインチューニング", "ROI分析", "AI
 author: "ALLFORCES編集部"
 excerpt: "「日本企業の生成AI導入、その裏に潜むセキュリティの深層とは？」"
 reading_time: 18
+image: "/assets/images/posts/2025-12-03-3-ai-article-update-ogp.png"
 ---
 
 「日本企業の生成AI導入、その裏に潜むセキュリティの深層とは？」

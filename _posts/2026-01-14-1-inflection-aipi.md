@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？"
 reading_time: 19
+image: "/assets/images/posts/2026-01-14-1-inflection-aipi-ogp.png"
 ---
 
 Inflection AIの「Pi」、どこまで「人間らしい」会話ができるのだろうか？

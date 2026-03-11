@@ -7,6 +7,7 @@ tags: ["LLM", "AIエージェント", "マルチモーダル", "推論最適化"
 author: "ALLFORCES編集部"
 excerpt: "「ソフトバンクと安川が手を組む、フィジカルAIの真意とは？そして何が変わるのか？」"
 reading_time: 20
+image: "/assets/images/posts/2025-12-01-3-ai-article-update-ogp.png"
 ---
 
 「ソフトバンクと安川が手を組む、フィジカルAIの真意とは？そして何が変わるのか？」

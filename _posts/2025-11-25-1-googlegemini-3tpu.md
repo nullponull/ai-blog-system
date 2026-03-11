@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Google、Gemini 3とTPUの発表、その真意は何処にあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-25-1-googlegemini-3tpu-ogp.png"
 ---
 
 Google、Gemini 3とTPUの発表、その真意は何処にあるのか？

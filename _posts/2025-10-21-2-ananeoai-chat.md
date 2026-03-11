@@ -7,6 +7,7 @@ tags: ["xAI", "RAG", "マルチモーダル", "AI規制", "AI人材", "DX推進"
 author: "ALLFORCES編集部"
 excerpt: "ANAが「neoAI Chat」を導入、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-21-2-ananeoai-chat-ogp.png"
 ---
 
 ANAが「neoAI Chat」を導入、その真意はどこにあるのか？

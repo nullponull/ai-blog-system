@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのBing 7.0、検索の未来は本当に変わるのか？"
 reading_time: 6
+image: "/assets/images/posts/2025-12-22-1-microsoftbing-70-ogp.png"
 ---
 
 MicrosoftのBing 7.0、検索の未来は本当に変わるのか？

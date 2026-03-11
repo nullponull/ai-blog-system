@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "マルチモーダル", "AI規制", "AI人材", "セキ
 author: "ALLFORCES編集部"
 excerpt: "DeepRoute.aiのロボタクシー展開、その真意は？自動運転の未来をどう変えるのか。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-01-1-deeprouteai-ogp.png"
 ---
 
 DeepRoute.aiのロボタクシー展開、その真意は？自動運転の未来をどう変えるのか。

@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの科学研究AI、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-15-2-google-deepmindai-ogp.png"
 ---
 
 Google DeepMindの科学研究AI、その真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropicが鳴らすLLM脆弱性の警鐘、その真意と企業が今すべきこととは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-2-anthropicllm-ogp.png"
 ---
 
 Anthropicが鳴らすLLM脆弱性の警鐘、その真意と企業が今すべきこととは？

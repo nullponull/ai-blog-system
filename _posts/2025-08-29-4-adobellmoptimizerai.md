@@ -7,6 +7,7 @@ tags: ["LLM", "AIエージェント", "ROI分析", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "2025年6月、カンヌライオンズ国際クリエイティビティ・フェスティバルにおいて、Adobeは企業向けアプリケーション「LLM Optimizer」を発表しました。"
 reading_time: 10
+image: "/assets/images/posts/2025-08-29-4-adobellmoptimizerai-ogp.png"
 ---
 
 ## 概要と背景

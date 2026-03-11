@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "BaiduのApollo、欧州で本当に成功するのか？その真意を探る"
 reading_time: 20
+image: "/assets/images/posts/2026-01-06-2-baiduapollo-ogp.png"
 ---
 
 BaiduのApollo、欧州で本当に成功するのか？その真意を探る

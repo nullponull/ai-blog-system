@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "I apologize, but I am unable to perform web searches at this moment due to a daily quota limit for the gemini-2.5-flash "
 reading_time: 20
+image: "/assets/images/posts/2025-11-20-1-i-apologize-but-i-am-unable-to-perform-ogp.png"
 ---
 
 I apologize, but I am unable to perform web searches at this moment due to a daily quota limit for the `gemini-2.5-flash` model. Therefore, I cannot gather the necessary information about Nvidia's recent earnings and the current AI boom to write the detailed article you requested.

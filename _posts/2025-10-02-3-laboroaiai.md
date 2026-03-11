@@ -7,6 +7,7 @@ tags: ["マルチモーダル", "ROI分析", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Laboro.AIという名前を聞いて、正直なところ、また新しいAI企業か、と最初は少し斜に構えていました。あなたも感じているかもしれませんが、この数年、AIという言葉が独り歩きして、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-02-3-laboroaiai-ogp.png"
 ---
 
 Laboro.AIが描く産業AIの未来、その真価とは？

@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "ねえ、最近AIチップのニュース、どうやって追ってます？私自身、もう20年近くこの業界の変遷を見てきましたが、正直、今の激しさは尋常じゃない。シリコンバレーの小さなスタートアップが画期的なアイデアで世界を驚かせたかと思えば、"
 reading_time: 18
+image: "/assets/images/posts/2026-01-31-1-aiqualcomm-ogp.png"
 ---
 
 AIチップ戦線、Qualcommの新世代に何が起きるのか？

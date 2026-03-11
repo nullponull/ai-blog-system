@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"
 author: "ALLFORCES編集部"
 excerpt: "おや、カナダがまた動いたな、と正直なところ、私も最初はそう感じましたよ。AI業界を20年も見ていると、各国の「AI戦略」という言葉には、どうしても身構えてしまうものです。"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-1-ai-article-update-ogp.png"
 ---
 
 カナダの新たなAI戦略、その真意はどこにあるのか？

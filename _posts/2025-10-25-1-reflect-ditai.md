@@ -7,6 +7,7 @@ tags: ["画像生成", "推論最適化", "AI規制", "AI人材", "DX推進", "A
 author: "ALLFORCES編集部"
 excerpt: "パナソニックの「Reflect-Dit」はAI画像生成の常識をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-25-1-reflect-ditai-ogp.png"
 ---
 
 パナソニックの「Reflect-Dit」はAI画像生成の常識をどう変えるのか？

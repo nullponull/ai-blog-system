@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon AWSの「Inferentia 4」発表、何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-31-1-amazon-awsinferentia-4-ogp.png"
 ---
 
 Amazon AWSの「Inferentia 4」発表、何が変わるのか？

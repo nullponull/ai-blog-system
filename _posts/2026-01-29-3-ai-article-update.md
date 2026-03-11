@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "AI規制とデータプライバシー強化のニュースが流れてきたとき、正直なところ、あなたも「また新しい規制か…」と、少し身構えたのではないでしょうか？私も最初はその一人でしたよ。"
 reading_time: 10
+image: "/assets/images/posts/2026-01-29-3-ai-article-update-ogp.png"
 ---
 
 ### シンガポールが描くAIの未来図：データプライバシー強化が技術革新をどう導くのか？

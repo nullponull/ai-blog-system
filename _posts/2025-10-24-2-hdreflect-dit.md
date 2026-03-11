@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "画像生成", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "パナソニックHDの「Reflect-Dit」：AIが自ら画像を改善する、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-24-2-hdreflect-dit-ogp.png"
 ---
 
 パナソニックHDの「Reflect-Dit」：AIが自ら画像を改善する、その真意とは？

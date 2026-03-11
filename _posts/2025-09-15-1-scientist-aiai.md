@@ -7,6 +7,7 @@ tags: ["Apple", "xAI", "LLM", "マルチモーダル", "音声AI", "推論最適
 author: "ALLFORCES編集部"
 excerpt: "「Scientist AI」が示す、サムスンAI戦略の「真意」とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-15-1-scientist-aiai-ogp.png"
 ---
 
 「Scientist AI」が示す、サムスンAI戦略の「真意」とは？

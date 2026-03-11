@@ -7,6 +7,7 @@ tags: ["Google", "マルチモーダル", "画像生成", "音声AI", "AI規制"
 author: "ALLFORCES編集部"
 excerpt: "VodacomとGoogleがアフリカAI市場に投じる、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-25-2-vodacomgoogleai-ogp.png"
 ---
 
 VodacomとGoogleがアフリカAI市場に投じる、その真意とは？

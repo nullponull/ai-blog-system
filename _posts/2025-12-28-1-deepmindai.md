@@ -7,6 +7,7 @@ tags: ["Google", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "ねえ、あなたもGoogle DeepMindが創薬AIで新薬候補を300件も発見したっていうニュース、耳にしたときどう思った？正直なところ、私もこの業界に20年もいると、最初は「またか」と、少し冷めた目で見てしまったんだ。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-28-1-deepmindai-ogp.png"
 ---
 
 **DeepMind創薬AIが拓く新時代：300の新薬候補は、医療と投資に何をもたらすのか？**

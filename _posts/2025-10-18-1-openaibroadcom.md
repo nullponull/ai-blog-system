@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-18-1-openaibroadcom-ogp.png"
 ---
 
 OpenAIとBroadcomの提携が示すもの：AIインフラの未来は何処へ向かうのか？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "AIエージェント", "マルチモーダル", "
 author: "ALLFORCES編集部"
 excerpt: "Google CloudのGemini Enterprise、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-2-google-cloudgemini-enterprise-ogp.png"
 ---
 
 Google CloudのGemini Enterprise、その真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」"
 reading_time: 20
+image: "/assets/images/posts/2025-09-14-3-palantiramdai1-ogp.png"
 ---
 
 「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」

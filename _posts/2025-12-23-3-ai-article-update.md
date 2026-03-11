@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "xAI", "マルチモーダル", "AI規制", "AI人
 author: "ALLFORCES編集部"
 excerpt: "いやはや、AI倫理の国際標準化の話、最近よく耳にするでしょう？正直、最初は「また新しい規制か…」なんて思ってしまったんだ。だって、この業界を20年も見てくると、技術の進歩ってのは常に「便利さ」と「リスク」を天秤にかけながら進んできたわけだか"
 reading_time: 20
+image: "/assets/images/posts/2025-12-23-3-ai-article-update-ogp.png"
 ---
 
 AI倫理の国際標準化、その真意は何を変えるのか？

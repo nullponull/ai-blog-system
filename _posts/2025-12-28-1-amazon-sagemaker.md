@@ -7,6 +7,7 @@ tags: ["Microsoft", "Amazon", "LLM", "AIエージェント", "マルチモーダ
 author: "ALLFORCES編集部"
 excerpt: "Amazon SageMaker、推論コスト30%削減の真意とは？AI導入の未来を変えるのか"
 reading_time: 20
+image: "/assets/images/posts/2025-12-28-1-amazon-sagemaker-ogp.png"
 ---
 
 Amazon SageMaker、推論コスト30%削減の真意とは？AI導入の未来を変えるのか

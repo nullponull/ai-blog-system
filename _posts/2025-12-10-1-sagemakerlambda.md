@@ -7,6 +7,7 @@ tags: ["Amazon", "AIエージェント", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "SageMakerとLambdaの連携強化、何が変わるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-10-1-sagemakerlambda-ogp.png"
 ---
 
 SageMakerとLambdaの連携強化、何が変わるのか？

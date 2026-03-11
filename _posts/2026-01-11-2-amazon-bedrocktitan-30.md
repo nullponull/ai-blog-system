@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、最初に「Amazon Bedrockが進化して、独自LLMのTitan 3.0を発表した」というニュースを聞いた時、あなたも「また来たか」と感じたかもしれませんね。"
 reading_time: 11
+image: "/assets/images/posts/2026-01-11-2-amazon-bedrocktitan-30-ogp.png"
 ---
 
 ## Amazon BedrockとTitan 3.0、AIの「民主化」は本当に加速するのか？

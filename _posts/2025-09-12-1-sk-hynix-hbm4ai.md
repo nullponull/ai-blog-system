@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化", 
 author: "ALLFORCES編集部"
 excerpt: "SK hynix HBM4、その真意は？AI半導体競争の行方"
 reading_time: 20
+image: "/assets/images/posts/2025-09-12-1-sk-hynix-hbm4ai-ogp.png"
 ---
 
 SK hynix HBM4、その真意は？AI半導体競争の行方

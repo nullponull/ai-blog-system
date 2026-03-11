@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "いやー、MicrosoftがAI倫理ガイドラインを刷新したというニュース、あなたも耳にしましたか？率直に言って、最初にこの見出しを見たとき、「またか」という気持ちが半分、そして「今度は本気なのか？」という期待が半分でした。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-14-2-microsoftai-ogp.png"
 ---
 
 MicrosoftのAI倫理刷新、その真意は何だろう？

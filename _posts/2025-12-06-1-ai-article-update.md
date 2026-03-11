@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "米中AIチップ規制強化の真意：テック業界の未来は何処へ向かうのか？"
 reading_time: 10
+image: "/assets/images/posts/2025-12-06-1-ai-article-update-ogp.png"
 ---
 
 米中AIチップ規制強化の真意：テック業界の未来は何処へ向かうのか？

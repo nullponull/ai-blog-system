@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "「また『汎用AI性能向上』か」――正直なところ、MetaがLlama 4（仮称）でこの言葉を打ち出してきたというニュースを聞いた時、私の最初の反応は、そうでした。あなたも、この「汎用AI性能向上」という言葉に、正直なところ、"
 reading_time: 8
+image: "/assets/images/posts/2025-12-27-1-metallama-4ai-ogp.png"
 ---
 
 # MetaのLlama 4、汎用AIの夜明けを告げるのか？その真価と未来への問い

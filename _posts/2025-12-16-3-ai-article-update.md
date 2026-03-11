@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "シンガポールのAI倫理ガイドライン改定：世界標準のその先へ、何を目指すのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-16-3-ai-article-update-ogp.png"
 ---
 
 シンガポールのAI倫理ガイドライン改定：世界標準のその先へ、何を目指すのか？

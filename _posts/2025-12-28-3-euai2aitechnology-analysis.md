@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-28-3-euai2aitechnology-analysis-ogp.png"
 ---
 
 EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？

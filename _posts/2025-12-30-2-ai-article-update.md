@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "推論最適化", "AI規制", "AI人材", "自動運
 author: "ALLFORCES編集部"
 excerpt: "ねぇ、あなたもきっと同じように感じたかもしれないね。「日本、AI特区で半導体開発加速」――このニュースを見た時、正直なところ、私なんかは「またか」と、一瞬冷めた目で見てしまったんだ。だって、考えてみてほしい。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-30-2-ai-article-update-ogp.png"
 ---
 
 日本のAI半導体特区、その本気度はどこまで届くのか？

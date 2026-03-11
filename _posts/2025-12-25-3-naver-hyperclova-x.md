@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、AIの進化のスピードには本当に驚かされるばかりですね。あなたも「また新しいLLMの話か」と、正直少し食傷気味かもしれませんね。私も、この20年間、シリコンバレーのガレージから始まったようなAIスタートアップから、"
 reading_time: 10
+image: "/assets/images/posts/2025-12-25-3-naver-hyperclova-x-ogp.png"
 ---
 
 ## Naver HyperCLOVA Xの挑戦：韓国語LLMが世界市場で勝機を掴むための真の戦略とは？

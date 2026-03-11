@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、自社製チップで性能倍増、何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-17-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrock、自社製チップで性能倍増、何が変わるのか？

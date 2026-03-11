@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、企業向けLLM導入支援強化の真意とは何だろうか？"
 reading_time: 10
+image: "/assets/images/posts/2025-12-31-1-amazon-bedrockllm-ogp.png"
 ---
 
 Amazon Bedrock、企業向けLLM導入支援強化の真意とは何だろうか？

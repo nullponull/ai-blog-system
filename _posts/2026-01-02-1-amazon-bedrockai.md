@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "LLM", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル、エンタープライズAIの未来をどう変える？"
 reading_time: 18
+image: "/assets/images/posts/2026-01-02-1-amazon-bedrockai-ogp.png"
 ---
 
 Amazon Bedrockの新モデル、エンタープライズAIの未来をどう変える？

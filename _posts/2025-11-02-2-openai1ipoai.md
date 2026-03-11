@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Anthropic", "マルチモーダル", "推論
 author: "ALLFORCES編集部"
 excerpt: "「OpenAIが1兆ドル規模のIPOを準備している」――このニュースを聞いたとき、正直なところ、あなたも私も「またか」と感じたかもしれませんね。AI業界を20年近く見てきた私からすると、この手の「史上最大級」という言葉には、"
 reading_time: 20
+image: "/assets/images/posts/2025-11-02-2-openai1ipoai-ogp.png"
 ---
 
 OpenAI、1兆ドルIPOの噂が示すAI業界の真意とは？

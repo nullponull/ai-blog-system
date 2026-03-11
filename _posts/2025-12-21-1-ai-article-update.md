@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "LLM", "マルチモーダル", "推論最適化",
 author: "ALLFORCES編集部"
 excerpt: "いやー、ソニーがAIチップで次世代ゲーム体験を革新する、なんてニュースが出てきましたね。正直、第一報を聞いたときは「またか」という気持ちと、「でもソニーなら…」という期待が入り混じりました。AIの進化って本当に目まぐるしいじゃないですか。"
 reading_time: 13
+image: "/assets/images/posts/2025-12-21-1-ai-article-update-ogp.png"
 ---
 
 ソニーのAIチップ、ゲームの未来はどう変わる？

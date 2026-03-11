@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Amazon", "Anthropic", "AIエージェント", "画像生成", 
 author: "ALLFORCES編集部"
 excerpt: "AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-11-01-2-amazonaiaws-ogp.png"
 ---
 
 AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解く

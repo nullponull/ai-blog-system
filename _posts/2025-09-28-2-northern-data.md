@@ -7,6 +7,7 @@ tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Northern Dataの施設捜索、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-28-2-northern-data-ogp.png"
 ---
 
 Northern Dataの施設捜索、その真意はどこにあるのか？

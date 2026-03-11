@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "音声AI", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？"
 reading_time: 18
+image: "/assets/images/posts/2025-12-04-3-scalewayai-ogp.png"
 ---
 
 富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？

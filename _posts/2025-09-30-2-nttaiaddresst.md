@@ -7,6 +7,7 @@ tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "NTTデータの国際送金AI「Addresstune」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-30-2-nttaiaddresst-ogp.png"
 ---
 
 NTTデータの国際送金AI「Addresstune」は、本当にゲームチェンジャーとなるのか？

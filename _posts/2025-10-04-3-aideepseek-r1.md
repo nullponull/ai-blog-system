@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "LLM", "推論最適化", "ファインチュ
 author: "ALLFORCES編集部"
 excerpt: "中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-04-3-aideepseek-r1-ogp.png"
 ---
 
 中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？

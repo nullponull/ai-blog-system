@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "Anthropic", "AI規制", "AI人材", "セキュリ
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-01-3-microsoft-ai-investment-ogp.png"
 ---
 
 MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？

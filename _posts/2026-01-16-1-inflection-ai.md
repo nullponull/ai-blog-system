@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "LLM", "ファインチューニング",
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの「人間レベル」の共感性、本当に実現できるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-16-1-inflection-ai-ogp.png"
 ---
 
 Inflection AIの「人間レベル」の共感性、本当に実現できるのか？

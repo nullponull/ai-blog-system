@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "防衛とAI、物理世界で進化する技術が株式市場に何を問いかけるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-27-3-ai-article-update-ogp.png"
 ---
 
 防衛とAI、物理世界で進化する技術が株式市場に何を問いかけるのか？

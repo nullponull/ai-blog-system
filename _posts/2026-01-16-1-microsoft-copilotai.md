@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot+と法人AI戦略の真意：私たちの働き方はどう変わるのか？"
 reading_time: 12
+image: "/assets/images/posts/2026-01-16-1-microsoft-copilotai-ogp.png"
 ---
 
 Microsoft Copilot+と法人AI戦略の真意：私たちの働き方はどう変わるのか？

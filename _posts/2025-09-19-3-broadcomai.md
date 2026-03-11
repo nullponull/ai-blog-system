@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "BroadcomのAI半導体、その大型受注が示す業界の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-19-3-broadcomai-ogp.png"
 ---
 
 BroadcomのAI半導体、その大型受注が示す業界の真意とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波"
 reading_time: 20
+image: "/assets/images/posts/2025-11-06-3-ai-article-update-ogp.png"
 ---
 
 カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AIデータセンターの環境負荷、その真意は？持続可能な未来への投資と技術革新"
 reading_time: 20
+image: "/assets/images/posts/2025-11-10-3-aitechnology-analysis-ogp.png"
 ---
 
 AIデータセンターの環境負荷、その真意は？持続可能な未来への投資と技術革新

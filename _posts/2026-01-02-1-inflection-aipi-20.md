@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "ねえ、最近のAIニュース、追いかけるのも大変じゃないかい？ 日々新しい発表があって、正直なところ、私も「またか」と思ってしまうことが増えたんだ。特に「〇〇が××%向上！"
 reading_time: 19
+image: "/assets/images/posts/2026-01-02-1-inflection-aipi-20-ogp.png"
 ---
 
 ### Inflection AIのPi 2.0、応答速度30%向上の真意はどこにあるのだろう？

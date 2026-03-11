@@ -7,6 +7,7 @@ tags: ["xAI", "LLM", "AIエージェント", "推論最適化", "AI規制", "セ
 author: "ALLFORCES編集部"
 excerpt: "AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意とは"
 reading_time: 20
+image: "/assets/images/posts/2025-11-08-3-aifangzhou-ogp.png"
 ---
 
 AIが慢性疾患管理を変える？Fangzhouの受賞が示す、その真意とは

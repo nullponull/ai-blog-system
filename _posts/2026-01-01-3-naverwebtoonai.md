@@ -7,6 +7,7 @@ tags: ["OpenAI", "LLM", "AIエージェント", "マルチモーダル", "画像
 author: "ALLFORCES編集部"
 excerpt: "NaverのWebtoon向けAI強化は、私たちのコンテンツ体験をどう変えるのだろうか。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-01-3-naverwebtoonai-ogp.png"
 ---
 
 NaverのWebtoon向けAI強化は、私たちのコンテンツ体験をどう変えるのだろうか。

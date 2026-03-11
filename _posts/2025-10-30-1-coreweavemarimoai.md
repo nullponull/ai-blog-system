@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "xAI", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-30-1-coreweavemarimoai-ogp.png"
 ---
 
 CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-15-3-openaichatgpt-go-ogp.png"
 ---
 
 OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "いやー、ついにこの日が来たか、という感じだよ。先週、「AI倫理指数」が初めて公表されたっていうニュース、君ももうチェックしたかな？正直、AI業界を20年近く見てきて、数えきれないほどの技術やサービス、"
 reading_time: 8
+image: "/assets/images/posts/2026-02-10-3-ai-article-update-ogp.png"
 ---
 
 AI倫理指数、欧州トップに何が見える？

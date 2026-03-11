@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AnthropicのAI倫理、世界標準になるって本当？何が変わるのか、一緒に考えてみませんか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-30-3-anthropicai-ogp.png"
 ---
 
 AnthropicのAI倫理、世界標準になるって本当？何が変わるのか、一緒に考えてみませんか？

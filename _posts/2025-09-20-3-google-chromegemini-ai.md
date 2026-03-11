@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-20-3-google-chromegemini-ai-ogp.png"
 ---
 
 Google ChromeにGemini AI搭載、その真意とブラウザの未来はどう変わるのか？

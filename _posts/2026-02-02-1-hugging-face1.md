@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "おい、またHugging Faceが資金調達のニュースだぞ！君も「え、また？」って思ったんじゃないかな。正直なところ、僕もね、このニュースが飛び込んできた時、「彼らの勢いはどこまで続くんだ？」って、ちょっと笑っちゃったんだ。"
 reading_time: 20
+image: "/assets/images/posts/2026-02-02-1-hugging-face1-ogp.png"
 ---
 
 **Hugging Faceの1億ドル調達、AI民主化の道のりはどこへ向かうのか？**

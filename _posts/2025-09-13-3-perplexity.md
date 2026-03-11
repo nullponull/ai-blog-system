@@ -7,6 +7,7 @@ tags: ["Google", "RAG", "ファインチューニング", "AI規制", "セキュ
 author: "ALLFORCES編集部"
 excerpt: "ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-13-3-perplexity-ogp.png"
 ---
 
 ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？

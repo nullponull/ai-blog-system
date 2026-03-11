@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "LLM", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-23-2-nttllmtsuzumi-2ai-ogp.png"
 ---
 
 NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？

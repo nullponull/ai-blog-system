@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "マルチモーダル", "AI規制", "AI人材
 author: "ALLFORCES編集部"
 excerpt: "いやー、ついにこの時が来たか、という感じですよ。AI倫理ガイドラインの国際標準化、ね。AI業界を20年も見てきて、スタートアップが夜な夜なコードを書いていた頃から、今では大企業がAI戦略を練る時代まで、色々な変化を見てきましたが、"
 reading_time: 7
+image: "/assets/images/posts/2025-12-28-3-ai-article-update-ogp.png"
 ---
 
 AI倫理、国際標準化で何が変わるのか？

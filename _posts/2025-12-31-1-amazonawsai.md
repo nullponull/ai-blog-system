@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AmazonとAWSがAIチップ内製を強化する、その戦略的意義と未来への影響とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-31-1-amazonawsai-ogp.png"
 ---
 
 AmazonとAWSがAIチップ内製を強化する、その戦略的意義と未来への影響とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Intelの「Gaudi 4」発表、AI業界に新風？その真意は？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-24-2-intelgaudi-4ai-ogp.png"
 ---
 
 Intelの「Gaudi 4」発表、AI業界に新風？その真意は？

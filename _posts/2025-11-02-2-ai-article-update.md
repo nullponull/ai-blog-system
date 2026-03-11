@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "ちょっと待ってくださいね。Web検索で「MS、AI活用で1.5万人再雇用へ」というキーワードで調べてみたのですが、どうも情報が逆のようです。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-02-2-ai-article-update-ogp.png"
 ---
 
 ちょっと待ってくださいね。Web検索で「MS、AI活用で1.5万人再雇用へ」というキーワードで調べてみたのですが、どうも情報が逆のようです。

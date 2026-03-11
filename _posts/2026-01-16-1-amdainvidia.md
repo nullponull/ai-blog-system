@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。AI業界を長年見てきたアナリストの〇〇（あなたの名前）だよ。今日の話題は、AMDが発表した新しいAIチップ「Instinct MI400」。NVIDIAの牙城にどう立ち向かうのか、ちょっとドキドキしながら、"
 reading_time: 18
+image: "/assets/images/posts/2026-01-16-1-amdainvidia-ogp.png"
 ---
 
 AMDのAIチップ新戦略、NVIDIAにどう挑む？

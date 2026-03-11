@@ -7,6 +7,7 @@ tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "富士通が仕掛けるAIリスク対応「Frontria」、その真意はどこにあるのか？"
 reading_time: 16
+image: "/assets/images/posts/2025-12-02-3-aifrontria-ogp.png"
 ---
 
 富士通が仕掛けるAIリスク対応「Frontria」、その真意はどこにあるのか？

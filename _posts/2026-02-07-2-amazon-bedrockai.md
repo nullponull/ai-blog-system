@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、産業AI導入、何が変わるのか？"
 reading_time: 6
+image: "/assets/images/posts/2026-02-07-2-amazon-bedrockai-ogp.png"
 ---
 
 Amazon Bedrock、産業AI導入、何が変わるのか？

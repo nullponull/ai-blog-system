@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Apple", "LLM", "RAG", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "AIチップ特許戦争、IntelがTSMCに挑む。この闘いが業界をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-02-1-aiinteltsmc-ogp.png"
 ---
 
 AIチップ特許戦争、IntelがTSMCに挑む。この闘いが業界をどう変えるのか？

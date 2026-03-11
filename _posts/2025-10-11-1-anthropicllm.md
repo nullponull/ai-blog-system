@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropicが警告するLLMバックドアの真意とは？AIの未来に何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-1-anthropicllm-ogp.png"
 ---
 
 Anthropicが警告するLLMバックドアの真意とは？AIの未来に何が変わるのか？

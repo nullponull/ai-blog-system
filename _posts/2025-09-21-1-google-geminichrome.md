@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "xAI", "AIエージェント", "ROI分析", "AI規
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini、Chromeに統合開始：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-21-1-google-geminichrome-ogp.png"
 ---
 
 Google Gemini、Chromeに統合開始：その真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["NVIDIA", "推論最適化", "ファインチューニング", "AI規制"
 author: "ALLFORCES編集部"
 excerpt: "NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-26-1-nvidiatelusai-ogp.png"
 ---
 
 NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？

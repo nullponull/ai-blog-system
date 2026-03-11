@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、企業LLM導入の「次」は何を意味するのか？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-20-1-amazon-bedrockllm-ogp.png"
 ---
 
 Amazon Bedrock、企業LLM導入の「次」は何を意味するのか？

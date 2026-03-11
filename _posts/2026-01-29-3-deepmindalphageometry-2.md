@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindの「AlphaGeometry 2」は、何を変えるのか？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-29-3-deepmindalphageometry-2-ogp.png"
 ---
 
 DeepMindの「AlphaGeometry 2」は、何を変えるのか？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "OracleとOpenAI、3000億ドルの巨額契約が示すAIインフラの未来とは？"
 reading_time: 20
 canonical_url: "https://ai-media.co.jp/2025/10/24/1-oracleopenai/"
+image: "/assets/images/posts/2025-09-23-1-oracleopenai-ogp.png"
 ---
 
 OracleとOpenAI、3000億ドルの巨額契約が示すAIインフラの未来とは？

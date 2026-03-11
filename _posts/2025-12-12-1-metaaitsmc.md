@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "MetaのAIチップ、TSMCとの連携強化で何が変わるのか？"
 reading_time: 9
+image: "/assets/images/posts/2025-12-12-1-metaaitsmc-ogp.png"
 ---
 
 MetaのAIチップ、TSMCとの連携強化で何が変わるのか？

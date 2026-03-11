@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "AIオンコロジー市場、2035年に91億ドルへ？その真意と、私たちが今考えるべきこと。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-13-3-ai-article-update-ogp.png"
 ---
 
 AIオンコロジー市場、2035年に91億ドルへ？その真意と、私たちが今考えるべきこと。

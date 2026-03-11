@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが示唆するAIコスト革命の真意とは？ 新LLMが切り開く未来への道筋"
 reading_time: 8
+image: "/assets/images/posts/2025-12-18-1-amazon-bedrockai-ogp.png"
 ---
 
 Amazon Bedrockが示唆するAIコスト革命の真意とは？ 新LLMが切り開く未来への道筋

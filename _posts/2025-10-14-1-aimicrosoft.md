@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "「え、マイクロソフトが原発に投資？」──正直なところ、このニュースを最初に聞いた時、私もあなたと同じように驚いたんじゃないでしょうか？シリコンバレーの華やかなAIスタートアップから、日本の重厚長大企業まで、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-14-1-aimicrosoft-ogp.png"
 ---
 
 AIの電力渇望、マイクロソフトが原発に目を向ける真意とは？

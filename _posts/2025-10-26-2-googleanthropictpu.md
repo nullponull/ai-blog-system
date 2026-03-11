@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleとAnthropicのTPU契約、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-26-2-googleanthropictpu-ogp.png"
 ---
 
 GoogleとAnthropicのTPU契約、その真意はどこにあるのか？

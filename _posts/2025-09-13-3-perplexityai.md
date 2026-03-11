@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-13-3-perplexityai-ogp.png"
 ---
 
 ブリタニカがPerplexityを提訴、その真意はAI業界の未来を変えるのか？

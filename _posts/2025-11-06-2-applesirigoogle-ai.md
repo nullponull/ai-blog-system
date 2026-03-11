@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-06-2-applesirigoogle-ai-ogp.png"
 ---
 
 Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？

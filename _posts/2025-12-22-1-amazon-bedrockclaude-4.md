@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとClaude 4、このタッグがAIの未来をどう塗り替えるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-22-1-amazon-bedrockclaude-4-ogp.png"
 ---
 
 Amazon BedrockとClaude 4、このタッグがAIの未来をどう塗り替えるのか？

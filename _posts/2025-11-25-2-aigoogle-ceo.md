@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AIバブルの真意はどこに？Google CEOの警鐘が問うもの"
 reading_time: 20
+image: "/assets/images/posts/2025-11-25-2-aigoogle-ceo-ogp.png"
 ---
 
 AIバブルの真意はどこに？Google CEOの警鐘が問うもの

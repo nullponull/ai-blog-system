@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "皆さん、最近AppleがM3チップ搭載MacでAI開発を加速させるといったニュースを目にして、どう感じましたか？ 「またAppleが何か企んでいるな」と、私と同じように少し懐疑的に受け止めた人も少なくないのではないでしょうか。"
 reading_time: 9
+image: "/assets/images/posts/2026-01-04-2-apple-m3-macai-ogp.png"
 ---
 
 ## Apple M3 MacがAI開発を加速させる真意とは？ 長年の疑問が今、解き明かされる

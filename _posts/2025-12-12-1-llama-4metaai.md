@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？"
 reading_time: 6
+image: "/assets/images/posts/2025-12-12-1-llama-4metaai-ogp.png"
 ---
 
 Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？

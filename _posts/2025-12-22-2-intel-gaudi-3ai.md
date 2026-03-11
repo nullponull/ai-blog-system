@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Intel Gaudi 3がAIの未来をどう塗り替えるのか？HBM3e搭載の真意を読み解く。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-22-2-intel-gaudi-3ai-ogp.png"
 ---
 
 Intel Gaudi 3がAIの未来をどう塗り替えるのか？HBM3e搭載の真意を読み解く。

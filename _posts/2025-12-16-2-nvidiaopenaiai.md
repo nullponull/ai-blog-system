@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-16-2-nvidiaopenaiai-ogp.png"
 ---
 
 NVIDIAとOpenAI、その先に見えるAI産業の核心は何か？

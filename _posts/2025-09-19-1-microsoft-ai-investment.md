@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "推論最適化", "AI規制", "AI人材
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのノルウェーAI投資、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-19-1-microsoft-ai-investment-ogp.png"
 ---
 
 MicrosoftのノルウェーAI投資、その真意はどこにあるのか？

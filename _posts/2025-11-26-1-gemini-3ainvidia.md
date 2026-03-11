@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "いやぁ、皆さん、最近のAI業界の動きには本当に目を見張るものがありますね。Googleの「Gemini 3」が華々しく登場し、Nvidiaの株価がそれに反応して少し落ち着きを見せている、というニュースを聞いて、"
 reading_time: 20
+image: "/assets/images/posts/2025-11-26-1-gemini-3ainvidia-ogp.png"
 ---
 
 **Gemini 3がAIの覇権を握るのか？Nvidia株下落の真意とは。**

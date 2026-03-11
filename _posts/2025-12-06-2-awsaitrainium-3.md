@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？"
 reading_time: 14
+image: "/assets/images/posts/2025-12-06-2-awsaitrainium-3-ogp.png"
 ---
 
 AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？

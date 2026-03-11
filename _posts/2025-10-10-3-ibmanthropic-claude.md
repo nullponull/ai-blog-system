@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "Meta", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropic Claudeの統合：エンタープライズAI開発の未来は何を語るのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-3-ibmanthropic-claude-ogp.png"
 ---
 
 IBMとAnthropic Claudeの統合：エンタープライズAI開発の未来は何を語るのか？

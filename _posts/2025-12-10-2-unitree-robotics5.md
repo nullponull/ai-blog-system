@@ -7,6 +7,7 @@ tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", 
 author: "ALLFORCES編集部"
 excerpt: "Unitree Roboticsの5万台突破、何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-10-2-unitree-robotics5-ogp.png"
 ---
 
 Unitree Roboticsの5万台突破、何が変わるのか？

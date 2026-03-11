@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "Anthropic", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。"
 reading_time: 17
+image: "/assets/images/posts/2026-01-27-1-deepmind-alphafold-499-ogp.png"
 ---
 
 DeepMind AlphaFold 4の精度99%は、生命科学のゲームチェンジャーか？その真価を見極める。

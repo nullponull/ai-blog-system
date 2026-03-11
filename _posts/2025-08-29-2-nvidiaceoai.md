@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "2025年8月28日から29日にかけて、NVIDIAのCEOであるジェンスン・ファン氏は、AI市場の将来的な拡大と、それに伴うインフラ投資の加速について複数の重要な見解を表明しました。"
 reading_time: 7
+image: "/assets/images/posts/2025-08-29-2-nvidiaceoai-ogp.png"
 ---
 
 ## 概要と背景

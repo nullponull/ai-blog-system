@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "AMDのAIチップ「Instinct MI350」でNVIDIAを追撃？ 何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-15-2-amdaiinstinct-mi350-ogp.png"
 ---
 
 AMDのAIチップ「Instinct MI350」でNVIDIAを追撃？ 何が変わるのか？

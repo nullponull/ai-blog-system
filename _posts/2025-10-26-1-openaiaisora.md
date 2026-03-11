@@ -7,6 +7,7 @@ tags: ["OpenAI", "xAI", "マルチモーダル", "画像生成", "音声AI", "AI
 author: "ALLFORCES編集部"
 excerpt: "OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-26-1-openaiaisora-ogp.png"
 ---
 
 OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？

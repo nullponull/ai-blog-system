@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Apple", "AIエージェント", "マル
 author: "ALLFORCES編集部"
 excerpt: "OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-15-2-openaiapps-in-chatgpt-ogp.png"
 ---
 
 OpenAIの「Apps in ChatGPT」構想、その真意は何処にあるのか？

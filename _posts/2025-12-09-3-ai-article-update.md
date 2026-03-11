@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "xAI", "LLM", "マルチモーダル", "画像生成"
 author: "ALLFORCES編集部"
 excerpt: "いやー、今回の日本政府によるAI倫理ガイドラインの改定、正直言って「来たか」という感じなんですよね。20年間、このAIという領域をずっと見てきて、シリコンバレーのピカピカのスタートアップから、日本の由緒ある大企業まで、"
 reading_time: 20
+image: "/assets/images/posts/2025-12-09-3-ai-article-update-ogp.png"
 ---
 
 AI倫理ガイドライン改定、日本政府の本気度をどう見る？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "Apple", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？"
 reading_time: 13
+image: "/assets/images/posts/2025-12-25-2-anthropicai-ogp.png"
 ---
 
 Anthropicが描く倫理AIの新境地：信頼と安全性を追求するその真意とは？

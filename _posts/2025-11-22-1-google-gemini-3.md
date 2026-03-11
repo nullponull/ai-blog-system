@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3、その「推論強化」の真意は何だろうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-22-1-google-gemini-3-ogp.png"
 ---
 
 Google Gemini 3、その「推論強化」の真意は何だろうか？

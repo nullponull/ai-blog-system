@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-28-1-ms-copilotanthropic-ogp.png"
 ---
 
 MS CopilotがAnthropicモデルを採用、その真意はどこにあるのか？

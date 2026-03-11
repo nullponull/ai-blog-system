@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "HPEとAMDの「Helios」AIラック発表、その真意は？AIインフラ競争の新たな地平を探る"
 reading_time: 20
+image: "/assets/images/posts/2025-12-02-1-hpeamdheliosai-ogp.png"
 ---
 
 HPEとAMDの「Helios」AIラック発表、その真意は？AIインフラ競争の新たな地平を探る

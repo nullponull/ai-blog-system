@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "Apple", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI Soraのクレジット制導入、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-03-1-openai-sora-ogp.png"
 ---
 
 OpenAI Soraのクレジット制導入、その真意はどこにあるのか？

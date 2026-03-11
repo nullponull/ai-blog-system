@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "2025年8月29日現在、人工知能（AI）技術の急速な発展は、それを支えるハードウェア、特にAIチップの進化によって牽引されています。"
 reading_time: 9
+image: "/assets/images/posts/2025-08-29-4-nvidiagpugoogletpuai-ogp.png"
 ---
 
 

@@ -7,6 +7,7 @@ tags: ["Google", "LLM", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？"
 reading_time: 15
+image: "/assets/images/posts/2026-01-24-3-deepmindalphafold-4-ogp.png"
 ---
 
 DeepMindの「AlphaFold 4」、タンパク質予測の未来をどう描き直すのか？

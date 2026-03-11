@@ -7,6 +7,7 @@ tags: ["Google", "LLM", "AIエージェント", "推論最適化", "AI規制", "
 author: "ALLFORCES編集部"
 excerpt: "Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-26-1-ant-internationalai-shield-ogp.png"
 ---
 
 Ant Internationalの「AI SHIELD」は金融AIの未来をどう変えるのか？

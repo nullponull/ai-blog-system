@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Amazon", "LLM", "AI人材", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "先日、トヨタが自動運転AI分野に100億円を投資するというニュースが飛び込んできましたね。正直、この報道に接したとき、あなたはどう感じましたか？「ついにトヨタも本腰か！」と思った人もいれば、「今さら100億円で何が変わるんだ？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-10-2-ai-article-update-ogp.png"
 ---
 
 ## トヨタ、自動運転AIに100億円投資：その真意と、私たちが本当に見るべき未来とは？

@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "LLM", "推論最適化", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "ダイキン、AI冷却企業買収の真意とは？データセンターの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-05-2-ai-article-update-ogp.png"
 ---
 
 ダイキン、AI冷却企業買収の真意とは？データセンターの未来をどう変えるのか？

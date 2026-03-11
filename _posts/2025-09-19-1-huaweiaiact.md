@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "LLM", "AIエージェント", "マルチモーダル", 
 author: "ALLFORCES編集部"
 excerpt: "Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-09-19-1-huaweiaiact-ogp.png"
 ---
 
 Huaweiの産業AI戦略「ACT」の真意とは？その裏に潜む巨大な野望を読み解く

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "タイトル：サカナAI、200億円調達の真意とは？日本のAIが世界を変える日、本当に来るのか"
 reading_time: 20
+image: "/assets/images/posts/2025-11-27-2-ai-article-update-ogp.png"
 ---
 
 タイトル：サカナAI、200億円調達の真意とは？日本のAIが世界を変える日、本当に来るのか

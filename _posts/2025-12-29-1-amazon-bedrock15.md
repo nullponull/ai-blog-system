@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-29-1-amazon-bedrock15-ogp.png"
 ---
 
 Amazon Bedrockに新モデル15種追加、この怒涛の拡充が意味するAI戦略の深層とは？

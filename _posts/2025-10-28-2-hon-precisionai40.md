@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Hon PrecisionのAIチップ生産40%増、その真意は？半導体業界の深層を読む"
 reading_time: 20
+image: "/assets/images/posts/2025-10-28-2-hon-precisionai40-ogp.png"
 ---
 
 Hon PrecisionのAIチップ生産40%増、その真意は？半導体業界の深層を読む

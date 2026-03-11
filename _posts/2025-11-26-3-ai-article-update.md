@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "パナソニックのデータセンター液冷ポンプ開発、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-26-3-ai-article-update-ogp.png"
 ---
 
 パナソニックのデータセンター液冷ポンプ開発、その真意はどこにあるのか？

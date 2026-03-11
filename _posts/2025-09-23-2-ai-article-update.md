@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、ついにこの時が来たか、というのが正直な感想ですよ。イタリアがEU加盟国として初めて、AIを規制する包括的な法律を承認したというニュース、あなたも驚いたんじゃないでしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-23-2-ai-article-update-ogp.png"
 ---
 
 イタリアのAI規制法、懲役刑の導入が示唆するものとは？

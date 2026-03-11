@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "正直言って、初めて「Microsoft Copilotが2026年度に売上100億ドルを超える」という予測を聞いた時、あなたもきっと、同じように驚きと、もしかしたら少しの懐疑を感じたのではないでしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-23-1-microsoft-copilot2026-ogp.png"
 ---
 
 **Microsoft Copilotが描く2026年、売上100億ドルの真価を問う。**

@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル
 author: "ALLFORCES編集部"
 excerpt: "Google MapsとGemini AIの融合が示す、私たちの日常とビジネスの未来は何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-17-2-google-mapsgemini-ai-ogp.png"
 ---
 
 Google MapsとGemini AIの融合が示す、私たちの日常とビジネスの未来は何が変わるのか？

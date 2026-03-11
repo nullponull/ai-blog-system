@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Samsungが「Exynos Neo」で狙うAI半導体市場の深層：処理能力2倍はゲームチェンジャーとなるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-05-2-samsungexynos-neoai-ogp.png"
 ---
 
 Samsungが「Exynos Neo」で狙うAI半導体市場の深層：処理能力2倍はゲームチェンジャーとなるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Anthropic", "画像生成", "AI規制", "AI人材", "セキュ
 author: "ALLFORCES編集部"
 excerpt: "FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-07-1-figmaaiweave-ogp.png"
 ---
 
 FigmaがAIデザインツール「Weave」を発表、その真意とデザイン業界に何をもたらすのか？

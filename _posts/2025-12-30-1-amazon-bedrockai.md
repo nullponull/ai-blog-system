@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-30-1-amazon-bedrockai-ogp.png"
 ---
 
 Amazon Bedrockが量子AIに対応する動き、その裏に隠されたAWSの長期戦略とは何か？

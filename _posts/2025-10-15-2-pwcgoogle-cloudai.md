@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "AIエージェント", "推論最適化", "AI規
 author: "ALLFORCES編集部"
 excerpt: "PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-15-2-pwcgoogle-cloudai-ogp.png"
 ---
 
 PwCとGoogle Cloudが描くAIエージェントの未来：その真意はどこにあるのか？

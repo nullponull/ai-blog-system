@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "ねえ、君もきっと「またか」って思ったんじゃないか？ 「Amazon Bedrock、新モデルでコスト半減」というニュースの見出しを見て、正直なところ、僕も最初はそうだったよ。"
 reading_time: 8
+image: "/assets/images/posts/2025-12-18-1-amazon-bedrock-ogp.png"
 ---
 
 ## Amazon Bedrockの新モデルが提示するコスト半減。AIビジネスの風景は、どう変わるのか。

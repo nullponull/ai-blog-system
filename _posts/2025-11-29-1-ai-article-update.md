@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "「生成AIフリーミアム化」の真意はどこにあるのか？技術と投資の視点から紐解く現状"
 reading_time: 20
+image: "/assets/images/posts/2025-11-29-1-ai-article-update-ogp.png"
 ---
 
 「生成AIフリーミアム化」の真意はどこにあるのか？技術と投資の視点から紐解く現状

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "xAI", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-16-2-microsoft-dragon-copilot-ogp.png"
 ---
 
 「Microsoft Dragon Copilot」は医療現場をどう変えるのか？その真意を探る。

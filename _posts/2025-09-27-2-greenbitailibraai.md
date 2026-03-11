@@ -7,6 +7,7 @@ tags: ["Meta", "NVIDIA", "Apple", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-2-greenbitailibraai-ogp.png"
 ---
 
 GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？

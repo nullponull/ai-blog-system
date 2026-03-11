@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "アマゾンBedrock、生成AIモデル数2倍増が問いかける、マルチモーダル時代の本質とは？"
 reading_time: 12
+image: "/assets/images/posts/2025-12-23-1-amazonbedrock-ogp.png"
 ---
 
 アマゾンBedrock、生成AIモデル数2倍増が問いかける、マルチモーダル時代の本質とは？

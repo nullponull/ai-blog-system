@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "xAI", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "またDeepMindか、と正直なところ、私も最初は思ったんですよ。AlphaGoで囲碁の世界を驚かせ、その後AlphaFoldでタンパク質構造予測という生物学の「グランドチャレンジ」を解決した彼らが、今度は新薬発見、"
 reading_time: 9
+image: "/assets/images/posts/2025-12-18-1-deepmindai-ogp.png"
 ---
 
 # DeepMindの生物学AIが新薬開発にもたらす変革の本質とは？

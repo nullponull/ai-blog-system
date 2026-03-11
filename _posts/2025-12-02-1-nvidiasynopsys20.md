@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "AIエージェント", "推論最適化", "AI人材", "
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、このニュースを聞いた時、私は一瞬「またか」と思いましたね。NVIDIAがAI関連企業に巨額を投じるのは、もはや日常風景のようなものですから。でも、今回はちょっと違う。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-02-1-nvidiasynopsys20-ogp.png"
 ---
 
 **NVIDIAのSynopsysへの20億ドル投資、その真意は何処にあるのか？**

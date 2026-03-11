@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIのPi 2.0、対話性能1.5倍とは、何が本当に変わるのだろうか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-12-1-inflection-aipi-20-ogp.png"
 ---
 
 Inflection AIのPi 2.0、対話性能1.5倍とは、何が本当に変わるのだろうか？

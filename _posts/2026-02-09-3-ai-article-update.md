@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "xAI", "AI規制", "AI人材", "セキュリティ
 author: "ALLFORCES編集部"
 excerpt: "AI倫理の国際標準化は、次のイノベーションを加速させるのか、それとも足枷となるのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-02-09-3-ai-article-update-ogp.png"
 ---
 
 AI倫理の国際標準化は、次のイノベーションを加速させるのか、それとも足枷となるのか？

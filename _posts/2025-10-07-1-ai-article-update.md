@@ -7,6 +7,7 @@ tags: ["NVIDIA", "推論最適化", "AI規制", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "AIチップ製造の舞台裏：Applied Materialsの静かなる革新が未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-07-1-ai-article-update-ogp.png"
 ---
 
 AIチップ製造の舞台裏：Applied Materialsの静かなる革新が未来をどう変えるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Samsungの「Exynos AI」発表、何が本当に変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-08-1-samsungexynos-ai-ogp.png"
 ---
 
 Samsungの「Exynos AI」発表、何が本当に変わるのか？

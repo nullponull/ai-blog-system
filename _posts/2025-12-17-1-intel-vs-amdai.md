@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "Apple", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-17-1-intel-vs-amdai-ogp.png"
 ---
 
 Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？

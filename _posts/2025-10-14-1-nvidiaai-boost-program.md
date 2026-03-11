@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "AIエージェント", "画像生成", "AI規制", "
 author: "ALLFORCES編集部"
 excerpt: "NVIDIAのAI Boost Program、その真意は？日本のスタートアップが掴むべき未来とは"
 reading_time: 20
+image: "/assets/images/posts/2025-10-14-1-nvidiaai-boost-program-ogp.png"
 ---
 
 NVIDIAのAI Boost Program、その真意は？日本のスタートアップが掴むべき未来とは

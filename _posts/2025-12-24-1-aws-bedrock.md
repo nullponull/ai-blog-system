@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-24-1-aws-bedrock-ogp.png"
 ---
 
 AWS Bedrock、新モデルで性能3割増。この数字がAI導入の未来をどう変えるのか？

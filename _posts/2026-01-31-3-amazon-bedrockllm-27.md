@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、LLM戦国時代に何をもたらすのか？ (27文字)"
 reading_time: 20
+image: "/assets/images/posts/2026-01-31-3-amazon-bedrockllm-27-ogp.png"
 ---
 
 Amazon Bedrock、LLM戦国時代に何をもたらすのか？ (27文字)

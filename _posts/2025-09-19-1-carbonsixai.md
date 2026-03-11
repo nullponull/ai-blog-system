@@ -7,6 +7,7 @@ tags: ["AIエージェント", "マルチモーダル", "ROI分析", "AI人材",
 author: "ALLFORCES編集部"
 excerpt: "CarbonSixの製造AIロボット、その真価はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-19-1-carbonsixai-ogp.png"
 ---
 
 CarbonSixの製造AIロボット、その真価はどこにあるのか？

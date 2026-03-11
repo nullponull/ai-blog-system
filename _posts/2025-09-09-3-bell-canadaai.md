@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "Anthropic", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Bell CanadaのAIサイバー防衛：その真意は？カナダが描くAI時代のセキュリティ戦略"
 reading_time: 20
+image: "/assets/images/posts/2025-09-09-3-bell-canadaai-ogp.png"
 ---
 
 Bell CanadaのAIサイバー防衛：その真意は？カナダが描くAI時代のセキュリティ戦略

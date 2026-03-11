@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "最近、「メモリチップが50%も高騰する」なんてニュースを目にして、あなたも「おいおい、またか」と思われたんじゃないでしょうか。正直なところ、私も最初にこの数字を聞いた時は、思わず眉間にシワが寄りましたよ。"
 reading_time: 20
+image: "/assets/images/posts/2025-11-27-1-ai-article-update-ogp.png"
 ---
 
 AIがメモリチップ市場に投じる波紋、その真意とは？

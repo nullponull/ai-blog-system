@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Apple", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-01-2-baidukunlun-4ai-ogp.png"
 ---
 
 Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？

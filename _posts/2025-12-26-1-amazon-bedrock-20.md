@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock 20%高速化の真意とは？ その数値が語るAI基盤の未来"
 reading_time: 20
+image: "/assets/images/posts/2025-12-26-1-amazon-bedrock-20-ogp.png"
 ---
 
 Amazon Bedrock 20%高速化の真意とは？ その数値が語るAI基盤の未来

@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "AIエージェント", "AI規
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude 4.5のコード能力73%向上、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-01-1-anthropic-claude-4573-ogp.png"
 ---
 
 Anthropic Claude 4.5のコード能力73%向上、その真意とは？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "アリババ、AIクラウドに巨額投資：その戦略の深層と市場への影響とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-07-3-ai-article-update-ogp.png"
 ---
 
 アリババ、AIクラウドに巨額投資：その戦略の深層と市場への影響とは？

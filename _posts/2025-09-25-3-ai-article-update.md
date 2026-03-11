@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "LLM", "ファインチューニング", "ROI分析", "A
 author: "ALLFORCES編集部"
 excerpt: "電通とソフトバンクの日本語広告AI、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-25-3-ai-article-update-ogp.png"
 ---
 
 電通とソフトバンクの日本語広告AI、その真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "NVIDIA", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "次世代AIデータセンター共同検討：その真意と、日本のAIインフラが迎える未来とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-12-2-ai-article-update-ogp.png"
 ---
 
 次世代AIデータセンター共同検討：その真意と、日本のAIインフラが迎える未来とは？

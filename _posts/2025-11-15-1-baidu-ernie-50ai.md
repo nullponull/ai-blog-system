@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Anthropic", "AIエージェント", "マルチモー
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-15-1-baidu-ernie-50ai-ogp.png"
 ---
 
 Baidu ERNIE 5.0が示す、マルチモーダルAIの「真の統合」とは何か？

@@ -7,6 +7,7 @@ tags: ["NVIDIA", "マルチモーダル", "音声AI", "推論最適化", "ROI分
 author: "ALLFORCES編集部"
 excerpt: "Broadcomの800G AI NIC「Thor Ultra」が示す、AIインフラの次なる進化とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-17-3-broadcom800g-ai-nicthor-ultra-ogp.png"
 ---
 
 Broadcomの800G AI NIC「Thor Ultra」が示す、AIインフラの次なる進化とは？

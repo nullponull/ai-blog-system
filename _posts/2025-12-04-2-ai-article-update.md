@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "AI業界を揺るがす2つの波：Anthropic IPOとAWS Nova AIの真意は何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-04-2-ai-article-update-ogp.png"
 ---
 
 AI業界を揺るがす2つの波：Anthropic IPOとAWS Nova AIの真意は何か？

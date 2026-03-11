@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilotが示す15%生産性向上の真意とは？開発現場の未来を読み解く。"
 reading_time: 9
+image: "/assets/images/posts/2026-01-24-1-microsoft-copilot15-ogp.png"
 ---
 
 Microsoft Copilotが示す15%生産性向上の真意とは？開発現場の未来を読み解く。

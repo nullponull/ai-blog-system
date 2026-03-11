@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "DeepMindの新たなAIモデルが、タンパク質構造予測の常識をどう塗り替えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-18-3-deepmindai-ogp.png"
 ---
 
 DeepMindの新たなAIモデルが、タンパク質構造予測の常識をどう塗り替えるのか？

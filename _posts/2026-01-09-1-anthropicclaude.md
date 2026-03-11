@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "あなたも、最近のAIニュースの洪水にちょっと食傷気味じゃないかな？ 「〇〇が史上最高性能！」とか「△△が飛躍的な進化！」みたいなヘッドラインを目にするたびに、「はいはい、また始まったね」って、どこか冷めた目で見てしまう気持ち、"
 reading_time: 10
+image: "/assets/images/posts/2026-01-09-1-anthropicclaude-ogp.png"
 ---
 
 ## AnthropicのClaude次期版、推論速度2倍が解き放つ新たなAI活用領域とは？

@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "Googleは「AIモード」を導入し、検索体験を根本的に変革しています。これは、Gemini 2.5のカスタムバージョンとクエリファンアウト技術を基盤とし、複雑な質問に対し包括的な回答と深掘りリンクを提供します。"
 reading_time: 7
 canonical_url: "https://ai-media.co.jp/2025/09/07/1-google-ai検索進化投資と技術の最前線/"
+image: "/assets/images/posts/2025-09-08-1-google-ai検索進化marketとtechの最前線-ogp.png"
 ---
 
 # Google AI検索進化：投資と技術の最前線

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "AIエージェントの自律性が業務を変える？ その真意と、私たちが今すべきこと"
 reading_time: 20
+image: "/assets/images/posts/2025-10-19-1-ai-article-update-ogp.png"
 ---
 
 AIエージェントの自律性が業務を変える？ その真意と、私たちが今すべきこと

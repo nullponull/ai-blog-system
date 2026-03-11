@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Apple AI幹部、Metaへ流出の真意は？ AI覇権争いの新たな局面を読む"
 reading_time: 20
+image: "/assets/images/posts/2025-09-13-1-apple-aimeta-aimarket-competition-ogp.png"
 ---
 
 Apple AI幹部、Metaへ流出の真意は？ AI覇権争いの新たな局面を読む

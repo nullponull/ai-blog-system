@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIのPi-3b、応答速度15%短縮は、次なるAI進化の兆しか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-03-1-inflection-aipi-3b-ogp.png"
 ---
 
 Inflection AIのPi-3b、応答速度15%短縮は、次なるAI進化の兆しか？

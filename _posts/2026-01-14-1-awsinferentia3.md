@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AWSのInferentia3、性能2倍の発表はAIチップ市場をどう変えるのか？ その真意と次なる一手"
 reading_time: 20
+image: "/assets/images/posts/2026-01-14-1-awsinferentia3-ogp.png"
 ---
 
 AWSのInferentia3、性能2倍の発表はAIチップ市場をどう変えるのか？ その真意と次なる一手

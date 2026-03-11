@@ -7,6 +7,7 @@ tags: ["xAI", "推論最適化", "ROI分析", "AI規制", "AI人材", "セキュ
 author: "ALLFORCES編集部"
 excerpt: "おや、富士通がまた面白いことを始めたな、というのが正直な第一印象でした。あなたも、AIが医療や生命科学に深く関わる時代が来る、と漠然と感じていたかもしれませんね。正直なところ、因果AIという言葉自体、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-09-3-ai-article-update-ogp.png"
 ---
 
 富士通の「因果AI」が遺伝子解明に挑む真意とは？

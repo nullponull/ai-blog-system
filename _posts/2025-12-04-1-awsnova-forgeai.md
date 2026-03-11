@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは"
 reading_time: 15
+image: "/assets/images/posts/2025-12-04-1-awsnova-forgeai-ogp.png"
 ---
 
 AWSの「Nova Forge」は、AI戦略の新たな一手か？ その真意とは

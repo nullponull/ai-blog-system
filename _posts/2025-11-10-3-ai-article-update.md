@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "推論最適化", "AI規制", "AI人材", "セキュ
 author: "ALLFORCES編集部"
 excerpt: "中国、政府データセンターで外国製AIチップ禁止：その真意と市場の行方はどうなるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-10-3-ai-article-update-ogp.png"
 ---
 
 中国、政府データセンターで外国製AIチップ禁止：その真意と市場の行方はどうなるのか？

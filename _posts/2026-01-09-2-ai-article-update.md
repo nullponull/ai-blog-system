@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "AI創薬で抗がん剤候補発見率が2倍？ その数字が語る真意と、私たちが見るべき未来とは"
 reading_time: 9
+image: "/assets/images/posts/2026-01-09-2-ai-article-update-ogp.png"
 ---
 
 AI創薬で抗がん剤候補発見率が2倍？ その数字が語る真意と、私たちが見るべき未来とは

@@ -7,6 +7,7 @@ tags: ["Amazon", "Anthropic", "xAI", "LLM", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-18-2-anthropicllm-ogp.png"
 ---
 
 Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？

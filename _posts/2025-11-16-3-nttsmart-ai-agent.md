@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-16-3-nttsmart-ai-agent-ogp.png"
 ---
 
 NTTデータの「Smart AI Agent」が示す、AIビジネスの新たな地平とは？

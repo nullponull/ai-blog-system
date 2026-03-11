@@ -7,6 +7,7 @@ tags: ["NVIDIA", "音声AI", "推論最適化", "ROI分析", "AI人材", "セキ
 author: "ALLFORCES編集部"
 excerpt: "DEEPXの「Physical AI」は、AIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-05-1-deepxphysical-aiai-ogp.png"
 ---
 
 DEEPXの「Physical AI」は、AIの未来をどう変えるのか？

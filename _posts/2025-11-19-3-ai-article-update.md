@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "xAI", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "「AI生存リスク」の警鐘、その真意とは？ ベテランアナリストが読み解く技術と政策の未来"
 reading_time: 20
+image: "/assets/images/posts/2025-11-19-3-ai-article-update-ogp.png"
 ---
 
 「AI生存リスク」の警鐘、その真意とは？ ベテランアナリストが読み解く技術と政策の未来

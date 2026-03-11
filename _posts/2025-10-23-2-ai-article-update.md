@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "xAI", "音声AI", "AI規制", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけ"
 reading_time: 20
+image: "/assets/images/posts/2025-10-23-2-ai-article-update-ogp.png"
 ---
 
 カリフォルニア州のAIチャットボット規制法、その真意と未来への問いかけ

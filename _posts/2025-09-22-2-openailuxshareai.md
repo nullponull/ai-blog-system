@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Apple", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとLuxshareの提携が示す、AIデバイス市場の「真意」とは何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-22-2-openailuxshareai-ogp.png"
 ---
 
 OpenAIとLuxshareの提携が示す、AIデバイス市場の「真意」とは何か？

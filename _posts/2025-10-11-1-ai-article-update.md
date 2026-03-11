@@ -7,6 +7,7 @@ tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "あなたも感じているかもしれませんが、最近の金融規制当局の動き、どう見ていますか？「また規制か」と、正直なところ、個人的には最初にそう思いましたよ。AIの進化は目覚ましく、新しい技術が次々と生まれる中で、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-1-ai-article-update-ogp.png"
 ---
 
 金融規制当局がAIリスク監視を強化する真意とは？

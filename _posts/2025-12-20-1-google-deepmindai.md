@@ -7,6 +7,7 @@ tags: ["Google", "マルチモーダル", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindの創薬AI、本当に未来を変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-20-1-google-deepmindai-ogp.png"
 ---
 
 Google DeepMindの創薬AI、本当に未来を変えるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-31-2-akamainvidiaedge-ai-ogp.png"
 ---
 
 AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？

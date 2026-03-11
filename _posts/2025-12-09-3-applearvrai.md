@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "Apple", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "AppleのAR/VR向けAIチップ、その真意は何でしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-09-3-applearvrai-ogp.png"
 ---
 
 AppleのAR/VR向けAIチップ、その真意は何でしょうか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "AIエージェント", "AI規制", "AI人材", "D
 author: "ALLFORCES編集部"
 excerpt: "韓国AI市場、Microsoft Azureが牽引する変革の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-25-1-aimicrosoft-azure-ogp.png"
 ---
 
 韓国AI市場、Microsoft Azureが牽引する変革の真意とは？

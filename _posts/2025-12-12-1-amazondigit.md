@@ -7,6 +7,7 @@ tags: ["Amazon", "ROI分析", "AI人材", "ロボティクス"]
 author: "ALLFORCES編集部"
 excerpt: "Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？"
 reading_time: 9
+image: "/assets/images/posts/2025-12-12-1-amazondigit-ogp.png"
 ---
 
 Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？

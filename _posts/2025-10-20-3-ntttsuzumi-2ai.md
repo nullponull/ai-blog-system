@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-20-3-ntttsuzumi-2ai-ogp.png"
 ---
 
 NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？

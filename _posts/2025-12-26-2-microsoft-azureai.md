@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA"]
 author: "ALLFORCES編集部"
 excerpt: "君も薄々感じていたかもしれないが、Microsoft Azureが「量子AI基盤」を発表したというニュースを耳にした時、正直なところ、私はまた来たか、という印象だったね。量子コンピューティングとAIの融合。"
 reading_time: 7
+image: "/assets/images/posts/2025-12-26-2-microsoft-azureai-ogp.png"
 ---
 
 ## Microsoft Azureの量子AI基盤発表：その真意と、私たちの未来に何をもたらすのか？

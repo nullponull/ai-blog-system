@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダ
 author: "ALLFORCES編集部"
 excerpt: "Moonshot AIのKimi K2 Thinkingは、AIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-15-2-moonshot-aikimi-k2-thinking-ogp.png"
 ---
 
 Moonshot AIのKimi K2 Thinkingは、AIの未来をどう変えるのか？

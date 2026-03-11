@@ -7,6 +7,7 @@ tags: ["Microsoft", "xAI", "AIエージェント", "推論最適化", "AI規制"
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-18-1-microsoftai-ogp.png"
 ---
 
 MicrosoftのAIエージェント戦略、その真意はセキュリティ強化にあるのか？

@@ -7,6 +7,7 @@ tags: ["Google", "LLM", "推論最適化", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindの創薬AIが予測する「承認率80%」は、製薬業界に何をもたらすのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-05-1-deepmindai-ogp.png"
 ---
 
 DeepMindの創薬AIが予測する「承認率80%」は、製薬業界に何をもたらすのか？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Oracle AI Database 26aiの真意は？データとAIの融合がもたらす未来とは。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-15-2-oracle-ai-database-26ai-ogp.png"
 ---
 
 Oracle AI Database 26aiの真意は？データとAIの融合がもたらす未来とは。

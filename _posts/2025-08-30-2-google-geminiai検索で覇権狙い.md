@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "2025年8月30日現在、Googleは人工知能（AI）分野におけるその支配的地位を確固たるものにするため、大規模かつ多角的な戦略を推進しています。その中核をなすのが、同社の最先端AIモデル「Gemini」の継続的な進化と、Google検索に統合された「AIモード」のグローバル展開です。"
 reading_time: 12
+image: "/assets/images/posts/2025-08-30-2-google-geminiai検索で覇権狙い-ogp.png"
 ---
 # GoogleのAI覇権戦略：Geminiの進化とAIモードのグローバル展開
 

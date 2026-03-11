@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "日立の営業AIエージェント、その真意は？現場の変革と未来への布石"
 reading_time: 20
+image: "/assets/images/posts/2025-10-23-1-ai-article-update-ogp.png"
 ---
 
 日立の営業AIエージェント、その真意は？現場の変革と未来への布石

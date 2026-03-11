@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "Amazon", "xAI", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-25-1-metarelianceai-ogp.png"
 ---
 
 MetaとRelianceのAI合弁事業：インド市場の深層で何が動くのか？

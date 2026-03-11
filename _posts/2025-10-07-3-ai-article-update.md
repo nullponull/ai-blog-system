@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "音声AI", "AI規制", "AI人材", "セキュリティ"
 author: "ALLFORCES編集部"
 excerpt: "英国の臨床試験減少とAI投資の真意：ヘルスケアの未来は何を語るのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-07-3-ai-article-update-ogp.png"
 ---
 
 英国の臨床試験減少とAI投資の真意：ヘルスケアの未来は何を語るのか？

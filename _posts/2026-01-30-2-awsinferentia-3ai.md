@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？"
 reading_time: 19
+image: "/assets/images/posts/2026-01-30-2-awsinferentia-3ai-ogp.png"
 ---
 
 AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実"
 reading_time: 5
+image: "/assets/images/posts/2025-12-07-3-ai-article-update-ogp.png"
 ---
 
 AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実

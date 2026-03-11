@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "xAI", "ファインチューニング", "AI規制", 
 author: "ALLFORCES編集部"
 excerpt: "過去の教訓を活かせるか？ IBM WatsonXが製薬研究に挑む真意とは。"
 reading_time: 15
+image: "/assets/images/posts/2025-12-15-2-ibm-watsonx-ogp.png"
 ---
 
 過去の教訓を活かせるか？ IBM WatsonXが製薬研究に挑む真意とは。

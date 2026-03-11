@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "「ソブリンAI」が中東で花開く：その真意と、私たちが学ぶべきこととは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-19-2-ai-article-update-ogp.png"
 ---
 
 「ソブリンAI」が中東で花開く：その真意と、私たちが学ぶべきこととは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "AIエージェント", "マルチモーダル", "音声AI", "A
 author: "ALLFORCES編集部"
 excerpt: "ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-14-2-cliplineai-ogp.png"
 ---
 
 ClipLineのAIエージェント、サービス業の「判断の孤独」をどう変えるのか？

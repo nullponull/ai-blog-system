@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Meta Llama 4と量子AIの融合は、私たちの未来をどう書き換えるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-13-1-meta-llama-4ai-ogp.png"
 ---
 
 Meta Llama 4と量子AIの融合は、私たちの未来をどう書き換えるのか？

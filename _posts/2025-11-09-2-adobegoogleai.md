@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "画像生成",
 author: "ALLFORCES編集部"
 excerpt: "AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-09-2-adobegoogleai-ogp.png"
 ---
 
 AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？

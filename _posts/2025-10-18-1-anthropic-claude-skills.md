@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Skillsの真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-18-1-anthropic-claude-skills-ogp.png"
 ---
 
 Anthropic Claude Skillsの真意はどこにあるのか？

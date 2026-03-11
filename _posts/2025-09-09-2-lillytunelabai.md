@@ -7,6 +7,7 @@ tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "「LillyがAI創薬プラットフォーム『TuneLab』を発表！」――このニュースを聞いた時、正直なところ、私は少し身構えてしまいました。あなたも同じように感じたかもしれませんね。また新しいAIプラットフォームか、と。"
 reading_time: 20
+image: "/assets/images/posts/2025-09-09-2-lillytunelabai-ogp.png"
 ---
 
 LillyのTuneLab：創薬AIの真価はどこに？

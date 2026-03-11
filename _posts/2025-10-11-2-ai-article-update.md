@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "ByteDance"]
 author: "ALLFORCES編集部"
 excerpt: "皆さん、先日のニュースには驚きましたよね？ 10月10日、米上院が「GAIN AI法」と呼ばれるAIチップ輸出規制法案を可決したと聞いて、正直なところ、私も一瞬、耳を疑いました。また新たな規制か、と。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-2-ai-article-update-ogp.png"
 ---
 
 米上院のAIチップ規制法案、その真意はどこにあるのか？

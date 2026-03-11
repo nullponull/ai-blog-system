@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "Amazon", "LLM", "画像生成", "推論最適化"
 author: "ALLFORCES編集部"
 excerpt: "データセクションの豪州AIデータセンター100MW供給、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-14-2-ai-article-update-ogp.png"
 ---
 
 データセクションの豪州AIデータセンター100MW供給、その真意はどこにあるのか？

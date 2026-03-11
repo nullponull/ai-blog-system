@@ -7,6 +7,7 @@ tags: ["AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI
 author: "ALLFORCES編集部"
 excerpt: "日本政府の「新AI基本計画」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-19-3-ai-article-update-ogp.png"
 ---
 
 日本政府の「新AI基本計画」は、本当にゲームチェンジャーとなるのか？

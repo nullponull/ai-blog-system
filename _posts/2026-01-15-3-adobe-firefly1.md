@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe Fireflyが月間1億ドルの収益を叩き出した、その真意とAI業界の未来は何処へ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-15-3-adobe-firefly1-ogp.png"
 ---
 
 Adobe Fireflyが月間1億ドルの収益を叩き出した、その真意とAI業界の未来は何処へ向かうのか？

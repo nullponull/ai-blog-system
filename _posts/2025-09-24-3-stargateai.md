@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "「Stargate」が拓くAIインフラの新時代、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-24-3-stargateai-ogp.png"
 ---
 
 「Stargate」が拓くAIインフラの新時代、その真意とは？

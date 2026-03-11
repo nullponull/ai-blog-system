@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル", "画像生
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-26-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrock、学習コスト30%削減は、AIの未来をどう変えるのか？

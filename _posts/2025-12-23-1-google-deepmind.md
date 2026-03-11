@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "「Google DeepMindが創薬AIで300件もの新薬候補を発見したって、あなたもニュースで見たんじゃないかな？」"
 reading_time: 10
+image: "/assets/images/posts/2025-12-23-1-google-deepmind-ogp.png"
 ---
 
 ## Google DeepMind、創薬AIで300件の新薬候補を発見：その真意と、医療の未来をどう変えるのか？

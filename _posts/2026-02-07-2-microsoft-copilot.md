@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilotがエンタープライズを変えるのか？ その深層にある技術とビジネスの真意とは"
 reading_time: 20
+image: "/assets/images/posts/2026-02-07-2-microsoft-copilot-ogp.png"
 ---
 
 Microsoft Copilotがエンタープライズを変えるのか？ その深層にある技術とビジネスの真意とは

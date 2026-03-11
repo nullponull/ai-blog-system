@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "ねえ、あなたもこのニュース、目にしましたか？「Samsung、次世代AIチップに3nmプロセス採用」って、正直、最初は「またか」って思っちゃったんですよね。だって、半導体業界って常に新しい技術を追いかけて、"
 reading_time: 16
+image: "/assets/images/posts/2026-02-10-1-samsung3nm-ai-ogp.png"
 ---
 
 **Samsungの3nm AIチップ、その真意と未来への影響とは？**

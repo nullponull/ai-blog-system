@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-1-furiosaaiai-ogp.png"
 ---
 
 FuriosaAIの省エネAI推論サーバー、その真意はデータセンターの未来を変えるのか？

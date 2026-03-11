@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "AIエージェント", "音声AI", "推論最適化", "
 author: "ALLFORCES編集部"
 excerpt: "Google GeminiとMaps連携強化：その真意は、AIの「現実世界」への橋渡しなのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-19-3-google-geminimaps-ogp.png"
 ---
 
 Google GeminiとMaps連携強化：その真意は、AIの「現実世界」への橋渡しなのか？

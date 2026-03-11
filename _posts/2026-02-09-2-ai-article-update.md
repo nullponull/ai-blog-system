@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "マルチモーダル", "推論最適化", "AI規制", 
 author: "ALLFORCES編集部"
 excerpt: "AIチップ規制強化は日本に「本物の」商機をもたらすのか、その真意を問う。"
 reading_time: 20
+image: "/assets/images/posts/2026-02-09-2-ai-article-update-ogp.png"
 ---
 
 AIチップ規制強化は日本に「本物の」商機をもたらすのか、その真意を問う。

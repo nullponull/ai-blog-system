@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "LLM", "音声AI", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "AlibabaのAI動画生成「Wan2.2」は、本当にゲームチェンジャーとなるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-22-1-alibabaaiwan22-ogp.png"
 ---
 
 AlibabaのAI動画生成「Wan2.2」は、本当にゲームチェンジャーとなるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、法人導入加速で何が変わる？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-22-1-microsoft-copilot-ogp.png"
 ---
 
 Microsoft Copilot、法人導入加速で何が変わる？

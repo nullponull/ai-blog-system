@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-03-1-awstrainium3ai-ogp.png"
 ---
 
 AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？

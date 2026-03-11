@@ -7,6 +7,7 @@ tags: ["LLM", "RAG", "ROI分析", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "プレシジョンの医療AIプロジェクト、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-3-ai-article-update-ogp.png"
 ---
 
 プレシジョンの医療AIプロジェクト、その真意はどこにあるのか？

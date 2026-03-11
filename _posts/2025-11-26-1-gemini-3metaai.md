@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-26-1-gemini-3metaai-ogp.png"
 ---
 
 「Gemini 3」が拓く新境地：Metaの動向から読み解くAI覇権の真実とは？

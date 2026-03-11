@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるのか"
 reading_time: 20
+image: "/assets/images/posts/2025-10-08-1-openaiamdai-ogp.png"
 ---
 
 OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるのか

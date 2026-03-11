@@ -7,6 +7,7 @@ tags: ["LLM", "画像生成", "推論最適化", "AI人材", "セキュリティ
 author: "ALLFORCES編集部"
 excerpt: "パナソニックの「Reflect-Dit」は画像生成AIの未来を変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-20-3-reflect-ditai-ogp.png"
 ---
 
 パナソニックの「Reflect-Dit」は画像生成AIの未来を変えるのか？

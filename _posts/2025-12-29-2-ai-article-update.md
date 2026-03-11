@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "Apple", "LLM", "画像生成", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "サムスン、画像生成AIチップ開発着手。その真意は何でしょうか？"
 reading_time: 13
+image: "/assets/images/posts/2025-12-29-2-ai-article-update-ogp.png"
 ---
 
 サムスン、画像生成AIチップ開発着手。その真意は何でしょうか？

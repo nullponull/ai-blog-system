@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Anthropic", "Apple", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Google GeminiとMaps連携、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-19-2-google-geminimaps-ogp.png"
 ---
 
 Google GeminiとMaps連携、その真意はどこにあるのか？

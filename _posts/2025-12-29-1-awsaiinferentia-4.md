@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "AWSのAIチップ「Inferentia 4」投入が示す、AIインフラ競争の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-29-1-awsaiinferentia-4-ogp.png"
 ---
 
 AWSのAIチップ「Inferentia 4」投入が示す、AIインフラ競争の真意とは？

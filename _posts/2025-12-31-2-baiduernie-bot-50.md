@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "LLM", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？"
 reading_time: 9
+image: "/assets/images/posts/2025-12-31-2-baiduernie-bot-50-ogp.png"
 ---
 
 BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？

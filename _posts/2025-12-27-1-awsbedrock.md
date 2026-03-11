@@ -7,6 +7,7 @@ tags: ["Meta", "NVIDIA", "Amazon", "Anthropic", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "AWS新モデル、Bedrockのコスト半減は本当にすごいのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-27-1-awsbedrock-ogp.png"
 ---
 
 AWS新モデル、Bedrockのコスト半減は本当にすごいのか？

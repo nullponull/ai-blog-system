@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの新モデル、学習コスト半減の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-30-1-amazon-bedrock-ogp.png"
 ---
 
 Amazon Bedrockの新モデル、学習コスト半減の真意とは？

@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "おや、CerebrasがUAEに大規模なAIインフラを展開するって話、君も耳にしたかい？正直なところ、個人的には、この動きの裏に何があるのか、深く掘り下げて考える必要があると感じているんだ。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-15-1-cerebrasuae-ogp.png"
 ---
 
 CerebrasのUAE展開、その真意はどこにあるのか？

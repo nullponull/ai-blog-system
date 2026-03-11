@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "生成AIブームが引き起こす半導体不足の真意とは？業界のベテランが語る未来への洞察"
 reading_time: 20
+image: "/assets/images/posts/2025-10-25-2-ai-article-update-ogp.png"
 ---
 
 生成AIブームが引き起こす半導体不足の真意とは？業界のベテランが語る未来への洞察

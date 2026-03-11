@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "Getty ImagesとPerplexityの提携：AI時代のコンテンツ利用に何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-02-3-getty-imagesperplexity-ogp.png"
 ---
 
 Getty ImagesとPerplexityの提携：AI時代のコンテンツ利用に何が変わるのか？

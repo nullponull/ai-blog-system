@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "おや、これは面白いニュースが出てきたね。Inflection AIとAMDが次世代AIチップ開発で提携、という一報。君もこのニュースを見て、ふと立ち止まったんじゃないかな？正直なところ、個人的には最初は「また提携か」と斜に構えてしまったんだ。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-11-1-inflection-aiamd-ogp.png"
 ---
 
 **Inflection AIとAMDの提タッグ、その真意は？AIチップ市場の地殻変動が始まるのか。**

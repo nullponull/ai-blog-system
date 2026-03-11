@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "2025年8月29日、OpenAIのCEOであるサム・アルトマン氏が、現在のAI市場における投資熱が「過熱している」と発言し、市場全体に警鐘を鳴らしました。"
 reading_time: 7
+image: "/assets/images/posts/2025-08-29-4-openaiceoai-ogp.png"
 ---
 
 ## 概要と背景

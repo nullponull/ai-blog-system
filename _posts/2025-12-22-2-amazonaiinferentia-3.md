@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "2025年12月22日、AWSがAIチップ「Inferentia 3」でコスト削減を実現したというニュースを目にしたとき、あなたも「ああ、また来たか」と感じたかもしれませんね。正直なところ、私も同じような感覚を覚えました。"
 reading_time: 9
+image: "/assets/images/posts/2025-12-22-2-amazonaiinferentia-3-ogp.png"
 ---
 
 ## AmazonのAIチップ「Inferentia 3」、クラウドAIの未来をどう塗り替えるのか？

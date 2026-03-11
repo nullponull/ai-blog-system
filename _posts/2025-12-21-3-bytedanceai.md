@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "ByteDance"]
 author: "ALLFORCES編集部"
 excerpt: "いやー、ByteDanceがAI生成コンテンツの収益化戦略を発表したというニュース、あなたも耳にしましたか？正直、この手のニュースは日々飛び交っているので、最初は「またか」という気持ちも少しありました。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-21-3-bytedanceai-ogp.png"
 ---
 
 ByteDanceのAI収益化戦略、その真意は？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "RAG", "マルチモーダル", "音声AI", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "台湾企業がAIスマートグラスに注力する真意とは？その戦略と未来を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-11-08-2-ai-article-update-ogp.png"
 ---
 
 台湾企業がAIスマートグラスに注力する真意とは？その戦略と未来を読み解く

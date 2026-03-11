@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Amazon", "画像生成", "AI規制", "AI倫理", "自動運転
 author: "ALLFORCES編集部"
 excerpt: "「トヨタが自律走行AIでレベル4を達成した」――このニュース、あなたも耳にしましたよね。正直なところ、最初は「またか」とも思いました。AI業界を20年近く見てきていると、こうした「ブレークスルー」のニュースは、"
 reading_time: 7
+image: "/assets/images/posts/2026-02-12-2-ai-article-update-ogp.png"
 ---
 
 トヨタのレベル4自律走行、その真意は何なのか？

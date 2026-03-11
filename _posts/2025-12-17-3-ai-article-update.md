@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "AI倫理の国際標準化、その真意と私たちはどう向き合うべきか？"
 reading_time: 14
+image: "/assets/images/posts/2025-12-17-3-ai-article-update-ogp.png"
 ---
 
 AI倫理の国際標準化、その真意と私たちはどう向き合うべきか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "LLM", "AIエージェント", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "半導体製造装置の世界最大手であるASMLは、フランスのAIスタートアップ企業Mistral AIに対し、13億ユーロ（約2000億円）の戦略的投資を実行しました。この投資は、"
 reading_time: 6
+image: "/assets/images/posts/2025-09-08-2-asmlmistral-aiに13億ユ-ogp.png"
 ---
 
 # ASML、Mistral AIに13億ユーロ投資：欧州AI戦略の要

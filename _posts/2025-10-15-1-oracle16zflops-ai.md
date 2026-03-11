@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-15-1-oracle16zflops-ai-ogp.png"
 ---
 
 Oracleの16ZFLOPS AIスパコン発表、その真意はどこにあるのか？

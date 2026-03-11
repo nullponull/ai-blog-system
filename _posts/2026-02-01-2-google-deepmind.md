@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindが、再びAIの進化の扉を叩いたようですね。脳型AIで新記録達成というニュース、あなたも目にしましたか？正直なところ、個人的には「またか」という第一印象でした。"
 reading_time: 7
+image: "/assets/images/posts/2026-02-01-2-google-deepmind-ogp.png"
 ---
 
 Google DeepMindが、再びAIの進化の扉を叩いたようですね。脳型AIで新記録達成というニュース、あなたも目にしましたか？正直なところ、個人的には「またか」という第一印象でした。DeepMindからの画期的な発表は枚挙にいとまがなく、私たち業界人にとってはもはや日常茶飯事と言っても過言ではないかもしれません。しかし、今回のニュースは、よくよく考えてみると、これまでの「新記録」とは少しばかり意味合いが違うかもしれない、そんな予感がしています。

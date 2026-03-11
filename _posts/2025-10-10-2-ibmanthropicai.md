@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-2-ibmanthropicai-ogp.png"
 ---
 
 IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？

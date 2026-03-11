@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Apple", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Snapdragon 8 Elite Gen 5のAI NPU 37%高速化、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-1-snapdragon-8-elite-gen-5ai-npu-37-ogp.png"
 ---
 
 Snapdragon 8 Elite Gen 5のAI NPU 37%高速化、その真意とは？

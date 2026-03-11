@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "ファインチューニング", "AI規制", 
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE Botの多言語強化、何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-31-3-baidu-ernie-bot-ogp.png"
 ---
 
 Baidu ERNIE Botの多言語強化、何が変わるのか？

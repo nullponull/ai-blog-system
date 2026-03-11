@@ -7,6 +7,7 @@ tags: ["LLM", "AIエージェント", "マルチモーダル", "推論最適化"
 author: "ALLFORCES編集部"
 excerpt: "Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-28-3-zen-intelligence-ogp.png"
 ---
 
 Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？

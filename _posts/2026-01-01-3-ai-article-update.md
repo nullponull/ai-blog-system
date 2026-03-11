@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "AI倫理の業界標準化は、単なるお題目か？その真意と、私たちが備えるべき未来"
 reading_time: 9
+image: "/assets/images/posts/2026-01-01-3-ai-article-update-ogp.png"
 ---
 
 AI倫理の業界標準化は、単なるお題目か？その真意と、私たちが備えるべき未来

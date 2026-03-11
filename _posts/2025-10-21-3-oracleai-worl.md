@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。"
 reading_time: 20
+image: "/assets/images/posts/2025-10-21-3-oracleai-worl-ogp.png"
 ---
 
 Oracleが年次イベントを「AI World」に改称した真意とは？その戦略を読み解く。

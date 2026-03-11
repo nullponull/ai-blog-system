@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "Googleは2025年9月9日、日本語を含む5言語で「Google AIモード」の提供を開始しました。これは、同社の最先端AIモデル「Gemini 2.5」のカスタム版を基盤とし、"
 reading_time: 8
+image: "/assets/images/posts/2025-09-09-1-google-aigemini-25-ogp.png"
 ---
 
 # Google AI検索進化：Gemini 2.5が拓く新時代

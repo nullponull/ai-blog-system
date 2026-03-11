@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "マルチモーダ
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-19-2-microsoftazure-ai-ogp.png"
 ---
 
 MicrosoftのAzure AI、中小企業向けDX支援強化は、本当に日本のビジネスを変えるのか？

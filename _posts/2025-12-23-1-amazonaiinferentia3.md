@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "AmazonのAIチップ「Inferentia3」発表、何が変わるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-23-1-amazonaiinferentia3-ogp.png"
 ---
 
 AmazonのAIチップ「Inferentia3」発表、何が変わるのか？

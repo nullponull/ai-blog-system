@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Inferentia 3、AIの舞台裏で何が起こるのか？"
 reading_time: 14
+image: "/assets/images/posts/2026-01-29-3-amazon-inferentia-3ai-ogp.png"
 ---
 
 Amazon Inferentia 3、AIの舞台裏で何が起こるのか？

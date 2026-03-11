@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "LLM", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-26-2-foxconnopenaiai-ogp.png"
 ---
 
 FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？

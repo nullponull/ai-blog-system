@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "マルチモーダル", "音声AI", "AI人材", "自
 author: "ALLFORCES編集部"
 excerpt: "ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？"
 reading_time: 7
+image: "/assets/images/posts/2025-12-13-3-ernie-bot-50baidu-ogp.png"
 ---
 
 ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？

@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル
 author: "ALLFORCES編集部"
 excerpt: "サカナAI、200億円調達の真意は？計算資源に依存しないAI開発が変える未来の景色"
 reading_time: 20
+image: "/assets/images/posts/2025-11-24-1-ai-article-update-ogp.png"
 ---
 
 サカナAI、200億円調達の真意は？計算資源に依存しないAI開発が変える未来の景色

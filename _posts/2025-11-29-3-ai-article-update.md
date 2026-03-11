@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "生成AI、無料の蜜月は終わるのか？ コストの現実が示す未来とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-29-3-ai-article-update-ogp.png"
 ---
 
 生成AI、無料の蜜月は終わるのか？ コストの現実が示す未来とは？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "LLM", "AIエージェント", "画像生成", "AI
 author: "ALLFORCES編集部"
 excerpt: "Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-31-2-adobe-firefly-5-ogp.png"
 ---
 
 Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？

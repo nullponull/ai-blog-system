@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-19-1-adobe-firefly-208k-ogp.png"
 ---
 
 Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデル50種搭載。何が変わるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-20-1-amazon-bedrock50-ogp.png"
 ---
 
 Amazon Bedrock、新モデル50種搭載。何が変わるのか？

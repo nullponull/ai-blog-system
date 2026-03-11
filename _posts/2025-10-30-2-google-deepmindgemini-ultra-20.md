@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Google DeepMindのGemini Ultra 2.0、その真意とAIの未来に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-30-2-google-deepmindgemini-ultra-20-ogp.png"
 ---
 
 Google DeepMindのGemini Ultra 2.0、その真意とAIの未来に何をもたらすのか？

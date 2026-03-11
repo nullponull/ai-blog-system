@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "推論最適化", "AI人材", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "トヨタの自動運転AI新チップ開発、その真意は何を意味するのか？"
 reading_time: 7
+image: "/assets/images/posts/2026-02-11-2-ai-article-update-ogp.png"
 ---
 
 トヨタの自動運転AI新チップ開発、その真意は何を意味するのか？

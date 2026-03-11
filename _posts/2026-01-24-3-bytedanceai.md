@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "ByteDance", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-24-3-bytedanceai-ogp.png"
 ---
 
 ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-29-1-amazon-bedrockllama-4-ogp.png"
 ---
 
 Amazon BedrockとLLaMA 4の融合が、エンタープライズAIの未来をどう変えるのか？

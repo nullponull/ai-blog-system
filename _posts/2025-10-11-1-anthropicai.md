@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropicの警告：AIバックドア脆弱性は、私たちの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-1-anthropicai-ogp.png"
 ---
 
 Anthropicの警告：AIバックドア脆弱性は、私たちの未来をどう変えるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleがCipher Miningに5.4%出資、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-26-1-googlecipher-mining54-ogp.png"
 ---
 
 GoogleがCipher Miningに5.4%出資、その真意はどこにあるのか？

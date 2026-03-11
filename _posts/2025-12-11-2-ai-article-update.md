@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Apple", "AIエージェント", "推論最適化", "AI規制",
 author: "ALLFORCES編集部"
 excerpt: "ソニーがAIチップでゲーム体験向上を図る。その真意と未来はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-11-2-ai-article-update-ogp.png"
 ---
 
 ソニーがAIチップでゲーム体験向上を図る。その真意と未来はどこにあるのか？

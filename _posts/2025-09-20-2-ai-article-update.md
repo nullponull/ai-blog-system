@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-20-2-ai-article-update-ogp.png"
 ---
 
 AIデータセンターの未来は液冷にあり？MSとNVIDIAが描く新時代、その真意とは？

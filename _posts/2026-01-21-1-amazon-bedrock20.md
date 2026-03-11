@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、新モデル20種追加。何が変わるのか？"
 reading_time: 8
+image: "/assets/images/posts/2026-01-21-1-amazon-bedrock20-ogp.png"
 ---
 
 Amazon Bedrock、新モデル20種追加。何が変わるのか？

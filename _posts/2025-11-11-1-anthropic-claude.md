@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude、2028年黒字化の真意とは？AI業界のベテランが読み解くその戦略"
 reading_time: 20
+image: "/assets/images/posts/2025-11-11-1-anthropic-claude-ogp.png"
 ---
 
 Anthropic Claude、2028年黒字化の真意とは？AI業界のベテランが読み解くその戦略

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来"
 reading_time: 20
+image: "/assets/images/posts/2025-09-29-1-nvidia-ceo3ai-ogp.png"
 ---
 
 Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来

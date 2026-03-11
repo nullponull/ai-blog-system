@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "xAI Grok 4 Fast、推論コスト98%削減の真意とは？業界の未来をどう変えるのか。"
 reading_time: 20
+image: "/assets/images/posts/2025-09-23-1-xai-grok-4-fast-ogp.png"
 ---
 
 xAI Grok 4 Fast、推論コスト98%削減の真意とは？業界の未来をどう変えるのか。

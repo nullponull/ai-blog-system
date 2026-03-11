@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "LLM", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Azure AIと量子コンピューティングの深化：その真意と、私たちが備えるべき未来とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-19-2-microsoft-azure-ai-ogp.png"
 ---
 
 Microsoft Azure AIと量子コンピューティングの深化：その真意と、私たちが備えるべき未来とは？

@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "マルチモーダル", "音声AI", "推論最適化", 
 author: "ALLFORCES編集部"
 excerpt: "富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-02-3-frontriaai-ogp.png"
 ---
 
 富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Alibaba CloudのAI投資3800億元、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-29-1-alibaba-cloudai3800-ogp.png"
 ---
 
 Alibaba CloudのAI投資3800億元、その真意はどこにあるのか？

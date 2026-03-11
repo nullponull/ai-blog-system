@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "日本がAIチップ独自規格を検討する真意とは？そして、その先に何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-12-2-ai-article-update-ogp.png"
 ---
 
 日本がAIチップ独自規格を検討する真意とは？そして、その先に何が変わるのか？

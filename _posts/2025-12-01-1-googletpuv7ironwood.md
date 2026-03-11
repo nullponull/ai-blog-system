@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-01-1-googletpuv7ironwood-ogp.png"
 ---
 
 GoogleのTPUv7「Ironwood」：NVIDIAの牙城を崩せるか？その真意はどこにある？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AI規制", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot X、医療DXはどこまで進む？"
 reading_time: 8
+image: "/assets/images/posts/2026-02-06-1-microsoft-copilot-xdx-ogp.png"
 ---
 
 Microsoft Copilot X、医療DXはどこまで進む？

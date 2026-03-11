@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-25-1-inflection-aiinflection-3-ogp.png"
 ---
 
 Inflection AIの「Inflection-3」発表、企業向けAPI提供開始の裏で何が動いているのでしょうか？

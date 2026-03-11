@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-22-3-openaistripeai-ogp.png"
 ---
 
 OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？

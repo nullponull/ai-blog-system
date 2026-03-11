@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-10-1-metallama-4llm-ogp.png"
 ---
 
 MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？

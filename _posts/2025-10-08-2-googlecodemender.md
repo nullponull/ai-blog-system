@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-08-2-googlecodemender-ogp.png"
 ---
 
 GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？

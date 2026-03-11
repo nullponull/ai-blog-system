@@ -7,6 +7,7 @@ tags: ["Apple", "RAG", "音声AI", "ROI分析", "セキュリティ", "AI倫理"
 author: "ALLFORCES編集部"
 excerpt: "次期Snapdragon、AI性能3倍は本当？何が変わるのか？"
 reading_time: 7
+image: "/assets/images/posts/2026-01-25-2-snapdragonai3-ogp.png"
 ---
 
 次期Snapdragon、AI性能3倍は本当？何が変わるのか？

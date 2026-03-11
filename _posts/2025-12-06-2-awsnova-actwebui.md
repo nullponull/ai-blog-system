@@ -7,6 +7,7 @@ tags: ["Amazon", "AIエージェント", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？"
 reading_time: 5
+image: "/assets/images/posts/2025-12-06-2-awsnova-actwebui-ogp.png"
 ---
 
 AWSの「Nova Act」が拓くWebUI自動化の新境地、その真意とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Reflection AI、3000億円調達の真意とは？AI業界の新たな波を読む"
 reading_time: 20
+image: "/assets/images/posts/2025-10-17-3-reflection-ai3000ai-ogp.png"
 ---
 
 Reflection AI、3000億円調達の真意とは？AI業界の新たな波を読む

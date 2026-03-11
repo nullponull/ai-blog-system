@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "AmazonのAIチップ「Trainium2」は、AI開発に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-25-1-amazonaitrainium2ai-ogp.png"
 ---
 
 AmazonのAIチップ「Trainium2」は、AI開発に何をもたらすのか？

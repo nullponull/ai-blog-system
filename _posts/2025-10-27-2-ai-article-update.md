@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "カリフォルニア州のAIチャットボット安全対策法、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-27-2-ai-article-update-ogp.png"
 ---
 
 カリフォルニア州のAIチャットボット安全対策法、その真意とは？

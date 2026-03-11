@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Mistral AIの企業向けAI戦略、その真意は？欧州発の挑戦が市場をどう変えるのか"
 reading_time: 20
+image: "/assets/images/posts/2025-10-26-1-mistral-aiai-ogp.png"
 ---
 
 Mistral AIの企業向けAI戦略、その真意は？欧州発の挑戦が市場をどう変えるのか

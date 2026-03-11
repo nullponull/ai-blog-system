@@ -7,6 +7,7 @@ tags: ["xAI", "LLM", "音声AI", "ファインチューニング", "AI規制", "
 author: "ALLFORCES編集部"
 excerpt: "医療現場にAIが深く浸透する時、何が本当に変わるのか？大阪がんセンターの挑戦"
 reading_time: 20
+image: "/assets/images/posts/2025-10-02-2-ai-article-update-ogp.png"
 ---
 
 医療現場にAIが深く浸透する時、何が本当に変わるのか？大阪がんセンターの挑戦

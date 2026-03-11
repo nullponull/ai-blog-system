@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-08-2-microsoftai-ogp.png"
 ---
 
 MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？

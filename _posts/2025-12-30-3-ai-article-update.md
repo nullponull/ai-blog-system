@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "Amazon", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "AI倫理の国際標準化、その議論の活発化は、私たちのAIの未来をどう変えるのだろう？"
 reading_time: 7
+image: "/assets/images/posts/2025-12-30-3-ai-article-update-ogp.png"
 ---
 
 AI倫理の国際標準化、その議論の活発化は、私たちのAIの未来をどう変えるのだろう？

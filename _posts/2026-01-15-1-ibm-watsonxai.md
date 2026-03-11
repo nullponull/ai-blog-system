@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "いやぁ、このニュースを見たとき、正直言ってね、ちょっと驚いたんだ。IBM WatsonXが企業向けLLMで300社突破だって？あなたも感じたかもしれないけど、私の頭にはまず「またWatsonか…」という思いがよぎったんだよね。"
 reading_time: 12
+image: "/assets/images/posts/2026-01-15-1-ibm-watsonxai-ogp.png"
 ---
 
 ## IBM WatsonXが拓く企業AIの新たな章、その300社突破は何を意味するのか？

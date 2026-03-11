@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMind AlphaFold3、タンパク質予測精度95%の衝撃は、本当に創薬の未来を変えるのか？"
 reading_time: 14
+image: "/assets/images/posts/2026-01-20-1-deepmind-alphafold3-ogp.png"
 ---
 
 DeepMind AlphaFold3、タンパク質予測精度95%の衝撃は、本当に創薬の未来を変えるのか？

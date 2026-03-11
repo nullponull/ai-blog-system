@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "Amazon", "xAI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "トヨタ、自動運転AIに3兆円の巨額投資。この一手が示す、モビリティ変革の行方とは？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-09-3-ai-article-update-ogp.png"
 ---
 
 トヨタ、自動運転AIに3兆円の巨額投資。この一手が示す、モビリティ変革の行方とは？

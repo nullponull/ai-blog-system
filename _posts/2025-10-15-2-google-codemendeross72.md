@@ -7,6 +7,7 @@ tags: ["Google", "Apple", "AIエージェント", "推論最適化", "AI規制",
 author: "ALLFORCES編集部"
 excerpt: "Google CodeMenderがOSSに72件の修正をもたらした真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-15-2-google-codemendeross72-ogp.png"
 ---
 
 Google CodeMenderがOSSに72件の修正をもたらした真意とは？

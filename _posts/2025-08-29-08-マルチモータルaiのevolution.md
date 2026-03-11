@@ -9,6 +9,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "2025年8月29日現在、人工知能（AI）の進化は目覚ましく、特にマルチモーダルAIは、その応用範囲と能力を飛躍的に拡大しています。"
 reading_time: 9
+image: "/assets/images/posts/2025-08-29-08-マルチモータルaiのevolution-ogp.png"
 ---
 
 ## 概要と背景

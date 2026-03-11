@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意とは"
 reading_time: 20
+image: "/assets/images/posts/2025-10-25-2-lightricksltx-2ai-ogp.png"
 ---
 
 LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意とは

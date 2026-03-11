@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIAのBlackwellアーキテクチャは、生成AIおよび大規模AIワークロード向けに設計された革新的なGPUプラットフォームです。前世代のHopperと比較して、性能とエネルギー効率において飛躍的な向上を実現し、"
 reading_time: 9
+image: "/assets/images/posts/2025-09-07-3-nvidia-blackwell-ogp.png"
 ---
 
 # NVIDIA Blackwell: AI時代の覇権を握る技術と市場戦略

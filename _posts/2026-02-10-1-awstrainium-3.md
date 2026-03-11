@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。またしてもビッグニュースが飛び込んできたね。AmazonがAWS向けに自社開発した最新のAIチップ「Trainium 3」を発表したという話。正直なところ、このニュースを聞いた時、私の中では「また来たか！"
 reading_time: 8
+image: "/assets/images/posts/2026-02-10-1-awstrainium-3-ogp.png"
 ---
 
 ## AWSの「Trainium 3」は、AIチップ競争の潮目を変えるのか？その真意を読み解く。

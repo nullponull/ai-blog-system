@@ -7,6 +7,7 @@ tags: ["OpenAI", "LLM", "AIエージェント", "画像生成", "推論最適化
 author: "ALLFORCES編集部"
 excerpt: "パナソニックの「Reflect-Dit」は画像生成AIの常識をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-17-1-reflect-ditai-ogp.png"
 ---
 
 パナソニックの「Reflect-Dit」は画像生成AIの常識をどう変えるのか？

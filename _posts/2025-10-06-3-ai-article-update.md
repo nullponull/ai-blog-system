@@ -7,6 +7,7 @@ tags: ["Amazon", "LLM", "RAG", "AI規制", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-06-3-ai-article-update-ogp.png"
 ---
 
 ソニー銀行の勘定系AI導入、その真意と金融業界への波紋とは？

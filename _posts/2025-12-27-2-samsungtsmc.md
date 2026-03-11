@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "あなたも、このニュースを聞いて正直「え、マジで？」って思ったんじゃないでしょうか。SamsungとTSMC、長年の宿敵とも言える半導体ファウンドリの巨頭が、AIチップ製造で「提携」という話。"
 reading_time: 10
+image: "/assets/images/posts/2025-12-27-2-samsungtsmc-ogp.png"
 ---
 
 ## SamsungとTSMCの提携、その真意はどこにあるのか？AI時代の半導体市場に何が起きる？

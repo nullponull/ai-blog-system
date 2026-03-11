@@ -7,6 +7,7 @@ tags: ["Meta", "NVIDIA", "マルチモーダル", "推論最適化", "AI人材",
 author: "ALLFORCES編集部"
 excerpt: "ソニーのAIチップがゲーム体験をどう革新するのか、その深層を覗いてみよう。"
 reading_time: 15
+image: "/assets/images/posts/2025-12-13-1-ai-article-update-ogp.png"
 ---
 
 ソニーのAIチップがゲーム体験をどう革新するのか、その深層を覗いてみよう。

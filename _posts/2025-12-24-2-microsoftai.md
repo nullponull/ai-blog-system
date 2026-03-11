@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoftの新AIツール、開発者の現場はどう変わる？"
 reading_time: 13
+image: "/assets/images/posts/2025-12-24-2-microsoftai-ogp.png"
 ---
 
 Microsoftの新AIツール、開発者の現場はどう変わる？

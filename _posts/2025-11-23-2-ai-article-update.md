@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "LLM", "画像生成", "推論最適化"
 author: "ALLFORCES編集部"
 excerpt: "跡見学園のAI科学芸術センター新設：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-23-2-ai-article-update-ogp.png"
 ---
 
 跡見学園のAI科学芸術センター新設：その真意はどこにあるのか？

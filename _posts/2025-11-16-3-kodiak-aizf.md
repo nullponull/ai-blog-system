@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"
 author: "ALLFORCES編集部"
 excerpt: "Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-16-3-kodiak-aizf-ogp.png"
 ---
 
 Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？

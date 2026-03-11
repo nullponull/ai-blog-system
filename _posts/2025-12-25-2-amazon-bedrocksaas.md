@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとSaaS連携がもたらすAPI利用料削減、その真意とは何か？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-25-2-amazon-bedrocksaas-ogp.png"
 ---
 
 Amazon BedrockとSaaS連携がもたらすAPI利用料削減、その真意とは何か？

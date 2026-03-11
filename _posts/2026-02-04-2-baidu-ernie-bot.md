@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "xAI", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Baidu ERNIE Bot、医療診断95%達成の衝撃：その数字の裏に何が隠されているのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-02-04-2-baidu-ernie-bot-ogp.png"
 ---
 
 Baidu ERNIE Bot、医療診断95%達成の衝撃：その数字の裏に何が隠されているのか？

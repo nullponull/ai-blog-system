@@ -7,6 +7,7 @@ tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "ANAの「neoAI Chat」導入、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-18-3-ananeoai-chat-ogp.png"
 ---
 
 ANAの「neoAI Chat」導入、その真意はどこにあるのか？

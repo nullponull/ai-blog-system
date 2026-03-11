@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "AIエージェント", "マルチモーダル", "音声
 author: "ALLFORCES編集部"
 excerpt: "Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-15-1-samsung-ai-forum-2025-ogp.png"
 ---
 
 Samsung AI Forum 2025：エージェントAIが拓く未来、その真意とは？

@@ -7,6 +7,7 @@ tags: ["AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "AI歌手Xania Monet、Billboard初ランクイン：音楽業界に何が起きているのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-09-3-aixania-monet-ogp.png"
 ---
 
 AI歌手Xania Monet、Billboard初ランクイン：音楽業界に何が起きているのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側"
 reading_time: 20
+image: "/assets/images/posts/2025-10-04-2-ai-article-update-ogp.png"
 ---
 
 「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側

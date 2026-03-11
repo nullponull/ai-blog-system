@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Samsungの次世代AIチップ「Exynos 2800」発表、その真意は何だろうか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-12-1-samsungaiexynos-ogp.png"
 ---
 
 Samsungの次世代AIチップ「Exynos 2800」発表、その真意は何だろうか？

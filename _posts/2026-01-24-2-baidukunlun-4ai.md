@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-24-2-baidukunlun-4ai-ogp.png"
 ---
 
 Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？

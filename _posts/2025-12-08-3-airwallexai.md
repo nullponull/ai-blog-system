@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "RAG", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、AIの話題は尽きませんね。私もこの業界を20年近く見てきましたが、ここ数年のような、まさに「革命」と呼ぶにふさわしい変化は初めてかもしれません。特に金融分野でのAI活用は、私自身も懐疑的な目を向けてきた部分がありましたが、最近、"
 reading_time: 20
+image: "/assets/images/posts/2025-12-08-3-airwallexai-ogp.png"
 ---
 
 ## AirwallexのAI、金融ワークフローをどこまで変えるのか？

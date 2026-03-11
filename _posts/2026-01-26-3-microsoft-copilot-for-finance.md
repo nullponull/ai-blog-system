@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "xAI", "AIエージェント", "AI規制
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot for Finance、その実力は本物なのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-26-3-microsoft-copilot-for-finance-ogp.png"
 ---
 
 Microsoft Copilot for Finance、その実力は本物なのか？

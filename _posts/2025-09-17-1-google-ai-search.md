@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "AIエージェント", "推論最適化", "AI規制"
 author: "ALLFORCES編集部"
 excerpt: "Google AI Searchの進化、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-17-1-google-ai-search-ogp.png"
 ---
 
 Google AI Searchの進化、その真意はどこにあるのか？

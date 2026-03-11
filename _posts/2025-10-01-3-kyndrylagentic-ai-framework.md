@@ -7,6 +7,7 @@ tags: ["AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI
 author: "ALLFORCES編集部"
 excerpt: "Kyndrylの「Agentic AI Framework」が示す、企業AI導入の次なる真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-01-3-kyndrylagentic-ai-framework-ogp.png"
 ---
 
 Kyndrylの「Agentic AI Framework」が示す、企業AI導入の次なる真意とは？

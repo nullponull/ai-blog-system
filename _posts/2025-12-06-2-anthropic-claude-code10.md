@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Codeが10億ドル収益を達成、その真意とは？"
 reading_time: 5
+image: "/assets/images/posts/2025-12-06-2-anthropic-claude-code10-ogp.png"
 ---
 
 Anthropic Claude Codeが10億ドル収益を達成、その真意とは？

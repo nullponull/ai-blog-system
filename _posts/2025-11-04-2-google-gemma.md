@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "xAI", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemma、偽情報生成で一時撤回：AIの「幻覚」はどこまで許容されるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-04-2-google-gemma-ogp.png"
 ---
 
 Google Gemma、偽情報生成で一時撤回：AIの「幻覚」はどこまで許容されるのか？

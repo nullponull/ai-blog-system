@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、Amazon SageMaker の量子AI連携強化のニュース。正直、最初に耳にした時は「また新しい技術トレンドか」と、ちょっと懐疑的になったというのが本音です。"
 reading_time: 9
+image: "/assets/images/posts/2025-12-17-1-sagemaker-ai-ogp.png"
 ---
 
 SageMaker と量子AI、この連携強化で何が変わる？

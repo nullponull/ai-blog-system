@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "サムスン、AIチップ開発加速の真意とは？ 半導体覇権を巡る静かなる戦いの行方を読む。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-16-2-ai-article-update-ogp.png"
 ---
 
 サムスン、AIチップ開発加速の真意とは？ 半導体覇権を巡る静かなる戦いの行方を読む。

@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "DeepMindの創薬AI、その真意と未来はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-25-3-deepmindai-ogp.png"
 ---
 
 DeepMindの創薬AI、その真意と未来はどこにあるのか？

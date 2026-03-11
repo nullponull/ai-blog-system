@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-11-1-amazonappleai-ogp.png"
 ---
 
 AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？

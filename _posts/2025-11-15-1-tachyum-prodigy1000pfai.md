@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-15-1-tachyum-prodigy1000pfai-ogp.png"
 ---
 
 Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Amazon", "AIエージェント", "ROI分析", "AI
 author: "ALLFORCES編集部"
 excerpt: "シーメンスとキャップジェミニの産業AI提携、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-30-2-ai-article-update-ogp.png"
 ---
 
 シーメンスとキャップジェミニの産業AI提携、その真意はどこにあるのか？

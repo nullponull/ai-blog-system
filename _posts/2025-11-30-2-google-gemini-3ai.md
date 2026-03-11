@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3が示す、AIの「自律」への真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-30-2-google-gemini-3ai-ogp.png"
 ---
 
 Google Gemini 3が示す、AIの「自律」への真意とは？

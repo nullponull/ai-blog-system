@@ -7,6 +7,7 @@ tags: ["OpenAI", "LLM", "マルチモーダル", "画像生成", "AI規制", "AI
 author: "ALLFORCES編集部"
 excerpt: "最近、Adobe Firefly 2.0の話題で持ちきりですね。生成AIがデザイン業界にもたらす変化について、あなたも感じているかもしれませんが、個人的には、また来たか、と少し構えたのが正直なところです。"
 reading_time: 7
+image: "/assets/images/posts/2026-02-09-1-adobe-firefly-20-ogp.png"
 ---
 
 **Adobe Firefly 2.0は、UXデザインの常識を本当に塗り替えるのか？その真意を読み解く。**

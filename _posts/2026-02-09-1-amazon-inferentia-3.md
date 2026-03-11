@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Inferentia 3、このチップがAI業界にもたらす静かなる嵐の兆候とは？"
 reading_time: 16
+image: "/assets/images/posts/2026-02-09-1-amazon-inferentia-3-ogp.png"
 ---
 
 Amazon Inferentia 3、このチップがAI業界にもたらす静かなる嵐の兆候とは？

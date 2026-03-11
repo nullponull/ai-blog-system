@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "LLM", "ファインチューニング",
 author: "ALLFORCES編集部"
 excerpt: "IBM WatsonX、金融アナリストの「相棒」となるか？その実力と未来"
 reading_time: 8
+image: "/assets/images/posts/2026-02-03-1-ibm-watsonx-ogp.png"
 ---
 
 IBM WatsonX、金融アナリストの「相棒」となるか？その実力と未来

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "AIが企業生産性を変える：その真価と私たちが今すべきこととは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-01-1-ai-article-update-ogp.png"
 ---
 
 AIが企業生産性を変える：その真価と私たちが今すべきこととは？

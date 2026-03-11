@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "LLM", "AIエージェント", "推論最適化", 
 author: "ALLFORCES編集部"
 excerpt: "あなたも感じているかもしれませんが、最近のAIの進化は本当に目覚ましいものがありますよね。特に、MicrosoftがCopilot Proで自律AIエージェント機能を強化するというニュースを聞いて、正直なところ、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-23-1-copilot-proai-ogp.png"
 ---
 
 ## Copilot Proが拓く自律AIエージェントの真意とは？

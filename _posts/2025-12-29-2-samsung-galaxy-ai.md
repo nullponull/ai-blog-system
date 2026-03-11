@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "Apple", "RAG", "画像生成"]
 author: "ALLFORCES編集部"
 excerpt: "Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-29-2-samsung-galaxy-ai-ogp.png"
 ---
 
 Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？

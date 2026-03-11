@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "メタがGoogle TPUを採用？ AIインフラの未来に何が変わるのか、その真意は"
 reading_time: 20
+image: "/assets/images/posts/2025-11-28-1-metagoogle-tpu-ai-ogp.png"
 ---
 
 メタがGoogle TPUを採用？ AIインフラの未来に何が変わるのか、その真意は

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftのAIチップ自社開発加速、その真の狙いと業界の未来はどう動くのか？"
 reading_time: 8
+image: "/assets/images/posts/2026-02-08-3-microsoftai-ogp.png"
 ---
 
 MicrosoftのAIチップ自社開発加速、その真の狙いと業界の未来はどう動くのか？

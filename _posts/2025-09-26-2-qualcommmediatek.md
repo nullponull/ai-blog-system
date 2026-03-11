@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-26-2-qualcommmediatek-ogp.png"
 ---
 
 QualcommとMediaTek、クラウドAI ASICへの本気：その真意はどこにあるのか？

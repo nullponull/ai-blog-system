@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-19-3-llama-4metallm-ogp.png"
 ---
 
 Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？

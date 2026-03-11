@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "大変申し訳ありませんが、現時点（2025年11月25日）で「Google Gemini 3.0」に関する公式な発表や詳細な情報は見つけることができませんでした。もしかすると、まだ一般に公開されていないか、"
 reading_time: 20
+image: "/assets/images/posts/2025-11-25-1-ai-article-update-ogp.png"
 ---
 
 大変申し訳ありませんが、現時点（2025年11月25日）で「Google Gemini 3.0」に関する公式な発表や詳細な情報は見つけることができませんでした。もしかすると、まだ一般に公開されていないか、あるいは別の名称での発表が予定されているのかもしれませんね。

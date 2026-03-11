@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Apple", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "OpenAI ChatGPT、8億人突破とApp SDK発表が示す、AIの「次なる主戦場」とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-17-1-openai-chatgpt-ogp.png"
 ---
 
 OpenAI ChatGPT、8億人突破とApp SDK発表が示す、AIの「次なる主戦場」とは？

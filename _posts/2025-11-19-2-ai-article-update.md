@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-19-2-ai-article-update-ogp.png"
 ---
 
 ソフトバンク、Blackwellで国内AI基盤の覇者へ：その真意と、日本の未来に何をもたらすのか？

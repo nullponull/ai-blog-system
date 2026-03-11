@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-09-2-anthropic-claudeagent-skills-ogp.png"
 ---
 
 Anthropic Claudeの「Agent Skills」導入、その真意は？AIの未来をどう変えるのか？

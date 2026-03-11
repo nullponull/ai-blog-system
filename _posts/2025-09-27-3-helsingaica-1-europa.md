@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "xAI", "AIエージェント", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-3-helsingaica-1-europa-ogp.png"
 ---
 
 独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["AI規制", "AI倫理", "自動運転"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、Baiduの自動運転AI「Apollo」が上海で本格展開するっていうニュース、耳にしましたか？正直、最初にこのニュースを聞いた時、「またか」という気持ちと、「でも、今回は何か違うのかも？」という期待が入り混じったんです。"
 reading_time: 7
+image: "/assets/images/posts/2026-01-20-3-baiduapollo-ogp.png"
 ---
 
 BaiduのApollo、上海で自動運転はどう変わる？

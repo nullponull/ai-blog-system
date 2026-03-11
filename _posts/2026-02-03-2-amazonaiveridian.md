@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "Amazon", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "AmazonのAI小売分析「Veridian」、その本当の実力とは？"
 reading_time: 7
+image: "/assets/images/posts/2026-02-03-2-amazonaiveridian-ogp.png"
 ---
 
 AmazonのAI小売分析「Veridian」、その本当の実力とは？

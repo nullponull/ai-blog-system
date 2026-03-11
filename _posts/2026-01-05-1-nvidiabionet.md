@@ -7,6 +7,7 @@ tags: ["NVIDIA", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "NVIDIAの「BioNet」、創薬の未来をどう変えるのか？"
 reading_time: 6
+image: "/assets/images/posts/2026-01-05-1-nvidiabionet-ogp.png"
 ---
 
 NVIDIAの「BioNet」、創薬の未来をどう変えるのか？

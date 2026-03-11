@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "NVIDIA", "画像生成", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "2025年6月、画像生成AIの分野でその名を確立してきたMidjourneyが、待望の画像から動画を生成する機能「V1」をリリースし、動画生成市場への本格的な参入を果たしました。これは、静止画から動的なコンテンツを創出する技術の進化を示す画期的な一歩であり、クリエイティブ産業全体に大きな影響を与える可能性を秘めています。"
 reading_time: 8
+image: "/assets/images/posts/2025-08-29-2-midjourney-ogp.png"
 ---
 
 ## 概要と背景

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Google Gemini 3.0、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-21-1-google-gemini-30-ogp.png"
 ---
 
 Google Gemini 3.0、その真意はどこにあるのか？

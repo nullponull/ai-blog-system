@@ -7,6 +7,7 @@ tags: ["AIエージェント", "ROI分析", "AI人材", "セキュリティ", "A
 author: "ALLFORCES編集部"
 excerpt: "MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-22-3-mitcognify-aiux-ogp.png"
 ---
 
 MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？

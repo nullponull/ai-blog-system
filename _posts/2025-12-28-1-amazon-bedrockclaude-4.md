@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、これがAmazon Bedrock上でAnthropic Claude 4、いや正確にはClaude 3のOpus, Sonnet, Haikuモデルが利用可能になったというニュースを聞いた時の、私の第一印象でした。"
 reading_time: 11
+image: "/assets/images/posts/2025-12-28-1-amazon-bedrockclaude-4-ogp.png"
 ---
 
 ## Amazon BedrockとClaude 4の連携、その真の価値をどう見極めるべきか？

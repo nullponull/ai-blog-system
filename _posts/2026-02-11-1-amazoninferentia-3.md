@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazonの「Inferentia 3」、本当にAIのゲームチェンジャーになるのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-02-11-1-amazoninferentia-3-ogp.png"
 ---
 
 Amazonの「Inferentia 3」、本当にAIのゲームチェンジャーになるのか？

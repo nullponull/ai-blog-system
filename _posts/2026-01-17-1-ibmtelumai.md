@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Amazon", "推論最適化", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-17-1-ibmtelumai-ogp.png"
 ---
 
 IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。

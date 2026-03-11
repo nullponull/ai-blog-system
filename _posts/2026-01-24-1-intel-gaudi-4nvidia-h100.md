@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "「Intel Gaudi 4がNVIDIA H100を超える」という話、AIチップ業界の景色はどう変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-24-1-intel-gaudi-4nvidia-h100-ogp.png"
 ---
 
 「Intel Gaudi 4がNVIDIA H100を超える」という話、AIチップ業界の景色はどう変わるのか？

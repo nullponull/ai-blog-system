@@ -7,6 +7,7 @@ tags: ["AIコンサルティング", "AI導入支援", "費用相場", "比較"]
 author: "ALLFORCES編集部"
 excerpt: "AI導入コンサルティング会社15社を費用相場・得意分野・実績で徹底比較。選定時の注意点や実際の失敗事例から学ぶ、成功するコンサル会社の選び方を解説します。"
 reading_time: 13
+image: "/assets/images/posts/2026-03-11-ai-consulting-company-comparison-15-ogp.png"
 ---
 
 ## AI導入コンサルティング市場は急成長、しかし「選び方」で成否が分かれる

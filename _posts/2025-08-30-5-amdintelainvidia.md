@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "AI技術の急速な進化は、その基盤となる半導体市場に未曾有の成長をもたらしています。"
 reading_time: 9
+image: "/assets/images/posts/2025-08-30-5-amdintelainvidia-ogp.png"
 ---
 
 ## 概要と背景

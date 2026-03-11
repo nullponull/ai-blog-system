@@ -7,6 +7,7 @@ tags: ["LLM", "音声AI", "AI規制", "AI人材", "DX推進", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Mavericksの「NoLang」が動画生成AIを強化、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-16-1-mavericksnolanga-ogp.png"
 ---
 
 Mavericksの「NoLang」が動画生成AIを強化、その真意はどこにあるのか？

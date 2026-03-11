@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ
 author: "ALLFORCES編集部"
 excerpt: "量子AIデータセンター開設の真意とは？OQCとNVIDIAの提携が示す未来への布石"
 reading_time: 20
+image: "/assets/images/posts/2025-09-16-1-ai-article-update-ogp.png"
 ---
 
 量子AIデータセンター開設の真意とは？OQCとNVIDIAの提携が示す未来への布石

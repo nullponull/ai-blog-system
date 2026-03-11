@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "Sonyの「BraviaAI」がPS6にもたらす真の価値とは？ 業界のベテランが読み解くその可能性と課題"
 reading_time: 11
+image: "/assets/images/posts/2026-01-31-2-sonybraviaaips6-ogp.png"
 ---
 
 Sonyの「BraviaAI」がPS6にもたらす真の価値とは？ 業界のベテランが読み解くその可能性と課題

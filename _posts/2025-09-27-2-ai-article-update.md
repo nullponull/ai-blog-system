@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]
 author: "ALLFORCES編集部"
 excerpt: "AIデータセンター株、GPUが牽引する投資の真意とは？ベテランアナリストが読み解く未来"
 reading_time: 20
+image: "/assets/images/posts/2025-09-27-2-ai-article-update-ogp.png"
 ---
 
 AIデータセンター株、GPUが牽引する投資の真意とは？ベテランアナリストが読み解く未来

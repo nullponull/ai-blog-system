@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "LLM", "マルチモーダル", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "BaiduのERNIE Bot 5.0は、中国語LLM市場を本当に掌握できるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-21-2-baiduernie-bot-50-ogp.png"
 ---
 
 BaiduのERNIE Bot 5.0は、中国語LLM市場を本当に掌握できるのか？

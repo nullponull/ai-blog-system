@@ -7,6 +7,7 @@ tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、イタリアがこれほど早く、そして大規模にAIの法整備と投資に乗り出すとは、私自身も少し驚いています。あなたも感じているかもしれませんが、EUのAI法がようやく形になりつつある中で、一国がここまで具体的に動くのは、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-06-2-ai-article-update-ogp.png"
 ---
 
 イタリア、AI法と巨額投資の真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Meta", "NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "Intel Gaudi 3 Evo、AI推論市場に新たな波を起こすか？その真価を問う。"
 reading_time: 12
+image: "/assets/images/posts/2025-12-14-2-intel-gaudi-3-evo-ogp.png"
 ---
 
 Intel Gaudi 3 Evo、AI推論市場に新たな波を起こすか？その真価を問う。

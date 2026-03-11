@@ -7,6 +7,7 @@ tags: ["NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"
 author: "ALLFORCES編集部"
 excerpt: "欧州がAI主権にこだわる真意とは？現地インフラ重視の戦略を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-11-03-3-ai-article-update-ogp.png"
 ---
 
 欧州がAI主権にこだわる真意とは？現地インフラ重視の戦略を読み解く

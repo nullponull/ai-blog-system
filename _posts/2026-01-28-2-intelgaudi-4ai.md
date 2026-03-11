@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "IntelのGaudi 4、AIのゲームチェンジャーとなるのか？"
 reading_time: 6
+image: "/assets/images/posts/2026-01-28-2-intelgaudi-4ai-ogp.png"
 ---
 
 IntelのGaudi 4、AIのゲームチェンジャーとなるのか？

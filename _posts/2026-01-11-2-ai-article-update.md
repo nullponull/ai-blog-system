@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Apple", "RAG", "マルチモーダル", "音声AI", "AI人材"
 author: "ALLFORCES編集部"
 excerpt: "サムスンが「次世代AIディスプレイ搭載スマホ」を発表、というニュース。正直なところ、最初に聞いた時、あなたも私と同じように「また新しいマーケティング用語か？」と眉をひそめたんじゃないかな？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-11-2-ai-article-update-ogp.png"
 ---
 
 ## サムスン、次世代AIディスプレイ搭載スマホの真意とは？ 20年見てきた私が語る、その衝撃と未来。

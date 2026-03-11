@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-26-3-chatgptpulse-ogp.png"
 ---
 
 ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？

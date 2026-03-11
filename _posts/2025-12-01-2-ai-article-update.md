@@ -7,6 +7,7 @@ tags: ["AIエージェント", "ROI分析", "AI規制", "AI人材", "DX推進", 
 author: "ALLFORCES編集部"
 excerpt: "富士通が描く「マルチAIエージェント」の真意とは？供給網最適化のその先"
 reading_time: 20
+image: "/assets/images/posts/2025-12-01-2-ai-article-update-ogp.png"
 ---
 
 富士通が描く「マルチAIエージェント」の真意とは？供給網最適化のその先

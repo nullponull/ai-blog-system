@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "米商務省のAI輸出プログラム始動、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-26-3-ai-article-update-ogp.png"
 ---
 
 米商務省のAI輸出プログラム始動、その真意はどこにあるのか？

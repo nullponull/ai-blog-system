@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "ねぇ、君もサムスンの次世代AIチップ発表のニュース、見たかな？「またAIチップか」って思うかもしれない。正直、私も最初はそんな感じだったんだ。この20年、AI業界の荒波をずっと見てきたけど、新しいチップの発表なんて、"
 reading_time: 20
+image: "/assets/images/posts/2025-12-17-2-ai-article-update-ogp.png"
 ---
 
 サムスン、次世代AIチップ発表の真意は何だろうか？

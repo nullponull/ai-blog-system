@@ -7,6 +7,7 @@ tags: ["Microsoft", "Meta", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "QualcommのAIデータセンター参入、その真意は何処にあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-27-1-qualcommai-ogp.png"
 ---
 
 QualcommのAIデータセンター参入、その真意は何処にあるのか？

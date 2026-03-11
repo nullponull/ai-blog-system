@@ -7,6 +7,7 @@ tags: ["OpenAI", "AIエージェント", "AI人材", "DX推進"]
 author: "ALLFORCES編集部"
 excerpt: "2025年8月29日現在、パナソニック コネクト株式会社における生成AIの企業導入事例が顕著な拡大を見せており、特に社内向けAIアシスタントサービス「ConnectAI」がその中心的な役割を担っています。"
 reading_time: 6
+image: "/assets/images/posts/2025-08-29-1-connectaiai-ogp.png"
 ---
 
 ## 概要と背景

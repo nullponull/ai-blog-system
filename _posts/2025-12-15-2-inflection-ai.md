@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "LLM", "マルチモーダル", "音声A
 author: "ALLFORCES編集部"
 excerpt: "Inflection AIが心理ケアを刷新する？その真意とAIに託される感情の未来は何を意味するのか。"
 reading_time: 7
+image: "/assets/images/posts/2025-12-15-2-inflection-ai-ogp.png"
 ---
 
 Inflection AIが心理ケアを刷新する？その真意とAIに託される感情の未来は何を意味するのか。

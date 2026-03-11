@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "「日本、AI特区で研究開発加速」――このニュースを聞いて、あなたも感じたかもしれませんが、正直なところ、僕が最初に抱いたのは「またか」という思いと、漠然とした期待が入り混じった複雑な感情でした。"
 reading_time: 11
+image: "/assets/images/posts/2026-01-16-3-ai-article-update-ogp.png"
 ---
 
 日本のAI特区構想、その真意はどこにあるのか？

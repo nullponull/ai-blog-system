@@ -7,6 +7,7 @@ tags: ["Google", "LLM", "AIエージェント", "マルチモーダル", "音声
 author: "ALLFORCES編集部"
 excerpt: "Googleの「Audio Overview」は、情報消費の未来をどう変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-13-3-googleaudio-overview-ogp.png"
 ---
 
 Googleの「Audio Overview」は、情報消費の未来をどう変えるのか？

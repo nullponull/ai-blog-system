@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"
 author: "ALLFORCES編集部"
 excerpt: "いやー、このニュース、目に飛び込んできたとき、正直「またか」とも思ったんですよ。Microsoftが次世代HPC（ハイパフォーマンスコンピューティング）でAI性能を2倍にする、なんて見出し。"
 reading_time: 20
+image: "/assets/images/posts/2025-12-26-1-microsofthpcai2-ogp.png"
 ---
 
 Microsoftの次世代HPC、AI性能2倍の真意は何？

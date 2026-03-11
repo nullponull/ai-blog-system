@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "SageMakerのコスト削減、本当にAI開発を変えるのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-01-17-3-sagemakerai-ogp.png"
 ---
 
 SageMakerのコスト削減、本当にAI開発を変えるのか？

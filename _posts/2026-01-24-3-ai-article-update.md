@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、ついにきましたね、AI規制の連邦レベルでの議論。米国でですよ。正直、この業界を20年近く見てきて、AIの進化のスピードにはいつも驚かされてきましたが、規制となると話はまた別です。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-24-3-ai-article-update-ogp.png"
 ---
 
 米国でAI規制の議論、何が変わるのでしょうか？

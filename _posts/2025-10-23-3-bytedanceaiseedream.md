@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "ByteDance", "マルチモーダル", "画像
 author: "ALLFORCES編集部"
 excerpt: "ByteDanceの画像生成AI「Seedream」が描く未来：その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-23-3-bytedanceaiseedream-ogp.png"
 ---
 
 ByteDanceの画像生成AI「Seedream」が描く未来：その真意はどこにあるのか？

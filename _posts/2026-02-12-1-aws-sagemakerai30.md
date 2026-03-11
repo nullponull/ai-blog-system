@@ -7,6 +7,7 @@ tags: ["OpenAI", "NVIDIA", "Amazon", "推論最適化", "ROI分析", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-02-12-1-aws-sagemakerai30-ogp.png"
 ---
 
 AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？

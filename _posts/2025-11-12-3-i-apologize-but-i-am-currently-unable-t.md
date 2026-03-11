@@ -7,6 +7,7 @@ tags: ["ROI分析", "AI人材", "DX推進", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "I apologize, but I am currently unable to perform web searches due to a daily quota limit on the underlying model. This "
 reading_time: 20
+image: "/assets/images/posts/2025-11-12-3-i-apologize-but-i-am-currently-unable-t-ogp.png"
 ---
 
 I apologize, but I am currently unable to perform web searches due to a daily quota limit on the underlying model. This prevents me from gathering the necessary information about "ドコモビジネス、AIソフトセンサー導入支援" to write the article you requested。

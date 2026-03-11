@@ -7,6 +7,7 @@ tags: ["Google", "Apple", "LLM", "AI規制", "AI人材", "セキュリティ"]
 author: "ALLFORCES編集部"
 excerpt: "おや、君もこのニュースを見たかい？ トヨタが都内でレベル4自動運転の実証実験を始めたって話だ。正直なところ、僕も最初に聞いた時は「おや、いよいよ来たか」と少しばかり驚いたよ。君も同じように感じたかな？"
 reading_time: 14
+image: "/assets/images/posts/2026-01-23-2-ai-article-update-ogp.png"
 ---
 
 **トヨタが挑むレベル4自動運転実験の真意とは？ 慎重派の巨人が今、見据える未来。**

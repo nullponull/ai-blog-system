@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "画像生成",
 author: "ALLFORCES編集部"
 excerpt: "やあ、みんな。AI業界を長年見てきた者として、今回の「AI倫理、新ガイドライン発表へ」というニュースには、正直、期待と同時に、あの頃の懐かしい感覚も蘇ってきたんだ。"
 reading_time: 7
+image: "/assets/images/posts/2025-12-18-3-ai-article-update-ogp.png"
 ---
 
 AI新ガイドライン、その真意は何を問うているのか？

@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "GoogleのTPU v6、本当にAIのゲームを変えるのか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-04-1-googletpu-v6ai-ogp.png"
 ---
 
 GoogleのTPU v6、本当にAIのゲームを変えるのか？

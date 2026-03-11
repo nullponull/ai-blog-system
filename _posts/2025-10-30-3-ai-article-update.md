@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "推論最適化"]
 author: "ALLFORCES編集部"
 excerpt: "AIの電力消費、環境規制の波は来るのか？その真意と未来への影響"
 reading_time: 20
+image: "/assets/images/posts/2025-10-30-3-ai-article-update-ogp.png"
 ---
 
 AIの電力消費、環境規制の波は来るのか？その真意と未来への影響

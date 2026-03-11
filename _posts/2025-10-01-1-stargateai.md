@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "「Stargate」が示すAIインフラの未来：SamsungとOpenAIの提携、その真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-01-1-stargateai-ogp.png"
 ---
 
 「Stargate」が示すAIインフラの未来：SamsungとOpenAIの提携、その真意とは？

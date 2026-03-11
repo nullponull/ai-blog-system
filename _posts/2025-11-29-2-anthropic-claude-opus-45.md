@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ"
 reading_time: 20
+image: "/assets/images/posts/2025-11-29-2-anthropic-claude-opus-45-ogp.png"
 ---
 
 Anthropic Claude Opus 4.5が示す、AIエージェントの未来と市場への深い問いかけ

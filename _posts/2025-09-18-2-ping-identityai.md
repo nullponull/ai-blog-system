@@ -7,6 +7,7 @@ tags: ["Google", "Amazon", "LLM", "AIエージェント", "推論最適化", "AI
 author: "ALLFORCES編集部"
 excerpt: "Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-18-2-ping-identityai-ogp.png"
 ---
 
 Ping IdentityのAI信頼性フレームワーク、その真意はどこにあるのか？

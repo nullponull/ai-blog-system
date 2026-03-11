@@ -7,6 +7,7 @@ tags: ["OpenAI", "LLM", "画像生成", "推論最適化", "AI規制", "AI人材
 author: "ALLFORCES編集部"
 excerpt: "皆さん、最近の中国AIクラウド市場のニュース、目にしていますか？正直なところ、私自身も「またか」と最初は思ったんです。私がこの業界に入って20年になりますが、これまでにも数えきれないほどの技術ブームを見てきましたからね。"
 reading_time: 20
+image: "/assets/images/posts/2025-09-21-1-ai-article-update-ogp.png"
 ---
 
 中国AIクラウド市場の熱狂、その真意はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "おいおい、またMetaがすごいこと言ってるぞ？ Llama 4で汎用AI開発を加速するって話、あなたも耳にしたんじゃないかな。正直なところ、私自身もこのニュースを見た時、最初は「また大風呂敷広げてるな」って思ったんだ。"
 reading_time: 7
+image: "/assets/images/posts/2025-12-09-1-metallama-4ai-ogp.png"
 ---
 
 # MetaがLlama 4で目指す汎用AIの地平、その真意とは何でしょうか？

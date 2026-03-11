@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Samsungの次世代AIスマホ向けSoC投入が問いかける、AI時代の進化の岐路とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-23-2-samsungaisoc-ogp.png"
 ---
 
 Samsungの次世代AIスマホ向けSoC投入が問いかける、AI時代の進化の岐路とは？

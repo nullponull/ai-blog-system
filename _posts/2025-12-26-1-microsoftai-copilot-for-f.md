@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "マイクロソフトのAI Copilot for Finance、金融業務の未来を本当に変えるのか？"
 reading_time: 10
+image: "/assets/images/posts/2025-12-26-1-microsoftai-copilot-for-f-ogp.png"
 ---
 
 マイクロソフトのAI Copilot for Finance、金融業務の未来を本当に変えるのか？

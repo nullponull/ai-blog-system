@@ -7,6 +7,8 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Apple"]
 author: "ALLFORCES編集部"
 excerpt: "EU、Meta AI独占禁止調査開始：その真意とAI市場の未来はどう変わるのか？"
 reading_time: 12
+image: "/assets/images/posts/2025-12-06-3-eumeta-aiai-ogp.png"
+image: "/assets/images/posts/2025-12-06-3-eumeta-aiai-ogp.png"
 ---
 
 EU、Meta AI独占禁止調査開始：その真意とAI市場の未来はどう変わるのか？

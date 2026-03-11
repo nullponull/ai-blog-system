@@ -7,6 +7,7 @@ tags: ["AIエージェント", "AI開発", "ツール比較", "Dify", "LangChain
 author: "ALLFORCES編集部"
 excerpt: "AIエージェント構築ツール12選を用途別に徹底比較。LangChain、Dify、CrewAIなど主要ツールの特徴・料金・導入難易度を、導入支援の現場視点から解説します。"
 reading_time: 12
+image: "/assets/images/posts/2026-03-11-ai-agent-tools-comparison-12-ogp.png"
 ---
 
 ## AIエージェント構築ツールの選定が企業の競争力を左右する時代

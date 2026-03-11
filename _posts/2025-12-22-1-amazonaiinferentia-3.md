@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "音声AI"]
 author: "ALLFORCES編集部"
 excerpt: "AmazonのAIチップ「Inferentia 3」発表、その真意は何？"
 reading_time: 7
+image: "/assets/images/posts/2025-12-22-1-amazonaiinferentia-3-ogp.png"
 ---
 
 AmazonのAIチップ「Inferentia 3」発表、その真意は何？

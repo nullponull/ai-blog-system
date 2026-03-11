@@ -7,6 +7,7 @@ tags: ["Google", "AI規制", "AI人材", "AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "Google Veo 3.1と「AI SCREAM」が示す、動画生成AIの新たな地平とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-12-2-google-veo-31ai-scream-ogp.png"
 ---
 
 Google Veo 3.1と「AI SCREAM」が示す、動画生成AIの新たな地平とは？

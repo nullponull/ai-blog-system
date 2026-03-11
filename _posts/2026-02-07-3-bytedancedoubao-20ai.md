@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Meta", "ByteDance", "画像生成", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？"
 reading_time: 19
+image: "/assets/images/posts/2026-02-07-3-bytedancedoubao-20ai-ogp.png"
 ---
 
 ByteDanceの「Doubao 2.0」がAI画像生成の未来をどう変えるか、その真相は？

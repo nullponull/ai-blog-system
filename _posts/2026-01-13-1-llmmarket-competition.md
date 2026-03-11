@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "LLM競争激化の中、Amazon Bedrockの30%性能向上は企業導入をどう変えるのか。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-13-1-llmmarket-competition-ogp.png"
 ---
 
 LLM競争激化の中、Amazon Bedrockの30%性能向上は企業導入をどう変えるのか。

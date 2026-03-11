@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "AIエージェント"
 author: "ALLFORCES編集部"
 excerpt: "AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-02-2-aiamazonintel-ogp.png"
 ---
 
 AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？

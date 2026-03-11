@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "NTTデータの「LITRON® CORE」は、本当にAIエージェントの未来を切り開くのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-03-3-nttlitron-core-ogp.png"
 ---
 
 NTTデータの「LITRON® CORE」は、本当にAIエージェントの未来を切り開くのか？

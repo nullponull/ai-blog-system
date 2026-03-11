@@ -7,6 +7,7 @@ tags: ["NVIDIA", "Apple", "AI人材", "セキュリティ", "ロボティクス"
 author: "ALLFORCES編集部"
 excerpt: "あなたも感じているかもしれませんが、最近のAI業界の動きは本当に目まぐるしいですよね。特に、台湾の大手EMS（電子機器受託製造サービス）企業であるペガトロンが、米国のテキサス州にAIサーバー工場を設立するというニュースは、"
 reading_time: 20
+image: "/assets/images/posts/2025-10-17-2-ai-article-update-ogp.png"
 ---
 
 ペガトロン、テキサスにAIサーバー工場を建設する真意とは？

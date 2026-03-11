@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "いやはや、驚きましたね。AIチップの特許競争に、あのインテルが本格的に乗り込んできたというニュース。皆さんも、もしかしたら「え、インテルってCPUの会社じゃなかったっけ？」と思われたかもしれません。私も正直、最初は「本当かな？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-18-3-ai-article-update-ogp.png"
 ---
 
 インテル、AIチップ新参入、この動きは何を変えるのか？

@@ -7,6 +7,7 @@ tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-26-1-amazon-bedrock400-ogp.png"
 ---
 
 Amazon Bedrockの400モデル突破は、生成AIの民主化を加速させるのか？

@@ -7,6 +7,7 @@ tags: ["Microsoft", "NVIDIA", "AIエージェント", "マルチモーダル", "
 author: "ALLFORCES編集部"
 excerpt: "MSが描く「Agentic World」の真意とは？ 人材管理を変革するAIの進化とその課題に迫る"
 reading_time: 20
+image: "/assets/images/posts/2025-12-06-2-msagentic-world-ogp.png"
 ---
 
 MSが描く「Agentic World」の真意とは？ 人材管理を変革するAIの進化とその課題に迫る

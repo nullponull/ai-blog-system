@@ -7,6 +7,7 @@ tags: ["Google", "Amazon", "Apple", "AI人材", "セキュリティ", "AI倫理"
 author: "ALLFORCES編集部"
 excerpt: "AI家電とヘルスケアの融合、サムスンの次の一手は何をもたらすのか？"
 reading_time: 7
+image: "/assets/images/posts/2026-01-01-2-ai-article-update-ogp.png"
 ---
 
 AI家電とヘルスケアの融合、サムスンの次の一手は何をもたらすのか？

@@ -7,6 +7,7 @@ tags: ["xAI", "LLM", "AIエージェント", "マルチモーダル", "音声AI"
 author: "ALLFORCES編集部"
 excerpt: "リコージャパンの自治体向け生成AI、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-20-3-ai-article-update-ogp.png"
 ---
 
 リコージャパンの自治体向け生成AI、その真意はどこにあるのか？

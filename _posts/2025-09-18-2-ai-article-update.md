@@ -7,6 +7,7 @@ tags: ["NVIDIA", "推論最適化", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "ファーウェイが目指すAIクラスターの真意とは？ 米国制裁下の技術革新が市場に与える影響を読み解く"
 reading_time: 20
+image: "/assets/images/posts/2025-09-18-2-ai-article-update-ogp.png"
 ---
 
 ファーウェイが目指すAIクラスターの真意とは？ 米国制裁下の技術革新が市場に与える影響を読み解く

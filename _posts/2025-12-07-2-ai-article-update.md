@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "NVIDIA", "LLM", "推論最適化", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "AI投資、その巨額の裏に潜む「現実」：アービンド・クリシュナが本当に伝えたいこととは？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-07-2-ai-article-update-ogp.png"
 ---
 
 AI投資、その巨額の裏に潜む「現実」：アービンド・クリシュナが本当に伝えたいこととは？

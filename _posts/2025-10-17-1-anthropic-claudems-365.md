@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "Anthropic ClaudeとMS 365連携の真意は？企業AIの未来に何が変わるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-17-1-anthropic-claudems-365-ogp.png"
 ---
 
 Anthropic ClaudeとMS 365連携の真意は？企業AIの未来に何が変わるのか？

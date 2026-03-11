@@ -7,6 +7,7 @@ tags: ["xAI", "AIエージェント", "推論最適化", "ROI分析", "AI規制"
 author: "ALLFORCES編集部"
 excerpt: "NECがAgentic AIを活用した営業支援ソリューション「NEC Document Automation - for Proposals」を発表したと聞いて、正直なところ、私も最初は「またAI営業支援か」と、"
 reading_time: 20
+image: "/assets/images/posts/2025-11-29-3-necagentic-ai-ogp.png"
 ---
 
 **NECのAgentic AI営業支援ソリューション：その真意はどこにあるのか？**

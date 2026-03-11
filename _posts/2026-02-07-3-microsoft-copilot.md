@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Microsoft Copilot、金融界で何が変わるのか？"
 reading_time: 7
+image: "/assets/images/posts/2026-02-07-3-microsoft-copilot-ogp.png"
 ---
 
 Microsoft Copilot、金融界で何が変わるのか？

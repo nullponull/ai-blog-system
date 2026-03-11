@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "LLM", "AIエージェント", "音声AI", "推論最
 author: "ALLFORCES編集部"
 excerpt: "UiPathのTIME誌選出、エージェント自動化が拓く未来の真意とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-10-10-2-uipathtime-ogp.png"
 ---
 
 UiPathのTIME誌選出、エージェント自動化が拓く未来の真意とは？

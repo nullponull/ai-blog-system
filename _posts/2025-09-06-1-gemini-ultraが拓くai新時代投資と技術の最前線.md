@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]
 author: "ALLFORCES編集部"
 excerpt: "Googleの最先端AIモデル「Gemini Ultra」は、2024年2月の提供開始以来、そのマルチモーダル能力と高度な推論性能でAI業界に大きな変革をもたらしています。"
 reading_time: 7
+image: "/assets/images/posts/2025-09-06-1-gemini-ultraが拓くai新時代投資と技術の最前線-ogp.png"
 ---
 
 # Gemini Ultraが拓くAI新時代：投資と技術の最前線

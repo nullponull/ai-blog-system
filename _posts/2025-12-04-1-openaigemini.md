@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路"
 reading_time: 20
+image: "/assets/images/posts/2025-12-04-1-openaigemini-ogp.png"
 ---
 
 「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路

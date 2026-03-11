@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-23-1-awsgpubedrock2-ogp.png"
 ---
 
 AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？

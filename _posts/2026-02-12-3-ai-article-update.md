@@ -7,6 +7,7 @@ tags: ["OpenAI", "Amazon", "xAI", "LLM", "画像生成", "ROI分析"]
 author: "ALLFORCES編集部"
 excerpt: "日欧AI倫理の共同戦線：規範の追求か、それとも新たな覇権競争の狼煙か？"
 reading_time: 10
+image: "/assets/images/posts/2026-02-12-3-ai-article-update-ogp.png"
 ---
 
 日欧AI倫理の共同戦線：規範の追求か、それとも新たな覇権競争の狼煙か？

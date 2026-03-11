@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "AIエージェント"]
 author: "ALLFORCES編集部"
 excerpt: "Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-07-2-vast-dataai-ogp.png"
 ---
 
 Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？

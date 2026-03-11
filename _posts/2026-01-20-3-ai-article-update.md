@@ -7,6 +7,7 @@ tags: ["AI倫理"]
 author: "ALLFORCES編集部"
 excerpt: "ねえ、この「東京大学、AI創薬で新薬候補発見」ってニュース、あなたはどう受け止めた？ 私、AI業界をもう20年近く見てきたけど、こういったニュースが出るたびに、正直「またか」って思う自分もいるんだ。でも、今回はちょっと違う、そんな予感がする。"
 reading_time: 20
+image: "/assets/images/posts/2026-01-20-3-ai-article-update-ogp.png"
 ---
 
 東大のAI創薬、このニュース、あなたも気になってる？

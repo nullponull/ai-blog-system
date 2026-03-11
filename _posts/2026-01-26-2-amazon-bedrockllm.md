@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。"
 reading_time: 7
+image: "/assets/images/posts/2026-01-26-2-amazon-bedrockllm-ogp.png"
 ---
 
 Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。

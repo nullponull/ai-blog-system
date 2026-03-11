@@ -7,6 +7,7 @@ tags: ["AIエージェント", "ROI分析", "AI規制", "セキュリティ", "A
 author: "ALLFORCES編集部"
 excerpt: "魔珐科技の「魔珐星雲」が示す、3Dデジタルヒューマンの新たな地平とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-01-1-ai-article-update-ogp.png"
 ---
 
 魔珐科技の「魔珐星雲」が示す、3Dデジタルヒューマンの新たな地平とは？

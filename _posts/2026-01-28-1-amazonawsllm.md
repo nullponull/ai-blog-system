@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？"
 reading_time: 20
+image: "/assets/images/posts/2026-01-28-1-amazonawsllm-ogp.png"
 ---
 
 Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？

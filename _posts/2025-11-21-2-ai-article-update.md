@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "NVIDIA", "音声AI", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "英国、AI大国への野望：巨額投資の真意と、私たちが注目すべき変化とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-21-2-ai-article-update-ogp.png"
 ---
 
 英国、AI大国への野望：巨額投資の真意と、私たちが注目すべき変化とは？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]
 author: "ALLFORCES編集部"
 excerpt: "MicrosoftとAMDのAIチップ提携が、半導体とクラウドの未来をどう変えるのか？"
 reading_time: 8
+image: "/assets/images/posts/2025-12-23-2-microsoftamdai-ogp.png"
 ---
 
 MicrosoftとAMDのAIチップ提携が、半導体とクラウドの未来をどう変えるのか？

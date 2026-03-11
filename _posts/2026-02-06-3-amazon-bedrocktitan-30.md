@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？"
 reading_time: 9
+image: "/assets/images/posts/2026-02-06-3-amazon-bedrocktitan-30-ogp.png"
 ---
 
 Amazon BedrockとTitan 3.0の発表、その真意とAI市場に何をもたらすのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "AIエージェント市場、2030年483億ドルは単なる数字か、それとも変革の序章か？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-24-2-ai-article-update-ogp.png"
 ---
 
 AIエージェント市場、2030年483億ドルは単なる数字か、それとも変革の序章か？

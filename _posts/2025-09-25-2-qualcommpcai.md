@@ -7,6 +7,7 @@ tags: ["Google", "Microsoft", "NVIDIA", "Apple", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "QualcommのPC向けAIチップ、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-09-25-2-qualcommpcai-ogp.png"
 ---
 
 QualcommのPC向けAIチップ、その真意はどこにあるのか？

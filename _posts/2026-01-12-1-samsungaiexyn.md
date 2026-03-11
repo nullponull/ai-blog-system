@@ -7,6 +7,7 @@ tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]
 author: "ALLFORCES編集部"
 excerpt: "「Samsungが次世代AIチップ『Exynos AI 7』を発表、推論速度30%向上だって？」"
 reading_time: 10
+image: "/assets/images/posts/2026-01-12-1-samsungaiexyn-ogp.png"
 ---
 
 「Samsungが次世代AIチップ『Exynos AI 7』を発表、推論速度30%向上だって？」

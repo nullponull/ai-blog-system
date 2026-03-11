@@ -7,6 +7,7 @@ tags: ["OpenAI", "画像生成", "推論最適化", "ファインチューニン
 author: "ALLFORCES編集部"
 excerpt: "AiHUBの「oboro:base」：国産AIが描く、創造現場の新たな風景とは？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-21-1-aihuboborobaseai-ogp.png"
 ---
 
 AiHUBの「oboro:base」：国産AIが描く、創造現場の新たな風景とは？

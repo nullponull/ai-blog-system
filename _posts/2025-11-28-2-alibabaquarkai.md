@@ -7,6 +7,7 @@ tags: ["Google", "Meta", "Apple", "LLM", "音声AI", "AI規制"]
 author: "ALLFORCES編集部"
 excerpt: "Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-28-2-alibabaquarkai-ogp.png"
 ---
 
 Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？

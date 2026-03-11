@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Anthropic", "LLM", "マルチモーダル", "音声A
 author: "ALLFORCES編集部"
 excerpt: "Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-12-23-2-baidu-ernie-botai-ogp.png"
 ---
 
 Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]
 author: "ALLFORCES編集部"
 excerpt: "2024年、GoogleとMetaはAI分野への投資を大幅に拡大し、技術開発と市場シェア獲得に向けた競争を激化させている。両社はそれぞれ独自の戦略でAIエコシステムの構築を進め、特にGoogleはTPU、"
 reading_time: 7
+image: "/assets/images/posts/2025-09-07-1-googleとmetaai覇権争い激化-ogp.png"
 ---
 
 # GoogleとMeta、AI覇権争い激化

@@ -7,6 +7,7 @@ tags: ["OpenAI", "Microsoft", "xAI", "AIエージェント", "画像生成", "RO
 author: "ALLFORCES編集部"
 excerpt: "正直なところ、最初に「コカ・コーラがMITとAI活用推進」というニュースを聞いた時、私の頭の中には「またか」という思いがよぎりました。AI業界を20年近く見てきた人間としては、"
 reading_time: 20
+image: "/assets/images/posts/2025-09-24-2-ai-article-update-ogp.png"
 ---
 
 コカ・コーラがAIに巨額投資、その真意はどこにあるのか？

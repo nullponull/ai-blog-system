@@ -7,6 +7,7 @@ tags: ["Google", "xAI", "LLM", "RAG", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "「Penske対Google AI訴訟：著作権の嵐は、AIの未来をどう変えるのか？」"
 reading_time: 20
+image: "/assets/images/posts/2025-09-18-1-penskegoogle-ai-ogp.png"
 ---
 
 「Penske対Google AI訴訟：著作権の嵐は、AIの未来をどう変えるのか？」

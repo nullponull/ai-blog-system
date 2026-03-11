@@ -7,6 +7,7 @@ tags: ["NVIDIA", "LLM", "推論最適化", "AI規制", "AI人材", "セキュリ
 author: "ALLFORCES編集部"
 excerpt: "米国のAI半導体輸出承認、中東の野望とグローバル市場に何をもたらすのか？"
 reading_time: 20
+image: "/assets/images/posts/2025-11-20-2-ai-article-update-ogp.png"
 ---
 
 米国のAI半導体輸出承認、中東の野望とグローバル市場に何をもたらすのか？

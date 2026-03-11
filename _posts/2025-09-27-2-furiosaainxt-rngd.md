@@ -8,6 +8,7 @@ author: "ALLFORCES編集部"
 excerpt: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
 reading_time: 20
 canonical_url: "https://ai-media.co.jp/2025/09/27/1-furiosaainxt-rngd/"
+image: "/assets/images/posts/2025-09-27-2-furiosaainxt-rngd-ogp.png"
 ---
 
 FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？

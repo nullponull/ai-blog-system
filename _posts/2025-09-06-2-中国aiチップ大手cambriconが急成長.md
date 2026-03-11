@@ -7,6 +7,7 @@ tags: ["NVIDIA", "AI規制", "AI人材"]
 author: "ALLFORCES編集部"
 excerpt: "2025年9月現在、中国のAIチップ大手であるCambriconは、その目覚ましい成長と市場競争力の強化により、世界のテクノロジー業界から注目を集めています。しばしば「中国の小さなNvidia」と称される同社は、中国がAIチップの自給自足を目指す上で極めて重要な役割を担っています。"
 reading_time: 5
+image: "/assets/images/posts/2025-09-06-2-中国aiチップ大手cambriconが急成長-ogp.png"
 ---
 # **中国AIチップ大手Cambriconの急成長と市場競争力**:
 

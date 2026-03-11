@@ -7,6 +7,7 @@ tags: ["OpenAI", "Google", "Microsoft", "Apple", "LLM", "RAG"]
 author: "ALLFORCES編集部"
 excerpt: "おや、また来たか、という感じだね。AppleがiPhone 17にAIチップを搭載し、生成AI性能が3倍になるというニュースを耳にした時、正直なところ、私は少しばかり懐疑的な気持ちになったんだ。"
 reading_time: 9
+image: "/assets/images/posts/2026-01-02-1-appleiphone-17ai-ogp.png"
 ---
 
 **AppleのiPhone 17におけるAIチップ性能3倍増強は、一体何を意味するのか？**
