@@ -2,6 +2,31 @@
 layout: default
 ---
 
+<!-- BreadcrumbList JSON-LD -->
+{% assign breadcrumb_category_name = page.categories.first %}
+{% assign breadcrumb_category_slug = page.categories.first | slugify %}
+{% for cat in site.content_categories %}
+  {% if cat.name == breadcrumb_category_name %}
+    {% assign breadcrumb_category_slug = cat.slug %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ site.url }}/"},
+    {% if breadcrumb_category_name %}
+    {"@type": "ListItem", "position": 2, "name": "{{ breadcrumb_category_name }}", "item": "{{ site.url }}/category/{{ breadcrumb_category_slug }}/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}", "item": "{{ page.url | absolute_url }}"}
+    {% else %}
+    {"@type": "ListItem", "position": 2, "name": "{{ page.title | escape }}", "item": "{{ page.url | absolute_url }}"}
+    {% endif %}
+  ]
+}
+</script>
+
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <header class="post-header">
         <div class="post-breadcrumbs" aria-label="パンくずリスト">
@@ -90,7 +115,7 @@ layout: default
     {% include ads-header.html %}
 
     <div class="post-content" itemprop="articleBody">
-        {{ content }}
+        {{ content | replace: '<img loading="lazy" ', '<img ' | replace: '<img ', '<img loading="lazy" ' }}
     </div>
 
     {% include ads-article.html %}
@@ -230,16 +255,16 @@ layout: default
     {% break %}
   {% endif %}
 {% endfor %}
-{% if related_posts.size < 3 %}
-  {% for post in site.posts limit: 5 %}
-    {% if post.url != page.url and related_posts.size < 3 %}
+{% if related_posts.size < site.related_posts_limit %}
+  {% for post in site.posts limit: 10 %}
+    {% if post.url != page.url and related_posts.size < site.related_posts_limit %}
       {% unless related_posts contains post %}
         {% assign related_posts = related_posts | push: post %}
       {% endunless %}
     {% endif %}
   {% endfor %}
 {% endif %}
-{% assign related_posts = related_posts | slice: 0, 3 %}
+{% assign related_posts = related_posts | slice: 0, site.related_posts_limit %}
 {% if related_posts.size > 0 %}
 <section class="related-posts" aria-labelledby="related-heading">
     <header class="related-posts-header">

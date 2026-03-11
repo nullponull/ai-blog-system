@@ -161,7 +161,7 @@ comments:
 search: true
 
 # Related posts
-related_posts_limit: 3
+related_posts_limit: 6
 
 # Content categories for media
 content_categories:
