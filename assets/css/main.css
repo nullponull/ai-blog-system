@@ -589,6 +589,14 @@ input, button, textarea, select {
   font-size: var(--font-size-lg);
   line-height: var(--line-height-relaxed);
   color: var(--color-neutral-800);
+}
+
+/* テキスト要素のみ読みやすい幅に制約（テーブル等は全幅使用） */
+.post-content > p,
+.post-content > ul,
+.post-content > ol,
+.post-content > blockquote,
+.post-content > dl {
   max-width: var(--max-width-text);
 }
 
@@ -701,6 +709,7 @@ input, button, textarea, select {
 .table-wrapper table {
   margin: 0;
   box-shadow: none;
+  min-width: 100%;
 }
 
 .post-content th,
@@ -719,8 +728,7 @@ input, button, textarea, select {
   background: var(--gray-50);
   font-weight: 600;
   color: var(--gray-900);
-  white-space: normal;
-  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .post-content tr:hover {
