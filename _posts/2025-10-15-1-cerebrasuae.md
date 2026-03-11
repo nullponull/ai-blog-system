@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CerebrasのUAE展開、その真意はどこにあるのか？"
+title: "2026年CerebrasのUAE展開、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-10-15 08:42:46 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "AI規制", "AI人材"]

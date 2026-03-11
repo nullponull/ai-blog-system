@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaiduのApollo、上海で自動運転はどう変わる？"
+title: "2026年BaiduのApollo、上海で自動運転はどう変わる？による業務効率化と競争力強化"
 date: 2026-01-20 16:53:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["AI規制", "AI倫理", "自動運転"]

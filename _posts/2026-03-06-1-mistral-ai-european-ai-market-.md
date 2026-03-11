@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mistral AIの急成長、欧州AI市場の未来はどう変わるのか"
+title: "2026年Mistral AIの急成長、欧州AI市場の未来はどう変わるのかが変えるビジネスの未来"
 date: 2026-03-06 06:37:54 +0900
 categories: [業界別AI活用]
 tags: ["LLM", "AI規制対応", "DX推進", "AI投資", "Microsoft", "NVIDIA"]

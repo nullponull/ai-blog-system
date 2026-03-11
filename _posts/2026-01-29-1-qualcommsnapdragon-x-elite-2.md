@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qualcomm「Snapdragon X Elite 2」が問"
+title: "2026年Qualcomm「Snapdragon X Elite 2」が問が変えるビジネスの未来"
 date: 2026-01-29 05:13:58 +0000
 categories: ["AI技術ガイド"]
 tags: ["Microsoft", "Apple", "RAG", "AIエージェント", "マルチモーダル", "画像生成"]

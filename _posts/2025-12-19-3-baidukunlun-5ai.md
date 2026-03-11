@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？"
+title: "2026年Baiduの「Kunlun 5」、AIチップ界に何をもたらすのだろうか？が変えるビジネスの未来"
 date: 2025-12-19 04:51:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "マルチモーダル", "推論最適化", "AI規制", "AI人材", "自動運転"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snapdragon 8 Elite Gen 5のAI NPU 37%高"
+title: "2026年Snapdragon 8 Elite Gen 5のAI NPU 37%高の全貌と実践的な活用法"
 date: 2025-09-27 20:32:01 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "LLM", "RAG"]

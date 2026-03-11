@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？"
+title: "2026年OpenAIの音楽AIとSora規制強化：創造性と責任の狭間で何が変わるのか？の全貌と実践的な活用法"
 date: 2025-10-26 08:36:47 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "xAI", "マルチモーダル", "画像生成", "音声AI", "AI規制"]

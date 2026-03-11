@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？"
+title: "2026年ブリタニカがPerplexityを提訴、その真意はどこにあるのでしょうか？がもたらす産業構造の転換"
 date: 2025-09-13 08:35:51 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "RAG", "ファインチューニング", "AI規制", "セキュリティ", "AI倫理"]

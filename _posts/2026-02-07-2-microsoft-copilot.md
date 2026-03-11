@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilotがエンタープラ"
+title: "2026年Microsoft Copilotがエンタープラ（OpenAI・Google）の進化と実用化への道筋"
 date: 2026-02-07 05:13:08 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "RAG", "AIエージェント"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ロシュのAI創薬投資、その真意はどこにあるのか？"
+title: "2026年ロシュのAI創薬投資、その真意はどこにあるのか？（Microsoft・xAI）の技術革新がもたらす変化"
 date: 2025-11-03 13:03:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "xAI", "AI規制", "AI人材", "AI倫理", "ロボティクス"]

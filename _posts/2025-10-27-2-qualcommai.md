@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？"
+title: "2026年Qualcommがサウジで描くAIの未来：その真意と市場への影響とは？の全貌と実践的な活用法"
 date: 2025-10-27 20:34:37 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "RAG", "マルチモーダル", "音声AI", "推論最適化"]

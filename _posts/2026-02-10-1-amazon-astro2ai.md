@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？"
+title: "2026年Amazon Astroへの2億ドル投資、家庭用AIロボット市場の行方は？の技術革新がもたらす変化"
 date: 2026-02-10 17:19:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "Amazon", "LLM", "AIエージェント", "音声AI", "AI規制"]

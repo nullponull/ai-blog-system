@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？"
+title: "2026年IBM、AMD、Zyphraが描く次世代AIインフラの真意とは？が変えるビジネスの未来"
 date: 2025-10-01 13:04:01 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AIエージェント", "マルチモーダル", "音声AI", "推論最適化", "ファインチューニング"]

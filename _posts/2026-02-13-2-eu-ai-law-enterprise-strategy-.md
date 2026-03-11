@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法完全施行、大企業のAI戦略はどう変わるのか"
+title: "2026年EU AI法完全施行、大企業のAI戦略はどう変わるのかによる業務効率化と競争力強化"
 date: 2026-02-13 18:04:39 +0900
 categories: [AI導入戦略]
 tags: ["AI規制対応", "DX推進", "AI導入戦略", "LLM", "高リスクAI"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Googleの「Antigravity」はAI開発の常識を覆すのか？"
+title: "2026年Googleの「Antigravity」はAI開発の常識を覆すのか？の最新動向と企業への影響"
 date: 2025-11-27 13:04:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Anthropic", "AIエージェント", "マルチモーダル"]

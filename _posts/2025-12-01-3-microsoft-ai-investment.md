@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？"
+title: "2026年MicrosoftのAI教育への巨額投資、その真意と私たちへの影響とは？の最新動向と企業への影響"
 date: 2025-12-01 16:48:40 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Anthropic", "AI規制", "AI人材", "セキュリティ"]

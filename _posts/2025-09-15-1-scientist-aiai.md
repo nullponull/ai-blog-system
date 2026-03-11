@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Scientist AI」が示す、サムスンAI戦略の「真意」とは？"
+title: "2026年「Scientist AI」が示す、サムスンAI戦略の「真意」とは？がもたらす産業構造の転換"
 date: 2025-09-15 08:41:15 +0000
 categories: ["業界別AI活用"]
 tags: ["Apple", "xAI", "LLM", "マルチモーダル", "音声AI", "推論最適化"]

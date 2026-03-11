@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3 Deep Thinkの真意はどこにあるのか？"
+title: "2026年Google Gemini 3 Deep Thinkの真意はどこにあるのか？による業務効率化と競争力強化"
 date: 2025-12-06 16:38:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

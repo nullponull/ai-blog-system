@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google ChromeにGemini AI搭載の可能"
+title: "2026年Google ChromeにGemini AI搭載の可能の注目ポイントと導入効果"
 date: 2025-09-20 16:34:48 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "ROI分析"]

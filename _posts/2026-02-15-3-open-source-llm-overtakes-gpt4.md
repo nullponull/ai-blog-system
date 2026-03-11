@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オープンソースLLMの躍進、GPT-4o超えの可能性とその影響とは"
+title: "2026年オープンソースLLMの躍進、GPT-4o超えの可能性とその影響とはがもたらす産業構造の転換"
 date: 2026-02-15 17:21:21 +0900
 categories: [研究論文]
 tags: ["LLM", "OpenAI", "Google", "DX推進", "コスト削減"]

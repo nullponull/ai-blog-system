@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google「Gemini 3 Deep Think」発表"
+title: "2026年Google「Gemini 3 Deep Think」発表の全貌と実践的な活用法"
 date: 2025-12-06 20:34:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]

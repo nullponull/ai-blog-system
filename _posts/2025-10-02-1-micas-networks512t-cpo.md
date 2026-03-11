@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Micas Networksの51.2T CPOスイッチ"
+title: "2026年Micas Networksの51.2T CPOスイッチの最新動向と企業への影響"
 date: 2025-10-02 04:35:13 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "マルチモーダル", "推論最適化", "AI人材", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepRoute.aiのロボタクシー展開"
+title: "2026年DeepRoute.aiのロボタクシー展開（NVIDIA・LLM）の全貌と実践的な活用法"
 date: 2025-11-01 08:36:59 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "マルチモーダル", "AI規制", "AI人材", "セキュリティ"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intelの「Gaudi 4」発表、AI業界に新風？その真意は？"
+title: "2026年Intelの「Gaudi 4」発表、AI業界に新風？その真意は？の技術革新がもたらす変化"
 date: 2026-01-24 04:48:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "LLM", "推論最適化"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Inferentia 3、AIの舞台裏で何が起こるのか？"
+title: "2026年Amazon Inferentia 3、AIの舞台裏で何が起こるのか？の全貌と実践的な活用法"
 date: 2026-01-29 20:49:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

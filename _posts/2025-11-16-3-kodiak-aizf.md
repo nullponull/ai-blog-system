@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？"
+title: "2026年Kodiak AIとZFの提携深化、無人トラックの未来をどう変えるのか？の技術革新がもたらす変化"
 date: 2025-11-16 12:57:20 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

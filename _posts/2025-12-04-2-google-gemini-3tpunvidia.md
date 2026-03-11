@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？"
+title: "2026年Google Gemini 3とTPU、NVIDIAへの挑戦状の真意とは？の技術革新がもたらす変化"
 date: 2025-12-04 02:23:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

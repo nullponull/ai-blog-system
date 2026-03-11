@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIA CEOのAI市場予測"
+title: "2026年NVIDIA CEOのAI市場予測（Google・Microsoft）の技術革新がもたらす変化"
 date: 2025-08-29 07:08:03 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AMDのAIチップ新戦略、NVIDIAにどう挑む？"
+title: "2026年AMDのAIチップ新戦略、NVIDIAにどう挑む？｜知っておくべき最新情報まとめ"
 date: 2026-01-16 13:08:07 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI人材"]

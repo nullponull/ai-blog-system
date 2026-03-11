@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI創薬で抗がん剤候補発見率"
+title: "2026年AI創薬で抗がん剤候補発見率（NVIDIA・xAI）による業務効率化と競争力強化"
 date: 2026-01-09 13:09:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "xAI", "推論最適化", "AI規制", "AI人材"]

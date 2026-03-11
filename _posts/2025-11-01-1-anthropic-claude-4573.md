@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claude 4.5のコード能力73%向上、その真意とは？"
+title: "2026年Anthropic Claude 4.5のコード能力73%向上、その真意とは？の注目ポイントと導入効果"
 date: 2025-11-01 12:56:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "AIエージェント", "AI規制"]

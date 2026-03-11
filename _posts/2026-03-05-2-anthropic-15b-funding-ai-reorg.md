@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropicの150億ドル調達、AI業界再編の真意とは何か"
+title: "2026年Anthropicの150億ドル調達、AI業界再編の真意とは何かの技術革新がもたらす変化"
 date: 2026-03-05 06:37:08 +0900
 categories: [導入事例]
 tags: ["LLM", "Anthropic", "Microsoft", "NVIDIA", "AI投資"]

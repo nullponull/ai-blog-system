@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAIインフラ投資、その真意は何でしょうか？"
+title: "2026年MicrosoftのAIインフラ投資、その真意は何でしょうか？の最新動向と企業への影響"
 date: 2025-12-18 16:48:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？"
+title: "2026年CoreWeaveのMarimo買収、AI開発の未来をどう変えるのか？の最新動向と企業への影響"
 date: 2025-10-30 20:35:21 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "xAI", "LLM", "マルチモーダル"]

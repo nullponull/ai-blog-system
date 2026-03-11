@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "マイクロソフトAzureのAIインフラ1兆円投資、その真意とは？"
+title: "2026年マイクロソフトAzureのAIインフラ1兆円投資、その真意とは？の全貌と実践的な活用法"
 date: 2026-02-06 17:04:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

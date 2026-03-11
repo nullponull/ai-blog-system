@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法、オープンAI研究の未来に何をもたらすのか？"
+title: "2026年EU AI法、オープンAI研究の未来に何をもたらすのか？がもたらす産業構造の転換"
 date: 2026-02-27 10:51:01 +0900
 categories: [AI最新ニュース]
 tags: ["LLM", "AI規制対応", "OpenAI", "Meta"]

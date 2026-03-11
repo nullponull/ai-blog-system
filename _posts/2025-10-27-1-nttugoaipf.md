@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？"
+title: "2026年NTTとugoが仕掛ける「AIロボティクスPF」の真意とは？による業務効率化と競争力強化"
 date: 2025-10-27 13:04:04 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "マルチモーダル", "AI規制", "セキュリティ", "AI倫理"]

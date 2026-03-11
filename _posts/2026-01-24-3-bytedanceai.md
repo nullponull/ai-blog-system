@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？"
+title: "2026年ByteDanceのAI生成コンテンツ新プラットフォーム、その狙いは何だろう？の進化と実用化への道筋"
 date: 2026-01-24 13:04:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "ByteDance", "LLM"]

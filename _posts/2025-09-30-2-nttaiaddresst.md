@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTTデータの国際送金AI「Addresst"
+title: "2026年NTTデータの国際送金AI「Addresst（AI規制・AI人材）の注目ポイントと導入効果"
 date: 2025-09-30 08:43:08 +0000
 categories: ["業界別AI活用"]
 tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google、AI投資で市場牽引：2030年への戦略"
+title: "2026年Google、AI投資で市場牽引：2030年への戦略による業務効率化と競争力強化"
 date: 2025-09-08 08:42:58 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "AIエージェント", "マルチモーダル"]

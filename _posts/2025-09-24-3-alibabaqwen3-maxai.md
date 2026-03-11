@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Alibabaの「Qwen3-Max」はAIの未来をどう変えるのか？"
+title: "2026年Alibabaの「Qwen3-Max」はAIの未来をどう変えるのか？がもたらす産業構造の転換"
 date: 2025-09-24 04:36:55 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "AIエージェント", "マルチモーダル"]

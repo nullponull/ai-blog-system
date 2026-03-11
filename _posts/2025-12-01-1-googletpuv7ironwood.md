@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleのTPUv7「Ironwood」：その真"
+title: "2026年GoogleのTPUv7「Ironwood」：その真による業務効率化と競争力強化"
 date: 2025-12-01 05:00:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

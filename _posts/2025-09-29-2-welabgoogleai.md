@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WeLabとGoogleの金融AI提携、その真意はどこにあるのか？"
+title: "2026年WeLabとGoogleの金融AI提携、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-09-29 02:07:12 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]

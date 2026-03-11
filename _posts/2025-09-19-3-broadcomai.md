@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BroadcomのAI半導体、その大型受注が示す業界の真意とは？"
+title: "2026年BroadcomのAI半導体、その大型受注が示す業界の真意とは？の技術革新がもたらす変化"
 date: 2025-09-19 08:39:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

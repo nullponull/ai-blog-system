@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ByteDanceのAI収益化戦略、その真意は？"
+title: "2026年ByteDanceのAI収益化戦略、その真意は？（OpenAI・Google）の最新動向と企業への影響"
 date: 2025-12-21 08:40:16 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "ByteDance"]

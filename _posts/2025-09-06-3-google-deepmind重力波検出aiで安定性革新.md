@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMind、重力波検出AIで安定性革新"
+title: "2026年Google DeepMind、重力波検出AIで安定性革新が変えるビジネスの未来"
 date: 2025-09-06 16:39:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google"]

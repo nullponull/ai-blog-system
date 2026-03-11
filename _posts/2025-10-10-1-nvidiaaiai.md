@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "富士通とNVIDIA、AI協業拡大の真意とは？日本のAI戦略に何をもたらすの？"
+title: "2026年富士通とNVIDIA、AI協業拡大の真意とは？日本のAI戦略に何をもたらすの？の進化と実用化への道筋"
 date: 2025-10-10 02:04:04 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "AIエージェント", "AI人材", "AI倫理", "ロボティクス"]

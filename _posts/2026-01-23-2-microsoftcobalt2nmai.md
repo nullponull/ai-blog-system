@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？"
+title: "2026年Microsoftの「Cobalt」2nm、AIの次なる波はどこへ向かうのか？の注目ポイントと導入効果"
 date: 2026-01-23 08:48:11 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]

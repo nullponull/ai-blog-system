@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Googleの「Audio Overview」はの可"
+title: "2026年Googleの「Audio Overview」はの可による業務効率化と競争力強化"
 date: 2025-10-13 13:03:13 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "LLM", "AIエージェント", "マルチモーダル", "音声AI", "AI規制"]

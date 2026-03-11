@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snapdragon XR7、XRの未来を本当に変えるのか？"
+title: "2026年Snapdragon XR7、XRの未来を本当に変えるのか？が変えるビジネスの未来"
 date: 2026-01-02 08:46:14 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Apple", "RAG", "マルチモーダル", "音声AI", "推論最適化"]

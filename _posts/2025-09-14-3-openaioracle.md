@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとOracleの提携、その真意はどこにあるのか？"
+title: "2026年OpenAIとOracleの提携、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-09-14 15:56:55 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "マルチモーダル"]

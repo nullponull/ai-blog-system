@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「科学AI」は本当に次のフロ"
+title: "2026年「科学AI」は本当に次のフロ（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-10-05 08:36:08 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "AIエージェント", "AI規制", "AI人材"]

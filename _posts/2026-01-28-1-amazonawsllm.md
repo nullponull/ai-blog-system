@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？"
+title: "2026年Amazon、AWSのLLM推論コスト削減、その真意は何でしょうか？が変えるビジネスの未来"
 date: 2026-01-28 16:58:18 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

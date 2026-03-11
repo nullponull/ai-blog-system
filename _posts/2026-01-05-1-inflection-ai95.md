@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの感情分析95%達成、何が変わるのか？"
+title: "2026年Inflection AIの感情分析95%達成、何が変わるのか？の技術革新がもたらす変化"
 date: 2026-01-05 20:39:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

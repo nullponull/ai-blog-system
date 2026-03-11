@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？"
+title: "2026年みずほFGがWeights & Biasesを採用、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-10-21 20:37:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Amazon", "LLM", "RAG", "AIエージェント"]

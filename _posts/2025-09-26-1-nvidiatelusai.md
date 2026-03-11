@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？"
+title: "2026年NvidiaとTelusがカナダに築く「主権AIハブ」の真意とは？がもたらす産業構造の転換"
 date: 2025-09-26 13:00:45 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "ファインチューニング", "AI規制", "AI人材", "セキュリティ"]

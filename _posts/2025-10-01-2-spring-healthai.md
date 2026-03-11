@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring HealthのAI倫理評議会、その真意と業界への波紋とは？"
+title: "2026年Spring HealthのAI倫理評議会、その真意と業界への波紋とは？が変えるビジネスの未来"
 date: 2025-10-01 20:35:40 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

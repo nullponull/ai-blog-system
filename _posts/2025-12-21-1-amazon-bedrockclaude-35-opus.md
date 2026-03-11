@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon BedrockとClaude 3.5 Opus統合"
+title: "2026年Amazon BedrockとClaude 3.5 Opus統合の最新動向と企業への影響"
 date: 2025-12-21 04:49:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]

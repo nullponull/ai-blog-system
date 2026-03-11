@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropicが警告するLLMバックド"
+title: "2026年Anthropicが警告するLLMバックド（OpenAI・Google）の全貌と実践的な活用法"
 date: 2025-10-11 12:53:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]

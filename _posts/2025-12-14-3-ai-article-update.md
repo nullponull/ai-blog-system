@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "カナダのAI投資、その真意は何でしょうか？"
+title: "2026年カナダのAI投資、その真意は何でしょうか？（OpenAI・xAI）の進化と実用化への道筋"
 date: 2025-12-14 08:40:00 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "xAI", "LLM", "音声AI", "AI規制", "AI人材"]

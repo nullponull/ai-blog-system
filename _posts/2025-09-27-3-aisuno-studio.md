@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "音楽生成AI「Suno Studio」の登場は、音楽業界に何をもたらすのか？"
+title: "2026年音楽生成AI「Suno Studio」の登場は、音楽業界に何をもたらすのか？による業務効率化と競争力強化"
 date: 2025-09-27 16:37:17 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Apple", "ByteDance", "マルチモーダル", "音声AI", "AI規制"]

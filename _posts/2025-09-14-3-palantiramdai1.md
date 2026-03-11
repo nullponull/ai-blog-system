@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」"
+title: "2026年「PalantirとAMD、AIで1兆ドル企業へ？その真意と未来への問いかけ」の最新動向と企業への影響"
 date: 2025-09-14 12:53:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

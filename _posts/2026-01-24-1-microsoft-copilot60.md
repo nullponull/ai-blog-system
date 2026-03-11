@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、企業導入60%超え、何が変わるのか？"
+title: "2026年Microsoft Copilot、企業導入60%超え、何が変わるのか？が変えるビジネスの未来"
 date: 2026-01-24 08:41:37 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "AIエージェント", "AI規制", "AI人材"]

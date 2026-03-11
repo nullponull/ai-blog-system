@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIエージェントが産業を変革"
+title: "2026年AIエージェントが産業を変革（xAI・ROI分析）｜業種特化型AI活用の成功パターン"
 date: 2025-10-19 16:37:36 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "ROI分析", "AI人材", "DX推進", "セキュリティ"]

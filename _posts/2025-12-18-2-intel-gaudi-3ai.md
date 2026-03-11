@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intel Gaudi 3、AIチップ市場で何が変わる？"
+title: "2026年Intel Gaudi 3、AIチップ市場で何が変わる？による業務効率化と競争力強化"
 date: 2025-12-18 20:34:26 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]

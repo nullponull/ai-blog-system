@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？"
+title: "2026年Apple、SiriにGoogle AI採用検討の真意はどこにあるのか？がもたらす産業構造の転換"
 date: 2025-11-06 02:19:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

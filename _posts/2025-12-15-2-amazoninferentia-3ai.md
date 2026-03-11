@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのInferentia 3、AIの未来をどう変えるのか？"
+title: "2026年AmazonのInferentia 3、AIの未来をどう変えるのか？が変えるビジネスの未来"
 date: 2025-12-15 02:29:53 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "LLM"]

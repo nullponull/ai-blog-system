@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hugging Faceが提示するLLM評価"
+title: "2026年Hugging Faceが提示するLLM評価（OpenAI・Google）の技術革新がもたらす変化"
 date: 2026-01-03 20:35:48 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "LLM", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CarbonSixの製造AIロボット、その真価はどこにあるのか？"
+title: "2026年CarbonSixの製造AIロボット、その真価はどこにあるのか？がもたらす産業構造の転換"
 date: 2025-09-19 02:05:15 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "マルチモーダル", "ROI分析", "AI人材", "DX推進", "セキュリティ"]

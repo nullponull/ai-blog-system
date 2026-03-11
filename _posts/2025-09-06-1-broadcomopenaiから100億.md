@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Broadcom、OpenAIから100億"
+title: "2026年Broadcom、OpenAIから100億（Google・Meta）がもたらす産業構造の転換"
 date: 2025-09-06 16:38:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "ByteDance"]

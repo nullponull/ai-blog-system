@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？"
+title: "2026年Llama 4が描く未来：MetaのオープンLLM戦略、その真意とは何か？が変えるビジネスの未来"
 date: 2025-11-19 04:40:28 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]

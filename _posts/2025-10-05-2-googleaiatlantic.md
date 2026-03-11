@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Googleの量子AI、Atlantic統合の真意とは？"
+title: "2026年Googleの量子AI、Atlantic統合の真意とは？がもたらす産業構造の転換"
 date: 2025-10-05 16:35:43 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "マルチモーダル", "AI規制", "AI人材"]

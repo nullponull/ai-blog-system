@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "InspirenのAI介護プラットフォーム、その真価はどこにあるのか？"
+title: "2026年InspirenのAI介護プラットフォーム、その真価はどこにあるのか？の全貌と実践的な活用法"
 date: 2025-09-25 20:36:24 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "ROI分析", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

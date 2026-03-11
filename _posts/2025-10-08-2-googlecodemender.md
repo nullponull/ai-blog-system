@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？"
+title: "2026年GoogleのCodeMender、ソフトウェアの未来をどう変えるのか？の注目ポイントと導入効果"
 date: 2025-10-08 04:37:10 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "LLM", "AIエージェント", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの野望、AIチップの未来はどう変わる？"
+title: "2026年Inflection AIの野望、AIチップの未来はどう変わる？の注目ポイントと導入効果"
 date: 2026-01-13 20:39:54 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]

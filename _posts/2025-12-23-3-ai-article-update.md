@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI倫理の国際標準化、その真意は何を変えるのか？"
+title: "2026年AI倫理の国際標準化、その真意は何を変えるのか？（Google・Microsoft）"
 date: 2025-12-23 08:47:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "xAI", "マルチモーダル", "AI規制", "AI人材"]

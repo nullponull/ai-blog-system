@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI gpt-ossリリース"
+title: "2026年OpenAI gpt-ossリリース（Google・Meta）の進化と実用化への道筋"
 date: 2025-08-29 08:40:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]

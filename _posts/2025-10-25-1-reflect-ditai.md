@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "パナソニックの「Reflect-Dit」はAI画像生成の常識をどう変えるのか？"
+title: "2026年パナソニックの「Reflect-Dit」はAI画像生成の常識をどう変えるのか？が変えるビジネスの未来"
 date: 2025-10-25 04:35:16 +0000
 categories: ["業界別AI活用"]
 tags: ["画像生成", "推論最適化", "AI規制", "AI人材", "DX推進", "AI倫理"]

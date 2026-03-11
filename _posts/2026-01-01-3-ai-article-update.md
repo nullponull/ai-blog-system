@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI倫理の業界標準化は、単なるお題目か？その真意と、私たちが備えるべき未来"
+title: "2026年AI倫理の業界標準化は、単なるお題目か？その真意と、私たちが備えるべき未来の進化と実用化への道筋"
 date: 2026-01-01 16:44:24 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]

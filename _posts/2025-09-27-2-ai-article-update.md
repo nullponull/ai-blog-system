@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIデータセンター株の可能性"
+title: "2026年AIデータセンター株の可能性（OpenAI・Google）の全貌と実践的な活用法"
 date: 2025-09-27 20:32:39 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

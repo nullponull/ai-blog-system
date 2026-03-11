@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの「人間レベル」の共感性、本当に実現できるのか？"
+title: "2026年Inflection AIの「人間レベル」の共感性、本当に実現できるのか？が変えるビジネスの未来"
 date: 2026-01-16 20:34:28 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "ファインチューニング", "AI人材"]

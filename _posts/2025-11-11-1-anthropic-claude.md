@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claudeの可能性とは？"
+title: "2026年Anthropic Claudeの可能性とは？（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-11-11 20:35:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "LLM"]

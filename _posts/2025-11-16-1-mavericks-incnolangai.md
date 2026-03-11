@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mavericks Inc.の「NoLang」が示す、AI動画生成の真意とは？"
+title: "2026年Mavericks Inc.の「NoLang」が示す、AI動画生成の真意とは？の最新動向と企業への影響"
 date: 2025-11-16 16:36:53 +0000
 categories: ["AI最新ニュース"]
 tags: ["LLM", "マルチモーダル", "画像生成", "音声AI", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？"
+title: "2026年Baidu ERNIE、視覚AIでGPT超えの真意はどこにあるのか？の進化と実用化への道筋"
 date: 2025-11-14 20:37:32 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "AIエージェント", "マルチモーダル"]

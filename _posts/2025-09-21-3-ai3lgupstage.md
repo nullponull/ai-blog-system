@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来"
+title: "2026年韓国AI、世界3位浮上の真意とは？LGとUpstageが示す未来の注目ポイントと導入効果"
 date: 2025-09-21 02:15:11 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "推論最適化", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

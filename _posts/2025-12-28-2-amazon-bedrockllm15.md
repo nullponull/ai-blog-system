@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、LLM15種追加：何が変わるのか？"
+title: "2026年Amazon Bedrock、LLM15種追加：何が変わるのか？がもたらす産業構造の転換"
 date: 2025-12-28 08:41:23 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "画像生成", "セキュリティ"]

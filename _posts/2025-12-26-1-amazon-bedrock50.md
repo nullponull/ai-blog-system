@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの50モデル突破が示"
+title: "2026年Amazon Bedrockの50モデル突破が示（Anthropic・LLM）の注目ポイントと導入効果"
 date: 2025-12-26 13:03:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "Anthropic", "LLM", "RAG", "AIエージェント", "マルチモーダル"]

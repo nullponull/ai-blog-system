@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オープンソースLLM、GPT-4o超えの性能で企業導入はどう変わるのか"
+title: "2026年オープンソースLLM、GPT-4o超えの性能で企業導入はどう変わるのかが変えるビジネスの未来"
 date: 2026-02-17 22:12:01 +0900
 categories: [AI導入戦略]
 tags: ["LLM", "AI導入戦略", "Meta", "DX推進"]

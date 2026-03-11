@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？"
+title: "2026年AWS新GPU、Amazon Bedrockで推論速度3倍？何が変わるのか？の最新動向と企業への影響"
 date: 2025-12-23 16:44:57 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "NVIDIA", "Amazon", "Anthropic", "画像生成"]

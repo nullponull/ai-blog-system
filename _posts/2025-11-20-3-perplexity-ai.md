@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perplexity AIの企業向け機能拡"
+title: "2026年Perplexity AIの企業向け機能拡（OpenAI・Google）がもたらす産業構造の転換"
 date: 2025-11-20 13:05:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Bedrockの可能性とは？"
+title: "2026年AWS Bedrockの可能性とは？（OpenAI・Google）がもたらす産業構造の転換"
 date: 2025-12-24 04:49:57 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

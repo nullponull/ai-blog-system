@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAIチップ自社開発加"
+title: "2026年MicrosoftのAIチップ自社開発加（OpenAI・Google）が変えるビジネスの未来"
 date: 2026-02-08 03:36:18 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]

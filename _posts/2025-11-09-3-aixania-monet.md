@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI歌手Xania Monetの可能性とは？"
+title: "2026年AI歌手Xania Monetの可能性とは？（AI規制・AI人材）の注目ポイントと導入効果"
 date: 2025-11-09 08:37:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["AI規制", "AI人材", "AI倫理"]

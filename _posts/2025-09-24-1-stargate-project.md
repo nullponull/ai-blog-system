@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Stargate Project」の真意とは？"
+title: "2026年「Stargate Project」の真意とは？（OpenAI・Google）が変えるビジネスの未来"
 date: 2025-09-24 02:03:31 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "推論最適化"]

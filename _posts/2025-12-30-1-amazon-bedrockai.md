@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockが量子AIに対応する"
+title: "2026年Amazon Bedrockが量子AIに対応する（Google・Microsoft）"
 date: 2025-12-30 13:06:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Amazon", "LLM", "推論最適化"]

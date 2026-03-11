@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？"
+title: "2026年AWS「Trainium3」の衝撃は、AIチップ市場の潮目を変えるのか？が変えるビジネスの未来"
 date: 2025-12-03 02:21:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "Amazon", "Anthropic", "LLM"]

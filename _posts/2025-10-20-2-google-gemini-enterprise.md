@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini Enterprise、その真意は？"
+title: "2026年Google Gemini Enterprise、その真意は？の進化と実用化への道筋"
 date: 2025-10-20 02:21:09 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AIエージェント", "マルチモーダル"]

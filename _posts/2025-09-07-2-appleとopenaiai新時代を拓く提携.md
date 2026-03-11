@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AppleとOpenAI、AI新時代を拓く提携"
+title: "2026年AppleとOpenAI、AI新時代を拓く提携（Google・Microsoft）"
 date: 2025-09-07 08:26:03 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Apple", "xAI", "マルチモーダル"]

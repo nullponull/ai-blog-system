@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI創薬、DeepMindはどこまで真実味を帯びてきた？"
+title: "2026年AI創薬、DeepMindはどこまで真実味を帯びてきた？の技術革新がもたらす変化"
 date: 2026-01-12 08:51:14 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "マルチモーダル", "AI倫理"]

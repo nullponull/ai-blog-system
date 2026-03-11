@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "最近「AI倫理ガイドラインの"
+title: "2026年最近「AI倫理ガイドラインの（OpenAI・Google）の注目ポイントと導入効果"
 date: 2026-01-06 20:39:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AI規制"]

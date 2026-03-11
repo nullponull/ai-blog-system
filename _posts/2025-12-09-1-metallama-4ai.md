@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaがLlama 4で目指す汎用AIの地平、その真意とは何でしょうか？"
+title: "2026年MetaがLlama 4で目指す汎用AIの地平、その真意とは何でしょうか？の進化と実用化への道筋"
 date: 2025-12-09 16:42:55 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]

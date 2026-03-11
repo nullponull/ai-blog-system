@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？"
+title: "2026年DeepMindのAI創薬パートナーシップ、製薬業界の夜明けを告げるのか？の技術革新がもたらす変化"
 date: 2026-01-18 20:36:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "推論最適化", "AI規制", "AI人材", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SamsungとOpenAIの提携、その真意は？AIインフラの未来を読み解く"
+title: "2026年SamsungとOpenAIの提携、その真意は？AIインフラの未来を読み解くの最新動向と企業への影響"
 date: 2025-10-01 20:34:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化"]

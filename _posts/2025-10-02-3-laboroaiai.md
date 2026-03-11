@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Laboro.AIが描く産業AIの未来、その真価とは？"
+title: "2026年Laboro.AIが描く産業AIの未来、その真価とは？による業務効率化と競争力強化"
 date: 2025-10-02 13:00:13 +0000
 categories: ["業界別AI活用"]
 tags: ["マルチモーダル", "ROI分析", "AI人材", "AI倫理"]

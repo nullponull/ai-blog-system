@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？"
+title: "2026年OpenAIとStripeが描くAI決済の未来：小売業界に何が起きるのか？が変えるビジネスの未来"
 date: 2025-10-22 08:45:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AIエージェント"]

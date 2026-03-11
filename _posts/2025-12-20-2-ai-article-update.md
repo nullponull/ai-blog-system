@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon AWSのAIインフラ200億ドル投資、その真意とは？"
+title: "2026年Amazon AWSのAIインフラ200億ドル投資、その真意とは？の全貌と実践的な活用法"
 date: 2025-12-20 12:59:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

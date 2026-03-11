@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAIチップ「Trainium2」は、AI開発に何をもたらすのか？"
+title: "2026年AmazonのAIチップ「Trainium2」は、AI開発に何をもたらすのか？の注目ポイントと導入効果"
 date: 2025-12-25 08:44:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "Amazon", "Apple", "LLM", "マルチモーダル"]

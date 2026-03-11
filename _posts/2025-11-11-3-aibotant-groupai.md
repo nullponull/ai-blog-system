@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？"
+title: "2026年AgiBotとAnt Group、AIロボット市場の未来をどう描くのか？が変えるビジネスの未来"
 date: 2025-11-11 08:42:55 +0000
 categories: ["業界別AI活用"]
 tags: ["推論最適化", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]

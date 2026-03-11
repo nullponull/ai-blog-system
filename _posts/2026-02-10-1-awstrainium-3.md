@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSの「Trainium 3」はの可能性"
+title: "2026年AWSの「Trainium 3」はの可能性（OpenAI・Google）の全貌と実践的な活用法"
 date: 2026-02-10 09:13:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

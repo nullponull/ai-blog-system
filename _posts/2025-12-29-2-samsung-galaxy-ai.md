@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？"
+title: "2026年Samsung Galaxy AI、新チップで小型化、何が変わるのでしょう？の最新動向と企業への影響"
 date: 2025-12-29 13:08:37 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "RAG", "画像生成"]

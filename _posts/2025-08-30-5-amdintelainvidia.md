@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AMD・Intel AI専用チップ参入"
+title: "2026年AMD・Intel AI専用チップ参入（Google・Microsoft）の最新動向と企業への影響"
 date: 2025-08-30 08:39:30 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]

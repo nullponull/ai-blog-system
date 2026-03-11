@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIの1000億ドル調達、AI業界地図をどう塗り替えるのか"
+title: "2026年OpenAIの1000億ドル調達、AI業界地図をどう塗り替えるのかがもたらす産業構造の転換"
 date: 2026-03-12 06:36:39 +0900
 categories: [導入事例]
 tags: ["OpenAI", "LLM", "AI投資", "DX推進", "マルチモーダル"]

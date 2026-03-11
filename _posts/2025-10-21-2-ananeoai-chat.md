@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ANAが「neoAI Chat」を導入、その真意はどこにあるのか？"
+title: "2026年ANAが「neoAI Chat」を導入、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-10-21 04:38:20 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "RAG", "マルチモーダル", "AI規制", "AI人材", "DX推進"]

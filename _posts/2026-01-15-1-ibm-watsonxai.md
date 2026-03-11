@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM WatsonXが拓く企業AIの新た"
+title: "2026年IBM WatsonXが拓く企業AIの新た（OpenAI・Google）の全貌と実践的な活用法"
 date: 2026-01-15 13:09:36 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "LLM"]

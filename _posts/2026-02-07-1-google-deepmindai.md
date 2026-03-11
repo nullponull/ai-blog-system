@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindの創薬AIの可能性"
+title: "2026年Google DeepMindの創薬AIの可能性（NVIDIA・xAI）の全貌と実践的な活用法"
 date: 2026-02-07 02:51:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "xAI", "LLM", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？"
+title: "2026年MIT発Cognify AI、ウェブサイトUXの未来をどう変えるのか？の注目ポイントと導入効果"
 date: 2025-09-22 04:38:01 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "ROI分析", "AI人材", "セキュリティ", "AI倫理"]

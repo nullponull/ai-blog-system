@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？"
+title: "2026年ERNIE Bot 5.0、Baiduの次の一手は何を変えるのか？の進化と実用化への道筋"
 date: 2025-12-13 08:39:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "マルチモーダル", "音声AI", "AI人材", "自動運転"]

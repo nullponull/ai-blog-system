@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "金融AIエージェントが拓く未来、その真価はどこにあるのか？"
+title: "2026年金融AIエージェントが拓く未来、その真価はどこにあるのか？の進化と実用化への道筋"
 date: 2025-11-12 08:43:50 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Anthropic", "xAI", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PwC Japanの「AI Factory」はの可能"
+title: "2026年PwC Japanの「AI Factory」はの可能による業務効率化と競争力強化"
 date: 2025-11-01 02:19:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

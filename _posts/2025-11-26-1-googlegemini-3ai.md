@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？"
+title: "2026年Googleの「Gemini 3」が提示する、AIチップ市場の新たな波とは？の注目ポイントと導入効果"
 date: 2025-11-26 08:43:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]

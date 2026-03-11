@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Strands Agentsの登場がAIエー"
+title: "2026年AWS Strands Agentsの登場がAIエーによる業務効率化と競争力強化"
 date: 2025-09-15 20:33:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "xAI"]

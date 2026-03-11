@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの新モデル、学習コスト半減の真意とは？"
+title: "2026年Amazon Bedrockの新モデル、学習コスト半減の真意とは？がもたらす産業構造の転換"
 date: 2026-01-30 08:57:57 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Anthropic", "LLM"]

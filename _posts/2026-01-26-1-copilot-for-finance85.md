@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Copilot for Finance」の85%予測精"
+title: "2026年「Copilot for Finance」の85%予測精の技術革新がもたらす変化"
 date: 2026-01-26 02:42:27 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AIエージェント"]

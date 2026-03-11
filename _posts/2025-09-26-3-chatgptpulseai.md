@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？"
+title: "2026年ChatGPTの新機能「Pulse」が示す、AI要約の新たな地平とは？の注目ポイントと導入効果"
 date: 2025-09-26 16:41:29 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "AIエージェント"]

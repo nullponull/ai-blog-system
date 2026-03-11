@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L&T TechとMITのAGI探求、その真意はどこにあるのか？"
+title: "2026年L&T TechとMITのAGI探求、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-09-19 12:59:42 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "xAI", "LLM", "AIエージェント", "マルチモーダル"]

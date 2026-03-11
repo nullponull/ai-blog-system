@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？"
+title: "2026年NTTの国産LLM「tsuzumi 2」は、日本のAIに何をもたらすのか？の技術革新がもたらす変化"
 date: 2025-10-23 13:07:16 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "推論最適化", "AI規制", "AI人材"]

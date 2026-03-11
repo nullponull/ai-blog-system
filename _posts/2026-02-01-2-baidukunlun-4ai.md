@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？"
+title: "2026年Baiduの「Kunlun 4」、AIチップ競争に何をもたらすのか？が変えるビジネスの未来"
 date: 2026-02-01 16:48:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "Apple", "LLM"]

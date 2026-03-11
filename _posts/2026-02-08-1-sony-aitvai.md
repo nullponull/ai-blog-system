@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sony AITVの感性AI、映像制作はどう変わる？"
+title: "2026年Sony AITVの感性AI、映像制作はどう変わる？による業務効率化と競争力強化"
 date: 2026-02-08 05:40:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "AIエージェント", "マルチモーダル", "AI人材", "セキュリティ", "AI倫理"]

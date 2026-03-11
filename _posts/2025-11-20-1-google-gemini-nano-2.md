@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini Nano 2、その真意はどこにあるのか？"
+title: "2026年Google Gemini Nano 2、その真意はどこにあるのか？の進化と実用化への道筋"
 date: 2025-11-20 13:03:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "画像生成"]

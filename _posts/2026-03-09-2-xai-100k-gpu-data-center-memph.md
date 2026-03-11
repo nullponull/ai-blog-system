@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "xAI、メンフィスに10万GPUデータセンター建設"
+title: "2026年xAI、メンフィスに10万GPUデータセンター建設｜各業界で進むAI活用の最前線"
 date: 2026-03-09 14:00:47 +0900
 categories: [業界別AI活用]
 tags: ["LLM", "AIエージェント", "マルチモーダル", "NVIDIA", "AI投資"]

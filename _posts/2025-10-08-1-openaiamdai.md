@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるの？"
+title: "2026年OpenAIとAMDの提携、その真意は？AIインフラの未来に何が変わるの？がもたらす産業構造の転換"
 date: 2025-10-08 04:36:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

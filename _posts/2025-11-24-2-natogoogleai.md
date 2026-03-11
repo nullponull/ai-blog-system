@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？"
+title: "2026年NATOとGoogle、AIソブリンクラウド提携：その真意はどこにあるのか？の全貌と実践的な活用法"
 date: 2025-11-24 08:46:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI規制"]

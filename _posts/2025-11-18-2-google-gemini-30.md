@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3.0の可能性とは？"
+title: "2026年Google Gemini 3.0の可能性とは？（OpenAI・Anthropic）"
 date: 2025-11-18 08:45:26 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "マルチモーダル", "推論最適化"]

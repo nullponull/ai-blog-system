@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hugging Faceの1億ドル調達の可"
+title: "2026年Hugging Faceの1億ドル調達の可（OpenAI・Google）の最新動向と企業への影響"
 date: 2026-02-02 17:01:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

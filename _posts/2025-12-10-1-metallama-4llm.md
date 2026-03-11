@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？"
+title: "2026年MetaのLlama 4、LLM競争の次なる一手は何をもたらすのか？の注目ポイントと導入効果"
 date: 2025-12-10 08:45:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "LLM"]

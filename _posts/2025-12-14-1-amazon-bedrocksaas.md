@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon BedrockのSaaS連携強化、何が変わるのか？"
+title: "2026年Amazon BedrockのSaaS連携強化、何が変わるのか？の最新動向と企業への影響"
 date: 2025-12-14 20:35:04 +0000
 categories: ["研究論文"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "AIエージェント", "ファインチューニング"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adobe StockのAI刷新、何が変わるのか？"
+title: "2026年Adobe StockのAI刷新、何が変わるのか？｜最前線レポートと今後の見通し"
 date: 2025-12-14 08:39:32 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "画像生成", "ファインチューニング", "AI規制", "AI倫理"]

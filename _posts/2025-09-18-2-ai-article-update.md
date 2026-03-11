@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ファーウェイが目指すAIクラ"
+title: "2026年ファーウェイが目指すAIクラ（NVIDIA・推論最適化）がもたらす産業構造の転換"
 date: 2025-09-18 13:00:34 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "AI規制", "AI人材"]

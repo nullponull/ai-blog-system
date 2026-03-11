@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "米国AI独禁法強化の真意は？イノベーションと競争の未来を読み解く"
+title: "2026年米国AI独禁法強化の真意は？イノベーションと競争の未来を読み解くの最新動向と企業への影響"
 date: 2025-09-19 04:37:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

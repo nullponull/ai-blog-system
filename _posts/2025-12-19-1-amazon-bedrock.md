@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの可能性とは？"
+title: "2026年Amazon Bedrockの可能性とは？（OpenAI・Meta）の進化と実用化への道筋（モデル"
 date: 2025-12-19 20:36:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "Apple", "RAG"]

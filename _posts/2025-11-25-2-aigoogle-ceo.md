@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIバブルの真意はどこに？Google CEOの警鐘が問うも？"
+title: "2026年AIバブルの真意はどこに？Google CEOの警鐘が問うも？の最新動向と企業への影響"
 date: 2025-11-25 02:19:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AIエージェント"]

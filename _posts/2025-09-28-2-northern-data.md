@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Northern Dataの施設捜索、その真意はどこにあるのか？"
+title: "2026年Northern Dataの施設捜索、その真意はどこにあるのか？による業務効率化と競争力強化"
 date: 2025-09-28 16:34:37 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの巨額投資、欧州AIはどう変わるのか？"
+title: "2026年Microsoftの巨額投資、欧州AIはどう変わるのか？の注目ポイントと導入効果"
 date: 2026-02-05 09:03:03 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI規制", "AI人材"]

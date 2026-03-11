@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Samsungが次世代AIチップ『Exyn"
+title: "2026年「Samsungが次世代AIチップ『Exyn（Google・NVIDIA）の技術革新がもたらす変化"
 date: 2026-01-12 20:39:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]

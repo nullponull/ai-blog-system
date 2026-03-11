@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicronのHBM3e生産3倍増、その真意とAI時代の半導体戦略とは？"
+title: "2026年MicronのHBM3e生産3倍増、その真意とAI時代の半導体戦略とは？の全貌と実践的な活用法"
 date: 2025-09-21 08:35:15 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "推論最適化", "AI人材", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAIエージェントSDK、その真意はどこにあるのか？"
+title: "2026年MicrosoftのAIエージェントSDK、その真意はどこにあるのか？の最新動向と企業への影響"
 date: 2025-10-18 01:59:26 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "xAI", "AIエージェント", "ROI分析", "AI規制", "AI人材"]

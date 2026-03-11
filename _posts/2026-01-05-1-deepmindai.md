@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの創薬AIが予測する「承"
+title: "2026年DeepMindの創薬AIが予測する「承（Google・LLM）の全貌と実践的な活用法"
 date: 2026-01-05 05:06:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "LLM", "推論最適化", "AI規制", "AI人材", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法、OSS AIの未来はどうなる？開発者が語る影響と実務"
+title: "2026年EU AI法、OSS AIの未来はどうなる？開発者が語る影響と実務の進化と実用化への道筋"
 date: 2026-03-02 19:59:31 +0900
 categories: [AI最新ニュース]
 tags: ["LLM", "AI規制対応", "ファインチューニング", "DX推進"]

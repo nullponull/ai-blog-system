@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI Broadcom提携、AIチップ開発"
+title: "2026年OpenAI Broadcom提携、AIチップ開発｜企業導入のポイントを徹底解説"
 date: 2025-09-06 12:01:03 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "推論最適化"]

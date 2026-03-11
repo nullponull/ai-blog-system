@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaのAIチップ、TSMCとの連携強化で何が変わるのか？"
+title: "2026年MetaのAIチップ、TSMCとの連携強化で何が変わるのか？の最新動向と企業への影響"
 date: 2025-12-12 02:25:03 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]

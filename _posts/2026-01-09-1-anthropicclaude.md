@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AnthropicのClaude次期版の可能"
+title: "2026年AnthropicのClaude次期版の可能（OpenAI・Google）が変えるビジネスの未来"
 date: 2026-01-09 16:47:39 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Anthropic"]

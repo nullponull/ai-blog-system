@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAIエージェントフレームワーク、その真意はどこにあるのか？"
+title: "2026年MicrosoftのAIエージェントフレームワーク、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-10-16 20:36:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Amazon", "xAI", "AIエージェント", "推論最適化"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropicの「Interviewer」AI、その真意とは何か？"
+title: "2026年Anthropicの「Interviewer」AI、その真意とは何か？の注目ポイントと導入効果"
 date: 2025-12-05 16:43:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "Anthropic", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]

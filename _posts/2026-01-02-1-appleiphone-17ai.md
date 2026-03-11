@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AppleのiPhone 17におけるAIチッ"
+title: "2026年AppleのiPhone 17におけるAIチッ（OpenAI・Google）の最新動向と企業への影響"
 date: 2026-01-02 04:54:00 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Apple", "LLM", "RAG"]

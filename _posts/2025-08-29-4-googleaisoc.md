@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleがAIエージェント駆動の「エージェント型SOC」構想を発"
+title: "2026年GoogleがAIエージェント駆動の「エージェント型SOC」構想を発が変えるビジネスの未来"
 date: 2025-08-29 14:55:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI人材"]

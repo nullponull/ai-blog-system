@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解く"
+title: "2026年AmazonのAI戦略、その真意はどこにあるのか？AWS成長の裏側を読み解くによる業務効率化と競争力強化"
 date: 2025-11-01 08:38:06 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "Amazon", "Anthropic", "AIエージェント", "画像生成", "ファインチューニング"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "中国の可能性とは？"
+title: "2026年中国の可能性とは？（Google・NVIDIA）｜業種特化型AI活用の成功パターン"
 date: 2025-11-10 20:38:38 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "推論最適化", "AI規制", "AI人材", "セキュリティ"]

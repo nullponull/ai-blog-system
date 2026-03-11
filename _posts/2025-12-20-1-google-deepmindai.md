@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindの創薬AI、本当に未来を変えるのか？"
+title: "2026年Google DeepMindの創薬AI、本当に未来を変えるのか？の進化と実用化への道筋"
 date: 2025-12-20 12:58:43 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "マルチモーダル", "AI人材", "AI倫理"]

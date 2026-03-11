@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "サムスン、次世代AIチップ発表の真意は何だろうか？"
+title: "2026年サムスン、次世代AIチップ発表の真意は何だろうか？｜最前線レポートと今後の見通し"
 date: 2025-12-17 08:47:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Apple", "LLM"]

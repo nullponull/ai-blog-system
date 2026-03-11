@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？"
+title: "2026年Adobe Firefly、4K対応が画像生成AIに何をもたらすのか？の全貌と実践的な活用法"
 date: 2026-01-18 04:53:10 +0000
 categories: ["AI技術ガイド"]
 tags: ["マルチモーダル", "画像生成", "AI規制", "AI人材", "AI倫理"]

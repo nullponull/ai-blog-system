@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAIチップ「Inferentia3」発表、何が変わるのか？"
+title: "2026年AmazonのAIチップ「Inferentia3」発表、何が変わるのか？がもたらす産業構造の転換"
 date: 2025-12-23 04:50:16 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

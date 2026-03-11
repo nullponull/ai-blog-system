@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hon PrecisionのAIチップ生産40%増"
+title: "2026年Hon PrecisionのAIチップ生産40%増｜業界変革を加速させるAI戦略"
 date: 2025-10-28 02:08:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

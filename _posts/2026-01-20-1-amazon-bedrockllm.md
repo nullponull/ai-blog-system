@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、企業LLM導入の「次」は何を意味するのか？"
+title: "2026年Amazon Bedrock、企業LLM導入の「次」は何を意味するのか？が変えるビジネスの未来"
 date: 2026-01-20 08:52:04 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]

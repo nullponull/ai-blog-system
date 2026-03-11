@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI ChatGPTの可能性とは？"
+title: "2026年OpenAI ChatGPTの可能性とは？（Google・Meta）が変えるビジネスの未来"
 date: 2025-10-17 04:36:55 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "Apple", "xAI", "AIエージェント"]

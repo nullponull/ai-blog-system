@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オーストラリアのAI安全投資、その真意はどこにあるのか？"
+title: "2026年オーストラリアのAI安全投資、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-12-02 04:45:51 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "AIエージェント", "AI規制"]

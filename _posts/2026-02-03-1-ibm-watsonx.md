@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM WatsonX、金融アナリストの「相棒」となるか？その実力と未来"
+title: "2026年IBM WatsonX、金融アナリストの「相棒」となるか？その実力と未来の注目ポイントと導入効果"
 date: 2026-02-03 20:55:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "ファインチューニング", "AI規制"]

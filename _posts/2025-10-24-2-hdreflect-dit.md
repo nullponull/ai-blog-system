@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "パナソニックHDの「Reflect-Dit」"
+title: "2026年パナソニックHDの「Reflect-Dit」（OpenAI・Google）の最新動向と企業への影響"
 date: 2025-10-24 16:43:39 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "LLM", "画像生成", "ROI分析", "AI規制"]

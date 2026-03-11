@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？"
+title: "2026年Baiduの「Ernie 5」発表、AI検索の未来はどう変わる？の最新動向と企業への影響"
 date: 2026-02-05 17:09:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "画像生成", "AI倫理"]

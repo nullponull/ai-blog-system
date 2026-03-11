@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "サムスンの「Scientist AI」構想、その真意はどこにあるのか？"
+title: "2026年サムスンの「Scientist AI」構想、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-09-15 16:40:47 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "LLM", "RAG", "AIエージェント", "マルチモーダル", "音声AI"]

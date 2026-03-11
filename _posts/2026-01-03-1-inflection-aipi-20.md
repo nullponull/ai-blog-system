@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIのPi 2.0の可能性？"
+title: "2026年Inflection AIのPi 2.0の可能性？（新モデル・対話精度）｜知っておくべき最新情報まとめ"
 date: 2026-01-03 16:39:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

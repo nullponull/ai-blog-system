@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claudeの「Agent Skills」導"
+title: "2026年Anthropic Claudeの「Agent Skills」導の最新動向と企業への影響"
 date: 2025-11-09 20:33:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]

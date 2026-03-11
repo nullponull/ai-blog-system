@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIエージェントがビジネスを変える？Gartner予測の衝撃とは"
+title: "2026年AIエージェントがビジネスを変える？Gartner予測の衝撃とはの全貌と実践的な活用法"
 date: 2026-02-14 02:08:25 +0900
 categories: [AI技術ガイド]
 tags: ["AIエージェント", "LLM", "DX推進", "Gartner"]

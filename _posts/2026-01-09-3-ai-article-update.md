@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "トヨタの可能性とは？"
+title: "2026年トヨタの可能性とは？（Microsoft・NVIDIA）がもたらす産業構造の転換"
 date: 2026-01-09 13:10:53 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "Amazon", "xAI", "AI規制", "AI人材"]

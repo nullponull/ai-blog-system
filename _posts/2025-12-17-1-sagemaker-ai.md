@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SageMaker と量子AI、この連携強化で何が変わる？"
+title: "2026年SageMaker と量子AI、この連携強化で何が変わる？が変えるビジネスの未来"
 date: 2025-12-17 02:20:42 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon"]

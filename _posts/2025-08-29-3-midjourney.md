@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Disney等Midjourney著作権提訴"
+title: "2026年Disney等Midjourney著作権提訴（画像生成・AI規制）がもたらす産業構造の転換"
 date: 2025-08-29 14:55:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["画像生成", "AI規制"]

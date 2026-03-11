@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI巨額資金調達、124兆円の行方と業界地図はどう変わるのか"
+title: "2026年AI巨額資金調達、124兆円の行方と業界地図はどう変わるのかがもたらす産業構造の転換"
 date: 2026-03-10 18:48:50 +0900
 categories: [AI最新ニュース]
 tags: ["AI投資", "OpenAI", "Google", "Microsoft", "NVIDIA", "LLM"]

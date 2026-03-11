@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "S&P GlobalとIBMのAIエージェント提携、その真意はどこにあるのか？"
+title: "2026年S&P GlobalとIBMのAIエージェント提携、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-10-08 16:40:49 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "推論最適化"]

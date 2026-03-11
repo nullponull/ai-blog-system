@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "xAI Grok 4 Fastの可能性とは？"
+title: "2026年xAI Grok 4 Fastの可能性とは？（OpenAI・Google）が変えるビジネスの未来"
 date: 2025-09-23 08:38:38 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]

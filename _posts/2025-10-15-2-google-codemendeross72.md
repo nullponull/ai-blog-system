@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google CodeMenderがOSSに72件の修正をもたらした真意とは？"
+title: "2026年Google CodeMenderがOSSに72件の修正をもたらした真意とは？の技術革新がもたらす変化"
 date: 2025-10-15 02:07:42 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Apple", "AIエージェント", "推論最適化", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ByteDanceの「Doubao 2.0」がAI画像"
+title: "2026年ByteDanceの「Doubao 2.0」がAI画像による業務効率化と競争力強化"
 date: 2026-02-07 20:46:11 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "ByteDance", "画像生成", "AI規制"]

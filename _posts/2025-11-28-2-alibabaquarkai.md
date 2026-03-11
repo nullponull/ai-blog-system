@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？"
+title: "2026年Alibabaの「Quark」AIメガネ、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-11-28 04:39:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Apple", "LLM", "音声AI", "AI規制"]

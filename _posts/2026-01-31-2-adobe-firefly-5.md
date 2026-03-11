@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？"
+title: "2026年Adobe Firefly 5の登場、デザイン自動化はどこまで進むのか？の技術革新がもたらす変化"
 date: 2026-01-31 13:12:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "LLM", "AIエージェント", "画像生成", "AI規制"]

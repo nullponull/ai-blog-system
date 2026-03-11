@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claude 4.5がもたらす「防御力」の真意とは？"
+title: "2026年Anthropic Claude 4.5がもたらす「防御力」の真意とは？の全貌と実践的な活用法"
 date: 2025-11-28 08:45:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "AIエージェント"]

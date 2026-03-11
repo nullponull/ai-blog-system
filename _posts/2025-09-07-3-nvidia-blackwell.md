@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIA Blackwell: AI時代の覇権"
+title: "2026年NVIDIA Blackwell: AI時代の覇権｜企業導入のポイントを徹底解説"
 date: 2025-09-07 10:21:55 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]

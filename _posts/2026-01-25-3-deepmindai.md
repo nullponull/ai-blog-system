@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの創薬AI、その真意と未来はどこにあるのか？"
+title: "2026年DeepMindの創薬AI、その真意と未来はどこにあるのか？の注目ポイントと導入効果"
 date: 2026-01-25 20:39:08 +0000
 categories: ["導入事例"]
 tags: ["Google", "xAI", "LLM", "AI規制", "AI人材", "セキュリティ"]

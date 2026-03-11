@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、LLM戦国時代に何をもたらすのか？ (27文字)"
+title: "2026年Amazon Bedrock、LLM戦国時代に何をもたらすのか？ (27文字)の技術革新がもたらす変化"
 date: 2026-01-31 13:12:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

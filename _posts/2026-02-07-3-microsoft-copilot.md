@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、金融界で何が変わるのか？"
+title: "2026年Microsoft Copilot、金融界で何が変わるのか？の技術革新がもたらす変化"
 date: 2026-02-07 08:51:18 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AI規制"]

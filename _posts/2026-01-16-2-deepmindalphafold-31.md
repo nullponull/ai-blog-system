@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？"
+title: "2026年DeepMindのAlphaFold 3.1、蛋白质構造予測の次なる一手は何？の進化と実用化への道筋"
 date: 2026-01-16 08:47:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "LLM"]

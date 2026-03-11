@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JPCERT/CCのAI倫理ガイドライン、何が変わるのか？"
+title: "2026年JPCERT/CCのAI倫理ガイドライン、何が変わるのか？の技術革新がもたらす変化"
 date: 2026-01-08 08:48:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "LLM", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

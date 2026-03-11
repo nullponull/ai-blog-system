@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？"
+title: "2026年Intel vs. AMD：AIチップ特許訴訟、何が変わるのか？の注目ポイントと導入効果"
 date: 2025-12-17 13:08:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "Apple", "推論最適化"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MS・Google・Amazon AI投資"
+title: "2026年MS・Google・Amazon AI投資（OpenAI・Microsoft）の注目ポイントと導入効果"
 date: 2025-08-29 03:43:08 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

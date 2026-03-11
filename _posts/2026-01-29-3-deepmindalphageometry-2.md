@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの「AlphaGeometry 2」は、何を変えるのか？"
+title: "2026年DeepMindの「AlphaGeometry 2」は、何を変えるのか？の注目ポイントと導入効果"
 date: 2026-01-29 08:59:54 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AI人材"]

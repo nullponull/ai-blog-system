@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NECのAgentic AI営業支援ソリュ"
+title: "2026年NECのAgentic AI営業支援ソリュ（xAI・AIエージェント）が変えるビジネスの未来"
 date: 2025-11-29 13:00:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "AIエージェント", "推論最適化", "ROI分析", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intel Gaudi 3がAIの未来をどう塗"
+title: "2026年Intel Gaudi 3がAIの未来をどう塗（Google・Microsoft）"
 date: 2025-12-22 20:37:15 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "RAG"]

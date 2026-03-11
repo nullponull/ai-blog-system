@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qualcomm、AIチップ市場への挑戦：その真意はどこにあるのか？"
+title: "2026年Qualcomm、AIチップ市場への挑戦：その真意はどこにあるのか？がもたらす産業構造の転換"
 date: 2025-10-28 04:37:39 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "マルチモーダル", "推論最適化"]

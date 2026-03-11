@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？"
+title: "2026年富士通が「Frontria」で挑むAI偽情報対策、その真意と未来への布石とは？の最新動向と企業への影響"
 date: 2025-12-02 16:48:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "xAI", "マルチモーダル", "音声AI"]

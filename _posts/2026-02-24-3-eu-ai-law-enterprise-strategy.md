@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法が変えるAI導入、その真意と企業戦略への影響とは"
+title: "2026年EU AI法が変えるAI導入、その真意と企業戦略への影響とはの進化と実用化への道筋"
 date: 2026-02-24 22:16:09 +0900
 categories: [AI導入戦略]
 tags: ["AI規制対応", "DX推進", "Google", "Microsoft", "LLM"]

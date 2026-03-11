@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMind AlphaFold3の可能性とは？"
+title: "2026年DeepMind AlphaFold3の可能性とは？による業務効率化と競争力強化"
 date: 2026-01-20 16:53:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

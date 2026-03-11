@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI業界を揺るがす二つの波："
+title: "2026年AI業界を揺るがす二つの波：（OpenAI・Google）の注目ポイントと導入効果"
 date: 2025-12-04 20:39:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

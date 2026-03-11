@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実"
+title: "2026年AI安全対策「低評価」の真意は？シリコンバレーから見えてくる現実が変えるビジネスの未来"
 date: 2025-12-07 08:39:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]

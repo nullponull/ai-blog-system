@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon BedrockとSaaS連携がもたら"
+title: "2026年Amazon BedrockとSaaS連携がもたら｜企業導入のポイントを徹底解説"
 date: 2025-12-25 20:36:39 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]

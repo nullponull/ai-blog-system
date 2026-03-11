@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIデータセンターの未来は液"
+title: "2026年AIデータセンターの未来は液（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-09-20 20:30:32 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

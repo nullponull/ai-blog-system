@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、中小企業をどう変える？その真意は？"
+title: "2026年Microsoft Copilot、中小企業をどう変える？その真意は？の注目ポイントと導入効果"
 date: 2025-12-19 20:36:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI人材", "DX推進"]

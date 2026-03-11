@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAIチップ「Inferentia 3」発表、その真意は何？"
+title: "2026年AmazonのAIチップ「Inferentia 3」発表、その真意は何？の注目ポイントと導入効果"
 date: 2025-12-22 08:47:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "音声AI"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AdobeのSemrush買収、その真意はどこにあるのか？"
+title: "2026年AdobeのSemrush買収、その真意はどこにあるのか？がもたらす産業構造の転換"
 date: 2025-11-28 08:45:52 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "推論最適化", "AI規制", "AI人材"]

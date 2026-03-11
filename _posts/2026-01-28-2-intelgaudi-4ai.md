@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IntelのGaudi 4、AIのゲームチェンジャーとなるのか？"
+title: "2026年IntelのGaudi 4、AIのゲームチェンジャーとなるのか？の全貌と実践的な活用法"
 date: 2026-01-28 20:50:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]

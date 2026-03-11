@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ERNIE 5登場！BaiduのAI戦略、何がすごいのか？"
+title: "2026年ERNIE 5登場！BaiduのAI戦略、何がすごいのか？の最新動向と企業への影響"
 date: 2026-01-04 20:36:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "推論最適化"]

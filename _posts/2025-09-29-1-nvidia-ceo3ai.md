@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来"
+title: "2026年Nvidia CEOの3兆ドル予測、その真意は？AIインフラ投資が変える未来の注目ポイントと導入効果"
 date: 2025-09-29 04:37:36 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]

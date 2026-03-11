@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baidu「Apollo」の都市展開の可"
+title: "2026年Baidu「Apollo」の都市展開の可（Google・NVIDIA）の技術革新がもたらす変化"
 date: 2026-01-22 20:44:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

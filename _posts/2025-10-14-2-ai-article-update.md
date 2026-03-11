@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "データセクションの豪州AIデ"
+title: "2026年データセクションの豪州AIデ（Microsoft・NVIDIA）の技術革新がもたらす変化"
 date: 2025-10-14 08:40:43 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "NVIDIA", "Amazon", "LLM", "画像生成", "推論最適化"]

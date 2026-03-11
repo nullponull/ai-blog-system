@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows 11 Copilotの可能性とは？"
+title: "2026年Windows 11 Copilotの可能性とは？｜最前線レポートと今後の見通し"
 date: 2025-12-22 08:47:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "マルチモーダル", "AI人材"]

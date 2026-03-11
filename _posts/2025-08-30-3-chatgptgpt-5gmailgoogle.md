@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPTのGPT-5がGmail/Googleカレンダー連携を強化"
+title: "2026年ChatGPTのGPT-5がGmail/Googleカレンダー連携を強化の注目ポイントと導入効果"
 date: 2025-08-30 08:38:07 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "AIエージェント"]

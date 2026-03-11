@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日本のAI特区構想、その真意はどこにあるのか？"
+title: "2026年日本のAI特区構想、その真意はどこにあるのか？（OpenAI・Google）の最新動向と企業への影響"
 date: 2026-01-16 02:31:10 +0000
 categories: ["導入事例"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "AI規制"]

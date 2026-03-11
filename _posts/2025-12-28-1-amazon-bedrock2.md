@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの推論速度2倍、何が変わるのか？"
+title: "2026年Amazon Bedrockの推論速度2倍、何が変わるのか？の最新動向と企業への影響"
 date: 2025-12-28 16:40:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]

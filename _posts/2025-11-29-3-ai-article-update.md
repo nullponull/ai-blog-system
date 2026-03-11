@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "生成AI、無料の蜜月は終わるのか？ コストの現実が示す未来とは？"
+title: "2026年生成AI、無料の蜜月は終わるのか？ コストの現実が示す未来とは？の最新動向と企業への影響"
 date: 2025-11-29 16:40:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

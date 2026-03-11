@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baidu ERNIE Botの多言語強化、何が変わるのか？"
+title: "2026年Baidu ERNIE Botの多言語強化、何が変わるのか？の進化と実用化への道筋"
 date: 2026-01-31 08:48:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "LLM", "ファインチューニング", "AI規制", "AI人材"]

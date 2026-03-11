@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3 Proが掲げる「高情"
+title: "2026年Google Gemini 3 Proが掲げる「高情による業務効率化と競争力強化"
 date: 2025-11-23 20:35:23 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]

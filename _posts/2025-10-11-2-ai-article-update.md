@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "米上院のAIチップ規制法案、その真意はどこにあるのか？"
+title: "2026年米上院のAIチップ規制法案、その真意はどこにあるのか？による業務効率化と競争力強化"
 date: 2025-10-11 16:35:28 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "ByteDance"]

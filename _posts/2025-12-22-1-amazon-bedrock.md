@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの新モデルの可能"
+title: "2026年Amazon Bedrockの新モデルの可能（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-12-22 02:30:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

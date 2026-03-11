@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？"
+title: "2026年LLaMA 5で生成AIコスト半減、Metaが描くオープンAI戦略の深層とは？の最新動向と企業への影響"
 date: 2025-12-14 16:38:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

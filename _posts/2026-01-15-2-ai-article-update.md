@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "トヨタのAI新拠点、東京で何が始まるのだろうか？"
+title: "2026年トヨタのAI新拠点、東京で何が始まるのだろうか？（NVIDIA・ROI分析）の技術革新がもたらす変化"
 date: 2026-01-15 13:09:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "ROI分析", "AI規制", "AI人材", "AI倫理", "自動運転"]

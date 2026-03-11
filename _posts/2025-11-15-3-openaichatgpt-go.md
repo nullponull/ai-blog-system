@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？"
+title: "2026年OpenAIのインド戦略：ChatGPT Go無料提供の真意とは？の全貌と実践的な活用法"
 date: 2025-11-15 02:10:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "画像生成"]

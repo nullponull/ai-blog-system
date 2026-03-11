@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "イタリアのAI規制法、懲役刑の導入が示唆するものとは？"
+title: "2026年イタリアのAI規制法、懲役刑の導入が示唆するものとは？による業務効率化と競争力強化"
 date: 2025-09-23 20:35:10 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

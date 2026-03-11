@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mavericksの「NoLang」が動画生成A"
+title: "2026年Mavericksの「NoLang」が動画生成A（LLM・音声AI）が変えるビジネスの未来"
 date: 2025-11-16 12:56:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["LLM", "音声AI", "AI規制", "AI人材", "DX推進", "AI倫理"]

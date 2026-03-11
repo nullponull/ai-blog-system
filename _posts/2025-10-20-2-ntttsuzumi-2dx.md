@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？"
+title: "2026年NTT「tsuzumi 2」が示す、日本企業DXの新たな地平とは？の注目ポイントと導入効果"
 date: 2025-10-20 20:37:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "推論最適化", "ファインチューニング"]

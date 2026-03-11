@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAI小売分析「Veridian」、その本当の実力とは？"
+title: "2026年AmazonのAI小売分析「Veridian」、その本当の実力とは？の技術革新がもたらす変化"
 date: 2026-02-03 03:14:04 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Meta", "Amazon", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法はオープンソースAIの未来をどう変えるのか？"
+title: "2026年EU AI法はオープンソースAIの未来をどう変えるのか？の注目ポイントと導入効果"
 date: 2026-02-28 21:53:57 +0900
 categories: [AI最新ニュース]
 tags: ["LLM", "AI規制対応", "Meta", "DX推進"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。"
+title: "2026年Amazon Bedrock、多様なLLM対応が示す未来：その深層を読み解く。の進化と実用化への道筋"
 date: 2026-01-26 05:04:41 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

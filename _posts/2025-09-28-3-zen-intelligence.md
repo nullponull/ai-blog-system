@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？"
+title: "2026年Zen Intelligenceの建設現場無人化、その真意はどこにあるのか？の最新動向と企業への影響"
 date: 2025-09-28 20:33:12 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "AIエージェント", "マルチモーダル", "推論最適化", "AI規制", "AI人材"]

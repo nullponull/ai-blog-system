@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QualcommのPC向けAIチップ、その真意はどこにあるのか？"
+title: "2026年QualcommのPC向けAIチップ、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-09-25 20:35:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Apple", "RAG", "マルチモーダル"]

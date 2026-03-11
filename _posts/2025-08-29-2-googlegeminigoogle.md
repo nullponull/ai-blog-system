@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleのGeminiアップデート強化"
+title: "2026年GoogleのGeminiアップデート強化（OpenAI・Microsoft）の進化と実用化への道筋"
 date: 2025-08-29 08:40:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Anthropic", "xAI"]

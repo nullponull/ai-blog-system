@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オープンソースLLMの真価：企業のROIを最大化する戦略とは"
+title: "2026年オープンソースLLMの真価：企業のROIを最大化する戦略とはがもたらす産業構造の転換"
 date: 2026-02-20 22:07:03 +0900
 categories: [AI導入戦略]
 tags: ["LLM", "ROI分析", "Meta", "コスト削減", "DX推進"]

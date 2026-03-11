@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google AI Searchの進化、その真意はどこにあるのか？"
+title: "2026年Google AI Searchの進化、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-09-17 02:01:11 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "AIエージェント", "推論最適化", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "米国でAI規制の議論、何が変わるのでしょうか？"
+title: "2026年米国でAI規制の議論、何が変わるのでしょうか？（OpenAI・Google）が変えるビジネスの未来"
 date: 2026-01-24 08:41:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "AI規制"]

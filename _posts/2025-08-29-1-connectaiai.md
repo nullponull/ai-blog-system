@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "パナソニック コネクト「ConnectAI」など生成AIの企業導入事"
+title: "2026年パナソニック コネクト「ConnectAI」など生成AIの企業導入事の最新動向と企業への影響"
 date: 2025-08-29 11:04:50 +0000
 categories: ["導入事例"]
 tags: ["OpenAI", "AIエージェント", "AI人材", "DX推進"]

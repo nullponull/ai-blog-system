@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路"
+title: "2026年「コードレッド」宣言の真意は？OpenAIがGemini猛追で直面する岐路がもたらす産業構造の転換"
 date: 2025-12-04 08:46:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

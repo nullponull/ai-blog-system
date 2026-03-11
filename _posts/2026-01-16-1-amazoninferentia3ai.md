@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのInferentia3、AIの未来をどう変えるのか？"
+title: "2026年AmazonのInferentia3、AIの未来をどう変えるのか？が変えるビジネスの未来"
 date: 2026-01-16 02:30:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

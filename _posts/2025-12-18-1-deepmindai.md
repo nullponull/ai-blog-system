@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの生物学AIが新薬開発にもたらす変革の本質とは？"
+title: "2026年DeepMindの生物学AIが新薬開発にもたらす変革の本質とは？がもたらす産業構造の転換"
 date: 2025-12-18 16:48:29 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "xAI", "AI規制", "AI人材", "AI倫理"]

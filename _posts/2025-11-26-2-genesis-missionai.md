@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "米国「Genesis Mission」が描くAI国家基盤の真意とは？"
+title: "2026年米国「Genesis Mission」が描くAI国家基盤の真意とは？の全貌と実践的な活用法"
 date: 2025-11-26 20:34:55 +0000
 categories: ["業界別AI活用"]
 tags: ["LLM", "AIエージェント", "ファインチューニング", "AI人材", "セキュリティ", "AI倫理"]

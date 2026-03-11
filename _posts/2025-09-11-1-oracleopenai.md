@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OracleとOpenAI、その巨額契約の真意は？"
+title: "2026年OracleとOpenAI、その巨額契約の真意は？｜業界変革を加速させるAI戦略"
 date: 2025-09-11 04:36:17 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]

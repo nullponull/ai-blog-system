@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI投資の可能性とは？"
+title: "2026年AI投資の可能性とは？（OpenAI・Google）による業務効率化と競争力強化"
 date: 2025-12-07 08:39:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "推論最適化", "ROI分析"]

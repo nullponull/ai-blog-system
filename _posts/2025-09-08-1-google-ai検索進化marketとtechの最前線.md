@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google AI検索進化：投資と技術の最前線"
+title: "2026年Google AI検索進化：投資と技術の最前線"
 date: 2025-09-08 20:34:33 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "AIエージェント", "マルチモーダル", "推論最適化"]

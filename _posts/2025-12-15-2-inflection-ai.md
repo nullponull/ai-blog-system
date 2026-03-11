@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIが心理ケアを刷新す"
+title: "2026年Inflection AIが心理ケアを刷新す（Google・Microsoft）"
 date: 2025-12-15 16:50:46 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "LLM", "マルチモーダル", "音声AI"]

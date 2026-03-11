@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIエージェントの自律性が業務を変える？ その真意と、私たちが今すべきこ？"
+title: "2026年AIエージェントの自律性が業務を変える？ その真意と、私たちが今すべきこ？の技術革新がもたらす変化"
 date: 2025-10-19 08:35:17 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "Apple"]

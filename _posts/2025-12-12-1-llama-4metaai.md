@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？"
+title: "2026年Llama 4でMetaが仕掛ける多言語AI革命、その真意と市場への衝撃とは？の全貌と実践的な活用法"
 date: 2025-12-12 20:38:40 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "LLM", "AIエージェント"]

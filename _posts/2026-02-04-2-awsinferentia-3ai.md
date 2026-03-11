@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSの「Inferentia 3」発表、AIの未来はどう変わる？"
+title: "2026年AWSの「Inferentia 3」発表、AIの未来はどう変わる？の最新動向と企業への影響"
 date: 2026-02-04 17:08:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

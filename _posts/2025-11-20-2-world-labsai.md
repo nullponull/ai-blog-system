@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "World Labsが仕掛ける「空間AI」"
+title: "2026年World Labsが仕掛ける「空間AI」（OpenAI・Google）の最新動向と企業への影響"
 date: 2025-11-20 20:37:56 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "マルチモーダル"]

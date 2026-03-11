@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI GPT-5、AI新時代を拓く"
+title: "2026年OpenAI GPT-5、AI新時代を拓く（Google・Microsoft）の注目ポイントと導入効果"
 date: 2025-09-07 10:19:58 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockが示唆するAIコスト"
+title: "2026年Amazon Bedrockが示唆するAIコスト（Google・Microsoft）"
 date: 2025-12-18 20:33:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]

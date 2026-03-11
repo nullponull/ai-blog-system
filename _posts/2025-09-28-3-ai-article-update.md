@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「モバイルAIスマホの可能性"
+title: "2026年「モバイルAIスマホの可能性（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-09-28 16:35:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Apple", "xAI", "LLM", "RAG"]

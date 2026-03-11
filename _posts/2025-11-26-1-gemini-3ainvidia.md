@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gemini 3がAIの覇権を握るのか？Nvidia株下落の真意とは。"
+title: "2026年Gemini 3がAIの覇権を握るのか？Nvidia株下落の真意とは。の進化と実用化への道筋"
 date: 2025-11-26 02:19:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

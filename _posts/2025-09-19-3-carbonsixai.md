@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？"
+title: "2026年CarbonSixのAIロボットツール、製造業の「常識」をどう変えるのか？の全貌と実践的な活用法"
 date: 2025-09-19 13:00:21 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "音声AI", "ROI分析", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI GPT-5の正式リリースとAGIへの進展"
+title: "2026年OpenAI GPT-5の正式リリースとAGIへの進展による業務効率化と競争力強化"
 date: 2025-09-04 02:03:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "AIエージェント"]

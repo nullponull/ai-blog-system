@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM WatsonX、製薬業界で何を変えようとしている？"
+title: "2026年IBM WatsonX、製薬業界で何を変えようとしている？が変えるビジネスの未来"
 date: 2026-01-11 08:41:59 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "AI規制", "AI人材", "DX推進"]

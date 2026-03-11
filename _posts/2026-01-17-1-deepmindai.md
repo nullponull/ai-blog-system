@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindのAI創薬の可能性とは？"
+title: "2026年DeepMindのAI創薬の可能性とは？（Google・NVIDIA）がもたらす産業構造の転換"
 date: 2026-01-17 04:45:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "ファインチューニング", "AI規制", "AI人材", "AI倫理"]

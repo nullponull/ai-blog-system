@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？"
+title: "2026年xAIの「Macrohard」構想、ソフトウェア開発の未来をどう変えるのか？の注目ポイントと導入効果"
 date: 2025-10-25 08:37:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Anthropic", "Apple", "xAI"]

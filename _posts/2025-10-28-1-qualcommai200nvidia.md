@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意と？"
+title: "2026年QualcommのAI200チップはNvidiaの牙城を崩せるか？その真意と？が変えるビジネスの未来"
 date: 2025-10-28 08:41:52 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "Amazon", "LLM", "推論最適化", "AI人材"]

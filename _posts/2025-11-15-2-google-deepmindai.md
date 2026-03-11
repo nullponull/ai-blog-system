@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindの科学研究AI、その真意はどこにあるのか？"
+title: "2026年Google DeepMindの科学研究AI、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-11-15 20:33:33 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "LLM", "画像生成", "AI規制", "AI人材"]

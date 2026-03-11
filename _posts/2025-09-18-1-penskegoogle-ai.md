@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Penske対Google AI訴訟：その真"
+title: "2026年「Penske対Google AI訴訟：その真（xAI・LLM）の技術革新がもたらす変化"
 date: 2025-09-18 08:39:41 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "LLM", "RAG", "AI規制", "AI人材"]

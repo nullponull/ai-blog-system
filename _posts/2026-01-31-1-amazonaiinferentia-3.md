@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonのAIチップ「Inferentia 3」"
+title: "2026年AmazonのAIチップ「Inferentia 3」による業務効率化と競争力強化"
 date: 2026-01-31 05:09:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

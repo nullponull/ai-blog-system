@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法施行で変わる？大企業のAI戦略とリスク管理"
+title: "2026年EU AI法施行で変わる？大企業のAI戦略とリスク管理による業務効率化と競争力強化"
 date: 2026-02-14 17:21:09 +0900
 categories: [AI技術ガイド]
 tags: ["AI規制対応", "AIエージェント", "LLM", "DX推進", "ROI分析"]

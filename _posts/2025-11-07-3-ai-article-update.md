@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "アリババ、AIクラウドに巨額投資：その戦略の深層と市場への影響とは？"
+title: "2026年アリババ、AIクラウドに巨額投資：その戦略の深層と市場への影響とは？がもたらす産業構造の転換"
 date: 2025-11-07 16:39:06 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

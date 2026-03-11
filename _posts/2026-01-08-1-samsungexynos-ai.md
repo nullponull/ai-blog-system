@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsungの「Exynos AI」発表、何が本当に変わるのか？"
+title: "2026年Samsungの「Exynos AI」発表、何が本当に変わるのか？がもたらす産業構造の転換"
 date: 2026-01-08 08:48:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]

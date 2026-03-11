@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NvidiaとTSMC、米国でのAIチップ製造の真意とは？"
+title: "2026年NvidiaとTSMC、米国でのAIチップ製造の真意とは？がもたらす産業構造の転換"
 date: 2025-10-20 02:20:22 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材", "セキュリティ", "ロボティクス"]

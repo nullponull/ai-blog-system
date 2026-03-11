@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindの科学研究AI発表、その真意はどこにあるのか？"
+title: "2026年Google DeepMindの科学研究AI発表、その真意はどこにあるのか？の全貌と実践的な活用法"
 date: 2025-11-16 02:26:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "AIエージェント", "マルチモーダル", "ファインチューニング", "AI規制"]

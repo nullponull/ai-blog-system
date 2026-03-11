@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？"
+title: "2026年EUのAI規制第2弾、倫理強化はAI投資と技術革新をどう変えるのか？の進化と実用化への道筋"
 date: 2025-12-28 16:40:56 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "推論最適化"]

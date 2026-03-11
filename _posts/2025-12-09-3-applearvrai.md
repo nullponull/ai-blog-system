@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AppleのAR/VR向けAIチップ、その真意は何でしょうか？"
+title: "2026年AppleのAR/VR向けAIチップ、その真意は何でしょうか？の技術革新がもたらす変化"
 date: 2025-12-09 16:43:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "マルチモーダル", "音声AI"]

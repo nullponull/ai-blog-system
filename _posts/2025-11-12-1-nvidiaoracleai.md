@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIAとOracleが描くAIスパコンの未来、その真意とは？"
+title: "2026年NVIDIAとOracleが描くAIスパコンの未来、その真意とは？の注目ポイントと導入効果"
 date: 2025-11-12 04:38:53 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

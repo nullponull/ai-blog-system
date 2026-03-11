@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSのInferentia3の可能性とは？"
+title: "2026年AWSのInferentia3の可能性とは？（OpenAI・Google）の最新動向と企業への影響"
 date: 2026-01-14 16:51:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftはAzure AIで何を発表したのだろうか？"
+title: "2026年MicrosoftはAzure AIで何を発表したのだろうか？の注目ポイントと導入効果"
 date: 2025-12-21 16:38:40 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "マルチモーダル", "画像生成", "AI人材", "セキュリティ"]

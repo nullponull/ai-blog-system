@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの「MAI Image 1」が示す"
+title: "2026年Microsoftの「MAI Image 1」が示すによる業務効率化と競争力強化"
 date: 2025-11-08 02:06:20 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "マルチモーダル", "画像生成"]

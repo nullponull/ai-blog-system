@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIの1000億ドル調達交渉、AI業界の未来をどう変えるのか"
+title: "2026年OpenAIの1000億ドル調達交渉、AI業界の未来をどう変えるのかの最新動向と企業への影響"
 date: 2026-03-03 18:46:12 +0900
 categories: [AI導入戦略]
 tags: ["OpenAI", "AI投資", "LLM", "DX推進"]

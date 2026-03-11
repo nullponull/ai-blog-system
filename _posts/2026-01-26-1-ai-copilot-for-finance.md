@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI Copilot for Financeの可能性と？"
+title: "2026年AI Copilot for Financeの可能性と？の注目ポイントと導入効果"
 date: 2026-01-26 05:04:22 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "ROI分析", "AI規制", "AI人材"]

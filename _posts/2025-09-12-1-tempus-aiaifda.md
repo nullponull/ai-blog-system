@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tempus AIの心臓AI、FDA承認の真意は？"
+title: "2026年Tempus AIの心臓AI、FDA承認の真意は？｜業種特化型AI活用の成功パターン"
 date: 2025-09-12 04:34:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AI規制", "AI人材"]

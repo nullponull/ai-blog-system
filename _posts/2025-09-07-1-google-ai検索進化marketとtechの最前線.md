@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google AI検索進化：投資と技術の最前線"
+title: "2026年Google AI検索進化：投資と技術の最前線（OpenAI・Microsoft）（大規模・戦略的投資）"
 date: 2025-09-07 20:32:03 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

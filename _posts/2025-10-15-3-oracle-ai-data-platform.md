@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oracle AI Data Platform、その真意はどこにあるのか？"
+title: "2026年Oracle AI Data Platform、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-10-15 20:37:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

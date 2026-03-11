@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オプトの「Soulful AI」は、CXの未来をどう変えるのか？"
+title: "2026年オプトの「Soulful AI」は、CXの未来をどう変えるのか？の全貌と実践的な活用法"
 date: 2025-09-30 08:42:23 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "LLM", "AIエージェント", "音声AI", "ROI分析", "AI人材"]

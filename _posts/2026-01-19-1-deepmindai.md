@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？"
+title: "2026年DeepMindが拓く汎用AIの新章、私たちの働き方はどう変わるのか？が変えるビジネスの未来"
 date: 2026-01-19 05:03:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Anthropic", "LLM", "AIエージェント", "マルチモーダル"]

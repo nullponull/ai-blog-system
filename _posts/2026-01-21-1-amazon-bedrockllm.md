@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？"
+title: "2026年Amazon Bedrock、企業向けLLM構築支援強化で何が変わるのか？がもたらす産業構造の転換"
 date: 2026-01-21 13:14:19 +0000
 categories: ["AI技術ガイド"]
 tags: ["Amazon", "Anthropic", "xAI", "LLM", "RAG", "画像生成"]

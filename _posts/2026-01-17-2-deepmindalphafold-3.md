@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMind「AlphaFold 3」が拓く創薬"
+title: "2026年DeepMind「AlphaFold 3」が拓く創薬による業務効率化と競争力強化"
 date: 2026-01-17 20:36:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "画像生成", "AI規制", "AI人材", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claude悪用事件が問い？"
+title: "2026年Anthropic Claude悪用事件が問い？（OpenAI・Amazon）の最新動向と企業への影響"
 date: 2025-11-17 04:41:37 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Amazon", "Anthropic", "xAI", "AIエージェント", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QualcommのXR向けAIチップ上市："
+title: "2026年QualcommのXR向けAIチップ上市：（Google・Meta）がもたらす産業構造の転換"
 date: 2026-01-28 16:58:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "RAG", "ROI分析"]

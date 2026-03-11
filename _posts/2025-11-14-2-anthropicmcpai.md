@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AnthropicのMCPが金融AIを変革する真意とは？"
+title: "2026年AnthropicのMCPが金融AIを変革する真意とは？の注目ポイントと導入効果"
 date: 2025-11-14 20:38:15 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "Anthropic", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]

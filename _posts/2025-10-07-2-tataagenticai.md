@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？"
+title: "2026年TataのAgentic音声AIプラットフォーム、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-10-07 04:37:11 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声AI", "ROI分析"]

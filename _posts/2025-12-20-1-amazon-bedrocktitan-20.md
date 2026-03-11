@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？"
+title: "2026年Amazon Bedrockの新モデル「Titan 2.0」、何が変わるのか？がもたらす産業構造の転換"
 date: 2025-12-20 04:40:12 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "Amazon", "Anthropic", "LLM"]

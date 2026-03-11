@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの量子AI、創薬の未来をどう変えるのだろうか？"
+title: "2026年DeepMindの量子AI、創薬の未来をどう変えるのだろうか？がもたらす産業構造の転換"
 date: 2026-01-16 16:48:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI規制", "AI人材", "DX推進", "セキュリティ", "AI倫理"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon BedrockとClaude 4の可能性？"
+title: "2026年Amazon BedrockとClaude 4の可能性？がもたらす産業構造の転換"
 date: 2025-12-22 16:42:42 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "LLM"]

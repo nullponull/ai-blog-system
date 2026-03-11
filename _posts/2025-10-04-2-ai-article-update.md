@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側"
+title: "2026年「AI産業インフラ化」の真意とは？ 各業界で加速する導入の裏側の全貌と実践的な活用法"
 date: 2025-10-04 20:32:21 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

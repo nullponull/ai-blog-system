@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GPT-4o級性能のオープンソースLLM、企業導入でROIは劇的に改善するか"
+title: "2026年GPT-4o級性能のオープンソースLLM、企業導入でROIは劇的に改善するかの進化と実用化への道筋"
 date: 2026-02-19 10:56:44 +0900
 categories: [導入事例]
 tags: ["LLM", "ROI分析", "Meta", "DX推進"]

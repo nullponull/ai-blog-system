@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "中国AIチップ大手Cambriconが急成長"
+title: "2026年中国AIチップ大手Cambriconが急成長（NVIDIA・AI規制）の進化と実用化への道筋"
 date: 2025-09-06 08:37:39 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AI規制", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日本のAI規制、著作権保護強化で何が変わる？"
+title: "2026年日本のAI規制、著作権保護強化で何が変わる？（OpenAI・Google）がもたらす産業構造の転換"
 date: 2026-02-04 09:01:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "画像生成", "AI規制", "セキュリティ", "AI倫理"]

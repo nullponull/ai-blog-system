@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "中国AI、推論モデルで静かに台頭するその真意とは？"
+title: "2026年中国AI、推論モデルで静かに台頭するその真意とは？｜業種特化型AI活用の成功パターン"
 date: 2025-10-20 16:41:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "xAI", "ByteDance", "マルチモーダル", "推論最適化"]

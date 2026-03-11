@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsungの次世代AIスマホ向けSoC"
+title: "2026年Samsungの次世代AIスマホ向けSoC（Google・Microsoft）の技術革新がもたらす変化"
 date: 2025-12-23 04:50:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Apple", "LLM"]

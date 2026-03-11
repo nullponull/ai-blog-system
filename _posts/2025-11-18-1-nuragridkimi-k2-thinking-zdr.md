@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NuraGridとKimi K2 Thinking ZDRの可能"
+title: "2026年NuraGridとKimi K2 Thinking ZDRの可能がもたらす産業構造の転換"
 date: 2025-11-18 13:05:51 +0000
 categories: ["AI技術ガイド"]
 tags: ["NVIDIA", "RAG", "推論最適化", "AI規制", "AI人材", "セキュリティ"]

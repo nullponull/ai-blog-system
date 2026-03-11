@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "中国AIの「深化」が示す、次の産業革命の真意とは？"
+title: "2026年中国AIの「深化」が示す、次の産業革命の真意とは？｜各業界で進むAI活用の最前線"
 date: 2025-11-09 02:21:34 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "ByteDance", "LLM", "AIエージェント", "マルチモーダル", "音声AI"]

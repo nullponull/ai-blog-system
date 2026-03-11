@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBMとAnthropic Claudeの統合：そ？"
+title: "2026年IBMとAnthropic Claudeの統合：そ？による業務効率化と競争力強化"
 date: 2025-10-10 13:01:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "Meta", "Amazon", "Anthropic", "xAI"]

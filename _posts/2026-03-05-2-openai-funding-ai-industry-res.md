@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI巨額調達交渉、AI業界地図をどう塗り替えるか"
+title: "2026年OpenAI巨額調達交渉、AI業界地図をどう塗り替えるかがもたらす産業構造の転換"
 date: 2026-03-05 18:47:04 +0900
 categories: [導入事例]
 tags: ["OpenAI", "LLM", "DX推進", "AI投資"]

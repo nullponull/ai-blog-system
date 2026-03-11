@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIがメモリチップ市場に投じる波紋、その真意とは？"
+title: "2026年AIがメモリチップ市場に投じる波紋、その真意とは？｜エンジニア視点で読み解く要点"
 date: 2025-11-27 04:39:59 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

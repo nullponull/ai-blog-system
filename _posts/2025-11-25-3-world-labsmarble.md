@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "World Labsの「Marble」が描くの可"
+title: "2026年World Labsの「Marble」が描くの可（AIエージェント・マルチモーダル）"
 date: 2025-11-25 08:45:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["AIエージェント", "マルチモーダル", "AI規制", "AI人材", "AI倫理", "ロボティクス"]

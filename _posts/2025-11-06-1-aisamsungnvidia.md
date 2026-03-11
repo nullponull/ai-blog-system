@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来"
+title: "2026年AI工場、その真意は？SamsungとNVIDIAが描く半導体製造の未来の最新動向と企業への影響"
 date: 2025-11-06 20:36:03 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "AIエージェント", "ROI分析", "AI人材", "セキュリティ", "AI倫理"]

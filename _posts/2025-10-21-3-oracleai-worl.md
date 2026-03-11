@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oracleが年次イベントを「AI Worl"
+title: "2026年Oracleが年次イベントを「AI Worl（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-10-21 08:45:36 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

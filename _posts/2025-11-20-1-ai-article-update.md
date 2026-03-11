@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "米国AI規制の嵐、その真意と業界に何をもたらすのか？"
+title: "2026年米国AI規制の嵐、その真意と業界に何をもたらすのか？による業務効率化と競争力強化"
 date: 2025-11-20 20:37:10 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "AI規制", "AI人材"]

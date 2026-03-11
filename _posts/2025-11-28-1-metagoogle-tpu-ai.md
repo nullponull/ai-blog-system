@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "メタがGoogle TPUを採用？ AIイン"
+title: "2026年メタがGoogle TPUを採用？ AIイン（Microsoft・Meta）が変えるビジネスの未来"
 date: 2025-11-28 08:44:46 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Apple"]

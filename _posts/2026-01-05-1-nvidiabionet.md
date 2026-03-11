@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIAの「BioNet」、創薬の未来をどう変えるのか？"
+title: "2026年NVIDIAの「BioNet」、創薬の未来をどう変えるのか？が変えるビジネスの未来"
 date: 2026-01-05 13:10:10 +0000
 categories: ["AI技術ガイド"]
 tags: ["NVIDIA", "セキュリティ", "AI倫理"]

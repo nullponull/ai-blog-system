@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilotが産業AIと連携"
+title: "2026年Microsoft Copilotが産業AIと連携｜技術進化がもたらすビジネス変革"
 date: 2025-12-27 20:35:27 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "RAG"]

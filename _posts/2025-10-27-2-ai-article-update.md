@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "カリフォルニア州のAIチャットボット安全対策法、その真意とは？"
+title: "2026年カリフォルニア州のAIチャットボット安全対策法、その真意とは？がもたらす産業構造の転換"
 date: 2025-10-27 13:04:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "Anthropic", "xAI", "AI規制"]

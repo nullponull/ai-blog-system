@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockと200種の商用AIモ"
+title: "2026年Amazon Bedrockと200種の商用AIモ｜技術進化がもたらすビジネス変革"
 date: 2026-01-22 04:59:43 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

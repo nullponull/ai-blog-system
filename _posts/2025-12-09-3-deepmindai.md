@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの創薬AI、その新発見は何を意味するのだろうか？"
+title: "2026年DeepMindの創薬AI、その新発見は何を意味するのだろうか？が変えるビジネスの未来"
 date: 2025-12-09 08:47:06 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "LLM", "AIエージェント", "AI規制", "AI人材"]

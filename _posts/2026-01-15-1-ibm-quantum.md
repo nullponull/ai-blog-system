@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM Quantumの可能性とは？"
+title: "2026年IBM Quantumの可能性とは？（Google・Microsoft）の最新動向と企業への影響"
 date: 2026-01-15 02:29:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "マルチモーダル", "推論最適化"]

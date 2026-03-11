@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QualcommのAIデータセンター参入、その真意は何処にあるのか？"
+title: "2026年QualcommのAIデータセンター参入、その真意は何処にあるのか？の全貌と実践的な活用法"
 date: 2025-10-27 16:42:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Meta", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

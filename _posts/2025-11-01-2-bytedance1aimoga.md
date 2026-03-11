@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ByteDanceの1分動画生成AI「MoGA」"
+title: "2026年ByteDanceの1分動画生成AI「MoGA」（OpenAI・Google）がもたらす産業構造の転換"
 date: 2025-11-01 02:19:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "ByteDance", "LLM", "マルチモーダル"]

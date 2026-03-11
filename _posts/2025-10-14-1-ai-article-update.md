@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日立の「フィジカルAI」戦略、その真意はどこにあるのか？"
+title: "2026年日立の「フィジカルAI」戦略、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-10-14 02:03:55 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AIエージェント"]

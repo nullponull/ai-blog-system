@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのMaia 3、AI業界の潮目を変えるのか？"
+title: "2026年MicrosoftのMaia 3、AI業界の潮目を変えるのか？の技術革新がもたらす変化"
 date: 2025-12-27 16:40:09 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]

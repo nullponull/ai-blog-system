@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemmaの可能性とは？"
+title: "2026年Google Gemmaの可能性とは？（Meta・NVIDIA）の最新動向と企業への影響"
 date: 2025-11-04 13:08:21 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "xAI", "LLM", "RAG"]

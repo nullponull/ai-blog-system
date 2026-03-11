@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockに新モデル15種追加"
+title: "2026年Amazon Bedrockに新モデル15種追加（Google・Meta）が変えるビジネスの未来"
 date: 2025-12-29 02:36:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "RAG"]

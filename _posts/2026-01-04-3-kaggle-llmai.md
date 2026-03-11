@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？"
+title: "2026年最新Kaggle LLMコンペの新記録達成、AIの知性はどこまで深化するのか？の技術革新がもたらす変化"
 date: 2026-01-04 16:40:19 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

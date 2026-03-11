@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？"
+title: "2026年SAPの「EU AI Cloud」発表、その真意とAI業界の新たな地平線とは？が変えるビジネスの未来"
 date: 2025-11-27 08:45:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

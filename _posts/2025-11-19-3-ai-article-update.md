@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「AI生存リスク」の警鐘の可"
+title: "2026年「AI生存リスク」の警鐘の可（Google・Microsoft）の全貌と実践的な活用法"
 date: 2025-11-19 20:34:28 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "LLM", "AI規制"]

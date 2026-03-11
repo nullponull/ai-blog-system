@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaiduのErnie 5、中国AIの次なる一手は何を変えるのか？"
+title: "2026年BaiduのErnie 5、中国AIの次なる一手は何を変えるのか？の注目ポイントと導入効果"
 date: 2025-12-30 08:47:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル"]

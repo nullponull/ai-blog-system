@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mavericksの動画生成AI「NoLang」"
+title: "2026年Mavericksの動画生成AI「NoLang」（ByteDance・AIエージェント）"
 date: 2025-11-16 04:41:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["ByteDance", "AIエージェント", "マルチモーダル", "音声AI", "AI規制", "AI人材"]

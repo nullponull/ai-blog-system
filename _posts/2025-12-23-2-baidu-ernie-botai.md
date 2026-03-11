@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？"
+title: "2026年Baidu Ernie Bot最新版の衝撃：中国AIの真価はどこにあるのか？の進化と実用化への道筋"
 date: 2025-12-23 02:26:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Anthropic", "LLM", "マルチモーダル", "音声AI"]

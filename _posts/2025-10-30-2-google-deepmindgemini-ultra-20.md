@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindのGemini Ultra 2.0の可"
+title: "2026年Google DeepMindのGemini Ultra 2.0の可が変えるビジネスの未来"
 date: 2025-10-30 16:44:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "AIエージェント"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？"
+title: "2026年AdobeとGoogleの生成AI連携強化、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-11-09 12:57:03 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "マルチモーダル", "画像生成", "音声AI"]

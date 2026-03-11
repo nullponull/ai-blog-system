@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの創薬AI、本当に「新記録」なのか？"
+title: "2026年DeepMindの創薬AI、本当に「新記録」なのか？による業務効率化と競争力強化"
 date: 2025-12-24 08:46:18 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "LLM", "AI倫理"]

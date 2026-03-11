@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIチップ戦線、Qualcommの新世代に何が起きるのか？"
+title: "2026年AIチップ戦線、Qualcommの新世代に何が起きるのか？がもたらす産業構造の転換"
 date: 2026-01-31 20:40:15 +0000
 categories: ["AI技術ガイド"]
 tags: ["Microsoft", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftが韓国でAgentic AIを加速"
+title: "2026年Microsoftが韓国でAgentic AIを加速による業務効率化と競争力強化"
 date: 2025-09-25 08:40:21 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "マルチモーダル", "推論最適化", "ファインチューニング"]

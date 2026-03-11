@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIのPi 2.0の可能性と？"
+title: "2026年Inflection AIのPi 2.0の可能性と？による業務効率化と競争力強化"
 date: 2026-01-12 08:50:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Apple"]

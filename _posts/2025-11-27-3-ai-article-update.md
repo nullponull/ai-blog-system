@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "防衛とAI、物理世界で進化する技術が株式市場に何を問いかけるのか？"
+title: "2026年防衛とAI、物理世界で進化する技術が株式市場に何を問いかけるのか？による業務効率化と競争力強化"
 date: 2025-11-27 02:12:02 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "xAI", "AIエージェント"]

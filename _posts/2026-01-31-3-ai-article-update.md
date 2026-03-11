@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI倫理の国際標準化：その真意と、私たちに何が求められているのか？"
+title: "2026年AI倫理の国際標準化：その真意と、私たちに何が求められているのか？の最新動向と企業への影響"
 date: 2026-01-31 20:41:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS新モデル、Bedrockのコスト半減は本当にすごいのか？"
+title: "2026年AWS新モデル、Bedrockのコスト半減は本当にすごいのか？がもたらす産業構造の転換"
 date: 2025-12-27 08:40:49 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "NVIDIA", "Amazon", "Anthropic", "LLM", "推論最適化"]

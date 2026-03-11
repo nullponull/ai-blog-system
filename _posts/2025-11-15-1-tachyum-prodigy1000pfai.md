@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？"
+title: "2026年Tachyum Prodigyの1000PF超え、AI業界の常識を覆すのか？が変えるビジネスの未来"
 date: 2025-11-15 12:56:54 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "LLM", "推論最適化", "AI人材"]

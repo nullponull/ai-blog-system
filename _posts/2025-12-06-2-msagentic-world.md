@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MSが描く「Agentic World」の真意"
+title: "2026年MSが描く「Agentic World」の真意（Microsoft・NVIDIA）"
 date: 2025-12-06 08:40:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "AIエージェント", "マルチモーダル", "音声AI", "推論最適化"]

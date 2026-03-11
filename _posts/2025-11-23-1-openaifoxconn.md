@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとFoxconnが手を組む真意"
+title: "2026年OpenAIとFoxconnが手を組む真意（Google・Microsoft）が変えるビジネスの未来"
 date: 2025-11-23 12:54:57 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

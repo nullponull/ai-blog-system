@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Titan 2.0、AWSのゲームチェンジャーとなるか？"
+title: "2026年Amazon Titan 2.0、AWSのゲームチェンジャーとなるか？の進化と実用化への道筋"
 date: 2026-01-23 08:48:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

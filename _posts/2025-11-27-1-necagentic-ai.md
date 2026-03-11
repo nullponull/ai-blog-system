@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NECが営業支援にAgentic AI導入："
+title: "2026年NECが営業支援にAgentic AI導入：（xAI・AIエージェント）の全貌と実践的な活用法"
 date: 2025-11-27 02:10:58 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "マルチモーダル", "ROI分析", "AI規制", "AI人材"]

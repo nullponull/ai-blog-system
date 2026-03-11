@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intel Gaudi 3 Evoの可能性とは？"
+title: "2026年Intel Gaudi 3 Evoの可能性とは？（OpenAI・Meta）が変えるビジネスの未来"
 date: 2025-12-14 04:50:09 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "NVIDIA", "LLM", "推論最適化", "AI人材"]

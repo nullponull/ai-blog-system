@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？"
+title: "2026年GreenBitAIの「Libra」が示す、オフラインAIの新たな可能性とは？がもたらす産業構造の転換"
 date: 2025-09-27 16:36:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "NVIDIA", "Apple", "xAI", "LLM", "AIエージェント"]

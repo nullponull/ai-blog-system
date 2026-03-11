@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋"
+title: "2026年君はどう見る？ Baiduの最新AIチップ「Kunlun 5」がもたらす波紋がもたらす産業構造の転換"
 date: 2025-12-30 13:07:09 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "LLM", "RAG", "推論最適化", "ROI分析"]

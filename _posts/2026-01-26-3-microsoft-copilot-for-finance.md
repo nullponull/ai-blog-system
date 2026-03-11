@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot for Financeの可能"
+title: "2026年Microsoft Copilot for Financeの可能が変えるビジネスの未来"
 date: 2026-01-26 08:53:01 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "AIエージェント", "AI規制"]

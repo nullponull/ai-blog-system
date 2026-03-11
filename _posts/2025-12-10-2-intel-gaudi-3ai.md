@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？"
+title: "2026年Intel Gaudi 3、AIチップ戦線に新風を吹き込むのか？の技術革新がもたらす変化"
 date: 2025-12-10 08:45:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "LLM", "画像生成", "推論最適化", "AI人材"]

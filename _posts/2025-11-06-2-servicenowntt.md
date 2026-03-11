@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ServiceNowとNTTデータの可能性？"
+title: "2026年ServiceNowとNTTデータの可能性？（AIエージェント・AI規制）の最新動向と企業への影響"
 date: 2025-11-06 13:04:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["AIエージェント", "AI規制", "AI人材", "DX推進", "セキュリティ", "AI倫理"]

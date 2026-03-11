@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3が示す、AIの「自律」への真意とは？"
+title: "2026年Google Gemini 3が示す、AIの「自律」への真意とは？による業務効率化と競争力強化"
 date: 2025-11-30 08:38:32 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声AI"]

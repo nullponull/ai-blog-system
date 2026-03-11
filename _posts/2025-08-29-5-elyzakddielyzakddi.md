@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ELYZAとKDDI業務提携"
+title: "2026年ELYZAとKDDI業務提携（OpenAI・Google）の注目ポイントと導入効果"
 date: 2025-08-29 07:10:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "マルチモーダル", "音声AI"]

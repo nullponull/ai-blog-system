@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TCSとCEA、Physical AI提携の真意は？"
+title: "2026年TCSとCEA、Physical AI提携の真意は？による業務効率化と競争力強化"
 date: 2025-09-09 10:32:17 +0000
 categories: ["業界別AI活用"]
 tags: ["AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転", "ロボティクス"]

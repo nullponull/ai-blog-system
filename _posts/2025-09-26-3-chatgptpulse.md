@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？"
+title: "2026年ChatGPT新機能「Pulse」発表、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-09-26 20:34:52 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

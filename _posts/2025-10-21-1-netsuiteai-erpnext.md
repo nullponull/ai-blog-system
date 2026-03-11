@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NetSuiteのAI ERP「Next」発表の可"
+title: "2026年NetSuiteのAI ERP「Next」発表の可｜各業界で進むAI活用の最前線"
 date: 2025-10-21 04:37:44 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "xAI", "AIエージェント", "AI人材", "セキュリティ", "AI倫理"]

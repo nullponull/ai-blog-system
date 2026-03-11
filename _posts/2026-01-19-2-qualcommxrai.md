@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QualcommのXR向けAIチップ、その真意は何だろうか？"
+title: "2026年QualcommのXR向けAIチップ、その真意は何だろうか？の注目ポイントと導入効果"
 date: 2026-01-19 08:51:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["Meta", "NVIDIA", "Apple", "RAG", "推論最適化", "セキュリティ"]

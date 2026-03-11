@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ByteDanceのAI教育参入、何が変わるのか？"
+title: "2026年ByteDanceのAI教育参入、何が変わるのか？｜業種特化型AI活用の成功パターン"
 date: 2026-01-04 08:43:34 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "xAI", "ByteDance", "LLM", "マルチモーダル"]

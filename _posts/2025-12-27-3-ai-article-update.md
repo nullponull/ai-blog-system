@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日本政府のAI倫理ガイドライン改定、その真意と私たちへの影響とは？"
+title: "2026年日本政府のAI倫理ガイドライン改定、その真意と私たちへの影響とは？の進化と実用化への道筋"
 date: 2025-12-27 04:47:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

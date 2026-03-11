@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "サカナAI、200億円調達の真意とは？"
+title: "2026年サカナAI、200億円調達の真意とは？（OpenAI・Google）がもたらす産業構造の転換"
 date: 2025-11-27 08:46:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "LLM", "AIエージェント"]

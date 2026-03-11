@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tempus AI、心臓AI診断でFDA承認の真意とは？"
+title: "2026年Tempus AI、心臓AI診断でFDA承認の真意とは？の注目ポイントと導入効果"
 date: 2025-09-12 02:01:25 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "マルチモーダル", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

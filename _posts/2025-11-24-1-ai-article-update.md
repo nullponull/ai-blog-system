@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "サカナAIの可能性とは？"
+title: "2026年サカナAIの可能性とは？（Google・NVIDIA）による業務効率化と競争力強化"
 date: 2025-11-24 13:05:01 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "LLM", "AIエージェント", "マルチモーダル", "推論最適化"]

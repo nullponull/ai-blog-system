@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIチップの熱き戦い、液冷が未来を左右するのか？"
+title: "2026年AIチップの熱き戦い、液冷が未来を左右するのか？（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-11-26 20:34:30 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "Amazon", "ROI分析", "AI人材"]

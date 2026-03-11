@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI倫理の国際標準化、その真意と私たちはどう向き合うべきか？"
+title: "2026年AI倫理の国際標準化、その真意と私たちはどう向き合うべきか？が変えるビジネスの未来"
 date: 2025-12-17 02:22:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "AI規制", "AI人材"]

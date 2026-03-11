@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「遍在型AGI」を目指すThird Inte"
+title: "2026年「遍在型AGI」を目指すThird Inte（OpenAI・Amazon）がもたらす産業構造の転換"
 date: 2025-11-12 16:46:28 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Amazon", "xAI", "LLM", "AIエージェント", "マルチモーダル"]

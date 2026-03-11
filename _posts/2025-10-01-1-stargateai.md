@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Stargate」が示すAIインフラ？"
+title: "2026年「Stargate」が示すAIインフラ？（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-10-01 13:02:18 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AI人材"]

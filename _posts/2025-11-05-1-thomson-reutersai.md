@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thomson ReutersのAIエージェント"
+title: "2026年Thomson ReutersのAIエージェント（xAI・LLM）の技術革新がもたらす変化"
 date: 2025-11-05 20:37:11 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "LLM", "AIエージェント", "推論最適化", "AI規制", "AI人材"]

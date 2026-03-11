@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？"
+title: "2026年NTTの「tsuzumi 2」は、日本のAI市場に何をもたらすのか？が変えるビジネスの未来"
 date: 2025-10-20 16:42:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "xAI", "LLM"]

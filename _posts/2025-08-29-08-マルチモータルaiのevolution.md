@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "マルチモーダルAIの進化"
+title: "2026年マルチモーダルAIの進化（OpenAI・Google）による業務効率化と競争力強化"
 date: 2025-08-29 17:25:47 +0000
 categories: ["AI技術ガイド"]
 sitemap: false

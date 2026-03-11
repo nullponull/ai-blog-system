@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIの巨大な電力消費、その真意はどこにあるのか？"
+title: "2026年AIの巨大な電力消費、その真意はどこにあるのか？（Google・Microsoft）"
 date: 2025-10-03 20:35:04 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]

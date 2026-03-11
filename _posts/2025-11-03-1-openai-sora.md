@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI Soraのクレジット制導入、その真意はどこにあるのか？"
+title: "2026年OpenAI Soraのクレジット制導入、その真意はどこにあるのか？の全貌と実践的な活用法"
 date: 2025-11-03 02:21:58 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Apple", "画像生成", "音声AI"]

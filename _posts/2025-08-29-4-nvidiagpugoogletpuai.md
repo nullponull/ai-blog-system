@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIA GPUやGoogle TPUなどAIチップの進化"
+title: "2026年NVIDIA GPUやGoogle TPUなどAIチップの進化の技術革新がもたらす変化"
 date: 2025-08-29 10:03:59 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]

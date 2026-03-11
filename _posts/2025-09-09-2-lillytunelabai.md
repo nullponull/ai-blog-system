@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LillyのTuneLab：創薬AIの真価はどこに？"
+title: "2026年LillyのTuneLab：創薬AIの真価はどこに？による業務効率化と競争力強化"
 date: 2025-09-09 20:34:26 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

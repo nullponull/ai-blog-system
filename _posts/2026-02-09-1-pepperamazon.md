@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pepperの進化、Amazon参戦で何が変わる？"
+title: "2026年Pepperの進化、Amazon参戦で何が変わる？｜知っておくべき最新情報まとめ"
 date: 2026-02-09 05:46:14 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "マルチモーダル", "音声AI", "AI人材", "セキュリティ", "ロボティクス"]

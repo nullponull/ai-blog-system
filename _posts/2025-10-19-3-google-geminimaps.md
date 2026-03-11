@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google GeminiとMaps連携強化：そ"
+title: "2026年Google GeminiとMaps連携強化：そ（xAI・AIエージェント）の技術革新がもたらす変化"
 date: 2025-10-19 16:38:14 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "xAI", "AIエージェント", "音声AI", "推論最適化", "ファインチューニング"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic LLMの深層に潜む影：AIの信頼性はどこへ向かうのか？"
+title: "2026年Anthropic LLMの深層に潜む影：AIの信頼性はどこへ向かうのか？がもたらす産業構造の転換"
 date: 2025-10-11 04:34:38 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "xAI", "LLM"]

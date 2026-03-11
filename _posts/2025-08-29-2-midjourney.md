@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Midjourney動画生成機能参入"
+title: "2026年Midjourney動画生成機能参入（Google・Meta）の全貌と実践的な活用法"
 date: 2025-08-29 14:54:40 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "画像生成", "AI規制", "AI人材"]

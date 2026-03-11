@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？"
+title: "2026年メタAI、日本上陸とその真意：Llama 4が描く次世代エコシステムとは？がもたらす産業構造の転換"
 date: 2025-11-29 04:40:08 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]

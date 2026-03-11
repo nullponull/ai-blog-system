@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blacksmithの1000万ドル調達、AI開発のCIに何をもたらすのか？"
+title: "2026年Blacksmithの1000万ドル調達、AI開発のCIに何をもたらすのか？がもたらす産業構造の転換"
 date: 2025-09-19 20:34:17 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "ファインチューニング"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baidu ERNIE Botの可能性とは？"
+title: "2026年Baidu ERNIE Botの可能性とは？（OpenAI・Google）の進化と実用化への道筋"
 date: 2026-02-04 09:01:45 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "xAI", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIが企業生産性を変える：その真価と私たちが今すべきこととは？"
+title: "2026年AIが企業生産性を変える：その真価と私たちが今すべきこととは？がもたらす産業構造の転換"
 date: 2025-12-01 16:47:44 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "RAG", "AIエージェント"]

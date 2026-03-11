@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？"
+title: "2026年Anthropicが警鐘を鳴らすLLMの「バックドア」脆弱性、その真意とは？の進化と実用化への道筋"
 date: 2025-10-18 20:32:48 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "Anthropic", "xAI", "LLM", "推論最適化", "AI規制"]

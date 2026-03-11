@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "東大のAI創薬、次世代への扉を開くのか？"
+title: "2026年東大のAI創薬、次世代への扉を開くのか？（Google・AI規制）の最新動向と企業への影響"
 date: 2026-01-13 08:50:15 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI規制"]

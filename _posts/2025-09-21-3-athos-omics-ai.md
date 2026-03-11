@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Athos Omics AI、新薬ターゲット発見の真意とは？"
+title: "2026年Athos Omics AI、新薬ターゲット発見の真意とは？の最新動向と企業への影響"
 date: 2025-09-21 12:55:02 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "推論最適化", "AI規制", "セキュリティ", "AI倫理"]

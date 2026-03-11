@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの可能性とは？"
+title: "2026年Amazon Bedrockの可能性とは？（Meta・Anthropic）の進化と実用化への道筋"
 date: 2026-01-26 08:52:37 +0000
 categories: ["AI技術ガイド"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル", "画像生成"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、中小企業に何をもたらすのか？"
+title: "2026年Microsoft Copilot、中小企業に何をもたらすのか？の全貌と実践的な活用法"
 date: 2025-12-23 13:07:00 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "Amazon", "AIエージェント", "AI人材", "セキュリティ"]

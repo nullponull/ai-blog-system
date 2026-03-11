@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OracleとOpenAIの提携、その真意はどこにあるのか？"
+title: "2026年OracleとOpenAIの提携、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-09-13 16:36:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "AIエージェント", "推論最適化"]

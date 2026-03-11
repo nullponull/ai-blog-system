@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。"
+title: "2026年富士通FrontriaはAI偽情報にどう立ち向かうのか？その真意とは。の注目ポイントと導入効果"
 date: 2025-12-02 20:40:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "マルチモーダル", "音声AI", "推論最適化", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Firefly V5、Adobeはどこへ向かうのか？"
+title: "2026年Firefly V5、Adobeはどこへ向かうのか？による業務効率化と競争力強化"
 date: 2026-01-05 08:51:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Apple", "マルチモーダル", "画像生成", "音声AI"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindのAlphaFold 4の可能性と？"
+title: "2026年DeepMindのAlphaFold 4の可能性と？による業務効率化と競争力強化"
 date: 2026-01-25 05:01:42 +0000
 categories: ["研究論文"]
 tags: ["Google", "LLM", "推論最適化", "AI規制", "AI倫理"]

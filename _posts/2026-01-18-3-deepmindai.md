@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの新たなAIモデルがの可"
+title: "2026年DeepMindの新たなAIモデルがの可（Google・NVIDIA）の進化と実用化への道筋"
 date: 2026-01-18 04:53:46 +0000
 categories: ["研究論文"]
 tags: ["Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ByteDanceの画像生成AI「Seedream」"
+title: "2026年ByteDanceの画像生成AI「Seedream」による業務効率化と競争力強化"
 date: 2025-10-23 20:35:26 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "ByteDance", "マルチモーダル", "画像生成"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAI倫理刷新、その真意は何だろう？"
+title: "2026年MicrosoftのAI倫理刷新、その真意は何だろう？による業務効率化と競争力強化"
 date: 2025-12-14 13:00:07 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "xAI", "LLM"]

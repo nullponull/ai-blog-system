@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QualcommとMediaTekの可能性とは？"
+title: "2026年QualcommとMediaTekの可能性とは？（Google・Microsoft）"
 date: 2025-09-26 04:36:33 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AI、次世代モデル公開の真意は何だろうか？"
+title: "2026年Inflection AI、次世代モデル公開の真意は何だろうか？の最新動向と企業への影響"
 date: 2025-12-15 08:50:16 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "マルチモーダル", "画像生成"]

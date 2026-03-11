@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleとMeta、AI覇権争い激化"
+title: "2026年GoogleとMeta、AI覇権争い激化（OpenAI・Microsoft）の最新動向と企業への影響"
 date: 2025-09-07 08:25:25 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

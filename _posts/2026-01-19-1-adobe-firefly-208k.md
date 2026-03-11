@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？"
+title: "2026年Adobe Firefly 2.0、8K画像生成は、何を変えるのだろうか？の最新動向と企業への影響"
 date: 2026-01-19 13:13:48 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

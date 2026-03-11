@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "World Labsの「Marble」が描く3D"
+title: "2026年World Labsの「Marble」が描く3D（Google・Meta）が変えるビジネスの未来"
 date: 2025-11-25 02:19:11 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "NVIDIA", "Apple", "AIエージェント", "AI人材"]

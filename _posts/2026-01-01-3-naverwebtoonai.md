@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NaverのWebtoon向けAI強化はの可"
+title: "2026年NaverのWebtoon向けAI強化はの可（OpenAI・LLM）の全貌と実践的な活用法"
 date: 2026-01-01 20:38:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "LLM", "AIエージェント", "マルチモーダル", "画像生成", "音声AI"]

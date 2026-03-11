@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilotが示す15%生産性"
+title: "2026年Microsoft Copilotが示す15%生産性による業務効率化と競争力強化"
 date: 2026-01-24 04:48:17 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

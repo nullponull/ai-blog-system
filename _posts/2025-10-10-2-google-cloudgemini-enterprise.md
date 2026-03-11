@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google CloudのGemini Enterpriseの可"
+title: "2026年Google CloudのGemini Enterpriseの可の最新動向と企業への影響"
 date: 2025-10-10 02:04:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "AIエージェント", "マルチモーダル", "音声AI", "ROI分析"]

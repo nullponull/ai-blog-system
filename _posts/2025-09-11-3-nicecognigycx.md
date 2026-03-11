@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NiCE、Cognigy買収の真意は？CXの未来を読み解く"
+title: "2026年NiCE、Cognigy買収の真意は？CXの未来を読み解くが変えるビジネスの未来"
 date: 2025-09-11 16:38:57 +0000
 categories: ["業界別AI活用"]
 tags: ["xAI", "AIエージェント", "マルチモーダル", "音声AI", "ROI分析", "AI規制"]

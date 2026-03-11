@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？"
+title: "2026年AWSのAIエージェントとTrainium 3、その真意は何処にあるのか？の進化と実用化への道筋"
 date: 2025-12-06 13:00:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "AIエージェント"]

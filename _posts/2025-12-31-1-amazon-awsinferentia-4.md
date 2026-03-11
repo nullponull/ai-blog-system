@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon AWSの「Inferentia 4」発表、何が変わるのか？"
+title: "2026年Amazon AWSの「Inferentia 4」発表、何が変わるのか？の技術革新がもたらす変化"
 date: 2025-12-31 08:46:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google GeminiとMaps連携、その真意はどこにあるのか？"
+title: "2026年Google GeminiとMaps連携、その真意はどこにあるのか？による業務効率化と競争力強化"
 date: 2025-10-19 20:33:59 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Anthropic", "Apple", "xAI", "LLM"]

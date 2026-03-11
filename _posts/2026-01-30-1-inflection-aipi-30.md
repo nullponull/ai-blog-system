@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIのPi 3.0の可能性と？"
+title: "2026年Inflection AIのPi 3.0の可能性と？による業務効率化と競争力強化"
 date: 2026-01-30 05:16:48 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

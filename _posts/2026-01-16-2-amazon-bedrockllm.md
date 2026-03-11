@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、新LLMモデル追加で何が変わる？"
+title: "2026年Amazon Bedrock、新LLMモデル追加で何が変わる？の注目ポイントと導入効果"
 date: 2026-01-16 04:53:29 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

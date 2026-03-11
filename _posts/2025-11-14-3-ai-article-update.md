@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIが行政サービスを変える？"
+title: "2026年AIが行政サービスを変える？（Anthropic・xAI）の最新動向と企業への影響"
 date: 2025-11-14 13:09:56 +0000
 categories: ["AI最新ニュース"]
 tags: ["Anthropic", "xAI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

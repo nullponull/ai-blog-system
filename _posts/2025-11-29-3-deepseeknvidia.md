@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepSeekがNVIDIAの牙城を崩せる"
+title: "2026年DeepSeekがNVIDIAの牙城を崩せる（OpenAI・LLM）の全貌と実践的な活用法"
 date: 2025-11-29 20:40:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、SMBの未来をどう変えるのか？"
+title: "2026年Microsoft Copilot、SMBの未来をどう変えるのか？がもたらす産業構造の転換"
 date: 2026-02-01 05:39:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "AIエージェント", "AI人材", "DX推進"]

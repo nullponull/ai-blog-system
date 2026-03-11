@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？"
+title: "2026年AI動画生成でByteDanceが欧米市場へ加速、その裏に潜む思惑とは？の技術革新がもたらす変化"
 date: 2026-02-05 03:11:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "ByteDance", "LLM", "音声AI", "AI規制", "AI人材"]

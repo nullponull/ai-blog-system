@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Geminiの可能性とは？"
+title: "2026年Google Geminiの可能性とは？（xAI・AIエージェント）の最新動向と企業への影響"
 date: 2025-11-20 08:43:59 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "xAI", "AIエージェント", "AI規制", "セキュリティ", "AI倫理"]

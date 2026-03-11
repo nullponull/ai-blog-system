@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？"
+title: "2026年NVIDIAとSKグループ、韓国AI工場に5万基GPU投資の真意とは？がもたらす産業構造の転換"
 date: 2025-11-01 04:35:09 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "AIエージェント", "AI規制", "AI人材", "AI倫理"]

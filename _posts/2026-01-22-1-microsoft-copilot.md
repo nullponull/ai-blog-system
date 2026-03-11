@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、法人導入加速で何が変わる？"
+title: "2026年Microsoft Copilot、法人導入加速で何が変わる？の全貌と実践的な活用法"
 date: 2026-01-22 20:44:04 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]

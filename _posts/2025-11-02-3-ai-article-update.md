@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIの未来は「土」にあり？希土類元素が握るインフラの真意と？"
+title: "2026年AIの未来は「土」にあり？希土類元素が握るインフラの真意と？の注目ポイントと導入効果"
 date: 2025-11-02 08:36:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "xAI", "LLM", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Googleの第7世代TPU「Ironwood」はAIの未来をどう変えるのか？"
+title: "2026年Googleの第7世代TPU「Ironwood」はAIの未来をどう変えるのか？がもたらす産業構造の転換"
 date: 2025-11-23 04:47:05 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "NVIDIA", "Amazon", "Anthropic", "LLM", "マルチモーダル"]

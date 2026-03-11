@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Celesticaの1.6TbEスイッチ発表、その真意は？"
+title: "2026年Celesticaの1.6TbEスイッチ発表、その真意は？による業務効率化と競争力強化"
 date: 2025-10-10 20:34:29 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "推論最適化", "AI人材"]

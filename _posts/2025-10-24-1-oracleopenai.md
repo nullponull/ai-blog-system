@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OracleとOpenAIの可能性とは？"
+title: "2026年OracleとOpenAIの可能性とは？（Google・Microsoft）の注目ポイントと導入効果"
 date: 2025-10-24 20:35:30 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

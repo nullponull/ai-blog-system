@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claudeの「Skills」はの可"
+title: "2026年Anthropic Claudeの「Skills」はの可の注目ポイントと導入効果"
 date: 2025-10-17 13:02:24 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Amazon", "Anthropic", "LLM", "AIエージェント", "ROI分析"]

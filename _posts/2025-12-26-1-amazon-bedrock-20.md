@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock 20%高速化の真意とは？"
+title: "2026年Amazon Bedrock 20%高速化の真意とは？による業務効率化と競争力強化"
 date: 2025-12-26 04:49:03 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

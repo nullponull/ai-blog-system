@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？"
+title: "2026年AWS新GPU、Bedrockの性能2倍は、何を変えるのだろう？の技術革新がもたらす変化"
 date: 2025-12-23 08:46:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

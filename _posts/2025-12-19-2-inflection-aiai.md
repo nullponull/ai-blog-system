@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの会話AI、本当に「新境地」と言えるのか？"
+title: "2026年Inflection AIの会話AI、本当に「新境地」と言えるのか？の注目ポイントと導入効果"
 date: 2025-12-19 13:04:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]

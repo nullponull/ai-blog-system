@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS SageMakerの推論コスト削減、その真意は何？"
+title: "2026年AWS SageMakerの推論コスト削減、その真意は何？の進化と実用化への道筋"
 date: 2026-01-29 08:59:35 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Meta", "NVIDIA", "Amazon", "AIエージェント", "マルチモーダル"]

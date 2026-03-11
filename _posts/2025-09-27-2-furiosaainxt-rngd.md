@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
+title: "2026年FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-09-27 12:54:15 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化"]

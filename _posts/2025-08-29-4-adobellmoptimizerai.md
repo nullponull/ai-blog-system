@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adobe LLM Optimizer発表"
+title: "2026年Adobe LLM Optimizer発表（AIエージェント・ROI分析）が変えるビジネスの未来"
 date: 2025-08-29 08:41:24 +0000
 categories: ["AI最新ニュース"]
 tags: ["LLM", "AIエージェント", "ROI分析", "AI人材", "AI倫理"]

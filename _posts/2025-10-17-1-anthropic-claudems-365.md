@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic ClaudeとMS 365連携の真意"
+title: "2026年Anthropic ClaudeとMS 365連携の真意の注目ポイントと導入効果"
 date: 2025-10-17 08:40:53 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "RAG"]

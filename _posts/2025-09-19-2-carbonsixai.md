@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CarbonSixのAIロボット、製造業の「常識」をどう塗り替えるのか？"
+title: "2026年CarbonSixのAIロボット、製造業の「常識」をどう塗り替えるのか？の全貌と実践的な活用法"
 date: 2025-09-19 04:37:18 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "AIエージェント", "ROI分析", "AI規制", "AI人材"]

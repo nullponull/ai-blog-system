@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini、AI検索で覇権狙い"
+title: "2026年Google Gemini、AI検索で覇権狙い（OpenAI・Microsoft）"
 date: 2025-08-30 12:01:36 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

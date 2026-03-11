@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法、オープンソースLLMの未来に何をもたらすか？開発現場からの考察"
+title: "2026年EU AI法、オープンソースLLMの未来に何をもたらすか？開発現場からの考察の進化と実用化への道筋"
 date: 2026-02-23 22:14:01 +0900
 categories: [AI最新ニュース]
 tags: ["LLM", "AI規制対応", "Meta", "Google", "DX推進"]

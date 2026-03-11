@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、産業AI導入、何が変わるのか？"
+title: "2026年Amazon Bedrock、産業AI導入、何が変わるのか？の注目ポイントと導入効果"
 date: 2026-02-07 08:51:08 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "Amazon", "Anthropic", "LLM", "RAG", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot X、医療DXはどこまで進む？"
+title: "2026年Microsoft Copilot X、医療DXはどこまで進む？の最新動向と企業への影響"
 date: 2026-02-06 09:01:46 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "AI規制", "DX推進"]

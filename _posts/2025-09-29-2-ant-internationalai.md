@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ant InternationalのAIセキュリティ"
+title: "2026年Ant InternationalのAIセキュリティによる業務効率化と競争力強化"
 date: 2025-09-29 04:38:19 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

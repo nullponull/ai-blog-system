@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのノルウェーAI投資、その真意はどこにあるのか？"
+title: "2026年MicrosoftのノルウェーAI投資、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-09-19 16:37:53 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "推論最適化", "AI規制", "AI人材"]

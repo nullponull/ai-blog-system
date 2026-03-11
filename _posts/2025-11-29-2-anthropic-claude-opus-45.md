@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claude Opus 4.5が示すの可"
+title: "2026年Anthropic Claude Opus 4.5が示すの可が変えるビジネスの未来"
 date: 2025-11-29 04:39:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

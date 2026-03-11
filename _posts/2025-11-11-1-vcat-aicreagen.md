@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VCAT AIのCREAGENの可能性とは？"
+title: "2026年VCAT AIのCREAGENの可能性とは？（OpenAI・AI規制）がもたらす産業構造の転換"
 date: 2025-11-11 02:18:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "AI規制", "AI人材", "セキュリティ", "AI倫理", "自動運転"]

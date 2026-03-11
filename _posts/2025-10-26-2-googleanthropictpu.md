@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleとAnthropicのTPU契約、その真意はどこにあるのか？"
+title: "2026年GoogleとAnthropicのTPU契約、その真意はどこにあるのか？の最新動向と企業への影響"
 date: 2025-10-26 16:38:33 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "Anthropic"]

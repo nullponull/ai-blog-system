@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "マイクロソフトのAI Copilot for F"
+title: "2026年マイクロソフトのAI Copilot for F（OpenAI・Google）の全貌と実践的な活用法"
 date: 2025-12-26 16:39:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AIエージェント"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？"
+title: "2026年Vast Dataの巨額契約が示す、AIインフラの「真の主役」とは何か？が変えるビジネスの未来"
 date: 2025-11-07 20:32:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "AIエージェント"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DEEPXの「Physical AI」は、AIの未来をどう変えるのか？"
+title: "2026年DEEPXの「Physical AI」は、AIの未来をどう変えるのか？の進化と実用化への道筋"
 date: 2025-11-05 04:37:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "音声AI", "推論最適化", "ROI分析", "AI人材", "セキュリティ"]

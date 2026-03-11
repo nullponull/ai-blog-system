@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google、Gemini 3とTPUの発表、その真意は何処にあるのか？"
+title: "2026年Google、Gemini 3とTPUの発表、その真意は何処にあるのか？の技術革新がもたらす変化"
 date: 2025-11-25 04:41:45 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

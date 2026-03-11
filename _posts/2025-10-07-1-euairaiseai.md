@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EUの科学AI戦略「Raise」が目指す、欧州AIの真の自立とは？"
+title: "2026年EUの科学AI戦略「Raise」が目指す、欧州AIの真の自立とは？がもたらす産業構造の転換"
 date: 2025-10-07 04:36:42 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "xAI", "AIエージェント", "AI規制", "AI人材", "セキュリティ"]

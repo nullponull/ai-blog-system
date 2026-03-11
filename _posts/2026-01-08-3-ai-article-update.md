@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "シンガポールのAI人材戦略、その先にあるのは単なる技術大国か、それとも…？"
+title: "2026年シンガポールのAI人材戦略、その先にあるのは単なる技術大国か、それとも…？の注目ポイントと導入効果"
 date: 2026-01-08 20:39:46 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AI規制", "AI人材"]

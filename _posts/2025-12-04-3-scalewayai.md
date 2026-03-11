@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？"
+title: "2026年富士通とScalewayが描くAIの未来、その「持続可能性」の真意とは？の技術革新がもたらす変化"
 date: 2025-12-04 13:09:06 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "音声AI", "推論最適化", "AI規制", "AI人材"]

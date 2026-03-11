@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Copilot Pro、製造業のAI導入、どこまで本気？"
+title: "2026年Copilot Pro、製造業のAI導入、どこまで本気？がもたらす産業構造の転換"
 date: 2026-01-05 02:40:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

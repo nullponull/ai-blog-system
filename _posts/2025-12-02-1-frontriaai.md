@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "富士通「Frontria」が問うAIの信頼性、その真意とは何か？"
+title: "2026年富士通「Frontria」が問うAIの信頼性、その真意とは何か？が変えるビジネスの未来"
 date: 2025-12-02 13:07:34 +0000
 categories: ["AI最新ニュース"]
 tags: ["xAI", "音声AI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

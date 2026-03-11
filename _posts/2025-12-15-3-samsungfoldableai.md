@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsungの次世代FoldableにAI搭載"
+title: "2026年Samsungの次世代FoldableにAI搭載（Google・Apple）の進化と実用化への道筋"
 date: 2025-12-15 04:53:48 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Apple", "xAI", "LLM", "RAG", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "英国のAIインフラ投資、その真意はどこにあるのか？"
+title: "2026年英国のAIインフラ投資、その真意はどこにあるのか？｜業界変革を加速させるAI戦略"
 date: 2025-10-02 04:36:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "LLM", "AI規制"]

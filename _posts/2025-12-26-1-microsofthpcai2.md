@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの次世代HPC、AI性能2倍の真意は何？"
+title: "2026年Microsoftの次世代HPC、AI性能2倍の真意は何？が変えるビジネスの未来"
 date: 2025-12-26 08:43:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

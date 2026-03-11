@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？"
+title: "2026年IBMとAnthropicの提携が示す、エンタープライズAIの新たな地平とは？がもたらす産業構造の転換"
 date: 2025-10-10 04:37:03 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "LLM"]

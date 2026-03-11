@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？"
+title: "2026年Baiduの「Kunlun 4」発表、AIチップ競争はどこへ向かうのか？の全貌と実践的な活用法"
 date: 2026-01-24 08:41:46 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

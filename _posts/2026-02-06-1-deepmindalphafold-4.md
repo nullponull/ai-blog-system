@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMind『AlphaFold 4』発表：そ？"
+title: "2026年DeepMind『AlphaFold 4』発表：そ？による業務効率化と競争力強化"
 date: 2026-02-06 05:22:50 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI人材", "AI倫理"]

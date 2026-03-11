@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ソニーのAIチップ、ゲームの未来はどう変わる？"
+title: "2026年ソニーのAIチップ、ゲームの未来はどう変わる？（Microsoft・NVIDIA）"
 date: 2025-12-21 08:39:51 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "LLM", "マルチモーダル", "推論最適化", "AI人材"]

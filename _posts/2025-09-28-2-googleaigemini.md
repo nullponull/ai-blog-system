@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？"
+title: "2026年GoogleのロボットAI「Gemini」は、私たちの未来をどう変えるのか？がもたらす産業構造の転換"
 date: 2025-09-28 02:19:06 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "LLM"]

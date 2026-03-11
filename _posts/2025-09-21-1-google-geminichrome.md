@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini、Chromeに統合開始：その真意はどこにあるのか？"
+title: "2026年Google Gemini、Chromeに統合開始：その真意はどこにあるのか？の最新動向と企業への影響"
 date: 2025-09-21 20:31:59 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "xAI", "AIエージェント", "ROI分析", "AI規制"]

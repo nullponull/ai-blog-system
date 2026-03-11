@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inflection AIの「Inflection-3」発表"
+title: "2026年Inflection AIの「Inflection-3」発表がもたらす産業構造の転換"
 date: 2026-01-25 05:01:07 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "LLM"]

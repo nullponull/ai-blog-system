@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apple SiriとGoogle Gemini統合が示"
+title: "2026年Apple SiriとGoogle Gemini統合が示がもたらす産業構造の転換"
 date: 2025-11-29 02:11:16 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "Apple"]

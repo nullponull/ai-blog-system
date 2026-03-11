@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VodacomとGoogleがアフリカAI市場に投じる、その真意とは？"
+title: "2026年VodacomとGoogleがアフリカAI市場に投じる、その真意とは？が変えるビジネスの未来"
 date: 2025-11-25 08:45:17 +0000
 categories: ["導入事例"]
 tags: ["Google", "マルチモーダル", "画像生成", "音声AI", "AI規制", "AI人材"]

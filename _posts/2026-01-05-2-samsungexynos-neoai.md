@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samsungが「Exynos Neo」で狙うAI半"
+title: "2026年Samsungが「Exynos Neo」で狙うAI半による業務効率化と競争力強化"
 date: 2026-01-05 05:07:21 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Apple", "LLM", "RAG", "マルチモーダル"]

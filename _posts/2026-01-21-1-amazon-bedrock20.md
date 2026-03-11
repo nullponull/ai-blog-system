@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、新モデル20種追加。何が変わるのか？"
+title: "2026年Amazon Bedrock、新モデル20種追加。何が変わるのか？の全貌と実践的な活用法"
 date: 2026-01-21 17:18:14 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI GPT-5、AGIへ前進：投資・技術の未来"
+title: "2026年OpenAI GPT-5、AGIへ前進：投資・技術の未来の技術革新がもたらす変化"
 date: 2025-09-06 12:45:53 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "マルチモーダル", "音声AI", "推論最適化"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazonの新型AIロボット「Blue Jay"
+title: "2026年Amazonの新型AIロボット「Blue Jay"
 date: 2025-10-25 20:34:22 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "AIエージェント", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

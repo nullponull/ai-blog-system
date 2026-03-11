@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？"
+title: "2026年AIが変える企業の姿：AmazonとIntelの大規模人員削減が示す未来とは？の技術革新がもたらす変化"
 date: 2025-11-02 12:55:41 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "AIエージェント"]

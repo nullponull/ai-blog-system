@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SK hynix HBM4、その真意は？AI半導体競争の行方"
+title: "2026年SK hynix HBM4、その真意は？AI半導体競争の行方の最新動向と企業への影響"
 date: 2025-09-12 02:00:06 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "マルチモーダル", "音声AI", "推論最適化", "AI規制"]

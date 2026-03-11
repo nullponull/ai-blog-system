@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIオンコロジー市場の可能性"
+title: "2026年AIオンコロジー市場の可能性（Google・Microsoft）の注目ポイントと導入効果"
 date: 2025-10-13 20:35:47 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "xAI", "マルチモーダル"]

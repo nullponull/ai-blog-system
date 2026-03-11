@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMind創薬AIが拓く新時代："
+title: "2026年DeepMind創薬AIが拓く新時代：（Google・AI規制）の進化と実用化への道筋"
 date: 2025-12-28 02:38:55 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "AI規制", "AI人材", "AI倫理"]

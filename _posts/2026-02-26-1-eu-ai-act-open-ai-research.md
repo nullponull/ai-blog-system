@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法がAI研究のオープン化をどう促すか、その真意は？"
+title: "2026年EU AI法がAI研究のオープン化をどう促すか、その真意は？が変えるビジネスの未来"
 date: 2026-02-26 10:52:08 +0900
 categories: [AI最新ニュース]
 tags: ["AI規制対応", "LLM", "AIエージェント", "OpenAI", "Google"]

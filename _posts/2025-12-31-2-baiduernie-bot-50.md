@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？"
+title: "2026年BaiduのERNIE Bot 5.0、多言語対応強化で何が変わるのか？がもたらす産業構造の転換"
 date: 2025-12-31 20:36:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "LLM", "セキュリティ"]

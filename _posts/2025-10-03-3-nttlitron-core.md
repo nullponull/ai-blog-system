@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTTデータの「LITRON® CORE」は？"
+title: "2026年NTTデータの「LITRON® CORE」は？（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-10-03 13:00:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "LLM", "RAG"]

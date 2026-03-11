@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ソフトバンクの可能性とは？"
+title: "2026年ソフトバンクの可能性とは？（OpenAI・Google）がもたらす産業構造の転換（ニュース・長年染）"
 date: 2025-11-19 20:33:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AnthropicのClaude 4は医療AIのゲー"
+title: "2026年AnthropicのClaude 4は医療AIのゲーによる業務効率化と競争力強化"
 date: 2026-02-07 16:50:05 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Amazon", "Anthropic", "LLM", "推論最適化"]

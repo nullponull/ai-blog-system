@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GoogleのTPU v6、本当にAIのゲームを変えるのか？"
+title: "2026年GoogleのTPU v6、本当にAIのゲームを変えるのか？の全貌と実践的な活用法"
 date: 2026-01-04 08:43:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Microsoft", "NVIDIA", "Apple", "LLM", "マルチモーダル"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？"
+title: "2026年AWS SageMaker、創薬AIの「30%高速化」は、一体何を変えるのか？の最新動向と企業への影響"
 date: 2026-02-12 05:42:41 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "NVIDIA", "Amazon", "推論最適化", "ROI分析", "AI規制"]

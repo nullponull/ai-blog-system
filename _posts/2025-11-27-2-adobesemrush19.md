@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？"
+title: "2026年AdobeがSemrushを19億ドルで買収、その真意はどこにあるのか？が変えるビジネスの未来"
 date: 2025-11-27 13:05:15 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "AIエージェント", "AI規制"]

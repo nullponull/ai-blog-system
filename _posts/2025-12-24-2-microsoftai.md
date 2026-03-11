@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoftの新AIツール、開発者の現場はどう変わる？"
+title: "2026年Microsoftの新AIツール、開発者の現場はどう変わる？の最新動向と企業への影響"
 date: 2025-12-24 20:36:18 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

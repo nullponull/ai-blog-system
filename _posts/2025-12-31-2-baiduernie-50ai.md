@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？"
+title: "2026年BaiduのErnie 5.0、中国AIの次なる一手は何を意味するのだろうか？の全貌と実践的な活用法"
 date: 2025-12-31 13:05:13 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "LLM", "マルチモーダル", "AI倫理"]

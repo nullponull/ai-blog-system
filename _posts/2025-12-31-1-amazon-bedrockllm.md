@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、企業向けLLM導入支援強化の真意とは何だろうか？"
+title: "2026年Amazon Bedrock、企業向けLLM導入支援強化の真意とは何だろうか？が変えるビジネスの未来"
 date: 2025-12-31 04:51:50 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

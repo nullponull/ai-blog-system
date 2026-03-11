@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ELU.AIの「AstroDroid AD-01」はの可"
+title: "2026年ELU.AIの「AstroDroid AD-01」はの可の最新動向と企業への影響"
 date: 2025-10-12 04:35:23 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "マルチモーダル", "推論最適化", "ROI分析", "AI規制", "セキュリティ"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Cloudが示す、AIと持続可能性の両立の真意とは？"
+title: "2026年Google Cloudが示す、AIと持続可能性の両立の真意とは？の技術革新がもたらす変化"
 date: 2025-10-22 20:37:07 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "推論最適化", "AI規制", "セキュリティ", "AI倫理"]

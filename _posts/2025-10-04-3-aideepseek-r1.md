@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？"
+title: "2026年中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？が変えるビジネスの未来"
 date: 2025-10-04 16:36:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "推論最適化", "ファインチューニング"]

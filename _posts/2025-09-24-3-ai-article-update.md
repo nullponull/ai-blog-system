@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIスキルの可能性とは？"
+title: "2026年AIスキルの可能性とは？（OpenAI・Microsoft）の最新動向と企業への影響"
 date: 2025-09-24 13:01:57 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "LLM", "画像生成", "推論最適化"]

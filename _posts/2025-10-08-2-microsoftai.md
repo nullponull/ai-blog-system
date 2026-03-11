@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？"
+title: "2026年MicrosoftのAIエージェント開発キット、その真意はどこにあるのか？の最新動向と企業への影響"
 date: 2025-10-08 02:02:29 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Anthropic", "xAI", "LLM"]

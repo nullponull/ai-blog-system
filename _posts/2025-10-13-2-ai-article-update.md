@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "シンガポールが金融AI支援を強化する真意とは？その戦略と未来を読み解く"
+title: "2026年シンガポールが金融AI支援を強化する真意とは？その戦略と未来を読み解くの注目ポイントと導入効果"
 date: 2025-10-13 08:44:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "xAI", "LLM", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "次世代SnapdragonのNPU搭載、何が変わるのか？"
+title: "2026年次世代SnapdragonのNPU搭載、何が変わるのか？の技術革新がもたらす変化"
 date: 2026-01-06 08:49:56 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "RAG", "マルチモーダル", "画像生成"]

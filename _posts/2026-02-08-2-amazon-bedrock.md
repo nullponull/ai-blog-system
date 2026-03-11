@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockが製薬研究にもた"
+title: "2026年Amazon Bedrockが製薬研究にもた（Meta・Anthropic）がもたらす産業構造の転換"
 date: 2026-02-08 20:45:48 +0000
 categories: ["研究論文"]
 tags: ["Meta", "Amazon", "Anthropic", "xAI", "LLM", "ファインチューニング"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「ソブリンAI」が中東で花開く：その真意と、私たちが学ぶべきこととは？"
+title: "2026年「ソブリンAI」が中東で花開く：その真意と、私たちが学ぶべきこととは？が変えるビジネスの未来"
 date: 2025-09-19 08:39:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]

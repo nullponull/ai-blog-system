@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIが半導体市場を牽引する未来、その数字の裏に何があるのか？"
+title: "2026年AIが半導体市場を牽引する未来、その数字の裏に何があるのか？の最新動向と企業への影響"
 date: 2025-10-05 12:54:16 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

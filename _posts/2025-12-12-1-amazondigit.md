@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？"
+title: "2026年Amazonの「Digit」製造ライン倍増、物流の未来はどう変わる？の最新動向と企業への影響"
 date: 2025-12-12 13:05:27 +0000
 categories: ["業界別AI活用"]
 tags: ["Amazon", "ROI分析", "AI人材", "ロボティクス"]

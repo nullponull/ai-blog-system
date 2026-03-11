@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CopilotにAnthropicが加わること？"
+title: "2026年CopilotにAnthropicが加わること？（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-09-28 02:18:35 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

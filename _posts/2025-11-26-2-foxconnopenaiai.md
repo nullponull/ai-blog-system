@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？"
+title: "2026年FoxconnとOpenAI提携、AIインフラ新時代の幕開けか？の最新動向と企業への影響"
 date: 2025-11-26 02:20:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "AI人材", "セキュリティ"]

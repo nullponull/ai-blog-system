@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS「Quick Suite」がCopilotに挑む"
+title: "2026年AWS「Quick Suite」がCopilotに挑むによる業務効率化と競争力強化"
 date: 2025-10-12 20:33:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

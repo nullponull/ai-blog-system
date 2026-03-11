@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？"
+title: "2026年独HelsingのAI戦闘機CA-1 Europa、その真意はどこにあるのか？の進化と実用化への道筋"
 date: 2025-09-27 04:39:33 +0000
 categories: ["業界別AI活用"]
 tags: ["Meta", "Amazon", "xAI", "AIエージェント", "AI規制", "AI人材"]

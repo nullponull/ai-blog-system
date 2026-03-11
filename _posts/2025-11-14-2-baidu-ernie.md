@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baidu ERNIEの可能性とは？"
+title: "2026年Baidu ERNIEの可能性とは？（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-11-14 16:44:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "NVIDIA", "Apple", "LLM", "マルチモーダル"]

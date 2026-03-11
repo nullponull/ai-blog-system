@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？"
+title: "2026年AmazonとApple、AIスマートデバイスの次なる一手は何を意味するのか？の進化と実用化への道筋"
 date: 2025-10-11 20:30:49 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic"]

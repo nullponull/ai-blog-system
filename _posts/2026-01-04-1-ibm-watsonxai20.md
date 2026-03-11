@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM WatsonX、製薬AIで臨床試験期間20%短縮。何が変わるのか？"
+title: "2026年IBM WatsonX、製薬AIで臨床試験期間20%短縮。何が変わるのか？が変えるビジネスの未来"
 date: 2026-01-04 16:39:31 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Amazon", "LLM", "AIエージェント", "ROI分析", "AI規制"]

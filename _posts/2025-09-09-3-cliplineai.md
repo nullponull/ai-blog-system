@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ClipLine、サービス業AIエージェントで現場革新"
+title: "2026年ClipLine、サービス業AIエージェントで現場革新による業務効率化と競争力強化"
 date: 2025-09-09 04:37:39 +0000
 categories: ["業界別AI活用"]
 tags: ["AIエージェント", "音声AI", "AI人材", "DX推進"]

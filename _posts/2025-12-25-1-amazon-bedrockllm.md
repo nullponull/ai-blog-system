@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockが法人向けLLM連携"
+title: "2026年Amazon Bedrockが法人向けLLM連携（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-12-25 16:41:14 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

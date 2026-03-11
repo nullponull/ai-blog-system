@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？"
+title: "2026年Hon HaiとOpenAIの提携：AIインフラの未来はどこへ向かうのか？が変えるビジネスの未来"
 date: 2025-11-22 02:06:38 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "Apple"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。"
+title: "2026年IBMのTelum、その真意は？産業AIの未来をどう描き変えるのか。が変えるビジネスの未来"
 date: 2026-01-17 20:36:00 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "Amazon", "推論最適化", "ROI分析", "AI規制"]

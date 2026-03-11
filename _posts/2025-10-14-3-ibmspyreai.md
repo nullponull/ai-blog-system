@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？"
+title: "2026年IBMの「Spyre」AIアクセラレーター、その真意はどこにあるのか？がもたらす産業構造の転換"
 date: 2025-10-14 16:41:49 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "Anthropic", "LLM"]

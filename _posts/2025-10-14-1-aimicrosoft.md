@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIの電力渇望、マイクロソフトが原発に目を向ける真意とは？"
+title: "2026年AIの電力渇望、マイクロソフトが原発に目を向ける真意とは？の全貌と実践的な活用法"
 date: 2025-10-14 04:37:19 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

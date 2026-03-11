@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google MapsとGemini AIの融合が示"
+title: "2026年Google MapsとGemini AIの融合が示による業務効率化と競争力強化"
 date: 2025-11-17 02:20:19 +0000
 categories: ["導入事例"]
 tags: ["Google", "NVIDIA", "xAI", "AIエージェント", "マルチモーダル", "音声AI"]

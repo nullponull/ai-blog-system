@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBMとAnthropicの提携が示す、開発現場の未来図とは？"
+title: "2026年IBMとAnthropicの提携が示す、開発現場の未来図とは？の全貌と実践的な活用法"
 date: 2025-10-10 08:39:57 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "Meta", "Amazon", "Anthropic", "LLM"]

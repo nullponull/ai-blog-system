@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Saishin Technologiesの可"
+title: "2026年Saishin Technologiesの可（マルチモーダル・音声AI）が変えるビジネスの未来"
 date: 2025-11-19 08:43:17 +0000
 categories: ["AI最新ニュース"]
 tags: ["マルチモーダル", "音声AI", "AI規制", "AI人材", "セキュリティ", "AI倫理"]

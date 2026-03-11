@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SageMakerとLambdaの連携強化、何が変わるのか？"
+title: "2026年SageMakerとLambdaの連携強化、何が変わるのか？の進化と実用化への道筋"
 date: 2025-12-10 16:44:55 +0000
 categories: ["AI最新ニュース"]
 tags: ["Amazon", "AIエージェント", "推論最適化"]

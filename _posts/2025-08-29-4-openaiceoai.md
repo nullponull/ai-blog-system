@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "アルトマンCEO AIバブル警告"
+title: "2026年アルトマンCEO AIバブル警告（OpenAI・Google）の最新動向と企業への影響"
 date: 2025-08-29 03:44:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Anthropic", "LLM"]

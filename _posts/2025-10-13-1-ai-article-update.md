@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "マレーシアのAI税優遇延長、その真意はどこにあるのか？"
+title: "2026年マレーシアのAI税優遇延長、その真意はどこにあるのか？による業務効率化と競争力強化"
 date: 2025-10-13 13:01:35 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "AI規制", "AI人材"]

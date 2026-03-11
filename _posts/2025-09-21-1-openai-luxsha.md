@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIがハードウェアへ？ Luxsha"
+title: "2026年OpenAIがハードウェアへ？ Luxsha（Google・Meta）の最新動向と企業への影響"
 date: 2025-09-21 02:14:07 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "Apple"]

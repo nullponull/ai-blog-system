@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIの「思考の連鎖ハイジャック」は、単なる脆弱性なのか？"
+title: "2026年AIの「思考の連鎖ハイジャック」は、単なる脆弱性なのか？の技術革新がもたらす変化"
 date: 2025-11-29 12:59:38 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Anthropic", "xAI", "LLM", "AIエージェント"]

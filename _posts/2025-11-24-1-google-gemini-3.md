@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3の画像強化、その真価はどこにあるのか？"
+title: "2026年Google Gemini 3の画像強化、その真価はどこにあるのか？の全貌と実践的な活用法"
 date: 2025-11-24 16:38:47 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "NVIDIA", "AIエージェント", "マルチモーダル", "画像生成"]

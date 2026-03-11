@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FigmaがAIデザインツール「Weave"
+title: "2026年FigmaがAIデザインツール「Weave（OpenAI・Anthropic）が変えるビジネスの未来"
 date: 2025-11-07 08:41:38 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Anthropic", "画像生成", "AI規制", "AI人材", "セキュリティ"]

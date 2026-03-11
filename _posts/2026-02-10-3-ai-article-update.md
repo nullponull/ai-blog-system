@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI倫理指数、欧州トップに何が見える？"
+title: "2026年AI倫理指数、欧州トップに何が見える？（OpenAI・Google）の注目ポイントと導入効果"
 date: 2026-02-10 21:01:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "xAI", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TokyoAIの「Sakura-7B」公開、何が変わるのか？"
+title: "2026年TokyoAIの「Sakura-7B」公開、何が変わるのか？が変えるビジネスの未来"
 date: 2026-02-11 09:07:11 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Microsoft", "LLM", "ファインチューニング", "AI人材", "セキュリティ"]

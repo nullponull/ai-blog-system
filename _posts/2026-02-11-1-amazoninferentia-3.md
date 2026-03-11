@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazonの「Inferentia 3」の可能性"
+title: "2026年Amazonの「Inferentia 3」の可能性｜最前線レポートと今後の見通し"
 date: 2026-02-11 05:46:35 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

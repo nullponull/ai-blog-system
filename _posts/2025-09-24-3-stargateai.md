@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Stargate」が拓くAIインフラの新時代、その真意とは？"
+title: "2026年「Stargate」が拓くAIインフラの新時代、その真意とは？の全貌と実践的な活用法"
 date: 2025-09-24 08:52:15 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

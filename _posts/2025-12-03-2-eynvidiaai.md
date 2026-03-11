@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EYとNVIDIAの物理AIプラットフ"
+title: "2026年EYとNVIDIAの物理AIプラットフ（OpenAI・Google）の進化と実用化への道筋"
 date: 2025-12-03 13:08:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "AIエージェント"]

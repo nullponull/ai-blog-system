@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの可能性とは？"
+title: "2026年Amazon Bedrockの可能性とは？（OpenAI・Google）が変えるビジネスの未来"
 date: 2026-01-15 20:40:15 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

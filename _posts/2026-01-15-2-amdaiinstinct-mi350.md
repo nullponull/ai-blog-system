@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AMDのAIチップ「Instinct MI350」？"
+title: "2026年AMDのAIチップ「Instinct MI350」？による業務効率化と競争力強化"
 date: 2026-01-15 08:48:37 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "NVIDIA", "Amazon", "LLM", "推論最適化"]

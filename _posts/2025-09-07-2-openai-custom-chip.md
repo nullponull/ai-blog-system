@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI、自社AIチップ投資で新時代を拓く"
+title: "2026年OpenAI、自社AIチップ投資で新時代を拓く（Google・Microsoft）"
 date: 2025-09-07 12:53:09 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "推論最適化"]

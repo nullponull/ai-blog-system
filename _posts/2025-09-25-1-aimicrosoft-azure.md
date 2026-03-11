@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "韓国AI市場、Microsoft Azureが牽引する変革の真意とは？"
+title: "2026年韓国AI市場、Microsoft Azureが牽引する変革の真意とは？の注目ポイントと導入効果"
 date: 2025-09-25 13:02:27 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "AIエージェント", "AI規制", "AI人材", "DX推進"]

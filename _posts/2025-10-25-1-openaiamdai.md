@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面"
+title: "2026年OpenAIとAMD、その巨額提携の真意とは？AIインフラ競争の新たな局面の進化と実用化への道筋"
 date: 2025-10-25 02:04:30 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI規制"]

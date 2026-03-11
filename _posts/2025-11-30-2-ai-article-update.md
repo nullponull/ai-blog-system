@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIインフラ投資狂騒曲：大手クラウドが次に目指すものは何か？"
+title: "2026年AIインフラ投資狂騒曲：大手クラウドが次に目指すものは何か？が変えるビジネスの未来"
 date: 2025-11-30 02:31:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？"
+title: "2026年FuriosaAIのNXT RNGDサーバー発表、その真意はどこにあるのか？がもたらす産業構造の転換"
 date: 2025-09-27 01:58:56 +0000
 categories: ["業界別AI活用"]
 tags: ["Microsoft", "Meta", "NVIDIA", "Amazon", "LLM", "マルチモーダル"]

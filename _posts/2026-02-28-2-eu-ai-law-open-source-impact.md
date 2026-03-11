@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI法、オープンソースAI開発に何をもたらすのか？"
+title: "2026年EU AI法、オープンソースAI開発に何をもたらすのか？の最新動向と企業への影響"
 date: 2026-02-28 10:32:08 +0900
 categories: [AI最新ニュース]
 tags: ["AI規制対応", "LLM", "Meta"]

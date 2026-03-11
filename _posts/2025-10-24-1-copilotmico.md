@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Copilot新アバター「Mico」登場、その真意はどこにあるのか？"
+title: "2026年Copilot新アバター「Mico」登場、その真意はどこにあるのか？の進化と実用化への道筋"
 date: 2025-10-24 13:03:40 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "マルチモーダル", "音声AI"]

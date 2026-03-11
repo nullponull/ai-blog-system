@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意と？"
+title: "2026年LightricksのLTX-2がAI動画生成の常識を覆すのか？その真意と？の最新動向と企業への影響"
 date: 2025-10-25 12:55:14 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

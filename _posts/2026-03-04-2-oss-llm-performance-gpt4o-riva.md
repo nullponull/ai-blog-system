@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オープンソースLLM、GPT-4o超えの性能"
+title: "2026年オープンソースLLM、GPT-4o超えの性能（Meta・OpenAI）の全貌と実践的な活用法"
 date: 2026-03-04 18:45:30 +0900
 categories: [研究論文]
 tags: ["LLM", "Meta", "OpenAI", "研究論文"]

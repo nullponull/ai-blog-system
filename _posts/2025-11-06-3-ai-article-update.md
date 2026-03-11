@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波"
+title: "2026年カリフォルニア州AI規制、その真意は？緩和の裏で進む「賢い」法整備の波の技術革新がもたらす変化"
 date: 2025-11-06 20:37:13 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]

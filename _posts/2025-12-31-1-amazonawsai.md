@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AmazonとAWSがAIチップ内製を強"
+title: "2026年AmazonとAWSがAIチップ内製を強（OpenAI・Google）が変えるビジネスの未来"
 date: 2025-12-31 13:04:30 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "LLM"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NVIDIA、AIチップ市場を牽引する戦略と未来"
+title: "2026年NVIDIA、AIチップ市場を牽引する戦略と未来（OpenAI・Google）が変えるビジネスの未来"
 date: 2025-09-08 20:35:54 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

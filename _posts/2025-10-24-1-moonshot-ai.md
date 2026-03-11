@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moonshot AIの可能性とは？"
+title: "2026年Moonshot AIの可能性とは？（OpenAI・Google）の技術革新がもたらす変化"
 date: 2025-10-24 04:36:48 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Meta", "LLM", "AIエージェント", "マルチモーダル"]

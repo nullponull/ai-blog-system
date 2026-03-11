@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？"
+title: "2026年AdobeとGoogleのAI画像生成統合、その真意はどこにあるのか？の進化と実用化への道筋"
 date: 2025-09-27 12:53:28 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "ROI分析", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getty ImagesとPerplexityの提携：そ"
+title: "2026年Getty ImagesとPerplexityの提携：その最新動向と企業への影響"
 date: 2025-11-02 16:38:42 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Meta", "AI規制", "AI人材", "セキュリティ"]

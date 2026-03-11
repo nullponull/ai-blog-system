@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？"
+title: "2026年AkamaiとNVIDIAが描くエッジAIの未来：その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-10-31 02:11:44 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "NVIDIA", "LLM", "RAG", "推論最適化", "AI規制"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SageMakerでLLM開発は本当に加速するのか？その真意を探る"
+title: "2026年SageMakerでLLM開発は本当に加速するのか？その真意を探るの全貌と実践的な活用法"
 date: 2026-01-17 08:40:33 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Meta", "Amazon", "Anthropic", "LLM", "ファインチューニング"]

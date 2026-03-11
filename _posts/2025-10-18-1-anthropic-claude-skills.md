@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropic Claude Skillsの真意はどこにあるのか？"
+title: "2026年Anthropic Claude Skillsの真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-10-18 16:36:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "Anthropic", "xAI"]

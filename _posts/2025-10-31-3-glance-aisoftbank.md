@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？"
+title: "2026年「Glance AI」が描く未来の消費体験、SoftBankの戦略の真意とは？の最新動向と企業への影響"
 date: 2025-10-31 02:12:19 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Amazon", "Apple", "xAI", "RAG"]

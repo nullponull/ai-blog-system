@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PwC Japanの「AI Factory」発足、その真意はどこにあるのか？"
+title: "2026年PwC Japanの「AI Factory」発足、その真意はどこにあるのか？の注目ポイントと導入効果"
 date: 2025-10-30 08:03:51 +0000
 categories: ["導入事例"]
 tags: ["LLM", "RAG", "AIエージェント", "AI人材", "DX推進", "セキュリティ"]

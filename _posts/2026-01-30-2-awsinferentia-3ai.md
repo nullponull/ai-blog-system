@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？"
+title: "2026年AWSの「Inferentia 3」は、AIコストを本当に半減させるのか？が変えるビジネスの未来"
 date: 2026-01-30 20:48:45 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Meta", "NVIDIA", "Amazon", "LLM"]

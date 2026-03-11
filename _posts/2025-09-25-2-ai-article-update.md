@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "シンガポール、公務員AI研修義務化の真意とは？国家戦略が示す未来への布石"
+title: "2026年シンガポール、公務員AI研修義務化の真意とは？国家戦略が示す未来への布石が変えるビジネスの未来"
 date: 2025-09-25 08:41:18 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "LLM", "AI人材"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ソフトバンクとサムスンの可"
+title: "2026年ソフトバンクとサムスンの可（NVIDIA・LLM）｜業種特化型AI活用の成功パターン"
 date: 2025-10-24 16:44:25 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "ROI分析", "AI人材", "DX推進", "セキュリティ"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini Ultraのリアルタイム"
+title: "2026年Google Gemini Ultraのリアルタイムによる業務効率化と競争力強化"
 date: 2025-10-23 16:41:45 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "ByteDance", "AIエージェント", "マルチモーダル", "画像生成", "音声AI"]

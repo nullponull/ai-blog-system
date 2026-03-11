@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？"
+title: "2026年アリババとByteDance、動画AIの進化が示す未来のコンテンツ創造とは？がもたらす産業構造の転換"
 date: 2025-10-02 16:40:16 +0000
 categories: ["業界別AI活用"]
 tags: ["Google", "NVIDIA", "ByteDance", "LLM", "AIエージェント", "マルチモーダル"]

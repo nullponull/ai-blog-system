@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nvidia CEOのTSMC増産要請の可能"
+title: "2026年Nvidia CEOのTSMC増産要請の可能（OpenAI・Google）の最新動向と企業への影響"
 date: 2025-11-08 20:31:13 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Amazon", "xAI"]

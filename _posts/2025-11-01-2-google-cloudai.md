@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Cloudの企業向けAI戦略：その真意はどこにあるのか？"
+title: "2026年Google Cloudの企業向けAI戦略：その真意はどこにあるのか？の最新動向と企業への影響"
 date: 2025-11-01 16:37:05 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

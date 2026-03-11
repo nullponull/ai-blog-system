@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrock、新モデル50種搭載。何が変わるのか？"
+title: "2026年Amazon Bedrock、新モデル50種搭載。何が変わるのか？の全貌と実践的な活用法"
 date: 2025-12-20 08:39:13 +0000
 categories: ["研究論文"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

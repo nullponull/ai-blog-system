@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ちょっと待ってくださいね。W"
+title: "2026年ちょっと待ってくださいね。W（Google・Microsoft）の技術革新がもたらす変化"
 date: 2025-11-02 02:22:51 +0000
 categories: ["導入事例"]
 tags: ["Google", "Microsoft", "Amazon", "xAI", "AIエージェント", "AI規制"]

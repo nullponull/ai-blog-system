@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "大変申し訳ありませんがの可"
+title: "2026年大変申し訳ありませんがの可（OpenAI・Google）がもたらす産業構造の転換"
 date: 2025-11-25 13:04:52 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

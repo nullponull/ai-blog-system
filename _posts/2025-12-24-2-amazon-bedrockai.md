@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockと量子AI、その連携強化で何が変わるのか？"
+title: "2026年Amazon Bedrockと量子AI、その連携強化で何が変わるのか？の注目ポイントと導入効果"
 date: 2025-12-24 08:46:39 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Meta", "Amazon", "Anthropic", "LLM", "推論最適化"]

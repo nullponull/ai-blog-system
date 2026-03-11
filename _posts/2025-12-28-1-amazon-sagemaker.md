@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon SageMakerの可能性とは？"
+title: "2026年Amazon SageMakerの可能性とは？（Microsoft・LLM）の全貌と実践的な活用法"
 date: 2025-12-28 20:36:42 +0000
 categories: ["AI技術ガイド"]
 tags: ["Microsoft", "Amazon", "LLM", "AIエージェント", "マルチモーダル", "画像生成"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lexarの「AIストレージCore」発"
+title: "2026年Lexarの「AIストレージCore」発（NVIDIA・LLM）の全貌と実践的な活用法"
 date: 2025-11-28 13:03:10 +0000
 categories: ["AI最新ニュース"]
 tags: ["NVIDIA", "LLM", "マルチモーダル", "画像生成", "推論最適化", "ROI分析"]

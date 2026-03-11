@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2026年8月EU AI Act施行、企業が知るべき高リスクAI規制の全貌"
+title: "2026年8月EU AI Act施行、企業が知るべき高リスクAI規制の全貌の全貌と実践的な活用法"
 date: 2026-03-05 06:37:23 +0900
 categories: [AI技術ガイド]
 tags: ["AI規制対応", "DX推進", "技術: LLM", "企業: 日本企業"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIデータセンターの環境負荷、その真意は？持続可能な未来への投資と技術革新"
+title: "2026年AIデータセンターの環境負荷、その真意は？持続可能な未来への投資と技術革新の最新動向と企業への影響"
 date: 2025-11-10 16:50:04 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "LLM"]

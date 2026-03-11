@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ant Groupの1兆パラメータAI「Ling"
+title: "2026年Ant Groupの1兆パラメータAI「Ling（OpenAI・NVIDIA）の技術革新がもたらす変化"
 date: 2025-10-26 12:56:33 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "NVIDIA", "LLM", "マルチモーダル", "推論最適化", "ファインチューニング"]

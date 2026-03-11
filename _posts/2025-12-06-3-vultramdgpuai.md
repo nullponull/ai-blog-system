@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VultrとAMDのGPU大増設は、クラウドAIの風景をどう塗り替えるのか？"
+title: "2026年VultrとAMDのGPU大増設は、クラウドAIの風景をどう塗り替えるのか？がもたらす産業構造の転換"
 date: 2025-12-06 16:39:43 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "Amazon", "推論最適化", "AI人材"]

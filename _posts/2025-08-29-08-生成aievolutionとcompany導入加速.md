@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "生成AI進化と企業導入加速"
+title: "2026年生成AI進化と企業導入加速（OpenAI・Google）がもたらす産業構造の転換"
 date: 2025-08-29 07:07:33 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Amazon", "LLM", "AIエージェント"]

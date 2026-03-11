@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AlibabaのQuark AI眼鏡、その真意は？"
+title: "2026年AlibabaのQuark AI眼鏡、その真意は？｜知っておくべき最新情報まとめ"
 date: 2025-11-28 13:03:49 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "Apple", "LLM", "RAG", "音声AI", "ROI分析"]

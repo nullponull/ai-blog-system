@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GPT-4o時代にオープンソースLLMが変えるAI開発の未来"
+title: "2026年GPT-4o時代にオープンソースLLMが変えるAI開発の未来の最新動向と企業への影響"
 date: 2026-02-24 22:15:51 +0900
 categories: [AI最新ニュース]
 tags: ["LLM", "Meta", "中国AI", "DX推進"]

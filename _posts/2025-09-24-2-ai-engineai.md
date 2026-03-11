@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「さくらのAI Engine」が示す、日本のAIインフラの真価とは？"
+title: "2026年「さくらのAI Engine」が示す、日本のAIインフラの真価とは？の技術革新がもたらす変化"
 date: 2025-09-24 13:01:13 +0000
 categories: ["業界別AI活用"]
 tags: ["NVIDIA", "LLM", "RAG", "推論最適化", "ファインチューニング", "AI規制"]

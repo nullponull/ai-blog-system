@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Geminiへの「2.5 Flash Image」統合"
+title: "2026年Google Geminiへの「2.5 Flash Image」統合の進化と実用化への道筋"
 date: 2025-08-29 11:34:53 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "マルチモーダル", "画像生成", "音声AI", "ファインチューニング"]

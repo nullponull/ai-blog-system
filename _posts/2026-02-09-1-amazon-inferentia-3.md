@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Inferentia 3の可能性とは？"
+title: "2026年Amazon Inferentia 3の可能性とは？による業務効率化と競争力強化（チップ・ニュース）"
 date: 2026-02-09 03:21:56 +0000
 categories: ["AI技術ガイド"]
 tags: ["Google", "Microsoft", "Meta", "NVIDIA", "Amazon", "LLM"]

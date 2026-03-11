@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure AI Foundryのセキュリティ"
+title: "2026年Azure AI Foundryのセキュリティ（OpenAI・Google）の最新動向と企業への影響"
 date: 2025-12-05 02:22:40 +0000
 categories: ["AI導入戦略"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "xAI"]

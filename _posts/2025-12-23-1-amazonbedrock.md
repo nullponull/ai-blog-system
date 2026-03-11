@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "アマゾンBedrockの可能性とは？"
+title: "2026年アマゾンBedrockの可能性とは？（OpenAI・Google）の注目ポイントと導入効果"
 date: 2025-12-23 13:06:40 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Amazon"]

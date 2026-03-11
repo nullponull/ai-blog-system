@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Bedrockの進化、何が変わるのか？"
+title: "2026年Amazon Bedrockの進化、何が変わるのか？による業務効率化と競争力強化"
 date: 2026-01-31 08:48:47 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Amazon", "Anthropic"]

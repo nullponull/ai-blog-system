@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3.0、その真意はどこにあるのか？"
+title: "2026年Google Gemini 3.0、その真意はどこにあるのか？の技術革新がもたらす変化"
 date: 2025-11-21 16:39:20 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "NVIDIA", "Anthropic"]

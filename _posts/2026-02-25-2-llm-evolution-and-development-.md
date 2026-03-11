@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GPT-4oに匹敵するオープンソースLLM、開発現場はどう変わるのか？"
+title: "2026年GPT-4oに匹敵するオープンソースLLM、開発現場はどう変わるのか？がもたらす産業構造の転換"
 date: 2026-02-25 22:14:09 +0900
 categories: [AI技術ガイド]
 tags: ["LLM", "マルチモーダル", "Meta", "OpenAI", "AI技術ガイド"]

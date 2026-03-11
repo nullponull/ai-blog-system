@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Copilot、中小企業はどう変わる？"
+title: "2026年Microsoft Copilot、中小企業はどう変わる？の注目ポイントと導入効果"
 date: 2026-01-22 08:51:36 +0000
 categories: ["AI最新ニュース"]
 tags: ["OpenAI", "Google", "Microsoft", "ファインチューニング", "AI人材", "セキュリティ"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google AI検索進化：Gemini 2.5が拓く新時代"
+title: "2026年Google AI検索進化：Gemini 2.5が拓く新時代の技術革新がもたらす変化"
 date: 2025-09-09 02:27:22 +0000
 categories: ["業界別AI活用"]
 tags: ["OpenAI", "Google", "NVIDIA", "LLM", "マルチモーダル", "音声AI"]

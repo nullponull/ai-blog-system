@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Gemini 3、その「推論強化」の真意は何だろうか？"
+title: "2026年Google Gemini 3、その「推論強化」の真意は何だろうか？の進化と実用化への道筋"
 date: 2025-11-22 20:34:15 +0000
 categories: ["AI技術ガイド"]
 tags: ["OpenAI", "Google", "Microsoft", "NVIDIA", "Anthropic", "xAI"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepMindの創薬AI、その真価は何なのか？"
+title: "2026年DeepMindの創薬AI、その真価は何なのか？（Google・AI規制）が変えるビジネスの未来"
 date: 2026-01-08 04:52:25 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "AI規制", "AI人材", "AI倫理"]

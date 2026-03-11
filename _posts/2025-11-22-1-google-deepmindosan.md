@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google DeepMindがロボットOSの「An"
+title: "2026年Google DeepMindがロボットOSの「Anによる業務効率化と競争力強化"
 date: 2025-11-22 16:37:58 +0000
 categories: ["AI最新ニュース"]
 tags: ["Google", "NVIDIA", "Amazon", "マルチモーダル", "音声AI", "推論最適化"]

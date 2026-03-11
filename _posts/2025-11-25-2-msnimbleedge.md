@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「MSとNimbleEdgeの可能性とは？"
+title: "2026年「MSとNimbleEdgeの可能性とは？（OpenAI・Google）の注目ポイントと導入効果"
 date: 2025-11-25 20:39:07 +0000
 categories: ["AI導入戦略"]
 tags: ["OpenAI", "Google", "Microsoft", "Meta", "Apple", "xAI"]

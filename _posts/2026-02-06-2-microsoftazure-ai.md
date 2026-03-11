@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MicrosoftとAzure AIが示すの可"
+title: "2026年MicrosoftとAzure AIが示すの可（NVIDIA・xAI）の注目ポイントと導入効果"
 date: 2026-02-06 03:11:09 +0000
 categories: ["AI最新ニュース"]
 tags: ["Microsoft", "NVIDIA", "xAI", "AI規制", "AI人材", "AI倫理"]
