@@ -58,3 +58,4 @@ Thumbs.db
 .zshrc.local
 .profile.local
 
+scripts/ga4_auth_setup.py
