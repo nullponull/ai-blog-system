@@ -146,4 +146,10 @@ AIリテラシー研修（プログラム1）とAI活用実践研修（プログ
 
 ---
 
+## 関連記事
+
+- [AI導入コンサルティングで成功率92%を実現する支援体制](/2026/03/12/20-ai-consulting-service-allforces/)
+- [DX推進×AI戦略策定コンサルティングの手法](/2026/03/12/24-dx-ai-strategy-consulting/)
+- [GPT-4o・Claude 3.5 Sonnet・Gemini 2.0の最新LLM比較](/2026/03/12/12-gpt4o-claude-gemini-llm-comparison/)
+
 AIの導入でお悩みの方は、ALLFORCESの無料相談をご利用ください。
