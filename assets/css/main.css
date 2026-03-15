@@ -6527,7 +6527,7 @@ body.layout-home .sidebar {
    全ページをダークテーマに統一（変数ベース）
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
-html {
+:root {
   /* --- Semantic Text Colors → Light on Dark --- */
   --text-default: #faf9f7;
   --text-subtle: rgba(250, 249, 247, 0.7);
