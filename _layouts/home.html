@@ -328,13 +328,25 @@ hide_breadcrumbs: true
 <!-- Editorial Scroll Reveal Script -->
 <script>
 (function() {
+    var elements = document.querySelectorAll('.ed-reveal');
+
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        document.querySelectorAll('.ed-reveal').forEach(function(el) {
+        elements.forEach(function(el) {
             el.classList.add('is-visible');
         });
         return;
     }
 
+    // Immediately reveal elements already in or near viewport on page load
+    var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    elements.forEach(function(el) {
+        var rect = el.getBoundingClientRect();
+        if (rect.top < viewportHeight * 1.5) {
+            el.classList.add('is-visible');
+        }
+    });
+
+    // Observe remaining hidden elements for scroll-triggered reveal
     var observer = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
@@ -343,11 +355,11 @@ hide_breadcrumbs: true
             }
         });
     }, {
-        threshold: 0.08,
-        rootMargin: '0px 0px -40px 0px'
+        threshold: 0.01,
+        rootMargin: '0px 0px 200px 0px'
     });
 
-    document.querySelectorAll('.ed-reveal').forEach(function(el) {
+    document.querySelectorAll('.ed-reveal:not(.is-visible)').forEach(function(el) {
         observer.observe(el);
     });
 })();

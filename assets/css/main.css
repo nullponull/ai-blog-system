@@ -6474,3 +6474,22 @@ h4, h5, h6 {
   color: var(--color-gold-amber-dark);
   font-weight: 600;
 }
+
+/* --- Home Page Layout Override --- */
+body.layout-home .main-container {
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  padding: 0;
+}
+
+body.layout-home .content {
+  overflow: visible;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+body.layout-home .sidebar {
+  display: none;
+}
