@@ -2418,7 +2418,8 @@ a:focus {
     justify-content: center;
     align-items: center;
     gap: var(--spacing-md);
-    margin-top: var(--spacing-3xl);
+    margin: var(--spacing-3xl) 0;
+    padding: 0 1rem;
 }
 
 .pagination-link {
@@ -2440,6 +2441,9 @@ a:focus {
 .pagination-numbers {
     display: flex;
     gap: var(--spacing-sm);
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pagination-number {
@@ -2458,6 +2462,16 @@ a:focus {
 .pagination-number.active {
     background: var(--brand-secondary);
     color: var(--white);
+}
+
+.pagination-ellipsis {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-500);
+    font-weight: 600;
 }
 
 /* Categories Grid */
@@ -4513,7 +4527,7 @@ a:focus {
   background: var(--color-charcoal);
   color: var(--color-paper);
   padding: 0;
-  margin: calc(-1 * var(--space-8)) calc(-1 * var(--space-6)) 0;
+  margin: 0;
   position: relative;
   overflow: hidden;
   border-radius: 0;
@@ -4732,7 +4746,7 @@ a:focus {
 .ed-stats-bar {
   background: var(--brand-primary);
   color: var(--color-paper);
-  margin: 0 calc(-1 * var(--space-6));
+  margin: 0;
   padding: var(--space-8) var(--space-6);
   position: relative;
   overflow: hidden;
@@ -4795,8 +4809,8 @@ a:focus {
 /* --- Editorial Search --- */
 .ed-search {
   background: var(--color-warm-gray);
-  margin: 0 calc(-1 * var(--space-6));
-  padding: var(--space-10) var(--space-6);
+  margin: 0;
+  padding: var(--space-10) clamp(1.5rem, 4vw, 4rem);
 }
 
 .ed-search-inner {
@@ -4856,7 +4870,10 @@ a:focus {
 
 /* --- Editorial Section Headers --- */
 .ed-section {
-  padding: clamp(2.5rem, 5vw, 4rem) 0;
+  padding: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 4vw, 4rem);
+  max-width: var(--max-width-container, 1400px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ed-section-header {
@@ -5172,8 +5189,8 @@ a:focus {
 /* --- Category Showcase --- */
 .ed-categories {
   background: var(--color-charcoal);
-  margin: 0 calc(-1 * var(--space-6));
-  padding: clamp(2.5rem, 5vw, 4rem) var(--space-6);
+  margin: 0;
+  padding: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 4vw, 4rem);
   color: var(--color-paper);
 }
 
@@ -5341,8 +5358,8 @@ a:focus {
 /* --- Newsletter CTA --- */
 .ed-newsletter {
   background: var(--color-warm-gray);
-  margin: 0 calc(-1 * var(--space-6));
-  padding: clamp(3rem, 6vw, 5rem) var(--space-6);
+  margin: 0;
+  padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 4vw, 4rem);
   position: relative;
   overflow: hidden;
 }
@@ -5429,7 +5446,10 @@ a:focus {
 
 /* --- Consulting Section (Editorial Style) --- */
 .ed-consulting {
-  padding: clamp(2.5rem, 5vw, 4rem) 0;
+  padding: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 4vw, 4rem);
+  max-width: var(--max-width-container, 1400px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ed-service-grid {

@@ -209,7 +209,18 @@ hide_breadcrumbs: true
         {% endif %}
 
         <div class="pagination-numbers">
-            {% for page in (1..paginator.total_pages) %}
+            {% assign window = 2 %}
+            {% assign start = paginator.page | minus: window %}
+            {% assign end = paginator.page | plus: window %}
+            {% if start < 1 %}{% assign start = 1 %}{% endif %}
+            {% if end > paginator.total_pages %}{% assign end = paginator.total_pages %}{% endif %}
+
+            {% if start > 1 %}
+                <a href="{{ '/' | relative_url }}" class="pagination-number">1</a>
+                {% if start > 2 %}<span class="pagination-ellipsis">...</span>{% endif %}
+            {% endif %}
+
+            {% for page in (start..end) %}
                 {% if page == paginator.page %}
                     <span class="pagination-number active">{{ page }}</span>
                 {% elsif page == 1 %}
@@ -218,6 +229,12 @@ hide_breadcrumbs: true
                     <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}" class="pagination-number">{{ page }}</a>
                 {% endif %}
             {% endfor %}
+
+            {% if end < paginator.total_pages %}
+                {% assign before_last = paginator.total_pages | minus: 1 %}
+                {% if end < before_last %}<span class="pagination-ellipsis">...</span>{% endif %}
+                <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages | relative_url }}" class="pagination-number">{{ paginator.total_pages }}</a>
+            {% endif %}
         </div>
 
         {% if paginator.next_page %}
