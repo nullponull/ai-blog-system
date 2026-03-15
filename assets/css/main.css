@@ -6578,9 +6578,9 @@ body.layout-home .sidebar {
 
   /* --- Editorial Tokens (inverted for dark) --- */
   --color-ink: #e8e6e1;
-  --color-charcoal: #e8e6e1;
-  --color-charcoal-light: rgba(232, 230, 225, 0.7);
-  --color-charcoal-warm: rgba(232, 230, 225, 0.85);
+  --color-charcoal: #1a1a1d;
+  --color-charcoal-light: #222225;
+  --color-charcoal-warm: #1e1e21;
 
   /* --- Neutral Scale (inverted for dark) --- */
   --color-neutral-0: #111113;
