@@ -5649,8 +5649,9 @@ h4, h5, h6 {
 
 /* Navigation - Editorial (higher specificity to override .site-nav a) */
 .ed-header .ed-nav a,
+.ed-header .site-nav a,
 .ed-nav.site-nav a {
-  color: rgba(250, 249, 247, 0.9);
+  color: rgba(250, 249, 247, 0.9) !important;
   font-family: var(--font-editorial-body);
   font-weight: 500;
   font-size: var(--font-size-sm);
@@ -5659,9 +5660,10 @@ h4, h5, h6 {
 }
 
 .ed-header .ed-nav a:hover,
+.ed-header .site-nav a:hover,
 .ed-nav.site-nav a:hover {
-  color: var(--color-paper);
-  background: rgba(232, 168, 56, 0.12);
+  color: var(--color-paper) !important;
+  background: rgba(232, 168, 56, 0.12) !important;
 }
 
 .ed-header .ed-nav .dropdown-menu,
