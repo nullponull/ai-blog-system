@@ -118,22 +118,24 @@ sitemap:
 }
 
 .company-hero {
-    background: linear-gradient(135deg, var(--brand-secondary) 0%, var(--brand-secondary-hover) 100%);
-    color: white;
+    background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.04) 100%);
+    color: #e8e6e1;
     padding: 4rem 2rem;
     text-align: center;
     margin-bottom: 3rem;
+    border-bottom: 1px solid rgba(232, 168, 56, 0.1);
 }
 
 .company-hero-content h1 {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 1rem;
+    color: #e8e6e1;
 }
 
 .hero-subtitle {
     font-size: 1.3rem;
-    opacity: 1;
+    color: rgba(232, 230, 225, 0.65);
 }
 
 .section-content {
@@ -143,10 +145,10 @@ sitemap:
 .section-content h2 {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--text-default);
+    color: #e8e6e1;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--brand-secondary);
+    border-bottom: 3px solid #d4983d;
     display: inline-block;
 }
 
@@ -154,10 +156,10 @@ sitemap:
 .overview-card {
     max-width: 700px;
     margin: 0 auto;
-    background: white;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-medium);
-    border: 1px solid var(--border-default);
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(232, 168, 56, 0.08);
     overflow: hidden;
 }
 
@@ -170,8 +172,8 @@ sitemap:
 .company-table td {
     padding: 1rem 1.5rem;
     text-align: left;
-    border-bottom: 1px solid var(--border-default);
-    color: var(--text-default);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    color: #e8e6e1;
 }
 
 .company-table tr:last-child th,
@@ -180,19 +182,21 @@ sitemap:
 }
 
 .company-table th {
-    background: var(--gray-50, #f9fafb);
+    background: rgba(22, 22, 24, 0.8);
     font-weight: 600;
     width: 140px;
     white-space: nowrap;
-    color: var(--text-default);
+    color: rgba(232, 230, 225, 0.65);
 }
 
 .company-table td a {
-    color: var(--brand-secondary);
+    color: #d4983d;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .company-table td a:hover {
+    color: #e8a843;
     text-decoration: underline;
 }
 
@@ -212,7 +216,7 @@ sitemap:
     content: '・';
     position: absolute;
     left: 0;
-    color: var(--brand-secondary);
+    color: #d4983d;
 }
 
 /* 事業紹介グリッド */
@@ -225,18 +229,19 @@ sitemap:
 }
 
 .service-card {
-    background: white;
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
     padding: 2rem;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-small);
-    border: 1px solid var(--border-default);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(232, 168, 56, 0.08);
     text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-medium);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    border-color: rgba(232, 168, 56, 0.2);
 }
 
 .service-icon {
@@ -247,12 +252,12 @@ sitemap:
 .service-card h3 {
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--text-default);
+    color: #e8e6e1;
     margin-bottom: 0.75rem;
 }
 
 .service-card p {
-    color: var(--text-default);
+    color: rgba(232, 230, 225, 0.65);
     font-size: 0.95rem;
     line-height: 1.7;
 }
@@ -261,48 +266,55 @@ sitemap:
 .media-card {
     max-width: 700px;
     margin: 0 auto;
-    background: white;
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
     padding: 2.5rem;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-small);
-    border: 1px solid var(--border-default);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(232, 168, 56, 0.08);
+    transition: border-color 0.3s ease;
+}
+
+.media-card:hover {
+    border-color: rgba(232, 168, 56, 0.2);
 }
 
 .media-name {
     font-size: 1.3rem;
     font-weight: 700;
-    color: var(--brand-secondary);
+    color: #d4983d;
     margin-bottom: 0.5rem;
 }
 
 .media-desc {
-    color: var(--text-default);
+    color: rgba(232, 230, 225, 0.65);
     line-height: 1.8;
     margin-bottom: 1rem;
 }
 
 .media-link {
     display: inline-block;
-    color: var(--brand-secondary);
+    color: #d4983d;
     text-decoration: none;
     font-weight: 600;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .media-link:hover {
     transform: translateX(4px);
+    color: #e8a843;
 }
 
 /* CTA */
 .company-cta {
-    background: linear-gradient(135deg, var(--brand-secondary) 0%, var(--brand-secondary-hover) 100%);
-    color: white;
+    background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.06) 100%);
+    color: #e8e6e1;
     padding: 4rem 0;
     text-align: center;
+    border-top: 1px solid rgba(232, 168, 56, 0.1);
 }
 
 .company-cta .section-content h2 {
-    color: white;
+    color: #e8e6e1;
     border: none;
     padding-bottom: 0;
     font-size: 2rem;
@@ -313,7 +325,7 @@ sitemap:
 .company-cta p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    opacity: 1;
+    color: rgba(232, 230, 225, 0.65);
 }
 
 .cta-buttons {
@@ -328,29 +340,31 @@ sitemap:
     align-items: center;
     padding: 1rem 2rem;
     text-decoration: none;
-    border-radius: var(--radius-lg);
+    border-radius: 12px;
     font-weight: 600;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .cta-button.primary {
-    background: white;
-    color: var(--brand-secondary);
+    background: #d4983d;
+    color: #111113;
 }
 
 .cta-button.primary:hover {
-    background: var(--gray-100);
+    background: #e8a843;
     transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(212, 152, 61, 0.3);
 }
 
 .cta-button.secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 2px solid white;
+    background: rgba(232, 168, 56, 0.08);
+    color: #d4983d;
+    border: 2px solid rgba(232, 168, 56, 0.3);
 }
 
 .cta-button.secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(232, 168, 56, 0.15);
+    border-color: rgba(232, 168, 56, 0.5);
     transform: translateY(-2px);
 }
 

@@ -198,8 +198,13 @@ document.addEventListener('DOMContentLoaded', function() {
 .search-header h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    color: var(--gray-900);
+    font-family: 'Zen Old Mincho', serif;
+    color: #e8e6e1;
     margin-bottom: 1rem;
+}
+
+.search-header p {
+    color: rgba(232, 230, 225, 0.6);
 }
 
 .search-form-large {
@@ -214,46 +219,54 @@ document.addEventListener('DOMContentLoaded', function() {
 .search-input-large {
     flex: 1;
     padding: 1rem 1.5rem;
-    border: 2px solid var(--gray-300);
-    border-radius: var(--border-radius-lg);
+    background: rgba(22, 22, 24, 0.8);
+    border: 1px solid rgba(232, 168, 56, 0.12);
+    border-radius: 8px;
     font-size: 1.1rem;
-    transition: border-color 0.2s ease;
+    color: #e8e6e1;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-input-large::placeholder {
+    color: rgba(232, 230, 225, 0.4);
 }
 
 .search-input-large:focus {
     outline: none;
-    border-color: var(--brand-secondary);
-    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+    border-color: rgba(212, 152, 61, 0.4);
+    box-shadow: 0 0 0 3px rgba(212, 152, 61, 0.08);
 }
 
 .search-button-large {
     padding: 1rem 2rem;
-    background: var(--brand-secondary);
-    color: var(--white);
+    background: linear-gradient(135deg, #d4983d, #c88a1a);
+    color: #0e0e10;
     border: none;
-    border-radius: var(--border-radius-lg);
+    border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    transition: background-color 0.2s ease;
+    transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .search-button-large:hover {
-    background: var(--primary-green-dark);
+    opacity: 0.9;
+    transform: translateY(-1px);
 }
 
 .search-loading {
     text-align: center;
     padding: 3rem;
+    color: rgba(232, 230, 225, 0.6);
 }
 
 .loading-spinner {
     width: 40px;
     height: 40px;
-    border: 4px solid var(--gray-200);
-    border-left: 4px solid var(--brand-secondary);
+    border: 4px solid rgba(232, 168, 56, 0.1);
+    border-left: 4px solid #d4983d;
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin: 0 auto 1rem;
@@ -269,22 +282,25 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .search-results-header h2 {
-    color: var(--gray-700);
+    color: rgba(232, 230, 225, 0.7);
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: 'Zen Old Mincho', serif;
 }
 
 .search-result {
     padding: 2rem;
-    border: 1px solid var(--gray-200);
-    border-radius: var(--border-radius-lg);
+    border: 1px solid rgba(232, 168, 56, 0.06);
+    border-radius: 12px;
     margin-bottom: 1.5rem;
-    background: var(--white);
-    transition: box-shadow 0.2s ease;
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95));
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .search-result:hover {
-    box-shadow: var(--shadow-md);
+    border-color: rgba(232, 168, 56, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
 }
 
 .search-result-title {
@@ -292,14 +308,16 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .search-result-title a {
-    color: var(--gray-900);
+    color: #e8e6e1;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 700;
+    font-family: 'Zen Old Mincho', serif;
+    transition: color 0.2s ease;
 }
 
 .search-result-title a:hover {
-    color: var(--brand-secondary);
+    color: #d4983d;
 }
 
 .search-result-meta {
@@ -307,23 +325,25 @@ document.addEventListener('DOMContentLoaded', function() {
     gap: 1rem;
     margin-bottom: 1rem;
     font-size: 0.9rem;
-    color: var(--text-subtle);
+    color: rgba(232, 230, 225, 0.5);
     flex-wrap: wrap;
 }
 
 .search-result-category {
-    background: var(--brand-secondary);
-    color: var(--white);
+    background: rgba(212, 152, 61, 0.15);
+    color: #d4983d;
     padding: 0.25rem 0.5rem;
-    border-radius: var(--border-radius);
+    border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 600;
+    border: 1px solid rgba(212, 152, 61, 0.2);
 }
 
 .search-result-excerpt {
-    color: var(--text-default);
+    color: #e8e6e1;
     line-height: 1.6;
     margin-bottom: 1rem;
+    opacity: 0.8;
 }
 
 .search-result-tags {
@@ -335,14 +355,23 @@ document.addEventListener('DOMContentLoaded', function() {
 .search-result-tags .tag {
     font-size: 0.8rem;
     padding: 0.25rem 0.5rem;
+    background: rgba(232, 168, 56, 0.08);
+    color: rgba(232, 230, 225, 0.6);
+    border-radius: 4px;
+    border: 1px solid rgba(232, 168, 56, 0.1);
 }
 
 .no-results {
     text-align: center;
     padding: 4rem 2rem;
-    background: var(--gray-50);
-    border-radius: var(--border-radius-lg);
-    color: var(--text-default);
+    background: rgba(22, 22, 24, 0.8);
+    border: 1px solid rgba(212, 152, 61, 0.12);
+    border-radius: 12px;
+    color: #e8e6e1;
+}
+
+.no-results p {
+    color: rgba(232, 230, 225, 0.6);
 }
 
 .search-suggestions {
@@ -351,7 +380,8 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .search-suggestions h3 {
-    color: var(--gray-700);
+    color: rgba(232, 230, 225, 0.7);
+    font-family: 'Zen Old Mincho', serif;
     margin-bottom: 1rem;
 }
 
@@ -364,21 +394,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .suggestion-tag {
     padding: 0.5rem 1rem;
-    background: var(--gray-100);
-    color: var(--gray-700);
+    background: rgba(212, 152, 61, 0.08);
+    color: rgba(232, 230, 225, 0.7);
     text-decoration: none;
-    border-radius: var(--border-radius);
+    border-radius: 6px;
     font-size: 0.9rem;
-    transition: background-color 0.2s ease;
+    border: 1px solid rgba(212, 152, 61, 0.1);
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 .suggestion-tag:hover {
-    background: var(--brand-secondary);
-    color: var(--white);
+    background: rgba(212, 152, 61, 0.18);
+    border-color: rgba(212, 152, 61, 0.3);
+    color: #d4983d;
 }
 
 mark {
-    background: #ffe082;
+    background: rgba(212, 152, 61, 0.3);
+    color: #e8e6e1;
     padding: 0.1rem 0.2rem;
     border-radius: 3px;
 }
@@ -387,7 +420,7 @@ mark {
     .search-form-large {
         flex-direction: column;
     }
-    
+
     .search-result-meta {
         flex-direction: column;
         gap: 0.5rem;

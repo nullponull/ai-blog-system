@@ -102,10 +102,10 @@
   --gray-800: var(--color-neutral-800);
   --gray-900: var(--color-neutral-1000);
   
-  /* Typography System - Atlassian Inspired */
-  --font-family-base: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
-  --font-family-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', 'Consolas', 'Roboto Mono', monospace;
-  --font-family-display: 'Charlie Display', var(--font-family-base);
+  /* Typography System - Distinctive Editorial */
+  --font-family-base: 'Manrope', 'Zen Kaku Gothic New', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  --font-family-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Consolas', monospace;
+  --font-family-display: 'Zen Old Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
   
   /* Typography Scale */
   --font-size-xs: 0.75rem;     /* 12px */
@@ -6522,88 +6522,101 @@ body.layout-home .sidebar {
   display: none;
 }
 
-/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   Global Dark Theme - CSS Variable Remapping
-   全ページをダークテーマに統一（変数ベース）
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LUXURY EDITORIAL DARK THEME
+   Design Direction: Bloomberg × Monocle × Nikkei Design
+   Atmospheric, refined, premium — not just "dark mode"
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
+/* --- 1. CSS Variable Remapping (Dark Foundation) --- */
 :root {
-  /* --- Semantic Text Colors → Light on Dark --- */
-  --text-default: #faf9f7;
-  --text-subtle: rgba(250, 249, 247, 0.7);
-  --text-muted: rgba(250, 249, 247, 0.55);
-  --text-disabled: rgba(250, 249, 247, 0.3);
+  --text-default: #e8e6e1;
+  --text-subtle: rgba(232, 230, 225, 0.65);
+  --text-muted: rgba(232, 230, 225, 0.45);
+  --text-disabled: rgba(232, 230, 225, 0.25);
 
-  /* --- Surface Colors → Dark --- */
-  --surface-default: #1c1c1e;
-  --surface-raised: #252527;
-  --surface-sunken: #2c2c2e;
+  --surface-default: #111113;
+  --surface-raised: #1a1a1d;
+  --surface-sunken: #0a0a0c;
 
-  /* --- Border Colors → Subtle Light --- */
-  --border-default: rgba(250, 249, 247, 0.12);
-  --border-subtle: rgba(250, 249, 247, 0.06);
-  --border-strong: rgba(250, 249, 247, 0.2);
+  --border-default: rgba(232, 168, 56, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --border-strong: rgba(232, 168, 56, 0.18);
 
-  /* --- Link Colors → Gold Amber --- */
-  --link-color: var(--color-gold-amber);
-  --link-hover-color: var(--color-gold-amber-light);
+  --link-color: #d4983d;
+  --link-hover-color: #f5d78e;
 
-  /* --- Legacy Gray Scale → Inverted for Dark --- */
-  --white: #1c1c1e;
-  --gray-50: #252527;
-  --gray-100: #2c2c2e;
-  --gray-200: rgba(250, 249, 247, 0.1);
-  --gray-300: rgba(250, 249, 247, 0.15);
-  --gray-400: rgba(250, 249, 247, 0.25);
-  --gray-500: rgba(250, 249, 247, 0.4);
-  --gray-600: rgba(250, 249, 247, 0.6);
-  --gray-700: rgba(250, 249, 247, 0.75);
-  --gray-800: rgba(250, 249, 247, 0.85);
-  --gray-900: #faf9f7;
+  --white: #111113;
+  --gray-50: #161618;
+  --gray-100: #1e1e21;
+  --gray-200: rgba(232, 230, 225, 0.08);
+  --gray-300: rgba(232, 230, 225, 0.12);
+  --gray-400: rgba(232, 230, 225, 0.2);
+  --gray-500: rgba(232, 230, 225, 0.35);
+  --gray-600: rgba(232, 230, 225, 0.55);
+  --gray-700: rgba(232, 230, 225, 0.7);
+  --gray-800: rgba(232, 230, 225, 0.85);
+  --gray-900: #e8e6e1;
 
-  /* --- Editorial Warm Grays → Dark --- */
-  --color-warm-gray: #2c2c2e;
-  --color-warm-gray-dark: rgba(250, 249, 247, 0.12);
-  --color-paper: #faf9f7;
+  --color-warm-gray: #1e1e21;
+  --color-warm-gray-dark: rgba(232, 230, 225, 0.08);
+  --color-paper: #e8e6e1;
 
-  /* --- Shadows → Darker for Dark Theme --- */
-  --shadow-small: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, 0.2);
-  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.2);
-  --shadow-large: 0 8px 16px rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.2);
-  --shadow-extra-large: 0 12px 24px rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.2);
-  --elevation-100: 0 1px 1px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, 0.3);
-  --elevation-200: 0 3px 5px rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.3);
-  --elevation-300: 0 8px 12px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.3);
+  --shadow-small: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(232, 168, 56, 0.04);
+  --shadow-large: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(232, 168, 56, 0.06);
+  --shadow-extra-large: 0 16px 48px rgba(0, 0, 0, 0.5);
+  --elevation-100: 0 1px 4px rgba(0, 0, 0, 0.4);
+  --elevation-200: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --elevation-300: 0 8px 24px rgba(0, 0, 0, 0.4);
 
-  /* --- Semantic Status Light Colors → Dark Variants --- */
-  --color-success-light: rgba(13, 148, 136, 0.15);
-  --color-warning-light: rgba(245, 158, 11, 0.15);
-  --color-danger-light: rgba(220, 38, 38, 0.15);
-  --color-info-light: rgba(26, 54, 93, 0.15);
-
-  /* --- Brand Primary Lightest → Dark --- */
-  --brand-primary-lightest: rgba(26, 54, 93, 0.2);
-  --brand-secondary-lightest: rgba(13, 148, 136, 0.2);
+  --color-success-light: rgba(13, 148, 136, 0.12);
+  --color-warning-light: rgba(245, 158, 11, 0.12);
+  --color-danger-light: rgba(220, 38, 38, 0.12);
+  --color-info-light: rgba(26, 54, 93, 0.12);
+  --brand-primary-lightest: rgba(26, 54, 93, 0.15);
+  --brand-secondary-lightest: rgba(13, 148, 136, 0.15);
 }
 
-/* --- Base Body --- */
+/* --- 2. Base Body & Atmosphere --- */
 body {
-  background-color: var(--color-charcoal) !important;
-  color: var(--color-paper) !important;
+  background: #0e0e10 !important;
+  color: #e8e6e1 !important;
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* --- Main Content Area --- */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 0%, rgba(232, 168, 56, 0.03) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 100%, rgba(26, 54, 93, 0.04) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- 3. Main Content Area --- */
 .content {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(232, 168, 56, 0.1) !important;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3) !important;
+  background: rgba(22, 22, 24, 0.6) !important;
+  border-color: rgba(232, 168, 56, 0.06) !important;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .main-container {
   background: transparent;
 }
 
-/* --- Hardcoded "white" background overrides --- */
+/* --- 4. Card System (Glass-morphism + Subtle Glow) --- */
 .service-card,
 .process-step,
 .stat-card,
@@ -6612,444 +6625,767 @@ body {
 .contact-form-area,
 .info-card,
 .case-study-card {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.08) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.03) !important;
+  transition: border-color 0.3s ease, box-shadow 0.4s ease, transform 0.3s ease !important;
 }
 
-/* --- Company table header --- */
+.service-card:hover,
+.overview-card:hover,
+.media-card:hover,
+.info-card:hover,
+.case-study-card:hover {
+  border-color: rgba(232, 168, 56, 0.2) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4), 0 0 20px rgba(232, 168, 56, 0.04) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* --- 5. Company table --- */
 .company-table th {
-  background: var(--color-charcoal-light) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border-color: rgba(232, 168, 56, 0.08) !important;
 }
 
-/* --- Article Post Styles --- */
-.post { color: var(--color-paper); }
-.post-title, .post-header h1 { color: var(--color-paper) !important; }
-.post-meta, .post-meta span, .post-meta time { color: rgba(250, 249, 247, 0.6) !important; }
-.post-header { border-bottom-color: rgba(232, 168, 56, 0.2) !important; }
-.post-content, .post-content p, .post-content li { color: rgba(250, 249, 247, 0.9); }
-.post-content h2, .post-content h3, .post-content h4 { color: var(--color-paper) !important; }
-.post-content a { color: var(--color-gold-amber) !important; }
-.post-content a:hover { color: var(--color-gold-amber-light) !important; }
+.company-table td {
+  border-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* --- 6. Article Post Styles --- */
+.post { color: #e8e6e1; }
+.post-title, .post-header h1 { color: #e8e6e1 !important; font-family: var(--font-family-display); }
+.post-meta, .post-meta span, .post-meta time { color: rgba(232, 230, 225, 0.5) !important; letter-spacing: 0.03em; }
+.post-header { border-bottom-color: rgba(232, 168, 56, 0.12) !important; }
+.post-content, .post-content p, .post-content li { color: rgba(232, 230, 225, 0.88); line-height: 1.85; }
+.post-content h2, .post-content h3, .post-content h4 { color: #e8e6e1 !important; font-family: var(--font-family-display); }
+.post-content a { color: #d4983d !important; text-decoration-color: rgba(212, 152, 61, 0.3) !important; }
+.post-content a:hover { color: #f5d78e !important; text-decoration-color: rgba(245, 215, 142, 0.5) !important; }
 
 .post-content blockquote {
-  border-left-color: var(--color-gold-amber) !important;
-  background: rgba(232, 168, 56, 0.05) !important;
-  color: rgba(250, 249, 247, 0.8);
+  border-left: 3px solid #d4983d !important;
+  background: rgba(232, 168, 56, 0.04) !important;
+  color: rgba(232, 230, 225, 0.75);
+  font-style: italic;
+  padding: 1.25rem 1.5rem !important;
 }
 
 .post-content code {
-  background: var(--color-charcoal-light) !important;
-  color: var(--color-gold-amber-light) !important;
+  background: rgba(30, 30, 33, 0.8) !important;
+  color: #f5d78e !important;
+  border: 1px solid rgba(232, 168, 56, 0.1);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
 }
 
 .post-content pre {
-  background: var(--color-charcoal) !important;
-  border-color: rgba(232, 168, 56, 0.15) !important;
+  background: #0a0a0c !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  border-radius: 8px;
 }
 
 .post-content table th {
-  background: var(--color-charcoal-light) !important;
-  color: var(--color-paper) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  color: #e8e6e1 !important;
+  border-color: rgba(232, 168, 56, 0.08) !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .post-content table td {
-  border-color: rgba(250, 249, 247, 0.1) !important;
-  color: rgba(250, 249, 247, 0.9);
+  border-color: rgba(255, 255, 255, 0.04) !important;
+  color: rgba(232, 230, 225, 0.85);
 }
 
-.post-content hr { border-color: rgba(250, 249, 247, 0.1) !important; }
+.post-content hr { border-color: rgba(232, 168, 56, 0.08) !important; }
 
-/* --- Sidebar & Widgets --- */
-.sidebar, .ed-sidebar { color: var(--color-paper); }
+/* --- 7. Sidebar & Widgets --- */
+.sidebar, .ed-sidebar { color: #e8e6e1; }
 
 .widget, .ed-widget {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(232, 168, 56, 0.1) !important;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3) !important;
+  background: linear-gradient(180deg, rgba(26, 26, 29, 0.8), rgba(22, 22, 24, 0.9)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 12px !important;
 }
 
 .widget-title, .ed-widget-title {
-  color: var(--color-paper) !important;
-  border-bottom-color: var(--color-gold-amber) !important;
+  color: #e8e6e1 !important;
+  border-bottom: 2px solid rgba(232, 168, 56, 0.25) !important;
+  font-family: var(--font-family-display);
+  letter-spacing: 0.04em;
 }
 
-.widget a, .ed-widget a { color: rgba(250, 249, 247, 0.85) !important; }
-.widget a:hover, .ed-widget a:hover { color: var(--color-gold-amber) !important; }
+.widget a, .ed-widget a { color: rgba(232, 230, 225, 0.75) !important; transition: color 0.2s ease !important; }
+.widget a:hover, .ed-widget a:hover { color: #d4983d !important; }
 
-/* --- Breadcrumbs --- */
+/* --- 8. Breadcrumbs --- */
 .breadcrumbs {
-  background: var(--color-charcoal-light) !important;
-  border-bottom-color: rgba(232, 168, 56, 0.1) !important;
+  background: rgba(14, 14, 16, 0.95) !important;
+  border-bottom: 1px solid rgba(232, 168, 56, 0.06) !important;
+  backdrop-filter: blur(12px);
 }
 
-.breadcrumb-item a { color: var(--color-gold-amber) !important; }
-.breadcrumb-item a:hover {
-  background: rgba(232, 168, 56, 0.15) !important;
-  color: var(--color-gold-amber-light) !important;
-}
-.breadcrumb-current span { color: rgba(250, 249, 247, 0.8) !important; }
-.breadcrumb-separator { color: rgba(250, 249, 247, 0.3) !important; }
+.breadcrumb-item a { color: rgba(212, 152, 61, 0.8) !important; }
+.breadcrumb-item a:hover { color: #f5d78e !important; background: rgba(232, 168, 56, 0.08) !important; }
+.breadcrumb-current span { color: rgba(232, 230, 225, 0.6) !important; }
+.breadcrumb-separator { color: rgba(232, 230, 225, 0.2) !important; }
 
-/* --- Footer --- */
+/* --- 9. Footer --- */
 .site-footer, .ed-footer {
-  background: var(--color-charcoal) !important;
-  border-top-color: rgba(232, 168, 56, 0.1) !important;
-  color: rgba(250, 249, 247, 0.7);
+  background: #0a0a0c !important;
+  border-top: 1px solid rgba(232, 168, 56, 0.06) !important;
+  color: rgba(232, 230, 225, 0.5);
 }
 
-.site-footer a, .ed-footer a { color: rgba(250, 249, 247, 0.7) !important; }
-.site-footer a:hover, .ed-footer a:hover { color: var(--color-gold-amber) !important; }
+.site-footer a, .ed-footer a { color: rgba(232, 230, 225, 0.5) !important; }
+.site-footer a:hover, .ed-footer a:hover { color: #d4983d !important; }
 
-/* --- Search Page --- */
+/* --- 10. Search --- */
 .search-container, .search-form input {
-  background: var(--color-charcoal-light) !important;
-  border-color: rgba(232, 168, 56, 0.2) !important;
-  color: var(--color-paper) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border-color: rgba(232, 168, 56, 0.1) !important;
+  color: #e8e6e1 !important;
 }
 
-.search-form input::placeholder { color: rgba(250, 249, 247, 0.4) !important; }
+.search-form input::placeholder { color: rgba(232, 230, 225, 0.3) !important; }
 
 .search-input-large {
-  background: var(--color-charcoal-light) !important;
-  border-color: rgba(250, 249, 247, 0.15) !important;
-  color: var(--color-paper) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.12) !important;
+  color: #e8e6e1 !important;
+  border-radius: 12px !important;
 }
 
 .search-input-large:focus {
-  border-color: var(--color-gold-amber) !important;
-  box-shadow: 0 0 0 3px rgba(232, 168, 56, 0.15) !important;
+  border-color: rgba(232, 168, 56, 0.4) !important;
+  box-shadow: 0 0 0 3px rgba(232, 168, 56, 0.08), 0 0 20px rgba(232, 168, 56, 0.05) !important;
 }
 
-.search-input-large::placeholder { color: rgba(250, 249, 247, 0.4) !important; }
+.search-input-large::placeholder { color: rgba(232, 230, 225, 0.3) !important; }
 
 .search-result {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.8), rgba(22, 22, 24, 0.9)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  border-radius: 12px !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.search-result:hover {
+  border-color: rgba(232, 168, 56, 0.15) !important;
 }
 
 mark {
-  background: rgba(232, 168, 56, 0.3) !important;
-  color: var(--color-paper) !important;
+  background: rgba(232, 168, 56, 0.2) !important;
+  color: #f5d78e !important;
+  border-radius: 2px;
 }
 
-/* --- Tags --- */
+/* --- 11. Tags --- */
 .tag-link, .tag-badge, .tag {
-  background: var(--color-charcoal-light) !important;
-  color: rgba(250, 249, 247, 0.8) !important;
-  border-color: rgba(232, 168, 56, 0.15) !important;
+  background: rgba(232, 168, 56, 0.06) !important;
+  color: rgba(232, 230, 225, 0.7) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  transition: all 0.2s ease !important;
 }
 
 .tag-link:hover, .tag-badge:hover, .tag:hover {
-  background: rgba(232, 168, 56, 0.15) !important;
-  color: var(--color-gold-amber) !important;
+  background: rgba(232, 168, 56, 0.12) !important;
+  color: #d4983d !important;
+  border-color: rgba(232, 168, 56, 0.25) !important;
 }
 
-/* --- Category Pages --- */
-.ed-category-page h1, .ed-category-page h2 { color: var(--color-paper) !important; }
-.ed-category-page .ed-cat-article-excerpt { color: rgba(250, 249, 247, 0.7); }
+/* --- 12. Category Pages --- */
+.ed-category-page h1, .ed-category-page h2 { color: #e8e6e1 !important; font-family: var(--font-family-display); }
+.ed-category-page .ed-cat-article-excerpt { color: rgba(232, 230, 225, 0.6); }
 
-/* --- Pagination --- */
-.pagination-number { color: rgba(250, 249, 247, 0.7) !important; }
+/* --- 13. Pagination --- */
+.pagination-number {
+  color: rgba(232, 230, 225, 0.5) !important;
+  transition: all 0.2s ease !important;
+}
+
 .pagination-number:hover, .pagination-number.active {
-  background: var(--color-gold-amber) !important;
-  color: var(--color-charcoal) !important;
+  background: linear-gradient(135deg, #d4983d, #c88a1a) !important;
+  color: #0e0e10 !important;
+  box-shadow: 0 2px 8px rgba(232, 168, 56, 0.2) !important;
 }
 
 .pagination-link {
-  background: var(--color-charcoal-light) !important;
-  border-color: var(--color-gold-amber) !important;
-  color: var(--color-gold-amber) !important;
+  background: transparent !important;
+  border: 1px solid rgba(232, 168, 56, 0.2) !important;
+  color: #d4983d !important;
+  transition: all 0.2s ease !important;
 }
 
 .pagination-link:hover {
-  background: var(--color-gold-amber) !important;
-  color: var(--color-charcoal) !important;
+  background: linear-gradient(135deg, #d4983d, #c88a1a) !important;
+  color: #0e0e10 !important;
 }
 
-/* --- Consulting CTA --- */
+/* --- 14. Consulting CTA --- */
 .consulting-cta {
-  background: linear-gradient(135deg, var(--color-charcoal-light), var(--color-charcoal-warm)) !important;
-  border-color: rgba(232, 168, 56, 0.2) !important;
-  color: var(--color-paper) !important;
+  background: linear-gradient(135deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  color: #e8e6e1 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
 }
 
-/* --- Newsletter --- */
+/* --- 15. Newsletter --- */
 .newsletter-widget input {
-  background: var(--color-charcoal-light) !important;
-  border-color: rgba(232, 168, 56, 0.2) !important;
-  color: var(--color-paper) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.12) !important;
+  color: #e8e6e1 !important;
+  border-radius: 8px !important;
 }
 
-/* --- Editorial Components --- */
-.ed-post { color: var(--color-paper); }
-.ed-post-header { border-bottom-color: rgba(232, 168, 56, 0.2) !important; }
-.ed-post-title { color: var(--color-paper) !important; }
-.ed-post-content { color: rgba(250, 249, 247, 0.9); }
-.ed-post-content h2, .ed-post-content h3 { color: var(--color-paper) !important; }
+/* --- 16. Editorial Components --- */
+.ed-post { color: #e8e6e1; }
+.ed-post-header { border-bottom-color: rgba(232, 168, 56, 0.1) !important; }
+.ed-post-title { color: #e8e6e1 !important; font-family: var(--font-family-display); }
+.ed-post-content { color: rgba(232, 230, 225, 0.88); }
+.ed-post-content h2, .ed-post-content h3 { color: #e8e6e1 !important; font-family: var(--font-family-display); }
 
 .ed-guide-card {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.ed-guide-card:hover {
+  border-color: rgba(232, 168, 56, 0.18) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 24px rgba(232, 168, 56, 0.04) !important;
+  transform: translateY(-3px) !important;
 }
 
 .ed-article-card {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
-.ed-search { background: var(--color-charcoal-light) !important; }
+.ed-article-card:hover {
+  border-color: rgba(232, 168, 56, 0.18) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35) !important;
+  transform: translateY(-2px) !important;
+}
+
+.ed-search {
+  background: rgba(14, 14, 16, 0.8) !important;
+  border-radius: 12px !important;
+}
 
 .ed-newsletter {
-  background: var(--color-charcoal-light) !important;
-  color: var(--color-paper) !important;
+  background: linear-gradient(135deg, rgba(232, 168, 56, 0.06), rgba(26, 54, 93, 0.08)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  color: #e8e6e1 !important;
+  border-radius: 12px !important;
 }
 
-.ed-newsletter-title, .ed-newsletter-desc { color: var(--color-paper) !important; }
+.ed-newsletter-title, .ed-newsletter-desc { color: #e8e6e1 !important; }
 
 .ed-search-input {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(232, 168, 56, 0.2) !important;
-  color: var(--color-paper) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  color: #e8e6e1 !important;
 }
 
-.ed-search-input::placeholder { color: rgba(250, 249, 247, 0.4) !important; }
+.ed-search-input::placeholder { color: rgba(232, 230, 225, 0.3) !important; }
 
-/* --- TOC --- */
+/* --- 17. TOC --- */
 .toc-container, .ed-toc, .ed-toc-details {
-  background: var(--color-charcoal-light) !important;
-  border-color: rgba(232, 168, 56, 0.15) !important;
-  color: var(--color-paper) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.08) !important;
+  color: #e8e6e1 !important;
+  border-radius: 12px !important;
 }
 
-.ed-toc-list a, .toc-link { color: rgba(250, 249, 247, 0.8) !important; }
-.ed-toc-list a:hover, .toc-link:hover { color: var(--color-gold-amber) !important; }
+.ed-toc-list a, .toc-link { color: rgba(232, 230, 225, 0.7) !important; }
+.ed-toc-list a:hover, .toc-link:hover { color: #d4983d !important; }
 
-/* --- Social Share --- */
+/* --- 18. Social Share --- */
 .ed-share-button {
-  background: var(--color-charcoal-light) !important;
-  color: var(--color-paper) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  color: #e8e6e1 !important;
+  border: 1px solid rgba(232, 168, 56, 0.08) !important;
+  transition: all 0.2s ease !important;
 }
 
-/* --- Related Posts --- */
+.ed-share-button:hover {
+  border-color: rgba(232, 168, 56, 0.2) !important;
+  background: rgba(232, 168, 56, 0.06) !important;
+}
+
+/* --- 19. Related Posts --- */
 .ed-related-card {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(232, 168, 56, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  transition: all 0.3s ease !important;
 }
 
-.ed-related-title { color: var(--color-paper) !important; }
+.ed-related-card:hover {
+  border-color: rgba(232, 168, 56, 0.15) !important;
+  transform: translateY(-2px) !important;
+}
 
-/* --- Post Navigation --- */
+.ed-related-title { color: #e8e6e1 !important; }
+
+/* --- 20. Post Navigation --- */
 .ed-nav-link {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(232, 168, 56, 0.1) !important;
-  color: var(--color-paper) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.8), rgba(22, 22, 24, 0.9)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  color: #e8e6e1 !important;
+  transition: all 0.3s ease !important;
 }
 
-.ed-nav-link:hover { border-color: var(--color-gold-amber) !important; }
+.ed-nav-link:hover {
+  border-color: rgba(232, 168, 56, 0.2) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}
 
-/* --- Article Cards (non-home pages) --- */
+/* --- 21. Article Cards --- */
 .article-card, .recent-post-item {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(232, 168, 56, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  transition: all 0.3s ease !important;
 }
 
-.article-card:hover { border-color: rgba(232, 168, 56, 0.3) !important; }
+.article-card:hover {
+  border-color: rgba(232, 168, 56, 0.2) !important;
+  transform: translateY(-2px) !important;
+}
 
-/* --- Archive Page --- */
+/* --- 22. Archive Page --- */
 .archive-filters {
-  background: var(--color-charcoal-light) !important;
+  background: rgba(14, 14, 16, 0.8) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
 }
 
 .filter-select {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.15) !important;
-  color: var(--color-paper) !important;
+  background: rgba(26, 26, 29, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  color: #e8e6e1 !important;
+  border-radius: 8px !important;
 }
 
 .archive-article {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.archive-article:hover {
+  border-color: rgba(232, 168, 56, 0.15) !important;
 }
 
 .article-category {
-  background: var(--color-charcoal-light) !important;
-  color: rgba(250, 249, 247, 0.8) !important;
+  background: rgba(232, 168, 56, 0.08) !important;
+  color: #d4983d !important;
+  border-radius: 4px !important;
 }
 
-/* --- Legal Pages (Privacy, Terms, Disclaimer) --- */
+/* --- 23. Legal Pages --- */
 .legal-page h1 {
-  border-bottom-color: var(--color-gold-amber) !important;
+  border-bottom: 2px solid rgba(232, 168, 56, 0.2) !important;
+  font-family: var(--font-family-display);
 }
 
 .legal-content h2 {
-  border-bottom-color: rgba(250, 249, 247, 0.1) !important;
+  border-bottom-color: rgba(232, 168, 56, 0.08) !important;
+  font-family: var(--font-family-display);
 }
 
 .legal-content a {
-  color: var(--color-gold-amber) !important;
+  color: #d4983d !important;
 }
 
-/* --- About Page --- */
+/* --- 24. About Page --- */
 .about-hero {
-  background: linear-gradient(135deg, var(--color-charcoal-light) 0%, var(--color-charcoal) 100%) !important;
+  background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.04) 100%) !important;
 }
 
 .mission-section {
-  background: var(--color-charcoal-light) !important;
+  background: rgba(22, 22, 24, 0.6) !important;
 }
 
 .editorial-note {
-  background: var(--color-charcoal-light) !important;
-  border-left-color: var(--color-gold-amber) !important;
+  background: rgba(232, 168, 56, 0.03) !important;
+  border-left: 3px solid rgba(232, 168, 56, 0.3) !important;
 }
 
 .about-company-section {
-  background: var(--color-charcoal-light) !important;
+  background: rgba(14, 14, 16, 0.6) !important;
 }
 
 .about-company-links .btn-outline {
-  color: var(--color-gold-amber) !important;
-  border-color: var(--color-gold-amber) !important;
+  color: #d4983d !important;
+  border-color: rgba(232, 168, 56, 0.25) !important;
 }
 
-/* --- Services Page --- */
+/* --- 25. Services Page --- */
 .services-hero {
-  background: linear-gradient(135deg, var(--color-charcoal-light) 0%, var(--color-charcoal) 100%) !important;
+  background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.04) 100%) !important;
 }
 
 .process-section {
-  background: var(--color-charcoal-light) !important;
+  background: rgba(14, 14, 16, 0.6) !important;
 }
 
 .services-cta {
-  background: var(--color-charcoal-light) !important;
+  background: linear-gradient(135deg, rgba(232, 168, 56, 0.06), rgba(14, 14, 16, 0.9)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
 }
 
 .service-features li {
-  border-bottom-color: rgba(250, 249, 247, 0.06) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.03) !important;
 }
 
 .service-features li::before {
-  color: var(--color-gold-amber) !important;
+  color: #d4983d !important;
 }
 
 .process-arrow {
-  color: var(--color-gold-amber) !important;
+  color: rgba(232, 168, 56, 0.4) !important;
 }
 
 .step-number {
-  background: var(--color-gold-amber) !important;
-  color: var(--color-charcoal) !important;
+  background: linear-gradient(135deg, #d4983d, #c88a1a) !important;
+  color: #0e0e10 !important;
+  box-shadow: 0 2px 8px rgba(232, 168, 56, 0.2) !important;
 }
 
 .stat-number {
-  color: var(--color-gold-amber) !important;
+  color: #d4983d !important;
+  font-family: var(--font-family-display);
 }
 
-/* --- Contact Page --- */
+/* --- 26. Contact Page --- */
 .contact-hero {
-  background: linear-gradient(135deg, var(--color-charcoal-light) 0%, var(--color-charcoal) 100%) !important;
+  background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.04) 100%) !important;
 }
 
 .info-card h3 {
-  border-bottom-color: var(--color-gold-amber) !important;
+  border-bottom: 2px solid rgba(232, 168, 56, 0.2) !important;
+  font-family: var(--font-family-display);
 }
 
-.faq-list li::before {
-  color: var(--color-gold-amber) !important;
-}
+.faq-list li::before { color: #d4983d !important; }
+.info-link { color: #d4983d !important; }
 
-.info-link {
-  color: var(--color-gold-amber) !important;
-}
-
-/* --- Company Page --- */
+/* --- 27. Company Page --- */
 .company-hero {
-  background: linear-gradient(135deg, var(--color-charcoal-light) 0%, var(--color-charcoal) 100%) !important;
+  background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.04) 100%) !important;
 }
 
-.company-table td a {
-  color: var(--color-gold-amber) !important;
-}
-
-.inline-list li::before {
-  color: var(--color-gold-amber) !important;
-}
-
-.media-name {
-  color: var(--color-gold-amber) !important;
-}
-
-.media-link {
-  color: var(--color-gold-amber) !important;
-}
+.company-table td a { color: #d4983d !important; }
+.inline-list li::before { color: rgba(232, 168, 56, 0.6) !important; }
+.media-name { color: #d4983d !important; }
+.media-link { color: #d4983d !important; }
 
 .company-cta {
-  background: linear-gradient(135deg, var(--color-gold-amber-dark) 0%, var(--color-charcoal) 100%) !important;
+  background: linear-gradient(160deg, rgba(232, 168, 56, 0.08) 0%, #0e0e10 60%) !important;
+  border-top: 1px solid rgba(232, 168, 56, 0.1) !important;
 }
 
-/* --- Case Studies --- */
+/* --- 28. Case Studies --- */
 .coming-soon {
-  background: var(--color-charcoal-light) !important;
+  background: rgba(22, 22, 24, 0.6) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
 }
 
 .case-studies-cta .consulting-cta {
-  background: linear-gradient(135deg, var(--color-charcoal-light), var(--color-charcoal-warm)) !important;
+  background: linear-gradient(135deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95)) !important;
 }
 
-/* --- Buttons (global dark adaptation) --- */
+/* --- 29. Buttons (Premium Feel) --- */
 .btn-primary {
-  background: var(--color-gold-amber) !important;
-  color: var(--color-charcoal) !important;
+  background: linear-gradient(135deg, #d4983d, #c88a1a) !important;
+  color: #0e0e10 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  box-shadow: 0 2px 8px rgba(232, 168, 56, 0.15) !important;
+  transition: all 0.3s ease !important;
 }
 
 .btn-primary:hover {
-  background: var(--color-gold-amber-light) !important;
+  background: linear-gradient(135deg, #e8a838, #d4983d) !important;
+  box-shadow: 0 4px 16px rgba(232, 168, 56, 0.25) !important;
+  transform: translateY(-1px) !important;
 }
 
 .btn-outline {
-  border-color: var(--color-gold-amber) !important;
-  color: var(--color-gold-amber) !important;
+  border: 1px solid rgba(232, 168, 56, 0.3) !important;
+  color: #d4983d !important;
+  background: transparent !important;
+  transition: all 0.3s ease !important;
 }
 
 .btn-outline:hover {
-  background: var(--color-gold-amber) !important;
-  color: var(--color-charcoal) !important;
+  background: rgba(232, 168, 56, 0.08) !important;
+  border-color: rgba(232, 168, 56, 0.5) !important;
+  color: #f5d78e !important;
 }
 
-/* --- Section headings border color --- */
+/* --- 30. Section Headings --- */
 .section-content h2 {
-  color: var(--color-paper) !important;
-  border-bottom-color: var(--color-gold-amber) !important;
+  color: #e8e6e1 !important;
+  border-bottom: 2px solid rgba(232, 168, 56, 0.2) !important;
+  font-family: var(--font-family-display);
 }
 
-/* --- Contact form inputs --- */
+/* --- 31. Form Inputs --- */
 .contact-form-area input,
 .contact-form-area textarea,
 .contact-form-area select {
-  background: var(--color-charcoal-light) !important;
-  border-color: rgba(250, 249, 247, 0.15) !important;
-  color: var(--color-paper) !important;
+  background: rgba(22, 22, 24, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  color: #e8e6e1 !important;
+  border-radius: 8px !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.contact-form-area input:focus,
+.contact-form-area textarea:focus,
+.contact-form-area select:focus {
+  border-color: rgba(232, 168, 56, 0.35) !important;
+  box-shadow: 0 0 0 3px rgba(232, 168, 56, 0.06) !important;
+  outline: none !important;
 }
 
 .contact-form-area input::placeholder,
 .contact-form-area textarea::placeholder {
-  color: rgba(250, 249, 247, 0.4) !important;
+  color: rgba(232, 230, 225, 0.3) !important;
 }
 
-/* --- Dropdown menus --- */
+/* --- 32. Dropdown Menus --- */
 .dropdown-menu {
-  background: var(--color-charcoal-warm) !important;
-  border-color: rgba(250, 249, 247, 0.1) !important;
+  background: rgba(22, 22, 24, 0.98) !important;
+  border: 1px solid rgba(232, 168, 56, 0.08) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(16px) !important;
+  border-radius: 12px !important;
 }
 
 .dropdown-menu a {
-  color: var(--color-paper) !important;
+  color: rgba(232, 230, 225, 0.8) !important;
+  transition: all 0.15s ease !important;
 }
 
 .dropdown-menu a:hover {
-  background: var(--color-charcoal-light) !important;
-  color: var(--color-gold-amber) !important;
+  background: rgba(232, 168, 56, 0.06) !important;
+  color: #d4983d !important;
+}
+
+/* --- 33. Header Enhancement --- */
+.site-header, .ed-header {
+  background: rgba(14, 14, 16, 0.92) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  border-bottom: 1px solid rgba(232, 168, 56, 0.06) !important;
+}
+
+.site-header.scrolled, .ed-header.scrolled {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* --- 34. Home Page Editorial Sections --- */
+.ed-hero {
+  background: linear-gradient(180deg, #111113 0%, rgba(232, 168, 56, 0.02) 50%, #111113 100%) !important;
+}
+
+.ed-stats-bar {
+  background: rgba(14, 14, 16, 0.8) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.ed-category-card {
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.ed-category-card:hover {
+  border-color: rgba(232, 168, 56, 0.18) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+  transform: translateY(-3px) !important;
+}
+
+.ed-consulting-section {
+  background: linear-gradient(160deg, rgba(232, 168, 56, 0.03) 0%, #111113 40%) !important;
+  border-top: 1px solid rgba(232, 168, 56, 0.06) !important;
+}
+
+.ed-consulting-card {
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ed-consulting-card:hover {
+  border-color: rgba(232, 168, 56, 0.15) !important;
+  transform: translateY(-2px) !important;
+}
+
+.ed-cta-section {
+  background: linear-gradient(160deg, rgba(232, 168, 56, 0.05) 0%, #0e0e10 50%) !important;
+  border-top: 1px solid rgba(232, 168, 56, 0.06) !important;
+}
+
+/* --- 35. Staggered Page Load Animation --- */
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.ed-hero,
+.ed-stats-bar,
+.ed-guide-card,
+.ed-article-card,
+.ed-category-card,
+.ed-consulting-card {
+  animation: fadeSlideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.ed-hero { animation-delay: 0s; }
+.ed-stats-bar { animation-delay: 0.1s; }
+.ed-guide-card:nth-child(1) { animation-delay: 0.15s; }
+.ed-guide-card:nth-child(2) { animation-delay: 0.2s; }
+.ed-guide-card:nth-child(3) { animation-delay: 0.25s; }
+.ed-article-card:nth-child(1) { animation-delay: 0.15s; }
+.ed-article-card:nth-child(2) { animation-delay: 0.2s; }
+.ed-article-card:nth-child(3) { animation-delay: 0.25s; }
+.ed-article-card:nth-child(4) { animation-delay: 0.3s; }
+
+/* --- 36. Scrollbar Styling --- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(232, 168, 56, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(232, 168, 56, 0.25);
+}
+
+/* --- 37. Selection Color --- */
+::selection {
+  background: rgba(232, 168, 56, 0.2);
+  color: #f5d78e;
+}
+
+/* --- 38. Suggestion Tags (Search) --- */
+.suggestion-tag {
+  background: rgba(232, 168, 56, 0.06) !important;
+  color: rgba(232, 230, 225, 0.7) !important;
+  border: 1px solid rgba(232, 168, 56, 0.1) !important;
+  transition: all 0.2s ease !important;
+}
+
+.suggestion-tag:hover {
+  background: rgba(232, 168, 56, 0.12) !important;
+  color: #d4983d !important;
+  border-color: rgba(232, 168, 56, 0.25) !important;
+}
+
+/* --- 39. Search Button --- */
+.search-button-large {
+  background: linear-gradient(135deg, #d4983d, #c88a1a) !important;
+  color: #0e0e10 !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(232, 168, 56, 0.15) !important;
+}
+
+.search-button-large:hover {
+  background: linear-gradient(135deg, #e8a838, #d4983d) !important;
+  box-shadow: 0 4px 16px rgba(232, 168, 56, 0.25) !important;
+}
+
+/* --- 40. No Results --- */
+.no-results {
+  background: rgba(22, 22, 24, 0.6) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  color: rgba(232, 230, 225, 0.6) !important;
+}
+
+/* --- 41. CTA Buttons (Company/Services pages) --- */
+.cta-button.primary {
+  background: linear-gradient(135deg, #d4983d, #c88a1a) !important;
+  color: #0e0e10 !important;
+}
+
+.cta-button.primary:hover {
+  background: linear-gradient(135deg, #e8a838, #d4983d) !important;
+}
+
+.cta-button.secondary {
+  background: transparent !important;
+  color: #e8e6e1 !important;
+  border: 1px solid rgba(232, 230, 225, 0.2) !important;
+}
+
+.cta-button.secondary:hover {
+  border-color: rgba(232, 168, 56, 0.4) !important;
+  color: #d4983d !important;
+}
+
+/* --- 42. Service Card Icon Enhancement --- */
+.service-icon {
+  filter: saturate(0.8) brightness(1.1);
+}
+
+/* --- 43. Process Step Enhancement --- */
+.process-step {
+  border-radius: 12px !important;
+}
+
+.process-step:hover {
+  border-color: rgba(232, 168, 56, 0.15) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* --- 44. Stat Card Enhancement --- */
+.stat-card {
+  border-radius: 12px !important;
+  text-align: center;
+}
+
+/* --- 45. Search Header & Page Titles --- */
+.search-header h1,
+.search-page h1 {
+  color: #e8e6e1 !important;
+  font-family: var(--font-family-display);
+}
+
+.search-results-header h2 {
+  color: rgba(232, 230, 225, 0.7) !important;
+}
+
+.search-suggestions h3 {
+  color: rgba(232, 230, 225, 0.6) !important;
+}
+
+/* --- 46. Loading Spinner --- */
+.loading-spinner {
+  border-color: rgba(232, 168, 56, 0.1) !important;
+  border-left-color: #d4983d !important;
+}
+
+/* --- 47. Company Page CTA Text --- */
+.company-cta .section-content h2 {
+  color: #e8e6e1 !important;
+  border: none !important;
+}
+
+.company-cta p {
+  color: rgba(232, 230, 225, 0.7) !important;
 }

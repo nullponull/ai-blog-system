@@ -59,22 +59,24 @@ sitemap:
 }
 
 .contact-hero {
-    background: linear-gradient(135deg, var(--brand-secondary) 0%, var(--brand-secondary-hover) 100%);
-    color: white;
+    background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(232, 168, 56, 0.04) 100%);
+    color: #e8e6e1;
     padding: 3rem 2rem;
     text-align: center;
     margin-bottom: 3rem;
+    border-bottom: 1px solid rgba(232, 168, 56, 0.08);
 }
 
 .contact-hero-content h1 {
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
+    color: #e8e6e1;
 }
 
 .hero-subtitle {
     font-size: 1.1rem;
-    opacity: 1;
+    color: rgba(232, 230, 225, 0.65);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -90,11 +92,16 @@ sitemap:
 }
 
 .contact-form-area {
-    background: white;
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
     padding: 2rem;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-medium);
-    border: 1px solid var(--border-default);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(232, 168, 56, 0.08);
+    transition: border-color 0.3s ease;
+}
+
+.contact-form-area:hover {
+    border-color: rgba(232, 168, 56, 0.15);
 }
 
 .form-header {
@@ -104,17 +111,17 @@ sitemap:
 .form-header h2 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--text-default);
+    color: #e8e6e1;
     margin-bottom: 0.5rem;
 }
 
 .form-header p {
-    color: var(--text-default);
+    color: rgba(232, 230, 225, 0.65);
     line-height: 1.6;
 }
 
 .required-note {
-    color: #dc2626;
+    color: #ef4444;
 }
 
 .contact-info-area {
@@ -124,24 +131,30 @@ sitemap:
 }
 
 .info-card {
-    background: white;
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
     padding: 1.5rem;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-small);
-    border: 1px solid var(--border-default);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(232, 168, 56, 0.08);
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.info-card:hover {
+    border-color: rgba(232, 168, 56, 0.18);
+    transform: translateY(-2px);
 }
 
 .info-card h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--text-default);
+    color: #e8e6e1;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--brand-secondary);
+    border-bottom: 2px solid #d4983d;
 }
 
 .info-card p {
-    color: var(--text-default);
+    color: rgba(232, 230, 225, 0.65);
     line-height: 1.6;
     margin-bottom: 0.75rem;
 }
@@ -167,22 +180,24 @@ sitemap:
 
 .info-label {
     font-size: 0.85rem;
-    color: var(--text-muted);
+    color: rgba(232, 230, 225, 0.5);
     font-weight: 600;
     margin-bottom: 0.25rem;
 }
 
 .info-value {
-    color: var(--text-default);
+    color: #e8e6e1;
     font-weight: 500;
 }
 
 .info-value a {
-    color: var(--brand-secondary);
+    color: #d4983d;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .info-value a:hover {
+    color: #e8a84a;
     text-decoration: underline;
 }
 
@@ -195,13 +210,18 @@ sitemap:
 .faq-list li {
     padding: 0.5rem 0;
     padding-left: 1.5rem;
-    color: var(--text-default);
+    color: rgba(232, 230, 225, 0.65);
     position: relative;
+    transition: color 0.2s ease;
+}
+
+.faq-list li:hover {
+    color: #e8e6e1;
 }
 
 .faq-list li::before {
     content: '・';
-    color: var(--brand-secondary);
+    color: #d4983d;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -209,15 +229,22 @@ sitemap:
 
 .info-link {
     display: inline-block;
-    color: var(--brand-secondary);
+    color: #d4983d;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.2s ease;
 }
 
 .info-link:hover {
-    color: var(--brand-secondary-hover);
+    color: #e8a84a;
     transform: translateX(4px);
+}
+
+/* Google Form iframe dark background */
+.google-form-embed {
+    background: rgba(22, 22, 24, 0.8);
+    border-radius: 8px;
+    padding: 1rem 0;
 }
 
 @media (max-width: 768px) {
