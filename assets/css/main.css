@@ -6483,7 +6483,8 @@ body.layout-home .main-container {
 }
 
 body.layout-home .content {
-  overflow: visible;
+  overflow-x: hidden;
+  overflow-y: visible;
   background: transparent;
   border-radius: 0;
   box-shadow: none;
