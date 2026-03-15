@@ -337,16 +337,16 @@ hide_breadcrumbs: true
         return;
     }
 
-    // Immediately reveal elements already in or near viewport on page load
+    // Immediately reveal elements in the first few screens
     var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
     elements.forEach(function(el) {
         var rect = el.getBoundingClientRect();
-        if (rect.top < viewportHeight * 1.5) {
+        if (rect.top < viewportHeight * 3) {
             el.classList.add('is-visible');
         }
     });
 
-    // Observe remaining hidden elements for scroll-triggered reveal
+    // Observe remaining elements for scroll-triggered reveal
     var observer = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
@@ -362,5 +362,12 @@ hide_breadcrumbs: true
     document.querySelectorAll('.ed-reveal:not(.is-visible)').forEach(function(el) {
         observer.observe(el);
     });
+
+    // Fallback: reveal all remaining elements after 3 seconds
+    setTimeout(function() {
+        document.querySelectorAll('.ed-reveal:not(.is-visible)').forEach(function(el) {
+            el.classList.add('is-visible');
+        });
+    }, 3000);
 })();
 </script>
