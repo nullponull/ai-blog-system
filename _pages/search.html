@@ -155,8 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <a href="${post.url}">${highlightText(post.title, query)}</a>
                 </h3>
                 <div class="search-result-meta">
-                    <span class="search-result-date">📅 ${post.date}</span>
-                    <span class="search-result-author">👤 ${post.author}</span>
+                    <span class="search-result-date">${post.date}</span>
+                    <span class="search-result-author">${post.author}</span>
                     ${post.categories.length > 0 ? `<span class="search-result-category">${post.categories[0]}</span>` : ''}
                 </div>
                 <p class="search-result-excerpt">${highlightText(post.excerpt, query)}</p>

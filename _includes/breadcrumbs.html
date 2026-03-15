@@ -2,103 +2,103 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb">
     <ol class="breadcrumb-list">
         <li class="breadcrumb-item">
-            <a href="{{ '/' | relative_url }}">🏠 ホーム</a>
+            <a href="{{ '/' | relative_url }}">ホーム</a>
         </li>
-        
+
         {% if page.layout == 'post' %}
             {% comment %} Post page breadcrumbs {% endcomment %}
             {% if page.categories and page.categories.size > 0 %}
             {% assign category = page.categories.first %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item">
                 {% case category %}
                     {% when 'AI最新ニュース' %}
-                        <a href="/category/latest/">📈 {{ category }}</a>
+                        <a href="/category/latest/">{{ category }}</a>
                     {% when 'AI技術ガイド' %}
-                        <a href="/category/tech/">🔬 {{ category }}</a>
+                        <a href="/category/tech/">{{ category }}</a>
                     {% when '導入事例' %}
-                        <a href="/category/implementation/">💼 {{ category }}</a>
+                        <a href="/category/implementation/">{{ category }}</a>
                     {% when '業界別AI活用' %}
-                        <a href="/category/analysis/">📊 {{ category }}</a>
+                        <a href="/category/analysis/">{{ category }}</a>
                     {% when '研究論文' %}
-                        <a href="/category/research/">🎓 {{ category }}</a>
+                        <a href="/category/research/">{{ category }}</a>
                     {% else %}
                         <span>{{ category }}</span>
                 {% endcase %}
             </li>
             {% endif %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
                 <span>{{ page.title }}</span>
             </li>
-            
+
         {% elsif page.permalink == '/search/' %}
             {% comment %} Search page breadcrumbs {% endcomment %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
-                <span>🔍 検索</span>
+                <span>検索</span>
             </li>
-            
+
         {% elsif page.permalink == '/archive/' %}
             {% comment %} Archive page breadcrumbs {% endcomment %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item">
-                <a href="/archive/">📚 アーカイブ</a>
+                <a href="/archive/">アーカイブ</a>
             </li>
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
-                <span>📅 全記事</span>
+                <span>全記事</span>
             </li>
-            
+
         {% elsif page.permalink == '/tags/' %}
             {% comment %} Tags page breadcrumbs {% endcomment %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item">
-                <a href="/archive/">📚 アーカイブ</a>
+                <a href="/archive/">アーカイブ</a>
             </li>
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
-                <span>🏷️ タグ一覧</span>
+                <span>タグ一覧</span>
             </li>
-            
+
         {% elsif page.permalink == '/authors/' %}
             {% comment %} Authors page breadcrumbs {% endcomment %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item">
-                <a href="/archive/">📚 アーカイブ</a>
+                <a href="/archive/">アーカイブ</a>
             </li>
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
-                <span>👤 執筆者一覧</span>
+                <span>執筆者一覧</span>
             </li>
-            
+
         {% elsif page.permalink contains '/category/' %}
             {% comment %} Category page breadcrumbs {% endcomment %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item">
                 <span>カテゴリ</span>
             </li>
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
                 {% if page.permalink == '/category/latest/' %}
-                    <span>📈 AI最新ニュース</span>
+                    <span>AI最新ニュース</span>
                 {% elsif page.permalink == '/category/tech/' %}
-                    <span>🔬 AI技術ガイド</span>
+                    <span>AI技術ガイド</span>
                 {% elsif page.permalink == '/category/implementation/' %}
-                    <span>💼 導入事例</span>
+                    <span>導入事例</span>
                 {% elsif page.permalink == '/category/analysis/' %}
-                    <span>📊 業界別AI活用</span>
+                    <span>業界別AI活用</span>
                 {% elsif page.permalink == '/category/research/' %}
-                    <span>🎓 研究論文</span>
+                    <span>研究論文</span>
                 {% else %}
                     <span>{{ page.title }}</span>
                 {% endif %}
             </li>
-            
+
         {% else %}
             {% comment %} Other pages {% endcomment %}
             {% unless page.permalink == '/' %}
-            <li class="breadcrumb-separator">›</li>
+            <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item breadcrumb-current" aria-current="page">
                 <span>{{ page.title }}</span>
             </li>
@@ -147,11 +147,12 @@
 
 <style>
 .breadcrumbs {
-    background: var(--color-warm-gray, var(--gray-100));
-    padding: 0.75rem 0;
-    border-bottom: 1px solid var(--color-warm-gray-dark, var(--border-default));
-    font-size: 0.85rem;
-    font-family: var(--font-editorial-body, inherit);
+    background: transparent;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(232, 168, 56, 0.06);
+    font-size: 0.8rem;
+    font-family: var(--font-family-base, inherit);
+    letter-spacing: 0.03em;
 }
 
 .breadcrumb-list {
@@ -162,7 +163,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
 }
 
 .breadcrumb-item {
@@ -171,31 +172,28 @@
 }
 
 .breadcrumb-item a {
-    color: var(--color-gold-amber-dark, var(--brand-secondary));
+    color: rgba(232, 230, 225, 0.55);
     text-decoration: none;
-    font-weight: 500;
-    padding: 0.25rem 0.5rem;
-    border-radius: var(--radius-md);
-    transition: all 0.2s ease;
+    font-weight: 400;
+    padding: 0.2rem 0;
+    transition: color 0.2s ease;
 }
 
 .breadcrumb-item a:hover {
-    background: var(--color-charcoal, var(--brand-secondary));
-    color: var(--color-gold-amber, white);
-    transform: translateY(-1px);
+    color: #d4983d;
 }
 
 .breadcrumb-separator {
-    color: var(--text-subtle);
-    font-weight: 600;
-    margin: 0 0.25rem;
+    color: rgba(232, 230, 225, 0.25);
+    font-weight: 300;
+    margin: 0 0.15rem;
     user-select: none;
 }
 
 .breadcrumb-current span {
-    color: var(--color-ink, var(--text-subtle));
-    font-weight: 600;
-    padding: 0.25rem 0.5rem;
+    color: rgba(232, 230, 225, 0.8);
+    font-weight: 500;
+    padding: 0.2rem 0;
 }
 
 /* ホームページでは非表示 */
@@ -206,12 +204,7 @@
 @media (max-width: 768px) {
     .breadcrumb-list {
         padding: 0 1rem;
-        font-size: 0.8rem;
-    }
-
-    .breadcrumb-item a,
-    .breadcrumb-current span {
-        padding: 0.2rem 0.4rem;
+        font-size: 0.75rem;
     }
 }
 </style>

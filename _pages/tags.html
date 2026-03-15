@@ -52,7 +52,7 @@ description: "記事に付けられたタグ一覧から、興味のあるトピ
             {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
             <div class="tag-section" id="tag-{{ tag | slugify }}">
                 <h3 class="tag-title">
-                    <span class="tag-icon">🏷️</span>
+                    <span class="tag-icon">#</span>
                     {{ tag }}
                     <span class="tag-count-badge">{{ tagged_posts.size }}記事</span>
                 </h3>
@@ -70,7 +70,7 @@ description: "記事に付けられたタグ一覧から、興味のあるトピ
                                 {% if post.categories and post.categories.size > 0 %}
                                 <span class="article-category">{{ post.categories.first }}</span>
                                 {% endif %}
-                                <span class="reading-time">📖 {{ post.reading_time | default: "8" }}分</span>
+                                <span class="reading-time">{{ post.reading_time | default: "8" }}分</span>
                             </div>
                             
                             <h4 class="article-title">

@@ -6536,6 +6536,7 @@ body.layout-home .sidebar {
   --text-subtle: rgba(232, 230, 225, 0.65);
   --text-muted: rgba(232, 230, 225, 0.45);
   --text-disabled: rgba(232, 230, 225, 0.25);
+  --text-inverse: #111113;
 
   --surface-default: #111113;
   --surface-raised: #1a1a1d;
@@ -6544,9 +6545,55 @@ body.layout-home .sidebar {
   --border-default: rgba(232, 168, 56, 0.08);
   --border-subtle: rgba(255, 255, 255, 0.04);
   --border-strong: rgba(232, 168, 56, 0.18);
+  --border-inverse: rgba(232, 230, 225, 0.15);
 
   --link-color: #d4983d;
   --link-hover-color: #f5d78e;
+  --link-visited-color: #c8a870;
+
+  /* --- Brand Colors (inverted for dark) --- */
+  --brand-primary: #d4983d;
+  --brand-primary-hover: #f5d78e;
+  --brand-primary-pressed: #c88a1a;
+  --brand-primary-light: rgba(212, 152, 61, 0.25);
+  --brand-primary-lighter: rgba(212, 152, 61, 0.15);
+  --brand-primary-lightest: rgba(212, 152, 61, 0.08);
+
+  --brand-secondary: #2dd4bf;
+  --brand-secondary-hover: #5eead4;
+  --brand-secondary-pressed: #14b8a6;
+  --brand-secondary-light: rgba(45, 212, 191, 0.25);
+  --brand-secondary-lighter: rgba(45, 212, 191, 0.12);
+  --brand-secondary-lightest: rgba(45, 212, 191, 0.06);
+
+  --brand-accent-orange: #f5d78e;
+  --brand-accent-orange-light: #f5e6b8;
+  --brand-accent-purple: #a78bfa;
+  --brand-accent-purple-light: #c4b5fd;
+
+  --primary-color: #d4983d;
+  --primary-dark: #c88a1a;
+  --secondary-color: rgba(232, 230, 225, 0.55);
+  --accent-color: #f5d78e;
+
+  /* --- Editorial Tokens (inverted for dark) --- */
+  --color-ink: #e8e6e1;
+  --color-charcoal: #e8e6e1;
+  --color-charcoal-light: rgba(232, 230, 225, 0.7);
+  --color-charcoal-warm: rgba(232, 230, 225, 0.85);
+
+  /* --- Neutral Scale (inverted for dark) --- */
+  --color-neutral-0: #111113;
+  --color-neutral-100: #161618;
+  --color-neutral-200: #1e1e21;
+  --color-neutral-300: rgba(232, 230, 225, 0.1);
+  --color-neutral-400: rgba(232, 230, 225, 0.2);
+  --color-neutral-500: rgba(232, 230, 225, 0.4);
+  --color-neutral-600: rgba(232, 230, 225, 0.55);
+  --color-neutral-700: rgba(232, 230, 225, 0.65);
+  --color-neutral-800: rgba(232, 230, 225, 0.8);
+  --color-neutral-900: #e8e6e1;
+  --color-neutral-1000: #e8e6e1;
 
   --white: #111113;
   --gray-50: #161618;
@@ -6564,6 +6611,21 @@ body.layout-home .sidebar {
   --color-warm-gray-dark: rgba(232, 230, 225, 0.08);
   --color-paper: #e8e6e1;
 
+  /* --- Semantic Colors --- */
+  --color-success: #2dd4bf;
+  --color-warning: #f5d78e;
+  --color-danger: #f87171;
+  --color-info: #93c5fd;
+
+  --color-success-light: rgba(45, 212, 191, 0.12);
+  --color-warning-light: rgba(245, 215, 142, 0.12);
+  --color-danger-light: rgba(248, 113, 113, 0.12);
+  --color-info-light: rgba(147, 197, 253, 0.12);
+
+  /* --- Focus & Misc --- */
+  --focus-ring: #d4983d;
+  --focus-ring-offset: #111113;
+
   --shadow-small: 0 2px 8px rgba(0, 0, 0, 0.5);
   --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(232, 168, 56, 0.04);
   --shadow-large: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(232, 168, 56, 0.06);
@@ -6571,13 +6633,6 @@ body.layout-home .sidebar {
   --elevation-100: 0 1px 4px rgba(0, 0, 0, 0.4);
   --elevation-200: 0 4px 12px rgba(0, 0, 0, 0.4);
   --elevation-300: 0 8px 24px rgba(0, 0, 0, 0.4);
-
-  --color-success-light: rgba(13, 148, 136, 0.12);
-  --color-warning-light: rgba(245, 158, 11, 0.12);
-  --color-danger-light: rgba(220, 38, 38, 0.12);
-  --color-info-light: rgba(26, 54, 93, 0.12);
-  --brand-primary-lightest: rgba(26, 54, 93, 0.15);
-  --brand-secondary-lightest: rgba(13, 148, 136, 0.15);
 }
 
 /* --- 2. Base Body & Atmosphere --- */
@@ -7342,7 +7397,12 @@ mark {
 
 /* --- 42. Service Card Icon Enhancement --- */
 .service-icon {
-  filter: saturate(0.8) brightness(1.1);
+  color: #d4983d;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.service-icon svg {
+  color: #d4983d;
 }
 
 /* --- 43. Process Step Enhancement --- */

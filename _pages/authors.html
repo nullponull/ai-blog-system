@@ -43,17 +43,17 @@ description: "記事の執筆者一覧と各執筆者の記事をご覧いただ
                     <div class="author-info">
                         <div class="author-avatar">
                             {% if author == 'AI記事生成システム' %}
-                                🤖
+                                AI
                             {% else %}
-                                👤
+                                —
                             {% endif %}
                         </div>
                         <div class="author-details">
                             <h2 class="author-name">{{ author }}</h2>
                             <div class="author-stats">
-                                <span class="post-count">📝 {{ author_posts.size }}記事</span>
+                                <span class="post-count">{{ author_posts.size }}記事</span>
                                 {% if author_posts.size > 0 %}
-                                <span class="last-post">📅 最新投稿: {{ author_posts.first.date | date: "%Y年%m月%d日" }}</span>
+                                <span class="last-post">最新投稿: {{ author_posts.first.date | date: "%Y年%m月%d日" }}</span>
                                 {% endif %}
                             </div>
                             <div class="author-description">
@@ -77,12 +77,12 @@ description: "記事の執筆者一覧と各執筆者の記事をご覧いただ
                             {% assign category_count = author_posts | where_exp: "post", "post.categories contains category" | size %}
                             <span class="category-tag">
                                 {% case category %}
-                                    {% when '最新動向' %}📈
-                                    {% when '技術解説' %}🔬
-                                    {% when '実装事例' %}💼
-                                    {% when '業界分析' %}📊
-                                    {% when '研究論文' %}🎓
-                                    {% else %}📄
+                                    {% when '最新動向' %}·
+                                    {% when '技術解説' %}·
+                                    {% when '実装事例' %}·
+                                    {% when '業界分析' %}·
+                                    {% when '研究論文' %}·
+                                    {% else %}·
                                 {% endcase %}
                                 {{ category }} ({{ category_count }})
                             </span>
@@ -107,7 +107,7 @@ description: "記事の執筆者一覧と各執筆者の記事をご覧いただ
                                     {% if post.categories and post.categories.size > 0 %}
                                     <span class="article-category">{{ post.categories.first }}</span>
                                     {% endif %}
-                                    <span class="reading-time">📖 {{ post.reading_time | default: "8" }}分</span>
+                                    <span class="reading-time">{{ post.reading_time | default: "8" }}分</span>
                                 </div>
                                 
                                 <h4 class="article-title">
