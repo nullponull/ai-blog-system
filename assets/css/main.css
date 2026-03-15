@@ -1648,12 +1648,12 @@ a:focus {
 
 /* Navigation improvements */
 .site-nav a {
-  color: var(--text-default) !important;
+  color: var(--text-default);
   font-weight: var(--font-weight-medium);
 }
 
 .site-nav a:hover {
-  color: var(--brand-primary) !important;
+  color: var(--brand-primary);
 }
 
 /* Section titles with better contrast */
