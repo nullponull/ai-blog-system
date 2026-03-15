@@ -4940,8 +4940,8 @@ a:focus {
 }
 
 .ed-guide-card {
-  background: var(--color-paper);
-  border: 1px solid var(--border-default);
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95));
+  border: 1px solid rgba(232, 168, 56, 0.06);
   border-radius: var(--radius-lg);
   padding: var(--space-8);
   position: relative;
@@ -4949,6 +4949,7 @@ a:focus {
               box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
               border-color 0.3s;
   overflow: hidden;
+  color: #e8e6e1;
 }
 
 .ed-guide-card::before {
@@ -5459,13 +5460,14 @@ a:focus {
 }
 
 .ed-service-card {
-  background: var(--color-paper);
-  border: 1px solid var(--border-default);
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
+  border: 1px solid rgba(232, 168, 56, 0.06);
   border-radius: var(--radius-lg);
   padding: var(--space-8);
   text-align: center;
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
               box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #e8e6e1;
 }
 
 .ed-service-card:hover {
@@ -5514,7 +5516,7 @@ a:focus {
 }
 
 .ed-comparison-card {
-  background: var(--color-paper);
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95));
   border: 1px solid var(--border-default);
   border-radius: var(--radius-md);
   padding: var(--space-5);
@@ -7388,4 +7390,53 @@ mark {
 
 .company-cta p {
   color: rgba(232, 230, 225, 0.7) !important;
+}
+
+/* --- 48. Home Page Cards (ed-comparison, ed-service, ed-guide) --- */
+.ed-comparison-card,
+.ed-service-card {
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95)) !important;
+  border: 1px solid rgba(232, 168, 56, 0.06) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  color: #e8e6e1 !important;
+}
+
+.ed-comparison-card:hover,
+.ed-service-card:hover {
+  border-color: rgba(232, 168, 56, 0.18) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 24px rgba(232, 168, 56, 0.04) !important;
+  transform: translateY(-3px) !important;
+}
+
+.ed-comparison-card h4,
+.ed-comparison-card h3,
+.ed-service-card h3,
+.ed-service-card h4 {
+  color: #e8e6e1 !important;
+}
+
+.ed-comparison-card p,
+.ed-service-card p {
+  color: rgba(232, 230, 225, 0.65) !important;
+}
+
+.ed-comparison-card a,
+.ed-service-card a {
+  color: #d4983d !important;
+}
+
+/* --- 49. Guide Card background fix --- */
+.ed-guide-card {
+  background: linear-gradient(145deg, rgba(26, 26, 29, 0.85), rgba(22, 22, 24, 0.95)) !important;
+}
+
+/* --- 50. Home section backgrounds --- */
+.ed-consulting {
+  background: linear-gradient(160deg, rgba(232, 168, 56, 0.03) 0%, #0e0e10 40%) !important;
+  border-top: 1px solid rgba(232, 168, 56, 0.06);
+}
+
+.ed-categories {
+  background: rgba(14, 14, 16, 0.6) !important;
 }
