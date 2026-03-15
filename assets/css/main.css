@@ -5647,9 +5647,10 @@ h4, h5, h6 {
   box-shadow: 0 0 0 2px rgba(232, 168, 56, 0.2);
 }
 
-/* Navigation - Editorial */
-.ed-nav a {
-  color: rgba(250, 249, 247, 0.8);
+/* Navigation - Editorial (higher specificity to override .site-nav a) */
+.ed-header .ed-nav a,
+.ed-nav.site-nav a {
+  color: rgba(250, 249, 247, 0.9);
   font-family: var(--font-editorial-body);
   font-weight: 500;
   font-size: var(--font-size-sm);
@@ -5657,22 +5658,26 @@ h4, h5, h6 {
   transition: color 0.2s, background 0.2s;
 }
 
-.ed-nav a:hover {
+.ed-header .ed-nav a:hover,
+.ed-nav.site-nav a:hover {
   color: var(--color-paper);
   background: rgba(232, 168, 56, 0.12);
 }
 
-.ed-nav .dropdown-menu {
+.ed-header .ed-nav .dropdown-menu,
+.ed-nav.site-nav .dropdown-menu {
   background: var(--color-charcoal-light);
   border: 1px solid rgba(232, 168, 56, 0.15);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
-.ed-nav .dropdown-menu a {
-  color: rgba(250, 249, 247, 0.75);
+.ed-header .ed-nav .dropdown-menu a,
+.ed-nav.site-nav .dropdown-menu a {
+  color: rgba(250, 249, 247, 0.85);
 }
 
-.ed-nav .dropdown-menu a:hover {
+.ed-header .ed-nav .dropdown-menu a:hover,
+.ed-nav.site-nav .dropdown-menu a:hover {
   color: var(--color-paper);
   background: rgba(232, 168, 56, 0.15);
 }
