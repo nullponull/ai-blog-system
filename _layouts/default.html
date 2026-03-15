@@ -40,7 +40,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -95,16 +95,16 @@
     <a href="#main-content" class="skip-to-content">メインコンテンツへスキップ</a>
 
     <!-- Header -->
-    <header class="site-header" role="banner">
+    <header class="site-header ed-header" role="banner">
         <div class="header-container">
-            <a href="{{ '/' | relative_url }}" class="site-title" aria-label="ホームページに戻る">
+            <a href="{{ '/' | relative_url }}" class="site-title ed-site-title" aria-label="ホームページに戻る">
                 <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="ALLFORCES AI ロゴ" class="site-logo">
                 <span class="site-title-text">{{ site.title }}</span>
             </a>
             <button class="mobile-menu-toggle" aria-label="メニューを開く" aria-expanded="false">
                 <span></span>
             </button>
-            <nav class="site-nav">
+            <nav class="site-nav ed-nav">
                 <ul>
                     <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
                     <li class="dropdown">
@@ -145,7 +145,7 @@
                             <li><a href="/company/">会社情報</a></li>
                         </ul>
                     </li>
-                    <li><a href="/contact/" class="nav-cta">お問い合わせ</a></li>
+                    <li><a href="/contact/" class="nav-cta ed-nav-cta">お問い合わせ</a></li>
                 </ul>
             </nav>
         </div>
@@ -164,7 +164,7 @@
         </main>
         
         <!-- Sidebar -->
-        <aside class="sidebar" role="complementary" aria-label="サイドバー">
+        <aside class="sidebar ed-sidebar" role="complementary" aria-label="サイドバー">
             {% include ads-sidebar.html %}
 
             <!-- Consulting CTA (Sidebar) -->
@@ -173,9 +173,9 @@
             <!-- Featured Guides Widget -->
             {% assign sidebar_pillars = site.posts | where: "pillar", true %}
             {% if sidebar_pillars.size > 0 %}
-            <section class="widget" aria-labelledby="guides-widget-title">
-                <h3 id="guides-widget-title" class="widget-title">特集ガイド</h3>
-                <ul class="recent-posts" role="list">
+            <section class="widget ed-widget" aria-labelledby="guides-widget-title">
+                <h3 id="guides-widget-title" class="widget-title ed-widget-title">特集ガイド</h3>
+                <ul class="recent-posts ed-recent-posts" role="list">
                     {% for post in sidebar_pillars limit:3 %}
                     <li role="listitem">
                         <a href="{{ post.url | relative_url }}" aria-label="ガイド: {{ post.title }}">{{ post.title }}</a>
@@ -186,9 +186,9 @@
             {% endif %}
 
             <!-- Recent Posts Widget -->
-            <section class="widget" aria-labelledby="recent-posts-title">
-                <h3 id="recent-posts-title" class="widget-title">最新記事</h3>
-                <ul class="recent-posts" role="list">
+            <section class="widget ed-widget" aria-labelledby="recent-posts-title">
+                <h3 id="recent-posts-title" class="widget-title ed-widget-title">最新記事</h3>
+                <ul class="recent-posts ed-recent-posts" role="list">
                     {% for post in site.posts limit:5 %}
                     <li role="listitem">
                         <a href="{{ post.url | relative_url }}" aria-label="記事: {{ post.title }}">{{ post.title }}</a>
@@ -202,24 +202,24 @@
             {% include newsletter-signup.html variant="sidebar" %}
 
             <!-- About Widget -->
-            <section class="widget" aria-labelledby="about-title">
-                <h3 id="about-title" class="widget-title">AIコンパスについて</h3>
+            <section class="widget ed-widget ed-widget-about" aria-labelledby="about-title">
+                <h3 id="about-title" class="widget-title ed-widget-title">AIコンパスについて</h3>
                 <p>{{ site.description }}</p>
-                <p><a href="/about/">詳しく見る</a></p>
+                <p><a href="/about/" class="ed-widget-link">詳しく見る &rarr;</a></p>
             </section>
         </aside>
     </div>
 
     <!-- Footer -->
-    <footer class="site-footer" role="contentinfo">
+    <footer class="site-footer ed-footer" role="contentinfo">
         <div class="footer-container">
             <div class="footer-content">
-                <section class="footer-section" aria-labelledby="footer-about-title">
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-about-title">
                     <h3 id="footer-about-title">{{ site.title }}</h3>
                     <p>{{ site.tagline | default: site.description }}</p>
                 </section>
 
-                <section class="footer-section" aria-labelledby="footer-services-title">
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-services-title">
                     <h3 id="footer-services-title">サービス</h3>
                     <ul role="list">
                         <li><a href="/services/">サービス概要</a></li>
@@ -228,7 +228,7 @@
                     </ul>
                 </section>
 
-                <section class="footer-section" aria-labelledby="footer-links-title">
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-links-title">
                     <h3 id="footer-links-title">メディア</h3>
                     <ul role="list">
                         <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
@@ -239,7 +239,7 @@
                     </ul>
                 </section>
 
-                <section class="footer-section" aria-labelledby="footer-legal-title">
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-legal-title">
                     <h3 id="footer-legal-title">法務・運営</h3>
                     <ul role="list">
                         <li><a href="/company/">会社情報</a></li>
@@ -250,7 +250,7 @@
                 </section>
             </div>
 
-            <div class="footer-bottom">
+            <div class="footer-bottom ed-footer-bottom">
                 <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved. | 運営: <a href="/company/">株式会社ALLFORCES</a></p>
             </div>
         </div>

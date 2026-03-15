@@ -147,10 +147,11 @@
 
 <style>
 .breadcrumbs {
-    background: var(--gray-100);
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--border-default);
-    font-size: 0.9rem;
+    background: var(--color-warm-gray, var(--gray-100));
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-warm-gray-dark, var(--border-default));
+    font-size: 0.85rem;
+    font-family: var(--font-editorial-body, inherit);
 }
 
 .breadcrumb-list {
@@ -170,17 +171,17 @@
 }
 
 .breadcrumb-item a {
-    color: var(--brand-secondary);
+    color: var(--color-gold-amber-dark, var(--brand-secondary));
     text-decoration: none;
     font-weight: 500;
     padding: 0.25rem 0.5rem;
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-md);
     transition: all 0.2s ease;
 }
 
 .breadcrumb-item a:hover {
-    background: var(--brand-secondary);
-    color: white;
+    background: var(--color-charcoal, var(--brand-secondary));
+    color: var(--color-gold-amber, white);
     transform: translateY(-1px);
 }
 
@@ -192,7 +193,7 @@
 }
 
 .breadcrumb-current span {
-    color: var(--text-subtle);
+    color: var(--color-ink, var(--text-subtle));
     font-weight: 600;
     padding: 0.25rem 0.5rem;
 }
@@ -207,7 +208,7 @@
         padding: 0 1rem;
         font-size: 0.8rem;
     }
-    
+
     .breadcrumb-item a,
     .breadcrumb-current span {
         padding: 0.2rem 0.4rem;

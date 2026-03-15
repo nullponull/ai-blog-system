@@ -3,39 +3,89 @@ layout: default
 hide_breadcrumbs: true
 ---
 
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="hero-content">
-        <h1>{{ site.title }}</h1>
-        <p class="hero-tagline">{{ site.tagline | default: site.description }}</p>
-        <p class="hero-description">{{ site.description }}</p>
-        <div class="hero-stats">
-            <div class="stat">
-                <span class="stat-number">{{ site.posts.size }}</span>
-                <span class="stat-label">記事</span>
+<!-- Editorial Hero Section -->
+<section class="ed-hero">
+    <div class="ed-hero-inner">
+        <span class="ed-hero-overline">AI導入の羅針盤</span>
+        <h1 class="ed-hero-title">{{ site.title }}</h1>
+        <p class="ed-hero-subtitle">{{ site.description }}</p>
+
+        {% if site.posts.size > 0 %}
+        <div class="ed-hero-featured">
+            <!-- Main Featured Article -->
+            <div class="ed-hero-featured-main ed-reveal">
+                {% assign featured_post = site.posts.first %}
+                {% if featured_post.categories and featured_post.categories.size > 0 %}
+                <span class="ed-hero-featured-cat">{{ featured_post.categories.first }}</span>
+                {% endif %}
+                <h2 class="ed-hero-featured-title">
+                    <a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
+                </h2>
+                {% if featured_post.excerpt %}
+                <p class="ed-hero-featured-excerpt">
+                    {{ featured_post.excerpt | strip_html | truncate: 200 }}
+                </p>
+                {% endif %}
+                <div class="ed-hero-featured-meta">
+                    <time datetime="{{ featured_post.date | date_to_xmlschema }}">
+                        {{ featured_post.date | date: "%Y.%m.%d" }}
+                    </time>
+                    {% if featured_post.reading_time %}
+                    <span>{{ featured_post.reading_time }}min read</span>
+                    {% endif %}
+                    <a href="{{ featured_post.url | relative_url }}">続きを読む &rarr;</a>
+                </div>
             </div>
-            <div class="stat">
-                <span class="stat-number">50+</span>
-                <span class="stat-label">導入支援実績</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number">100+</span>
-                <span class="stat-label">AI開発プロジェクト</span>
+
+            <!-- Side Articles -->
+            <div class="ed-hero-side-list">
+                {% for post in site.posts offset:1 limit:4 %}
+                <div class="ed-hero-side-item ed-reveal ed-reveal-delay-{{ forloop.index }}">
+                    {% if post.categories and post.categories.size > 0 %}
+                    <div class="ed-hero-side-cat">{{ post.categories.first }}</div>
+                    {% endif %}
+                    <h3 class="ed-hero-side-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <div class="ed-hero-side-date">
+                        {{ post.date | date: "%Y.%m.%d" }}
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
-        <div class="hero-actions">
-            <a href="/services/" class="btn-primary">サービスを見る</a>
-            <a href="/contact/" class="btn-outline">無料相談</a>
-        </div>
+        {% endif %}
     </div>
 </section>
 
+<!-- Stats Bar -->
+<div class="ed-stats-bar ed-reveal">
+    <div class="ed-stats-inner">
+        <div class="ed-stat">
+            <div class="ed-stat-number" data-count="{{ site.posts.size }}">{{ site.posts.size }}</div>
+            <div class="ed-stat-label">公開記事</div>
+        </div>
+        <div class="ed-stat">
+            <div class="ed-stat-number" data-count="50">50+</div>
+            <div class="ed-stat-label">AI導入支援</div>
+        </div>
+        <div class="ed-stat">
+            <div class="ed-stat-number" data-count="100">100+</div>
+            <div class="ed-stat-label">開発プロジェクト</div>
+        </div>
+        <div class="ed-stat">
+            <div class="ed-stat-number">毎日</div>
+            <div class="ed-stat-label">記事更新</div>
+        </div>
+    </div>
+</div>
+
 <!-- Search Section -->
-<section class="search-section">
-    <div class="search-container">
-        <form class="search-form" action="/search" method="get">
-            <input type="search" name="q" placeholder="記事を検索..." class="search-input" />
-            <button type="submit" class="search-button" aria-label="検索">
+<section class="ed-search">
+    <div class="ed-search-inner">
+        <form class="ed-search-form" action="/search" method="get">
+            <input type="search" name="q" placeholder="AI導入・技術トレンドを検索..." class="ed-search-input" />
+            <button type="submit" class="ed-search-btn" aria-label="検索">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                     <circle cx="11" cy="11" r="8"></circle>
                     <path d="m21 21-4.35-4.35"></path>
@@ -45,143 +95,35 @@ hide_breadcrumbs: true
     </div>
 </section>
 
-<!-- Featured Articles Section -->
-<section class="featured-section">
-    <div class="section-header">
-        <h2 class="section-title">
-            注目記事
-        </h2>
-        <a href="/archive" class="section-link">すべて見る →</a>
-    </div>
-    
-    <div class="featured-container">
-        {% if site.posts.size > 0 %}
-        <!-- Main Featured Article -->
-        <article class="featured-main-card">
-            {% assign featured_post = site.posts.first %}
-            <div class="featured-main-icon">
-                {%- if featured_post.categories and featured_post.categories.size > 0 -%}
-                    {%- assign category = featured_post.categories.first -%}
-                    {% include icon.html category=category class="featured-main-icon-svg" %}
-                {%- else -%}
-                    {% include icon.html category="" class="featured-main-icon-svg" %}
-                {%- endif -%}
-            </div>
-            
-            <div class="featured-main-content">
-                <div class="featured-main-meta">
-                    {% if featured_post.categories and featured_post.categories.size > 0 %}
-                    <span class="featured-category-badge">
-                        {{ featured_post.categories.first }}
-                    </span>
-                    {% endif %}
-                    <div class="featured-meta-items">
-                        <time class="featured-date" datetime="{{ featured_post.date | date_to_xmlschema }}">
-                            {{ featured_post.date | date: "%Y年%m月%d日" }}
-                        </time>
-                        {% if featured_post.reading_time %}
-                        <span class="featured-reading-time">
-                            {{ featured_post.reading_time }}分で読める
-                        </span>
-                        {% endif %}
-                    </div>
-                </div>
-                
-                <h3 class="featured-main-title">
-                    <a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
-                </h3>
-                
-                {% if featured_post.excerpt %}
-                <div class="featured-main-excerpt">
-                    {{ featured_post.excerpt | strip_html | truncate: 180 }}
-                </div>
-                {% endif %}
-                
-                <div class="featured-main-footer">
-                    <div class="featured-author">
-                        執筆者: {{ featured_post.author | default: site.author }}
-                    </div>
-                    <a href="{{ featured_post.url | relative_url }}" class="featured-read-more">
-                        続きを読む →
-                    </a>
-                </div>
-            </div>
-        </article>
-        
-        <!-- Secondary Featured Articles -->
-        <div class="featured-secondary-grid">
-            {% for post in site.posts offset:1 limit:3 %}
-            <article class="featured-secondary-card">
-                <div class="featured-secondary-icon">
-                    {%- if post.categories and post.categories.size > 0 -%}
-                        {%- assign category = post.categories.first -%}
-                        {% include icon.html category=category class="featured-secondary-icon-svg" %}
-                    {%- else -%}
-                        {% include icon.html category="" class="featured-secondary-icon-svg" %}
-                    {%- endif -%}
-                </div>
-                
-                <div class="featured-secondary-content">
-                    <div class="featured-secondary-meta">
-                        {% if post.categories and post.categories.size > 0 %}
-                        <span class="secondary-category-badge">
-                            {{ post.categories.first }}
-                        </span>
-                        {% endif %}
-                        <time class="secondary-date" datetime="{{ post.date | date_to_xmlschema }}">
-                            {{ post.date | date: "%m/%d" }}
-                        </time>
-                    </div>
-                    
-                    <h4 class="featured-secondary-title">
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                    </h4>
-                    
-                    {% if post.excerpt %}
-                    <div class="featured-secondary-excerpt">
-                        {{ post.excerpt | strip_html | truncate: 80 }}
-                    </div>
-                    {% endif %}
-                </div>
-            </article>
-            {% endfor %}
-        </div>
-        {% endif %}
-    </div>
-</section>
-
-<!-- Featured Guides Section (Pillar & Comparison Articles) -->
+<!-- Featured Guides Section -->
 {% assign pillar_posts = site.posts | where: "pillar", true %}
 {% assign comparison_posts = site.posts | where: "comparison", true %}
 {% assign guide_count = pillar_posts.size | plus: comparison_posts.size %}
 {% if guide_count > 0 %}
-<section class="guides-section" id="guides">
-    <div class="section-header">
-        <h2 class="section-title">
-            特集ガイド
-        </h2>
-        <p class="section-subtitle">AI導入の実践知識を体系的にまとめた完全ガイド・比較記事</p>
+<section class="ed-section" id="guides">
+    <div class="ed-section-header">
+        <h2 class="ed-section-title">特集ガイド</h2>
     </div>
 
     {% if pillar_posts.size > 0 %}
-    <div class="guides-pillar-grid">
+    <div class="ed-guides-grid">
         {% for post in pillar_posts limit:3 %}
-        <article class="guide-pillar-card">
-            <div class="guide-pillar-badge">完全ガイド</div>
-            <div class="guide-pillar-icon">
+        <article class="ed-guide-card ed-reveal ed-reveal-delay-{{ forloop.index }}">
+            <span class="ed-guide-badge">完全ガイド</span>
+            <div class="ed-guide-icon">
                 {%- if post.categories and post.categories.size > 0 -%}
                     {% include icon.html category=post.categories.first class="guide-icon-svg" %}
                 {%- else -%}
                     {% include icon.html category="" class="guide-icon-svg" %}
                 {%- endif -%}
             </div>
-            <h3 class="guide-pillar-title">
+            <h3 class="ed-guide-title">
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
-            <p class="guide-pillar-description">{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p>
-            <div class="guide-pillar-meta">
+            <p class="ed-guide-desc">{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p>
+            <div class="ed-guide-meta">
                 {% if post.reading_time %}<span>{{ post.reading_time }}分で読める</span>{% endif %}
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
             </div>
         </article>
         {% endfor %}
@@ -189,16 +131,15 @@ hide_breadcrumbs: true
     {% endif %}
 
     {% if comparison_posts.size > 0 %}
-    <h3 class="guides-sub-title">比較・選定ガイド</h3>
-    <div class="guides-comparison-grid">
-        {% for post in comparison_posts limit:5 %}
-        <article class="guide-comparison-card">
-            <div class="guide-comparison-badge">比較</div>
-            <div class="guide-comparison-content">
-                <h4 class="guide-comparison-title">
+    <div class="ed-comparison-grid">
+        {% for post in comparison_posts limit:4 %}
+        <article class="ed-comparison-card ed-reveal">
+            <span class="ed-comparison-badge">比較</span>
+            <div class="ed-comparison-content">
+                <h4 class="ed-comparison-title">
                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h4>
-                <p class="guide-comparison-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</p>
+                <p class="ed-comparison-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</p>
             </div>
         </article>
         {% endfor %}
@@ -207,78 +148,66 @@ hide_breadcrumbs: true
 </section>
 {% endif %}
 
-<!-- Latest Articles Section with Pagination -->
-<section class="articles-section">
-    <div class="section-header">
-        <h2 class="section-title">
-            最新記事
-        </h2>
-        <a href="/archive" class="section-link">すべて見る →</a>
+<!-- Latest Articles Section -->
+<section class="ed-section">
+    <div class="ed-section-header">
+        <h2 class="ed-section-title">最新記事</h2>
+        <a href="/archive" class="ed-section-link">すべて見る <span>&rarr;</span></a>
     </div>
-    
-    <div class="articles-grid">
-        {% assign offset = 4 %}
+
+    <div class="ed-articles-grid">
+        {% assign offset = 5 %}
         {% if paginator %}
             {% assign offset = 0 %}
             {% assign posts = paginator.posts %}
         {% else %}
-            {% assign posts = site.posts | offset: offset | limit: 6 %}
+            {% assign posts = site.posts | slice: offset, 6 %}
         {% endif %}
-        
+
         {% for post in posts %}
-        <article class="article-card">
-            <div class="article-image">
+        <article class="ed-article-card ed-reveal ed-reveal-delay-{{ forloop.index | modulo: 4 }}">
+            <div class="ed-article-visual">
                 {%- if post.categories and post.categories.size > 0 -%}
                     {%- assign category = post.categories.first -%}
+                    <span class="ed-article-cat-float">{{ category }}</span>
                     {% include icon.html category=category class="article-icon-svg" %}
                 {%- else -%}
                     {% include icon.html category="" class="article-icon-svg" %}
                 {%- endif -%}
             </div>
-            <div class="article-content">
-                <div class="article-meta">
-                    {% if post.categories and post.categories.size > 0 %}
-                    <span class="article-category">
-                        {{ post.categories.first }}
-                    </span>
-                    {% endif %}
-                    <span class="article-date">
-                        {{ post.date | date: "%Y年%m月%d日" }}
-                    </span>
+            <div class="ed-article-body">
+                <div class="ed-article-date">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        {{ post.date | date: "%Y.%m.%d" }}
+                    </time>
                     {% if post.reading_time %}
-                    <span class="article-reading-time">
-                        {{ post.reading_time }}分
-                    </span>
+                    <span>{{ post.reading_time }}分</span>
                     {% endif %}
                 </div>
-                
-                <h3 class="article-title">
+                <h3 class="ed-article-title">
                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h3>
-                
                 {% if post.excerpt %}
-                <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+                <p class="ed-article-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
                 {% endif %}
-                
-                <div class="article-footer">
-                    <div class="article-author">
-                        {{ post.author | default: site.author }}
-                    </div>
+                <div class="ed-article-footer">
+                    <span class="ed-article-author">{{ post.author | default: site.author }}</span>
+                    <a href="{{ post.url | relative_url }}" class="ed-article-read">読む <span>&rarr;</span></a>
                 </div>
             </div>
         </article>
         {% endfor %}
     </div>
-    
+
     <!-- Pagination -->
     {% if paginator and paginator.total_pages > 1 %}
     <nav class="pagination-nav">
         {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link prev">
-            ← 前のページ
+            &larr; 前のページ
         </a>
         {% endif %}
-        
+
         <div class="pagination-numbers">
             {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
@@ -290,10 +219,10 @@ hide_breadcrumbs: true
                 {% endif %}
             {% endfor %}
         </div>
-        
+
         {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link next">
-            次のページ →
+            次のページ &rarr;
         </a>
         {% endif %}
     </nav>
@@ -302,81 +231,124 @@ hide_breadcrumbs: true
 
 <!-- Consulting Teaser Section -->
 {% if site.consulting.enabled %}
-<section class="consulting-teaser-section">
-    <div class="section-header">
-        <h2 class="section-title">AIコンサルティング</h2>
-        <a href="/services/" class="section-link">サービス詳細 →</a>
+<section class="ed-consulting">
+    <div class="ed-section-header">
+        <h2 class="ed-section-title">AIコンサルティング</h2>
+        <a href="/services/" class="ed-section-link">サービス詳細 <span>&rarr;</span></a>
     </div>
-    <div class="service-grid">
-        <div class="service-card">
-            <div class="service-card__icon">
+    <div class="ed-service-grid">
+        <div class="ed-service-card ed-reveal ed-reveal-delay-1">
+            <div class="ed-service-icon">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
                 </svg>
             </div>
-            <h3 class="service-card__title">AI戦略策定</h3>
-            <p class="service-card__description">業界・事業特性に合わせたAI導入ロードマップを策定。投資対効果を最大化する戦略をご提案します。</p>
+            <h3 class="ed-service-title">AI戦略策定</h3>
+            <p class="ed-service-desc">業界・事業特性に合わせたAI導入ロードマップを策定。投資対効果を最大化する戦略をご提案します。</p>
         </div>
-        <div class="service-card">
-            <div class="service-card__icon">
+        <div class="ed-service-card ed-reveal ed-reveal-delay-2">
+            <div class="ed-service-icon">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
                 </svg>
             </div>
-            <h3 class="service-card__title">PoC開発</h3>
-            <p class="service-card__description">最小限のコストで仮説検証。AIの実現可能性を素早く確認し、本格導入への判断材料を提供します。</p>
+            <h3 class="ed-service-title">PoC開発</h3>
+            <p class="ed-service-desc">最小限のコストで仮説検証。AIの実現可能性を素早く確認し、本格導入への判断材料を提供します。</p>
         </div>
-        <div class="service-card">
-            <div class="service-card__icon">
+        <div class="ed-service-card ed-reveal ed-reveal-delay-3">
+            <div class="ed-service-icon">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <rect width="14" height="8" x="5" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6 18h2"/><path d="M12 18h6"/>
                 </svg>
             </div>
-            <h3 class="service-card__title">AI導入支援</h3>
-            <p class="service-card__description">設計から実装、運用まで一貫してサポート。既存システムとのシームレスな統合を実現します。</p>
+            <h3 class="ed-service-title">AI導入支援</h3>
+            <p class="ed-service-desc">設計から実装、運用まで一貫してサポート。既存システムとのシームレスな統合を実現します。</p>
         </div>
     </div>
 </section>
 {% endif %}
 
 <!-- Categories Section -->
-<section class="categories-section">
-    <div class="section-header">
-        <h2 class="section-title">
-            カテゴリ別記事
-        </h2>
-    </div>
-    
-    <div class="categories-grid">
-        {% for category in site.content_categories %}
-        {% assign category_posts = site.posts | where: "categories", category.name %}
-        {% if category_posts.size > 0 %}
-        <div class="category-card">
-            <div class="category-header">
-                <div class="category-icon-large">{% include icon.html category=category.name class="category-large-icon-svg" size="32" %}</div>
-                <div class="category-info">
-                    <h3 class="category-title">{{ category.name }}</h3>
-                    <p class="category-description">{{ category.description }}</p>
-                    <span class="category-count">{{ category_posts.size }}記事</span>
+<section class="ed-categories">
+    <div class="ed-categories-inner">
+        <div class="ed-section-header">
+            <h2 class="ed-section-title">カテゴリ別記事</h2>
+        </div>
+
+        <div class="ed-cat-grid">
+            {% for category in site.content_categories %}
+            {% assign category_posts = site.posts | where: "categories", category.name %}
+            {% if category_posts.size > 0 %}
+            <div class="ed-cat-card ed-reveal">
+                <div class="ed-cat-header">
+                    <div class="ed-cat-icon">
+                        {% include icon.html category=category.name class="category-large-icon-svg" size="24" %}
+                    </div>
+                    <div>
+                        <h3 class="ed-cat-name">{{ category.name }}</h3>
+                        <span class="ed-cat-count">{{ category_posts.size }}記事</span>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="category-posts">
-                {% for post in category_posts limit:3 %}
-                <div class="category-post">
-                    <a href="{{ post.url | relative_url }}" class="category-post-title">{{ post.title }}</a>
-                    <span class="category-post-date">{{ post.date | date: "%m/%d" }}</span>
+                <p class="ed-cat-desc">{{ category.description }}</p>
+
+                <div class="ed-cat-posts">
+                    {% for post in category_posts limit:3 %}
+                    <div class="ed-cat-post">
+                        <a href="{{ post.url | relative_url }}" class="ed-cat-post-title">{{ post.title }}</a>
+                        <span class="ed-cat-post-date">{{ post.date | date: "%m/%d" }}</span>
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
-            
-            <div class="category-footer">
-                <a href="/categories#{{ category.name }}" class="category-link">
-                    すべて見る →
+
+                <a href="/categories#{{ category.name }}" class="ed-cat-link">
+                    すべて見る <span>&rarr;</span>
                 </a>
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-        {% endif %}
-        {% endfor %}
     </div>
 </section>
+
+<!-- Newsletter CTA -->
+<section class="ed-newsletter">
+    <div class="ed-newsletter-inner ed-reveal">
+        <h2 class="ed-newsletter-title">AI導入の最新情報をお届け</h2>
+        <p class="ed-newsletter-desc">
+            毎週厳選されたAI技術トレンド、導入事例、業界分析をお届けします。<br>
+            テクノロジーと経営をつなぐインサイトを、いち早くキャッチ。
+        </p>
+        <div class="ed-newsletter-actions">
+            <a href="/services/" class="ed-btn ed-btn--primary">サービスを見る</a>
+            <a href="/contact/" class="ed-btn ed-btn--outline">無料相談</a>
+        </div>
+    </div>
+</section>
+
+<!-- Editorial Scroll Reveal Script -->
+<script>
+(function() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelectorAll('.ed-reveal').forEach(function(el) {
+            el.classList.add('is-visible');
+        });
+        return;
+    }
+
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.08,
+        rootMargin: '0px 0px -40px 0px'
+    });
+
+    document.querySelectorAll('.ed-reveal').forEach(function(el) {
+        observer.observe(el);
+    });
+})();
+</script>
