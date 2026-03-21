@@ -7510,3 +7510,51 @@ mark {
 .ed-categories {
   background: rgba(14, 14, 16, 0.6) !important;
 }
+
+/* --- 51. Language Switcher --- */
+.lang-switcher {
+  margin-left: 0.5rem;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgba(196, 162, 101, 0.3);
+  border-radius: 6px;
+  color: #c4a265 !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.lang-toggle:hover {
+  background: rgba(196, 162, 101, 0.1);
+  border-color: rgba(196, 162, 101, 0.5);
+  color: #e8a843 !important;
+}
+
+.lang-flag {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.lang-label {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .lang-switcher {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .lang-toggle {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,13 @@
+{% if page.lang_pair %}
+<li class="lang-switcher">
+    <a href="{{ page.lang_pair }}" class="lang-toggle" aria-label="{% if page.lang == 'en' %}日本語に切り替え{% else %}Switch to English{% endif %}">
+        {% if page.lang == 'en' %}
+        <span class="lang-flag">JP</span>
+        <span class="lang-label">日本語</span>
+        {% else %}
+        <span class="lang-flag">EN</span>
+        <span class="lang-label">English</span>
+        {% endif %}
+    </a>
+</li>
+{% endif %}

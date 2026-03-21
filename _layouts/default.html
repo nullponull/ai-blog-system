@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ page.lang | default: 'ja' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,8 +42,14 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% if page.lang_pair %}
+    <link rel="alternate" hreflang="ja" href="{% if page.lang == 'ja' %}{{ page.url | absolute_url }}{% else %}{{ page.lang_pair | absolute_url }}{% endif %}">
+    <link rel="alternate" hreflang="en" href="{% if page.lang == 'en' %}{{ page.url | absolute_url }}{% else %}{{ page.lang_pair | absolute_url }}{% endif %}">
+    <link rel="alternate" hreflang="x-default" href="{% if page.lang == 'ja' %}{{ page.url | absolute_url }}{% else %}{{ page.lang_pair | absolute_url }}{% endif %}">
+    {% else %}
     <link rel="alternate" hreflang="ja" href="{{ page.url | absolute_url }}">
     <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+    {% endif %}
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
@@ -123,6 +129,26 @@
             </button>
             <nav class="site-nav ed-nav">
                 <ul>
+                    {% if page.lang == 'en' %}
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/en/services/">Services</a></li>
+                            <li><a href="/case-studies/">Case Studies</a></li>
+                            <li><a href="/en/contact/">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/en/about/">About Us</a></li>
+                            <li><a href="/en/company/">Company</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/en/contact/" class="nav-cta ed-nav-cta">Contact</a></li>
+                    {% include lang-switcher.html %}
+                    {% else %}
                     <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle">カテゴリ</a>
@@ -163,6 +189,8 @@
                         </ul>
                     </li>
                     <li><a href="/contact/" class="nav-cta ed-nav-cta">お問い合わせ</a></li>
+                    {% include lang-switcher.html %}
+                    {% endif %}
                 </ul>
             </nav>
         </div>
@@ -228,6 +256,38 @@
     <footer class="site-footer ed-footer" role="contentinfo">
         <div class="footer-container">
             <div class="footer-content">
+                {% if page.lang == 'en' %}
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-about-title">
+                    <h3 id="footer-about-title">{{ site.title }}</h3>
+                    <p>Your Navigator for AI Adoption &mdash; Bridging Technology and Business</p>
+                </section>
+
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-services-title">
+                    <h3 id="footer-services-title">Services</h3>
+                    <ul role="list">
+                        <li><a href="/en/services/">Services</a></li>
+                        <li><a href="/case-studies/">Case Studies</a></li>
+                        <li><a href="/en/contact/">Contact</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-links-title">
+                    <h3 id="footer-links-title">About</h3>
+                    <ul role="list">
+                        <li><a href="/en/about/">About Us</a></li>
+                        <li><a href="/en/company/">Company</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-section ed-footer-section" aria-labelledby="footer-legal-title">
+                    <h3 id="footer-legal-title">Legal</h3>
+                    <ul role="list">
+                        <li><a href="/privacy/">Privacy Policy</a></li>
+                        <li><a href="/terms/">Terms of Use</a></li>
+                        <li><a href="/disclaimer/">Disclaimer</a></li>
+                    </ul>
+                </section>
+                {% else %}
                 <section class="footer-section ed-footer-section" aria-labelledby="footer-about-title">
                     <h3 id="footer-about-title">{{ site.title }}</h3>
                     <p>{{ site.tagline | default: site.description }}</p>
@@ -262,10 +322,15 @@
                         <li><a href="/disclaimer/">免責事項</a></li>
                     </ul>
                 </section>
+                {% endif %}
             </div>
 
             <div class="footer-bottom ed-footer-bottom">
+                {% if page.lang == 'en' %}
+                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved. | Operated by <a href="/en/company/">ALLFORCES Inc.</a></p>
+                {% else %}
                 <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved. | 運営: <a href="/company/">株式会社ALLFORCES</a></p>
+                {% endif %}
             </div>
         </div>
     </footer>
