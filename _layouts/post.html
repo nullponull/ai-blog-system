@@ -397,4 +397,22 @@ document.addEventListener('DOMContentLoaded', function() {
         {% endfor %}
     </div>
 </section>
+
+<!-- カテゴリ横断ナビゲーション（トピッククラスター内部リンク） -->
+<section class="category-navigation" style="margin-top: 2rem; padding: 2rem 0; border-top: 1px solid #e5e7eb;">
+    <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #1c1c1e;">他のカテゴリも読む</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem;">
+        {% for cat in site.content_categories %}
+        {% unless cat.name == page.categories.first %}
+        <a href="/category/{{ cat.slug }}/" style="display: block; padding: 0.75rem 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; text-decoration: none; color: #1c1c1e; transition: border-color 0.2s;"
+           onmouseover="this.style.borderColor='#6366f1'" onmouseout="this.style.borderColor='#e5e7eb'">
+            <span style="font-weight: 600; font-size: 0.875rem;">{{ cat.icon }} {{ cat.name }}</span>
+            {% if cat.description %}
+            <span style="display: block; font-size: 0.75rem; color: #6b7280; margin-top: 0.25rem;">{{ cat.description | truncate: 40 }}</span>
+            {% endif %}
+        </a>
+        {% endunless %}
+        {% endfor %}
+    </div>
+</section>
 {% endif %}
