@@ -112,6 +112,18 @@
         }
     }
     </script>
+
+    <!-- AI Search Optimization (GEO) -->
+    <link rel="author" href="{{ '/about/' | absolute_url }}">
+    <link rel="publisher" href="{{ '/company/' | absolute_url }}">
+    <meta name="citation_title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="citation_author" content="{{ page.author | default: site.author }}">
+    <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+    <meta name="citation_journal_title" content="{{ site.title }}">
+    <meta name="citation_language" content="ja">
+    {% if page.layout == 'post' %}
+    <meta name="citation_abstract" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}">
+    {% endif %}
 </head>
 <body class="layout-{{ page.layout }}">
     <!-- Skip to content link for accessibility -->

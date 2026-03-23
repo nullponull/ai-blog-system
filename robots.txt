@@ -1,5 +1,6 @@
 # robots.txt for AIコンパス by ALLFORCES
 # https://ai-media.co.jp
+# Last updated: 2026-03-23
 
 User-agent: *
 Allow: /
@@ -20,5 +21,60 @@ Disallow: /node_modules/
 # Allow search engines to index all posts
 Allow: /20*/
 
+# -----------------------------------------------------------
+# AI Search Bots (GEO: Generative Engine Optimization)
+# AI検索エンジンによる検索結果への引用を許可
+# -----------------------------------------------------------
+
+# OpenAI - ChatGPT Search / SearchGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic - Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple - Siri / Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon - Alexa / Shopping AI
+User-agent: Amazonbot
+Allow: /
+
+# Meta - AI features
+User-agent: meta-externalagent
+Allow: /
+
+# -----------------------------------------------------------
+# Training-Only Crawlers (学習専用クローラーはブロック)
+# 検索引用ではなくモデル学習目的のクローラー
+# -----------------------------------------------------------
+
+# Common Crawl (学習データセット収集)
+User-agent: CCBot
+Disallow: /
+
+# ByteDance (学習用クローラー)
+User-agent: Bytespider
+Disallow: /
+
+# Google AI training (検索とは別の学習用)
+User-agent: Google-Extended
+Disallow: /
+
 # Sitemap location
 Sitemap: https://ai-media.co.jp/sitemap.xml
+
+# LLMs.txt - AI向けサイト概要
+# See: https://ai-media.co.jp/llms.txt

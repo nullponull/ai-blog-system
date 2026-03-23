@@ -1,0 +1,42 @@
+# AIコンパス by ALLFORCES
+
+> AI導入の羅針盤 -- 技術と経営をつなぐ
+
+AIコンパス（ai-media.co.jp）は、ALLFORCES編集部が運営するAI・テクノロジー・ビジネス情報メディアです。AI開発の実務経験を基に、最新のAI技術動向、導入戦略、実装事例、業界分析を実践者の視点でお届けしています。
+
+## 主要カテゴリ
+
+- [AI最新ニュース](https://ai-media.co.jp/category/latest/): AI業界の最新ニュースと企業動向
+- [AI技術ガイド](https://ai-media.co.jp/category/tech/): LLM、RAG、エージェントなどのコア技術解説
+- [AI導入戦略](https://ai-media.co.jp/category/strategy/): AI投資判断・ROI分析・導入ロードマップ
+- [業界別AI活用](https://ai-media.co.jp/category/industry/): 製造・金融・小売など業界別のAI活用動向
+- [導入事例](https://ai-media.co.jp/case-studies/): 企業のAI実装プロジェクト事例とコンサルティング知見
+- [研究論文レビュー](https://ai-media.co.jp/category/research/): NeurIPS、ICMLなどの注目論文レビュー
+
+## 主要ページ
+
+- [トップページ](https://ai-media.co.jp/)
+- [AIコンパスについて](https://ai-media.co.jp/about/)
+- [会社概要](https://ai-media.co.jp/company/)
+- [サービス](https://ai-media.co.jp/services/): AI導入コンサルティング・PoC開発支援
+- [お問い合わせ](https://ai-media.co.jp/contact/)
+- [記事アーカイブ](https://ai-media.co.jp/archive/)
+- [タグ一覧](https://ai-media.co.jp/tags/)
+
+## 引用ポリシー
+
+当サイトのコンテンツは、AI検索エンジンによる検索結果への引用・要約を歓迎します。引用の際は以下をお願いします:
+
+- 出典として「AIコンパス by ALLFORCES」または「ai-media.co.jp」を明記
+- 元記事へのリンクを可能な限り含める
+- 記事の趣旨を損なわない形での引用
+
+学習データセットへの大規模な収集についてはrobots.txtをご確認ください。
+
+## 技術情報
+
+- フィード: https://ai-media.co.jp/feed.xml (RSS/Atom)
+- サイトマップ: https://ai-media.co.jp/sitemap.xml
+- 言語: 日本語 (一部英語ページあり: /en/)
+- 運営: ALLFORCES編集部
+- 連絡先: info@ai-media.co.jp
