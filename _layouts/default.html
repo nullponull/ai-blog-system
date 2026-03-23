@@ -113,7 +113,47 @@
     }
     </script>
 
-    <!-- AI Search Optimization (GEO) -->
+    <!-- Organization Schema (LLMO/AIEO) -->
+    {% unless page.layout == 'post' %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "logo": "{{ site.logo | absolute_url }}",
+        "description": "{{ site.description }}",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "url": "{{ '/contact/' | absolute_url }}",
+            "availableLanguage": ["Japanese", "English"]
+        },
+        "sameAs": [
+            {% if site.twitter_username %}"https://twitter.com/{{ site.twitter_username }}"{% endif %}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "inLanguage": "ja",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    {% endunless %}
+
+    <!-- AI Search Optimization (GEO/LLMO/AIEO) -->
     <link rel="author" href="{{ '/about/' | absolute_url }}">
     <link rel="publisher" href="{{ '/company/' | absolute_url }}">
     <meta name="citation_title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">

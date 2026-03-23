@@ -27,6 +27,50 @@ layout: default
 }
 </script>
 
+<!-- SpeakableSpecification (LLMO/AIEO: 音声AI対応) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title | escape }}",
+  "url": "{{ page.url | absolute_url }}",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".post-title", ".post-excerpt", ".post-content h2", ".post-content p:first-of-type"]
+  }
+}
+</script>
+
+<!-- FAQPage auto-detection (h2/h3 Q&A patterns → JSON-LD) -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var content = document.querySelector('.post-content');
+  if (!content) return;
+  var faqs = [];
+  var headings = content.querySelectorAll('h2, h3');
+  headings.forEach(function(h) {
+    var text = h.textContent.trim();
+    if (text.match(/^(Q[:：]|.*[？?]$)/)) {
+      var answer = '';
+      var next = h.nextElementSibling;
+      while (next && !['H2','H3'].includes(next.tagName)) {
+        answer += next.textContent.trim() + ' ';
+        next = next.nextElementSibling;
+      }
+      if (answer.trim()) {
+        faqs.push({ '@type': 'Question', name: text.replace(/^Q[:：]\s*/, ''), acceptedAnswer: { '@type': 'Answer', text: answer.trim().substring(0, 500) } });
+      }
+    }
+  });
+  if (faqs.length >= 2) {
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs });
+    document.head.appendChild(script);
+  }
+});
+</script>
+
 <article class="post ed-post" itemscope itemtype="https://schema.org/BlogPosting">
     <header class="post-header ed-post-header">
         <div class="post-breadcrumbs ed-post-breadcrumbs" aria-label="パンくずリスト">
