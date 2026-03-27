@@ -1,0 +1,16 @@
+---
+layout: pseo-industry-region
+title: "静岡県の食品・飲食業におけるAI活用ガイド【2026年版】"
+date: 2026-03-28 02:40:55 +0900
+permalink: /ai-solutions/food_restaurant/shizuoka/
+description: "静岡県の食品・飲食業向けAI導入ガイド。AI導入率12.8%の業界で、AI外観検査（異物検出）など具体的な活用法を解説。"
+industry_id: "food_restaurant"
+prefecture_id: "shizuoka"
+tags: ["食品・飲食業", "AI活用", "静岡県", "DX", "中小企業"]
+author: "ALLFORCES編集部"
+local_context: "静岡県はヤマハ・スズキなど輸送機器産業と、茶・みかんの農業が共存する産業多角型の県です。食品・飲食業は浜松・静岡の二大都市圏を活かした地場食材の加工・提供が盛んです。"
+challenge_summary: "静岡県の食品業では、AI品質検査による食品安全の強化と、需要予測によるフードロス削減が品質向上とコスト削減を同時に実現します。"
+sitemap:
+  priority: 0.7
+  changefreq: monthly
+---
