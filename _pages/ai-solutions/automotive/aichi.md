@@ -8,8 +8,8 @@ industry_id: "automotive"
 prefecture_id: "aichi"
 tags: ["自動車業", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県は日本の自動車産業の中枢であり、トヨタ自動車を頂点とするサプライチェーンが県内全域に広がっています。EV化に伴うサプライヤーの事業転換が地域経済の重要課題です。"
+challenge_summary: "自動車産業の中枢である愛知では、AIによるEV向け新部品の品質予測と、サプライチェーン全体の需給最適化が産業構造転換を支える基盤技術となります。"
 sitemap:
   priority: 0.7
   changefreq: monthly

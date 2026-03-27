@@ -8,8 +8,8 @@ industry_id: "service"
 prefecture_id: "hokkaido"
 tags: ["サービス業", "AI活用", "北海道", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "北海道は観光業がサービス産業の中核を占め、ニセコ・富良野・札幌など季節ごとの需要変動が極めて大きい地域です。繁閑差への対応がサービス業共通の経営課題となっています。"
+challenge_summary: "季節変動が激しい北海道の観光サービスでは、AI需要予測によるスタッフ・在庫の最適配置と、閑散期の集客施策自動化が経営安定化に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "tokyo"
 tags: ["不動産業", "AI活用", "東京都", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "東京都は日本最大の不動産市場であり、商業・オフィス・住宅すべてのセグメントで取引が活発です。物件情報の鮮度と正確性が競争優位に直結する、情報戦の激しい市場です。"
+challenge_summary: "情報戦が激しい東京の不動産業では、AI価格査定による適正価格の即時算出と、物件レコメンドエンジンによる成約率向上が営業効率を大幅に改善します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

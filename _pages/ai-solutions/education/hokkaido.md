@@ -8,8 +8,8 @@ industry_id: "education"
 prefecture_id: "hokkaido"
 tags: ["教育業", "AI活用", "北海道", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "北海道は広大なエリアに学校が分散し、小規模校の維持と教員確保が課題です。遠隔授業やオンライン学習の導入が本州以上に進んでおり、ICT活用のニーズが高い地域です。"
+challenge_summary: "小規模校が分散する北海道では、AIチューターによる個別指導の補完と、遠隔授業のAI字幕・翻訳が教育機会の地域格差解消に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

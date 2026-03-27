@@ -8,8 +8,8 @@ industry_id: "automotive"
 prefecture_id: "tokyo"
 tags: ["自動車業", "AI活用", "東京都", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "東京都は自動車メーカーの本社・研究開発拠点が集中し、自動運転やMaaSなどモビリティ関連のスタートアップも多い地域です。生産拠点は少ないものの、技術開発の最前線です。"
+challenge_summary: "自動運転開発の中心地である東京では、AIシミュレーション環境による開発サイクルの短縮と、大量の走行データの自動アノテーションが技術開発を加速します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

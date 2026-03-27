@@ -8,8 +8,8 @@ industry_id: "service"
 prefecture_id: "kanagawa"
 tags: ["サービス業", "AI活用", "神奈川県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "神奈川県は横浜みなとみらいの商業施設群や湘南・箱根の観光地を抱え、都市型サービスと観光サービスが共存する多様な市場です。横浜中華街など固有の集客資産も豊富です。"
+challenge_summary: "都市型と観光型が混在する神奈川のサービス業では、AIによる顧客行動分析とパーソナライズド接客が、リピート率向上と客単価アップに直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

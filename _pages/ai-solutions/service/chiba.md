@@ -8,8 +8,8 @@ industry_id: "service"
 prefecture_id: "chiba"
 tags: ["サービス業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県はディズニーリゾート・幕張メッセなど大型集客施設を擁し、観光・MICE関連サービスの需要が大きい地域です。成田空港周辺のインバウンド対応も重要な市場です。"
+challenge_summary: "大型施設と空港を抱える千葉県では、AI需要予測と動的価格設定により、繁忙期の機会損失と閑散期の稼働率低下を同時に改善できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

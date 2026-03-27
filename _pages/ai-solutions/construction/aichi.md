@@ -8,8 +8,8 @@ industry_id: "construction"
 prefecture_id: "aichi"
 tags: ["建設業", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県はリニア中央新幹線関連工事や名古屋駅周辺再開発など、今後数十年にわたる大規模インフラ工事が予定されています。産業用建築の需要も自動車産業の設備投資に連動して堅調です。"
+challenge_summary: "リニア関連を含む長期大型工事では、AIによる土量算出の自動化と工程シミュレーションにより、計画精度の向上と手戻りの削減が期待できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

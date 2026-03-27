@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "kyoto"
 tags: ["不動産業", "AI活用", "京都府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "京都府は景観条例による建築制限が不動産市場に大きく影響し、新築供給が限られることで中古物件の価値が高い独特の市場構造を持っています。町家再生ビジネスも注目されています。"
+challenge_summary: "新築供給が限られる京都では、AI物件評価による中古物件のリノベーション価値算定と、景観規制に適合した建築プランの自動生成が差別化につながります。"
 sitemap:
   priority: 0.7
   changefreq: monthly

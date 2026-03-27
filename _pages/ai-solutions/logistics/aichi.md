@@ -8,8 +8,8 @@ industry_id: "logistics"
 prefecture_id: "aichi"
 tags: ["物流・運輸業", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県は自動車部品のジャストインタイム物流で全国をリードしており、製造業と物流の連携が密接な地域です。東西物流の結節点としての地理的優位性も大きいです。"
+challenge_summary: "JIT物流が求められる愛知では、AIによるサプライチェーン全体の在庫最適化と、配送タイミングの精密制御が欠品リスクと在庫コストの最小化を実現します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

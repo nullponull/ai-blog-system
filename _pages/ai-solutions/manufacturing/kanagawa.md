@@ -8,8 +8,8 @@ industry_id: "manufacturing"
 prefecture_id: "kanagawa"
 tags: ["製造業", "AI活用", "神奈川県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "神奈川県は京浜工業地帯の中核として重化学工業が発展し、川崎市・横浜市を中心に電機・精密機器・化学メーカーが集積しています。研究開発拠点も多く、先端技術との親和性が高い地域です。"
+challenge_summary: "京浜工業地帯の製造業では、AI外観検査と予知保全の組み合わせにより、品質管理コストの削減と設備ダウンタイムの最小化が期待できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

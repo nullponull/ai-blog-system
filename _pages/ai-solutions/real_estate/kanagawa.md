@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "kanagawa"
 tags: ["不動産業", "AI活用", "神奈川県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "神奈川県は横浜・川崎のマンション需要と、湘南・鎌倉のライフスタイル移住需要が共存する多様な不動産市場です。東京通勤圏としての利便性が物件価値の基盤となっています。"
+challenge_summary: "多様な居住ニーズがある神奈川では、AI顧客マッチングによる物件提案の精度向上と、VR内覧の自動案内により、成約までのリードタイムを短縮できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

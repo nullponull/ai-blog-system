@@ -8,8 +8,8 @@ industry_id: "logistics"
 prefecture_id: "hyogo"
 tags: ["物流・運輸業", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は神戸港をアジア向け海上輸送の拠点とし、阪神間の物流施設群が関西圏の配送を支えています。六甲アイランド・ポートアイランドには国際物流企業が集積しています。"
+challenge_summary: "神戸港を拠点とする兵庫の物流業では、AIコンテナ最適積載と港湾オペレーションの自動化が、国際物流の効率化と競争力維持に不可欠です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

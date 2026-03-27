@@ -8,8 +8,8 @@ industry_id: "construction"
 prefecture_id: "saitama"
 tags: ["建設業", "AI活用", "埼玉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "埼玉県は圏央道沿線の物流施設建設や、さいたま新都心周辺の都市開発が活発です。住宅建設も首都圏のベッドタウンとして継続的な需要があり、中小建設会社の層が厚い地域です。"
+challenge_summary: "物流施設や住宅の建設需要が安定する埼玉県では、AIを活用した見積もり自動化と工程管理により、中小建設会社の生産性を底上げできます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

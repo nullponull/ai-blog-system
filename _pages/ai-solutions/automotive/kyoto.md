@@ -8,8 +8,8 @@ industry_id: "automotive"
 prefecture_id: "kyoto"
 tags: ["自動車業", "AI活用", "京都府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "京都府はGSユアサ（車載バッテリー）・日本電産（駆動モーター）などEVコア部品メーカーが集積し、次世代自動車の心臓部を担う戦略的に重要な産業集積地です。"
+challenge_summary: "EVコア部品の集積地である京都では、AIによるバッテリー性能予測と劣化シミュレーションが、次世代自動車の品質保証と開発期間短縮に不可欠な技術です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

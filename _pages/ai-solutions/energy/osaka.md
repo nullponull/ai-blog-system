@@ -8,8 +8,8 @@ industry_id: "energy"
 prefecture_id: "osaka"
 tags: ["エネルギー業", "AI活用", "大阪府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "大阪府は関西電力の中核エリアとして電力インフラが充実し、万博開催に向けた水素エネルギーの実証実験も進行中です。堺市には大規模太陽光発電施設も立地しています。"
+challenge_summary: "水素エネルギー実証が進む大阪では、AIによるエネルギーミックスの最適化と、電力需要の高精度予測が新エネルギー技術の実用化を加速します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

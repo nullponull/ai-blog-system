@@ -8,8 +8,8 @@ industry_id: "retail"
 prefecture_id: "chiba"
 tags: ["小売・卸売業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は幕張・船橋・柏の商業エリアと、郊外ロードサイド店舗で構成される小売市場です。成田空港利用者向けの免税店ビジネスも特徴的な市場セグメントとなっています。"
+challenge_summary: "商圏が広い千葉県では、AIによるエリア別需要予測と店舗ごとの品揃え最適化により、在庫回転率の改善と売れ筋の見逃し防止が可能になります。"
 sitemap:
   priority: 0.7
   changefreq: monthly

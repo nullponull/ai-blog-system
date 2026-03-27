@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "chiba"
 tags: ["印刷・広告業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は幕張メッセでの展示会関連の大型印刷物やサイン・ディスプレイの需要があり、イベント関連印刷を得意とする企業が集まっています。"
+challenge_summary: "展示会関連需要が大きい千葉では、AIによる大型印刷物の色管理自動化と、短納期案件のスケジュール最適化が繁忙期の対応力向上に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

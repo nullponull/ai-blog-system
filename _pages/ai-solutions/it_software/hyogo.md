@@ -8,8 +8,8 @@ industry_id: "it_software"
 prefecture_id: "hyogo"
 tags: ["IT・ソフトウェア", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は神戸市を中心にITベンダーが立地し、医療・バイオ分野のシステム開発に強みを持つ企業が多い地域です。ポートアイランドの医療産業都市構想との連携も進んでいます。"
+challenge_summary: "医療系IT開発が盛んな兵庫県では、AIを活用した医療データの匿名化処理やテスト自動化により、規制対応コストを抑えつつ開発速度を維持できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

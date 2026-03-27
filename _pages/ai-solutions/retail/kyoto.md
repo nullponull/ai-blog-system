@@ -8,8 +8,8 @@ industry_id: "retail"
 prefecture_id: "kyoto"
 tags: ["小売・卸売業", "AI活用", "京都府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "京都府は観光客向けの土産物店・伝統工芸品店と、地元住民向けの商店街・スーパーが明確に分かれた二重構造の小売市場です。老舗の暖簾を守りながらのデジタル対応が課題です。"
+challenge_summary: "観光客と地元客の二重需要がある京都では、AIによる来客層の自動判別と、それぞれに最適化された接客・品揃え提案が売上機会の最大化に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

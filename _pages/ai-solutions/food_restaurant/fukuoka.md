@@ -8,8 +8,8 @@ industry_id: "food_restaurant"
 prefecture_id: "fukuoka"
 tags: ["食品・飲食業", "AI活用", "福岡県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "福岡県は屋台文化に代表される独自の飲食文化があり、明太子・もつ鍋・ラーメンなどのご当地グルメを活かした食品製造業も発展しています。アジア向け食品輸出の拠点としても注目されています。"
+challenge_summary: "ご当地食品の製造が盛んな福岡では、AIによる異物検出の精度向上と、海外輸出に対応した多言語ラベル自動生成が品質管理と販路拡大に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

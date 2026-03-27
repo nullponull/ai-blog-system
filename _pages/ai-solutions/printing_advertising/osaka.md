@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "osaka"
 tags: ["印刷・広告業", "AI活用", "大阪府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "大阪府は中小の印刷会社が多く、商業印刷・パッケージ印刷を中心に受注競争が激しい市場です。大阪特有の「安くて早い」を求める顧客ニーズへの対応がデジタル活用の動機となっています。"
+challenge_summary: "価格競争が厳しい大阪の印刷業では、AI自動面付けによる用紙効率の最適化と、印刷品質のAI検査による刷り直し削減が利益率改善に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

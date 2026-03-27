@@ -8,8 +8,8 @@ industry_id: "retail"
 prefecture_id: "kanagawa"
 tags: ["小売・卸売業", "AI活用", "神奈川県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "神奈川県は横浜・川崎の大型商業施設と、湘南・鎌倉のライフスタイル型店舗が共存する多様な小売市場です。人口密度が高く、店舗間の顧客獲得競争も激しい地域です。"
+challenge_summary: "競争が激しい神奈川の小売業では、AIレコメンドエンジンによるECと実店舗の連携と、来店予測に基づく店舗スタッフの最適配置が顧客体験の差別化に有効です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

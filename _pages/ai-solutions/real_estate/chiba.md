@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "chiba"
 tags: ["不動産業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は千葉ニュータウン・流山おおたかの森など計画都市の発展と、海浜エリアのリゾートマンション需要が特徴的です。物流施設用地の取引も活発です。"
+challenge_summary: "計画都市と物流施設の需要が混在する千葉では、AIによる用途別地価トレンド予測と、テナント需要予測が投資判断の精度向上に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

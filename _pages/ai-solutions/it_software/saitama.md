@@ -8,8 +8,8 @@ industry_id: "it_software"
 prefecture_id: "saitama"
 tags: ["IT・ソフトウェア", "AI活用", "埼玉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "埼玉県は大宮・川口を中心に中小のシステム開発会社が集まり、首都圏企業のニアショア開発やSES事業を展開しています。東京へのアクセスの良さから、ハイブリッド勤務の拠点としても選ばれています。"
+challenge_summary: "SES・受託開発が中心の埼玉県IT企業では、AIコーディングアシスタントの導入により、エンジニア一人あたりの生産性向上と案件対応力の強化が期待できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "hokkaido"
 tags: ["不動産業", "AI活用", "北海道", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "北海道はニセコ・富良野のリゾート不動産需要と、札幌市内のマンション市場が二極化しています。海外投資家によるリゾート物件の購入が地価を押し上げている地域もあります。"
+challenge_summary: "リゾートと都市部で二極化する北海道では、AI市場分析による投資物件の収益予測と、多言語対応の物件紹介システムが国内外の顧客対応力を強化します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

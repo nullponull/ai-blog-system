@@ -8,8 +8,8 @@ industry_id: "retail"
 prefecture_id: "aichi"
 tags: ["小売・卸売業", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県は名古屋駅・栄エリアの大型商業施設と、郊外型ショッピングモールが両立する小売市場です。堅実な消費傾向があり、品揃えの最適化と顧客ロイヤルティの構築が重要視されています。"
+challenge_summary: "堅実な消費者が多い愛知県では、AI顧客分析によるリピーター育成と、棚割分析AIによる品揃えの最適化が着実な売上成長につながります。"
 sitemap:
   priority: 0.7
   changefreq: monthly

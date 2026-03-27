@@ -8,8 +8,8 @@ industry_id: "service"
 prefecture_id: "tokyo"
 tags: ["サービス業", "AI活用", "東京都", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "東京都は日本最大のサービス業集積地であり、飲食・宿泊・人材・ITサービスなど多様な業態が密集しています。インバウンド需要の回復により多言語対応の重要性も増しています。"
+challenge_summary: "多言語対応が急務の東京のサービス業では、AIチャットボットによる24時間多言語対応と、需要予測に基づくシフト最適化が人手不足解消の即効策です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

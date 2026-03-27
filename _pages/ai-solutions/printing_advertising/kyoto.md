@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "kyoto"
 tags: ["印刷・広告業", "AI活用", "京都府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "京都府は伝統工芸品のカタログ・パンフレットや、寺社仏閣の御朱印帳・案内物など、伝統文化に関連した独自の印刷需要があります。和紙・特殊紙を使った高付加価値印刷も特徴です。"
+challenge_summary: "伝統的な印刷需要がある京都では、AIによる特殊紙対応の色調整最適化と、デジタルアーカイブからの伝統柄デザイン生成が新旧融合の商品開発を支援します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

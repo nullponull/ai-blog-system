@@ -8,8 +8,8 @@ industry_id: "retail"
 prefecture_id: "hyogo"
 tags: ["小売・卸売業", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は三宮・元町の都市型商業エリアと、明石・姫路などの地方商店街が共存する多層的な小売市場です。神戸ブランドを活かした食品・ファッション小売も特徴です。"
+challenge_summary: "神戸ブランドを持つ兵庫県の小売業では、AIによる顧客セグメント分析と個別最適なプロモーション配信が、ブランド価値を維持しながらの売上拡大に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

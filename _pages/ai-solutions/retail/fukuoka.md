@@ -8,8 +8,8 @@ industry_id: "retail"
 prefecture_id: "fukuoka"
 tags: ["小売・卸売業", "AI活用", "福岡県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "福岡県は天神・博多の商業集積地に加え、アジア玄関口としてのクルーズ船旅客や韓国人観光客の買い物需要が大きい地域です。地場の食品小売やドラッグストアも競争が激しいエリアです。"
+challenge_summary: "アジア圏からの旅行客が多い福岡では、AIによる購買トレンド分析と自動発注により、インバウンド需要の波に素早く対応した品揃え調整が可能になります。"
 sitemap:
   priority: 0.7
   changefreq: monthly

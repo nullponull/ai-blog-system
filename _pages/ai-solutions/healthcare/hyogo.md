@@ -8,8 +8,8 @@ industry_id: "healthcare"
 prefecture_id: "hyogo"
 tags: ["医療・ヘルスケア", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は神戸医療産業都市（ポートアイランド）にバイオ・医療機器企業が集積し、先端医療技術の開発・実証フィールドとして機能しています。スーパーコンピューター「富岳」との連携研究も進んでいます。"
+challenge_summary: "医療産業都市を有する兵庫県では、AIによる創薬スクリーニングの加速と、臨床データ解析の自動化が研究開発型医療機関の競争力強化に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

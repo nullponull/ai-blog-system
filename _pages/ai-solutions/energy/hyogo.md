@@ -8,8 +8,8 @@ industry_id: "energy"
 prefecture_id: "hyogo"
 tags: ["エネルギー業", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は神戸製鋼のエネルギー事業や、淡路島の再エネ実証など多様なエネルギープロジェクトが進行中です。水素サプライチェーンの構築にも取り組んでいます。"
+challenge_summary: "多様なエネルギー事業がある兵庫では、AIによるエネルギー設備の予知保全と、複数電源の最適ディスパッチが設備稼働率の向上と安定供給に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

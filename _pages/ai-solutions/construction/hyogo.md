@@ -8,8 +8,8 @@ industry_id: "construction"
 prefecture_id: "hyogo"
 tags: ["建設業", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は阪神・淡路大震災の経験から耐震補強・防災インフラの整備に力を入れており、神戸港周辺の再開発や播磨地域の産業施設建設も継続しています。"
+challenge_summary: "防災インフラの点検・補強が重要な兵庫県では、AI画像解析によるコンクリート劣化診断の自動化が、点検業務の効率化と安全性向上に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

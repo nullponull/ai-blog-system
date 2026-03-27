@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "aichi"
 tags: ["印刷・広告業", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県の印刷・広告業は自動車産業のカタログ・マニュアル制作需要を基盤に発展しており、技術文書の多言語化やDTPのデジタル化が進んでいます。"
+challenge_summary: "技術文書制作が多い愛知の印刷業では、AI翻訳と自動レイアウト調整により、多言語マニュアルの制作工数を大幅に削減できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

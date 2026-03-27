@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "hyogo"
 tags: ["不動産業", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は神戸市の都市型不動産と、西宮・芦屋の高級住宅地、播磨地域の産業用不動産が共存する多層的な市場です。震災復興で建替えが進んだ物件の築年数も一定のサイクルに入っています。"
+challenge_summary: "多層的な不動産市場を持つ兵庫県では、AIによるエリア特性分析と物件ポートフォリオの最適化提案が、効率的な営業活動と収益向上を支援します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "food_restaurant"
 prefecture_id: "chiba"
 tags: ["食品・飲食業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は落花生・梨・醤油など特産品の加工業が盛んで、銚子の醤油醸造は全国シェアの約3割を占めています。成田空港周辺では機内食製造の需要も大きいです。"
+challenge_summary: "伝統的な醸造業が盛んな千葉県では、AIセンサーによる発酵プロセスの最適管理と、品質のばらつき低減が伝統技術のデジタル化に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "real_estate"
 prefecture_id: "osaka"
 tags: ["不動産業", "AI活用", "大阪府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "大阪府は万博・IR関連の地価変動が注目されており、梅田・なんば・天王寺の再開発エリアを中心に不動産投資が活発です。中古マンション市場も流通量が多い地域です。"
+challenge_summary: "再開発による地価変動が大きい大阪では、AIによるエリア別価格予測と、投資利回りシミュレーションの自動化が不動産仲介の提案力強化に有効です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "logistics"
 prefecture_id: "chiba"
 tags: ["物流・運輸業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は成田空港の航空貨物と、千葉港のコンテナ物流を併せ持つ陸海空の物流結節点です。印西・柏エリアには近年大型物流施設の建設が相次いでいます。"
+challenge_summary: "陸海空の物流が交差する千葉では、AIによるマルチモーダル輸送の最適化と、航空貨物の需要予測が輸送コスト削減と納期短縮を同時に実現します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

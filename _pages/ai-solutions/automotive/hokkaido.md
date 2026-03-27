@@ -8,8 +8,8 @@ industry_id: "automotive"
 prefecture_id: "hokkaido"
 tags: ["自動車業", "AI活用", "北海道", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "北海道は寒冷地テスト・冬季走行試験の拠点として自動車業界に重要な役割を果たしています。広大な土地を活かした自動運転の実証実験フィールドとしても注目されています。"
+challenge_summary: "冬季テストの拠点である北海道では、AIによる寒冷地走行データの自動分析と、雪道・凍結路面での自動運転アルゴリズム検証が技術開発の効率化に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

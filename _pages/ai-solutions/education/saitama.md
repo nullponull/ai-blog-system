@@ -8,8 +8,8 @@ industry_id: "education"
 prefecture_id: "saitama"
 tags: ["教育業", "AI活用", "埼玉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "埼玉県は県立高校の数が多く、教員の業務負荷軽減が行政課題となっています。部活動の外部委託と併せて、教員が授業に集中できる環境整備が進められています。"
+challenge_summary: "教員の業務負荷が課題の埼玉県では、AI採点システムと通知表コメント生成の自動化により、教員が生徒との対話に充てる時間を大幅に増やせます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

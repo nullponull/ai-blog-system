@@ -8,8 +8,8 @@ industry_id: "education"
 prefecture_id: "aichi"
 tags: ["教育業", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県はものづくり人材の育成に力を入れており、工業高校・高専の教育とAI・デジタルスキルの統合が課題となっています。企業と教育機関の連携も活発です。"
+challenge_summary: "ものづくり教育が盛んな愛知では、AIシミュレーターによる実習の補完と、技能習得の進捗を可視化するAI評価システムが人材育成の効率化に貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

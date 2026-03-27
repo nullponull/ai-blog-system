@@ -8,8 +8,8 @@ industry_id: "automotive"
 prefecture_id: "saitama"
 tags: ["自動車業", "AI活用", "埼玉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "埼玉県はホンダの研究開発拠点（和光市）と、狭山・寄居の生産拠点を抱える自動車産業の重要拠点です。二輪車・汎用エンジンの生産も特徴的です。"
+challenge_summary: "ホンダのR&Dと生産が共存する埼玉では、AIによるパワートレインの設計最適化と、工場の予知保全がEV・HV開発の加速と生産効率の向上に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

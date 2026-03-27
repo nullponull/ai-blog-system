@@ -8,8 +8,8 @@ industry_id: "energy"
 prefecture_id: "tokyo"
 tags: ["エネルギー業", "AI活用", "東京都", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "東京都は日本最大の電力消費地であり、東京電力の管轄エリアとしてエネルギー需給バランスの管理が重要です。都心部のビル省エネと再エネ導入の両立が政策課題となっています。"
+challenge_summary: "最大の電力消費地である東京では、AIによるビル群の電力需要予測と、分散型エネルギーリソースの最適制御がカーボンニュートラル達成に不可欠です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

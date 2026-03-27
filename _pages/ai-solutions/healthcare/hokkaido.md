@@ -8,8 +8,8 @@ industry_id: "healthcare"
 prefecture_id: "hokkaido"
 tags: ["医療・ヘルスケア", "AI活用", "北海道", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "北海道は広大な面積に医療機関が分散しており、特に地方部では医師不足が深刻です。冬季の通院困難やへき地医療の維持が独自の課題として存在しています。"
+challenge_summary: "医師不足と広域分散が課題の北海道では、AI問診・トリアージシステムとオンライン診療の組み合わせが、地域医療のアクセス格差解消に大きく貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

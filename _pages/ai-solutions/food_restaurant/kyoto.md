@@ -8,8 +8,8 @@ industry_id: "food_restaurant"
 prefecture_id: "kyoto"
 tags: ["食品・飲食業", "AI活用", "京都府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "京都府は京漬物・八つ橋・宇治茶など伝統食品のブランド力が高く、料亭文化に支えられた高級飲食市場も特徴的です。食の伝統と革新のバランスが経営の要です。"
+challenge_summary: "伝統食品のブランドが強い京都では、AIによる需要予測で観光シーズンの生産量を最適化し、品質管理の数値化で職人技の標準化を支援できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

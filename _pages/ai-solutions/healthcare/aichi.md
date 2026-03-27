@@ -8,8 +8,8 @@ industry_id: "healthcare"
 prefecture_id: "aichi"
 tags: ["医療・ヘルスケア", "AI活用", "愛知県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "愛知県は名古屋大学医学部を中核とした医療クラスターが形成されており、医療機器メーカーとの共同開発も活発です。トヨタの生産方式を医療に応用する効率化の取り組みも特徴的です。"
+challenge_summary: "製造業の効率化ノウハウが根付く愛知の医療機関では、AIによる病床管理の最適化と手術室稼働率の向上が、限られた医療資源の有効活用に直結します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

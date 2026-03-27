@@ -8,8 +8,8 @@ industry_id: "automotive"
 prefecture_id: "chiba"
 tags: ["自動車業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は自動車物流の拠点として千葉港・木更津に完成車の輸出入施設があり、自動車関連の物流・整備事業が集積しています。自動運転の公道実証も行われています。"
+challenge_summary: "自動車物流の拠点である千葉では、AIによる完成車の配送ルート最適化と、港湾での在庫管理自動化が物流コスト削減と納期短縮に効果的です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

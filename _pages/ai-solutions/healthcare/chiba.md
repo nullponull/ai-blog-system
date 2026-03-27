@@ -8,8 +8,8 @@ industry_id: "healthcare"
 prefecture_id: "chiba"
 tags: ["医療・ヘルスケア", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は千葉大学医学部・亀田総合病院など先進的な医療機関がある一方、房総半島南部では医療過疎が進行しています。東京近郊と地方部の医療格差が県内課題です。"
+challenge_summary: "医療格差が大きい千葉県では、AIを活用した遠隔画像診断と、診療所向けAI問診システムの導入が、地方部の医療アクセス改善に有効です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "tokyo"
 tags: ["印刷・広告業", "AI活用", "東京都", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "東京都は広告代理店・印刷会社が最も集中する日本の広告・クリエイティブ産業の中心地です。デジタルシフトの波を直接受け、印刷物からWebコンテンツへの転換が急速に進んでいます。"
+challenge_summary: "デジタルシフトが加速する東京の広告業では、画像生成AIによるクリエイティブ制作の効率化と、AIコピーライティングによる多パターン同時制作が競争力維持の鍵です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

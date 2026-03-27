@@ -8,8 +8,8 @@ industry_id: "energy"
 prefecture_id: "kyoto"
 tags: ["エネルギー業", "AI活用", "京都府", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "京都府は京都議定書の採択地として環境意識が高く、大学・研究機関と連携した省エネ技術の開発が盛んです。文化財を守る観点からも景観に配慮した再エネ導入が求められています。"
+challenge_summary: "環境意識が高い京都では、AIによる建物単位の省エネ最適化と、景観に配慮した再エネ設備の最適配置シミュレーションが持続可能なまちづくりに貢献します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "energy"
 prefecture_id: "chiba"
 tags: ["エネルギー業", "AI活用", "千葉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "千葉県は京葉工業地域の石油化学コンビナートと連携したエネルギー供給拠点であり、LNG基地・火力発電所が湾岸に集中しています。洋上風力の候補海域もあります。"
+challenge_summary: "コンビナートと発電施設が集中する千葉では、AIによるプラント運転の最適化と、エネルギー消費パターンの予測分析が省エネとコスト削減を同時に実現します。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "hyogo"
 tags: ["印刷・広告業", "AI活用", "兵庫県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "兵庫県は神戸のファッション・ビューティー関連の広告需要と、播磨地域の産業向け技術印刷が共存する市場です。パッケージ印刷の品質に対するこだわりも強い地域です。"
+challenge_summary: "パッケージ印刷品質が重視される兵庫では、AI色差検知による印刷品質の安定化と、デザインAIによるパッケージデザイン案の多数生成が差別化に有効です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

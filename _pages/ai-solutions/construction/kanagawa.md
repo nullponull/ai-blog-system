@@ -8,8 +8,8 @@ industry_id: "construction"
 prefecture_id: "kanagawa"
 tags: ["建設業", "AI活用", "神奈川県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "神奈川県は横浜・川崎の都市再開発と、相模原・厚木方面の産業施設建設が並行して進む建設需要の旺盛な地域です。首都圏の防災インフラ整備も重要な建設テーマとなっています。"
+challenge_summary: "都市再開発と産業施設建設が並行する神奈川では、AIによる施工進捗の自動モニタリングと安全管理の効率化が、複数現場の同時管理に有効です。"
 sitemap:
   priority: 0.7
   changefreq: monthly

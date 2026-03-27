@@ -8,8 +8,8 @@ industry_id: "printing_advertising"
 prefecture_id: "hokkaido"
 tags: ["印刷・広告業", "AI活用", "北海道", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "北海道は観光パンフレット・食品パッケージなど、地域の観光・食品産業と連動した印刷需要が特徴的です。広大なエリアをカバーするため、地域密着型の印刷会社が各都市に分散しています。"
+challenge_summary: "観光・食品パッケージ需要が大きい北海道では、AIによる季節ごとのデザインバリエーション自動生成と、写真素材の自動補正が制作効率を向上させます。"
 sitemap:
   priority: 0.7
   changefreq: monthly

@@ -8,8 +8,8 @@ industry_id: "logistics"
 prefecture_id: "saitama"
 tags: ["物流・運輸業", "AI活用", "埼玉県", "DX", "中小企業"]
 author: "ALLFORCES編集部"
-local_context: ""
-challenge_summary: ""
+local_context: "埼玉県は圏央道沿線に大型物流施設が急増しており、首都圏のEC物流拠点として急成長中です。久喜・加須エリアは「物流銀座」とも呼ばれる新興の物流集積地です。"
+challenge_summary: "EC物流拠点として急成長する埼玉では、AI倉庫管理ロボットとピッキング最適化の組み合わせにより、人手不足の中でも出荷能力を大幅に向上できます。"
 sitemap:
   priority: 0.7
   changefreq: monthly
