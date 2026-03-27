@@ -1,0 +1,75 @@
+---
+layout: default
+title: "IT業界のAI活用ガイド | 地域別AI導入状況 | AIコンパス"
+description: "IT・ソフトウェアのAI導入率は52.7%。全国の地域別にIT・ソフトウェアのAI活用状況・課題・ソリューションを解説。"
+permalink: /ai-solutions/it_software/
+sitemap:
+  priority: 0.8
+  changefreq: weekly
+---
+
+<div class="pseo-hub">
+  <nav class="breadcrumb">
+    <a href="/">ホーム</a> &gt;
+    <a href="/ai-solutions/">AI導入ガイド</a> &gt;
+    <span>IT業界のAI活用</span>
+  </nav>
+
+  <h1>IT業界のAI活用ガイド</h1>
+
+  <div class="pseo-hub-stats">
+    <div class="pseo-stat">
+      <span class="pseo-stat-num">52.7%</span>
+      <span class="pseo-stat-label">AI導入率</span>
+    </div>
+    <div class="pseo-stat">
+      <span class="pseo-stat-num">840</span>
+      <span class="pseo-stat-label">調査対象企業</span>
+    </div>
+  </div>
+
+  <section>
+    <h2>IT・ソフトウェアの主要課題</h2>
+    <ul>
+      <li>エンジニア不足</li>
+      <li>レガシーシステムの保守負荷</li>
+      <li>開発生産性の向上</li>
+    </ul>
+    <p class="pseo-source">出典: 総務省 令和5年通信利用動向調査</p>
+  </section>
+
+  <section>
+    <h2>AI活用の主なユースケース</h2>
+    <ul>
+      <li>AIコーディングアシスタント</li>
+      <li>テスト自動化</li>
+      <li>コードレビューAI</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>地域別ガイド</h2>
+    <p>IT・ソフトウェアのAI活用を地域ごとにまとめています。</p>
+    <div class="pseo-region-grid">
+      {% for pref in site.data.pseo.prefectures %}
+      <a href="/ai-solutions/it_software/{{ pref.id }}/" class="pseo-region-link">
+        {{ pref.name }}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>関連する補助金</h2>
+    <ul>
+      <li>IT導入補助金</li>
+    </ul>
+    <p class="pseo-note">※ 公募状況は年度により変更されます。最新情報は各省庁サイトをご確認ください。</p>
+  </section>
+
+  <section class="pseo-cta">
+    <h2>IT・ソフトウェアのAI導入をご検討の方へ</h2>
+    <a href="/contact/" class="pseo-cta-button">無料相談はこちら</a>
+    <p><a href="/ai-solutions/">他の業界を見る</a></p>
+  </section>
+</div>

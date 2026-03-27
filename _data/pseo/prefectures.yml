@@ -1,0 +1,331 @@
+# 主要10都市（Phase 1: W1-4で投入）
+- id: tokyo
+  name: 東京都
+  region: 関東
+  business_count: 620000
+  top_industries: ["サービス業", "情報通信業", "卸売業"]
+  priority: 1
+
+- id: osaka
+  name: 大阪府
+  region: 近畿
+  business_count: 310000
+  top_industries: ["製造業", "卸売業", "サービス業"]
+  priority: 1
+
+- id: aichi
+  name: 愛知県
+  region: 中部
+  business_count: 250000
+  top_industries: ["製造業", "卸売業", "サービス業"]
+  priority: 1
+
+- id: fukuoka
+  name: 福岡県
+  region: 九州
+  business_count: 160000
+  top_industries: ["サービス業", "小売業", "製造業"]
+  priority: 1
+
+- id: hokkaido
+  name: 北海道
+  region: 北海道
+  business_count: 150000
+  top_industries: ["サービス業", "食品加工業", "観光業"]
+  priority: 1
+
+- id: kanagawa
+  name: 神奈川県
+  region: 関東
+  business_count: 230000
+  top_industries: ["サービス業", "製造業", "情報通信業"]
+  priority: 1
+
+- id: saitama
+  name: 埼玉県
+  region: 関東
+  business_count: 180000
+  top_industries: ["製造業", "サービス業", "小売業"]
+  priority: 1
+
+- id: chiba
+  name: 千葉県
+  region: 関東
+  business_count: 160000
+  top_industries: ["サービス業", "製造業", "小売業"]
+  priority: 1
+
+- id: hyogo
+  name: 兵庫県
+  region: 近畿
+  business_count: 160000
+  top_industries: ["製造業", "サービス業", "小売業"]
+  priority: 1
+
+- id: kyoto
+  name: 京都府
+  region: 近畿
+  business_count: 95000
+  top_industries: ["サービス業", "製造業", "観光業"]
+  priority: 1
+
+# 地方主要県（Phase 2: W5-8で投入）
+- id: miyagi
+  name: 宮城県
+  region: 東北
+  business_count: 72000
+  top_industries: ["サービス業", "製造業", "卸売業"]
+  priority: 2
+
+- id: hiroshima
+  name: 広島県
+  region: 中国
+  business_count: 95000
+  top_industries: ["製造業", "サービス業", "卸売業"]
+  priority: 2
+
+- id: niigata
+  name: 新潟県
+  region: 中部
+  business_count: 75000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 2
+
+- id: shizuoka
+  name: 静岡県
+  region: 中部
+  business_count: 120000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 2
+
+- id: ibaraki
+  name: 茨城県
+  region: 関東
+  business_count: 85000
+  top_industries: ["製造業", "農業", "サービス業"]
+  priority: 2
+
+- id: nagano
+  name: 長野県
+  region: 中部
+  business_count: 70000
+  top_industries: ["製造業", "観光業", "農業"]
+  priority: 2
+
+- id: gifu
+  name: 岐阜県
+  region: 中部
+  business_count: 65000
+  top_industries: ["製造業", "サービス業", "小売業"]
+  priority: 2
+
+- id: gunma
+  name: 群馬県
+  region: 関東
+  business_count: 65000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 2
+
+- id: tochigi
+  name: 栃木県
+  region: 関東
+  business_count: 60000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 2
+
+- id: okayama
+  name: 岡山県
+  region: 中国
+  business_count: 60000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 2
+
+- id: mie
+  name: 三重県
+  region: 中部
+  business_count: 55000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 2
+
+- id: kumamoto
+  name: 熊本県
+  region: 九州
+  business_count: 52000
+  top_industries: ["農業", "サービス業", "製造業"]
+  priority: 2
+
+- id: kagoshima
+  name: 鹿児島県
+  region: 九州
+  business_count: 50000
+  top_industries: ["農業", "サービス業", "食品加工業"]
+  priority: 2
+
+- id: okinawa
+  name: 沖縄県
+  region: 九州
+  business_count: 48000
+  top_industries: ["観光業", "サービス業", "小売業"]
+  priority: 2
+
+- id: nara
+  name: 奈良県
+  region: 近畿
+  business_count: 35000
+  top_industries: ["サービス業", "製造業", "観光業"]
+  priority: 2
+
+# 残り22県（Phase 3: W9-12で投入）
+- id: iwate
+  name: 岩手県
+  region: 東北
+  business_count: 38000
+  top_industries: ["農業", "製造業", "サービス業"]
+  priority: 3
+
+- id: akita
+  name: 秋田県
+  region: 東北
+  business_count: 30000
+  top_industries: ["農業", "製造業", "サービス業"]
+  priority: 3
+
+- id: yamagata
+  name: 山形県
+  region: 東北
+  business_count: 35000
+  top_industries: ["製造業", "農業", "サービス業"]
+  priority: 3
+
+- id: fukushima
+  name: 福島県
+  region: 東北
+  business_count: 55000
+  top_industries: ["製造業", "農業", "サービス業"]
+  priority: 3
+
+- id: aomori
+  name: 青森県
+  region: 東北
+  business_count: 35000
+  top_industries: ["農業", "漁業", "サービス業"]
+  priority: 3
+
+- id: toyama
+  name: 富山県
+  region: 中部
+  business_count: 35000
+  top_industries: ["製造業", "医薬品", "サービス業"]
+  priority: 3
+
+- id: ishikawa
+  name: 石川県
+  region: 中部
+  business_count: 38000
+  top_industries: ["製造業", "サービス業", "観光業"]
+  priority: 3
+
+- id: fukui
+  name: 福井県
+  region: 中部
+  business_count: 28000
+  top_industries: ["製造業", "繊維業", "サービス業"]
+  priority: 3
+
+- id: yamanashi
+  name: 山梨県
+  region: 中部
+  business_count: 25000
+  top_industries: ["製造業", "農業", "観光業"]
+  priority: 3
+
+- id: shiga
+  name: 滋賀県
+  region: 近畿
+  business_count: 42000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 3
+
+- id: wakayama
+  name: 和歌山県
+  region: 近畿
+  business_count: 28000
+  top_industries: ["農業", "製造業", "サービス業"]
+  priority: 3
+
+- id: tottori
+  name: 鳥取県
+  region: 中国
+  business_count: 18000
+  top_industries: ["農業", "サービス業", "製造業"]
+  priority: 3
+
+- id: shimane
+  name: 島根県
+  region: 中国
+  business_count: 22000
+  top_industries: ["サービス業", "製造業", "農業"]
+  priority: 3
+
+- id: yamaguchi
+  name: 山口県
+  region: 中国
+  business_count: 42000
+  top_industries: ["製造業", "サービス業", "化学工業"]
+  priority: 3
+
+- id: tokushima
+  name: 徳島県
+  region: 四国
+  business_count: 24000
+  top_industries: ["製造業", "農業", "サービス業"]
+  priority: 3
+
+- id: kagawa
+  name: 香川県
+  region: 四国
+  business_count: 30000
+  top_industries: ["サービス業", "製造業", "農業"]
+  priority: 3
+
+- id: ehime
+  name: 愛媛県
+  region: 四国
+  business_count: 42000
+  top_industries: ["製造業", "農業", "サービス業"]
+  priority: 3
+
+- id: kochi
+  name: 高知県
+  region: 四国
+  business_count: 22000
+  top_industries: ["農業", "漁業", "サービス業"]
+  priority: 3
+
+- id: saga
+  name: 佐賀県
+  region: 九州
+  business_count: 25000
+  top_industries: ["製造業", "農業", "サービス業"]
+  priority: 3
+
+- id: nagasaki
+  name: 長崎県
+  region: 九州
+  business_count: 38000
+  top_industries: ["サービス業", "製造業", "漁業"]
+  priority: 3
+
+- id: oita
+  name: 大分県
+  region: 九州
+  business_count: 35000
+  top_industries: ["製造業", "サービス業", "農業"]
+  priority: 3
+
+- id: miyazaki
+  name: 宮崎県
+  region: 九州
+  business_count: 32000
+  top_industries: ["農業", "サービス業", "製造業"]
+  priority: 3

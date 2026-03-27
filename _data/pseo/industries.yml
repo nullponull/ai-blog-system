@@ -1,0 +1,220 @@
+- id: manufacturing
+  name: 製造業
+  display_name: "製造業のAI活用"
+  company_count: 1859
+  ai_adoption_rate: "28.3%"
+  source: "総務省 令和5年通信利用動向調査"
+  top_challenges:
+    - "品質検査の属人化"
+    - "熟練技術者の高齢化と技術継承"
+    - "多品種少量生産への対応"
+  top_use_cases:
+    - "外観検査AI（不良品検出）"
+    - "予知保全（設備異常の予兆検知）"
+    - "需要予測と生産計画最適化"
+  related_posts_tags: ["製造業", "品質検査", "予知保全", "IoT"]
+  related_subsidies: ["ものづくり補助金", "IT導入補助金"]
+
+- id: construction
+  name: 建設業
+  display_name: "建設業のAI活用"
+  company_count: 805
+  ai_adoption_rate: "15.2%"
+  source: "国土交通省 建設業活動実態調査"
+  top_challenges:
+    - "深刻な人手不足（2024年問題）"
+    - "安全管理の高度化"
+    - "施工管理の効率化"
+  top_use_cases:
+    - "画像AIによる施工品質チェック"
+    - "AIを使った工程管理の最適化"
+    - "ドローン×AIの測量・点検"
+  related_posts_tags: ["建設業", "施工管理", "ドローン", "BIM"]
+  related_subsidies: ["IT導入補助金", "事業再構築補助金"]
+
+- id: service
+  name: サービス業
+  display_name: "サービス業のAI活用"
+  company_count: 1403
+  ai_adoption_rate: "22.1%"
+  source: "総務省 令和5年通信利用動向調査"
+  top_challenges:
+    - "慢性的な人手不足"
+    - "顧客対応の品質均一化"
+    - "予約・シフト管理の非効率"
+  top_use_cases:
+    - "AIチャットボットによる顧客対応"
+    - "需要予測によるシフト最適化"
+    - "レコメンドエンジンによる売上向上"
+  related_posts_tags: ["サービス業", "チャットボット", "CRM"]
+  related_subsidies: ["IT導入補助金", "小規模事業者持続化補助金"]
+
+- id: it_software
+  name: IT・ソフトウェア
+  display_name: "IT業界のAI活用"
+  company_count: 840
+  ai_adoption_rate: "52.7%"
+  source: "総務省 令和5年通信利用動向調査"
+  top_challenges:
+    - "エンジニア不足"
+    - "レガシーシステムの保守負荷"
+    - "開発生産性の向上"
+  top_use_cases:
+    - "AIコーディングアシスタント"
+    - "テスト自動化"
+    - "コードレビューAI"
+  related_posts_tags: ["IT", "ソフトウェア開発", "GitHub Copilot", "Claude Code"]
+  related_subsidies: ["IT導入補助金"]
+
+- id: retail
+  name: 小売・卸売業
+  display_name: "小売業のAI活用"
+  company_count: 681
+  ai_adoption_rate: "31.5%"
+  source: "経済産業省 商業動態統計"
+  top_challenges:
+    - "在庫管理の最適化"
+    - "EC対応の遅れ"
+    - "顧客データの活用不足"
+  top_use_cases:
+    - "需要予測による在庫最適化"
+    - "パーソナライズドマーケティング"
+    - "画像認識による棚割分析"
+  related_posts_tags: ["小売業", "EC", "需要予測", "マーケティング"]
+  related_subsidies: ["IT導入補助金", "小規模事業者持続化補助金"]
+
+- id: healthcare
+  name: 医療・ヘルスケア
+  display_name: "医療業界のAI活用"
+  company_count: 460
+  ai_adoption_rate: "18.9%"
+  source: "厚生労働省 医療施設動態調査"
+  top_challenges:
+    - "医師・看護師の長時間労働"
+    - "画像診断の負荷増大"
+    - "患者データの活用不足"
+  top_use_cases:
+    - "AI画像診断支援"
+    - "電子カルテの自動要約"
+    - "予約管理・問診AIの導入"
+  related_posts_tags: ["医療", "ヘルスケア", "画像診断", "電子カルテ"]
+  related_subsidies: ["IT導入補助金"]
+
+- id: food_restaurant
+  name: 食品・飲食業
+  display_name: "食品業界のAI活用"
+  company_count: 459
+  ai_adoption_rate: "12.8%"
+  source: "農林水産省 食品産業動態調査"
+  top_challenges:
+    - "品質管理と食品安全"
+    - "原材料コストの高騰"
+    - "人手不足（特に製造ライン）"
+  top_use_cases:
+    - "AI外観検査（異物検出）"
+    - "需要予測によるフードロス削減"
+    - "レシピ開発AIの活用"
+  related_posts_tags: ["食品", "飲食", "品質管理", "フードテック"]
+  related_subsidies: ["ものづくり補助金", "IT導入補助金"]
+
+- id: printing_advertising
+  name: 印刷・広告業
+  display_name: "印刷・広告業のAI活用"
+  company_count: 290
+  ai_adoption_rate: "25.3%"
+  source: "経済産業省 特定サービス産業動態統計"
+  top_challenges:
+    - "受注減少とデジタルシフト"
+    - "クリエイティブ制作の効率化"
+    - "短納期対応"
+  top_use_cases:
+    - "画像生成AIによるデザイン支援"
+    - "AIコピーライティング"
+    - "印刷品質のAI検査"
+  related_posts_tags: ["広告", "デザイン", "画像生成AI", "クリエイティブ"]
+  related_subsidies: ["IT導入補助金", "事業再構築補助金"]
+
+- id: real_estate
+  name: 不動産業
+  display_name: "不動産業のAI活用"
+  company_count: 224
+  ai_adoption_rate: "19.7%"
+  source: "国土交通省 不動産業実態調査"
+  top_challenges:
+    - "物件情報の管理と反響獲得"
+    - "市場価格の変動予測"
+    - "内覧業務の効率化"
+  top_use_cases:
+    - "AI価格査定"
+    - "物件レコメンドエンジン"
+    - "VR内覧×AIの自動案内"
+  related_posts_tags: ["不動産", "PropTech", "価格予測"]
+  related_subsidies: ["IT導入補助金"]
+
+- id: education
+  name: 教育業
+  display_name: "教育業界のAI活用"
+  company_count: 220
+  ai_adoption_rate: "14.5%"
+  source: "文部科学省 学校基本調査"
+  top_challenges:
+    - "教員の長時間労働"
+    - "個別最適化学習の実現"
+    - "不登校対応"
+  top_use_cases:
+    - "アダプティブラーニング"
+    - "採点・評価の自動化"
+    - "AIチューターによる個別指導"
+  related_posts_tags: ["教育", "EdTech", "アダプティブラーニング"]
+  related_subsidies: ["IT導入補助金"]
+
+- id: automotive
+  name: 自動車業
+  display_name: "自動車業界のAI活用"
+  company_count: 178
+  ai_adoption_rate: "35.2%"
+  source: "日本自動車工業会 調査統計"
+  top_challenges:
+    - "自動運転技術の開発"
+    - "EV化への対応"
+    - "サプライチェーンの複雑化"
+  top_use_cases:
+    - "自動運転AI"
+    - "AIによる品質検査"
+    - "サプライチェーン最適化"
+  related_posts_tags: ["自動車", "自動運転", "EV", "ADAS"]
+  related_subsidies: ["ものづくり補助金"]
+
+- id: logistics
+  name: 物流・運輸業
+  display_name: "物流業界のAI活用"
+  company_count: 114
+  ai_adoption_rate: "20.8%"
+  source: "国土交通省 物流センサス"
+  top_challenges:
+    - "ドライバー不足（2024年問題）"
+    - "配送ルートの非効率"
+    - "倉庫作業の自動化"
+  top_use_cases:
+    - "AI配車・ルート最適化"
+    - "倉庫内ピッキングロボット"
+    - "需要予測による配送計画"
+  related_posts_tags: ["物流", "ロジスティクス", "ルート最適化"]
+  related_subsidies: ["IT導入補助金", "事業再構築補助金"]
+
+- id: energy
+  name: エネルギー業
+  display_name: "エネルギー業界のAI活用"
+  company_count: 80
+  ai_adoption_rate: "24.1%"
+  source: "資源エネルギー庁 エネルギー白書"
+  top_challenges:
+    - "カーボンニュートラル対応"
+    - "設備老朽化と保全コスト"
+    - "再エネ出力の変動対応"
+  top_use_cases:
+    - "設備異常予兆検知"
+    - "電力需要予測"
+    - "再エネ出力予測と蓄電最適化"
+  related_posts_tags: ["エネルギー", "電力", "カーボンニュートラル"]
+  related_subsidies: ["省エネ補助金", "事業再構築補助金"]

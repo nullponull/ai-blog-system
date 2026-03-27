@@ -1,0 +1,75 @@
+---
+layout: default
+title: "教育業界のAI活用ガイド | 地域別AI導入状況 | AIコンパス"
+description: "教育業のAI導入率は14.5%。全国の地域別に教育業のAI活用状況・課題・ソリューションを解説。"
+permalink: /ai-solutions/education/
+sitemap:
+  priority: 0.8
+  changefreq: weekly
+---
+
+<div class="pseo-hub">
+  <nav class="breadcrumb">
+    <a href="/">ホーム</a> &gt;
+    <a href="/ai-solutions/">AI導入ガイド</a> &gt;
+    <span>教育業界のAI活用</span>
+  </nav>
+
+  <h1>教育業界のAI活用ガイド</h1>
+
+  <div class="pseo-hub-stats">
+    <div class="pseo-stat">
+      <span class="pseo-stat-num">14.5%</span>
+      <span class="pseo-stat-label">AI導入率</span>
+    </div>
+    <div class="pseo-stat">
+      <span class="pseo-stat-num">220</span>
+      <span class="pseo-stat-label">調査対象企業</span>
+    </div>
+  </div>
+
+  <section>
+    <h2>教育業の主要課題</h2>
+    <ul>
+      <li>教員の長時間労働</li>
+      <li>個別最適化学習の実現</li>
+      <li>不登校対応</li>
+    </ul>
+    <p class="pseo-source">出典: 文部科学省 学校基本調査</p>
+  </section>
+
+  <section>
+    <h2>AI活用の主なユースケース</h2>
+    <ul>
+      <li>アダプティブラーニング</li>
+      <li>採点・評価の自動化</li>
+      <li>AIチューターによる個別指導</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>地域別ガイド</h2>
+    <p>教育業のAI活用を地域ごとにまとめています。</p>
+    <div class="pseo-region-grid">
+      {% for pref in site.data.pseo.prefectures %}
+      <a href="/ai-solutions/education/{{ pref.id }}/" class="pseo-region-link">
+        {{ pref.name }}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>関連する補助金</h2>
+    <ul>
+      <li>IT導入補助金</li>
+    </ul>
+    <p class="pseo-note">※ 公募状況は年度により変更されます。最新情報は各省庁サイトをご確認ください。</p>
+  </section>
+
+  <section class="pseo-cta">
+    <h2>教育業のAI導入をご検討の方へ</h2>
+    <a href="/contact/" class="pseo-cta-button">無料相談はこちら</a>
+    <p><a href="/ai-solutions/">他の業界を見る</a></p>
+  </section>
+</div>

@@ -1,0 +1,46 @@
+---
+layout: default
+title: "業界別AI活用ガイド | AIコンパス"
+description: "13業界のAI導入状況と活用法を解説。製造業・建設業・サービス業・IT・小売業など、業界ごとの課題とAIソリューションを網羅。"
+permalink: /ai-solutions/
+sitemap:
+  priority: 0.9
+  changefreq: weekly
+---
+
+<div class="pseo-index">
+  <h1>業界別AI活用ガイド</h1>
+  <p>各業界のAI導入率・主要課題・活用事例を、全国の地域別にまとめています。</p>
+
+  <div class="pseo-industry-grid">
+    {% for industry in site.data.pseo.industries %}
+    <div class="pseo-industry-card">
+      <h2><a href="/ai-solutions/{{ industry.id }}/">{{ industry.display_name }}</a></h2>
+      <div class="pseo-stats">
+        <span>調査対象: {{ industry.company_count }}社</span>
+        <span>AI導入率: {{ industry.ai_adoption_rate }}</span>
+      </div>
+      <h3>主な課題</h3>
+      <ul>
+        {% for challenge in industry.top_challenges %}
+        <li>{{ challenge }}</li>
+        {% endfor %}
+      </ul>
+      <h3>AI活用例</h3>
+      <ul>
+        {% for usecase in industry.top_use_cases %}
+        <li>{{ usecase }}</li>
+        {% endfor %}
+      </ul>
+      <p class="pseo-source">出典: {{ industry.source }}</p>
+      <a href="/ai-solutions/{{ industry.id }}/" class="pseo-link">{{ industry.name }}のAI活用を地域別に見る →</a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <section class="pseo-cta">
+    <h2>AI導入のご相談を承っています</h2>
+    <p>業界特化のAI導入について、ALLFORCESの専門スタッフがサポートします。</p>
+    <a href="/contact/" class="pseo-cta-button">無料相談はこちら</a>
+  </section>
+</div>

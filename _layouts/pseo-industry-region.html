@@ -1,0 +1,218 @@
+---
+layout: default
+---
+
+{% assign industry = null %}
+{% assign prefecture = null %}
+{% for ind in site.data.pseo.industries %}
+  {% if ind.id == page.industry_id %}
+    {% assign industry = ind %}
+  {% endif %}
+{% endfor %}
+{% for pref in site.data.pseo.prefectures %}
+  {% if pref.id == page.prefecture_id %}
+    {% assign prefecture = pref %}
+  {% endif %}
+{% endfor %}
+
+<article class="pseo-industry-region" itemscope itemtype="https://schema.org/Article">
+
+<!-- Breadcrumb -->
+<nav aria-label="パンくずリスト" class="breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/"><span itemprop="name">ホーム</span></a>
+      <meta itemprop="position" content="1">
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/ai-solutions/"><span itemprop="name">AI導入ガイド</span></a>
+      <meta itemprop="position" content="2">
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/ai-solutions/{{ page.industry_id }}/"><span itemprop="name">{{ industry.display_name }}</span></a>
+      <meta itemprop="position" content="3">
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ prefecture.name }}</span>
+      <meta itemprop="position" content="4">
+    </li>
+  </ol>
+</nav>
+
+<!-- Hero Section (FIXED TEMPLATE) -->
+<header class="pseo-hero">
+  <h1 itemprop="headline">{{ page.title }}</h1>
+  <div class="pseo-meta">
+    <span class="pseo-badge">{{ industry.name }}</span>
+    <span class="pseo-badge">{{ prefecture.name }}</span>
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y年%m月%d日" }} 更新</time>
+    <span itemprop="author" itemscope itemtype="https://schema.org/Organization">
+      <meta itemprop="name" content="ALLFORCES編集部">
+    </span>
+  </div>
+</header>
+
+<!-- Summary Box (FIXED TEMPLATE) -->
+<div class="pseo-summary-box">
+  <h2>{{ prefecture.name }}の{{ industry.name }}企業がAI導入で直面する課題</h2>
+  <p>{{ industry.name }}のAI導入率は全国平均<strong>{{ industry.ai_adoption_rate }}</strong>（{{ industry.source }}）。{{ prefecture.name }}には約<strong>{{ prefecture.business_count | divided_by: 1000 }}千社</strong>以上の事業所があり、{{ prefecture.top_industries | join: "・" }}を中心に産業が集積しています。</p>
+
+  {% if page.local_context %}
+  <!-- AI Generated Section (20%): Local Context Brief -->
+  <p class="pseo-local-context">{{ page.local_context }}</p>
+  {% endif %}
+</div>
+
+<!-- Industry Challenges (FIXED TEMPLATE from _data) -->
+<section class="pseo-section">
+  <h2>{{ industry.name }}が抱える主要課題</h2>
+  <div class="pseo-challenges">
+    {% for challenge in industry.top_challenges %}
+    <div class="pseo-challenge-card">
+      <h3>課題{{ forloop.index }}: {{ challenge }}</h3>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="pseo-source">出典: {{ industry.source }}</p>
+</section>
+
+<!-- AI Use Cases (FIXED TEMPLATE from _data) -->
+<section class="pseo-section">
+  <h2>{{ prefecture.name }}の{{ industry.name }}で効果が期待できるAI活用</h2>
+  <div class="pseo-usecases">
+    {% for usecase in industry.top_use_cases %}
+    <div class="pseo-usecase-card">
+      <h3>{{ usecase }}</h3>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if page.challenge_summary %}
+  <!-- AI Generated Section (20%): Challenge Summary -->
+  <p class="pseo-insight">{{ page.challenge_summary }}</p>
+  {% endif %}
+</section>
+
+<!-- Subsidy Information (FIXED TEMPLATE) -->
+{% if industry.related_subsidies.size > 0 %}
+<section class="pseo-section">
+  <h2>{{ prefecture.name }}で活用できる補助金</h2>
+  <p>{{ industry.name }}のAI導入に活用できる主な補助金制度です。</p>
+  <ul class="pseo-subsidy-list">
+    {% for subsidy in industry.related_subsidies %}
+    <li><strong>{{ subsidy }}</strong></li>
+    {% endfor %}
+  </ul>
+  <p class="pseo-note">※ 補助金の公募状況・要件は年度により変更されます。最新情報は各省庁の公式サイトをご確認ください。</p>
+</section>
+{% endif %}
+
+<!-- Implementation Steps (FIXED TEMPLATE) -->
+<section class="pseo-section">
+  <h2>AI導入の進め方（3ステップ）</h2>
+  <div class="pseo-steps">
+    <div class="pseo-step">
+      <div class="pseo-step-num">1</div>
+      <h3>現状把握（1〜2ヶ月）</h3>
+      <p>自社の業務プロセスを棚卸しし、AI導入で効果が見込める領域を特定します。{{ industry.top_challenges | first }}など、自社にとって最も影響の大きい課題から着手することを推奨します。</p>
+    </div>
+    <div class="pseo-step">
+      <div class="pseo-step-num">2</div>
+      <h3>PoC実施（2〜4ヶ月）</h3>
+      <p>特定した領域で小規模な検証を行います。{{ industry.top_use_cases | first }}など、効果測定が容易なユースケースから始めるのが一般的です。</p>
+    </div>
+    <div class="pseo-step">
+      <div class="pseo-step-num">3</div>
+      <h3>本格導入（4〜8ヶ月）</h3>
+      <p>PoCで効果を確認できた領域を全社展開します。{{ industry.related_subsidies | first }}等の補助金制度の活用も検討してください。</p>
+    </div>
+  </div>
+</section>
+
+<!-- Related Articles (FIXED TEMPLATE - internal links to existing posts) -->
+<section class="pseo-section">
+  <h2>{{ industry.name }}のAI活用に関する最新記事</h2>
+  <div class="pseo-related-posts">
+    {% assign related_count = 0 %}
+    {% for tag in industry.related_posts_tags %}
+      {% for post in site.tags[tag] %}
+        {% if related_count < 5 %}
+          <div class="pseo-related-card">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <time>{{ post.date | date: "%Y/%m/%d" }}</time>
+          </div>
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if related_count == 0 %}
+    <p>関連記事は現在準備中です。<a href="/">トップページ</a>から最新のAI情報をご覧ください。</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Related pSEO Pages (FIXED TEMPLATE - internal links) -->
+<section class="pseo-section pseo-crosslinks">
+  <h2>{{ prefecture.name }}の他業界のAI活用</h2>
+  <ul class="pseo-crosslink-list">
+    {% for ind in site.data.pseo.industries %}
+      {% if ind.id != page.industry_id %}
+      <li><a href="/ai-solutions/{{ ind.id }}/{{ page.prefecture_id }}/">{{ prefecture.name }}の{{ ind.display_name }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h2>他の地域の{{ industry.display_name }}</h2>
+  <ul class="pseo-crosslink-list">
+    {% for pref in site.data.pseo.prefectures %}
+      {% if pref.id != page.prefecture_id and pref.priority == 1 %}
+      <li><a href="/ai-solutions/{{ page.industry_id }}/{{ pref.id }}/">{{ pref.name }}の{{ industry.display_name }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- CTA (FIXED TEMPLATE) -->
+<section class="pseo-cta">
+  <h2>{{ prefecture.name }}での{{ industry.name }}向けAI導入をご検討の方へ</h2>
+  <p>AIコンパス編集部では、業界特化のAI導入についてご相談を承っています。</p>
+  <a href="/contact/" class="pseo-cta-button">無料相談はこちら</a>
+  <p class="pseo-cta-sub"><a href="/ai-solutions/{{ page.industry_id }}/">{{ industry.display_name }}ガイド一覧に戻る</a></p>
+</section>
+
+</article>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "author": {
+    "@type": "Organization",
+    "name": "ALLFORCES編集部",
+    "url": "https://ai-media.co.jp/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AIコンパス by ALLFORCES",
+    "url": "https://ai-media.co.jp/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ai-media.co.jp/assets/images/logo.png"
+    }
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ industry.name }}のAI活用 - {{ prefecture.name }}"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "AIコンパス",
+    "url": "https://ai-media.co.jp/"
+  }
+}
+</script>

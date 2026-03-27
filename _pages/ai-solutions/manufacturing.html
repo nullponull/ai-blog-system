@@ -1,0 +1,76 @@
+---
+layout: default
+title: "製造業のAI活用ガイド | 地域別AI導入状況 | AIコンパス"
+description: "製造業のAI導入率は28.3%。全国の地域別に製造業のAI活用状況・課題・ソリューションを解説。"
+permalink: /ai-solutions/manufacturing/
+sitemap:
+  priority: 0.8
+  changefreq: weekly
+---
+
+<div class="pseo-hub">
+  <nav class="breadcrumb">
+    <a href="/">ホーム</a> &gt;
+    <a href="/ai-solutions/">AI導入ガイド</a> &gt;
+    <span>製造業のAI活用</span>
+  </nav>
+
+  <h1>製造業のAI活用ガイド</h1>
+
+  <div class="pseo-hub-stats">
+    <div class="pseo-stat">
+      <span class="pseo-stat-num">28.3%</span>
+      <span class="pseo-stat-label">AI導入率</span>
+    </div>
+    <div class="pseo-stat">
+      <span class="pseo-stat-num">1,859</span>
+      <span class="pseo-stat-label">調査対象企業</span>
+    </div>
+  </div>
+
+  <section>
+    <h2>製造業の主要課題</h2>
+    <ul>
+      <li>品質検査の属人化</li>
+      <li>熟練技術者の高齢化と技術継承</li>
+      <li>多品種少量生産への対応</li>
+    </ul>
+    <p class="pseo-source">出典: 総務省 令和5年通信利用動向調査</p>
+  </section>
+
+  <section>
+    <h2>AI活用の主なユースケース</h2>
+    <ul>
+      <li>外観検査AI（不良品検出）</li>
+      <li>予知保全（設備異常の予兆検知）</li>
+      <li>需要予測と生産計画最適化</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>地域別ガイド</h2>
+    <p>製造業のAI活用を地域ごとにまとめています。</p>
+    <div class="pseo-region-grid">
+      {% for pref in site.data.pseo.prefectures %}
+      <a href="/ai-solutions/manufacturing/{{ pref.id }}/" class="pseo-region-link">
+        {{ pref.name }}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>関連する補助金</h2>
+    <ul>
+      <li>ものづくり補助金</li>
+      <li>IT導入補助金</li>
+    </ul>
+    <p class="pseo-note">※ 公募状況は年度により変更されます。最新情報は各省庁サイトをご確認ください。</p>
+  </section>
+
+  <section class="pseo-cta">
+    <h2>製造業のAI導入をご検討の方へ</h2>
+    <a href="/contact/" class="pseo-cta-button">無料相談はこちら</a>
+    <p><a href="/ai-solutions/">他の業界を見る</a></p>
+  </section>
+</div>
