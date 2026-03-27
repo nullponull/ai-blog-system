@@ -1,0 +1,16 @@
+---
+layout: pseo-industry-region
+title: "福岡県の建設業におけるAI活用ガイド【2026年版】"
+date: 2026-03-28 01:37:39 +0900
+permalink: /ai-solutions/construction/fukuoka/
+description: "福岡県の建設業向けAI導入ガイド。AI導入率15.2%の業界で、画像AIによる施工品質チェックなど具体的な活用法を解説。"
+industry_id: "construction"
+prefecture_id: "fukuoka"
+tags: ["建設業", "AI活用", "福岡県", "DX", "中小企業"]
+author: "ALLFORCES編集部"
+local_context: ""
+challenge_summary: ""
+sitemap:
+  priority: 0.7
+  changefreq: monthly
+---

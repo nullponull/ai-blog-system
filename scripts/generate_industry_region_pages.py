@@ -162,12 +162,13 @@ def main():
     PAGES_DIR.mkdir(parents=True, exist_ok=True)
     existing = set()
     for f in PAGES_DIR.rglob("*.md"):
-        existing.add(f.stem)
+        # e.g. _pages/ai-solutions/manufacturing/tokyo.md → "manufacturing/tokyo"
+        existing.add(f"{f.parent.name}/{f.stem}")
 
     new_pairs = []
     for ind, pref in pairs:
-        page_stem = f"{ind['id']}_{pref['id']}"
-        if page_stem not in existing:
+        page_key = f"{ind['id']}/{pref['id']}"
+        if page_key not in existing:
             new_pairs.append((ind, pref))
 
     if args.batch > 0:
