@@ -1,12 +1,268 @@
-<div class="google-form-embed">
-    <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfy6aTD3zHmBFMMATrBKd4U_ppvIDYd-h4qtGEaHT_Ljex2TQ/viewform?embedded=true"
-        width="100%"
-        height="867"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        style="max-width: 640px; margin: 0 auto; display: block;">
-        読み込んでいます...
-    </iframe>
-</div>
+<form
+    id="contact-form"
+    action="https://formspree.io/f/xpqjpllv"
+    method="POST"
+    class="contact-form"
+>
+    <!-- Formspree設定 -->
+    <input type="hidden" name="_subject" value="【AIコンパス】お問い合わせ">
+    <input type="hidden" name="_next" value="{{ site.url }}/contact/thanks/">
+    <input type="hidden" name="_language" value="ja">
+
+    <!-- Honeypot（bot対策・非表示） -->
+    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+
+    <!-- reCAPTCHA v3トークン（サイトキー設定後に有効化） -->
+    <!-- <input type="hidden" name="g-recaptcha-response" id="recaptchaResponse"> -->
+
+    <div class="form-group">
+        <label for="name" class="form-label">
+            お名前 <span class="required">*</span>
+        </label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="山田 太郎"
+            class="form-input"
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="company" class="form-label">
+            会社名
+        </label>
+        <input
+            type="text"
+            id="company"
+            name="company"
+            placeholder="株式会社〇〇"
+            class="form-input"
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="email" class="form-label">
+            メールアドレス <span class="required">*</span>
+        </label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="taro@example.com"
+            class="form-input"
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="category" class="form-label">
+            お問い合わせ種別 <span class="required">*</span>
+        </label>
+        <select id="category" name="category" required class="form-select">
+            <option value="" disabled selected>選択してください</option>
+            <option value="AI導入コンサルティング">AI導入コンサルティング</option>
+            <option value="研修・セミナー">研修・セミナー</option>
+            <option value="記事の転載・引用">記事の転載・引用</option>
+            <option value="メディア掲載・取材">メディア掲載・取材</option>
+            <option value="その他">その他</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="message" class="form-label">
+            お問い合わせ内容 <span class="required">*</span>
+        </label>
+        <textarea
+            id="message"
+            name="message"
+            required
+            rows="6"
+            placeholder="お問い合わせ内容をご記入ください"
+            class="form-textarea"
+        ></textarea>
+    </div>
+
+    <div class="form-note">
+        <p>
+            <span class="required">*</span> は必須項目です。
+            送信いただいた内容は <a href="/privacy/">プライバシーポリシー</a> に基づき取り扱います。
+        </p>
+    </div>
+
+    <div class="form-actions">
+        <button type="submit" id="submit-btn" class="form-submit" disabled>
+            <span class="submit-text">送信する</span>
+            <span class="submit-loading" style="display:none;">送信中...</span>
+        </button>
+    </div>
+
+    <div class="recaptcha-notice">
+        スパム対策のため、自動送信を検知するフィルターを導入しています。
+    </div>
+</form>
+
+<!-- フォームバリデーション + 送信UX -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('contact-form');
+    var submitBtn = document.getElementById('submit-btn');
+    var submitText = submitBtn.querySelector('.submit-text');
+    var submitLoading = submitBtn.querySelector('.submit-loading');
+
+    function checkFormValidity() {
+        var name = document.getElementById('name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var category = document.getElementById('category').value;
+        var message = document.getElementById('message').value.trim();
+        submitBtn.disabled = !(name && email && category && message);
+    }
+
+    form.querySelectorAll('input, select, textarea').forEach(function(el) {
+        el.addEventListener('input', checkFormValidity);
+        el.addEventListener('change', checkFormValidity);
+    });
+
+    form.addEventListener('submit', function() {
+        submitBtn.disabled = true;
+        submitText.style.display = 'none';
+        submitLoading.style.display = 'inline';
+    });
+});
+</script>
+
+<style>
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #e8e6e1;
+}
+
+.required {
+    color: #ef4444;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(196, 162, 101, 0.15);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: #e8e6e1;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: inherit;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: rgba(232, 230, 225, 0.3);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #c4a265;
+    box-shadow: 0 0 0 3px rgba(196, 162, 101, 0.15);
+}
+
+.form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23c4a265' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+    cursor: pointer;
+}
+
+.form-select option {
+    background: #1a1a1d;
+    color: #e8e6e1;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-note {
+    font-size: 0.85rem;
+    color: rgba(232, 230, 225, 0.5);
+    line-height: 1.5;
+}
+
+.form-note a {
+    color: #c4a265;
+    text-decoration: none;
+}
+
+.form-note a:hover {
+    text-decoration: underline;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.form-submit {
+    background: linear-gradient(135deg, #c4a265, #a8893e);
+    color: #111113;
+    border: none;
+    border-radius: 8px;
+    padding: 0.875rem 3rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.form-submit:hover:not(:disabled) {
+    background: linear-gradient(135deg, #d4b275, #b89a4e);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(196, 162, 101, 0.3);
+}
+
+.form-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.recaptcha-notice {
+    font-size: 0.75rem;
+    color: rgba(232, 230, 225, 0.35);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.recaptcha-notice a {
+    color: rgba(196, 162, 101, 0.5);
+    text-decoration: none;
+}
+
+.recaptcha-notice a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .form-submit {
+        width: 100%;
+    }
+}
+</style>
