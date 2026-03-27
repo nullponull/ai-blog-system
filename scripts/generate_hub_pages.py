@@ -77,6 +77,22 @@ sitemap:
   </section>
 
   <section>
+    <h2>{ind['name']}の詳細記事</h2>
+    <p>編集部が独自データをもとに{ind['name']}のAI活用を深掘りした記事です。</p>
+    <div class="pseo-related-posts">
+      {{% assign industry_posts = site.posts | where: "categories", "業界別AI活用" %}}
+      {{% for post in industry_posts %}}
+        {{% if post.tags contains "{ind['name']}" %}}
+        <div class="pseo-related-card">
+          <a href="{{{{ post.url }}}}">{{{{ post.title }}}}</a>
+          <time>{{{{ post.date | date: "%Y/%m/%d" }}}}</time>
+        </div>
+        {{% endif %}}
+      {{% endfor %}}
+    </div>
+  </section>
+
+  <section>
     <h2>地域別ガイド</h2>
     <p>{ind['name']}のAI活用を地域ごとにまとめています。</p>
     <div class="pseo-region-grid">
