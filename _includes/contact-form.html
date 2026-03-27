@@ -12,8 +12,8 @@
     <!-- Honeypot（bot対策・非表示） -->
     <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
 
-    <!-- reCAPTCHA v3トークン（サイトキー設定後に有効化） -->
-    <!-- <input type="hidden" name="g-recaptcha-response" id="recaptchaResponse"> -->
+    <!-- reCAPTCHA v3トークン -->
+    <input type="hidden" name="g-recaptcha-response" id="recaptchaResponse">
 
     <div class="form-group">
         <label for="name" class="form-label">
@@ -99,11 +99,14 @@
     </div>
 
     <div class="recaptcha-notice">
-        スパム対策のため、自動送信を検知するフィルターを導入しています。
+        This site is protected by reCAPTCHA and the Google
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and
+        <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms of Service</a> apply.
     </div>
 </form>
 
-<!-- フォームバリデーション + 送信UX -->
+<!-- reCAPTCHA v3 + フォームバリデーション -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc2OJosAAAAAJXZ-jaNRWk0kaYMR6PUmbBK3yIy"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('contact-form');
@@ -124,10 +127,22 @@ document.addEventListener('DOMContentLoaded', function() {
         el.addEventListener('change', checkFormValidity);
     });
 
-    form.addEventListener('submit', function() {
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
         submitBtn.disabled = true;
         submitText.style.display = 'none';
         submitLoading.style.display = 'inline';
+
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lc2OJosAAAAAJXZ-jaNRWk0kaYMR6PUmbBK3yIy', { action: 'contact' })
+                .then(function(token) {
+                    document.getElementById('recaptchaResponse').value = token;
+                    form.submit();
+                })
+                .catch(function() {
+                    form.submit();
+                });
+        });
     });
 });
 </script>
