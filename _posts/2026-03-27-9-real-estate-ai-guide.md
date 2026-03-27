@@ -127,3 +127,13 @@ reading_time: 12
 ### 技術選定のご相談を承っています
 
 AIコンパス編集部では、業界特化のAI導入についてご相談を承っています。お気軽に[株式会社ALLFORCES](https://ai-media.co.jp)までお問い合わせください。
+
+---
+
+## 地域別の不動産業界AI活用ガイド
+
+お住まいの地域における不動産業界のAI導入状況・活用事例・利用可能な補助金情報を、都道府県別にまとめています。
+
+**[不動産業界の地域別AI活用ガイドを見る →](/ai-solutions/real_estate/)**
+
+主要都市のガイド: [東京都](/ai-solutions/real_estate/tokyo/) | [大阪府](/ai-solutions/real_estate/osaka/) | [愛知県](/ai-solutions/real_estate/aichi/) | [福岡県](/ai-solutions/real_estate/fukuoka/) | [北海道](/ai-solutions/real_estate/hokkaido/) | [神奈川県](/ai-solutions/real_estate/kanagawa/)

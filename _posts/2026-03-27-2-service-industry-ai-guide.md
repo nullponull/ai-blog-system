@@ -150,3 +150,13 @@ AIは人の代替ではなく、人の能力を拡張するツールである。
 ### 技術選定のご相談を承っています
 
 AIコンパス編集部では、業界特化のAI導入についてご相談を承っています。「何から始めればよいかわからない」「自社の業務にAIが使えるのか知りたい」という方は、お気軽に[株式会社ALLFORCES](https://ai-media.co.jp)までお問い合わせください。
+
+---
+
+## 地域別のサービス業AI活用ガイド
+
+お住まいの地域におけるサービス業のAI導入状況・活用事例・利用可能な補助金情報を、都道府県別にまとめています。
+
+**[サービス業の地域別AI活用ガイドを見る →](/ai-solutions/service/)**
+
+主要都市のガイド: [東京都](/ai-solutions/service/tokyo/) | [大阪府](/ai-solutions/service/osaka/) | [愛知県](/ai-solutions/service/aichi/) | [福岡県](/ai-solutions/service/fukuoka/) | [北海道](/ai-solutions/service/hokkaido/) | [神奈川県](/ai-solutions/service/kanagawa/)

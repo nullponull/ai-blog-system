@@ -149,3 +149,13 @@ PoCで効果が確認できたら、段階的に展開する。
 ### 技術選定のご相談を承っています
 
 AIコンパス編集部では、業界特化のAI導入についてご相談を承っています。「何から始めればよいかわからない」「自社の業務にAIが使えるのか知りたい」という方は、お気軽に[株式会社ALLFORCES](https://ai-media.co.jp)までお問い合わせください。
+
+---
+
+## 地域別の食品・飲食業界AI活用ガイド
+
+お住まいの地域における食品・飲食業界のAI導入状況・活用事例・利用可能な補助金情報を、都道府県別にまとめています。
+
+**[食品・飲食業界の地域別AI活用ガイドを見る →](/ai-solutions/food_restaurant/)**
+
+主要都市のガイド: [東京都](/ai-solutions/food_restaurant/tokyo/) | [大阪府](/ai-solutions/food_restaurant/osaka/) | [愛知県](/ai-solutions/food_restaurant/aichi/) | [福岡県](/ai-solutions/food_restaurant/fukuoka/) | [北海道](/ai-solutions/food_restaurant/hokkaido/) | [神奈川県](/ai-solutions/food_restaurant/kanagawa/)
