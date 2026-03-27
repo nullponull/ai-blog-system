@@ -163,6 +163,30 @@ hide_breadcrumbs: true
 </section>
 {% endif %}
 
+<!-- Industry AI Guide Section (pSEO) -->
+<section class="ed-section">
+    <div class="ed-section-header">
+        <h2 class="ed-section-title">業界別AI導入ガイド</h2>
+        <a href="/ai-solutions/" class="ed-section-link">全業界を見る <span>&rarr;</span></a>
+    </div>
+    <p style="color: var(--text-secondary, #666); margin-bottom: 1.5rem;">13業界×47都道府県のAI導入状況・活用法・補助金情報をまとめています。</p>
+    <div class="ed-guides-grid">
+        {% for industry in site.data.pseo.industries limit:6 %}
+        <article class="ed-guide-card ed-reveal ed-reveal-delay-{{ forloop.index }}">
+            <span class="ed-guide-badge">{{ industry.ai_adoption_rate }}</span>
+            <h3 class="ed-guide-title">
+                <a href="/ai-solutions/{{ industry.id }}/">{{ industry.display_name }}</a>
+            </h3>
+            <p class="ed-guide-desc">{{ industry.top_use_cases | first }}など、{{ industry.name }}のAI活用法を地域別に解説。</p>
+            <div class="ed-guide-meta">
+                <span>{{ industry.company_count }}社調査</span>
+                <a href="/ai-solutions/{{ industry.id }}/">地域別に見る &rarr;</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
 <!-- Latest Articles Section -->
 <section class="ed-section">
     <div class="ed-section-header">
