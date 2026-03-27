@@ -216,6 +216,31 @@ document.addEventListener('DOMContentLoaded', function() {
     </script>
     {% endif %}
 
+    <!-- pSEO Industry Guide Banner -->
+    {% assign matched_industries = "" | split: "" %}
+    {% for ind in site.data.pseo.industries %}
+      {% for tag in ind.related_posts_tags %}
+        {% if page.tags contains tag or page.categories contains tag %}
+          {% unless matched_industries contains ind %}
+            {% assign matched_industries = matched_industries | push: ind %}
+          {% endunless %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if matched_industries.size > 0 %}
+    <div class="pseo-post-banner">
+      <h4>この記事に関連する業界別AI導入ガイド</h4>
+      <p>地域ごとのAI導入状況・活用法・補助金情報をまとめています。</p>
+      <div class="pseo-post-banner-links">
+        {% for ind in matched_industries limit: 3 %}
+        <a href="/ai-solutions/{{ ind.id }}/">{{ ind.display_name }}（{{ ind.ai_adoption_rate }}）</a>
+        {% endfor %}
+        <a href="/ai-solutions/">全業界を見る →</a>
+      </div>
+    </div>
+    {% endif %}
+
     <!-- Category-based Consulting CTA -->
     {% if site.consulting.enabled %}
     {% assign post_category = page.categories.first %}
