@@ -11,6 +11,13 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+# Import token budget constants (optional)
+try:
+    from llm_orchestration import CHARS_PER_TOKEN, DEFAULT_STAGE2_BUDGET
+    _TOKEN_BUDGET_COMPLIANCE = DEFAULT_STAGE2_BUDGET.get("compliance", 300) * CHARS_PER_TOKEN
+except ImportError:
+    _TOKEN_BUDGET_COMPLIANCE = None
+
 
 class ComplianceLoader:
     """Load compliance rules and supplementary knowledge from knowledge/ directory."""
@@ -54,10 +61,19 @@ class ComplianceLoader:
         return None
 
     def _truncate(self, text: str, max_chars: int = 3000) -> str:
-        """Truncate text to max_chars."""
-        if len(text) <= max_chars:
+        """Truncate text to max_chars, respecting token budget if available.
+
+        When llm_orchestration is loaded, the compliance token budget
+        (default 300 tokens = 600 chars) takes precedence over max_chars.
+        """
+        # Token budget takes precedence if available and more restrictive
+        effective_max = max_chars
+        if _TOKEN_BUDGET_COMPLIANCE is not None:
+            effective_max = min(max_chars, _TOKEN_BUDGET_COMPLIANCE)
+
+        if len(text) <= effective_max:
             return text
-        return text[:max_chars] + "\n...(以下省略)"
+        return text[:effective_max] + "\n...(以下省略)"
 
     def load_compliance_rules(self) -> str:
         """Load compliance rules for prompt injection.

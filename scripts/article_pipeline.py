@@ -36,6 +36,15 @@ from knowledge_base import KnowledgeBase
 from research_loader import ResearchLoader
 from persona_to_editorial_filter import load_persona_filter
 from internal_linking_strategy import get_internal_linking_engine
+
+# LLM Orchestration (optional — graceful degradation)
+try:
+    from llm_orchestration import context_budget, stage_cache, ContextBudget
+    _ORCHESTRATION_AVAILABLE = True
+except ImportError:
+    context_budget = None
+    stage_cache = None
+    _ORCHESTRATION_AVAILABLE = False
 try:
     from sectional_article_pipeline import SectionalArticleGenerator
     SECTIONAL_AVAILABLE = True
@@ -548,36 +557,58 @@ def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=Fals
         include_trends=True
     )
 
-    # Load pre-research data if available (graceful degradation)
+    # Load pre-research data if available (graceful degradation, with cache)
     research_context = ""
     try:
         research_loader = ResearchLoader()
         slug = topic.get('slug', '')
         keywords = [topic.get('title_seed', '')] + topic.get('target_companies', [])
-        research_data = research_loader.find_research(
-            topic_slug=slug if slug else None,
-            keywords=[k for k in keywords if k],
-            max_age_days=7
-        )
-        if research_data:
-            research_context = research_loader.format_research_context(research_data)
-            print(f"  [Research] Injecting pre-research data", file=sys.stderr)
+        cache_key_research = f"research:{slug}:{','.join(sorted(k for k in keywords if k))}"
+
+        if stage_cache and stage_cache.has(cache_key_research):
+            research_context = stage_cache.get(cache_key_research)
+            print(f"  [Research] Using cached data", file=sys.stderr)
         else:
-            print(f"  [Research] No pre-research data found (using KB only)", file=sys.stderr)
+            research_data = research_loader.find_research(
+                topic_slug=slug if slug else None,
+                keywords=[k for k in keywords if k],
+                max_age_days=7
+            )
+            if research_data:
+                research_context = research_loader.format_research_context(research_data)
+                print(f"  [Research] Injecting pre-research data", file=sys.stderr)
+            else:
+                print(f"  [Research] No pre-research data found (using KB only)", file=sys.stderr)
+            if stage_cache:
+                stage_cache.set(cache_key_research, research_context)
     except Exception as e:
         print(f"  [Research] Skipped: {e}", file=sys.stderr)
 
-    # Load compliance context (graceful degradation)
+    # Load compliance context (graceful degradation, with cache)
     compliance_context = ""
     try:
         if compliance_loader:
-            compliance_context = compliance_loader.build_article_context(
-                category=category,
-                company_names=company_ids
-            )
-            print(f"  [Compliance] Injecting compliance rules ({len(compliance_context)} chars)", file=sys.stderr)
+            cache_key_compliance = f"compliance:{category}:{','.join(sorted(company_ids[:3]))}"
+
+            if stage_cache and stage_cache.has(cache_key_compliance):
+                compliance_context = stage_cache.get(cache_key_compliance)
+                print(f"  [Compliance] Using cached rules ({len(compliance_context)} chars)", file=sys.stderr)
+            else:
+                compliance_context = compliance_loader.build_article_context(
+                    category=category,
+                    company_names=company_ids
+                )
+                print(f"  [Compliance] Injecting compliance rules ({len(compliance_context)} chars)", file=sys.stderr)
+                if stage_cache:
+                    stage_cache.set(cache_key_compliance, compliance_context)
     except Exception as e:
         print(f"  [Compliance] Skipped: {e}", file=sys.stderr)
+
+    # Apply context budget truncation (if orchestration available)
+    if context_budget:
+        kb_context = context_budget.truncate_to_budget("kb", kb_context)
+        research_context = context_budget.truncate_to_budget("research", research_context)
+        compliance_context = context_budget.truncate_to_budget("compliance", compliance_context)
 
     # Build prompt with KB context + optional research + compliance context
     context_block = kb_context
@@ -592,6 +623,11 @@ def stage2_article_draft(client, kb, topic, compliance_loader=None, dry_run=Fals
         editorial_guidelines = persona_filter.generate_section_guidelines(section_num=0)
         base_persona = f"{base_persona}\n\n{editorial_guidelines}"
         print(f"  [Persona Filter] Applied Digital Twin guidelines", file=sys.stderr)
+
+    # Apply persona budget truncation
+    if context_budget:
+        base_persona = context_budget.truncate_to_budget("persona", base_persona)
+        context_budget.log_summary()
 
     prompt = f"""{base_persona}
 
@@ -1121,7 +1157,7 @@ def generate_article(client, kb, topic, article_num, posts_dir="_posts",
 {improvement_prompt}
 
 【元の記事】
-{body[:6000]}
+{body}
 
 改善した記事全文をMarkdown形式で出力してください。"""
         return client.call(revised_prompt, max_tokens=8192)
@@ -1254,6 +1290,14 @@ def main():
     print(f"  Generated: {len(results)}/{args.articles} articles", file=sys.stderr)
     for r in results:
         print(f"  - {r}", file=sys.stderr)
+
+    # Orchestration stats
+    if _ORCHESTRATION_AVAILABLE and stage_cache:
+        stage_cache.log_stats()
+    if client:
+        usage = client.token_usage
+        print(f"  Token usage (est.): input={usage['input']:,}, output={usage['output']:,}, calls={usage['calls']}", file=sys.stderr)
+
     print(f"{'='*60}", file=sys.stderr)
 
     # Exit with error if no articles generated

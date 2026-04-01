@@ -22,6 +22,14 @@ except ImportError:
     def check_compliance(body):
         return 0, []
 
+# Import orchestration (optional)
+try:
+    from llm_orchestration import ContextBudget, CHARS_PER_TOKEN
+    _ORCHESTRATION_AVAILABLE = True
+except ImportError:
+    _ORCHESTRATION_AVAILABLE = False
+    CHARS_PER_TOKEN = 2
+
 
 class QualityScorer:
     """Score article quality and provide actionable feedback."""
@@ -367,9 +375,40 @@ class QualityScorer:
 
         return "\n".join(lines)
 
+    # Pipeline metrics tracking (class-level)
+    _pipeline_scores = []
+
+    @classmethod
+    def record_score(cls, total, details):
+        """パイプラインスコアを記録（メトリクス用）."""
+        cls._pipeline_scores.append({
+            "total": total,
+            "passed": details.get("passed", False),
+            "details": {k: v for k, v in details.items() if k not in ("total", "passed")},
+        })
+
+    @classmethod
+    def pipeline_metrics(cls):
+        """パイプライン全体のスコアメトリクスを返す."""
+        if not cls._pipeline_scores:
+            return {"count": 0, "avg": 0, "pass_rate": 0}
+        scores = [s["total"] for s in cls._pipeline_scores]
+        passed = sum(1 for s in cls._pipeline_scores if s["passed"])
+        return {
+            "count": len(scores),
+            "avg": round(sum(scores) / len(scores), 1),
+            "min": min(scores),
+            "max": max(scores),
+            "pass_rate": round(passed / len(scores) * 100, 1),
+        }
+
     @classmethod
     def generate_retry_prompt(cls, feedback, original_prompt=""):
-        """Generate a revision prompt based on quality feedback."""
+        """Generate a revision prompt based on quality feedback.
+
+        Token budget awareness: limits retry prompt size to avoid
+        exceeding context limits when combined with original article.
+        """
         improvement_instructions = []
 
         for f in feedback:
@@ -394,6 +433,11 @@ class QualityScorer:
         prompt = "Please revise the article with these improvements:\n"
         for i, instruction in enumerate(improvement_instructions, 1):
             prompt += f"{i}. {instruction}\n"
+
+        # Token budget awareness: cap retry prompt to ~500 tokens
+        max_retry_chars = 500 * CHARS_PER_TOKEN
+        if len(prompt) > max_retry_chars:
+            prompt = prompt[:max_retry_chars] + "\n(以下省略)"
 
         return prompt
 

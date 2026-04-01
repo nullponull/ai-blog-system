@@ -32,6 +32,12 @@ import json
 import time
 import requests
 
+# Import orchestration (optional — graceful degradation)
+try:
+    from llm_orchestration import RetryWithBackoff, api_backoff as _api_backoff
+except ImportError:
+    _api_backoff = None
+
 
 class GeminiClient:
     """Gemini API client with model rotation, API key rotation, JSON mode, and Web Search."""
@@ -86,6 +92,9 @@ class GeminiClient:
         # Track exhausted keys per model to avoid retrying known-bad combos
         self._exhausted = set()
 
+        # Token usage estimation (per-session)
+        self._token_usage = {"input": 0, "output": 0, "calls": 0}
+
         print(f"  [GeminiClient] Initialized with {len(self.api_keys)} API key(s)", file=sys.stderr)
 
     @property
@@ -99,6 +108,11 @@ class GeminiClient:
         if value and value not in self.api_keys:
             self.api_keys = [value]
             self._current_key_index = 0
+
+    @property
+    def token_usage(self):
+        """Session token usage estimation summary."""
+        return dict(self._token_usage)
 
     def call(self, prompt, model=None, temperature=0.9, max_tokens=8192):
         """Generate text content.
@@ -419,6 +433,13 @@ class GeminiClient:
                         text = candidate['content']['parts'][0].get('text', '')
                         if text:
                             print(f"  [GeminiClient] Success with {model} ({key_label})", file=sys.stderr)
+                            # Track token usage (estimation)
+                            self._token_usage["input"] += len(prompt) // 2
+                            self._token_usage["output"] += len(text) // 2
+                            self._token_usage["calls"] += 1
+                            # Reset backoff on success
+                            if _api_backoff:
+                                _api_backoff.record_success()
                             return text
 
                 print(f"  [GeminiClient] No content from {model}", file=sys.stderr)
@@ -433,6 +454,16 @@ class GeminiClient:
             except Exception as e:
                 print(f"  [GeminiClient] Error for {model}: {e}", file=sys.stderr)
                 return None
+
+        # All keys exhausted — apply exponential backoff before giving up
+        if _api_backoff and not _api_backoff.exhausted:
+            print(f"  [GeminiClient] All {len(self.api_keys)} keys exhausted for {model}, applying backoff...", file=sys.stderr)
+            if _api_backoff.wait_and_retry():
+                # Clear exhausted keys for this model to allow retry
+                self._exhausted = {k for k in self._exhausted if not k.startswith(f"{model}:")}
+                # Recursive retry (backoff attempt counter prevents infinite recursion)
+                return self._request(model, prompt, temperature, max_tokens,
+                                     response_mime_type, response_schema, enable_search)
 
         print(f"  [GeminiClient] All {len(self.api_keys)} keys exhausted for {model}", file=sys.stderr)
         return None
