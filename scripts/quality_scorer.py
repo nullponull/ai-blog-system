@@ -402,36 +402,72 @@ class QualityScorer:
             "pass_rate": round(passed / len(scores) * 100, 1),
         }
 
+    # Priority order for retry feedback (higher = fix first)
+    # compliance > factual > completeness(length) > readability > engagement
+    _FEEDBACK_PRIORITY = {
+        "compliance": 1,
+        "factual": 2,
+        "completeness": 3,
+        "readability": 4,
+        "engagement": 5,
+    }
+
+    # Retry observability counters (class-level)
+    _retry_attempts = 0
+    _retry_improvements = 0
+
     @classmethod
     def generate_retry_prompt(cls, feedback, original_prompt=""):
         """Generate a revision prompt based on quality feedback.
 
+        Prioritizes feedback by impact (compliance > factual > length > readability > engagement)
+        and limits to TOP 3 highest-impact items to keep retry focused.
+
         Token budget awareness: limits retry prompt size to avoid
         exceeding context limits when combined with original article.
         """
-        improvement_instructions = []
+        # Map feedback to (priority, instruction) tuples
+        prioritized = []
 
         for f in feedback:
-            if "[factual]" in f and "data points" in f:
-                improvement_instructions.append("Include more specific numbers, statistics, and market data (at least 5 data points)")
+            if "[compliance]" in f:
+                prioritized.append((cls._FEEDBACK_PRIORITY["compliance"],
+                    "Remove or rephrase compliance-violating expressions (no income guarantees, no unsubstantiated claims)"))
+            elif "[factual]" in f and "data points" in f:
+                prioritized.append((cls._FEEDBACK_PRIORITY["factual"],
+                    "Include more specific numbers, statistics, and market data (at least 5 data points)"))
             elif "[factual]" in f and "companies" in f:
-                improvement_instructions.append("Mention at least 3 specific companies with their actual products or achievements")
+                prioritized.append((cls._FEEDBACK_PRIORITY["factual"],
+                    "Mention at least 3 specific companies with their actual products or achievements"))
             elif "[factual]" in f and "source" in f:
-                improvement_instructions.append("Add source attributions like 'Xによると' or 'Y年時点で'")
-            elif "[readability]" in f and "cliche" in f:
-                improvement_instructions.append("Replace generic AI phrases with specific, concrete descriptions")
-            elif "[engagement]" in f and "question" in f:
-                improvement_instructions.append("Add 2-3 rhetorical questions to engage readers")
+                prioritized.append((cls._FEEDBACK_PRIORITY["factual"],
+                    "Add source attributions like 'Xによると' or 'Y年時点で'"))
             elif "[completeness]" in f and "short" in f:
-                improvement_instructions.append("Expand the article to at least 3000 characters with deeper analysis")
-            elif "[compliance]" in f:
-                improvement_instructions.append("Remove or rephrase compliance-violating expressions (no income guarantees, no unsubstantiated claims)")
+                prioritized.append((cls._FEEDBACK_PRIORITY["completeness"],
+                    "Expand the article to at least 3000 characters with deeper analysis"))
+            elif "[readability]" in f and "cliche" in f:
+                prioritized.append((cls._FEEDBACK_PRIORITY["readability"],
+                    "Replace generic AI phrases with specific, concrete descriptions"))
+            elif "[engagement]" in f and "question" in f:
+                prioritized.append((cls._FEEDBACK_PRIORITY["engagement"],
+                    "Add 2-3 rhetorical questions to engage readers"))
 
-        if not improvement_instructions:
+        if not prioritized:
             return ""
 
+        # Sort by priority (lower number = higher priority), deduplicate, take top 3
+        prioritized.sort(key=lambda x: x[0])
+        seen = set()
+        top_instructions = []
+        for _, instruction in prioritized:
+            if instruction not in seen:
+                seen.add(instruction)
+                top_instructions.append(instruction)
+            if len(top_instructions) >= 3:
+                break
+
         prompt = "Please revise the article with these improvements:\n"
-        for i, instruction in enumerate(improvement_instructions, 1):
+        for i, instruction in enumerate(top_instructions, 1):
             prompt += f"{i}. {instruction}\n"
 
         # Token budget awareness: cap retry prompt to ~500 tokens
@@ -440,6 +476,23 @@ class QualityScorer:
             prompt = prompt[:max_retry_chars] + "\n(以下省略)"
 
         return prompt
+
+    @classmethod
+    def log_retry_result(cls, before_score, after_score):
+        """Log retry result for observability.
+
+        Tracks whether retry improved the score and by how much.
+        """
+        cls._retry_attempts += 1
+        improved = after_score > before_score
+        if improved:
+            cls._retry_improvements += 1
+        delta = after_score - before_score
+        print(f"  [QualityScorer] Retry {'improved' if improved else 'did not improve'} "
+              f"score from {before_score} to {after_score} (delta: {delta:+d}) "
+              f"[success rate: {cls._retry_improvements}/{cls._retry_attempts}]",
+              file=sys.stderr)
+        return improved
 
 
 def main():

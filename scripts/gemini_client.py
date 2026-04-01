@@ -114,7 +114,7 @@ class GeminiClient:
         """Session token usage estimation summary."""
         return dict(self._token_usage)
 
-    def call(self, prompt, model=None, temperature=0.9, max_tokens=8192):
+    def call(self, prompt, model=None, temperature=0.9, max_tokens=8192, model_tier=None):
         """Generate text content.
 
         Args:
@@ -122,11 +122,20 @@ class GeminiClient:
             model: Specific model to use (or None for automatic rotation)
             temperature: Sampling temperature (0.0-1.0, default 0.9)
             max_tokens: Maximum output tokens (default 8192)
+            model_tier: "heavy" for HEAVY_MODELS, "light" for LIGHT_MODELS,
+                        None for default MODELS rotation
 
         Returns:
             Generated text string, or None if all models fail
         """
-        models = [model] if model else self.MODELS
+        if model:
+            models = [model]
+        elif model_tier == "heavy":
+            models = self.HEAVY_MODELS
+        elif model_tier == "light":
+            models = self.LIGHT_MODELS
+        else:
+            models = self.MODELS
 
         for m in models:
             result = self._request(m, prompt, temperature, max_tokens)
@@ -134,7 +143,7 @@ class GeminiClient:
                 return result
         return None
 
-    def call_json(self, prompt, schema=None, model=None, temperature=0.7, max_tokens=8192):
+    def call_json(self, prompt, schema=None, model=None, temperature=0.7, max_tokens=8192, model_tier=None):
         """Generate structured JSON output.
 
         Args:
@@ -143,6 +152,8 @@ class GeminiClient:
             model: Specific model to use (or None for rotation)
             temperature: Lower default (0.7) for structured output
             max_tokens: Max output tokens
+            model_tier: "heavy" for HEAVY_MODELS, "light" for LIGHT_MODELS,
+                        None for default LIGHT_MODELS rotation
 
         Returns:
             Parsed JSON dict, or None if all models fail
@@ -157,7 +168,14 @@ class GeminiClient:
             }
             result = client.call_json("Generate article metadata", schema=schema)
         """
-        models = [model] if model else self.LIGHT_MODELS
+        if model:
+            models = [model]
+        elif model_tier == "heavy":
+            models = self.HEAVY_MODELS
+        elif model_tier == "light":
+            models = self.LIGHT_MODELS
+        else:
+            models = self.LIGHT_MODELS
 
         for m in models:
             result = self._request(

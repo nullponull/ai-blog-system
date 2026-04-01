@@ -806,7 +806,7 @@ def stage3_title_optimization(client, topic, body, dry_run=False):
         print(f"  [DRY RUN] Title: {title}", file=sys.stderr)
         return title
 
-    result = client.call_json(prompt, schema=schema)
+    result = client.call_json(prompt, schema=schema, model_tier="light")
 
     if result and 'titles' in result and result['titles']:
         idx = result.get('best_index', 0)
@@ -877,7 +877,7 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
             "reading_time": 8,
         }
 
-    result = client.call_json(prompt, schema=schema)
+    result = client.call_json(prompt, schema=schema, model_tier="light")
 
     # Calculate reading time from body
     char_count = len(body)
@@ -956,8 +956,17 @@ def stage4_metadata(client, title, body, topic, dry_run=False):
     return metadata
 
 
-def stage5_quality_gate(title, body, retry_callback=None):
-    """Stage 5: Quality gate - score and optionally retry."""
+def stage5_quality_gate(title, body, retry_callback=None, skip_if_close=55):
+    """Stage 5: Quality gate - score and optionally retry.
+
+    Args:
+        title: Article title
+        body: Article body text
+        retry_callback: Function to call for article revision
+        skip_if_close: If score >= this value (close to threshold),
+                       skip retry and publish as-is to save API calls.
+                       Set to 0 to always retry on failure.
+    """
     print(f"\n=== Stage 5: Quality Gate ===", file=sys.stderr)
 
     total, details, feedback = QualityScorer.score(title, body)
@@ -967,6 +976,11 @@ def stage5_quality_gate(title, body, retry_callback=None):
     if details['passed']:
         print(f"  PASSED ({total}/100)", file=sys.stderr)
         return True, body
+
+    # Skip retry if score is close to threshold (marginal rewrites waste API calls)
+    if skip_if_close and total >= skip_if_close:
+        print(f"  CLOSE ENOUGH ({total}/100 >= {skip_if_close}) - Skipping retry, publishing as-is", file=sys.stderr)
+        return False, body
 
     print(f"  FAILED ({total}/100) - Attempting retry...", file=sys.stderr)
 
@@ -979,6 +993,8 @@ def stage5_quality_gate(title, body, retry_callback=None):
                 # Re-score
                 total2, details2, feedback2 = QualityScorer.score(title, revised_body)
                 print(f"  Retry score: {total2}/100 ({'PASS' if details2['passed'] else 'FAIL'})", file=sys.stderr)
+                # Log retry observability
+                QualityScorer.log_retry_result(total, total2)
                 if total2 > total:
                     return details2['passed'], revised_body
 
@@ -1160,7 +1176,7 @@ def generate_article(client, kb, topic, article_num, posts_dir="_posts",
 {body}
 
 改善した記事全文をMarkdown形式で出力してください。"""
-        return client.call(revised_prompt, max_tokens=8192)
+        return client.call(revised_prompt, max_tokens=8192, model_tier="light")
 
     passed, final_body = stage5_quality_gate(title, body, retry_callback if not dry_run else None)
 
