@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI Act施行で日本企業はどう変わる？高リスクAI規制の3つの影響を解説"
+title: "EU AI Act施行｜日本企業が押さえるべき高リスクAI規制3つの影響"
 date: 2026-04-01 19:10:44 +0900
 categories: [AI導入戦略]
 tags: ["AI規制対応", "日本企業", "DX推進", "LLM"]

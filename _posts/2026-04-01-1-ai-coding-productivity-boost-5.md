@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIコーディングが開発者の生産性を3倍にする5つの理由：GitHub Copilotの進化とは"
+title: "AIコーディングで生産性3倍｜GitHub Copilot進化の5つのポイント"
 date: 2026-04-01 19:09:58 +0900
 categories: [AI技術ガイド]
 tags: ["LLM", "OpenAI", "Microsoft", "DX推進", "ROI分析"]

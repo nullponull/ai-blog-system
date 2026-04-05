@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ハイパースケーラー、2026年AI設備投資6900億ドルへ。そのインフラと活用戦略とは？"
+title: "AI設備投資6900億ドル｜Google・Meta・MSのインフラ戦略と企業活用法"
 date: 2026-04-01 06:41:24 +0900
 categories: [AI導入戦略]
 tags: ["AI投資", "Google", "Microsoft", "Meta", "Amazon", "LLM"]

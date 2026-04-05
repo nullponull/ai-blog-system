@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EU AI Act施行2026年8月！日本企業が知るべき3つの影響と対応策とは"
+title: "EU AI Act 2026年8月施行｜日本企業が取るべき3つの対応策"
 date: 2026-03-31 19:32:32 +0900
 categories: [AI技術ガイド]
 tags: ["AI規制対応", "日本企業", "LLM", "DX推進"]

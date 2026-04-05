@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "推論モデルCoT、o3・DeepSeek R1の進化"
+title: "CoT推論モデルの進化｜o3・DeepSeek R1で変わるAIの思考プロセス"
 date: 2026-04-01 06:41:41 +0900
 categories: [研究論文]
 tags: ["AI", "研究論文"]
 author: "ALLFORCES編集部"
-description: "## AIの「思考」を可視化する：CoT推論モデルの進化とその実用化への期待  AI、特に大規模言語モデル（LLM）の進化は目覚ましいものがあります。テキスト生成はもちろん、コード作成、画像生成、さらには複雑な問題解決まで、その応用範囲は日"
-excerpt: "## AIの「思考」を可視化する：CoT推論モデルの進化とその実用化への期待  AI、特に大規模言語モデル（LLM）の進化は目覚ましいものがあります。テキスト生成はもちろん、コード作成、画像生成、さらには複雑な問題解決まで、その応用範囲は日"
+description: "Chain-of-Thought(CoT)推論モデルの最新動向を解説。o3やDeepSeek R1がAIの思考プロセスをどう可視化し、企業の意思決定にどう活用できるのか、ベンチマーク比較と実用化のポイントを紹介します。"
+excerpt: "CoT推論モデルの最新動向を解説。o3やDeepSeek R1がAIの思考プロセスをどう可視化し、企業の意思決定にどう活用できるのか、実用化のポイントを紹介します。"
 reading_time: 9
 related_articles: [{"slug": "2026-03-10-2-llm-evolution-gpt4o-competitor", "title": "2026年Llama3、DeepSeek、QwenはGPT-4oにどこまで迫るのか？の全貌と実践的な活用法", "reason": "関連記事"}, {"slug": "2025-10-04-3-aideepseek-r1", "title": "2026年中国AIの「DeepSeek R1」が示す、低コスト高性能モデルの衝撃とは？が変えるビジネスの未来", "reason": "関連記事"}, {"slug": "2026-03-27-3-deepseek-r1-ai-transparency-ca", "title": "DeepSeek R1がAI意思決定の透明性を3倍向上させる理由とは：A社の事例から学ぶ", "reason": "関連記事"}]
 pillar_article: {"slug": "2025-12-20-3-euai10", "title": "2026年EUのAI人材育成、10億ユーロ投資は何を変えるのか？による業務効率化と競争力強化"}

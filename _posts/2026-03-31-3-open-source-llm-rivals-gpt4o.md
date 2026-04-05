@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "オープンソースLLM、GPT-4oに匹敵する性能を達成！その衝撃と開発現場への影響とは？(46文字)"
+title: "オープンソースLLMがGPT-4o級性能を達成｜開発現場への影響と活用法"
 date: 2026-03-31 06:44:05 +0900
 categories: [AI技術ガイド]
 tags: ["LLM", "AI技術ガイド", "Meta", "NVIDIA", "DX推進"]

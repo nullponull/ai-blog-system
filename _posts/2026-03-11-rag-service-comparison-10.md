@@ -9,7 +9,7 @@ comparison: true
 excerpt: "RAG（検索拡張生成）構築サービス10選を精度・コスト・運用性の観点で徹底比較。ベクトルDBの選定からチャンキング戦略まで、導入コンサルの現場知見をもとに解説します。"
 reading_time: 11
 image: "/assets/images/posts/2026-03-11-rag-service-comparison-10-ogp.png"
-description: "RAG（Retrieval-Augmented Generation：検索拡張生成）は、LLMのハルシネーション問題を解決し、社内ナレッジを活用したAIシステムを構築するための中核技術として、2026年現在もっとも導入需要の高いAIアーキテクチャの一つです。"
+description: "RAG構築サービスおすすめ10選を精度・コスト・運用性で徹底比較。ベクトルDB選定からチャンキング戦略まで、導入コンサルの現場知見をもとに失敗しない選び方を解説します。"
 ---
 
 ## RAGの精度は「ツール選定」で8割決まる
