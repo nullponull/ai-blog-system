@@ -174,7 +174,7 @@
         <div class="header-container">
             <a href="{{ '/' | relative_url }}" class="site-title ed-site-title" aria-label="ホームページに戻る">
                 <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="ALLFORCES AI ロゴ" class="site-logo">
-                <span class="site-title-text">{{ site.title }}</span>
+                <span class="site-title-text">{{ site.short_title | default: "AIコンパス" }}</span>
             </a>
             <button class="mobile-menu-toggle" aria-label="メニューを開く" aria-expanded="false">
                 <span></span>
