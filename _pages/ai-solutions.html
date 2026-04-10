@@ -53,6 +53,29 @@ sitemap:
     <p style="margin-top: 0.75rem;"><a href="/category/analysis/" class="pseo-link">業界別AI活用の全記事を見る →</a></p>
   </section>
 
+  <section class="pseo-section">
+    <h2>AI導入に役立つ比較・技術ガイド</h2>
+    <p>ツール選定や技術理解に役立つ特集記事です。</p>
+    <div class="pseo-related-posts">
+      {% assign comparison_posts = site.posts | where: "comparison", true %}
+      {% for post in comparison_posts limit: 5 %}
+      <div class="pseo-related-card">
+        <span style="font-size:0.75rem; color:#6366f1; font-weight:600;">比較</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <time>{{ post.date | date: "%Y/%m/%d" }}</time>
+      </div>
+      {% endfor %}
+      {% assign pillar_posts = site.posts | where: "pillar", true %}
+      {% for post in pillar_posts limit: 3 %}
+      <div class="pseo-related-card">
+        <span style="font-size:0.75rem; color:#059669; font-weight:600;">完全ガイド</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <time>{{ post.date | date: "%Y/%m/%d" }}</time>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
   <section class="pseo-cta">
     <h2>AI導入のご相談を承っています</h2>
     <p>業界特化のAI導入について、ALLFORCESの専門スタッフがサポートします。</p>

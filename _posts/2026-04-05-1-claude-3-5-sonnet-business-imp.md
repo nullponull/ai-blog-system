@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Claude 3.5 Sonnet登場！AI開発競争を変える新モデルのビジネス影響とは？(49文字)"
+title: "Claude 3.5 Sonnet登場！AI開発競争を変える新モデルのビジネス影響とは？"
 date: 2026-04-05 14:21:42 +0900
 categories: [導入事例]
 tags: ["LLM", "Anthropic", "DX推進", "コスト削減"]

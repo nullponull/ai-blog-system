@@ -8,7 +8,7 @@ author: "ALLFORCES編集部"
 description: "AIエージェントが企業アプリケーションをどう変えるのか、2026年までに40%搭載の未来を解説。製造業A社の導入事例で、システム連携の課題解決とコスト削減、DX推進の成功ポイントを具体的にご紹介します。"
 excerpt: "AIエージェントが企業アプリをどう変える？2026年までに40%搭載の未来予測。製造業A社の導入事例から、システム連携の課題解決と成功のポイントを解説します。"
 reading_time: 7
-related_articles: [{"slug": "2026-02-26-2-ai-agents-manufacturing-dx-cas", "title": "2026年AIエージェントで製造業DXはこう変わる：現場の課題解決事例とはの最新動向と企業への影響", "reason": "関連記事"}, {"slug": "2026-04-05-1-claude-3-5-sonnet-business-imp", "title": "Claude 3.5 Sonnet登場！AI開発競争を変える新モデルのビジネス影響とは？(49文字)", "reason": "関連記事"}, {"slug": "2026-04-05-1-ai-coding-tool-efficiency-boos", "title": "AIコーディングツールで開発効率を3倍にする5つの実践ステップとは", "reason": "関連記事"}]
+related_articles: [{"slug": "2026-02-26-2-ai-agents-manufacturing-dx-cas", "title": "2026年AIエージェントで製造業DXはこう変わる：現場の課題解決事例とはの最新動向と企業への影響", "reason": "関連記事"}, {"slug": "2026-04-05-1-claude-3-5-sonnet-business-imp", "title": "Claude 3.5 Sonnet登場！AI開発競争を変える新モデルのビジネス影響とは？", "reason": "関連記事"}, {"slug": "2026-04-05-1-ai-coding-tool-efficiency-boos", "title": "AIコーディングツールで開発効率を3倍にする5つの実践ステップとは", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-02-22-2-multimodal-ai-roi3x-efficiency", "title": "2026年マルチモーダルAI、ROI3倍の真実：断片情報からの脱却と業務効率化の最新動向と企業への影響"}
 image: "/assets/images/posts/2026-04-05-1-ai-agent-enterprise-app-transf-ogp.png"
 ---

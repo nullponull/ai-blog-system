@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anthropicが150億ドル調達、AI研究開発競争の激化で何が変わるのか？(58文字)"
+title: "Anthropicが150億ドル調達、AI研究開発競争の激化で何が変わるのか？"
 date: 2026-03-15 14:13:48 +0900
 categories: [導入事例]
 tags: ["Anthropic", "LLM", "AI投資", "DX推進"]

@@ -89,7 +89,7 @@ AIの進化は、私たちの働き方やビジネスのあり方を根本から
 
 ### あわせて読みたい
 
-- [Anthropicが150億ドル調達、AI研究開発競争の激化で何が変わるのか？(58文字)](/2026/03/15/1-anthropic-15b-funding-ai-race/)
+- [Anthropicが150億ドル調達、AI研究開発競争の激化で何が変わるのか？](/2026/03/15/1-anthropic-15b-funding-ai-race/)
 - [OpenAIとAnthropic、巨額資金調達の裏側でAI開発競争はどうなるのか](/2026/02/14/2-openai-anthropic-funding-ai-ra/)
 - [AI開発競争の最前線：OpenAI、Anthropic、xAIの巨額資金調達が示す未来とは](/2026/02/14/2-ai-funding-race-openai-anthrop/)
 

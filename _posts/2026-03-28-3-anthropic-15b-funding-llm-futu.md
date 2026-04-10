@@ -8,7 +8,7 @@ author: "ALLFORCES編集部"
 description: "Anthropicが150億ドル調達！AI市場の急成長とLLM開発の巨額コスト、AIエージェントやマルチモーダルAIの新トレンドがAI投資を激化させています。大規模言語モデルの未来を解説します。"
 excerpt: "AnthropicがMicrosoftやNVIDIAなどから150億ドルを調達。AI市場の急成長とLLM開発の莫大なコストが背景に。AIエージェントやマルチモーダルAIといった新技術も投資を加速させています。"
 reading_time: 8
-related_articles: [{"slug": "2026-03-15-1-anthropic-15b-funding-ai-race", "title": "Anthropicが150億ドル調達、AI研究開発競争の激化で何が変わるのか？(58文字)", "reason": "関連記事"}, {"slug": "2026-03-28-3-gpt-4ollama-3deepseek-coderai", "title": "GPT-4o超えも？Llama 3とDeepSeek Coderが切り拓くAI開発の新基準とは", "reason": "関連記事"}, {"slug": "2026-03-28-2-openai-15trillion-ai-investmen", "title": "OpenAI約15兆円調達交渉の舞台裏、AI業界の巨額投資が変える未来とは？", "reason": "関連記事"}]
+related_articles: [{"slug": "2026-03-15-1-anthropic-15b-funding-ai-race", "title": "Anthropicが150億ドル調達、AI研究開発競争の激化で何が変わるのか？", "reason": "関連記事"}, {"slug": "2026-03-28-3-gpt-4ollama-3deepseek-coderai", "title": "GPT-4o超えも？Llama 3とDeepSeek Coderが切り拓くAI開発の新基準とは", "reason": "関連記事"}, {"slug": "2026-03-28-2-openai-15trillion-ai-investmen", "title": "OpenAI約15兆円調達交渉の舞台裏、AI業界の巨額投資が変える未来とは？", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-10-1-adobeai", "title": "2026年AdobeのAI画像生成、商用利用強化で何が変わる？による業務効率化と競争力強化"}
 image: "/assets/images/posts/2026-03-28-3-anthropic-15b-funding-llm-futu-ogp.png"
 ---

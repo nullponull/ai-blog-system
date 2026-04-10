@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GPT-4oに迫るオープンソースLLMの進化！Llama 3の実力とビジネス活用の最新動向とは？ (48文字)"
+title: "GPT-4oに迫るオープンソースLLMの進化！Llama 3の実力とビジネス活用の最新動向とは？"
 date: 2026-03-30 19:20:58 +0900
 categories: [AI技術ガイド]
 tags: ["LLM", "Meta", "DX推進", "AI投資"]

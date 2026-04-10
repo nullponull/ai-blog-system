@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepSeek R1がAIの思考プロセスを可視化、CoT推論モデルの進化と企業導入の可能性とは(38文字)"
+title: "DeepSeek R1がAIの思考プロセスを可視化、CoT推論モデルの進化と企業導入の可能性とは"
 date: 2026-03-23 19:07:22 +0900
 categories: [AI技術ガイド]
 tags: ["LLM", "推論最適化", "中国AI", "AI技術ガイド"]

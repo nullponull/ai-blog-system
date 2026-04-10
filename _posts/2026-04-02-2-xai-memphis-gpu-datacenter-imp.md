@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "xAIがメンフィスに10万GPUデータセンター建設、AIインフラに何をもたらすか？(47文字)"
+title: "xAIがメンフィスに10万GPUデータセンター建設、AIインフラに何をもたらすか？"
 date: 2026-04-02 19:06:36 +0900
 categories: [業界別AI活用]
 tags: ["AIエージェント", "NVIDIA", "AI投資", "DX推進"]

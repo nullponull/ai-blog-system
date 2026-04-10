@@ -8,7 +8,7 @@ author: "ALLFORCES編集部"
 description: "オープンソースLLMがGPT-4o級の性能へ到達！Llama3、Mistralの進化は企業AI戦略をどう変える？コスト削減と柔軟なカスタマイズを実現する最新動向を解説します。"
 excerpt: "オープンソースLLMがGPT-4o級の性能に到達。Llama3やMistralの進化が、企業AI戦略にコスト削減と柔軟なカスタマイズという新たな選択肢をもたらします。"
 reading_time: 9
-related_articles: [{"slug": "2026-03-23-2-deepseek-r1-cot-inference-mode", "title": "DeepSeek R1がAIの思考プロセスを可視化、CoT推論モデルの進化と企業導入の可能性とは(38文字)", "reason": "関連記事"}, {"slug": "2026-03-23-2-open-source-llm-llama3-gpt4o-p", "title": "オープンソースLLM Llama 3らがGPT-4o級性能達成！その技術と実務への影響とは？", "reason": "関連記事"}, {"slug": "2026-03-21-1-ai-agent-business-process-tran", "title": "AIエージェントが企業アプリの40%を占める日：自律型アシスタントが変えるビジネスプロセスとは", "reason": "関連記事"}]
+related_articles: [{"slug": "2026-03-23-2-deepseek-r1-cot-inference-mode", "title": "DeepSeek R1がAIの思考プロセスを可視化、CoT推論モデルの進化と企業導入の可能性とは", "reason": "関連記事"}, {"slug": "2026-03-23-2-open-source-llm-llama3-gpt4o-p", "title": "オープンソースLLM Llama 3らがGPT-4o級性能達成！その技術と実務への影響とは？", "reason": "関連記事"}, {"slug": "2026-03-21-1-ai-agent-business-process-tran", "title": "AIエージェントが企業アプリの40%を占める日：自律型アシスタントが変えるビジネスプロセスとは", "reason": "関連記事"}]
 pillar_article: {"slug": "2026-01-05-1-neo-ai", "title": "2026年サムスンNeo AIの可能性とは？（OpenAI・NVIDIA）の注目ポイントと導入効果"}
 image: "/assets/images/posts/2026-03-24-3-open-source-llm-performance-le-ogp.png"
 ---
