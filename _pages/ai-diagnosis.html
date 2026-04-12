@@ -1,0 +1,880 @@
+---
+layout: default
+title: "無料AI活用診断｜御社の業務にAIは使えるか30秒で判定"
+permalink: /ai-diagnosis/
+description: "中小企業向けの無料AI活用診断。業種と課題を選ぶだけで、AI導入の優先順位とコスト感がわかります。"
+lang: ja
+sitemap:
+  priority: 0.9
+  changefreq: monthly
+---
+
+<div class="diagnosis-page">
+    <!-- ヒーローセクション -->
+    <section class="diagnosis-hero">
+        <div class="diagnosis-hero-content">
+            <div class="hero-badge">無料・30秒で完了</div>
+            <h1>御社の業務にAIは使えるか<br>今すぐ診断</h1>
+            <p class="hero-subtitle">業種と課題を選ぶだけで、AI導入の優先順位とコスト感がわかります</p>
+            <a href="#diagnosis-start" class="hero-cta-btn">診断をはじめる</a>
+        </div>
+    </section>
+
+    <!-- 診断フォーム -->
+    <section class="diagnosis-form-section" id="diagnosis-start">
+        <div class="section-inner">
+            <!-- ステップ1: 業種選択 -->
+            <div class="diagnosis-step" id="step1">
+                <div class="step-indicator">
+                    <span class="step-num active">1</span>
+                    <span class="step-line"></span>
+                    <span class="step-num">2</span>
+                </div>
+                <h2>御社の業種を教えてください</h2>
+                <p class="step-desc">該当する業種を1つ選んでください</p>
+                <div class="industry-grid">
+                    <button class="industry-btn" data-industry="manufacturing">
+                        <span class="ind-icon">&#9881;</span>
+                        <span class="ind-name">製造業</span>
+                    </button>
+                    <button class="industry-btn" data-industry="construction">
+                        <span class="ind-icon">&#9962;</span>
+                        <span class="ind-name">建設業</span>
+                    </button>
+                    <button class="industry-btn" data-industry="retail">
+                        <span class="ind-icon">&#128722;</span>
+                        <span class="ind-name">小売・卸売業</span>
+                    </button>
+                    <button class="industry-btn" data-industry="food">
+                        <span class="ind-icon">&#127860;</span>
+                        <span class="ind-name">飲食業</span>
+                    </button>
+                    <button class="industry-btn" data-industry="medical">
+                        <span class="ind-icon">&#9764;</span>
+                        <span class="ind-name">医療・介護</span>
+                    </button>
+                    <button class="industry-btn" data-industry="logistics">
+                        <span class="ind-icon">&#128666;</span>
+                        <span class="ind-name">物流・運輸</span>
+                    </button>
+                    <button class="industry-btn" data-industry="it">
+                        <span class="ind-icon">&#128187;</span>
+                        <span class="ind-name">IT・通信</span>
+                    </button>
+                    <button class="industry-btn" data-industry="finance">
+                        <span class="ind-icon">&#128176;</span>
+                        <span class="ind-name">金融・保険</span>
+                    </button>
+                    <button class="industry-btn" data-industry="realestate">
+                        <span class="ind-icon">&#127970;</span>
+                        <span class="ind-name">不動産</span>
+                    </button>
+                    <button class="industry-btn" data-industry="education">
+                        <span class="ind-icon">&#127891;</span>
+                        <span class="ind-name">教育</span>
+                    </button>
+                    <button class="industry-btn" data-industry="professional">
+                        <span class="ind-icon">&#128188;</span>
+                        <span class="ind-name">士業・専門サービス</span>
+                    </button>
+                    <button class="industry-btn" data-industry="agriculture">
+                        <span class="ind-icon">&#127806;</span>
+                        <span class="ind-name">農業・水産業</span>
+                    </button>
+                    <button class="industry-btn" data-industry="other">
+                        <span class="ind-icon">&#128736;</span>
+                        <span class="ind-name">その他</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ステップ2: 課題選択 -->
+            <div class="diagnosis-step" id="step2" style="display:none;">
+                <div class="step-indicator">
+                    <span class="step-num done">1</span>
+                    <span class="step-line active"></span>
+                    <span class="step-num active">2</span>
+                </div>
+                <h2>最も解決したい課題は？</h2>
+                <p class="step-desc">最も優先度の高い課題を1つ選んでください</p>
+                <div class="challenge-grid">
+                    <button class="challenge-btn" data-challenge="labor">
+                        <span class="ch-icon">&#128101;</span>
+                        <span class="ch-name">人手不足・採用難</span>
+                        <span class="ch-desc">業務の自動化で少人数でも回る体制を作りたい</span>
+                    </button>
+                    <button class="challenge-btn" data-challenge="cost">
+                        <span class="ch-icon">&#128200;</span>
+                        <span class="ch-name">コスト削減</span>
+                        <span class="ch-desc">作業時間やミスを減らして固定費を圧縮したい</span>
+                    </button>
+                    <button class="challenge-btn" data-challenge="quality">
+                        <span class="ch-icon">&#9989;</span>
+                        <span class="ch-name">品質向上・ミス削減</span>
+                        <span class="ch-desc">検品やチェック作業の精度を上げたい</span>
+                    </button>
+                    <button class="challenge-btn" data-challenge="sales">
+                        <span class="ch-icon">&#128640;</span>
+                        <span class="ch-name">営業・集客の強化</span>
+                        <span class="ch-desc">顧客対応やマーケティングを効率化したい</span>
+                    </button>
+                    <button class="challenge-btn" data-challenge="data">
+                        <span class="ch-icon">&#128202;</span>
+                        <span class="ch-name">データ活用・分析</span>
+                        <span class="ch-desc">蓄積したデータから意思決定に使える示唆を得たい</span>
+                    </button>
+                    <button class="challenge-btn" data-challenge="dx">
+                        <span class="ch-icon">&#9889;</span>
+                        <span class="ch-name">DX・業務のデジタル化</span>
+                        <span class="ch-desc">紙やExcel中心の業務をデジタル化したい</span>
+                    </button>
+                </div>
+                <button class="back-btn" id="backToStep1">&#8592; 業種選択に戻る</button>
+            </div>
+
+            <!-- 結果表示 -->
+            <div class="diagnosis-result" id="result" style="display:none;">
+                <div class="result-header">
+                    <div class="result-badge">診断結果</div>
+                    <h2 id="result-title"></h2>
+                    <p id="result-summary" class="result-summary"></p>
+                </div>
+
+                <div class="result-cards">
+                    <div class="result-card">
+                        <h3>推奨するAI施策</h3>
+                        <ul id="result-measures"></ul>
+                    </div>
+                    <div class="result-card">
+                        <h3>導入事例</h3>
+                        <div id="result-case"></div>
+                    </div>
+                    <div class="result-card">
+                        <h3>概算コストと効果</h3>
+                        <div id="result-cost"></div>
+                    </div>
+                </div>
+
+                <div class="result-cta">
+                    <h3>この結果について詳しく知りたい方へ</h3>
+                    <p>専門コンサルタントが御社の状況に合わせて、具体的な導入プランをご提案します。</p>
+                    <div class="result-cta-actions">
+                        <a href="/contact/" class="btn-primary-gold">詳しく相談する（無料・30分）</a>
+                        <button class="btn-outline-gold" id="retryBtn">もう一度診断する</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 信頼セクション -->
+    <section class="trust-section">
+        <div class="section-inner">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <div class="trust-num">50+</div>
+                    <div class="trust-label">AI導入プロジェクト実績</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-num">95%</div>
+                    <div class="trust-label">顧客満足度</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-num">10+</div>
+                    <div class="trust-label">対応業界</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+.diagnosis-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.diagnosis-hero {
+    background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(196, 162, 101, 0.06) 100%);
+    color: #e8e6e1;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(196, 162, 101, 0.08);
+}
+
+.hero-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(196, 162, 101, 0.15), rgba(196, 162, 101, 0.08));
+    color: #c4a265;
+    padding: 0.4rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(196, 162, 101, 0.2);
+}
+
+.diagnosis-hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #e8e6e1;
+    line-height: 1.3;
+}
+
+.diagnosis-hero .hero-subtitle {
+    font-size: 1.15rem;
+    color: rgba(232, 230, 225, 0.65);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.hero-cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #c4a265, #b8832f);
+    color: #111113;
+    padding: 0.9rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(196, 162, 101, 0.3);
+}
+
+.diagnosis-form-section {
+    padding: 4rem 0;
+}
+
+.section-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.step-num {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+    background: rgba(232, 230, 225, 0.08);
+    color: rgba(232, 230, 225, 0.4);
+    border: 2px solid rgba(232, 230, 225, 0.12);
+    transition: all 0.3s ease;
+}
+
+.step-num.active {
+    background: linear-gradient(135deg, #c4a265, #b8832f);
+    color: #111113;
+    border-color: #c4a265;
+}
+
+.step-num.done {
+    background: rgba(196, 162, 101, 0.15);
+    color: #c4a265;
+    border-color: rgba(196, 162, 101, 0.3);
+}
+
+.step-line {
+    width: 60px;
+    height: 2px;
+    background: rgba(232, 230, 225, 0.12);
+    transition: all 0.3s ease;
+}
+
+.step-line.active {
+    background: #c4a265;
+}
+
+.diagnosis-step h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e8e6e1;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.step-desc {
+    text-align: center;
+    color: rgba(232, 230, 225, 0.55);
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.industry-btn {
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
+    border: 1px solid rgba(232, 230, 225, 0.08);
+    border-radius: 12px;
+    padding: 1.2rem 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: #e8e6e1;
+}
+
+.industry-btn:hover {
+    border-color: rgba(196, 162, 101, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.industry-btn.selected {
+    border-color: #c4a265;
+    background: linear-gradient(145deg, rgba(196, 162, 101, 0.1), rgba(196, 162, 101, 0.05));
+    box-shadow: 0 0 0 1px #c4a265;
+}
+
+.ind-icon {
+    font-size: 1.8rem;
+}
+
+.ind-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(232, 230, 225, 0.85);
+}
+
+.challenge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+.challenge-btn {
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
+    border: 1px solid rgba(232, 230, 225, 0.08);
+    border-radius: 12px;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    color: #e8e6e1;
+}
+
+.challenge-btn:hover {
+    border-color: rgba(196, 162, 101, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.ch-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+}
+
+.ch-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #e8e6e1;
+}
+
+.ch-desc {
+    font-size: 0.85rem;
+    color: rgba(232, 230, 225, 0.5);
+    line-height: 1.5;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    background: none;
+    border: none;
+    color: rgba(232, 230, 225, 0.5);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+    color: #c4a265;
+}
+
+/* Result */
+.diagnosis-result {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.result-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.result-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #c4a265, #b8832f);
+    color: #111113;
+    padding: 0.4rem 1.5rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.result-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e8e6e1;
+    margin-bottom: 1rem;
+}
+
+.result-summary {
+    color: rgba(232, 230, 225, 0.65);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.result-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.result-card {
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
+    border: 1px solid rgba(232, 230, 225, 0.08);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.result-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #e8e6e1;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #c4a265;
+}
+
+.result-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.result-card ul li {
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    color: rgba(232, 230, 225, 0.75);
+    position: relative;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(232, 230, 225, 0.04);
+}
+
+.result-card ul li:last-child {
+    border-bottom: none;
+}
+
+.result-card ul li::before {
+    content: '\2713';
+    color: #c4a265;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.result-card p, .result-card .case-detail, .result-card .cost-detail {
+    color: rgba(232, 230, 225, 0.7);
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.cost-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(232, 230, 225, 0.06);
+}
+
+.cost-row:last-child {
+    border-bottom: none;
+}
+
+.cost-label {
+    color: rgba(232, 230, 225, 0.6);
+}
+
+.cost-value {
+    color: #c4a265;
+    font-weight: 700;
+}
+
+.result-cta {
+    background: linear-gradient(145deg, rgba(196, 162, 101, 0.06), rgba(196, 162, 101, 0.02));
+    border: 1px solid rgba(196, 162, 101, 0.15);
+    border-radius: 16px;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.result-cta h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e8e6e1;
+    margin-bottom: 0.75rem;
+}
+
+.result-cta > p {
+    color: rgba(232, 230, 225, 0.6);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.result-cta-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary-gold {
+    display: inline-block;
+    background: linear-gradient(135deg, #c4a265, #b8832f);
+    color: #111113;
+    padding: 0.9rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(196, 162, 101, 0.3);
+}
+
+.btn-outline-gold {
+    display: inline-block;
+    background: transparent;
+    color: #c4a265;
+    padding: 0.9rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid rgba(196, 162, 101, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    border-color: #c4a265;
+    background: rgba(196, 162, 101, 0.05);
+}
+
+/* Trust */
+.trust-section {
+    padding: 3rem 0 4rem;
+    border-top: 1px solid rgba(232, 230, 225, 0.06);
+}
+
+.trust-items {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.trust-item {
+    text-align: center;
+}
+
+.trust-num {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #c4a265;
+    margin-bottom: 0.3rem;
+}
+
+.trust-label {
+    color: rgba(232, 230, 225, 0.45);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .diagnosis-hero {
+        padding: 2.5rem 1rem;
+    }
+
+    .diagnosis-hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-inner {
+        padding: 0 1rem;
+    }
+
+    .diagnosis-step h2 {
+        font-size: 1.5rem;
+    }
+
+    .industry-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+    }
+
+    .industry-btn {
+        padding: 0.8rem 0.5rem;
+    }
+
+    .ind-icon {
+        font-size: 1.4rem;
+    }
+
+    .ind-name {
+        font-size: 0.8rem;
+    }
+
+    .challenge-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .result-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .result-cta {
+        padding: 1.5rem;
+    }
+
+    .trust-items {
+        gap: 2rem;
+    }
+
+    .trust-num {
+        font-size: 2rem;
+    }
+}
+</style>
+
+<script>
+(function() {
+    var diagnosisData = {
+        manufacturing: {
+            name: '製造業',
+            labor: {
+                title: '製造業 x 人手不足：AI自動化で生産性を大幅向上',
+                summary: '製造現場の人手不足は深刻ですが、AI画像検査や生産計画の自動化により、少人数でも高品質な生産体制を構築できます。特に検品工程のAI化は投資回収が早く、最初の一歩として最適です。',
+                measures: ['AI画像検査システム（外観検査の自動化）', 'AIによる生産スケジューリング最適化', 'RPA+AIで帳票・報告書の自動作成', 'AI需要予測による在庫最適化'],
+                case_text: '金属加工メーカー（従業員45名）がAI外観検査を導入。検品要員を5名から1名に削減しつつ、不良品流出率を0.3%から0.01%に改善。',
+                cost_initial: '80〜300万円',
+                cost_monthly: '2〜10万円',
+                cost_roi: '6〜12ヶ月'
+            },
+            cost: {
+                title: '製造業 x コスト削減：AIで原価と稼働ロスを圧縮',
+                summary: '原材料費の高騰や電力コストの上昇に対し、AI予測による歩留まり向上やエネルギー最適化が有効です。データに基づく改善で、勘と経験頼りの管理から脱却できます。',
+                measures: ['AI歩留まり予測・最適化', 'エネルギー消費のAI最適制御', 'AIによる予知保全（設備故障の予測）', '原材料の最適発注量AI算出'],
+                case_text: '食品製造業（従業員120名）がAI予知保全を導入。突発故障によるライン停止が年40回から5回に減少し、年間1,200万円のロス削減を実現。',
+                cost_initial: '150〜500万円',
+                cost_monthly: '5〜15万円',
+                cost_roi: '8〜14ヶ月'
+            },
+            quality: {
+                title: '製造業 x 品質向上：AI検査で不良ゼロへ近づく',
+                summary: 'ベテラン検査員の目視に頼った品質管理から、AI画像認識による定量的・均一的な検査体制へ。24時間安定した品質チェックが可能になります。',
+                measures: ['ディープラーニング外観検査', '寸法・形状のAI自動計測', 'AIによる工程異常の早期検知', 'トレーサビリティデータのAI分析'],
+                case_text: '電子部品メーカー（従業員80名）がAI外観検査を導入。検出率が従来85%から99.5%に向上し、顧客クレームが年30件から2件に激減。',
+                cost_initial: '100〜400万円',
+                cost_monthly: '3〜12万円',
+                cost_roi: '6〜10ヶ月'
+            },
+            sales: {
+                title: '製造業 x 営業強化：AI活用で受注率を向上',
+                summary: '製造業の営業は技術知識が必要で属人化しがちです。AIチャットボットによる技術問い合わせ対応や、受注予測による営業優先度の自動判定が効果的です。',
+                measures: ['AI技術チャットボット（製品仕様の自動回答）', '受注確度のAIスコアリング', '見積もり自動作成AI', 'AIによる顧客離反予測'],
+                case_text: '部品メーカー（従業員60名）がAI見積りシステムを導入。見積り作成時間が1件40分から5分に短縮され、営業担当の商談件数が月20件から35件に増加。',
+                cost_initial: '50〜200万円',
+                cost_monthly: '2〜8万円',
+                cost_roi: '4〜8ヶ月'
+            },
+            data: {
+                title: '製造業 x データ活用：IoT+AIで現場を見える化',
+                summary: 'センサーデータやPLCのログなど、製造現場には膨大なデータが眠っています。AIダッシュボードで稼働率・品質・コストをリアルタイムに可視化し、経営判断を加速します。',
+                measures: ['IoTセンサー + AIダッシュボード構築', 'AI異常検知アラートシステム', '生産データのAI傾向分析', 'AIレポート自動生成'],
+                case_text: 'プラスチック成形業（従業員35名）がIoT+AIダッシュボードを導入。稼働率が68%から82%に向上し、月次レポート作成も自動化で年480時間を削減。',
+                cost_initial: '100〜350万円',
+                cost_monthly: '3〜10万円',
+                cost_roi: '8〜14ヶ月'
+            },
+            dx: {
+                title: '製造業 x DX：紙とExcelからの脱却',
+                summary: '製造業は日報・検査票・作業標準書など紙文化が根強い業界です。AI-OCRによる帳票デジタル化と、生成AIによる文書作成自動化で段階的にDXを進められます。',
+                measures: ['AI-OCRによる帳票デジタル化', '生成AIで作業手順書を自動作成', '音声AIによる作業日報の自動入力', 'AIワークフローによる承認電子化'],
+                case_text: '機械加工メーカー（従業員50名）がAI-OCR+電子ワークフローを導入。紙帳票を80%削減し、月末の集計作業が3日から半日に短縮。',
+                cost_initial: '50〜200万円',
+                cost_monthly: '2〜8万円',
+                cost_roi: '4〜10ヶ月'
+            }
+        },
+        construction: {
+            name: '建設業',
+            labor: { title: '建設業 x 人手不足：AIで技能者不足を補う', summary: '建設業界の深刻な人手不足に対し、AI画像解析による遠隔品質チェック、ドローン+AIによる測量自動化、AIによる工程管理の効率化が有効です。', measures: ['ドローン+AI測量・点群データ処理', 'AI画像解析による配筋検査', 'AIによる工程スケジュール最適化', '安全管理AIカメラ（危険行動検知）'], case_text: '中堅ゼネコン（従業員200名）がドローン+AI測量を導入。測量作業が従来3日から半日に短縮し、測量技術者の配置を最適化。', cost_initial: '100〜400万円', cost_monthly: '3〜12万円', cost_roi: '6〜12ヶ月' },
+            cost: { title: '建設業 x コスト削減：AIで資材と工期を最適化', summary: '資材価格の変動や天候による工期遅延など、建設業特有のコストリスクをAI予測でコントロールします。', measures: ['AI資材価格予測・最適発注', 'AIによる工期リスク予測', '建機稼働率のAI最適化', 'AI積算システムによる見積り効率化'], case_text: '住宅建設会社（従業員80名）がAI積算を導入。見積り精度が15%改善し、原価超過プロジェクトが年8件から1件に減少。', cost_initial: '150〜500万円', cost_monthly: '5〜15万円', cost_roi: '8〜14ヶ月' },
+            quality: { title: '建設業 x 品質向上：AI検査で手戻りを削減', summary: '施工品質のバラツキや検査の見落としをAI画像解析で防止。コンクリートのひび割れ検知や配筋検査の自動化で品質を均一化します。', measures: ['AIによるコンクリートひび割れ自動検知', 'AI配筋検査システム', 'ドローン+AIによる外壁点検', 'BIM+AIによる干渉チェック自動化'], case_text: '設備工事会社（従業員45名）がAI配筋検査を導入。検査時間を70%短縮し、手戻り工事が年12件から2件に減少。', cost_initial: '100〜350万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            sales: { title: '建設業 x 営業強化：AIで受注を加速', summary: '公共工事の入札分析や民間案件のリード管理をAIで効率化し、受注確率を高めます。', measures: ['入札案件のAIスコアリング・分析', 'AIによる施主ニーズ分析', 'AI提案書自動生成', 'CRM+AIによる顧客フォロー最適化'], case_text: '中規模建設会社（従業員60名）がAI入札分析を導入。入札勝率が18%から28%に向上し、年間受注額が1.5倍に増加。', cost_initial: '50〜200万円', cost_monthly: '2〜8万円', cost_roi: '4〜8ヶ月' },
+            data: { title: '建設業 x データ活用：現場データをAIで経営に活かす', summary: '工事写真、日報、原価データなど散在する情報をAIで統合分析し、プロジェクト全体の見える化を実現します。', measures: ['AI工事写真管理・自動分類', '現場データAIダッシュボード', 'AIによる原価予実分析', '安全パトロールデータのAI分析'], case_text: '総合建設会社（従業員150名）がAI工事写真管理を導入。写真整理時間を1現場あたり月20時間削減し、過去事例の検索も瞬時に。', cost_initial: '80〜300万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            dx: { title: '建設業 x DX：現場のペーパーレスとデジタル化', summary: '建設業はDXの遅れが指摘される業界ですが、AI-OCRや音声入力で現場帳票のデジタル化を段階的に進められます。', measures: ['AI-OCRによる施工記録デジタル化', '音声AIによる現場日報自動入力', 'AIチャットボットによる規格・基準照会', '電子小黒板+AI写真管理'], case_text: '土木工事会社（従業員40名）が電子小黒板+AIを導入。現場の書類作成時間を月160時間削減し、完成書類の作成期間も半減。', cost_initial: '50〜200万円', cost_monthly: '2〜8万円', cost_roi: '4〜10ヶ月' }
+        },
+        retail: {
+            name: '小売・卸売業',
+            labor: { title: '小売業 x 人手不足：AIで店舗オペレーションを効率化', summary: 'AI需要予測によるシフト最適化や、セルフレジ+AI画像認識で少人数でも運営できる店舗体制を構築できます。', measures: ['AI需要予測によるシフト最適化', 'AIチャットボットによる顧客対応自動化', 'AI発注システム（自動補充）', 'AI画像認識によるセルフレジ強化'], case_text: '食品スーパー（5店舗）がAI自動発注を導入。発注業務の時間を80%削減し、欠品率も3.2%から0.8%に改善。', cost_initial: '50〜250万円', cost_monthly: '2〜10万円', cost_roi: '4〜10ヶ月' },
+            cost: { title: '小売業 x コスト削減：AI需要予測で廃棄・在庫ロスを削減', summary: '需要予測AIにより過剰在庫や廃棄ロスを最小化。発注量の最適化で粗利率を改善します。', measures: ['AI需要予測（天候・イベント連動）', 'ダイナミックプライシングAI', '在庫配置のAI最適化', 'AIによるサプライチェーン最適化'], case_text: 'ドラッグストアチェーン（8店舗）がAI需要予測を導入。食品廃棄を40%削減し、年間600万円のコスト改善を達成。', cost_initial: '80〜300万円', cost_monthly: '3〜12万円', cost_roi: '6〜10ヶ月' },
+            quality: { title: '小売業 x 品質向上：AIで顧客体験を改善', summary: 'AI接客アシスタントやパーソナライズドレコメンドで、顧客満足度とリピート率を向上させます。', measures: ['AIレコメンドエンジン', 'AIによる顧客セグメント分析', 'AI接客チャットボット', '来店客数AI予測による品揃え最適化'], case_text: 'アパレルEC（年商2億円）がAIレコメンドを導入。客単価が23%向上し、カート離脱率が15%改善。', cost_initial: '50〜200万円', cost_monthly: '2〜8万円', cost_roi: '3〜8ヶ月' },
+            sales: { title: '小売業 x 営業強化：AIマーケティングで集客力UP', summary: 'AIによる顧客分析とターゲティングで、販促の効果を最大化。LTV予測に基づくCRM施策で優良顧客を育成します。', measures: ['AI顧客LTV予測', 'AIパーソナライズドメール配信', 'SNS広告のAI最適化', 'AIによる販促効果予測'], case_text: '雑貨チェーン（3店舗+EC）がAIメール配信を導入。メール経由の売上が3.5倍に増加し、配信工数も月20時間削減。', cost_initial: '30〜150万円', cost_monthly: '2〜8万円', cost_roi: '3〜6ヶ月' },
+            data: { title: '小売業 x データ活用：POSデータをAIで収益に変える', summary: '日々蓄積されるPOSデータや顧客データをAI分析し、品揃え・価格・プロモーションの意思決定を支援します。', measures: ['POS+AIによるバスケット分析', 'AIダッシュボード（リアルタイム売上分析）', 'AIによる商圏分析・出店判断', '顧客行動のAI予測モデル'], case_text: 'ホームセンター（3店舗）がAIバスケット分析を導入。クロスセル提案で客単価が12%向上し、関連購買率が28%改善。', cost_initial: '80〜300万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            dx: { title: '小売業 x DX：店舗運営のデジタル化', summary: 'FAXや紙の発注書からの脱却、棚卸のAI化など、店舗業務のデジタル化を段階的に推進します。', measures: ['AI-OCRによるFAX注文のデジタル化', 'AIカメラによる棚割り分析', 'AIによる本部-店舗間コミュニケーション効率化', 'デジタルサイネージのAIコンテンツ最適化'], case_text: '食品卸売業（従業員30名）がFAX注文のAI-OCR化を導入。受注処理時間を1日4時間から30分に短縮し、入力ミスも90%削減。', cost_initial: '40〜180万円', cost_monthly: '2〜6万円', cost_roi: '4〜8ヶ月' }
+        },
+        food: {
+            name: '飲食業',
+            labor: { title: '飲食業 x 人手不足：AI予約管理と業務効率化', summary: 'AIによる来客予測でシフトを最適化し、予約・注文対応をAIチャットボットで自動化。少人数でも顧客満足度を維持できます。', measures: ['AI来客数予測によるシフト最適化', 'AI予約・注文チャットボット', 'AIによるメニュー提案システム', '食材発注のAI自動化'], case_text: '居酒屋チェーン（5店舗）がAI来客予測+シフト最適化を導入。人件費を月15%削減しつつ、ピーク時の待ち時間を40%短縮。', cost_initial: '30〜150万円', cost_monthly: '2〜6万円', cost_roi: '3〜8ヶ月' },
+            cost: { title: '飲食業 x コスト削減：AIで食品ロスとオペコストを削減', summary: 'AI需要予測で食材の過剰仕入れを防止し、メニューミックスの最適化で原価率を改善します。', measures: ['AI需要予測による食材発注最適化', 'AIメニューミックス分析', 'エネルギー消費のAI最適制御', 'AIによるフードロス計測・削減'], case_text: 'カフェチェーン（3店舗）がAI食材発注を導入。フードロスを35%削減し、原価率を32%から28%に改善。年間240万円のコスト削減。', cost_initial: '30〜120万円', cost_monthly: '1〜5万円', cost_roi: '3〜6ヶ月' },
+            quality: { title: '飲食業 x 品質向上：AIで味と衛生の均一化', summary: 'AIカメラによる衛生管理や、レシピ管理AIで店舗間の品質バラツキを解消します。', measures: ['AIカメラによるHACCP衛生監視', 'AI温度管理システム', 'AIレシピ標準化・トレーニングシステム', '顧客レビューAI分析（品質改善ポイント抽出）'], case_text: 'ラーメンチェーン（8店舗）がAIレシピ管理+衛生AIを導入。店舗間の味評価のバラツキが60%減少し、衛生指摘事項もゼロに。', cost_initial: '40〜200万円', cost_monthly: '2〜8万円', cost_roi: '4〜10ヶ月' },
+            sales: { title: '飲食業 x 営業強化：AIで集客とリピートを増やす', summary: 'AIによる顧客分析で常連化を促進し、SNSマーケティングのAI最適化で新規集客も強化します。', measures: ['AIによるリピーター分析・促進施策', 'SNS投稿のAI最適化（時間・内容）', 'AIクーポン最適配信', 'Googleビジネスプロフィール+AI口コミ分析'], case_text: 'イタリアンレストラン（2店舗）がAIリピーター分析を導入。リピート率が25%から42%に向上し、月間売上が120万円増加。', cost_initial: '20〜100万円', cost_monthly: '1〜5万円', cost_roi: '2〜6ヶ月' },
+            data: { title: '飲食業 x データ活用：売上データをAIで経営改善に活かす', summary: 'POSデータ・予約データ・口コミデータをAIで統合分析し、メニュー改善や立地戦略に活かします。', measures: ['AIメニュー収益分析', 'AIダッシュボード（日次売上・客数・客単価）', '口コミデータのAIセンチメント分析', 'AIによる新メニュー需要予測'], case_text: '焼肉店（3店舗）がAIメニュー分析を導入。低収益メニューを特定してリニューアルし、平均客単価が18%向上。', cost_initial: '30〜150万円', cost_monthly: '2〜6万円', cost_roi: '4〜8ヶ月' },
+            dx: { title: '飲食業 x DX：紙の伝票から卒業', summary: 'タブレット注文+AI連携や、紙の日報・棚卸のデジタル化で、飲食店のDXを段階的に進めます。', measures: ['タブレット注文+AIレコメンド', 'AI棚卸しシステム', 'デジタル日報+AI集計', 'AI対応モバイルオーダー'], case_text: '定食チェーン（4店舗）がタブレット注文+AIを導入。注文ミスが95%減少し、ホールスタッフ1名分の業務を削減。', cost_initial: '20〜100万円', cost_monthly: '1〜4万円', cost_roi: '3〜6ヶ月' }
+        },
+        medical: {
+            name: '医療・介護',
+            labor: { title: '医療・介護 x 人手不足：AIで記録・事務作業を効率化', summary: '看護記録や介護記録の音声AI入力、AIによるスケジュール最適化で、医療・介護スタッフが本来のケアに集中できる環境を作ります。', measures: ['音声AIによる看護・介護記録の自動入力', 'AIシフトスケジューリング', 'AIによる問診・トリアージ支援', '服薬管理AIシステム'], case_text: '介護施設（入所100名）が音声AI記録を導入。記録業務が1日90分から20分に短縮され、入居者とのコミュニケーション時間が2倍に。', cost_initial: '80〜300万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            cost: { title: '医療・介護 x コスト削減：AIで業務効率化と最適配置', summary: 'AIによるベッド稼働率最適化や、在庫管理の効率化で運営コストを削減します。', measures: ['AIベッド稼働率最適化', '医薬品・消耗品のAI在庫管理', 'AIによるレセプト点検自動化', 'エネルギー消費のAI最適制御'], case_text: 'クリニック（医師3名）がAIレセプト点検を導入。返戻率が5%から0.5%に改善し、事務スタッフの残業が月40時間削減。', cost_initial: '50〜250万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            quality: { title: '医療・介護 x 品質向上：AIで診療・ケアの質を向上', summary: 'AI画像診断支援や、転倒予測AIでケアの質を向上。ヒヤリハットの削減にも貢献します。', measures: ['AI画像診断支援（X線・CT等）', '転倒リスクAI予測', 'AIによるバイタルサイン異常検知', 'ケアプランAI作成支援'], case_text: '総合病院がAI画像診断支援を導入。読影時間が30%短縮し、見落とし率が0.8%から0.1%に改善。', cost_initial: '100〜500万円', cost_monthly: '5〜20万円', cost_roi: '8〜18ヶ月' },
+            sales: { title: '医療・介護 x 集患・集客：AIで患者・利用者を増やす', summary: 'AIによるWeb集患やLINE予約の自動化で、新規患者の獲得と既存患者のリテンションを強化します。', measures: ['AI予約チャットボット（LINE連携）', 'AIによるSEO・MEO最適化', '患者リテンションAI分析', 'AIによる口コミ分析・改善提案'], case_text: '歯科クリニックがAI LINE予約を導入。予約率が35%向上し、キャンセル率も自動リマインドで20%から5%に改善。', cost_initial: '30〜150万円', cost_monthly: '2〜8万円', cost_roi: '3〜8ヶ月' },
+            data: { title: '医療・介護 x データ活用：電子カルテデータをAIで活用', summary: '蓄積された電子カルテや介護記録のデータをAI分析し、個別化された治療・ケア計画の策定を支援します。', measures: ['電子カルテデータのAI分析', 'AIによる患者リスクスコアリング', '介護記録のAI傾向分析', 'AIダッシュボード（経営指標の可視化）'], case_text: '介護施設グループ（3施設）がAI介護記録分析を導入。利用者の状態変化の早期検知率が60%向上し、緊急搬送が年15件から5件に減少。', cost_initial: '80〜350万円', cost_monthly: '5〜15万円', cost_roi: '8〜16ヶ月' },
+            dx: { title: '医療・介護 x DX：紙カルテ・FAXからの脱却', summary: '医療・介護業界のデジタル化遅れは大きな課題です。AI-OCRによるカルテデジタル化や、オンライン診療のAI支援で段階的にDXを推進します。', measures: ['AI-OCRによる紙カルテのデジタル化', 'オンライン診療+AI問診', '処方箋のAI電子化', 'AIによるケア記録テンプレート自動生成'], case_text: '内科クリニック（医師2名）がオンライン診療+AI問診を導入。対面不要の再診が30%をオンラインに移行し、患者の待ち時間を大幅短縮。', cost_initial: '50〜250万円', cost_monthly: '3〜10万円', cost_roi: '6〜14ヶ月' }
+        },
+        logistics: {
+            name: '物流・運輸',
+            labor: { title: '物流業 x 人手不足：AIで配送・倉庫作業を効率化', summary: 'AI配車最適化や倉庫作業の自動化で、2024年問題に対応。ドライバー不足でも配送品質を維持します。', measures: ['AI配車・ルート最適化', 'AIによる倉庫ピッキング最適化', 'AIシフト・配置最適化', 'AI需要予測による車両配置最適化'], case_text: '運送会社（車両50台）がAI配車を導入。配送効率が25%向上し、ドライバーの時間外労働が月平均15時間削減。', cost_initial: '100〜400万円', cost_monthly: '5〜15万円', cost_roi: '6〜12ヶ月' },
+            cost: { title: '物流業 x コスト削減：AIで燃料費と空車率を削減', summary: 'AIによるルート最適化と積載率向上で、燃料費や車両コストを圧縮します。', measures: ['AI燃料消費予測・最適化', '積載率のAI最適化', 'AI予知保全（車両故障予測）', '帰り便マッチングAI'], case_text: '物流会社（車両30台）がAIルート+積載最適化を導入。燃料費を18%削減し、空車走行率を40%から15%に改善。年間800万円のコスト削減。', cost_initial: '80〜300万円', cost_monthly: '3〜12万円', cost_roi: '6〜10ヶ月' },
+            quality: { title: '物流業 x 品質向上：AIで配送品質を向上', summary: 'AI配送追跡や、破損予測AIで配送品質を向上。顧客満足度の改善につなげます。', measures: ['AIリアルタイム配送追跡', 'AI貨物破損リスク予測', '温度管理AIシステム（食品・医薬品）', 'AIによる誤配防止システム'], case_text: '宅配業者がAI誤配防止システムを導入。誤配率が0.5%から0.02%に改善し、顧客クレームが90%減少。', cost_initial: '80〜300万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            sales: { title: '物流業 x 営業強化：AIで荷主を獲得', summary: 'AIによる営業ターゲティングと、自動見積りシステムで新規荷主の獲得を加速します。', measures: ['AI見積り自動作成', '荷主ニーズのAI分析', 'AIによる競合料金モニタリング', 'CRM+AIによる既存荷主フォロー'], case_text: '運送会社（従業員60名）がAI見積りシステムを導入。見積り回答時間が2日から2時間に短縮され、成約率が22%から35%に向上。', cost_initial: '50〜200万円', cost_monthly: '2〜8万円', cost_roi: '4〜8ヶ月' },
+            data: { title: '物流業 x データ活用：運行データをAIで経営に活かす', summary: 'デジタコやGPSの運行データ、荷量データをAI分析し、経営判断を支援します。', measures: ['運行データAIダッシュボード', 'AIによる荷量予測', 'ドライバー運転行動のAI分析', 'AIによるKPI自動レポート'], case_text: '物流会社（車両40台）が運行データAI分析を導入。燃費改善ドライバー表彰制度と連動し、全体の燃費が12%改善。', cost_initial: '60〜250万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+            dx: { title: '物流業 x DX：紙の伝票と電話受注からの脱却', summary: '送り状や受領書の紙運用、電話での配車指示をデジタル化し、AI連携で業務を効率化します。', measures: ['AI-OCRによる送り状デジタル化', '電子受領書+AI照合', 'AIチャットボットによる配送状況照会', 'デジタル配車指示+AI最適化'], case_text: '運送会社（従業員40名）が送り状AI-OCRを導入。事務処理時間を月80時間削減し、請求書作成も自動化で月末作業が3日から半日に。', cost_initial: '40〜180万円', cost_monthly: '2〜6万円', cost_roi: '4〜8ヶ月' }
+        }
+    };
+
+    /* Fallback for industries not fully defined */
+    var defaultData = {
+        labor: { title: '{industry} x 人手不足：AIで業務自動化を実現', summary: '人手不足の解決にはAIによる業務自動化が効果的です。定型業務の自動化から始めて、段階的にAI活用を拡大することで、少人数でも回る体制を構築できます。', measures: ['RPA+AIによる定型業務の自動化', 'AIチャットボットによる問い合わせ対応', 'AIによるスケジュール・シフト最適化', '生成AIによる文書作成効率化'], case_text: '中小企業がRPA+AIを導入し、定型業務を80%自動化。月間200時間の工数削減を達成し、従業員はより付加価値の高い業務に集中。', cost_initial: '50〜200万円', cost_monthly: '2〜8万円', cost_roi: '4〜10ヶ月' },
+        cost: { title: '{industry} x コスト削減：AIで無駄を見える化して削減', summary: 'AIによるデータ分析で業務の無駄を特定し、自動化と最適化でコストを削減します。', measures: ['AIによるコスト構造分析', 'RPA+AIによる事務作業自動化', 'AIエネルギー最適制御', 'AI需要予測による在庫最適化'], case_text: '中小企業がAI業務分析を導入。非効率な作業プロセスを特定・改善し、年間の運営コストを15%削減。', cost_initial: '50〜250万円', cost_monthly: '2〜10万円', cost_roi: '6〜12ヶ月' },
+        quality: { title: '{industry} x 品質向上：AIで品質管理を高度化', summary: 'AIによる自動チェックや異常検知で、ヒューマンエラーを防止し、サービス・製品の品質を向上させます。', measures: ['AIによる品質チェック自動化', 'AIアラート（異常検知）', '顧客フィードバックのAI分析', 'AIによる業務標準化支援'], case_text: '中小企業がAI品質チェックを導入。ヒューマンエラーを70%削減し、顧客満足度スコアが15ポイント向上。', cost_initial: '50〜250万円', cost_monthly: '2〜10万円', cost_roi: '6〜12ヶ月' },
+        sales: { title: '{industry} x 営業強化：AIで効率的に売上を伸ばす', summary: 'AIによる顧客分析とリード管理で営業効率を最大化。見込み客の優先順位付けから提案書作成まで、営業プロセス全体をAIが支援します。', measures: ['AIリードスコアリング', 'AI提案書・見積書自動作成', 'AIによる顧客行動分析', 'AIチャットボットによるリード獲得'], case_text: '中小企業がAIリード管理を導入。営業1人あたりの商談数が1.5倍に増加し、成約率も20%向上。', cost_initial: '30〜150万円', cost_monthly: '2〜8万円', cost_roi: '3〜8ヶ月' },
+        data: { title: '{industry} x データ活用：蓄積データをAIで経営に活かす', summary: 'Excelや基幹システムに眠っているデータをAIで分析し、経営判断を支えるインサイトを抽出します。', measures: ['AIダッシュボード構築', 'AIによるKPI自動分析', '顧客データのAIセグメント分析', 'AIレポート自動生成'], case_text: '中小企業がAIダッシュボードを導入。月次レポート作成が自動化され、経営会議の意思決定スピードが3倍に向上。', cost_initial: '50〜250万円', cost_monthly: '3〜10万円', cost_roi: '6〜12ヶ月' },
+        dx: { title: '{industry} x DX：業務のデジタル化をAIで加速', summary: '紙やExcel中心の業務からの脱却をAIが支援。AI-OCRによる帳票デジタル化や、生成AIによる文書作成で段階的にDXを推進します。', measures: ['AI-OCRによる紙帳票デジタル化', '生成AIによる文書作成自動化', 'AIワークフローシステム', 'AIチャットボットによる社内問い合わせ対応'], case_text: '中小企業がAI-OCR+ワークフローを導入。紙帳票を90%削減し、承認プロセスの所要時間を5日から1日に短縮。', cost_initial: '30〜150万円', cost_monthly: '2〜6万円', cost_roi: '4〜8ヶ月' }
+    };
+
+    var industryNames = {
+        manufacturing: '製造業', construction: '建設業', retail: '小売・卸売業',
+        food: '飲食業', medical: '医療・介護', logistics: '物流・運輸',
+        it: 'IT・通信', finance: '金融・保険', realestate: '不動産',
+        education: '教育', professional: '士業・専門サービス',
+        agriculture: '農業・水産業', other: 'その他'
+    };
+
+    var selectedIndustry = null;
+
+    document.querySelectorAll('.industry-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            selectedIndustry = this.getAttribute('data-industry');
+            document.querySelectorAll('.industry-btn').forEach(function(b) { b.classList.remove('selected'); });
+            this.classList.add('selected');
+            setTimeout(function() {
+                document.getElementById('step1').style.display = 'none';
+                document.getElementById('step2').style.display = 'block';
+                document.getElementById('step2').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 300);
+        });
+    });
+
+    document.getElementById('backToStep1').addEventListener('click', function() {
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step1').style.display = 'block';
+    });
+
+    document.querySelectorAll('.challenge-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var challenge = this.getAttribute('data-challenge');
+            showResult(selectedIndustry, challenge);
+        });
+    });
+
+    document.getElementById('retryBtn').addEventListener('click', function() {
+        document.getElementById('result').style.display = 'none';
+        document.getElementById('step1').style.display = 'block';
+        document.querySelectorAll('.industry-btn').forEach(function(b) { b.classList.remove('selected'); });
+        selectedIndustry = null;
+        document.getElementById('diagnosis-start').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    function showResult(industry, challenge) {
+        var data;
+        if (diagnosisData[industry] && diagnosisData[industry][challenge]) {
+            data = diagnosisData[industry][challenge];
+        } else {
+            data = JSON.parse(JSON.stringify(defaultData[challenge]));
+            var name = industryNames[industry] || 'その他';
+            data.title = data.title.replace('{industry}', name);
+        }
+
+        document.getElementById('result-title').textContent = data.title;
+        document.getElementById('result-summary').textContent = data.summary;
+
+        var measuresHtml = '';
+        data.measures.forEach(function(m) {
+            measuresHtml += '<li>' + m + '</li>';
+        });
+        document.getElementById('result-measures').innerHTML = measuresHtml;
+
+        document.getElementById('result-case').innerHTML = '<p class="case-detail">' + data.case_text + '</p>';
+
+        document.getElementById('result-cost').innerHTML =
+            '<div class="cost-row"><span class="cost-label">初期導入費用</span><span class="cost-value">' + data.cost_initial + '</span></div>' +
+            '<div class="cost-row"><span class="cost-label">月額運用費用</span><span class="cost-value">' + data.cost_monthly + '</span></div>' +
+            '<div class="cost-row"><span class="cost-label">投資回収期間</span><span class="cost-value">' + data.cost_roi + '</span></div>' +
+            '<p style="margin-top:1rem;font-size:0.85rem;color:rgba(232,230,225,0.45);">※ 補助金活用で実質負担を50〜75%軽減できる場合があります</p>';
+
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('result').style.display = 'block';
+        document.getElementById('result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+})();
+</script>

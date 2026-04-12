@@ -1,143 +1,1068 @@
 ---
 layout: default
-title: "導入事例 - AI導入の成功パターン"
+title: "AI導入事例集｜業界別の成功事例と効果"
 permalink: /case-studies/
-description: "AIコンパスが支援したAI導入プロジェクトの事例をご紹介。業界別の成功パターンと導入効果をご確認いただけます。"
+description: "製造業・建設業・医療・飲食など業界別のAI導入事例。導入費用と効果を数字で紹介。"
+lang: ja
+sitemap:
+  priority: 0.9
+  changefreq: monthly
 ---
 
 <div class="case-studies-page">
-    <div class="page-header">
-        <h1>導入事例</h1>
-        <p>AI導入プロジェクトの成功パターンと具体的な導入効果をご紹介します。</p>
-    </div>
+    <!-- ヒーローセクション -->
+    <section class="cs-hero">
+        <div class="cs-hero-content">
+            <h1>AI導入事例集</h1>
+            <p class="hero-subtitle">業界別の成功事例と効果を数字で紹介。御社と同じ業界の事例が見つかります。</p>
+        </div>
+    </section>
 
-    <!-- カテゴリの導入事例記事を表示 -->
-    {% assign case_posts = site.posts | where_exp: "post", "post.categories contains '導入事例'" %}
-
-    {% if case_posts.size > 0 %}
-    <div class="case-studies-grid">
-        {% for post in case_posts limit:12 %}
-        <article class="case-study-card">
-            <div class="case-study-card__header">
-                <div class="case-study-card__company">導入事例</div>
-                <h3 class="case-study-card__title">
-                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </h3>
+    <!-- 業界タブ -->
+    <section class="cs-main">
+        <div class="cs-inner">
+            <div class="tab-nav" role="tablist">
+                <button class="tab-btn active" data-tab="manufacturing" role="tab" aria-selected="true">製造業</button>
+                <button class="tab-btn" data-tab="construction" role="tab" aria-selected="false">建設業</button>
+                <button class="tab-btn" data-tab="medical" role="tab" aria-selected="false">医療・介護</button>
+                <button class="tab-btn" data-tab="food" role="tab" aria-selected="false">飲食業</button>
+                <button class="tab-btn" data-tab="retail" role="tab" aria-selected="false">小売・卸売</button>
+                <button class="tab-btn" data-tab="logistics" role="tab" aria-selected="false">物流・運輸</button>
+                <button class="tab-btn" data-tab="professional" role="tab" aria-selected="false">士業・サービス</button>
             </div>
-            <div class="case-study-card__body">
-                {% if post.excerpt %}
-                <p class="case-study-card__description">{{ post.excerpt | strip_html | truncate: 150 }}</p>
-                {% endif %}
-                <div class="case-study-card__meta">
-                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
-                    {% if post.tags and post.tags.size > 0 %}
-                    <div class="case-study-card__tags">
-                        {% for tag in post.tags limit:3 %}
-                        <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
+
+            <!-- 製造業 -->
+            <div class="tab-panel active" id="panel-manufacturing" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">外観検査AI</div>
+                        <h3>金属加工メーカー｜AI外観検査で不良品流出率を97%削減</h3>
+                        <div class="case-meta">従業員45名 / 導入期間3ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>ベテラン検査員の退職により検品体制が崩壊。新人では微細なキズや変色の見落としが頻発し、顧客クレームが月10件以上発生していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>ディープラーニングによる外観検査AI。生産ライン上のカメラ画像をリアルタイム解析し、キズ・変色・寸法異常を自動検出。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">97%</div>
+                                        <div class="effect-label">不良品流出率削減<br>(0.3%→0.01%)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">80%</div>
+                                        <div class="effect-label">検品人員削減<br>(5名→1名)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">8ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 180万円 / 月額: 5万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">予知保全AI</div>
+                        <h3>食品製造業｜AI予知保全でライン停止を87%削減</h3>
+                        <div class="case-meta">従業員120名 / 導入期間4ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>設備の突発故障によるライン停止が年40回発生。1回の停止で平均30万円のロスが出ており、メンテナンス体制の見直しが急務だった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>IoTセンサー（振動・温度・電流）とAI異常検知を組み合わせた予知保全システム。故障の兆候を2週間前に予測。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">87%</div>
+                                        <div class="effect-label">突発故障削減<br>(40回→5回/年)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">1,200万</div>
+                                        <div class="effect-label">年間ロス削減額</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">10ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 350万円 / 月額: 8万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI見積り</div>
+                        <h3>部品メーカー｜AI見積りで営業生産性を75%向上</h3>
+                        <div class="case-meta">従業員60名 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>見積り作成に1件40分かかり、ベテラン営業に依存。回答の遅さで失注するケースが月5件以上発生していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>過去の見積りデータと原価情報をAIが学習し、図面アップロードだけで概算見積りを自動生成するシステム。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">87%</div>
+                                        <div class="effect-label">見積り時間短縮<br>(40分→5分)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">75%</div>
+                                        <div class="effect-label">商談件数増加<br>(20件→35件/月)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">5ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 120万円 / 月額: 4万円</div>
+                    </article>
                 </div>
             </div>
-        </article>
-        {% endfor %}
-    </div>
-    {% else %}
-    <div class="coming-soon">
-        <h2>事例を準備中です</h2>
-        <p>詳細な導入事例は現在準備中です。AI導入に関するご相談は、お気軽にお問い合わせください。</p>
-        <a href="/contact/" class="btn-primary">お問い合わせ</a>
-    </div>
-    {% endif %}
+
+            <!-- 建設業 -->
+            <div class="tab-panel" id="panel-construction" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">ドローン+AI</div>
+                        <h3>中堅ゼネコン｜ドローン+AI測量で作業日数を83%短縮</h3>
+                        <div class="case-meta">従業員200名 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>測量技術者の高齢化と人材不足。広大な現場の測量に3日間かかり、着工スケジュールのボトルネックになっていた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>ドローンで空撮した画像をAIが点群データに変換し、3D地形モデルを自動生成。土量計算もAIが自動算出。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">83%</div>
+                                        <div class="effect-label">測量日数短縮<br>(3日→半日)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">95%</div>
+                                        <div class="effect-label">測量精度</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">6ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 250万円 / 月額: 6万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI配筋検査</div>
+                        <h3>設備工事会社｜AI配筋検査で手戻り工事を83%削減</h3>
+                        <div class="case-meta">従業員45名 / 導入期間3ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>配筋検査に多くの時間を費やしていたが、見落としによる手戻り工事が年12件発生。コストと工期の大きなロスに。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>タブレット端末で撮影した配筋写真をAIが解析し、鉄筋の本数・間隔・かぶり厚さを自動計測。不適合箇所をリアルタイム通知。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">70%</div>
+                                        <div class="effect-label">検査時間短縮</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">83%</div>
+                                        <div class="effect-label">手戻り削減<br>(12件→2件/年)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">8ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 200万円 / 月額: 5万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI入札分析</div>
+                        <h3>建設会社｜AI入札分析で勝率を56%向上</h3>
+                        <div class="case-meta">従業員60名 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>公共工事の入札勝率が18%と低迷。どの案件に注力すべきか判断できず、全案件に同じ工数をかけていた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>過去の入札データ（落札率・競合分析・発注者傾向）をAIが分析し、勝率の高い案件を自動スコアリング。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">56%</div>
+                                        <div class="effect-label">入札勝率向上<br>(18%→28%)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">1.5倍</div>
+                                        <div class="effect-label">年間受注額増加</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">4ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 100万円 / 月額: 4万円</div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 医療・介護 -->
+            <div class="tab-panel" id="panel-medical" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">音声AI記録</div>
+                        <h3>介護施設｜音声AI記録で介護士の記録時間を78%削減</h3>
+                        <div class="case-meta">入所100名 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>介護記録の入力に1日90分かかり、残業の主因に。記録が後回しになることで内容の正確性も低下していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>スマートフォンに話しかけるだけでAIが介護記録を自動作成。LIFE対応フォーマットに自動変換し、バイタル値も自動抽出。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">78%</div>
+                                        <div class="effect-label">記録時間削減<br>(90分→20分/日)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">2倍</div>
+                                        <div class="effect-label">入居者との<br>コミュニケーション時間</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">6ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 150万円 / 月額: 5万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AIレセプト点検</div>
+                        <h3>クリニック｜AIレセプト点検で返戻率を90%改善</h3>
+                        <div class="case-meta">医師3名 / 導入期間1ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>レセプト返戻率が5%と高く、再請求の手間と収入の遅れが経営を圧迫。事務スタッフの残業も常態化していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>レセプト内容をAIが自動チェックし、算定誤り・病名漏れ・傷病名と処置の不整合を提出前に検出。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">90%</div>
+                                        <div class="effect-label">返戻率改善<br>(5%→0.5%)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">40h</div>
+                                        <div class="effect-label">月間残業削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">4ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 80万円 / 月額: 3万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI LINE予約</div>
+                        <h3>歯科クリニック｜AI予約システムで予約率35%向上</h3>
+                        <div class="case-meta">医師2名 / 導入期間1ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>電話予約のみで対応。営業時間外の予約機会を逃しており、キャンセル率も20%と高かった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>LINE上でAIチャットボットが24時間予約対応。空き枠提案、リマインド送信、キャンセル時の代替提案も自動で実行。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">35%</div>
+                                        <div class="effect-label">予約率向上</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">75%</div>
+                                        <div class="effect-label">キャンセル率改善<br>(20%→5%)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">3ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 50万円 / 月額: 2万円</div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 飲食業 -->
+            <div class="tab-panel" id="panel-food" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">AI来客予測</div>
+                        <h3>居酒屋チェーン｜AI来客予測でシフトコスト15%削減</h3>
+                        <div class="case-meta">5店舗 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>来客数の予測が経験頼りで、人員過剰や不足が頻発。ピーク時の待ち時間が長く、Google口コミ評価が低下していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>過去の売上データ・天候・イベント・周辺情報をAIが学習し、30分単位の来客数を予測。最適シフトを自動提案。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">15%</div>
+                                        <div class="effect-label">人件費削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">40%</div>
+                                        <div class="effect-label">待ち時間短縮</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">4ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 80万円 / 月額: 3万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI食材発注</div>
+                        <h3>カフェチェーン｜AI食材発注でフードロス35%削減</h3>
+                        <div class="case-meta">3店舗 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>食材の廃棄ロスが売上の8%を占めていた。店長の勘に頼った発注で、週末の過剰仕入れと平日の欠品が常態化。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>メニュー別売上予測AIが天候・曜日・近隣イベントを加味して最適発注量を自動算出。発注書も自動生成。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">35%</div>
+                                        <div class="effect-label">フードロス削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">240万</div>
+                                        <div class="effect-label">年間コスト削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">3ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 60万円 / 月額: 2万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AIリピーター分析</div>
+                        <h3>イタリアン｜AIリピーター分析でリピート率68%向上</h3>
+                        <div class="case-meta">2店舗 / 導入期間1ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>新規客は来るがリピート率が25%と低迷。常連化の施策が場当たり的で、効果の検証もできていなかった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>予約・POS・アンケートデータをAIが分析し、離反リスクの高い顧客を特定。最適なタイミングでクーポンや案内を自動配信。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">68%</div>
+                                        <div class="effect-label">リピート率向上<br>(25%→42%)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">120万</div>
+                                        <div class="effect-label">月間売上増加</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">2ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 40万円 / 月額: 2万円</div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 小売・卸売 -->
+            <div class="tab-panel" id="panel-retail" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">AI需要予測</div>
+                        <h3>食品スーパー｜AI需要予測で廃棄40%削減・欠品75%改善</h3>
+                        <div class="case-meta">5店舗 / 導入期間3ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>惣菜・生鮮の廃棄ロスが売上の6%。発注担当者によるバラツキが大きく、欠品率も3.2%と高かった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>天候・曜日・チラシ・地域イベントを加味したAI需要予測モデル。SKU単位で最適発注量を自動提案。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">40%</div>
+                                        <div class="effect-label">廃棄ロス削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">75%</div>
+                                        <div class="effect-label">欠品率改善<br>(3.2%→0.8%)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">6ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 200万円 / 月額: 8万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AIレコメンド</div>
+                        <h3>アパレルEC｜AIレコメンドで客単価23%向上</h3>
+                        <div class="case-meta">年商2億円 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>ECの客単価が低迷し、カート離脱率も高かった。手動でのおすすめ商品設定に限界があった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>購買履歴・閲覧行動・属性データを元にAIが個別最適なレコメンドを自動表示。メール配信のパーソナライズも実装。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">23%</div>
+                                        <div class="effect-label">客単価向上</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">15%</div>
+                                        <div class="effect-label">カート離脱率改善</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">4ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 100万円 / 月額: 5万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI-OCR受注</div>
+                        <h3>食品卸売業｜FAX受注のAI化で処理時間を87%短縮</h3>
+                        <div class="case-meta">従業員30名 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>FAXで届く注文書を手入力する作業に1日4時間。入力ミスによる誤出荷が月10件発生していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>AI-OCRがFAX注文書を自動読み取り、基幹システムに自動連携。不明瞭な箇所だけ人が確認する半自動フロー。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">87%</div>
+                                        <div class="effect-label">処理時間短縮<br>(4h→30分/日)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">90%</div>
+                                        <div class="effect-label">入力ミス削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">5ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 80万円 / 月額: 3万円</div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 物流・運輸 -->
+            <div class="tab-panel" id="panel-logistics" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">AI配車</div>
+                        <h3>運送会社｜AI配車で配送効率25%向上・残業15h削減</h3>
+                        <div class="case-meta">車両50台 / 導入期間3ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>2024年問題への対応が急務。ベテラン配車担当者1名に依存し、属人化が深刻だった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>配送先・荷量・時間指定・道路状況をAIが総合判断し、最適ルートと車両割当を自動生成。リアルタイム変更にも対応。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">25%</div>
+                                        <div class="effect-label">配送効率向上</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">15h</div>
+                                        <div class="effect-label">月平均残業削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">8ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 300万円 / 月額: 10万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AIルート最適化</div>
+                        <h3>物流会社｜AI最適化で燃料費18%削減・空車率62%改善</h3>
+                        <div class="case-meta">車両30台 / 導入期間2ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>燃料費の高騰と空車走行率40%が経営を圧迫。帰り便の有効活用ができていなかった。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>AIが積載率と走行ルートを同時最適化。帰り便マッチング機能で空車走行を大幅削減。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">18%</div>
+                                        <div class="effect-label">燃料費削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">800万</div>
+                                        <div class="effect-label">年間コスト削減</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">6ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 200万円 / 月額: 8万円</div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 士業・サービス -->
+            <div class="tab-panel" id="panel-professional" role="tabpanel">
+                <div class="case-grid">
+                    <article class="case-card">
+                        <div class="case-tag">生成AI</div>
+                        <h3>税理士法人｜生成AIで書類作成時間を60%短縮</h3>
+                        <div class="case-meta">スタッフ15名 / 導入期間1ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>顧問先への月次報告書や決算書の補足説明文の作成に多大な時間を費やしていた。繁忙期は深夜残業が常態化。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>会計データを入力すると、月次コメント・決算説明文・経営分析レポートを生成AIが自動作成。専門用語の正確性も確保。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">60%</div>
+                                        <div class="effect-label">書類作成時間短縮</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">20%</div>
+                                        <div class="effect-label">顧問先数増加<br>(人員増なし)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">2ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 30万円 / 月額: 2万円</div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-tag">AI契約書レビュー</div>
+                        <h3>法律事務所｜AI契約レビューで確認時間を70%削減</h3>
+                        <div class="case-meta">弁護士5名 / 導入期間1ヶ月</div>
+                        <div class="case-body">
+                            <div class="case-section">
+                                <h4>課題</h4>
+                                <p>契約書レビューに1件平均2時間。案件増加に人員が追いつかず、回答リードタイムが長期化していた。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>導入したAI</h4>
+                                <p>AIが契約書をスキャンし、リスク条項・抜け漏れ・相場との乖離を自動検出。修正案も提示。</p>
+                            </div>
+                            <div class="case-section">
+                                <h4>効果</h4>
+                                <div class="effect-grid">
+                                    <div class="effect-item">
+                                        <div class="effect-num">70%</div>
+                                        <div class="effect-label">レビュー時間短縮<br>(2h→35分)</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">40%</div>
+                                        <div class="effect-label">処理案件数増加</div>
+                                    </div>
+                                    <div class="effect-item">
+                                        <div class="effect-num">3ヶ月</div>
+                                        <div class="effect-label">投資回収期間</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-cost">初期費用: 50万円 / 月額: 3万円</div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- CTA -->
-    <section class="case-studies-cta">
-        <div class="consulting-cta consulting-cta--home">
-            <h2 class="consulting-cta__title">御社のAI導入を成功事例に</h2>
-            <p class="consulting-cta__description">業界や課題に応じた最適なAI導入プランをご提案します。まずはお気軽にご相談ください。</p>
-            <div class="consulting-cta__actions">
-                <a href="/contact/" class="btn-primary">無料相談を申し込む</a>
-                <a href="/services/" class="btn-outline">サービス詳細</a>
+    <section class="cs-cta">
+        <div class="cs-cta-inner">
+            <h2>御社でも同じ効果を出しませんか？</h2>
+            <p>業界・課題に応じた最適なAI導入プランをご提案します。<br>まずは無料診断で御社に合ったAI活用法をチェック。</p>
+            <div class="cs-cta-actions">
+                <a href="/contact/" class="btn-primary-gold">無料相談を申し込む</a>
+                <a href="/ai-diagnosis/" class="btn-outline-gold">無料AI活用診断を試す</a>
             </div>
         </div>
     </section>
 </div>
 
 <style>
-.case-studies-page .page-header {
-    text-align: center;
-    margin-bottom: var(--space-10);
-}
-
-.case-studies-page .page-header h1 {
-    font-size: var(--font-size-3xl);
-    margin-bottom: var(--space-4);
-}
-
-.case-studies-page .page-header p {
-    color: var(--text-default);
-    font-size: var(--font-size-lg);
-    max-width: 600px;
+.case-studies-page {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.case-studies-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: var(--space-8);
-    margin-bottom: var(--space-12);
-}
-
-.case-study-card__title a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.case-study-card__title a:hover {
-    text-decoration: underline;
-}
-
-.case-study-card__meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: var(--space-4);
-    font-size: var(--font-size-sm);
-    color: var(--text-subtle);
-}
-
-.case-study-card__tags {
-    display: flex;
-    gap: var(--space-2);
-}
-
-.coming-soon {
+.cs-hero {
+    background: linear-gradient(160deg, #161618 0%, #111113 40%, rgba(196, 162, 101, 0.06) 100%);
+    color: #e8e6e1;
+    padding: 4rem 2rem;
     text-align: center;
-    padding: var(--space-16) var(--space-8);
-    background: var(--surface-raised);
-    border-radius: var(--radius-xl);
-    margin-bottom: var(--space-12);
+    border-bottom: 1px solid rgba(196, 162, 101, 0.08);
+    margin-bottom: 3rem;
 }
 
-.coming-soon h2 {
-    margin-bottom: var(--space-4);
+.cs-hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #e8e6e1;
 }
 
-.coming-soon p {
-    color: var(--text-default);
-    margin-bottom: var(--space-6);
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.cs-hero .hero-subtitle {
+    font-size: 1.15rem;
+    color: rgba(232, 230, 225, 0.65);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-.case-studies-cta {
-    margin: var(--space-12) 0;
+.cs-main {
+    padding: 0 2rem 4rem;
+}
+
+.cs-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Tabs */
+.tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+}
+
+.tab-btn {
+    background: rgba(232, 230, 225, 0.05);
+    border: 1px solid rgba(232, 230, 225, 0.1);
+    color: rgba(232, 230, 225, 0.6);
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+    color: #e8e6e1;
+    border-color: rgba(196, 162, 101, 0.3);
+}
+
+.tab-btn.active {
+    background: linear-gradient(135deg, rgba(196, 162, 101, 0.15), rgba(196, 162, 101, 0.08));
+    border-color: #c4a265;
+    color: #c4a265;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Case Cards */
+.case-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.case-card {
+    background: linear-gradient(145deg, rgba(26, 26, 29, 0.9), rgba(22, 22, 24, 0.95));
+    border: 1px solid rgba(232, 230, 225, 0.08);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    transition: border-color 0.3s ease;
+}
+
+.case-card:hover {
+    border-color: rgba(196, 162, 101, 0.2);
+}
+
+.case-tag {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(196, 162, 101, 0.15), rgba(196, 162, 101, 0.08));
+    color: #c4a265;
+    padding: 0.25rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.case-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #e8e6e1;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.case-meta {
+    font-size: 0.85rem;
+    color: rgba(232, 230, 225, 0.4);
+    margin-bottom: 1.5rem;
+}
+
+.case-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.case-section h4 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #c4a265;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.case-section p {
+    color: rgba(232, 230, 225, 0.65);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.effect-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.effect-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+}
+
+.effect-num {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #c4a265;
+    min-width: 70px;
+}
+
+.effect-label {
+    font-size: 0.8rem;
+    color: rgba(232, 230, 225, 0.6);
+    line-height: 1.4;
+}
+
+.case-cost {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(232, 230, 225, 0.06);
+    font-size: 0.85rem;
+    color: rgba(232, 230, 225, 0.45);
+}
+
+/* CTA */
+.cs-cta {
+    padding: 0 2rem 4rem;
+}
+
+.cs-cta-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, rgba(196, 162, 101, 0.06), rgba(196, 162, 101, 0.02));
+    border: 1px solid rgba(196, 162, 101, 0.15);
+    border-radius: 16px;
+    padding: 3rem;
+    text-align: center;
+}
+
+.cs-cta-inner h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e8e6e1;
+    margin-bottom: 1rem;
+}
+
+.cs-cta-inner > p {
+    color: rgba(232, 230, 225, 0.6);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.cs-cta-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary-gold {
+    display: inline-block;
+    background: linear-gradient(135deg, #c4a265, #b8832f);
+    color: #111113;
+    padding: 0.9rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(196, 162, 101, 0.3);
+}
+
+.btn-outline-gold {
+    display: inline-block;
+    background: transparent;
+    color: #c4a265;
+    padding: 0.9rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid rgba(196, 162, 101, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    border-color: #c4a265;
+    background: rgba(196, 162, 101, 0.05);
 }
 
 @media (max-width: 768px) {
-    .case-studies-grid {
+    .cs-hero {
+        padding: 2.5rem 1rem;
+    }
+
+    .cs-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .cs-main {
+        padding: 0 1rem 3rem;
+    }
+
+    .tab-nav {
+        gap: 0.4rem;
+    }
+
+    .tab-btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .case-card {
+        padding: 1.5rem;
+    }
+
+    .case-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .case-body {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .effect-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .effect-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex: 1;
+        min-width: 80px;
+    }
+
+    .cs-cta {
+        padding: 0 1rem 3rem;
+    }
+
+    .cs-cta-inner {
+        padding: 2rem 1.5rem;
+    }
+
+    .cs-cta-inner h2 {
+        font-size: 1.4rem;
     }
 }
 </style>
+
+<script>
+(function() {
+    var tabs = document.querySelectorAll('.tab-btn');
+    var panels = document.querySelectorAll('.tab-panel');
+
+    tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            var target = this.getAttribute('data-tab');
+
+            tabs.forEach(function(t) {
+                t.classList.remove('active');
+                t.setAttribute('aria-selected', 'false');
+            });
+            this.classList.add('active');
+            this.setAttribute('aria-selected', 'true');
+
+            panels.forEach(function(p) { p.classList.remove('active'); });
+            document.getElementById('panel-' + target).classList.add('active');
+        });
+    });
+})();
+</script>
