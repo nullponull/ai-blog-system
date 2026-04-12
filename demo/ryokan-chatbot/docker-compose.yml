@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ryokan-chatbot-demo:
+    build: .
+    container_name: ryokan-chatbot-demo
+    restart: unless-stopped
+    ports:
+      - "8091:8091"

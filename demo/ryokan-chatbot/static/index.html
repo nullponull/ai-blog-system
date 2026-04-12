@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>翠風リゾート AIコンシェルジュ デモ</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600&family=Cormorant+Garamond:wght@300;400;500&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --gold: #B8973E;
+  --charcoal: #2D2D2D;
+  --warm-gray: #8A8578;
+  --light-bg: #F7F5F0;
+  --cream: #FAF8F3;
+  --white: #FFFFFF;
+  --chat-bg: #F2EFE8;
+  --ai-bubble: #FFFFFF;
+  --user-bubble: #3D3A33;
+  --border: #E5E0D5;
+  --green: #5B7B5E;
+}
+
+html, body { height: 100%; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: var(--light-bg);
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+/* Header */
+.header {
+  background: var(--charcoal);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.header-icon {
+  width: 36px; height: 36px;
+  background: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  color: var(--white);
+}
+
+.header-text h1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white);
+  letter-spacing: 0.5px;
+}
+
+.header-text p {
+  font-size: 10px;
+  color: rgba(255,255,255,0.5);
+  margin-top: 1px;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-dot {
+  width: 6px; height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.lang-switch {
+  display: flex;
+  gap: 0;
+}
+
+.lang-switch button {
+  padding: 4px 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: rgba(255,255,255,0.4);
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.lang-switch button:first-child { border-radius: 4px 0 0 4px; }
+.lang-switch button:last-child { border-radius: 0 4px 4px 0; border-left: none; }
+.lang-switch button.active { background: rgba(255,255,255,0.15); color: var(--white); }
+
+/* Demo badge */
+.demo-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--gold);
+  color: var(--white);
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+/* Messages */
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  background: var(--chat-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.msg {
+  display: flex;
+  gap: 8px;
+  max-width: 90%;
+  opacity: 0;
+  transform: translateY(6px);
+  animation: fadeIn 0.25s ease forwards;
+}
+
+@keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+
+.msg.user { flex-direction: row-reverse; align-self: flex-end; }
+.msg.ai { align-self: flex-start; }
+
+.msg-avatar {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.ai .msg-avatar { background: var(--gold); color: var(--white); font-family: 'Cormorant Garamond', serif; }
+.user .msg-avatar { background: var(--warm-gray); color: var(--white); }
+
+.msg-bubble {
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 13px;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  word-break: break-word;
+}
+
+.ai .msg-bubble {
+  background: var(--ai-bubble);
+  color: var(--charcoal);
+  border-top-left-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.user .msg-bubble {
+  background: var(--user-bubble);
+  color: var(--white);
+  border-top-right-radius: 4px;
+}
+
+.msg-bubble strong { color: var(--charcoal); }
+
+/* Typing */
+.typing { display: flex; gap: 4px; padding: 10px 14px; background: var(--ai-bubble); border-radius: 14px; border-top-left-radius: 4px; width: fit-content; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.typing span { width: 5px; height: 5px; background: var(--warm-gray); border-radius: 50%; animation: bounce 1.2s infinite; }
+.typing span:nth-child(2) { animation-delay: 0.2s; }
+.typing span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes bounce { 0%, 100% { opacity: 0.3; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-3px); } }
+
+/* Suggestions */
+.suggestions {
+  padding: 8px 12px;
+  background: var(--chat-bg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.sug-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--white);
+  font-family: inherit;
+  font-size: 11px;
+  color: var(--charcoal);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.sug-btn:hover, .sug-btn:active {
+  background: var(--charcoal);
+  color: var(--white);
+  border-color: var(--charcoal);
+}
+
+/* Input */
+.input-bar {
+  padding: 10px 12px;
+  background: var(--white);
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.input-bar input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 14px;
+  background: var(--cream);
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.input-bar input:focus { border-color: var(--gold); }
+
+.send-btn {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--charcoal);
+  border: none;
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.send-btn:hover { background: var(--gold); }
+.send-btn:disabled { opacity: 0.3; }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 6px;
+  font-size: 9px;
+  color: var(--warm-gray);
+  background: var(--light-bg);
+  flex-shrink: 0;
+}
+
+.footer a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Desktop: centered card */
+@media (min-width: 520px) {
+  body {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .app {
+    width: 440px;
+    height: 700px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+
+/* Mobile: full screen */
+@media (max-width: 519px) {
+  .app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .msg-bubble { font-size: 14px; }
+  .sug-btn { font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <div class="demo-badge">DEMO</div>
+  <div class="header">
+    <div class="header-icon">翠</div>
+    <div class="header-text">
+      <h1 id="title">翠風リゾート コンシェルジュ</h1>
+      <p id="sub">AIが24時間ご案内いたします</p>
+    </div>
+    <div class="header-right">
+      <span class="status-dot"></span>
+      <div class="lang-switch">
+        <button class="active" onclick="setLang('ja',event)">JP</button>
+        <button onclick="setLang('en',event)">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="messages" id="messages"></div>
+  <div class="suggestions" id="suggestions"></div>
+
+  <div class="input-bar">
+    <input type="text" id="input" autocomplete="off">
+    <button class="send-btn" id="sendBtn" onclick="send()">&#9654;</button>
+  </div>
+
+  <div class="footer" id="footer">デモ版 &#8212; キーワードマッチによる定型応答 | <a href="https://ai-media.co.jp/demo-ryokan/">詳細</a></div>
+</div>
+
+<script>
+let lang = 'ja';
+let isProcessing = false;
+let isComposing = false;
+
+const messagesEl = document.getElementById('messages');
+const inputEl = document.getElementById('input');
+const sendBtn = document.getElementById('sendBtn');
+const suggestionsEl = document.getElementById('suggestions');
+
+const UI = {
+  ja: {
+    title: '翠風リゾート コンシェルジュ',
+    sub: 'AIが24時間ご案内いたします',
+    placeholder: 'ご質問をどうぞ...',
+    footer: 'デモ版 — キーワードマッチによる定型応答',
+    greeting: 'いらっしゃいませ。翠風リゾートコンシェルジュでございます。\n\nご宿泊のご相談、施設のご案内、空室検索など、何でもお気軽にお尋ねください。',
+    suggestions: [
+      '夫婦で記念日旅行がしたい',
+      '子連れで泊まれる施設は？',
+      '露天風呂付きの部屋を探している',
+      '渓谷の宿と高原の宿の違いは？',
+      '料理のプランと料金を教えて',
+      'アクセス方法は？',
+    ]
+  },
+  en: {
+    title: 'Suifu Resorts Concierge',
+    sub: 'AI-powered 24/7 assistance',
+    placeholder: 'Type your question...',
+    footer: 'Demo — Keyword-match responses',
+    greeting: 'Welcome to Suifu Resorts.\n\nI can help with accommodation, availability, dining, and more. How may I assist you?',
+    suggestions: [
+      'Anniversary trip for two',
+      'Which property accepts children?',
+      'Room with private onsen',
+      'Compare properties',
+      'Tell me about the cuisine',
+      'How to get there?',
+    ]
+  }
+};
+
+function addMsg(role, html) {
+  const div = document.createElement('div');
+  div.className = `msg ${role}`;
+  const av = role === 'ai' ? '翠' : (lang === 'ja' ? '客' : 'G');
+  div.innerHTML = `<div class="msg-avatar">${av}</div><div class="msg-bubble">${html}</div>`;
+  messagesEl.appendChild(div);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function showTyping() {
+  const div = document.createElement('div');
+  div.className = 'msg ai'; div.id = 'typing';
+  div.innerHTML = `<div class="msg-avatar">翠</div><div class="typing"><span></span><span></span><span></span></div>`;
+  messagesEl.appendChild(div);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function hideTyping() { document.getElementById('typing')?.remove(); }
+
+function showSuggestions(items) {
+  suggestionsEl.innerHTML = items.map(s =>
+    `<button class="sug-btn" onclick="sendText('${s.replace(/'/g,"\\'")}')">${s}</button>`
+  ).join('');
+}
+
+function formatReply(text) {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/¥([\d,]+)/g, '<strong>¥$1</strong>')
+    .replace(/\n/g, '<br>');
+}
+
+async function doChat(message) {
+  isProcessing = true; sendBtn.disabled = true;
+  suggestionsEl.innerHTML = '';
+  showTyping();
+
+  try {
+    const resp = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message, lang }),
+    });
+    const data = await resp.json();
+    hideTyping();
+    const reply = data.reply || (lang==='ja' ? 'エラーが発生しました。' : 'An error occurred.');
+    addMsg('ai', formatReply(reply));
+    showFollowUp(message, reply);
+  } catch {
+    hideTyping();
+    addMsg('ai', lang==='ja' ? 'ネットワークエラーです。再度お試しください。' : 'Network error. Please try again.');
+  }
+  isProcessing = false; sendBtn.disabled = false;
+  inputEl.focus();
+}
+
+function showFollowUp(userText, reply) {
+  if (lang === 'ja') {
+    showSuggestions(['空室を調べたい', '料金を知りたい', '施設の違いを教えて', 'アクセス方法は？']);
+  } else {
+    showSuggestions(['Check availability', 'Room rates', 'Compare properties', 'How to get there?']);
+  }
+}
+
+function send() {
+  if (isProcessing) return;
+  const text = inputEl.value.trim();
+  if (!text) return;
+  inputEl.value = '';
+  sendText(text);
+}
+
+function sendText(text) {
+  if (isProcessing) return;
+  addMsg('user', text.replace(/</g, '&lt;'));
+  doChat(text);
+}
+
+function setLang(l, evt) {
+  lang = l;
+  document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+  if (evt?.target) evt.target.classList.add('active');
+  else document.querySelector(`.lang-switch button:${l==='ja'?'first':'last'}-child`)?.classList.add('active');
+
+  const ui = UI[l];
+  document.getElementById('title').textContent = ui.title;
+  document.getElementById('sub').textContent = ui.sub;
+  inputEl.placeholder = ui.placeholder;
+
+  messagesEl.innerHTML = '';
+  addMsg('ai', ui.greeting.replace(/\n/g, '<br>'));
+  showSuggestions(ui.suggestions);
+}
+
+// Input
+inputEl.addEventListener('compositionstart', () => { isComposing = true; });
+inputEl.addEventListener('compositionend', () => { isComposing = false; });
+inputEl.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  if (e.isComposing || isComposing || e.keyCode === 229) return;
+  e.preventDefault();
+  send();
+});
+
+// Init
+setLang('ja');
+</script>
+</body>
+</html>

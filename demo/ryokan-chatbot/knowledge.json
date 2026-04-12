@@ -1,0 +1,293 @@
+{
+  "group": {
+    "name_ja": "翠風リゾート",
+    "name_en": "Suifu Resorts",
+    "company": "株式会社翠風",
+    "founded": 1947,
+    "concept_ja": "圧倒的な非日常。自然と調和した温泉旅館グループ。",
+    "concept_en": "Overwhelming escape from the ordinary. A hot spring ryokan group in harmony with nature.",
+    "awards": [
+      "海外有名旅行誌「日本のラグジュアリー旅館」選出",
+      "国際ホスピタリティアワード アジア部門受賞",
+      "大手予約サイト旅行者評価9.5以上獲得",
+      "温泉旅館評価サイト高評価（複数施設）",
+      "TV出演多数"
+    ],
+    "location": "温泉地",
+    "total_properties": 5,
+    "philosophy_ja": "自然をモチーフに多様性・成長・癒しを体現。国籍や文化を超えた相互理解と、顧客の人生にポジティブな影響を与える非日常空間の提供。",
+    "philosophy_en": "Embodying nature's motif: diversity, growth, and healing. Creating extraordinary spaces that transcend nationality and culture, positively impacting guests' lives.",
+    "dining": [
+      {"name": "鉄板焼 和禅", "name_en": "Teppanyaki Wazen", "location": "渓谷の宿敷地内", "desc": "プレミアムビーフ（年間限定）。カウンター14席。"},
+      {"name": "カジュアルダイニング 風", "name_en": "Casual Dining Kaze", "location": "高原の宿", "desc": "地元牛ハンバーグ、多国籍カジュアル料理。テラス席あり。11:30-22:00。"},
+      {"name": "寿し処 匠", "name_en": "Sushi Takumi", "location": "モダンホテル併設", "desc": "本格寿司店。〜20:00。"},
+      {"name": "養生鍋 杏林", "name_en": "Kyorin", "location": "近隣エリア", "desc": "養生鍋（特製スープ）。一人鍋対応。"}
+    ],
+    "shuttle_ja": "最寄り駅から無料送迎あり（施設により異なる。要予約・電話確認推奨）",
+    "shuttle_en": "Free shuttle from nearest station (varies by property, reservation & phone confirmation required)",
+    "cancel_policy_ja": "4〜7日前: 宿泊料金の10%、1〜3日前: 50%、当日: 100%。詳細は各施設の予約ページをご確認ください。",
+    "cancel_policy_en": "4-7 days before: 10%, 1-3 days before: 50%, same day: 100%. Please check the booking page for details.",
+    "best_rate_ja": "公式サイト予約が最安値保証です。",
+    "best_rate_en": "Best rate guaranteed when booking through the official website."
+  },
+  "facilities": {
+    "keikoku": {
+      "name_ja": "翠風 渓谷の宿",
+      "name_en": "Suifu Keikoku",
+      "tagline_ja": "大人のための解放区",
+      "tagline_en": "A sanctuary for adults",
+      "description_ja": "渓谷に佇む全室露天風呂付きの宿。渓谷のせせらぎと四季の山景色に包まれる、翠風の原点。大人だけの静謐な時間をお約束します。",
+      "description_en": "A ryokan with private open-air baths in every room, nestled along a scenic gorge. The origin of Suifu, where guests are embraced by the sound of the river and seasonal mountain beauty.",
+      "rooms": {
+        "total": 21,
+        "types_ja": [
+          "【天 TEN】4F Suite 188m2 -- 最上級。檜風呂。最大の客室。",
+          "【空 SORA】4F Suite 144m2 -- 檜風呂。¥84,150〜。",
+          "【雲 KUMO】4F Suite 121m2 -- 檜風呂。",
+          "【光 HIKARI】2F 71-94m2 -- 青森ヒバ露天風呂。",
+          "【星 HOSHI】2F 66m2 -- 露天風呂。",
+          "【遥 HARUKA】2F 58-60m2 -- 露天風呂。",
+          "【竹 TAKE】1-2F 60-72m2 -- 露天風呂。",
+          "【雫 SHIZUKU】1F 57-81m2 -- 御影石風呂。",
+          "【月 TSUKI】1F 70m2 -- 御影石風呂。"
+        ],
+        "types_en": [
+          "TEN -- 4F Suite 188m2 -- Top grade. Hinoki bath. Largest room.",
+          "SORA -- 4F Suite 144m2 -- Hinoki bath. From ¥84,150.",
+          "KUMO -- 4F Suite 121m2 -- Hinoki bath.",
+          "HIKARI -- 2F 71-94m2 -- Aomori Hiba cypress bath.",
+          "HOSHI -- 2F 66m2 -- Open-air bath.",
+          "HARUKA -- 2F 58-60m2 -- Open-air bath.",
+          "TAKE -- 1-2F 60-72m2 -- Open-air or granite bath.",
+          "SHIZUKU -- 1F 57-81m2 -- Polished granite bath.",
+          "TSUKI -- 1F 70m2 -- Granite bath."
+        ],
+        "note_ja": "全21室・9タイプ。全室テラス＆自家源泉掛け流し露天風呂付き。4Fは檜風呂、2Fは青森ヒバ風呂、1Fは御影石風呂。ハリウッドツインベッド、エスプレッソマシン、Bluetoothスピーカー完備。2024年リニューアル。",
+        "note_en": "21 rooms, 9 types. All with terrace & private natural hot spring bath. 4F: Hinoki cypress, 2F: Aomori Hiba, 1F: Granite. Hollywood twin beds, espresso machine, Bluetooth speaker. Renovated 2024."
+      },
+      "onsen": {
+        "source_ja": "自家源泉「黄金の湯」",
+        "source_en": "Private source 'Golden Water'",
+        "type_ja": "アルカリ性単純温泉（低張性・アルカリ性・高温泉）",
+        "type_en": "Alkaline simple hot spring (low osmotic, alkaline, high temp)",
+        "temp": "50.3C（源泉）/ 40.0C（浴槽）",
+        "ph": "9.5",
+        "effect_ja": "肌の不要な角質を取り除く美肌効果。体の芯からしっかりと温まる。湯あたりしにくく肌触りが滑らか。天候や気温により金色に見える日も。4F檜風呂、2F青森ヒバ風呂、1F御影石風呂の3種。",
+        "effect_en": "Removes dead skin for beautiful skin. Warms deeply from the core. Gentle on the body. May appear golden depending on weather. 3 bath types: 4F Hinoki, 2F Aomori Hiba, 1F granite."
+      },
+      "cuisine_ja": "季節ごとに変わる懐石と和牛懐石の2コース。五つ星お米マイスター厳選米。別注: サザエ¥1,650/鮑¥4,400/伊勢海老¥8,800/和牛フィレ¥13,200。ヴィーガン/ベジタリアン対応可（3日前要連絡）。",
+      "cuisine_en": "Seasonal kaiseki and premium wagyu kaiseki. Five-star rice sommelier selected rice. A la carte: turban shell ¥1,650 / abalone ¥4,400 / Ise lobster ¥8,800 / wagyu fillet ¥13,200. Vegan/vegetarian available (3 days notice).",
+      "age_restriction_ja": "12歳以下のお子様はご宿泊いただけません",
+      "age_restriction_en": "Children under 12 are not permitted",
+      "checkin": "15:00",
+      "checkout": "11:00",
+      "access_ja": "最寄り駅からバス約7分。シャトルバスあり。ハイヤー手配可。",
+      "access_en": "7 min by bus from nearest station. Shuttle bus available. Hire car available.",
+      "highlights_ja": ["全21室・9タイプの多彩な客室（最大188m2）", "自家源泉「黄金の湯」pH9.5", "2024年リニューアル・貸切プール＆サウナ", "鉄板焼 和禅（限定プレミアムビーフ）", "文化財の橋梁", "初夏の蛍観賞"],
+      "highlights_en": ["21 rooms, 9 types (up to 188m2)", "Private source 'Golden Water' pH 9.5", "2024 renovation — private pool & sauna", "Teppanyaki Wazen (limited premium beef)", "Cultural property bridge", "Firefly viewing in early summer"],
+      "booking_url": "#",
+      "tier": 1
+    },
+    "kogen": {
+      "name_ja": "翠風 高原の宿",
+      "name_en": "Suifu Kogen",
+      "tagline_ja": "パノラマを一望するプライベートヴィラ",
+      "tagline_en": "Private villas with panoramic views",
+      "description_ja": "竹林に囲まれた世界。標高700mの高原に佇む全室離れの露天風呂付きヴィラ。お客様同士が会わないようアテンドし、究極のプライベート空間をお約束します。",
+      "description_en": "A world surrounded by bamboo groves on a 700m highland. All-detached private villas with open-air baths. Guests are attended so they never cross paths.",
+      "rooms": {
+        "total": 9,
+        "types_ja": [
+          "【帝 MIKADO】メゾネット 136m2 -- 最上級。伊勢海老付き懐石。アーリーCI14時。",
+          "【姫 HIME】フラット 131m2 -- 最上級。露天風呂+内風呂。伊勢海老付き。",
+          "【空 SORA】メゾネット 122m2 -- 5層3階建て。屋上露天風呂からパノラマ。",
+          "【光 HIKARI】フラット 89m2 -- 最大4名可。広い食事スペース。",
+          "【煌 KIRAMEKI】フラット 95m2 -- 専用庭園付き。洗練された空間。",
+          "【響 HIBIKI】フラット 100m2 -- 露天風呂が部屋の中央。開放的設計。",
+          "【風 KAZE】フラット 102m2 -- テラス付き。寝室と和室を露天風呂で分割。",
+          "【雫 SHIZUKU】メゾネット 96m2 -- 最大4名可。にごり湯露天風呂。",
+          "【宵 YOI】メゾネット 95m2 -- 2層構造。にごり湯露天風呂。"
+        ],
+        "types_en": [
+          "MIKADO -- Maisonette 136m2 -- Premium. Ise lobster kaiseki. Early check-in 14:00.",
+          "HIME -- Flat 131m2 -- Premium. Open-air + indoor bath. Ise lobster.",
+          "SORA -- Maisonette 122m2 -- 5-level 3-story. Rooftop bath with panorama.",
+          "HIKARI -- Flat 89m2 -- Up to 4 guests. Spacious dining area.",
+          "KIRAMEKI -- Flat 95m2 -- Private garden. Refined space.",
+          "HIBIKI -- Flat 100m2 -- Open-air bath at room center. Open design.",
+          "KAZE -- Flat 102m2 -- Terrace. Bedroom & tatami room separated by bath.",
+          "SHIZUKU -- Maisonette 96m2 -- Up to 4 guests. Milky white bath.",
+          "YOI -- Maisonette 95m2 -- 2-level. Milky white bath."
+        ],
+        "note_ja": "全9室離れ。全室キングサイズベッド＆源泉掛け流し露天風呂付き。¥99,000〜/室（食事付き）。",
+        "note_en": "All 9 detached villas. King-size bed & private natural hot spring bath in every room. From ¥99,000/room (with meals)."
+      },
+      "onsen": {
+        "source_ja": "高原温泉",
+        "source_en": "Highland Onsen",
+        "type_ja": "酸性-カルシウム-硫酸塩・塩化物温泉",
+        "type_en": "Acidic calcium sulfate-chloride hot spring",
+        "effect_ja": "源泉掛け流し。白濁の美肌の湯。",
+        "effect_en": "Free-flowing natural hot spring. Milky white skin-beautifying water."
+      },
+      "cuisine_ja": "本格京懐石。全室部屋食で一品ずつ提供。五つ星お米マイスター厳選米を土鍋炊き。別注で伊勢海老・鮑・ウニ等（¥1,650〜¥10,450）。",
+      "cuisine_en": "Authentic Kyoto kaiseki. All in-room, course by course. Five-star rice sommelier selected rice cooked in clay pot. A la carte: Ise lobster, abalone, uni (¥1,650-¥10,450).",
+      "age_restriction_ja": "12歳以下のお子様はご宿泊いただけません",
+      "age_restriction_en": "Children under 12 are not permitted",
+      "checkin": "15:00",
+      "checkout": "11:00",
+      "access_ja": "最寄り駅からバス約30分。送迎リムジンあり（要予約）。",
+      "access_en": "30 min by bus from nearest station. Limousine service available (reservation required).",
+      "highlights_ja": ["海外有名旅行誌「ラグジュアリー旅館」選出", "竹林に囲まれた世界", "全室離れでお客様同士が会わない設計", "白濁の源泉掛け流し", "バー＆スパ", "空港送迎リムジン"],
+      "highlights_en": ["Featured in international luxury travel magazine", "Surrounded by bamboo groves", "Designed so guests never cross paths", "Milky white natural hot spring", "Bar & Spa", "Airport limousine transfer"],
+      "booking_url": "#",
+      "tier": 1
+    },
+    "honten": {
+      "name_ja": "老舗旅館 本店",
+      "name_en": "Heritage Honten",
+      "tagline_ja": "創業1662年、歴史を紡ぐ名湯",
+      "tagline_en": "Founded 1662 — Historic hot spring",
+      "description_ja": "1662年創業の老舗旅館。三大美肌泉質を全て含む奇跡の源泉を100%掛け流し。360年以上の歴史と格式が息づく、格別の湯宿。",
+      "description_en": "Founded in 1662, a historic ryokan. Its miraculous hot spring contains all three major skin-beautifying mineral types, flowing 100% natural. Over 360 years of heritage.",
+      "rooms": {
+        "total": 21,
+        "types_ja": [
+          "露天風呂付き客室11室（最大92.4m2）",
+          "和室・和洋室10室",
+          "5棟構成"
+        ],
+        "types_en": [
+          "11 rooms with private open-air bath (up to 92.4m2)",
+          "10 Japanese/Japanese-Western rooms",
+          "5 pavilions"
+        ],
+        "note_ja": "全21室・5棟。オールインクルーシブ。小学生は大人料金の50%、幼児5,000円、乳児無料。¥57,750〜。",
+        "note_en": "21 rooms in 5 pavilions. All-inclusive. Elementary: 50% of adult, toddler: ¥5,000, infant: free. From ¥57,750."
+      },
+      "onsen": {
+        "source_ja": "三大美肌泉質を全て含む奇跡の源泉",
+        "source_en": "Miraculous spring with all three skin-beautifying minerals",
+        "effect_ja": "三大美肌泉質（硫黄泉・硫酸塩泉・炭酸水素塩泉）を全て含有。美肌・神経痛・リウマチ・皮膚疾患に効能。",
+        "effect_en": "Contains all three skin-beautifying minerals. Benefits: skin beauty, neuralgia, rheumatism, skin conditions."
+      },
+      "cuisine_ja": "山の幸と海の幸を活かした会席料理。",
+      "cuisine_en": "Kaiseki cuisine featuring mountain and sea ingredients.",
+      "age_restriction_ja": "年齢制限なし（お子様歓迎）",
+      "age_restriction_en": "No age restriction (children welcome)",
+      "checkin": "15:00",
+      "checkout": "10:00",
+      "access_ja": "最寄り駅からバス約30分。無料送迎あり（要予約）。",
+      "access_en": "30 min by bus from nearest station. Free shuttle (reservation required).",
+      "highlights_ja": ["1662年創業・360年以上の歴史", "三大美肌泉質を全て含む奇跡の源泉", "豊富な湯量", "お子様連れのご家族も歓迎", "国際ホスピタリティアワード受賞"],
+      "highlights_en": ["Founded 1662 — over 360 years of history", "Miraculous spring with all three skin-beautifying minerals", "Abundant water flow", "Families with children welcome", "International hospitality award"],
+      "booking_url": "#",
+      "tier": 2
+    },
+    "modern": {
+      "name_ja": "Hotel モダン翠風",
+      "name_en": "Hotel Modern Suifu",
+      "tagline_ja": "温泉地の玄関口で過ごすモダンステイ",
+      "tagline_en": "Modern stay at the gateway",
+      "description_ja": "最寄り駅から徒歩6分のモダンホテル。チェックイン17時・チェックアウト13時で、自由な滞在を。",
+      "description_en": "A modern hotel just 6 min walk from the nearest station. Late check-in at 17:00 and late check-out at 13:00.",
+      "rooms": {
+        "total": 10,
+        "types_ja": [
+          "ホテルスタイル（バスタブから温泉利用可）",
+          "和モダンスタイル（屋上露天風呂付き）"
+        ],
+        "types_en": [
+          "Hotel style (hot spring from bathtub)",
+          "Japanese-modern style (rooftop open-air bath)"
+        ],
+        "note_ja": "素泊まりスタイル。¥23,100〜。",
+        "note_en": "Room-only style. From ¥23,100."
+      },
+      "onsen": {
+        "source_ja": "温泉地源泉",
+        "source_en": "Local Onsen",
+        "effect_ja": "神経痛、筋肉痛、関節痛に効能。",
+        "effect_en": "Effective for neuralgia, muscle pain, joint pain."
+      },
+      "cuisine_ja": "素泊まり。周辺の飲食店をお楽しみください。",
+      "cuisine_en": "Room-only. Enjoy nearby restaurants.",
+      "age_restriction_ja": "13歳未満のお子様はご宿泊いただけません",
+      "age_restriction_en": "Children under 13 are not permitted",
+      "checkin": "17:00",
+      "checkout": "13:00",
+      "access_ja": "最寄り駅から徒歩約6分。",
+      "access_en": "6 min walk from the nearest station.",
+      "highlights_ja": ["駅徒歩6分の好アクセス", "チェックイン17時・チェックアウト13時", "和モダンスタイルの屋上露天風呂", "素泊まりで自由な旅"],
+      "highlights_en": ["6 min walk from station", "Late check-in 17:00 / late check-out 13:00", "Japanese-modern rooftop open-air bath", "Room-only for flexible trips"],
+      "booking_url": "#",
+      "tier": 3
+    },
+    "saryo": {
+      "name_ja": "翠風 茶寮",
+      "name_en": "Suifu Saryo",
+      "tagline_ja": "日帰りも、宿泊も。カジュアルな翠風体験",
+      "tagline_en": "Day trip or overnight — a casual Suifu experience",
+      "description_ja": "翠風の世界をカジュアルに体験できる施設。日帰り温泉と食事を楽しめる気軽なリトリート。",
+      "description_en": "Experience the Suifu world casually. A relaxed retreat with day-trip onsen and dining.",
+      "rooms": {
+        "total": 6,
+        "types_ja": [
+          "【響 HIBIKI】77m2 -- 最大。キングベッド240cm幅。",
+          "【繭 MAYU】69m2",
+          "【風 KAZE】45m2",
+          "【雲 KUMO】43m2",
+          "【光 HIKARI】43m2",
+          "【天 TEN】43m2"
+        ],
+        "types_en": [
+          "HIBIKI -- 77m2 -- Largest. King bed 240cm wide.",
+          "MAYU -- 69m2",
+          "KAZE -- 45m2",
+          "KUMO -- 43m2",
+          "HIKARI -- 43m2",
+          "TEN -- 43m2"
+        ],
+        "note_ja": "全6室。全室キングベッド。白濁天然温泉の貸切露天風呂。¥28,050〜。",
+        "note_en": "6 rooms. All with king bed. Private milky white natural hot spring bath. From ¥28,050."
+      },
+      "onsen": {
+        "source_ja": "高原温泉",
+        "source_en": "Highland Onsen",
+        "effect_ja": "日帰り温泉としても利用可能。",
+        "effect_en": "Also available as a day-trip onsen."
+      },
+      "cuisine_ja": "軽食・甘味処。カジュアルダイニング。",
+      "cuisine_en": "Light meals and sweets. Casual dining.",
+      "age_restriction_ja": "12歳以下のお子様はご宿泊いただけません",
+      "age_restriction_en": "Children under 12 are not permitted for overnight stays",
+      "checkin": "15:00",
+      "checkout": "11:00",
+      "access_ja": "高原エリア。最寄り駅からバスまたはタクシー。",
+      "access_en": "Highland area. Bus or taxi from the nearest station.",
+      "highlights_ja": ["日帰り温泉+宿泊の二刀流", "カジュアルに体験", "自然に囲まれた立地"],
+      "highlights_en": ["Both day-trip onsen and overnight stays", "Casual experience", "Surrounded by nature"],
+      "booking_url": "#",
+      "tier": 3
+    }
+  },
+  "faq": {
+    "general_ja": [
+      {"q": "予約の変更・キャンセルはできますか？", "a": "4〜7日前は宿泊料金の10%、1〜3日前は50%、当日は100%の取消料が発生します。"},
+      {"q": "送迎サービスはありますか？", "a": "最寄り駅から無料送迎をご用意しております（要予約）。"},
+      {"q": "Wi-Fiはありますか？", "a": "全施設で無料Wi-Fiをご利用いただけます。"},
+      {"q": "子供は泊まれますか？", "a": "施設により異なります。老舗旅館本店はお子様歓迎、その他は12歳以上（モダン翠風は13歳以上）となります。"},
+      {"q": "日帰りで利用できますか？", "a": "翠風茶寮では日帰り温泉をご利用いただけます。"},
+      {"q": "アレルギー対応はしていますか？", "a": "事前にお申し付けいただければ対応いたします。"},
+      {"q": "ペットは泊まれますか？", "a": "申し訳ございませんが、ペットのご宿泊はお受けしておりません。"}
+    ],
+    "general_en": [
+      {"q": "Can I modify or cancel my reservation?", "a": "4-7 days before: 10%, 1-3 days before: 50%, same day: 100%."},
+      {"q": "Is there a shuttle service?", "a": "Free shuttle from nearest station is available (reservation required)."},
+      {"q": "Is Wi-Fi available?", "a": "Free Wi-Fi is available at all properties."},
+      {"q": "Can children stay?", "a": "Heritage Honten welcomes children. Other properties require guests to be 12+ (Modern Suifu 13+)."},
+      {"q": "Is a day trip possible?", "a": "Suifu Saryo offers day-trip onsen."},
+      {"q": "Do you accommodate food allergies?", "a": "Yes, please inform us in advance."}
+    ]
+  }
+}
